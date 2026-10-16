@@ -1,0 +1,46 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type",
+   "place_name",
+   "date",
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où avez-vous perdu votre carte d'identité nationale ?",
+  "reply_to_user": null,
+  "search_query_fr": "perte carte d'identité nationale",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\",\"place_name\",\"date\",\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où avez-vous perdu votre carte d'identité nationale ?\",\"reply_to_user\":null,\"search_query_fr\":\"perte carte d'identité nationale\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.086827333,
+  "prompt_tokens": 1394,
+  "prompt_time": 0.244251028,
+  "completion_tokens": 178,
+  "completion_time": 0.189318976,
+  "total_tokens": 1572,
+  "total_time": 0.433570004,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 46
+  }
+ },
+ "latency_s": 1.31
+}

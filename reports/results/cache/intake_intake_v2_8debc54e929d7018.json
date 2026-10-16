@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "fr",
+  "slots": {
+   "item_category": "phone",
+   "date_text": "avant-hier",
+   "date_iso": "2026-10-12",
+   "place_type": "metro",
+   "place_name": "ligne 4",
+   "governorate": "Tunis",
+   "distinctive_detail": "Samsung bleu avec coque transparente",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_perception",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "perte téléphone Samsung bleu coque transparente métro",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"fr\",\"slots\":{\"item_category\":\"phone\",\"date_text\":\"avant-hier\",\"date_iso\":\"2026-10-12\",\"place_type\":\"metro\",\"place_name\":\"ligne 4\",\"governorate\":\"Tunis\",\"distinctive_detail\":\"Samsung bleu avec coque transparente\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_perception\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"perte téléphone Samsung bleu coque transparente métro\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.231913357,
+  "prompt_tokens": 1402,
+  "prompt_time": 0.075350871,
+  "completion_tokens": 227,
+  "completion_time": 0.249276733,
+  "total_tokens": 1629,
+  "total_time": 0.324627604,
+  "completion_tokens_details": {
+   "reasoning_tokens": 104
+  }
+ },
+ "latency_s": 13.22
+}

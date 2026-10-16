@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Sidi Mtir, awel lbera7, nseet 7outa mobile 3la forme 3D, couleur m7arba w ma3roufa b design toulou, matiere hard, kan fih chi 7wayej sghir."
+ },
+ "raw": "{\"message\":\"Sidi Mtir, awel lbera7, nseet 7outa mobile 3la forme 3D, couleur m7arba w ma3roufa b design toulou, matiere hard, kan fih chi 7wayej sghir.\"}",
+ "usage": {
+  "queue_time": 0.295163132,
+  "prompt_tokens": 358,
+  "prompt_time": 0.015348104,
+  "completion_tokens": 147,
+  "completion_time": 0.304677949,
+  "total_tokens": 505,
+  "total_time": 0.320026053,
+  "completion_tokens_details": {
+   "reasoning_tokens": 73
+  }
+ }
+}

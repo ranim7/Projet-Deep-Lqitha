@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "mobile phone",
+  "brand": "unknown",
+  "color": "unknown",
+  "material": "unknown",
+  "distinctive_marks": "autocollant with number 98 765 432 on back",
+  "description": "A mobile phone with a sticker on its back displaying the number 98 765 432. No other identifying details are provided."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"mobile phone\",\"brand\":\"unknown\",\"color\":\"unknown\",\"material\":\"unknown\",\"distinctive_marks\":\"autocollant with number 98 765 432 on back\",\"description\":\"A mobile phone with a sticker on its back displaying the number 98 765 432. No other identifying details are provided.\"}",
+ "usage": {
+  "queue_time": 0.175562745,
+  "prompt_tokens": 157,
+  "prompt_time": 0.013361958,
+  "completion_tokens": 99,
+  "completion_time": 0.10480808,
+  "total_tokens": 256,
+  "total_time": 0.118170038,
+  "completion_tokens_details": {
+   "reasoning_tokens": 24
+  }
+ },
+ "latency_s": 1.78
+}

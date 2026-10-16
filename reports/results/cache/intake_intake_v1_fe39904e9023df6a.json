@@ -1,0 +1,34 @@
+{
+ "parsed": {
+  "intent": "report_found_item",
+  "language": "ar",
+  "slots": {
+   "item_type": "هاتف",
+   "brand": "آيفون",
+   "color": "أسود",
+   "location": "محطة القطار بسوسة"
+  },
+  "missing": [
+   "model",
+   "serial_number",
+   "contact_info"
+  ],
+  "next_action": "ask_missing",
+  "question_to_user": "هل يمكنك تزويدنا بنموذج الهاتف، ورقم السيريال، وبيانات الاتصال الخاصة بك؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_found_item\",\"language\":\"ar\",\"slots\":{\"item_type\":\"هاتف\",\"brand\":\"آيفون\",\"color\":\"أسود\",\"location\":\"محطة القطار بسوسة\"},\"missing\":[\"model\",\"serial_number\",\"contact_info\"],\"next_action\":\"ask_missing\",\"question_to_user\":\"هل يمكنك تزويدنا بنموذج الهاتف، ورقم السيريال، وبيانات الاتصال الخاصة بك؟\"}",
+ "usage": {
+  "queue_time": 0.607732626,
+  "prompt_tokens": 207,
+  "prompt_time": 0.040468248,
+  "completion_tokens": 163,
+  "completion_time": 0.185422949,
+  "total_tokens": 370,
+  "total_time": 0.225891197,
+  "completion_tokens_details": {
+   "reasoning_tokens": 68
+  }
+ },
+ "latency_s": 1.62
+}

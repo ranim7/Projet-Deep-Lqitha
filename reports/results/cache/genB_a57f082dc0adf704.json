@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "I lost a small navy blue canvas bag yesterday at لواج. It has a zippered front pocket and inside I keep a wooden comb and a metal pen box."
+ },
+ "raw": "{\"message\":\"I lost a small navy blue canvas bag yesterday at لواج. It has a zippered front pocket and inside I keep a wooden comb and a metal pen box.\"}",
+ "usage": {
+  "queue_time": 0.233722196,
+  "prompt_tokens": 307,
+  "prompt_time": 0.016228039,
+  "completion_tokens": 157,
+  "completion_time": 0.33147075,
+  "total_tokens": 464,
+  "total_time": 0.347698789,
+  "completion_tokens_details": {
+   "reasoning_tokens": 111
+  }
+ }
+}

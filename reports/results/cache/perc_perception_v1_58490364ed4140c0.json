@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "category": "water bottle",
+  "brand": "Solimo",
+  "color": "teal",
+  "material": "glass, metal, silicone",
+  "distinctive_marks": "logo",
+  "description": "The image displays a glass water bottle with a teal silicone sleeve and a silver metal cap. The brand name 'SOLIMO' is printed in white on the sleeve. A close-up view highlights the texture of the cap and the stitching on the sleeve."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"water bottle\",\n  \"brand\": \"Solimo\",\n  \"color\": \"teal\",\n  \"material\": \"glass, metal, silicone\",\n  \"distinctive_marks\": \"logo\",\n  \"description\": \"The image displays a glass water bottle with a teal silicone sleeve and a silver metal cap. The brand name 'SOLIMO' is printed in white on the sleeve. A close-up view highlights the texture of the cap and the stitching on the sleeve.\"\n}",
+ "usage": {
+  "queue_time": 0.585722944,
+  "prompt_tokens": 1081,
+  "prompt_time": 0.097643919,
+  "completion_tokens": 115,
+  "completion_time": 0.226752408,
+  "total_tokens": 1196,
+  "total_time": 0.324396327
+ },
+ "latency_s": 20.35
+}

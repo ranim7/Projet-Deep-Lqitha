@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "blue",
+  "material": "fabric",
+  "distinctive_marks": [],
+  "contents": [
+   "charger",
+   "clothes"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Blue fabric bag with a charger and clothes inside, large and practical.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"blue\",\"color_detail\":\"blue\",\"material\":\"fabric\",\"distinctive_marks\":[],\"contents\":[\"charger\",\"clothes\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Blue fabric bag with a charger and clothes inside, large and practical.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.318841369,
+  "prompt_tokens": 781,
+  "prompt_time": 0.019811755,
+  "completion_tokens": 132,
+  "completion_time": 0.137819371,
+  "total_tokens": 913,
+  "total_time": 0.157631126,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 28
+  }
+ },
+ "latency_s": 1.06
+}

@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "rucksack",
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": "canvas",
+  "distinctive_marks": [
+   "Nighat Parveen",
+   "MD Nazar Khan"
+  ],
+  "contents": [
+   "bank card"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Grey canvas rucksack containing a bank card with the names Nighat Parveen and MD Nazar Khan.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bag\", \"subcategory\": \"rucksack\", \"brand\": null, \"model\": null, \"color_family\": \"grey\", \"color_detail\": \"grey\", \"material\": \"canvas\", \"distinctive_marks\": [\"Nighat Parveen\", \"MD Nazar Khan\"], \"contents\": [\"bank card\"], \"visible_text\": null, \"contains_sensitive_document\": true, \"canonical_description\": \"Grey canvas rucksack containing a bank card with the names Nighat Parveen and MD Nazar Khan.\", \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 769,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens": 147,
+  "total_tokens": 916
+ },
+ "latency_s": 40.16
+}

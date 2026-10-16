@@ -1,0 +1,202 @@
+{
+ "rows": 13713,
+ "stations": 229,
+ "category_distribution": [
+  [
+   "other",
+   3881
+  ],
+  [
+   "bag",
+   3817
+  ],
+  [
+   "wallet",
+   1312
+  ],
+  [
+   "bottle",
+   883
+  ],
+  [
+   "phone",
+   806
+  ],
+  [
+   "headphones",
+   621
+  ],
+  [
+   "watch",
+   500
+  ],
+  [
+   "clothing",
+   447
+  ],
+  [
+   "umbrella",
+   440
+  ],
+  [
+   "shoes",
+   260
+  ],
+  [
+   "jewelry",
+   192
+  ],
+  [
+   "glasses",
+   152
+  ],
+  [
+   "electronics",
+   111
+  ],
+  [
+   "id_document",
+   104
+  ],
+  [
+   "luggage",
+   91
+  ],
+  [
+   "keys",
+   60
+  ],
+  [
+   "laptop",
+   29
+  ],
+  [
+   "bank_card",
+   7
+  ]
+ ],
+ "top_item_names": [
+  [
+   "BAG",
+   1559
+  ],
+  [
+   "PURSE",
+   758
+  ],
+  [
+   "BOTTLE",
+   705
+  ],
+  [
+   "LUNCH BOX",
+   545
+  ],
+  [
+   "CASH",
+   519
+  ],
+  [
+   "POLY BAG",
+   495
+  ],
+  [
+   "WATCH",
+   436
+  ],
+  [
+   "HELMET",
+   380
+  ],
+  [
+   "UMBRELLA",
+   360
+  ],
+  [
+   "EARBUDS",
+   342
+  ],
+  [
+   "CARRY BAG",
+   317
+  ],
+  [
+   "MOBILE",
+   241
+  ],
+  [
+   "HAND BAG",
+   230
+  ],
+  [
+   "METRO CARD",
+   185
+  ],
+  [
+   "SHOES",
+   150
+  ],
+  [
+   "JUTE BAG",
+   133
+  ],
+  [
+   "EARBUD",
+   123
+  ],
+  [
+   "PAPER BAG",
+   117
+  ],
+  [
+   "JACKET",
+   88
+  ],
+  [
+   "BAG WITH CLOTHES",
+   88
+  ],
+  [
+   "SLEEPING BAG",
+   77
+  ],
+  [
+   "RING",
+   77
+  ],
+  [
+   "WATER BOTTLE",
+   76
+  ],
+  [
+   "LUNCH BAG",
+   74
+  ],
+  [
+   "EARBUDS CASE",
+   69
+  ],
+  [
+   "EMPTY BAG",
+   65
+  ],
+  [
+   "BASIC MOBILE",
+   65
+  ],
+  [
+   "TROLLEY BAG",
+   63
+  ],
+  [
+   "ORNAMENT",
+   62
+  ],
+  [
+   "BLANKET",
+   62
+  ]
+ ],
+ "with_description": 5487,
+ "avg_description_words": 1.7
+}

@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "phone",
+   "date_text": null,
+   "date_iso": "2026-10-13",
+   "place_type": "louage",
+   "place_name": "Sousse",
+   "governorate": "Sousse",
+   "distinctive_detail": "unknown",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_perception",
+  "question_to_user": null,
+  "reply_to_user": "Merci pour les informations. Nous allons traiter votre signalement.",
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"phone\",\"date_text\":null,\"date_iso\":\"2026-10-13\",\"place_type\":\"louage\",\"place_name\":\"Sousse\",\"governorate\":\"Sousse\",\"distinctive_detail\":\"unknown\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_perception\",\"question_to_user\":null,\"reply_to_user\":\"Merci pour les informations. Nous allons traiter votre signalement.\",\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.192781099,
+  "prompt_tokens": 1425,
+  "prompt_time": 0.330472603,
+  "completion_tokens": 264,
+  "completion_time": 0.268162199,
+  "total_tokens": 1689,
+  "total_time": 0.598634802,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 143
+  }
+ },
+ "latency_s": 12.08
+}

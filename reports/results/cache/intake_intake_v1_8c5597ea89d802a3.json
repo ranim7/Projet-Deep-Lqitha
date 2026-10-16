@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "intent": "list_found_phones",
+  "language": "en",
+  "slots": {},
+  "missing": [],
+  "next_action": "provide_list",
+  "question_to_user": ""
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"list_found_phones\",\"language\":\"en\",\"slots\":{},\"missing\":[],\"next_action\":\"provide_list\",\"question_to_user\":\"\"}",
+ "usage": {
+  "queue_time": 0.139088123,
+  "prompt_tokens": 213,
+  "prompt_time": 0.012033022,
+  "completion_tokens": 76,
+  "completion_time": 0.079534036,
+  "total_tokens": 289,
+  "total_time": 0.091567058,
+  "completion_tokens_details": {
+   "reasoning_tokens": 36
+  }
+ },
+ "latency_s": 0.86
+}

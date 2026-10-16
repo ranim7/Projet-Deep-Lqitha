@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "category": "Smartphone",
+  "brand": "Unknown",
+  "color": "Unknown",
+  "material": "Unknown",
+  "distinctive_marks": "Sticker on the back displaying the number '98 765 432'",
+  "description": "A lost smartphone identified by a sticker on its back containing the contact number 98 765 432."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Smartphone\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Unknown\",\n  \"material\": \"Unknown\",\n  \"distinctive_marks\": \"Sticker on the back displaying the number '98 765 432'\",\n  \"description\": \"A lost smartphone identified by a sticker on its back containing the contact number 98 765 432.\"\n}",
+ "usage": {
+  "queue_time": 0.020205346,
+  "prompt_tokens": 76,
+  "prompt_time": 0.005160918,
+  "completion_tokens": 97,
+  "completion_time": 0.210406263,
+  "total_tokens": 173,
+  "total_time": 0.215567181
+ },
+ "latency_s": 2.37
+}

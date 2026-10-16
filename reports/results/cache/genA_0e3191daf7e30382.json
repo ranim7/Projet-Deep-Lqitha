@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Sba7t, nseet chachia kbira sawda fi Les Hôtels Monastir, awel lbera7, kanet ma3aya w ma3aha chi ta3rifa, nhebha bech nla9ha"
+ },
+ "raw": "{\"message\":\"Sba7t, nseet chachia kbira sawda fi Les Hôtels Monastir, awel lbera7, kanet ma3aya w ma3aha chi ta3rifa, nhebha bech nla9ha\"}",
+ "usage": {
+  "queue_time": 0.251093389,
+  "prompt_tokens": 327,
+  "prompt_time": 0.099358539,
+  "completion_tokens": 104,
+  "completion_time": 0.216600709,
+  "total_tokens": 431,
+  "total_time": 0.315959248,
+  "completion_tokens_details": {
+   "reasoning_tokens": 38
+  }
+ }
+}

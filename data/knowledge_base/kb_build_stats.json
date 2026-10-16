@@ -1,0 +1,22 @@
+{
+ "documents": 16,
+ "chars": 157412,
+ "strategies": [
+  {
+   "strategy": "structure",
+   "n_chunks": 204,
+   "avg_chars": 811,
+   "min_chars": 82,
+   "max_chars": 2092
+  },
+  {
+   "strategy": "recursive",
+   "n_chunks": 196,
+   "avg_chars": 935,
+   "min_chars": 35,
+   "max_chars": 1148
+  }
+ ],
+ "embed_model": "bge-m3",
+ "seconds": 84.9
+}

@@ -1,0 +1,20 @@
+{
+ "parsed": {
+  "verified": true
+ },
+ "strict_json": true,
+ "raw": "{\"verified\": true}",
+ "usage": {
+  "queue_time": 0.149548267,
+  "prompt_tokens": 107,
+  "prompt_time": 0.005134891,
+  "completion_tokens": 60,
+  "completion_time": 0.069220159,
+  "total_tokens": 167,
+  "total_time": 0.07435505,
+  "completion_tokens_details": {
+   "reasoning_tokens": 46
+  }
+ },
+ "latency_s": 1.71
+}

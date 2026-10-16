@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "Smartphone",
+  "brand": "Apple",
+  "color": "Blue",
+  "material": "Aluminum, Glass",
+  "distinctive_marks": [
+   "Cracked screen",
+   "iPhone 13 model"
+  ],
+  "description": "A blue Apple iPhone 13 with a visibly cracked screen."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Smartphone\",\n  \"brand\": \"Apple\",\n  \"color\": \"Blue\",\n  \"material\": \"Aluminum, Glass\",\n  \"distinctive_marks\": [\n    \"Cracked screen\",\n    \"iPhone 13 model\"\n  ],\n  \"description\": \"A blue Apple iPhone 13 with a visibly cracked screen.\"\n}",
+ "usage": {
+  "queue_time": 0.019133843,
+  "prompt_tokens": 66,
+  "prompt_time": 0.005546999,
+  "completion_tokens": 86,
+  "completion_time": 0.168626938,
+  "total_tokens": 152,
+  "total_time": 0.174173937
+ },
+ "latency_s": 5.49
+}

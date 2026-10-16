@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nseet l'ordinateur portable noir fi Ghannouch lbera7, 15.6 inch, clavier bleu, fih camera bluetooth w HDMI, w fih chi cartes d'études w quelques photos"
+ },
+ "raw": "{\"message\":\"Nseet l'ordinateur portable noir fi Ghannouch lbera7, 15.6 inch, clavier bleu, fih camera bluetooth w HDMI, w fih chi cartes d'études w quelques photos\"}",
+ "usage": {
+  "queue_time": 0.295421114,
+  "prompt_tokens": 356,
+  "prompt_time": 0.01917188,
+  "completion_tokens": 107,
+  "completion_time": 0.224691998,
+  "total_tokens": 463,
+  "total_time": 0.243863878,
+  "completion_tokens_details": {
+   "reasoning_tokens": 53
+  }
+ }
+}

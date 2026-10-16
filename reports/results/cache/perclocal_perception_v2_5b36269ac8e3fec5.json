@@ -1,0 +1,34 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": "solimo",
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "glass, leather",
+  "distinctive_marks": [
+   "solimo logo"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black glass bottle with a leather carrying case and the Solimo logo.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.8
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bottle\", \"subcategory\": null, \"brand\": \"solimo\", \"model\": null,\n \"color_family\": \"black\", \"color_detail\": \"black\", \"material\": \"glass, leather\",\n \"distinctive_marks\": [\"solimo logo\"], \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false, \"canonical_description\": \"Black glass bottle with a leather carrying case and the Solimo logo.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.8}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 136,
+  "total_tokens": 1127
+ },
+ "latency_s": 17.08
+}

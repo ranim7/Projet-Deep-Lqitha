@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "driver's license",
+   "bank card"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Black wallet containing a driver's license and a bank card.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"wallet\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"driver's license\",\"bank card\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Black wallet containing a driver's license and a bank card.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.018115522,
+  "prompt_tokens": 762,
+  "prompt_time": 0.038197634,
+  "completion_tokens": 203,
+  "completion_time": 0.20874684,
+  "total_tokens": 965,
+  "total_time": 0.246944474,
+  "completion_tokens_details": {
+   "reasoning_tokens": 100
+  }
+ },
+ "latency_s": 0.8
+}

@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "leather",
+  "distinctive_marks": [
+   "small silver buckle"
+  ],
+  "contents": [
+   "cash",
+   "Aadhar identity card"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Black soft leather handbag with a small silver buckle, containing cash and an Aadhar identity card.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"leather\",\"distinctive_marks\":[\"small silver buckle\"],\"contents\":[\"cash\",\"Aadhar identity card\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Black soft leather handbag with a small silver buckle, containing cash and an Aadhar identity card.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.150493329,
+  "prompt_tokens": 795,
+  "prompt_time": 0.049527511,
+  "completion_tokens": 192,
+  "completion_time": 0.197158535,
+  "total_tokens": 987,
+  "total_time": 0.246686046,
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  }
+ },
+ "latency_s": 1.03
+}

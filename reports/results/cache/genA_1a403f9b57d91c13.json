@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li case ta3 telfoun, koulou multicolore, design mou7tamil, slim w transparent, kayn fi BELLEVUE (Fin ligne 28) lyoum"
+ },
+ "raw": "{\"message\":\"Dha3li case ta3 telfoun, koulou multicolore, design mou7tamil, slim w transparent, kayn fi BELLEVUE (Fin ligne 28) lyoum\"}",
+ "usage": {
+  "queue_time": 0.298076669,
+  "prompt_tokens": 350,
+  "prompt_time": 0.013930537,
+  "completion_tokens": 72,
+  "completion_time": 0.15074236,
+  "total_tokens": 422,
+  "total_time": 0.164672897,
+  "completion_tokens_details": {
+   "reasoning_tokens": 18
+  }
+ }
+}

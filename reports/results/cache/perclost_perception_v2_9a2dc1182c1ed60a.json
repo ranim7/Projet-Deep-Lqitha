@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "leather",
+  "distinctive_marks": [],
+  "contents": [
+   "money",
+   "cosmetics",
+   "earphone case",
+   "comb"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black leather small handbag with a blue zipper, containing money, cosmetics, an earphone case, and a comb.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"leather\",\"distinctive_marks\":[],\"contents\":[\"money\",\"cosmetics\",\"earphone case\",\"comb\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black leather small handbag with a blue zipper, containing money, cosmetics, an earphone case, and a comb.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.652275904,
+  "prompt_tokens": 803,
+  "prompt_time": 0.050543705,
+  "completion_tokens": 159,
+  "completion_time": 0.182259183,
+  "total_tokens": 962,
+  "total_time": 0.232802888,
+  "completion_tokens_details": {
+   "reasoning_tokens": 39
+  }
+ },
+ "latency_s": 9.48
+}

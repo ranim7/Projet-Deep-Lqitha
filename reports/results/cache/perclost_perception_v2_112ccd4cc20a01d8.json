@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "handbag",
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "metro cards",
+   "cash"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black handbag containing metro cards and cash.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bag\", \"subcategory\": \"handbag\", \"brand\": null, \"model\": null, \"color_family\": \"black\", \"color_detail\": \"black\", \"material\": null, \"distinctive_marks\": [], \"contents\": [\"metro cards\", \"cash\"], \"visible_text\": null, \"contains_sensitive_document\": false, \"canonical_description\": \"Black handbag containing metro cards and cash.\", \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 755,
+  "prompt_tokens_details": {
+   "cached_tokens": 253
+  },
+  "completion_tokens": 125,
+  "total_tokens": 880
+ },
+ "latency_s": 18.5
+}

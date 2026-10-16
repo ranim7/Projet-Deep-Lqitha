@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "category": "Umbrella",
+  "brand": "Unknown",
+  "color": "Blue, Black, White",
+  "material": "Fabric (Canopy), Metal (Shaft/Ribs), Plastic (Handle)",
+  "distinctive_marks": [
+   "C-shaped handle",
+   "Large blue floral print on a white background",
+   "Black outer canopy",
+   "Shown in multiple color variations"
+  ],
+  "description": "The image displays a promotional graphic for a C-handle umbrella. The main focus is an umbrella with a large, vibrant blue flower printed on a white inner canopy, contrasted by a black outer layer. It features a distinctive black C-shaped handle and a silver metal shaft. The graphic also shows the umbrella in its closed, inverted state and includes a row of numerous other umbrellas with different floral and patterned designs, all sharing the same C-handle style."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Umbrella\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Blue, Black, White\",\n  \"material\": \"Fabric (Canopy), Metal (Shaft/Ribs), Plastic (Handle)\",\n  \"distinctive_marks\": [\n    \"C-shaped handle\",\n    \"Large blue floral print on a white background\",\n    \"Black outer canopy\",\n    \"Shown in multiple color variations\"\n  ],\n  \"description\": \"The image displays a promotional graphic for a C-handle umbrella. The main focus is an umbrella with a large, vibrant blue flower printed on a white inner canopy, contrasted by a black outer layer. It features a distinctive black C-shaped handle and a silver metal shaft. The graphic also shows the umbrella in its closed, inverted state and includes a row of numerous other umbrellas with different floral and patterned designs, all sharing the same C-handle style.\"\n}",
+ "usage": {
+  "queue_time": 0.319080232,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.094874578,
+  "completion_tokens": 204,
+  "completion_time": 0.418335071,
+  "total_tokens": 1541,
+  "total_time": 0.513209649
+ },
+ "latency_s": 20.24
+}

@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "watch",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "silver",
+  "color_detail": "silver",
+  "material": "metal",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Silver metal watch with broken bracelet, lost in luggage today.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"watch\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"silver\",\"color_detail\":\"silver\",\"material\":\"metal\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Silver metal watch with broken bracelet, lost in luggage today.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.149075205,
+  "prompt_tokens": 769,
+  "prompt_time": 0.04299904,
+  "completion_tokens": 309,
+  "completion_time": 0.335453965,
+  "total_tokens": 1078,
+  "total_time": 0.378453005,
+  "completion_tokens_details": {
+   "reasoning_tokens": 212
+  }
+ },
+ "latency_s": 1.09
+}

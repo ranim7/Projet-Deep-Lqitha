@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "canvas",
+  "distinctive_marks": [],
+  "contents": [
+   "charger",
+   "headphones",
+   "clothes",
+   "mobile"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black canvas transport bag containing a charger, headphones, clothes, and a mobile phone.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"canvas\",\"distinctive_marks\":[],\"contents\":[\"charger\",\"headphones\",\"clothes\",\"mobile\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black canvas transport bag containing a charger, headphones, clothes, and a mobile phone.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.048662023,
+  "prompt_tokens": 782,
+  "prompt_time": 0.014420081,
+  "completion_tokens": 161,
+  "completion_time": 0.164927921,
+  "total_tokens": 943,
+  "total_time": 0.179348002,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 49
+  }
+ },
+ "latency_s": 0.93
+}

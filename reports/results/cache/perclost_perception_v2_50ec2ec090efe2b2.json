@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "multicolor",
+  "color_detail": "multicolor",
+  "material": "plastic",
+  "distinctive_marks": [
+   "design mou7tamil",
+   "slim",
+   "transparent"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Multicolor transparent slim phone case with a unique design, found in Bellevue on line 28 today.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"phone\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"multicolor\",\"color_detail\":\"multicolor\",\"material\":\"plastic\",\"distinctive_marks\":[\"design mou7tamil\",\"slim\",\"transparent\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Multicolor transparent slim phone case with a unique design, found in Bellevue on line 28 today.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.297871284,
+  "prompt_tokens": 787,
+  "prompt_time": 0.04867675,
+  "completion_tokens": 137,
+  "completion_time": 0.138955735,
+  "total_tokens": 924,
+  "total_time": 0.187632485,
+  "completion_tokens_details": {
+   "reasoning_tokens": 19
+  }
+ },
+ "latency_s": 6.11
+}

@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "neck gaiter",
+  "brand": null,
+  "color": "dark blue and pink",
+  "material": "synthetic fabric (e.g., polyester or nylon)",
+  "distinctive_marks": [
+   "floral pattern",
+   "tube shape"
+  ],
+  "description": "A tube-style neck gaiter or buff featuring a floral pattern with pink roses and leaves on a dark blue background. The image shows the item in two views: one fully formed as a loop and another as a close-up detail."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"neck gaiter\",\n  \"brand\": null,\n  \"color\": \"dark blue and pink\",\n  \"material\": \"synthetic fabric (e.g., polyester or nylon)\",\n  \"distinctive_marks\": [\n    \"floral pattern\",\n    \"tube shape\"\n  ],\n  \"description\": \"A tube-style neck gaiter or buff featuring a floral pattern with pink roses and leaves on a dark blue background. The image shows the item in two views: one fully formed as a loop and another as a close-up detail.\"\n}",
+ "usage": {
+  "queue_time": 0.118660193,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.115502683,
+  "completion_tokens": 132,
+  "completion_time": 0.259125477,
+  "total_tokens": 1469,
+  "total_time": 0.37462816
+ },
+ "latency_s": 19.84
+}

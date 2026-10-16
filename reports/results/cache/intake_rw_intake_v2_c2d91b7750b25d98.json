@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Pour obtenir un duplicata de passeport en Tunisie, vous devez généralement présenter :\n1. Une copie du passeport perdu ou détruit.\n2. Un formulaire de demande de duplicata (disponible en ligne ou à la préfecture).\n3. Un justificatif d’identité (carte d’identité ou autre document officiel).\n4. Un justificatif de domicile récent.\n5. Deux photos d’identité récentes (format 3,5×4,5 cm, fond blanc).\n6. Le paiement des frais de duplicata.\nIl est conseillé de contacter la préfecture ou le service de l’Office du passeport pour confirmer les pièces exactes et les modalités de dépôt.",
+  "search_query_fr": "documents duplicata passeport perte Tunisie",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Pour obtenir un duplicata de passeport en Tunisie, vous devez généralement présenter :\\n1. Une copie du passeport perdu ou détruit.\\n2. Un formulaire de demande de duplicata (disponible en ligne ou à la préfecture).\\n3. Un justificatif d’identité (carte d’identité ou autre document officiel).\\n4. Un justificatif de domicile récent.\\n5. Deux photos d’identité récentes (format 3,5×4,5 cm, fond blanc).\\n6. Le paiement des frais de duplicata.\\nIl est conseillé de contacter la préfecture ou le service de l’Office du passeport pour confirmer les pièces exactes et les modalités de dépôt.\",\"search_query_fr\":\"documents duplicata passeport perte Tunisie\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.018173305,
+  "prompt_tokens": 1396,
+  "prompt_time": 0.081742377,
+  "completion_tokens": 278,
+  "completion_time": 0.344021139,
+  "total_tokens": 1674,
+  "total_time": 0.425763516,
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "latency_s": 1.03
+}

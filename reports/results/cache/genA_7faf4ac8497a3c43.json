@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "lbara7 f Station bus El Montazah nseet headphones azul, plastique, w fih chi design mouch 3adi, kan ykoun m3aya lkol"
+ },
+ "raw": "{\"message\":\"lbara7 f Station bus El Montazah nseet headphones azul, plastique, w fih chi design mouch 3adi, kan ykoun m3aya lkol\"}",
+ "usage": {
+  "queue_time": 0.087609743,
+  "prompt_tokens": 360,
+  "prompt_time": 0.018563988,
+  "completion_tokens": 74,
+  "completion_time": 0.18701679,
+  "total_tokens": 434,
+  "total_time": 0.205580778,
+  "completion_tokens_details": {
+   "reasoning_tokens": 24
+  }
+ }
+}

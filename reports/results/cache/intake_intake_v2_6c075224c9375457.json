@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "fr",
+  "slots": {
+   "item_category": "headphones",
+   "date_text": "ce matin",
+   "date_iso": "2026-10-14",
+   "place_type": "metro",
+   "place_name": "TGM",
+   "governorate": "Tunis",
+   "distinctive_detail": "AirPods blancs",
+   "hidden_detail": null,
+   "has_photo": true
+  },
+  "missing": [
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Pouvez‑vous me donner un détail qui resterait secret pour vérifier votre identité ?",
+  "reply_to_user": null,
+  "search_query_fr": "trouver écouteurs AirPods perdus TGM",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"headphones\",\"date_text\":\"ce matin\",\"date_iso\":\"2026-10-14\",\"place_type\":\"metro\",\"place_name\":\"TGM\",\"governorate\":\"Tunis\",\"distinctive_detail\":\"AirPods blancs\",\"hidden_detail\":null,\"has_photo\":true},\"missing\":[\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Pouvez‑vous me donner un détail qui resterait secret pour vérifier votre identité ?\",\"reply_to_user\":null,\"search_query_fr\":\"trouver écouteurs AirPods perdus TGM\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.232421622,
+  "prompt_tokens": 1397,
+  "prompt_time": 0.011940066,
+  "completion_tokens": 229,
+  "completion_time": 0.248509986,
+  "total_tokens": 1626,
+  "total_time": 0.260450052,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 88
+  }
+ },
+ "latency_s": 11.83
+}

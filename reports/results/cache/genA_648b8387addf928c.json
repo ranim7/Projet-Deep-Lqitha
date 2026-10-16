@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Sma3, nseet laptop ta3i f Louage station Tozeur lyoum, couleur gris, écran كبير، clavier فيه شوية بقع، فيه ملفات تدريب و بعض الصور"
+ },
+ "raw": "{\"message\":\"Sma3, nseet laptop ta3i f Louage station Tozeur lyoum, couleur gris, écran كبير، clavier فيه شوية بقع، فيه ملفات تدريب و بعض الصور\"}",
+ "usage": {
+  "queue_time": 0.019344047,
+  "prompt_tokens": 344,
+  "prompt_time": 0.018906075,
+  "completion_tokens": 82,
+  "completion_time": 0.171867056,
+  "total_tokens": 426,
+  "total_time": 0.190773131,
+  "completion_tokens_details": {
+   "reasoning_tokens": 29
+  }
+ }
+}

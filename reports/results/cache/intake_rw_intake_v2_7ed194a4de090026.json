@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type",
+   "place_name",
+   "date",
+   "distinctive_detail",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où l'avez-vous trouvé exactement ?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\",\"place_name\",\"date\",\"distinctive_detail\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où l'avez-vous trouvé exactement ?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.293279809,
+  "prompt_tokens": 1401,
+  "prompt_time": 0.070360358,
+  "completion_tokens": 191,
+  "completion_time": 0.208025224,
+  "total_tokens": 1592,
+  "total_time": 0.278385582,
+  "completion_tokens_details": {
+   "reasoning_tokens": 66
+  }
+ },
+ "latency_s": 1.16
+}

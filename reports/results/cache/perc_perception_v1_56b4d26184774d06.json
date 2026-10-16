@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "Sunglasses",
+  "brand": "Unknown",
+  "color": "Red frame with gradient purple lenses",
+  "material": "Acetate (plastic) frame, glass or plastic lenses, metal hardware",
+  "distinctive_marks": [
+   "Oversized, rounded-rectangular frame shape",
+   "Gradient tinted lenses (darker at top, lighter at bottom)",
+   "Silver-tone metal buckle detail on the temple hinge"
+  ],
+  "description": "A pair of women's fashion sunglasses featuring a glossy, deep red acetate frame. The lenses are large and have a purple-to-clear gradient tint. A distinctive silver-colored metal buckle accent is visible on the outer hinge of the temple arm. The image displays the sunglasses from a three-quarter angle, with a cropped close-up view of the front and side profile below."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Sunglasses\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Red frame with gradient purple lenses\",\n  \"material\": \"Acetate (plastic) frame, glass or plastic lenses, metal hardware\",\n  \"distinctive_marks\": [\n    \"Oversized, rounded-rectangular frame shape\",\n    \"Gradient tinted lenses (darker at top, lighter at bottom)\",\n    \"Silver-tone metal buckle detail on the temple hinge\"\n  ],\n  \"description\": \"A pair of women's fashion sunglasses featuring a glossy, deep red acetate frame. The lenses are large and have a purple-to-clear gradient tint. A distinctive silver-colored metal buckle accent is visible on the outer hinge of the temple arm. The image displays the sunglasses from a three-quarter angle, with a cropped close-up view of the front and side profile below.\"\n}",
+ "usage": {
+  "queue_time": 0.110687746,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.097795096,
+  "completion_tokens": 197,
+  "completion_time": 0.410214476,
+  "total_tokens": 1534,
+  "total_time": 0.508009572
+ },
+ "latency_s": 20.13
+}

@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "backpack",
+  "brand": "Nike",
+  "color": "black",
+  "material": "synthetic leather",
+  "distinctive_marks": "Nike swoosh logo on front pocket",
+  "description": "A black Nike backpack designed to carry a laptop and charger, featuring padded compartments and a sleek, sporty aesthetic."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"backpack\",\"brand\":\"Nike\",\"color\":\"black\",\"material\":\"synthetic leather\",\"distinctive_marks\":\"Nike swoosh logo on front pocket\",\"description\":\"A black Nike backpack designed to carry a laptop and charger, featuring padded compartments and a sleek, sporty aesthetic.\"}",
+ "usage": {
+  "queue_time": 0.149730008,
+  "prompt_tokens": 155,
+  "prompt_time": 0.008810773,
+  "completion_tokens": 106,
+  "completion_time": 0.141399042,
+  "total_tokens": 261,
+  "total_time": 0.150209815,
+  "completion_tokens_details": {
+   "reasoning_tokens": 40
+  }
+ },
+ "latency_s": 1.85
+}

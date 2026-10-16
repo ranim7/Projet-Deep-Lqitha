@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "glasses",
+  "subcategory": null,
+  "brand": "Ray-Ban",
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black Ray-Ban sunglasses with classic design, no visible logos, lost in a sunny park.",
+  "field_confidence": {
+   "category": 0.99,
+   "color_family": 0.95,
+   "brand": 0.9
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"glasses\",\"subcategory\":null,\"brand\":\"Ray-Ban\",\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black Ray-Ban sunglasses with classic design, no visible logos, lost in a sunny park.\",\"field_confidence\":{\"category\":0.99,\"color_family\":0.95,\"brand\":0.9}}",
+ "usage": {
+  "queue_time": 0.017072716,
+  "prompt_tokens": 760,
+  "prompt_time": 0.018626942,
+  "completion_tokens": 301,
+  "completion_time": 0.562883888,
+  "total_tokens": 1061,
+  "total_time": 0.58151083,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 194
+  }
+ },
+ "latency_s": 1.14
+}

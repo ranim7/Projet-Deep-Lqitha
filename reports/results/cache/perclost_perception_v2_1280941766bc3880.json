@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "charcoal",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey charcoal bag, lost in El Hamada today, possibly containing one item.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"charcoal\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey charcoal bag, lost in El Hamada today, possibly containing one item.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.04729089,
+  "prompt_tokens": 802,
+  "prompt_time": 0.054610951,
+  "completion_tokens": 324,
+  "completion_time": 0.341034456,
+  "total_tokens": 1126,
+  "total_time": 0.395645407,
+  "completion_tokens_details": {
+   "reasoning_tokens": 222
+  }
+ },
+ "latency_s": 4.96
+}

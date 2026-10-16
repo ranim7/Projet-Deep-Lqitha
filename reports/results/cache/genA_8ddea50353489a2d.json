@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li cover kamera aswad, ki case sghir, fih zayra mouch m3a9la, t9a3ed fil Mall Of Sousse lyoum, nseetou b'khater l'camera"
+ },
+ "raw": "{\"message\":\"Dha3li cover kamera aswad, ki case sghir, fih zayra mouch m3a9la, t9a3ed fil Mall Of Sousse lyoum, nseetou b'khater l'camera\"}",
+ "usage": {
+  "queue_time": 0.089106267,
+  "prompt_tokens": 349,
+  "prompt_time": 0.015727541,
+  "completion_tokens": 117,
+  "completion_time": 0.241736421,
+  "total_tokens": 466,
+  "total_time": 0.257463962,
+  "completion_tokens_details": {
+   "reasoning_tokens": 53
+  }
+ }
+}

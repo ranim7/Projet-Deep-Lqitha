@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li sac kbir, couleur gris, tissu canvas, fih ktab w bank card mta3 Aadhar, w wara9et Nighat Parveen w MD Nazar Khan, tlefet fi Gare de Tunis lyoum."
+ },
+ "raw": "{\"message\":\"Dha3li sac kbir, couleur gris, tissu canvas, fih ktab w bank card mta3 Aadhar, w wara9et Nighat Parveen w MD Nazar Khan, tlefet fi Gare de Tunis lyoum.\"}",
+ "usage": {
+  "queue_time": 0.019532543,
+  "prompt_tokens": 329,
+  "prompt_time": 0.013339633,
+  "completion_tokens": 100,
+  "completion_time": 0.208095987,
+  "total_tokens": 429,
+  "total_time": 0.22143562,
+  "completion_tokens_details": {
+   "reasoning_tokens": 37
+  }
+ }
+}

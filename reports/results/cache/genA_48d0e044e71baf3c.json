@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lyoum f Rue Kairouan nseet stand portable l'ordinateur, couleur noir, metal, ykoun 3andou bras moujoud li ykhalik t7ot laptop w monitor."
+ },
+ "raw": "{\"message\":\"Lyoum f Rue Kairouan nseet stand portable l'ordinateur, couleur noir, metal, ykoun 3andou bras moujoud li ykhalik t7ot laptop w monitor.\"}",
+ "usage": {
+  "queue_time": 0.294744974,
+  "prompt_tokens": 345,
+  "prompt_time": 0.014714188,
+  "completion_tokens": 92,
+  "completion_time": 0.19069977,
+  "total_tokens": 437,
+  "total_time": 0.205413958,
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ }
+}

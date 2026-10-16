@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "category": "wristwatch",
+  "brand": "Casio",
+  "color": "red",
+  "material": "plastic",
+  "distinctive_marks": [
+   "rectangular case",
+   "digital display",
+   "text: ALARM CHRONO",
+   "text: WATER RESIST 100FT",
+   "text: EL",
+   "text: MODE",
+   "text: LIGHT",
+   "text: RESET",
+   "text: ADJUST"
+  ],
+  "description": "A red digital wristwatch with a rectangular case and a matching red plastic strap. The watch face features a black bezel with white text indicating 'ALARM CHRONO' and 'WATER RESIST 100FT'. The digital screen displays the time as 9:54:25. There are four buttons on the sides of the case, labeled 'MODE', 'LIGHT', 'RESET', and 'ADJUST'."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"wristwatch\",\n  \"brand\": \"Casio\",\n  \"color\": \"red\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"rectangular case\",\n    \"digital display\",\n    \"text: ALARM CHRONO\",\n    \"text: WATER RESIST 100FT\",\n    \"text: EL\",\n    \"text: MODE\",\n    \"text: LIGHT\",\n    \"text: RESET\",\n    \"text: ADJUST\"\n  ],\n  \"description\": \"A red digital wristwatch with a rectangular case and a matching red plastic strap. The watch face features a black bezel with white text indicating 'ALARM CHRONO' and 'WATER RESIST 100FT'. The digital screen displays the time as 9:54:25. There are four buttons on the sides of the case, labeled 'MODE', 'LIGHT', 'RESET', and 'ADJUST'.\"\n}",
+ "usage": {
+  "queue_time": 0.235600898,
+  "prompt_tokens": 1849,
+  "prompt_time": 0.140196304,
+  "completion_tokens": 226,
+  "completion_time": 0.466322131,
+  "total_tokens": 2075,
+  "total_time": 0.606518435
+ },
+ "latency_s": 20.17
+}

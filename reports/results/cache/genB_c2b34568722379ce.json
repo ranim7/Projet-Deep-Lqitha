@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu ce matin à La Goulette Neuve mon sac bleu en tissu, avec un chargeur et quelques vêtements à l'intérieur. C'était assez grand et très pratique."
+ },
+ "raw": "{\"message\":\"J'ai perdu ce matin à La Goulette Neuve mon sac bleu en tissu, avec un chargeur et quelques vêtements à l'intérieur. C'était assez grand et très pratique.\"}",
+ "usage": {
+  "queue_time": 0.102316712,
+  "prompt_tokens": 316,
+  "prompt_time": 0.033660987,
+  "completion_tokens": 76,
+  "completion_time": 0.156584104,
+  "total_tokens": 392,
+  "total_time": 0.190245091,
+  "completion_tokens_details": {
+   "reasoning_tokens": 27
+  }
+ }
+}

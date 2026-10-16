@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "backpack",
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": "canvas",
+  "distinctive_marks": [
+   "Aadhaar card of Gaurav"
+  ],
+  "contents": [
+   "rain coat",
+   "gloves",
+   "shawl"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Grey canvas backpack containing a rain coat, gloves, and a shawl, with an Aadhaar card of Gaurav.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bag\", \"subcategory\": \"backpack\", \"brand\": null, \"model\": null, \"color_family\": \"grey\", \"color_detail\": \"grey\", \"material\": \"canvas\", \"distinctive_marks\": [\"Aadhaar card of Gaurav\"], \"contents\": [\"rain coat\", \"gloves\", \"shawl\"], \"visible_text\": null, \"contains_sensitive_document\": true, \"canonical_description\": \"Grey canvas backpack containing a rain coat, gloves, and a shawl, with an Aadhaar card of Gaurav.\", \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 768,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens": 153,
+  "total_tokens": 921
+ },
+ "latency_s": 21.98
+}

@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "other",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": "wool",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Small hat filled with wool, found at La Goulette beach.",
+  "field_confidence": {
+   "category": 0.2,
+   "color_family": 0.1,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"other\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":\"wool\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Small hat filled with wool, found at La Goulette beach.\",\"field_confidence\":{\"category\":0.2,\"color_family\":0.1,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.230341248,
+  "prompt_tokens": 798,
+  "prompt_time": 0.016690516,
+  "completion_tokens": 328,
+  "completion_time": 0.350973632,
+  "total_tokens": 1126,
+  "total_time": 0.367664148,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 229
+  }
+ },
+ "latency_s": 1.61
+}

@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "handbag",
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "leather",
+  "distinctive_marks": [
+   "small sunglasses case",
+   "silver pendant"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black leather handbag with a small sunglasses case and a silver pendant.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bag\", \"subcategory\": \"handbag\", \"brand\": null, \"model\": null,\n \"color_family\": \"black\", \"color_detail\": \"black\", \"material\": \"leather\",\n \"distinctive_marks\": [\"small sunglasses case\", \"silver pendant\"],\n \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false,\n \"canonical_description\": \"Black leather handbag with a small sunglasses case and a silver pendant.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 765,
+  "prompt_tokens_details": {
+   "cached_tokens": 254
+  },
+  "completion_tokens": 139,
+  "total_tokens": 904
+ },
+ "latency_s": 20.65
+}

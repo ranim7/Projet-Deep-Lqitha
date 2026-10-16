@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color_family: same",
+   "brand: no contradiction (lost unknown)",
+   "marks/contents: no shared specifics",
+   "time/place: same date, different towns (weak contradiction)"
+  ],
+  "agreements": [
+   "category",
+   "color_family",
+   "date"
+  ],
+  "contradictions": [],
+  "decision": "possible_match",
+  "confidence": 0.62,
+  "question_for_owner": "Did the bottle have any logo or branding printed on it?"
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color_family: same\",\"brand: no contradiction (lost unknown)\",\"marks/contents: no shared specifics\",\"time/place: same date, different towns (weak contradiction)\"],\"agreements\":[\"category\",\"color_family\",\"date\"],\"contradictions\":[],\"decision\":\"possible_match\",\"confidence\":0.62,\"question_for_owner\":\"Did the bottle have any logo or branding printed on it?\"}",
+ "usage": {
+  "queue_time": 0.089637528,
+  "prompt_tokens": 797,
+  "prompt_time": 0.0155655,
+  "completion_tokens": 220,
+  "completion_time": 0.456325713,
+  "total_tokens": 1017,
+  "total_time": 0.471891213,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 124
+  }
+ },
+ "latency_s": 7.57
+}

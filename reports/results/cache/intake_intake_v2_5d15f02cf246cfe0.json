@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "derja",
+  "slots": {
+   "item_category": "wallet",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "perte portefeuille carte bancaire",
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"derja\",\"slots\":{\"item_category\":\"wallet\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"perte portefeuille carte bancaire\",\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.196083159,
+  "prompt_tokens": 1404,
+  "prompt_time": 0.085215495,
+  "completion_tokens": 160,
+  "completion_time": 0.164367013,
+  "total_tokens": 1564,
+  "total_time": 0.249582508,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 52
+  }
+ },
+ "latency_s": 2.86
+}

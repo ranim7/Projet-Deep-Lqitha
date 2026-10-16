@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "phone case",
+  "brand": "unknown",
+  "color": "multicolored",
+  "material": "plastic",
+  "distinctive_marks": [
+   "cutout for camera and flash",
+   "signature in bottom right corner"
+  ],
+  "description": "A smartphone case featuring a vibrant, colorful, and artistic illustration of a lion's face in profile. The design uses a wide spectrum of bright colors including pink, purple, blue, green, yellow, and orange in a painterly style. The case has a cutout for the rear camera and flash, and a small signature is visible in the bottom right corner of the artwork."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"phone case\",\n  \"brand\": \"unknown\",\n  \"color\": \"multicolored\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"cutout for camera and flash\",\n    \"signature in bottom right corner\"\n  ],\n  \"description\": \"A smartphone case featuring a vibrant, colorful, and artistic illustration of a lion's face in profile. The design uses a wide spectrum of bright colors including pink, purple, blue, green, yellow, and orange in a painterly style. The case has a cutout for the rear camera and flash, and a small signature is visible in the bottom right corner of the artwork.\"\n}",
+ "usage": {
+  "queue_time": 0.111062869,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.097883902,
+  "completion_tokens": 157,
+  "completion_time": 0.306462984,
+  "total_tokens": 1494,
+  "total_time": 0.404346886
+ },
+ "latency_s": 19.88
+}

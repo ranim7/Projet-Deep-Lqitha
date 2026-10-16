@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où avez‑vous perdu votre CIN ?",
+  "reply_to_user": null,
+  "search_query_fr": "déclaration perte CIN",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où avez‑vous perdu votre CIN ?\",\"reply_to_user\":null,\"search_query_fr\":\"déclaration perte CIN\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.300040544,
+  "prompt_tokens": 1392,
+  "prompt_time": 0.091727234,
+  "completion_tokens": 156,
+  "completion_time": 0.181355789,
+  "total_tokens": 1548,
+  "total_time": 0.273083023,
+  "completion_tokens_details": {
+   "reasoning_tokens": 38
+  }
+ },
+ "latency_s": 1.3
+}

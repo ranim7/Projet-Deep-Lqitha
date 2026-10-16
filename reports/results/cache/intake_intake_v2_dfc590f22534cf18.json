@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "glasses",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "taxi",
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "date"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Waqtech t9addart t9awd 3la l7aja?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"glasses\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"taxi\",\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"date\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Waqtech t9addart t9awd 3la l7aja?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.19991336,
+  "prompt_tokens": 1391,
+  "prompt_time": 0.13627008,
+  "completion_tokens": 165,
+  "completion_time": 0.179379582,
+  "total_tokens": 1556,
+  "total_time": 0.315649662,
+  "completion_tokens_details": {
+   "reasoning_tokens": 38
+  }
+ },
+ "latency_s": 12.58
+}

@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "sandals",
+  "brand": "Birkenstock",
+  "color": "nude",
+  "material": "leather",
+  "distinctive_marks": [
+   "t-strap design",
+   "metal buckle",
+   "perforated ankle strap"
+  ],
+  "description": "A pair of minimalist, flat thong sandals in a nude or beige color. The sandals feature a thin toe post, a T-strap across the instep, and a perforated ankle strap secured with a small metal buckle. The sole is flat and appears to be made of leather or a similar material."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"sandals\",\n  \"brand\": \"Birkenstock\",\n  \"color\": \"nude\",\n  \"material\": \"leather\",\n  \"distinctive_marks\": [\n    \"t-strap design\",\n    \"metal buckle\",\n    \"perforated ankle strap\"\n  ],\n  \"description\": \"A pair of minimalist, flat thong sandals in a nude or beige color. The sandals feature a thin toe post, a T-strap across the instep, and a perforated ankle strap secured with a small metal buckle. The sole is flat and appears to be made of leather or a similar material.\"\n}",
+ "usage": {
+  "queue_time": 0.116743071,
+  "prompt_tokens": 1849,
+  "prompt_time": 0.154227782,
+  "completion_tokens": 148,
+  "completion_time": 0.303581945,
+  "total_tokens": 1997,
+  "total_time": 0.457809727
+ },
+ "latency_s": 19.84
+}

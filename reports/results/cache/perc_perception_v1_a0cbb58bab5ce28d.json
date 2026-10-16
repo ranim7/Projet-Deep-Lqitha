@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "earphones",
+  "brand": "unknown",
+  "color": "black",
+  "material": "plastic",
+  "distinctive_marks": [
+   "knurled adjustment knobs",
+   "foam ear tips",
+   "cylindrical body"
+  ],
+  "description": "A pair of black in-ear earphones featuring a cylindrical design with knurled knobs for adjustment and soft foam ear tips. The earpieces are connected by thin black cables."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"earphones\",\n  \"brand\": \"unknown\",\n  \"color\": \"black\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"knurled adjustment knobs\",\n    \"foam ear tips\",\n    \"cylindrical body\"\n  ],\n  \"description\": \"A pair of black in-ear earphones featuring a cylindrical design with knurled knobs for adjustment and soft foam ear tips. The earpieces are connected by thin black cables.\"\n}",
+ "usage": {
+  "queue_time": 0.119099718,
+  "prompt_tokens": 1849,
+  "prompt_time": 0.154288033,
+  "completion_tokens": 121,
+  "completion_time": 0.282424887,
+  "total_tokens": 1970,
+  "total_time": 0.43671292
+ },
+ "latency_s": 19.74
+}

@@ -1,0 +1,606 @@
+[
+ {
+  "id": "q01",
+  "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "law_2024_22_national_id_card",
+    "must": [
+     "poste de la police"
+    ]
+   },
+   {
+    "doc": "sop_lost_identity_documents",
+    "must": [
+     "poste de police"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q02",
+  "query": "Où dois-je déclarer la perte de ma CIN ?",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "law_2024_22_national_id_card",
+    "must": [
+     "garde nationale"
+    ]
+   },
+   {
+    "doc": "sop_lost_identity_documents",
+    "must": [
+     "garde nationale"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q03",
+  "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "law_2024_22_national_id_card",
+    "must": [
+     "desactivee en cas de perte"
+    ]
+   },
+   {
+    "doc": "sop_lost_identity_documents",
+    "must": [
+     "puce"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q04",
+  "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "law_2024_22_national_id_card",
+    "must": [
+     "trente jours"
+    ]
+   },
+   {
+    "doc": "sop_lost_identity_documents",
+    "must": [
+     "trente jours"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q05",
+  "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "idaraty_passport_duplicate_tn",
+    "must": [
+     "attestation de declaration de perte"
+    ]
+   },
+   {
+    "doc": "idaraty_passport_duplicate_abroad",
+    "must": [
+     "attestation de declaration de perte"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q06",
+  "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "idaraty_passport_duplicate_abroad",
+    "must": [
+     "residence reglementaire"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q07",
+  "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "idaraty_passport_duplicate_tn",
+    "must": [
+     "photos"
+    ]
+   },
+   {
+    "doc": "idaraty_passport_duplicate_abroad",
+    "must": [
+     "photos"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q08",
+  "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "idaraty_family_booklet_duplicate",
+    "must": [
+     "acte de mariage"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q09",
+  "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+  "lang": "fr",
+  "item_type": "luggage",
+  "gold": [
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "comptoir de service bagages"
+    ]
+   },
+   {
+    "doc": "sop_airport_lost_item",
+    "must": [
+     "pir"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q10",
+  "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+  "lang": "fr",
+  "item_type": "luggage",
+  "gold": [
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "talon de bagage"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q11",
+  "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+  "lang": "fr",
+  "item_type": "luggage",
+  "gold": [
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "7 jours"
+    ]
+   },
+   {
+    "doc": "sop_airport_lost_item",
+    "must": [
+     "7 jours"
+    ]
+   },
+   {
+    "doc": "montreal_convention_1999_text_fr",
+    "must": [
+     "sept jours"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q12",
+  "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+  "lang": "fr",
+  "item_type": "luggage",
+  "gold": [
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "21 jours"
+    ]
+   },
+   {
+    "doc": "sop_airport_lost_item",
+    "must": [
+     "21 jours"
+    ]
+   },
+   {
+    "doc": "montreal_convention_1999_text_fr",
+    "must": [
+     "vingt et un jours"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q13",
+  "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+  "lang": "en",
+  "item_type": "luggage",
+  "gold": [
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "essential items"
+    ]
+   },
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "premiere necessite"
+    ]
+   },
+   {
+    "doc": "sop_airport_lost_item",
+    "must": [
+     "premiere necessite"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q14",
+  "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+  "lang": "fr",
+  "item_type": "luggage",
+  "gold": [
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "irregularite bagages"
+    ]
+   },
+   {
+    "doc": "sop_airport_lost_item",
+    "must": [
+     "pir"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q15",
+  "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+  "lang": "fr",
+  "item_type": "bank_card",
+  "gold": [
+   {
+    "doc": "guide_lost_bank_card_tunisia",
+    "must": [
+     "opposition"
+    ]
+   },
+   {
+    "doc": "sop_lost_bank_card",
+    "must": [
+     "opposition"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q16",
+  "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+  "lang": "fr",
+  "item_type": "bank_card",
+  "gold": [
+   {
+    "doc": "guide_lost_bank_card_tunisia",
+    "must": [
+     "temporaire"
+    ]
+   },
+   {
+    "doc": "sop_lost_bank_card",
+    "must": [
+     "application"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q17",
+  "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+  "lang": "fr",
+  "item_type": "bank_card",
+  "gold": [
+   {
+    "doc": "guide_lost_bank_card_tunisia",
+    "must": [
+     "plainte"
+    ]
+   },
+   {
+    "doc": "sop_lost_bank_card",
+    "must": [
+     "plainte"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q18",
+  "query": "On m'a volé mon téléphone, quelles démarches ?",
+  "lang": "fr",
+  "item_type": "phone",
+  "gold": [
+   {
+    "doc": "sop_lost_phone",
+    "must": [
+     "imei"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q19",
+  "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+  "lang": "fr",
+  "item_type": "phone",
+  "gold": [
+   {
+    "doc": "sop_lost_phone",
+    "must": [
+     "operateur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q20",
+  "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+  "lang": "fr",
+  "item_type": "phone",
+  "gold": [
+   {
+    "doc": "sop_lost_phone",
+    "must": [
+     "06"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q21",
+  "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+  "lang": "fr",
+  "item_type": "bag",
+  "gold": [
+   {
+    "doc": "sop_public_transport_lost_item",
+    "must": [
+     "chef de gare"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q22",
+  "query": "J'ai perdu un objet dans un louage, que faire ?",
+  "lang": "fr",
+  "item_type": "other",
+  "gold": [
+   {
+    "doc": "sop_public_transport_lost_item",
+    "must": [
+     "louage"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q23",
+  "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+  "lang": "fr",
+  "item_type": "wallet",
+  "gold": [
+   {
+    "doc": "sop_found_item_what_to_do",
+    "must": [
+     "poste de police"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q24",
+  "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "sop_found_item_what_to_do",
+    "must": [
+     "reseaux sociaux"
+    ]
+   },
+   {
+    "doc": "sop_lost_identity_documents",
+    "must": [
+     "reseaux sociaux"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q25",
+  "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+  "lang": "fr",
+  "item_type": "other",
+  "gold": [
+   {
+    "doc": "sop_lqitha_service",
+    "must": [
+     "question de verification"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q26",
+  "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+  "lang": "fr",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "netherlands_emergency_document_tunisia",
+    "must": [
+     "ambassade"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q27",
+  "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+  "lang": "ar",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "law_2024_22_national_id_card",
+    "must": [
+     "poste de la police"
+    ]
+   },
+   {
+    "doc": "sop_lost_identity_documents",
+    "must": [
+     "poste de police"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q28",
+  "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+  "lang": "ar",
+  "item_type": "bank_card",
+  "gold": [
+   {
+    "doc": "guide_lost_bank_card_tunisia",
+    "must": [
+     "opposition"
+    ]
+   },
+   {
+    "doc": "sop_lost_bank_card",
+    "must": [
+     "opposition"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q29",
+  "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+  "lang": "derja",
+  "item_type": "id_document",
+  "gold": [
+   {
+    "doc": "idaraty_passport_duplicate_tn",
+    "must": [
+     "attestation de declaration de perte"
+    ]
+   },
+   {
+    "doc": "idaraty_passport_duplicate_abroad",
+    "must": [
+     "attestation de declaration de perte"
+    ]
+   },
+   {
+    "doc": "sop_lost_identity_documents",
+    "must": [
+     "duplicata"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q30",
+  "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+  "lang": "derja",
+  "item_type": "luggage",
+  "gold": [
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "comptoir de service bagages"
+    ]
+   },
+   {
+    "doc": "sop_airport_lost_item",
+    "must": [
+     "pir"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q31",
+  "query": "What documents are needed for a lost baggage claim?",
+  "lang": "en",
+  "item_type": "luggage",
+  "gold": [
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "baggage tag"
+    ]
+   },
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "talon de bagage"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "q32",
+  "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+  "lang": "fr",
+  "item_type": "luggage",
+  "gold": [
+   {
+    "doc": "montreal_convention_1999_text_fr",
+    "must": [
+     "retard"
+    ]
+   },
+   {
+    "doc": "icao_montreal_convention_1999_fr",
+    "must": [
+     "bagages"
+    ]
+   },
+   {
+    "doc": "tunisair_passenger_protection_2026",
+    "must": [
+     "montreal"
+    ]
+   }
+  ]
+ }
+]

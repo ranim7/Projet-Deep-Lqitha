@@ -1,0 +1,46 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "blue",
+  "material": null,
+  "distinctive_marks": [
+   "open zipper",
+   "small label"
+  ],
+  "contents": [
+   "charger",
+   "earphones",
+   "shirts"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Blue bag with an open zipper and a small label, containing a charger, earphones, and several shirts.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"blue\",\"color_detail\":\"blue\",\"material\":null,\"distinctive_marks\":[\"open zipper\",\"small label\"],\"contents\":[\"charger\",\"earphones\",\"shirts\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Blue bag with an open zipper and a small label, containing a charger, earphones, and several shirts.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.238159228,
+  "prompt_tokens": 792,
+  "prompt_time": 0.021651773,
+  "completion_tokens": 181,
+  "completion_time": 0.402375947,
+  "total_tokens": 973,
+  "total_time": 0.42402772,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 61
+  }
+ },
+ "latency_s": 1.67
+}

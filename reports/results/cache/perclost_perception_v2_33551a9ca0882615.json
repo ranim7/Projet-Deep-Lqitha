@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "white",
+  "color_detail": "white",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "photo 11x14"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "White wallet containing an 11x14 photo, with no visible marks.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"wallet\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"white\",\"color_detail\":\"white\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"photo 11x14\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"White wallet containing an 11x14 photo, with no visible marks.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.149659662,
+  "prompt_tokens": 803,
+  "prompt_time": 0.043689148,
+  "completion_tokens": 287,
+  "completion_time": 0.351089632,
+  "total_tokens": 1090,
+  "total_time": 0.39477878,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 181
+  }
+ },
+ "latency_s": 1.34
+}

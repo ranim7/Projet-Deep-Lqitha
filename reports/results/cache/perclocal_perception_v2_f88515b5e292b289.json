@@ -1,0 +1,34 @@
+{
+ "parsed": {
+  "category": "electronics",
+  "subcategory": "tv mount",
+  "brand": "eono",
+  "model": null,
+  "color_family": "black",
+  "color_detail": null,
+  "material": "metal",
+  "distinctive_marks": [
+   "eono logo"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black metal tv mount with the eono logo.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.8
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"electronics\", \"subcategory\": \"tv mount\", \"brand\": \"eono\", \"model\": null,\n \"color_family\": \"black\", \"color_detail\": null, \"material\": \"metal\",\n \"distinctive_marks\": [\"eono logo\"], \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false, \"canonical_description\": \"Black metal tv mount with the eono logo.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.8}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 131,
+  "total_tokens": 1122
+ },
+ "latency_s": 22.47
+}

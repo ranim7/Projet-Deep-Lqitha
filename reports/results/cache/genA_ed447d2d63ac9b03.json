@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lé9it chapeau couleur 6, kounou sghir w m3ammar b'khout, nseetou fi La Goulette lbera7, 3andou 7ajet tkhalliha mouchkila."
+ },
+ "raw": "{\"message\":\"Lé9it chapeau couleur 6, kounou sghir w m3ammar b'khout, nseetou fi La Goulette lbera7, 3andou 7ajet tkhalliha mouchkila.\"}",
+ "usage": {
+  "queue_time": 0.048849329,
+  "prompt_tokens": 324,
+  "prompt_time": 0.01609637,
+  "completion_tokens": 114,
+  "completion_time": 0.242083466,
+  "total_tokens": 438,
+  "total_time": 0.258179836,
+  "completion_tokens_details": {
+   "reasoning_tokens": 47
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon sac à main noir avec un petit étui à lunettes à l'intérieur, il était en cuir souple, décoré d'une petite breloque argentée, ce matin à مول جربة."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon sac à main noir avec un petit étui à lunettes à l'intérieur, il était en cuir souple, décoré d'une petite breloque argentée, ce matin à مول جربة.\"}",
+ "usage": {
+  "queue_time": 0.232482784,
+  "prompt_tokens": 312,
+  "prompt_time": 0.012464963,
+  "completion_tokens": 87,
+  "completion_time": 0.182203314,
+  "total_tokens": 399,
+  "total_time": 0.194668277,
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "umbrella",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "unknown",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black umbrella, large golf-style automatic, with a solid pole, windproof and unbreakable, very durable.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"umbrella\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"unknown\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black umbrella, large golf-style automatic, with a solid pole, windproof and unbreakable, very durable.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 1.494149588,
+  "prompt_tokens": 794,
+  "prompt_time": 0.027035375,
+  "completion_tokens": 133,
+  "completion_time": 0.142323617,
+  "total_tokens": 927,
+  "total_time": 0.169358992,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 24
+  }
+ },
+ "latency_s": 2.35
+}

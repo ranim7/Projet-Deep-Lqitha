@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "9na tlefna fl Belli lyoum, bouteille gris plastique, 1 litre, 3laha markab sghir w l'kaf faw9, kont ndhak biha lma"
+ },
+ "raw": "{\"message\":\"9na tlefna fl Belli lyoum, bouteille gris plastique, 1 litre, 3laha markab sghir w l'kaf faw9, kont ndhak biha lma\"}",
+ "usage": {
+  "queue_time": 0.049196012,
+  "prompt_tokens": 358,
+  "prompt_time": 0.014698453,
+  "completion_tokens": 111,
+  "completion_time": 0.229611467,
+  "total_tokens": 469,
+  "total_time": 0.24430992,
+  "completion_tokens_details": {
+   "reasoning_tokens": 55
+  }
+ }
+}

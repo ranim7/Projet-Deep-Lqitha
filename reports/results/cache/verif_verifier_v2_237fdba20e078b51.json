@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: missing on lost side, no contradiction",
+   "brand: lost null, no contradiction",
+   "marks/contents: no shared distinctive marks",
+   "time/place: found after lost, different place (weak contradiction)"
+  ],
+  "agreements": [
+   "category"
+  ],
+  "contradictions": [],
+  "decision": "possible_match",
+  "confidence": 0.45,
+  "question_for_owner": "Does the bottle have any central marks or other markings on its surface?"
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: missing on lost side, no contradiction\",\"brand: lost null, no contradiction\",\"marks/contents: no shared distinctive marks\",\"time/place: found after lost, different place (weak contradiction)\"],\"agreements\":[\"category\"],\"contradictions\":[],\"decision\":\"possible_match\",\"confidence\":0.45,\"question_for_owner\":\"Does the bottle have any central marks or other markings on its surface?\"}",
+ "usage": {
+  "queue_time": 0.295029377,
+  "prompt_tokens": 803,
+  "prompt_time": 0.043390866,
+  "completion_tokens": 294,
+  "completion_time": 0.606632857,
+  "total_tokens": 1097,
+  "total_time": 0.650023723,
+  "completion_tokens_details": {
+   "reasoning_tokens": 195
+  }
+ },
+ "latency_s": 7.95
+}

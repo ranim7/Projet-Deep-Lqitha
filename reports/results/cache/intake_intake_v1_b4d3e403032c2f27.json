@@ -1,0 +1,29 @@
+{
+ "parsed": {
+  "intent": "request_contact_info",
+  "language": "fr",
+  "slots": {},
+  "missing": [
+   "location",
+   "date_found",
+   "item_description"
+  ],
+  "next_action": "ask_missing",
+  "question_to_user": "Pourriez‑vous me préciser où et quand le sac a été trouvé, ainsi que toute description de la personne ou du lieu afin que je puisse vous fournir le numéro de téléphone du trouvailleur ?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"request_contact_info\",\"language\":\"fr\",\"slots\":{},\"missing\":[\"location\",\"date_found\",\"item_description\"],\"next_action\":\"ask_missing\",\"question_to_user\":\"Pourriez‑vous me préciser où et quand le sac a été trouvé, ainsi que toute description de la personne ou du lieu afin que je puisse vous fournir le numéro de téléphone du trouvailleur ?\"}",
+ "usage": {
+  "queue_time": 0.19390438,
+  "prompt_tokens": 213,
+  "prompt_time": 0.011851856,
+  "completion_tokens": 108,
+  "completion_time": 0.110047258,
+  "total_tokens": 321,
+  "total_time": 0.121899114,
+  "completion_tokens_details": {
+   "reasoning_tokens": 21
+  }
+ },
+ "latency_s": 1.0
+}

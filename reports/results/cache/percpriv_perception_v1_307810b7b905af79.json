@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "Identity Card",
+  "brand": "N/A",
+  "color": "White with blue border",
+  "material": "Plastic",
+  "distinctive_marks": "Number 08765432, Name Ahmed Ben Salah, Date of birth 12/03/1990, French text",
+  "description": "A standard French identity card featuring the number 08765432, the name Ahmed Ben Salah, and the birth date 12/03/1990. The card is white with a blue border, made of durable plastic, and includes the typical security features of a national ID."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"Identity Card\",\"brand\":\"N/A\",\"color\":\"White with blue border\",\"material\":\"Plastic\",\"distinctive_marks\":\"Number 08765432, Name Ahmed Ben Salah, Date of birth 12/03/1990, French text\",\"description\":\"A standard French identity card featuring the number 08765432, the name Ahmed Ben Salah, and the birth date 12/03/1990. The card is white with a blue border, made of durable plastic, and includes the typical security features of a national ID.\"}",
+ "usage": {
+  "queue_time": 0.152310363,
+  "prompt_tokens": 168,
+  "prompt_time": 0.009374631,
+  "completion_tokens": 195,
+  "completion_time": 0.212703352,
+  "total_tokens": 363,
+  "total_time": 0.222077983,
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  }
+ },
+ "latency_s": 0.8
+}

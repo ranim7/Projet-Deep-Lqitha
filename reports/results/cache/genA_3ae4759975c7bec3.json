@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Sabbt l9edma dyali, sbat grey charcoal, kima l7it, 9a3da fi El Hamada lyoum, nseet n9edhom fi l7alqa, ykoun fihom marra wheda."
+ },
+ "raw": "{\"message\":\"Sabbt l9edma dyali, sbat grey charcoal, kima l7it, 9a3da fi El Hamada lyoum, nseet n9edhom fi l7alqa, ykoun fihom marra wheda.\"}",
+ "usage": {
+  "queue_time": 0.378176577,
+  "prompt_tokens": 323,
+  "prompt_time": 0.137890245,
+  "completion_tokens": 104,
+  "completion_time": 0.216542524,
+  "total_tokens": 427,
+  "total_time": 0.354432769,
+  "completion_tokens_details": {
+   "reasoning_tokens": 34
+  }
+ }
+}

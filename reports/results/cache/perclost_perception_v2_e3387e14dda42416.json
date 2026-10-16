@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "transparent",
+  "color_detail": "transparent",
+  "material": "plastic",
+  "distinctive_marks": [],
+  "contents": [
+   "clothes",
+   "watch",
+   "purse",
+   "charger",
+   "cash"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Transparent plastic bag containing clothes, a watch, a purse, a charger, and cash.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"transparent\",\"color_detail\":\"transparent\",\"material\":\"plastic\",\"distinctive_marks\":[],\"contents\":[\"clothes\",\"watch\",\"purse\",\"charger\",\"cash\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Transparent plastic bag containing clothes, a watch, a purse, a charger, and cash.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.049007595,
+  "prompt_tokens": 775,
+  "prompt_time": 0.046469806,
+  "completion_tokens": 247,
+  "completion_time": 0.253262274,
+  "total_tokens": 1022,
+  "total_time": 0.29973208,
+  "completion_tokens_details": {
+   "reasoning_tokens": 132
+  }
+ },
+ "latency_s": 1.05
+}

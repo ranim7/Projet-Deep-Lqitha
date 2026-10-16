@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": null,
+  "brand": "Apple",
+  "model": "iPhone 13",
+  "color_family": "blue",
+  "color_detail": "blue",
+  "material": null,
+  "distinctive_marks": [
+   "screen cracked"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Blue Apple iPhone 13 with cracked screen.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.85
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"phone\",\"subcategory\":null,\"brand\":\"Apple\",\"model\":\"iPhone 13\",\"color_family\":\"blue\",\"color_detail\":\"blue\",\"material\":null,\"distinctive_marks\":[\"screen cracked\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Blue Apple iPhone 13 with cracked screen.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.85}}",
+ "usage": {
+  "queue_time": 0.087498252,
+  "prompt_tokens": 762,
+  "prompt_time": 0.047412523,
+  "completion_tokens": 224,
+  "completion_time": 0.239389233,
+  "total_tokens": 986,
+  "total_time": 0.286801756,
+  "completion_tokens_details": {
+   "reasoning_tokens": 123
+  }
+ },
+ "latency_s": 6.4
+}

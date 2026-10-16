@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Vous devez renouveler votre carte d'identité perdue dans les 30 jours suivant la perte. Contactez la préfecture ou le service d'identité de votre commune pour obtenir un duplicata.",
+  "search_query_fr": "renouveler carte d'identité perdue délai",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Vous devez renouveler votre carte d'identité perdue dans les 30 jours suivant la perte. Contactez la préfecture ou le service d'identité de votre commune pour obtenir un duplicata.\",\"search_query_fr\":\"renouveler carte d'identité perdue délai\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.148018684,
+  "prompt_tokens": 1396,
+  "prompt_time": 0.233298575,
+  "completion_tokens": 178,
+  "completion_time": 0.207757431,
+  "total_tokens": 1574,
+  "total_time": 0.441056006,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 25
+  }
+ },
+ "latency_s": 1.18
+}

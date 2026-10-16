@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "other",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "metal",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black metal laptop stand with a built-in arm for holding a laptop and monitor.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"other\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"metal\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black metal laptop stand with a built-in arm for holding a laptop and monitor.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.95,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.23976169,
+  "prompt_tokens": 791,
+  "prompt_time": 0.044314734,
+  "completion_tokens": 169,
+  "completion_time": 0.185189665,
+  "total_tokens": 960,
+  "total_time": 0.229504399,
+  "completion_tokens_details": {
+   "reasoning_tokens": 68
+  }
+ },
+ "latency_s": 1.57
+}

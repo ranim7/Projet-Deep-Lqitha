@@ -1,0 +1,59 @@
+{
+ "id": "LqithaErrorFlow1",
+ "name": "Lqitha - Error handler",
+ "nodes": [
+  {
+   "parameters": {},
+   "id": "6d2c9e1a-456b-5c0b-aa45-af9610b02cba",
+   "name": "Error Trigger",
+   "type": "n8n-nodes-base.errorTrigger",
+   "typeVersion": 1,
+   "position": [
+    0,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "method": "POST",
+    "url": "={{ $env.LQITHA_API }}/tools/log_error",
+    "options": {
+     "timeout": 120000
+    },
+    "sendBody": true,
+    "specifyBody": "json",
+    "jsonBody": "={{ JSON.stringify({workflow: $json.workflow.name, node: $json.execution.lastNodeExecuted, message: $json.execution.error.message, execution_id: $json.execution.id}) }}"
+   },
+   "id": "8c5e1aaf-bb5a-552a-9cec-0afc979e0d3a",
+   "name": "Tool - Log error",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    220,
+    0
+   ]
+  }
+ ],
+ "connections": {
+  "Error Trigger": {
+   "main": [
+    [
+     {
+      "node": "Tool - Log error",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1"
+ },
+ "pinData": {},
+ "active": false,
+ "meta": {
+  "templateCredsSetupCompleted": true
+ },
+ "tags": []
+}

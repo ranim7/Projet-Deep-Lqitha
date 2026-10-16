@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe have a wallet that matches your lost‑item report. It was found at the Gare de Tunis and appears to be the same type you described.\n\nTo confirm that this is indeed your wallet, could you tell us what hidden detail was inside it? (For example, a specific bill or card.)\n\nThank you!",
+ "usage": {
+  "queue_time": 0.048745417,
+  "prompt_tokens": 166,
+  "prompt_time": 0.006963442,
+  "completion_tokens": 83,
+  "completion_time": 0.1728562,
+  "total_tokens": 249,
+  "total_time": 0.179819642,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9
+  }
+ },
+ "latency_s": 1.22
+}

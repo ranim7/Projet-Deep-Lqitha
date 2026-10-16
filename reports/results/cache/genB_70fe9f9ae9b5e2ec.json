@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li sac kbir couleur gris, fih mobile charger, power bank w data cable, kayn logo rouge, tensa7t le9t lbara7 fi Palestine."
+ },
+ "raw": "{\"message\":\"Dha3li sac kbir couleur gris, fih mobile charger, power bank w data cable, kayn logo rouge, tensa7t le9t lbara7 fi Palestine.\"}",
+ "usage": {
+  "queue_time": 0.085494366,
+  "prompt_tokens": 318,
+  "prompt_time": 0.014906,
+  "completion_tokens": 74,
+  "completion_time": 0.154106758,
+  "total_tokens": 392,
+  "total_time": 0.169012758,
+  "completion_tokens_details": {
+   "reasoning_tokens": 23
+  }
+ }
+}

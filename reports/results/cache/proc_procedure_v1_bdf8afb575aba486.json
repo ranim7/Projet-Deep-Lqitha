@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "I’m sorry, but the documents you shared do not contain any information about the fee for renewing a national identity card in 2026. The law (Loi organique 2024‑22) sets out the procedures, deadlines, and conditions for renewal, but it does not specify the cost.  \n\nTo find the exact renewal fee you would need to consult:\n\n1. **The official website of the Tunisian Ministry of the Interior** or the *Direction Générale de la Sécurité Nationale* – they usually publish the current fee schedule for identity‑card services.  \n2. **The local office of the police or the national identity card service** where you plan to apply – they can give you the most up‑to‑date price.  \n3. **Recent decrees or circulars** issued after the 2024‑22 law, which may set or adjust the fee.\n\nIf you need help locating the specific decree or contacting the relevant office, let me know and I can guide you further.",
+ "usage": {
+  "queue_time": 0.234016442,
+  "prompt_tokens": 1275,
+  "prompt_time": 0.074464073,
+  "completion_tokens": 231,
+  "completion_time": 0.238048515,
+  "total_tokens": 1506,
+  "total_time": 0.312512588,
+  "completion_tokens_details": {
+   "reasoning_tokens": 18
+  }
+ },
+ "latency_s": 2.24
+}

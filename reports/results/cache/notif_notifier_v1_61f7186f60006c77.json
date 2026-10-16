@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe wanted to let you know that a bag matching your description may have been turned in at the Gare de Tunis. To confirm that this is indeed your bag, could you tell us what color the notebook inside was and what type of work was written in it? \n\nThank you!",
+ "usage": {
+  "queue_time": 0.337940485,
+  "prompt_tokens": 161,
+  "prompt_time": 0.063957847,
+  "completion_tokens": 90,
+  "completion_time": 0.187547092,
+  "total_tokens": 251,
+  "total_time": 0.251504939,
+  "completion_tokens_details": {
+   "reasoning_tokens": 23
+  }
+ },
+ "latency_s": 3.08
+}

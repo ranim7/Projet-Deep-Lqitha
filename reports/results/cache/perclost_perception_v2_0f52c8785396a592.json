@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "shoes",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown shoe with no visible brand, lost in the vicinity of a train station.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"shoes\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"brown\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Brown shoe with no visible brand, lost in the vicinity of a train station.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.647083193,
+  "prompt_tokens": 793,
+  "prompt_time": 0.04288804,
+  "completion_tokens": 351,
+  "completion_time": 0.391159172,
+  "total_tokens": 1144,
+  "total_time": 0.434047212,
+  "completion_tokens_details": {
+   "reasoning_tokens": 249
+  }
+ },
+ "latency_s": 2.71
+}

@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "watch",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "red",
+  "color_detail": "red and black",
+  "material": "resin",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Red resin watch with LCD screen, water resistant.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"watch\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"red\",\"color_detail\":\"red and black\",\"material\":\"resin\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Red resin watch with LCD screen, water resistant.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.017866748,
+  "prompt_tokens": 798,
+  "prompt_time": 0.064338674,
+  "completion_tokens": 278,
+  "completion_time": 0.351947944,
+  "total_tokens": 1076,
+  "total_time": 0.416286618,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 180
+  }
+ },
+ "latency_s": 0.83
+}

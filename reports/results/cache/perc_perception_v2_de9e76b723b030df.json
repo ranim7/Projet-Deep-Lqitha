@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "subcategory": "card holder",
+  "brand": "gona",
+  "model": null,
+  "color_family": "pink",
+  "color_detail": "magenta",
+  "material": "leather",
+  "distinctive_marks": [
+   "embossed logo 'gona' on bottom right",
+   "visible stitching on edges"
+  ],
+  "contents": [],
+  "visible_text": "gona",
+  "contains_sensitive_document": false,
+  "canonical_description": "Magenta leather card holder wallet with embossed gona logo and visible stitching on the edges.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.95
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"wallet\",\n  \"subcategory\": \"card holder\",\n  \"brand\": \"gona\",\n  \"model\": null,\n  \"color_family\": \"pink\",\n  \"color_detail\": \"magenta\",\n  \"material\": \"leather\",\n  \"distinctive_marks\": [\n    \"embossed logo 'gona' on bottom right\",\n    \"visible stitching on edges\"\n  ],\n  \"contents\": [],\n  \"visible_text\": \"gona\",\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Magenta leather card holder wallet with embossed gona logo and visible stitching on the edges.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.9,\n    \"brand\": 0.95\n  }\n}",
+ "usage": {
+  "queue_time": 0.136009014,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.177012988,
+  "completion_tokens": 197,
+  "completion_time": 0.43981226,
+  "total_tokens": 2177,
+  "total_time": 0.616825248
+ },
+ "latency_s": 23.77
+}

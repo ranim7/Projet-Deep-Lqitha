@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": "eono",
+  "model": null,
+  "color_family": "multicolor",
+  "color_detail": null,
+  "material": "plastic",
+  "distinctive_marks": [
+   "marked with measurements",
+   "marked with eono"
+  ],
+  "contents": [
+   "water",
+   "lemon"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Multicolor plastic bottle with measurements and the brand 'eono', containing water and a lemon.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.8,
+   "brand": 0.9
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bottle\", \"subcategory\": null, \"brand\": \"eono\", \"model\": null,\n \"color_family\": \"multicolor\", \"color_detail\": null, \"material\": \"plastic\",\n \"distinctive_marks\": [\"marked with measurements\", \"marked with eono\"],\n \"contents\": [\"water\", \"lemon\"], \"visible_text\": null,\n \"contains_sensitive_document\": false,\n \"canonical_description\": \"Multicolor plastic bottle with measurements and the brand 'eono', containing water and a lemon.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.8, \"brand\": 0.9}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 151,
+  "total_tokens": 1142
+ },
+ "latency_s": 16.87
+}

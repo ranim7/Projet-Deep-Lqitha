@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "Wristwatch",
+  "brand": "Fidda",
+  "color": "Silver",
+  "material": "Metal (Silver-toned)",
+  "distinctive_marks": [
+   "Silver-colored casing",
+   "Brown leather bracelet"
+  ],
+  "description": "A silver-colored Fidda wristwatch featuring a brown leather bracelet."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Wristwatch\",\n  \"brand\": \"Fidda\",\n  \"color\": \"Silver\",\n  \"material\": \"Metal (Silver-toned)\",\n  \"distinctive_marks\": [\n    \"Silver-colored casing\",\n    \"Brown leather bracelet\"\n  ],\n  \"description\": \"A silver-colored Fidda wristwatch featuring a brown leather bracelet.\"\n}",
+ "usage": {
+  "queue_time": 0.019540374,
+  "prompt_tokens": 74,
+  "prompt_time": 0.006350254,
+  "completion_tokens": 89,
+  "completion_time": 0.188454628,
+  "total_tokens": 163,
+  "total_time": 0.194804882
+ },
+ "latency_s": 4.44
+}

@@ -1,0 +1,24 @@
+{
+ "parsed": {
+  "category": "credit_card",
+  "brand": "Unknown",
+  "color": "Unknown",
+  "material": "Plastic",
+  "distinctive_marks": [
+   "Card number: 4532 7788 1234 9900"
+  ],
+  "description": "A lost credit card found near the counter. The card number is 4532 7788 1234 9900. No visual details regarding brand, color, or specific design marks are provided in the text."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"credit_card\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Unknown\",\n  \"material\": \"Plastic\",\n  \"distinctive_marks\": [\n    \"Card number: 4532 7788 1234 9900\"\n  ],\n  \"description\": \"A lost credit card found near the counter. The card number is 4532 7788 1234 9900. No visual details regarding brand, color, or specific design marks are provided in the text.\"\n}",
+ "usage": {
+  "queue_time": 0.018860433,
+  "prompt_tokens": 81,
+  "prompt_time": 0.006921773,
+  "completion_tokens": 139,
+  "completion_time": 0.290750032,
+  "total_tokens": 220,
+  "total_time": 0.297671805
+ },
+ "latency_s": 2.52
+}

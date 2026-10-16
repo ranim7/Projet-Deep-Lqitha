@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "category": "shoes",
+  "subcategory": "ankle boots",
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "tan suede",
+  "material": "suede",
+  "distinctive_marks": [
+   "wooden block heel",
+   "pull loop at back",
+   "pointed toe"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Tan suede ankle boots with a wooden block heel, pointed toe, and a pull loop at the back.",
+  "field_confidence": {
+   "category": 1.0,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"shoes\",\n  \"subcategory\": \"ankle boots\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"brown\",\n  \"color_detail\": \"tan suede\",\n  \"material\": \"suede\",\n  \"distinctive_marks\": [\n    \"wooden block heel\",\n    \"pull loop at back\",\n    \"pointed toe\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Tan suede ankle boots with a wooden block heel, pointed toe, and a pull loop at the back.\",\n  \"field_confidence\": {\n    \"category\": 1.0,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.096647,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.165252575,
+  "completion_tokens": 197,
+  "completion_time": 0.392246165,
+  "total_tokens": 2177,
+  "total_time": 0.55749874
+ },
+ "latency_s": 1.4
+}

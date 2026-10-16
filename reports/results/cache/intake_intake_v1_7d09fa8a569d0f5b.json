@@ -1,0 +1,34 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "ar",
+  "slots": {
+   "location": "Sousse",
+   "item_type": "phone",
+   "description": "lost phone in bus"
+  },
+  "missing": [
+   "brand",
+   "model",
+   "color",
+   "distinguishing_features"
+  ],
+  "next_action": "ask_missing",
+  "question_to_user": "هل يمكنك تزويدنا بمعلومات حول هاتفك مثل العلامة التجارية، الموديل، اللون، وأي ميزات مميزة؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"ar\",\"slots\":{\"location\":\"Sousse\",\"item_type\":\"phone\",\"description\":\"lost phone in bus\"},\"missing\":[\"brand\",\"model\",\"color\",\"distinguishing_features\"],\"next_action\":\"ask_missing\",\"question_to_user\":\"هل يمكنك تزويدنا بمعلومات حول هاتفك مثل العلامة التجارية، الموديل، اللون، وأي ميزات مميزة؟\"}",
+ "usage": {
+  "queue_time": 0.047409251,
+  "prompt_tokens": 212,
+  "prompt_time": 0.022987941,
+  "completion_tokens": 125,
+  "completion_time": 0.146004406,
+  "total_tokens": 337,
+  "total_time": 0.168992347,
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ },
+ "latency_s": 0.86
+}

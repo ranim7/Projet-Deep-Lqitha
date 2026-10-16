@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: same pink",
+   "brand: both unknown",
+   "marks/contents: none",
+   "time/place: same date and location"
+  ],
+  "agreements": [
+   "category",
+   "color_family",
+   "place",
+   "date"
+  ],
+  "contradictions": [],
+  "decision": "match",
+  "confidence": 0.86,
+  "question_for_owner": null
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: same pink\",\"brand: both unknown\",\"marks/contents: none\",\"time/place: same date and location\"],\"agreements\":[\"category\",\"color_family\",\"place\",\"date\"],\"contradictions\":[],\"decision\":\"match\",\"confidence\":0.86,\"question_for_owner\":null}",
+ "usage": {
+  "queue_time": 0.234230757,
+  "prompt_tokens": 786,
+  "prompt_time": 0.039729008,
+  "completion_tokens": 144,
+  "completion_time": 0.304356143,
+  "total_tokens": 930,
+  "total_time": 0.344085151,
+  "completion_tokens_details": {
+   "reasoning_tokens": 69
+  }
+ },
+ "latency_s": 9.52
+}

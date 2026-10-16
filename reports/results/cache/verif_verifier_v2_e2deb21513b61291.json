@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: both black (no contradiction)",
+   "brand: both unknown",
+   "marks/contents: no shared distinctive marks",
+   "time/place: found date after lost date, different locations (weak contradiction)"
+  ],
+  "agreements": [
+   "category",
+   "color_family"
+  ],
+  "contradictions": [],
+  "decision": "possible_match",
+  "confidence": 0.62,
+  "question_for_owner": "Does the backpack have wheels attached to it?"
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: both black (no contradiction)\",\"brand: both unknown\",\"marks/contents: no shared distinctive marks\",\"time/place: found date after lost date, different locations (weak contradiction)\"],\"agreements\":[\"category\",\"color_family\"],\"contradictions\":[],\"decision\":\"possible_match\",\"confidence\":0.62,\"question_for_owner\":\"Does the backpack have wheels attached to it?\"}",
+ "usage": {
+  "queue_time": 0.049120342,
+  "prompt_tokens": 811,
+  "prompt_time": 0.03808782,
+  "completion_tokens": 271,
+  "completion_time": 0.804367776,
+  "total_tokens": 1082,
+  "total_time": 0.842455596,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 176
+  }
+ },
+ "latency_s": 6.53
+}

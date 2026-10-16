@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "ar",
+  "slots": {
+   "item_category": "bank_card",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "يمكنك إيقاف البطاقة البنكية عبر تطبيق البنك أو الاتصال بخدمة العملاء على الرقم المخصص لذلك.",
+  "search_query_fr": "comment bloquer une carte bancaire volée",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"ar\",\"slots\":{\"item_category\":\"bank_card\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"يمكنك إيقاف البطاقة البنكية عبر تطبيق البنك أو الاتصال بخدمة العملاء على الرقم المخصص لذلك.\",\"search_query_fr\":\"comment bloquer une carte bancaire volée\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.232272009,
+  "prompt_tokens": 1394,
+  "prompt_time": 0.332370774,
+  "completion_tokens": 153,
+  "completion_time": 0.157735391,
+  "total_tokens": 1547,
+  "total_time": 0.490106165,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "latency_s": 10.51
+}

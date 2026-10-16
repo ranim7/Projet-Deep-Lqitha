@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "Beanie",
+  "brand": "Unknown",
+  "color": "Grey and Navy Blue",
+  "material": "Knitted fabric (likely wool or acrylic blend)",
+  "distinctive_marks": [
+   "Ribbed knit texture",
+   "Two-tone color scheme",
+   "Folded cuff"
+  ],
+  "description": "A two-tone ribbed knit beanie. The main body of the hat is a heather grey color, while the folded cuff at the bottom is a solid dark navy blue. The image includes a full view of the hat and a close-up detail shot of the cuff and texture."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Beanie\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Grey and Navy Blue\",\n  \"material\": \"Knitted fabric (likely wool or acrylic blend)\",\n  \"distinctive_marks\": [\n    \"Ribbed knit texture\",\n    \"Two-tone color scheme\",\n    \"Folded cuff\"\n  ],\n  \"description\": \"A two-tone ribbed knit beanie. The main body of the hat is a heather grey color, while the folded cuff at the bottom is a solid dark navy blue. The image includes a full view of the hat and a close-up detail shot of the cuff and texture.\"\n}",
+ "usage": {
+  "queue_time": 0.33980795,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.101413311,
+  "completion_tokens": 150,
+  "completion_time": 0.292760493,
+  "total_tokens": 1487,
+  "total_time": 0.394173804
+ },
+ "latency_s": 20.21
+}

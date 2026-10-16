@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: pink vs blue (strong contradiction)",
+   "brand: lost unknown vs found UMI (no contradiction)",
+   "marks/contents: none vs logo (no shared)",
+   "time/place: found after lost (ok)"
+  ],
+  "agreements": [],
+  "contradictions": [
+   "color"
+  ],
+  "decision": "no_match",
+  "confidence": 0.1,
+  "question_for_owner": null
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: pink vs blue (strong contradiction)\",\"brand: lost unknown vs found UMI (no contradiction)\",\"marks/contents: none vs logo (no shared)\",\"time/place: found after lost (ok)\"],\"agreements\":[],\"contradictions\":[\"color\"],\"decision\":\"no_match\",\"confidence\":0.1,\"question_for_owner\":null}",
+ "usage": {
+  "queue_time": 0.049204132,
+  "prompt_tokens": 795,
+  "prompt_time": 0.034301894,
+  "completion_tokens": 121,
+  "completion_time": 0.25079512,
+  "total_tokens": 916,
+  "total_time": 0.285097014,
+  "completion_tokens_details": {
+   "reasoning_tokens": 31
+  }
+ },
+ "latency_s": 5.01
+}

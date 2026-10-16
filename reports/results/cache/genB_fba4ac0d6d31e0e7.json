@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Safi lbara7 f Ibn Rachiq t9a3tni sac kbir, couleur gris, fih klitni, cosmetics w clé. Kan mftou7 w ma3ah chwaya d'khout, 3tini ykoun."
+ },
+ "raw": "{\"message\":\"Safi lbara7 f Ibn Rachiq t9a3tni sac kbir, couleur gris, fih klitni, cosmetics w clé. Kan mftou7 w ma3ah chwaya d'khout, 3tini ykoun.\"}",
+ "usage": {
+  "queue_time": 0.090939056,
+  "prompt_tokens": 320,
+  "prompt_time": 0.017210931,
+  "completion_tokens": 96,
+  "completion_time": 0.204853781,
+  "total_tokens": 416,
+  "total_time": 0.222064712,
+  "completion_tokens_details": {
+   "reasoning_tokens": 26
+  }
+ }
+}

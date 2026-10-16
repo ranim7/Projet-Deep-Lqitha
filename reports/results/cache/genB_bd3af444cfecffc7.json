@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Safi, 3andi sac multicolore, fih purse, carte bancaire w carte Aadhar mta3 Yogesh Bawari, 7abbitou fi El Ouardia lyoum."
+ },
+ "raw": "{\"message\":\"Safi, 3andi sac multicolore, fih purse, carte bancaire w carte Aadhar mta3 Yogesh Bawari, 7abbitou fi El Ouardia lyoum.\"}",
+ "usage": {
+  "queue_time": 0.049144025,
+  "prompt_tokens": 327,
+  "prompt_time": 0.014909653,
+  "completion_tokens": 79,
+  "completion_time": 0.16607007,
+  "total_tokens": 406,
+  "total_time": 0.180979723,
+  "completion_tokens_details": {
+   "reasoning_tokens": 26
+  }
+ }
+}

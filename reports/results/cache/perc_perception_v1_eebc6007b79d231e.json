@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "hat",
+  "brand": null,
+  "color": "heather grey",
+  "material": "knitted wool or acrylic blend",
+  "distinctive_marks": [
+   "ribbed cuff",
+   "slouchy fit"
+  ],
+  "description": "A heather grey, slouchy beanie hat with a ribbed cuff. The image also includes a close-up detail of the knit texture."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"hat\",\n  \"brand\": null,\n  \"color\": \"heather grey\",\n  \"material\": \"knitted wool or acrylic blend\",\n  \"distinctive_marks\": [\n    \"ribbed cuff\",\n    \"slouchy fit\"\n  ],\n  \"description\": \"A heather grey, slouchy beanie hat with a ribbed cuff. The image also includes a close-up detail of the knit texture.\"\n}",
+ "usage": {
+  "queue_time": 0.142012407,
+  "prompt_tokens": 1849,
+  "prompt_time": 0.140365738,
+  "completion_tokens": 109,
+  "completion_time": 0.222472255,
+  "total_tokens": 1958,
+  "total_time": 0.362837993
+ },
+ "latency_s": 19.81
+}

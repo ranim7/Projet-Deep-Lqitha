@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": false,
+  "reason": "Answer does not specify a cat"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":false,\"reason\":\"Answer does not specify a cat\"}",
+ "usage": {
+  "queue_time": 0.047020006,
+  "prompt_tokens": 260,
+  "prompt_time": 0.01321281,
+  "completion_tokens": 54,
+  "completion_time": 0.07275683,
+  "total_tokens": 314,
+  "total_time": 0.08596964,
+  "completion_tokens_details": {
+   "reasoning_tokens": 31
+  }
+ },
+ "latency_s": 0.56
+}

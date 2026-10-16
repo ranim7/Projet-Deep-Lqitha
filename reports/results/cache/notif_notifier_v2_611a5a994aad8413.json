@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "owner_message": "Nous avons trouvé un portefeuille à la Gare de Tunis. Pour confirmer que c'est le vôtre, veuillez répondre à la question de vérification.",
+  "challenge_question": "Quel type de billet se trouve dans le portefeuille ?",
+  "finder_message": "Merci pour votre aide. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification."
+ },
+ "strict_json": true,
+ "raw": "{\"owner_message\":\"Nous avons trouvé un portefeuille à la Gare de Tunis. Pour confirmer que c'est le vôtre, veuillez répondre à la question de vérification.\",\"challenge_question\":\"Quel type de billet se trouve dans le portefeuille ?\",\"finder_message\":\"Merci pour votre aide. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification.\"}",
+ "usage": {
+  "queue_time": 0.232277054,
+  "prompt_tokens": 441,
+  "prompt_time": 0.019745577,
+  "completion_tokens": 185,
+  "completion_time": 0.382083332,
+  "total_tokens": 626,
+  "total_time": 0.401828909,
+  "completion_tokens_details": {
+   "reasoning_tokens": 104
+  }
+ },
+ "latency_s": 2.25
+}

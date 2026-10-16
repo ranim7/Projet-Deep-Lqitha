@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "category": "backpack",
+  "brand": "unknown",
+  "color": "red and blue",
+  "material": "nylon",
+  "distinctive_marks": [
+   "two-tone color scheme",
+   "front zippered pocket",
+   "black top carry handle",
+   "black zipper pulls"
+  ],
+  "description": "A two-tone backpack featuring a red main body and a blue top section. It has a black carry handle on top and a zippered pocket on the front."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"backpack\",\n  \"brand\": \"unknown\",\n  \"color\": \"red and blue\",\n  \"material\": \"nylon\",\n  \"distinctive_marks\": [\n    \"two-tone color scheme\",\n    \"front zippered pocket\",\n    \"black top carry handle\",\n    \"black zipper pulls\"\n  ],\n  \"description\": \"A two-tone backpack featuring a red main body and a blue top section. It has a black carry handle on top and a zippered pocket on the front.\"\n}",
+ "usage": {
+  "queue_time": 0.270317005,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.095269039,
+  "completion_tokens": 125,
+  "completion_time": 0.261738614,
+  "total_tokens": 1462,
+  "total_time": 0.357007653
+ },
+ "latency_s": 5.95
+}

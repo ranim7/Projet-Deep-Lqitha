@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "category": "other",
+  "subcategory": "storage case",
+  "brand": null,
+  "model": null,
+  "color_family": "red",
+  "color_detail": "red interior, black exterior",
+  "material": "plastic",
+  "distinctive_marks": [
+   "red interior with grid pattern",
+   "black exterior shell",
+   "red latches"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Red and black plastic storage case with a grid-patterned interior and red latches.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"other\",\n  \"subcategory\": \"storage case\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"red\",\n  \"color_detail\": \"red interior, black exterior\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"red interior with grid pattern\",\n    \"black exterior shell\",\n    \"red latches\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Red and black plastic storage case with a grid-patterned interior and red latches.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.157654073,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.169677844,
+  "completion_tokens": 195,
+  "completion_time": 0.404099629,
+  "total_tokens": 2175,
+  "total_time": 0.573777473
+ },
+ "latency_s": 22.76
+}

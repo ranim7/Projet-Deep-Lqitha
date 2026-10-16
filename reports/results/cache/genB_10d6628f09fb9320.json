@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "فقدت محفظة بنية اللون في فندق Le Millenium، ضاعت أول أمس. فيها بطاقة هوية، بطاقة مترو، بطاقة بنك، وبعض النقود التي تخص ديفيانشو دويڤيدي."
+ },
+ "raw": "{\"message\":\"فقدت محفظة بنية اللون في فندق Le Millenium، ضاعت أول أمس. فيها بطاقة هوية، بطاقة مترو، بطاقة بنك، وبعض النقود التي تخص ديفيانشو دويڤيدي.\"}",
+ "usage": {
+  "queue_time": 0.096483102,
+  "prompt_tokens": 326,
+  "prompt_time": 0.026553596,
+  "completion_tokens": 83,
+  "completion_time": 0.170182589,
+  "total_tokens": 409,
+  "total_time": 0.196736185,
+  "completion_tokens_details": {
+   "reasoning_tokens": 21
+  }
+ }
+}

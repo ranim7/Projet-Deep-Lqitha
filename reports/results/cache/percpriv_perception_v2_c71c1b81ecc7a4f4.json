@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "id_document",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "national ID card"
+  ],
+  "visible_text": "[masked]",
+  "contains_sensitive_document": true,
+  "canonical_description": "National ID card with name and birth date, containing sensitive information document.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"id_document\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[\"national ID card\"],\"visible_text\":\"[masked]\",\"contains_sensitive_document\":true,\"canonical_description\":\"National ID card with name and birth date, containing sensitive information document.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.463710292,
+  "prompt_tokens": 779,
+  "prompt_time": 0.014198479,
+  "completion_tokens": 356,
+  "completion_time": 0.610465215,
+  "total_tokens": 1135,
+  "total_time": 0.624663694,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 250
+  }
+ },
+ "latency_s": 2.81
+}

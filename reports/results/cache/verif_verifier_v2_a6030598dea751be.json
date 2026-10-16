@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same (phone)",
+   "color: black vs grey (weak contradiction)",
+   "brand: both unknown (no contradiction)",
+   "marks/contents: none",
+   "time/place: found after lost date, different locations (weak contradiction)"
+  ],
+  "agreements": [
+   "category"
+  ],
+  "contradictions": [],
+  "decision": "possible_match",
+  "confidence": 0.55,
+  "question_for_owner": "Is the phone case made of wood?"
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same (phone)\",\"color: black vs grey (weak contradiction)\",\"brand: both unknown (no contradiction)\",\"marks/contents: none\",\"time/place: found after lost date, different locations (weak contradiction)\"],\"agreements\":[\"category\"],\"contradictions\":[],\"decision\":\"possible_match\",\"confidence\":0.55,\"question_for_owner\":\"Is the phone case made of wood?\"}",
+ "usage": {
+  "queue_time": 0.296006004,
+  "prompt_tokens": 780,
+  "prompt_time": 0.039924971,
+  "completion_tokens": 304,
+  "completion_time": 0.634273845,
+  "total_tokens": 1084,
+  "total_time": 0.674198816,
+  "completion_tokens_details": {
+   "reasoning_tokens": 209
+  }
+ },
+ "latency_s": 5.36
+}

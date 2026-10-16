@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": false,
+  "reason": "Answer is too vague"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":false,\"reason\":\"Answer is too vague\"}",
+ "usage": {
+  "queue_time": 0.090521592,
+  "prompt_tokens": 265,
+  "prompt_time": 0.01552796,
+  "completion_tokens": 71,
+  "completion_time": 0.07620402,
+  "total_tokens": 336,
+  "total_time": 0.09173198,
+  "completion_tokens_details": {
+   "reasoning_tokens": 50
+  }
+ },
+ "latency_s": 0.72
+}

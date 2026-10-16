@@ -1,0 +1,28 @@
+{
+ "parsed": {
+  "intent": "report_lost_card",
+  "language": "ar",
+  "slots": {},
+  "missing": [
+   "card_number",
+   "user_id"
+  ],
+  "next_action": "ask_for_missing_info",
+  "question_to_user": "هل يمكنك تزويدنا برقم بطاقتك أو رقم هوية المستخدم لتتمكن من متابعة عملية الإبلاغ؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_card\",\"language\":\"ar\",\"slots\":{},\"missing\":[\"card_number\",\"user_id\"],\"next_action\":\"ask_for_missing_info\",\"question_to_user\":\"هل يمكنك تزويدنا برقم بطاقتك أو رقم هوية المستخدم لتتمكن من متابعة عملية الإبلاغ؟\"}",
+ "usage": {
+  "queue_time": 0.198881087,
+  "prompt_tokens": 205,
+  "prompt_time": 0.049338968,
+  "completion_tokens": 145,
+  "completion_time": 0.15564798,
+  "total_tokens": 350,
+  "total_time": 0.204986948,
+  "completion_tokens_details": {
+   "reasoning_tokens": 73
+  }
+ },
+ "latency_s": 0.98
+}

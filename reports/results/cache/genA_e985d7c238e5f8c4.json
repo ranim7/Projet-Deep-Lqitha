@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu ma montre noire et argentée à Henchir Souatir avant‑hier, avec un petit écran LCD et un bracelet résine, très pratique et étanche."
+ },
+ "raw": "{\"message\":\"J'ai perdu ma montre noire et argentée à Henchir Souatir avant‑hier, avec un petit écran LCD et un bracelet résine, très pratique et étanche.\"}",
+ "usage": {
+  "queue_time": 0.29927139,
+  "prompt_tokens": 352,
+  "prompt_time": 0.092694229,
+  "completion_tokens": 121,
+  "completion_time": 0.2490612,
+  "total_tokens": 473,
+  "total_time": 0.341755429,
+  "completion_tokens_details": {
+   "reasoning_tokens": 72
+  }
+ }
+}

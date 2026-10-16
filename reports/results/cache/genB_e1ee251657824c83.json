@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon sac de transport noir en toile à La Marsa Plage avant‑hier, il contenait mon chargeur, mes écouteurs, quelques vêtements et mon mobile."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon sac de transport noir en toile à La Marsa Plage avant‑hier, il contenait mon chargeur, mes écouteurs, quelques vêtements et mon mobile.\"}",
+ "usage": {
+  "queue_time": 0.295292335,
+  "prompt_tokens": 317,
+  "prompt_time": 0.015069736,
+  "completion_tokens": 141,
+  "completion_time": 0.290310019,
+  "total_tokens": 458,
+  "total_time": 0.305379755,
+  "completion_tokens_details": {
+   "reasoning_tokens": 91
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li n9ass 3liya lunettes marron b print cheetah, kima chi tkharej fil 7ouma. Kounou fl Zaafrane, wa9t awel lbera7, ma3andich brand, just l'style unique."
+ },
+ "raw": "{\"message\":\"Dha3li n9ass 3liya lunettes marron b print cheetah, kima chi tkharej fil 7ouma. Kounou fl Zaafrane, wa9t awel lbera7, ma3andich brand, just l'style unique.\"}",
+ "usage": {
+  "queue_time": 0.296632887,
+  "prompt_tokens": 368,
+  "prompt_time": 0.019021401,
+  "completion_tokens": 111,
+  "completion_time": 0.233006585,
+  "total_tokens": 479,
+  "total_time": 0.252027986,
+  "completion_tokens_details": {
+   "reasoning_tokens": 36
+  }
+ }
+}

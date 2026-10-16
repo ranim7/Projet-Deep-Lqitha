@@ -1,0 +1,45 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "leather",
+  "distinctive_marks": [
+   "red zipper"
+  ],
+  "contents": [
+   "bank cards",
+   "cash",
+   "keychain"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black leather handbag with a red zipper, containing bank cards, cash, and a keychain.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"leather\",\"distinctive_marks\":[\"red zipper\"],\"contents\":[\"bank cards\",\"cash\",\"keychain\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black leather handbag with a red zipper, containing bank cards, cash, and a keychain.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.233613105,
+  "prompt_tokens": 785,
+  "prompt_time": 1.371827858,
+  "completion_tokens": 201,
+  "completion_time": 0.210025384,
+  "total_tokens": 986,
+  "total_time": 1.581853242,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 85
+  }
+ },
+ "latency_s": 2.71
+}

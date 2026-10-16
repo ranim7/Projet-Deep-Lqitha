@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "category": "other",
+  "subcategory": "sports equipment",
+  "brand": "Amazon Basics",
+  "model": null,
+  "color_family": "yellow",
+  "color_detail": "yellow and white",
+  "material": "plastic, mesh",
+  "distinctive_marks": [
+   "brand logo on side pole"
+  ],
+  "contents": [],
+  "visible_text": "amazon basics",
+  "contains_sensitive_document": false,
+  "canonical_description": "Yellow and white plastic and mesh sports goal with Amazon Basics branding on the side.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.95
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"other\",\n  \"subcategory\": \"sports equipment\",\n  \"brand\": \"Amazon Basics\",\n  \"model\": null,\n  \"color_family\": \"yellow\",\n  \"color_detail\": \"yellow and white\",\n  \"material\": \"plastic, mesh\",\n  \"distinctive_marks\": [\n    \"brand logo on side pole\"\n  ],\n  \"contents\": [],\n  \"visible_text\": \"amazon basics\",\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Yellow and white plastic and mesh sports goal with Amazon Basics branding on the side.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.95\n  }\n}",
+ "usage": {
+  "queue_time": 0.552119072,
+  "prompt_tokens": 2492,
+  "prompt_time": 0.218834906,
+  "completion_tokens": 185,
+  "completion_time": 0.394389025,
+  "total_tokens": 2677,
+  "total_time": 0.613223931
+ },
+ "latency_s": 25.47
+}

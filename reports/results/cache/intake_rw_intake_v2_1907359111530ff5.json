@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "en",
+  "slots": {
+   "item_category": "other",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "other",
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Yes, Tunisair has a baggage delay policy. If your checked baggage is delayed, you can claim reimbursement for essential items you had to purchase while waiting for your luggage. You should keep receipts and submit a claim to the airline’s customer service within the specified time frame (usually 7 days). The exact amount and procedure can vary, so it’s best to check the airline’s official website or contact their customer support for the most accurate information.",
+  "search_query_fr": "baggage retard remboursement Tunisair",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"en\",\"slots\":{\"item_category\":\"other\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"other\",\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Yes, Tunisair has a baggage delay policy. If your checked baggage is delayed, you can claim reimbursement for essential items you had to purchase while waiting for your luggage. You should keep receipts and submit a claim to the airline’s customer service within the specified time frame (usually 7 days). The exact amount and procedure can vary, so it’s best to check the airline’s official website or contact their customer support for the most accurate information.\",\"search_query_fr\":\"baggage retard remboursement Tunisair\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.235233741,
+  "prompt_tokens": 1394,
+  "prompt_time": 0.070870821,
+  "completion_tokens": 216,
+  "completion_time": 0.270036443,
+  "total_tokens": 1610,
+  "total_time": 0.340907264,
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "latency_s": 1.47
+}

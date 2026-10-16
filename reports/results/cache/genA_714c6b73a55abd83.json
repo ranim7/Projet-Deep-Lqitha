@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon parapluie noir à Ettadhamen avant‑hier. C’est un gros parapluie de golf, automatique, avec une tige canne solide, coupe‑vent et incassable, très résistant."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon parapluie noir à Ettadhamen avant‑hier. C’est un gros parapluie de golf, automatique, avec une tige canne solide, coupe‑vent et incassable, très résistant.\"}",
+ "usage": {
+  "queue_time": 0.087250545,
+  "prompt_tokens": 361,
+  "prompt_time": 0.014418798,
+  "completion_tokens": 109,
+  "completion_time": 0.226920881,
+  "total_tokens": 470,
+  "total_time": 0.241339679,
+  "completion_tokens_details": {
+   "reasoning_tokens": 47
+  }
+ }
+}

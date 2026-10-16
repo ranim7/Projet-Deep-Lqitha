@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "brand": "A.W. Peruzzi",
+  "color": "olive green",
+  "material": "leather",
+  "distinctive_marks": [
+   "perforated floral pattern",
+   "circular metal charm with 'A&W' logo"
+  ],
+  "description": "An olive green leather wallet featuring a decorative perforated floral design on the front flap. It is accented with a circular, rose-gold or silver-toned metal charm hanging from the left side, which displays the 'A&W' logo."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"wallet\",\n  \"brand\": \"A.W. Peruzzi\",\n  \"color\": \"olive green\",\n  \"material\": \"leather\",\n  \"distinctive_marks\": [\n    \"perforated floral pattern\",\n    \"circular metal charm with 'A&W' logo\"\n  ],\n  \"description\": \"An olive green leather wallet featuring a decorative perforated floral design on the front flap. It is accented with a circular, rose-gold or silver-toned metal charm hanging from the left side, which displays the 'A&W' logo.\"\n}",
+ "usage": {
+  "queue_time": 0.110048249,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.094476094,
+  "completion_tokens": 136,
+  "completion_time": 0.275696193,
+  "total_tokens": 1473,
+  "total_time": 0.370172287
+ },
+ "latency_s": 19.79
+}

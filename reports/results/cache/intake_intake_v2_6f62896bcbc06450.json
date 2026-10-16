@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "derja",
+  "slots": {
+   "item_category": "bank_card",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": "old",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "date",
+   "place",
+   "photo",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Waqtech l9itou?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.88
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"derja\",\"slots\":{\"item_category\":\"bank_card\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":\"old\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"date\",\"place\",\"photo\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Waqtech l9itou?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.88}",
+ "usage": {
+  "queue_time": 0.084854342,
+  "prompt_tokens": 1394,
+  "prompt_time": 0.099007268,
+  "completion_tokens": 162,
+  "completion_time": 0.173367813,
+  "total_tokens": 1556,
+  "total_time": 0.272375081,
+  "completion_tokens_details": {
+   "reasoning_tokens": 39
+  }
+ },
+ "latency_s": 11.8
+}

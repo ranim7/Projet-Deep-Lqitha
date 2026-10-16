@@ -1,0 +1,30 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "en",
+  "slots": {
+   "location": "Enfidha airport",
+   "item": "backpack",
+   "color": "grey",
+   "contains": "laptop"
+  },
+  "missing": [],
+  "next_action": "collect_contact_info",
+  "question_to_user": "Could you please provide your contact details (phone number or email) so we can keep you updated on the status of your lost backpack?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"en\",\"slots\":{\"location\":\"Enfidha airport\",\"item\":\"backpack\",\"color\":\"grey\",\"contains\":\"laptop\"},\"missing\":[],\"next_action\":\"collect_contact_info\",\"question_to_user\":\"Could you please provide your contact details (phone number or email) so we can keep you updated on the status of your lost backpack?\"}",
+ "usage": {
+  "queue_time": 0.017053725,
+  "prompt_tokens": 208,
+  "prompt_time": 0.010125889,
+  "completion_tokens": 163,
+  "completion_time": 0.169274117,
+  "total_tokens": 371,
+  "total_time": 0.179400006,
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  }
+ },
+ "latency_s": 1.26
+}

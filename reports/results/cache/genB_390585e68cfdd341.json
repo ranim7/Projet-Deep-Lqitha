@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "I lost my brown leather bag at Bazarr this morning; inside were my Aadhar, a few bracelets, keys, a small bottle of oil, cash and a note from Kamini Nagwansi."
+ },
+ "raw": "{\"message\":\"I lost my brown leather bag at Bazarr this morning; inside were my Aadhar, a few bracelets, keys, a small bottle of oil, cash and a note from Kamini Nagwansi.\"}",
+ "usage": {
+  "queue_time": 0.04894498,
+  "prompt_tokens": 320,
+  "prompt_time": 0.015740549,
+  "completion_tokens": 87,
+  "completion_time": 0.180458609,
+  "total_tokens": 407,
+  "total_time": 0.196199158,
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "category": "headphones",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "pink",
+  "color_detail": "pink",
+  "material": "plastic",
+  "distinctive_marks": [
+   "unique design"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Pink plastic headphones with a unique design.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"headphones\",\n  \"subcategory\": null,\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"pink\",\n  \"color_detail\": \"pink\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"unique design\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Pink plastic headphones with a unique design.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.019434037,
+  "prompt_tokens": 731,
+  "prompt_time": 0.062641721,
+  "completion_tokens": 159,
+  "completion_time": 0.329549199,
+  "total_tokens": 890,
+  "total_time": 0.39219092
+ },
+ "latency_s": 7.33
+}

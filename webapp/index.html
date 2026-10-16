@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lqitha · objets perdus et trouvés en Tunisie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Lqitha - palette from the Tunisian street: Sidi Bou Said door blue, whitewash, louage red stripe, taxi yellow */
+:root{
+  --wash:#F4F7FB; --paper:#FFFFFF; --ink:#13233F; --muted:#5E6B80; --line:#DCE3EC;
+  --bab:#1B4F9C; --bab-ink:#FFFFFF; --bab-tint:#E6EEF9; --bab-deep:#123A75;
+  --louage:#D62839; --louage-tint:#FCE9EB; --sun:#F2B134; --sun-tint:#FDF3DE; --olive:#2E7D4F; --olive-tint:#E4F3EA;
+  --r-s:8px; --r-m:14px; --r-l:22px;
+  --shadow:0 1px 2px rgba(19,35,63,.06),0 8px 24px rgba(19,35,63,.06);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--wash);color:var(--ink);font:400 15px/1.55 "Readex Pro",system-ui,"Segoe UI",Tahoma,sans-serif;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.hidden{display:none!important}
+
+/* ------------------------------------------------------------ header */
+header{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--line)}
+.bar{max-width:1280px;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;gap:28px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--ink)}
+.brand .lat{font-weight:700;font-size:24px;letter-spacing:-.02em}
+.brand .ar{font-weight:600;font-size:22px;color:var(--bab)}
+.stripe{display:inline-flex;gap:3px;margin-left:2px;align-self:center}
+.stripe i{display:block;width:5px;height:18px;border-radius:2px;background:var(--louage);transform:skewX(-18deg)}
+.stripe i:nth-child(2){background:var(--bab)}.stripe i:nth-child(3){background:var(--sun)}
+nav{display:flex;gap:4px;height:100%}
+nav button{border:0;background:none;padding:0 14px;height:100%;cursor:pointer;color:var(--muted);font-weight:500;border-bottom:3px solid transparent;margin-bottom:-1px}
+nav button:hover{color:var(--ink)}
+nav button.active{color:var(--bab);border-bottom-color:var(--bab)}
+nav .count{display:inline-block;min-width:22px;padding:0 6px;margin-left:6px;border-radius:11px;background:var(--bab-tint);color:var(--bab);font-size:12px;line-height:20px;text-align:center}
+nav .count:empty{display:none}
+nav button{white-space:nowrap}nav .sh{display:none}
+.health{margin-left:auto;display:flex;gap:12px;font-size:12px;color:var(--muted)}
+.health span{display:inline-flex;align-items:center;gap:5px}
+.dot{width:8px;height:8px;border-radius:50%;background:#B8C2D0}.dot.on{background:var(--olive)}.dot.off{background:var(--louage)}
+
+main{max-width:1280px;margin:0 auto;padding:24px}
+
+/* ------------------------------------------------------------ assistant */
+#chatTab{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:24px;align-items:start}
+#chat{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-l);display:flex;flex-direction:column;height:calc(100vh - 112px);min-height:540px;box-shadow:var(--shadow);overflow:hidden}
+#log{flex:1;overflow-y:auto;padding:24px;display:flex;flex-direction:column;gap:14px;scroll-behavior:smooth}
+.msg{max-width:74%;padding:12px 16px;border-radius:18px;white-space:pre-wrap;word-wrap:break-word;line-height:1.55}
+.bot{background:var(--wash);align-self:flex-start;border-bottom-left-radius:6px}
+.me{background:var(--bab);color:var(--bab-ink);align-self:flex-end;border-bottom-right-radius:6px}
+.sys{align-self:center;background:var(--sun-tint);color:#7A5300;font-size:13px;max-width:90%;border-radius:12px;padding:8px 14px}
+.msg img{max-width:220px;border-radius:12px;display:block;margin-top:8px}
+.msg b{font-weight:600}
+.meta{font-size:12px;color:var(--muted);margin-top:6px}
+.src{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;white-space:normal}
+.src a{font-size:12px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--bab);text-decoration:none}
+.src a:hover{border-color:var(--bab)}
+.typing{color:var(--muted)}
+.typing .dots{display:inline-flex;gap:4px;margin-left:6px;vertical-align:middle}
+.typing .dots i{width:6px;height:6px;border-radius:50%;background:var(--bab);opacity:.3;animation:blink 1.2s infinite}
+.typing .dots i:nth-child(2){animation-delay:.2s}.typing .dots i:nth-child(3){animation-delay:.4s}
+@keyframes blink{50%{opacity:1}}
+
+/* the match card in the chat is a luggage tag */
+.card{position:relative;margin-top:12px;background:var(--paper);border:1.5px solid var(--bab);border-radius:10px 22px 22px 10px;padding:14px 16px 14px 44px;white-space:normal;font-size:14px}
+.card::before{content:"";position:absolute;left:14px;top:50%;width:14px;height:14px;margin-top:-7px;border-radius:50%;border:1.5px solid var(--bab);background:var(--wash)}
+.badge{display:inline-block;font-size:12px;font-weight:600;padding:2px 10px;border-radius:999px;background:var(--olive-tint);color:var(--olive);vertical-align:middle}
+.badge.p{background:var(--sun-tint);color:#7A5300}
+.badge.r{background:var(--louage-tint);color:var(--louage)}
+
+#bar{border-top:1px solid var(--line);padding:14px 18px 16px;display:flex;flex-direction:column;gap:10px;background:var(--paper)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.field{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:13px}
+select,input.small{border:1px solid var(--line);border-radius:var(--r-s);padding:8px 10px;font-size:13px;background:var(--paper);max-width:250px}
+select:hover,input.small:hover{border-color:#B8C4D4}
+.composer{display:flex;gap:8px;align-items:flex-end;border:1.5px solid var(--line);border-radius:16px;padding:6px 6px 6px 14px;background:var(--paper)}
+.composer:focus-within{border-color:var(--bab)}
+#text{flex:1;border:0;outline:0;resize:none;overflow-y:hidden;min-height:40px;max-height:140px;padding:9px 0;background:transparent}
+.ibtn{width:42px;height:42px;border:0;border-radius:12px;background:var(--wash);cursor:pointer;display:grid;place-items:center;color:var(--bab)}
+.ibtn:hover{background:var(--bab-tint)}
+.ibtn svg{width:20px;height:20px}
+.ibtn.rec{background:var(--louage);color:#fff;animation:pulse 1.2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 6px var(--louage-tint)}}
+.send{height:42px;padding:0 20px;border:0;border-radius:12px;background:var(--bab);color:#fff;font-weight:600;cursor:pointer}
+.send:hover{background:var(--bab-deep)}
+#preview{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:10px}
+#preview:empty{display:none}
+#preview img{height:44px;border-radius:8px}
+#preview a{color:var(--louage)}
+
+/* side panel */
+aside{display:flex;flex-direction:column;gap:16px;position:sticky;top:88px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-l);padding:18px 18px 20px}
+.panel h3{margin:0 0 12px;font-size:15px;font-weight:600}
+.intents{display:grid;gap:8px}
+.intent{display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:1px solid var(--line);background:var(--paper);border-radius:var(--r-m);padding:12px 14px;cursor:pointer}
+.intent:hover{border-color:var(--bab);background:var(--bab-tint)}
+.intent .ico{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;flex:none}
+.intent .ico svg{width:20px;height:20px}
+.intent strong{display:block;font-weight:600;font-size:14px}
+.intent small{color:var(--muted);font-size:12px}
+.i-lost .ico{background:var(--louage-tint);color:var(--louage)}
+.i-found .ico{background:var(--olive-tint);color:var(--olive)}
+.i-proc .ico{background:var(--bab-tint);color:var(--bab)}
+
+/* agent pipeline */
+.pipe{list-style:none;margin:0;padding:0;position:relative}
+.pipe::before{content:"";position:absolute;left:13px;top:14px;bottom:14px;width:2px;background:var(--line)}
+.pipe li{position:relative;display:flex;gap:12px;align-items:flex-start;padding:6px 0}
+.pipe .n{position:relative;z-index:1;width:28px;height:28px;flex:none;border-radius:50%;background:var(--paper);border:2px solid var(--line);display:grid;place-items:center;font-size:12px;font-weight:600;color:var(--muted)}
+.pipe .t{font-size:14px;font-weight:500;line-height:1.25;padding-top:3px}
+.pipe .d{display:block;font-size:12px;color:var(--muted);font-weight:400}
+.pipe li.run .n{border-color:var(--bab);color:var(--bab);animation:pulseb 1.1s infinite}
+@keyframes pulseb{50%{box-shadow:0 0 0 5px var(--bab-tint)}}
+.pipe li.done .n{background:var(--bab);border-color:var(--bab);color:#fff}
+.pipe li.skip{opacity:.38}
+.pipe-foot{margin-top:10px;font-size:12px;color:var(--muted)}
+.examples{display:flex;flex-direction:column;gap:6px}
+.chip{font-size:13px;text-align:left;border:0;background:var(--wash);border-radius:10px;padding:8px 12px;cursor:pointer}
+.chip:hover{background:var(--bab-tint)}
+.chip[dir=rtl]{text-align:right}
+
+/* ------------------------------------------------------------ found items board */
+.board-head{display:flex;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:18px}
+.board-head h1{margin:0;font-size:30px;font-weight:600;letter-spacing:-.02em;line-height:1.15}
+.board-head p{margin:4px 0 0;color:var(--muted)}
+.kpis{margin-left:auto;display:flex;gap:28px}
+.kpi strong{display:block;font-size:26px;font-weight:600;line-height:1.1;color:var(--bab)}
+.kpi span{font-size:12px;color:var(--muted)}
+.filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.search{flex:1;min-width:240px;display:flex;align-items:center;gap:8px;border:1.5px solid var(--line);background:var(--paper);border-radius:12px;padding:0 12px}
+.search:focus-within{border-color:var(--bab)}
+.search input{flex:1;border:0;outline:0;padding:11px 0;background:transparent}
+.search svg{width:18px;height:18px;color:var(--muted)}
+.langsw{display:inline-flex;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:3px;gap:2px}
+.langsw button{border:0;background:none;border-radius:9px;padding:6px 12px;font-size:13px;cursor:pointer;color:var(--muted)}
+.langsw button.on{background:var(--bab);color:#fff}
+.tr-note{font-size:12px;color:var(--muted);margin:-6px 0 14px}
+.newconv{margin-left:auto;border:0;background:none;color:var(--bab);font-size:13px;cursor:pointer;padding:6px 4px}
+.newconv:hover{text-decoration:underline}
+.cats{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px}
+.cat{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer}
+.cat:hover{border-color:var(--bab)}
+.cat.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.cat small{color:inherit;opacity:.6;margin-left:6px}
+
+#board{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+/* luggage tag */
+.tagc{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:14px 14px 18px 18px;cursor:pointer;text-align:left;padding:0;overflow:hidden;display:flex;flex-direction:column}
+.tagc:hover{border-color:var(--bab);box-shadow:var(--shadow)}
+.tagc .top{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-bottom:1.5px dashed var(--line);width:100%}
+.tagc .hole{width:12px;height:12px;border-radius:50%;border:1.5px solid #B8C4D4;background:var(--wash)}
+.tagc .no{font-weight:600;font-size:13px;letter-spacing:.02em;color:var(--bab);font-variant-numeric:tabular-nums}
+.tagc .pic{height:150px;background:var(--wash);display:grid;place-items:center;width:100%}
+.tagc .pic.noimg{height:76px}
+.tagc .pic.noimg .ph svg{width:30px;height:30px}
+.tagc .pic img{max-width:100%;max-height:150px;object-fit:contain;mix-blend-mode:multiply}
+.ph{color:#9AA8BB}.ph svg{width:44px;height:44px}
+.tagc .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1;width:100%}
+.tagc .cat-l{font-size:12px;font-weight:600;color:var(--louage)}
+.tagc .desc{font-size:14px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tagc .where{margin-top:auto;font-size:12px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.tagc .where svg{width:14px;height:14px;flex:none}
+.empty{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--muted);background:var(--paper);border:1px dashed var(--line);border-radius:var(--r-l)}
+.more{display:block;margin:22px auto 0;border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:10px 20px;cursor:pointer}
+
+/* detail dialog */
+dialog{border:0;padding:0;border-radius:var(--r-l);max-width:760px;width:calc(100% - 32px);box-shadow:0 30px 80px rgba(19,35,63,.25)}
+dialog::backdrop{background:rgba(19,35,63,.45)}
+.dlg{display:grid;grid-template-columns:1fr 1fr}
+.dlg.solo{grid-template-columns:1fr}.dlg.solo .pic{display:none}
+.dlg .pic{background:var(--wash);display:grid;place-items:center;min-height:320px}
+.dlg .pic img{max-width:100%;max-height:380px;mix-blend-mode:multiply}
+.dlg .info{padding:26px;display:flex;flex-direction:column;gap:12px}
+.dlg h2{margin:0;font-size:22px;font-weight:600;line-height:1.25}
+.dlg dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:14px}
+.dlg dt{color:var(--muted)}.dlg dd{margin:0}
+.dlg .note{font-size:13px;color:var(--muted);background:var(--wash);border-radius:12px;padding:10px 12px}
+.dlg .actions{margin-top:auto;display:flex;gap:8px}
+.close{position:absolute;right:12px;top:12px;width:36px;height:36px;border-radius:50%;border:0;background:var(--paper);cursor:pointer;font-size:20px;line-height:1;box-shadow:var(--shadow);z-index:2}
+
+/* ------------------------------------------------------------ my reports */
+.mine-head h1{margin:0 0 4px;font-size:30px;font-weight:600;letter-spacing:-.02em}
+.mine-head p{margin:0 0 20px;color:var(--muted)}
+#mine{display:grid;gap:14px;max-width:880px}
+.rep{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-l);padding:18px 20px;display:grid;grid-template-columns:72px 1fr;gap:16px}
+.rep .thumb{width:72px;height:72px;border-radius:12px;background:var(--wash);display:grid;place-items:center;overflow:hidden;color:#9AA8BB}
+.rep .thumb img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+.rep .thumb svg{width:30px;height:30px}
+.rep h4{margin:0;font-size:16px;font-weight:600;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.rep .sub{font-size:13px;color:var(--muted);margin:2px 0 14px}
+.steps{display:flex;list-style:none;margin:0;padding:0}
+.steps li{flex:1;position:relative;font-size:12px;color:var(--muted);padding-top:20px;padding-right:8px}
+.steps li::before{content:"";position:absolute;top:4px;left:0;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--line);z-index:1}
+.steps li::after{content:"";position:absolute;top:9px;left:12px;right:0;height:2px;background:var(--line)}
+.steps li:last-child::after{display:none}
+.steps li.ok{color:var(--ink)}
+.steps li.ok::before{background:var(--bab);border-color:var(--bab)}
+.steps li.ok::after{background:var(--bab)}
+.steps li.now::before{box-shadow:0 0 0 4px var(--bab-tint)}
+.steps li.now::after{background:var(--line)}
+
+@media (max-width:1080px){#chatTab{grid-template-columns:1fr}aside{position:static}.side-pipe{display:none}}
+@media (max-width:720px){
+  .bar{gap:12px;padding:0 14px;height:56px}.brand .ar,.stripe{display:none}.health{display:none}
+  nav button{padding:0 9px;font-size:14px}nav .count{display:none}
+  main{padding:14px}#chat{height:calc(100vh - 90px)}#log{padding:14px}.msg{max-width:90%}
+  nav .lg{display:none}nav .sh{display:inline}
+  #board{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.tagc .pic{height:110px}.tagc .pic img{max-height:110px}.tagc .desc{font-size:13px}
+  .cats{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}.cat{white-space:nowrap}
+  #gov,#place{flex:1;min-width:0}.field{flex:1}.send{padding:0 14px}.composer{padding-left:10px}
+  #cname,#cphone{display:none}.kpis{margin-left:0}.dlg{grid-template-columns:1fr}.dlg .pic{min-height:220px}
+  .board-head h1,.mine-head h1{font-size:24px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="#" aria-label="Lqitha, accueil"><span class="lat">Lqitha</span><span class="ar" lang="ar">لقيتها</span><span class="stripe" aria-hidden="true"><i></i><i></i><i></i></span></a>
+    <nav aria-label="Sections">
+      <button class="active" data-tab="chatTab">Assistant</button>
+      <button data-tab="boardTab"><span class="lg">Objets trouvés</span><span class="sh">Trouvés</span><span class="count" id="foundCount"></span></button>
+      <button data-tab="myTab"><span class="lg">Mes déclarations</span><span class="sh">Suivi</span></button>
+    </nav>
+    <div class="health" id="health" aria-label="État des services"></div>
+  </div>
+</header>
+
+<main>
+  <!-- ======================================================= ASSISTANT -->
+  <section id="chatTab">
+    <section id="chat" aria-label="Conversation avec Lqitha">
+      <div id="log" aria-live="polite"></div>
+      <div id="bar">
+        <div class="row">
+          <label class="field">Lieu
+            <select id="gov" aria-label="Gouvernorat"><option value="">Gouvernorat</option></select>
+          </label>
+          <select id="place" aria-label="Lieu précis"><option value="">Gare, aéroport, louage…</option></select>
+          <input class="small" id="cname" placeholder="Votre nom (optionnel)" aria-label="Nom">
+          <input class="small" id="cphone" placeholder="Téléphone (optionnel)" aria-label="Téléphone">
+          <button class="newconv" id="newconv" title="Efface la conversation et recommence (nouvelle langue possible)">Nouvelle conversation</button>
+        </div>
+        <div id="preview"></div>
+        <div class="composer">
+          <textarea id="text" rows="1" placeholder="Écrivez en derja, français, arabe ou anglais…" aria-label="Votre message"></textarea>
+          <label class="ibtn" title="Ajouter une photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg><input id="photo" type="file" accept="image/*" class="hidden"></label>
+          <button class="ibtn" id="mic" title="Envoyer un message vocal" aria-label="Message vocal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
+          <button class="send" id="send">Envoyer</button>
+        </div>
+      </div>
+    </section>
+
+    <aside>
+      <div class="panel">
+        <h3>Que voulez-vous faire ?</h3>
+        <div class="intents">
+          <button class="intent i-lost" data-prefill="J'ai perdu "><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></svg></span><span><strong>J'ai perdu un objet</strong><small>Décrivez-le, même de mémoire</small></span></button>
+          <button class="intent i-found" data-prefill="J'ai trouvé "><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg></span><span><strong>J'ai trouvé un objet</strong><small>Une photo suffit pour commencer</small></span></button>
+          <button class="intent i-proc" data-prefill="Que faire si j'ai perdu "><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 3h9l3 3v15H6z"/><path d="M9 10h6M9 14h6M9 18h4"/></svg></span><span><strong>Une démarche</strong><small>Carte d'identité, passeport, bagage…</small></span></button>
+        </div>
+      </div>
+
+      <div class="panel side-pipe">
+        <h3>Les agents sur votre dernier message</h3>
+        <ol class="pipe" id="pipe">
+          <li data-k="intake"><span class="n">1</span><span class="t">Compréhension<span class="d">Intake · gpt-oss-20b</span></span></li>
+          <li data-k="perception"><span class="n">2</span><span class="t">Description de l'objet<span class="d">Perception · Qwen vision</span></span></li>
+          <li data-k="matcher"><span class="n">3</span><span class="t">Recherche des correspondances<span class="d">Matcher · bge-m3</span></span></li>
+          <li data-k="verifier"><span class="n">4</span><span class="t">Vérification<span class="d">Verifier · gpt-oss-120b</span></span></li>
+          <li data-k="notifier"><span class="n">5</span><span class="t">Message et question secrète<span class="d">Notifier · gpt-oss-120b</span></span></li>
+          <li data-k="procedure"><span class="n">6</span><span class="t">Démarches officielles<span class="d">Procedure · RAG</span></span></li>
+          <li data-k="claim"><span class="n">7</span><span class="t">Contrôle du propriétaire<span class="d">Claim check · gpt-oss-20b</span></span></li>
+        </ol>
+        <div class="pipe-foot" id="pipeFoot">Envoyez un message pour voir le chemin suivi dans n8n.</div>
+      </div>
+
+      <div class="panel">
+        <h3>Exemples</h3>
+        <div class="examples" id="examples"></div>
+      </div>
+    </aside>
+  </section>
+
+  <!-- ======================================================= FOUND ITEMS -->
+  <section id="boardTab" class="hidden">
+    <div class="board-head">
+      <div>
+        <h1 id="bTitle">Objets trouvés</h1>
+        <p id="bSub">Ils attendent leur propriétaire dans les gares, aéroports et stations de louage.</p>
+      </div>
+      <div class="kpis" id="kpis"></div>
+    </div>
+    <div class="filters">
+      <div class="langsw" role="group" aria-label="Langue de la liste">
+        <button data-l="derja" class="on">Derja</button><button data-l="fr">Français</button><button data-l="en">English</button>
+      </div>
+    </div>
+    <div class="filters">
+      <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></svg>
+        <input id="q" type="search" placeholder="Rechercher : sac noir, Samsung, clés…" aria-label="Rechercher un objet"></label>
+      <select id="fgov" aria-label="Filtrer par gouvernorat"><option value="">Tous les gouvernorats</option></select>
+      <select id="fsort" aria-label="Trier"><option value="photo">Avec photo d'abord</option><option value="new">Plus récents</option></select>
+    </div>
+    <div class="tr-note" id="trNote"></div>
+    <div class="cats" id="cats"></div>
+    <div id="board"></div>
+    <button class="more hidden" id="more">Afficher plus d'objets</button>
+  </section>
+
+  <!-- ======================================================= MY REPORTS -->
+  <section id="myTab" class="hidden">
+    <div class="mine-head">
+      <h1>Mes déclarations</h1>
+      <p>Suivez vos objets perdus et trouvés. Lqitha compare aussi chaque matin les nouvelles déclarations.</p>
+    </div>
+    <div id="mine"></div>
+  </section>
+</main>
+
+<dialog id="dlg" aria-label="Détail de l'objet"></dialog>
+
+<script>
+const $ = s => document.querySelector(s);
+const store = {get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let session = store.get('lqitha_session') || {};
+let pendingImage = null, pendingAudio = null, pendingClaim = store.get('lqitha_claim'), lastNotif = store.get('lqitha_notif') || 0, places = [];
+const shownClaims = new Set(store.get('lqitha_shown_claims') || []);
+
+const CAT = {phone:'Téléphone', wallet:'Portefeuille', bag:'Sac', luggage:'Valise', keys:'Clés', id_document:'Pièce d\'identité', bank_card:'Carte bancaire',
+  glasses:'Lunettes', watch:'Montre', headphones:'Écouteurs', laptop:'Ordinateur', electronics:'Électronique', clothing:'Vêtement', jewelry:'Bijou',
+  umbrella:'Parapluie', shoes:'Chaussures', bottle:'Gourde', hat:'Chapeau', other:'Autre'};
+const BL = store.get('lqitha_board_lang') || 'derja';
+let blang = BL;
+const CATS = {
+  derja: {phone:'Telifoun', wallet:'Portefeuille', bag:'Sac', luggage:'Valiza', keys:'Mfete7', id_document:'Carte d\'identité / passeport', bank_card:'Carte bancaire',
+    glasses:'Mrayet', watch:'Mangala', headphones:'Écouteurs', laptop:'PC portable', electronics:'Électronique', clothing:'7wayej', jewelry:'Sigha',
+    umbrella:'Mdhalla', shoes:'Sabbat', bottle:'Dabbouza', hat:'Kaskett', other:'7ajet okhrin'},
+  en: {phone:'Phone', wallet:'Wallet', bag:'Bag', luggage:'Luggage', keys:'Keys', id_document:'ID document', bank_card:'Bank card',
+    glasses:'Glasses', watch:'Watch', headphones:'Headphones', laptop:'Laptop', electronics:'Electronics', clothing:'Clothing', jewelry:'Jewellery',
+    umbrella:'Umbrella', shoes:'Shoes', bottle:'Bottle', hat:'Hat', other:'Other'}
+};
+const T = {
+  derja: {title:'L7ajet elli tl9aw', sub:'Yestannew moulehom fil gares, l\'aéroports w stations el louage.', waiting:'7aja testanna moulha', govs:'wileyet', back:'rja3et l moulha',
+    search:'Lawej : sac k7el, Samsung, mfete7…', allg:'Il wileyet il kol', photo:'Elli fihom taswira 9bal', newest:'Ejdod', all:'Kol chay', more:'Warini akther',
+    empty:'Ma l9ina 7atta chay. Jarreb kelma okhra, walla sajjel elli dhaya3lek fil Assistant w nkhabrouk ki tetl9a.', where:'Blasa mech ma3roufa',
+    place:'Blasa', gov:'Wileya', date:'Tl9at nhar', color:'Loun', brand:'Marka', ref:'Référence',
+    note:'Elli l9aha 3ta detail sirri. Bech tekhou el 7aja, lazmek tjaweb 3la sou2el ken moulha ya3rfou.', mine:'Ynajem ykoun mte3i', tr:'Ettarjma b el IA (Groq), tnajem tkoun mech mrigla 100%.',
+    prefill:(c,w,d)=>`dhaya3t ${c}${w?' fi '+w:''}${d?' nhar '+d:''}. `, loc:'fr-FR'},
+  fr: {title:'Objets trouvés', sub:'Ils attendent leur propriétaire dans les gares, aéroports et stations de louage.', waiting:'objets en attente', govs:'gouvernorats', back:'objets rendus',
+    search:'Rechercher : sac noir, Samsung, clés…', allg:'Tous les gouvernorats', photo:'Avec photo d\'abord', newest:'Plus récents', all:'Tout', more:'Afficher plus d\'objets',
+    empty:'Aucun objet ne correspond à cette recherche. Essayez un autre mot, ou déclarez votre perte dans l\'Assistant : Lqitha vous préviendra dès qu\'il sera trouvé.', where:'Lieu non précisé',
+    place:'Lieu', gov:'Gouvernorat', date:'Trouvé le', color:'Couleur', brand:'Marque', ref:'Référence',
+    note:'Le trouveur a donné un détail secret. Pour récupérer l\'objet, vous devrez répondre à une question que seul le propriétaire peut connaître.', mine:'C\'est peut-être à moi', tr:'Traduction automatique (IA) des descriptions.',
+    prefill:(c,w,d)=>`J'ai perdu mon ${c.toLowerCase()}${w?' à '+w:''}${d?' le '+d:''}. Il est `, loc:'fr-FR'},
+  en: {title:'Found items', sub:'Waiting for their owners in stations, airports and louage stations.', waiting:'items waiting', govs:'governorates', back:'items returned',
+    search:'Search: black bag, Samsung, keys…', allg:'All governorates', photo:'With photo first', newest:'Newest', all:'All', more:'Show more items',
+    empty:'No item matches this search. Try another word, or report your loss in the Assistant: Lqitha will notify you when it is found.', where:'Place not given',
+    place:'Place', gov:'Governorate', date:'Found on', color:'Colour', brand:'Brand', ref:'Reference',
+    note:'The finder gave a secret detail. To get the item back you will answer a question only the owner can know.', mine:'This might be mine', tr:'Descriptions are the original records.',
+    prefill:(c,w,d)=>`I lost my ${c.toLowerCase()}${w?' at '+w:''}${d?' on '+d:''}. It is `, loc:'en-GB'}
+};
+const tr = k => (T[blang] || T.fr)[k];
+const COLORS = {derja:{black:'k7el',white:'abyedh',red:'a7mer',blue:'az9e9',green:'a5dher',yellow:'asfer',brown:'marron',grey:'gris',gray:'gris',pink:'rose',orange:'orange',purple:'mauve',beige:'beige',gold:'dhahbi',silver:'fodhi',multicolor:'mlawen',transparent:'chaffef'},
+  fr:{black:'noir',white:'blanc',red:'rouge',blue:'bleu',green:'vert',yellow:'jaune',brown:'marron',grey:'gris',gray:'gris',pink:'rose',orange:'orange',purple:'violet',beige:'beige',gold:'doré',silver:'argenté',multicolor:'multicolore',transparent:'transparent'}};
+const bColor = c => (COLORS[blang] && COLORS[blang][c]) || c;
+const trCache = {derja:{}, fr:{}, en:{}};
+const PTYPE = {airport:'aéroport', train_station:'gare', metro:'métro', bus_station:'station', louage:'louage', mall:'centre commercial', taxi:'taxi', street:'rue'};
+const ICON = {
+  pin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/></svg>',
+  box:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 8l8-4 8 4v8l-8 4-8-4z"/><path d="M4 8l8 4 8-4M12 12v8"/></svg>'
+};
+const EXAMPLES = [
+  'dhaya3t telifouni fi louage mta3 Sousse lbera7',
+  "J'ai trouvé un portefeuille noir à la gare de Tunis ce matin",
+  'فقدت حقيبتي السوداء في مطار تونس قرطاج اليوم',
+  "Que faire si j'ai perdu ma carte d'identité ?",
+  'fama 7add l9a sac mte3i?'
+];
+
+function esc(s){return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function md(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\[(\d+)\]/g,'<sup>[$1]</sup>')}
+function add(html, cls){const d=document.createElement('div');d.className='msg '+cls;d.innerHTML=html;$('#log').appendChild(d);$('#log').scrollTop=1e9;return d}
+function fmtDate(d){ if(!d) return ''; const t=new Date(d+'T12:00:00'); return isNaN(t)? d : t.toLocaleDateString('fr-FR',{day:'numeric',month:'long'}) }
+function catLabel(c){return CAT[c] || (c ? c[0].toUpperCase()+c.slice(1) : 'Objet')}
+function bCat(c){return (CATS[blang] && CATS[blang][c]) || catLabel(c)}
+function bDate(d){ if(!d) return ''; const t=new Date(d+'T12:00:00'); return isNaN(t)? d : t.toLocaleDateString(tr('loc'),{day:'numeric',month:'long'}) }
+function bDesc(r){ return trCache[blang][r.id] || r.record.canonical_description || '' }
+
+// ------------------------------------------------------------ examples & intents
+EXAMPLES.forEach(t => { const c = document.createElement('button'); c.className = 'chip'; c.textContent = t; if (/[؀-ۿ]/.test(t)) c.dir = 'rtl';
+  c.onclick = () => { $('#text').value = t; $('#text').focus(); grow(); }; $('#examples').appendChild(c); });
+document.querySelectorAll('.intent').forEach(b => b.onclick = () => { $('#text').value = b.dataset.prefill; $('#text').focus(); grow(); });
+function grow(){ const t=$('#text'); t.style.height='auto'; t.style.height=Math.min(140,t.scrollHeight)+'px'; t.style.overflowY = t.scrollHeight > 140 ? 'auto' : 'hidden'; }
+$('#text').addEventListener('input', grow);
+
+// ------------------------------------------------------------ agent pipeline panel
+const PATHS = {
+  question:['intake'], reply:['intake'], status:['intake'], procedure:['intake','procedure'],
+  registered:['intake','perception','matcher','verifier','procedure'], challenge:['intake','perception','matcher','verifier','notifier'],
+  match:['intake','perception','matcher','verifier','notifier'], claim_verified:['claim'], claim_retry:['claim'], claim_locked:['claim'], claim_failed:['claim']
+};
+function pipeSet(state, kind, secs){
+  const lis = document.querySelectorAll('#pipe li');
+  lis.forEach(li => li.className = '');
+  if (state === 'run'){
+    const first = pendingClaim ? 'claim' : 'intake';
+    lis.forEach(li => { if (li.dataset.k === first) li.className = 'run'; });
+    $('#pipeFoot').textContent = 'Workflow n8n en cours…';
+    return;
+  }
+  const path = PATHS[kind] || ['intake'];
+  lis.forEach(li => li.className = path.includes(li.dataset.k) ? 'done' : 'skip');
+  $('#pipeFoot').textContent = `${path.length} agent${path.length>1?'s':''} · ${secs ?? '?'} s · résultat : ${kind || 'réponse'}`;
+}
+
+// ------------------------------------------------------------ chat
+function botReply(r){
+  let h = md(r.reply || '…');
+  if (r.match && r.match.description){
+    const p = r.match.decision === 'match';
+    h += `<div class="card"><span class="badge ${p?'':'p'}">${p?'correspondance probable':'correspondance possible'}</span>
+      <div style="margin-top:8px">${esc(r.match.description)}</div>
+      <div class="meta">${esc(r.match.place||'')} · ${esc(fmtDate(r.match.date))} · score ${r.match.score} · confiance ${r.match.confidence ?? ''}</div></div>`;
+  }
+  if (r.sources && r.sources.length){
+    h += '<div class="src">' + r.sources.map((s,i)=>`<a href="${s.url && s.url.startsWith('http') ? esc(s.url) : '#'}" target="_blank" rel="noopener" title="${esc(s.authority)}">[${i+1}] ${esc((s.authority||s.id||'').slice(0,42))}</a>`).join('') + '</div>';
+  }
+  if (r._latency_s) h += `<div class="meta">${esc(r.kind||'')} · ${r._latency_s} s</div>`;
+  add(h, 'bot');
+  pipeSet('done', r.kind, r._latency_s);
+  if (r.claim_id){ shownClaims.add(r.claim_id); store.set('lqitha_shown_claims', [...shownClaims]); }
+  if (r.kind === 'challenge' && r.claim_id){ pendingClaim = r.claim_id; store.set('lqitha_claim', pendingClaim); add('Répondez à la question ci-dessus pour prouver que l\'objet est à vous.', 'sys'); }
+  if (r.kind && r.kind.startsWith('claim_') && r.kind !== 'claim_retry'){ pendingClaim = null; store.set('lqitha_claim', null); }
+  if (r.kind === 'registered'){ pendingImage = null; $('#preview').innerHTML=''; refreshCount(); }
+}
+
+async function send(){
+  const text = $('#text').value.trim();
+  if (!text && !pendingImage && !pendingAudio) return;
+  const opt = $('#place').selectedOptions[0];
+  const loc = opt && opt.value ? JSON.parse(opt.value) : ($('#gov').value ? {governorate: $('#gov').value} : null);
+  let userHtml = esc(text || (pendingAudio ? '🎤 message vocal' : ''));
+  if (pendingImage) userHtml += `<img src="data:image/jpeg;base64,${pendingImage}" alt="photo jointe">`;
+  add(userHtml, 'me');
+  const body = pendingClaim
+    ? {action:'claim_answer', claim_id: pendingClaim, answer: text, session}
+    : {action:'message', message: text, image_b64: pendingImage, audio_b64: pendingAudio ? pendingAudio.b64 : null,
+       audio_mime: pendingAudio ? pendingAudio.mime : null, location: loc, session,
+       contact: {name: $('#cname').value || null, phone: $('#cphone').value || null}};
+  $('#text').value=''; grow(); pendingAudio=null; if(!pendingImage) $('#preview').innerHTML='';
+  pipeSet('run');
+  const t = add('Les agents de Lqitha travaillent<span class="dots"><i></i><i></i><i></i></span>', 'bot typing');
+  try{
+    const r = await (await fetch('/chat', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)})).json();
+    t.remove();
+    if (r.session){ session = r.session; store.set('lqitha_session', session); }
+    botReply(r);
+  }catch(e){ t.remove(); pipeSet('done','erreur'); add('Le service ne répond pas. Vérifiez que n8n et l\'API sont démarrés (voyants en haut à droite), puis renvoyez le message.', 'sys'); }
+}
+$('#send').onclick = send;
+$('#text').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); send(); } });
+
+// photo: resize to max 768px JPEG (also drag & drop on the chat)
+function takeImage(f){
+  if(!f || !f.type.startsWith('image/')) return;
+  const img = new Image(); img.onload = () => {
+    const s = Math.min(1, 768 / Math.max(img.width, img.height)); const c = document.createElement('canvas');
+    c.width = img.width * s; c.height = img.height * s; c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+    pendingImage = c.toDataURL('image/jpeg', 0.85).split(',')[1];
+    $('#preview').innerHTML = `<img src="data:image/jpeg;base64,${pendingImage}" alt=""> Photo jointe, envoyée avec votre prochain message · <a href="#" id="rmimg">retirer</a>`;
+    $('#rmimg').onclick = ev => { ev.preventDefault(); pendingImage = null; $('#preview').innerHTML=''; };
+  }; img.src = URL.createObjectURL(f);
+}
+$('#photo').onchange = e => { takeImage(e.target.files[0]); e.target.value=''; };
+$('#chat').addEventListener('dragover', e => e.preventDefault());
+$('#chat').addEventListener('drop', e => { e.preventDefault(); takeImage(e.dataTransfer.files[0]); });
+
+// voice note
+let rec = null, chunks = [];
+$('#mic').onclick = async () => {
+  if (rec && rec.state === 'recording'){ rec.stop(); return; }
+  try{
+    const stream = await navigator.mediaDevices.getUserMedia({audio:true});
+    rec = new MediaRecorder(stream); chunks = [];
+    rec.ondataavailable = e => chunks.push(e.data);
+    rec.onstop = async () => {
+      stream.getTracks().forEach(t => t.stop()); $('#mic').classList.remove('rec'); $('#mic').title = 'Envoyer un message vocal';
+      const blob = new Blob(chunks, {type: rec.mimeType || 'audio/webm'});
+      const b64 = await new Promise(res => { const r = new FileReader(); r.onload = () => res(r.result.split(',')[1]); r.readAsDataURL(blob); });
+      pendingAudio = {b64, mime: blob.type}; send();
+    };
+    rec.start(); $('#mic').classList.add('rec'); $('#mic').title = 'Arrêter et envoyer';
+  }catch(e){ add('Micro indisponible : autorisez le micro dans le navigateur. (' + esc(e.message) + ')', 'sys'); }
+};
+
+// places (real OSM gazetteer)
+async function loadPlaces(){
+  try{ places = await (await fetch('/places')).json(); }catch(e){ places = []; }
+  [...new Set(places.map(p => p.governorate))].sort().forEach(g => $('#gov').add(new Option(g, g)));
+}
+$('#gov').onchange = () => {
+  const sel = $('#place'); sel.innerHTML = '<option value="">Gare, aéroport, louage…</option>';
+  places.filter(p => p.governorate === $('#gov').value).forEach(p => sel.add(new Option(`${p.name} (${p.place_type})`, JSON.stringify({governorate: p.governorate, place_name: p.name, place_type: p.place_type}))));
+};
+
+// notifications (owner / finder)
+async function poll(){
+  if (!session.session_id) return;
+  try{
+    const ns = await (await fetch(`/tools/notifications?session_id=${session.session_id}&since=${lastNotif}`)).json();
+    ns.forEach(n => {
+      lastNotif = Math.max(lastNotif, n.id); store.set('lqitha_notif', lastNotif);
+      if (n.kind === 'possible_match' && n.payload && shownClaims.has(n.payload.claim_id)) return;
+      let h = '🔔 ' + md(n.message);
+      if (n.payload && n.payload.question){ h += '\n\n' + md(n.payload.question); pendingClaim = n.payload.claim_id; store.set('lqitha_claim', pendingClaim); }
+      if (n.payload && n.payload.image_url) h += `<img src="${esc(n.payload.image_url)}" alt="">`;
+      add(h, 'bot');
+    });
+  }catch(e){}
+}
+setInterval(poll, 5000);
+
+async function health(){
+  try{ const h = await (await fetch('/health')).json();
+    const names = {api:'API', n8n:'n8n', ollama:'Ollama', groq_key:'Groq'};
+    $('#health').innerHTML = Object.keys(names).map(k => `<span title="${h[k]?'en ligne':'hors ligne'}"><span class="dot ${h[k]?'on':'off'}"></span>${names[k]}</span>`).join('');
+  }catch(e){ $('#health').innerHTML = '<span><span class="dot off"></span>API hors ligne</span>'; }
+}
+
+// ------------------------------------------------------------ found items board
+let items = [], shown = 24, fcat = '';
+async function refreshCount(){
+  try{ const s = await (await fetch('/tools/stats')).json(); $('#foundCount').textContent = s.found_open || ''; return s; }catch(e){ return null; }
+}
+async function loadBoard(){
+  const [rs, st] = await Promise.all([fetch('/tools/reports?type=found&status=open').then(r=>r.json()).catch(()=>[]), refreshCount()]);
+  items = rs || [];
+  if (st){
+    $('#kpis').innerHTML = `<div class="kpi"><strong>${st.found_open}</strong><span>${tr('waiting')}</span></div>
+      <div class="kpi"><strong>${Object.keys(st.by_governorate||{}).length}</strong><span>${tr('govs')}</span></div>
+      <div class="kpi"><strong>${st.returned}</strong><span>${tr('back')}</span></div>`;
+  }
+  const counts = {}; items.forEach(r => counts[r.category] = (counts[r.category]||0)+1);
+  $('#cats').innerHTML = `<button class="cat ${fcat?'':'on'}" data-c="">${tr('all')}<small>${items.length}</small></button>` +
+    Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([c,n]) => `<button class="cat ${fcat===c?'on':''}" data-c="${esc(c)}">${esc(bCat(c))}<small>${n}</small></button>`).join('');
+  document.querySelectorAll('.cat').forEach(b => b.onclick = () => { fcat = b.dataset.c; shown = 24; document.querySelectorAll('.cat').forEach(x=>x.classList.toggle('on', x===b)); renderBoard(); });
+  const govs = [...new Set(items.map(r=>r.governorate).filter(Boolean))].sort();
+  applyBoardLang();
+  const cur = $('#fgov').value; $('#fgov').innerHTML = `<option value="">${tr('allg')}</option>` + govs.map(g=>`<option ${g===cur?'selected':''}>${esc(g)}</option>`).join('');
+  renderBoard();
+}
+function filtered(){
+  const q = $('#q').value.trim().toLowerCase(), g = $('#fgov').value;
+  let xs = items.filter(r => (!fcat || r.category===fcat) && (!g || r.governorate===g) &&
+    (!q || [r.record.canonical_description, bDesc(r), r.category, catLabel(r.category), bCat(r.category), r.place_name, r.governorate, r.record.brand, r.record.color_family].join(' ').toLowerCase().includes(q)));
+  if ($('#fsort').value === 'photo') xs = [...xs].sort((a,b) => (b.image_file?1:0)-(a.image_file?1:0));
+  return xs;
+}
+function tagHtml(r){
+  return `<button class="tagc" data-id="${esc(r.id)}" aria-label="${esc(bCat(r.category))}, ${esc(r.place_name||'')}">
+    <span class="top"><span class="hole"></span><span class="no">${esc(r.id)}</span></span>
+    <span class="pic ${r.image_file?'':'noimg'}">${r.image_file ? `<img loading="lazy" src="/uploads/${esc(r.image_file)}" alt="">` : `<span class="ph">${ICON.box}</span>`}</span>
+    <span class="body"><span class="cat-l">${esc(bCat(r.category))}</span>
+      <span class="desc" data-desc="${esc(r.id)}">${esc(bDesc(r))}</span>
+      <span class="where">${ICON.pin}${esc(r.place_name||r.governorate||tr('where'))} · ${esc(bDate(r.date_iso))}</span></span></button>`;
+}
+function renderBoard(){
+  const xs = filtered();
+  $('#board').innerHTML = xs.slice(0, shown).map(tagHtml).join('') || `<div class="empty">${esc(tr('empty'))}</div>`;
+  translateVisible(xs.slice(0, shown));
+  $('#more').classList.toggle('hidden', xs.length <= shown);
+  document.querySelectorAll('.tagc').forEach(b => b.onclick = () => openItem(b.dataset.id));
+}
+$('#more').onclick = () => { shown += 24; renderBoard(); };
+['#q','#fgov','#fsort'].forEach(s => $(s).addEventListener('input', () => { shown = 24; renderBoard(); }));
+
+function openItem(id){
+  const r = items.find(x => x.id === id); if (!r) return;
+  const rec = r.record || {};
+  $('#dlg').innerHTML = `<button class="close" aria-label="Fermer">×</button><div class="dlg ${r.image_file?'':'solo'}">
+    <div class="pic">${r.image_file ? `<img src="/uploads/${esc(r.image_file)}" alt="">` : `<span class="ph">${ICON.box}</span>`}</div>
+    <div class="info"><span><span class="badge">${esc(bCat(r.category))}</span></span>
+      <h2>${esc(bDesc(r) || bCat(r.category))}</h2>
+      <dl><dt>${tr('place')}</dt><dd>${esc(r.place_name||'-')}${r.place_type?` (${esc(PTYPE[r.place_type]||r.place_type)})`:''}</dd>
+          <dt>${tr('gov')}</dt><dd>${esc(r.governorate||'-')}</dd>
+          <dt>${tr('date')}</dt><dd>${esc(bDate(r.date_iso)||'-')}</dd>
+          ${rec.color_family?`<dt>${tr('color')}</dt><dd>${esc(bColor(rec.color_family))}</dd>`:''}
+          ${rec.brand?`<dt>${tr('brand')}</dt><dd>${esc(rec.brand)}</dd>`:''}
+          <dt>${tr('ref')}</dt><dd>${esc(r.id)}</dd></dl>
+      <div class="note">${esc(tr('note'))}</div>
+      <div class="actions"><button class="send" id="mineBtn">${esc(tr('mine'))}</button></div></div></div>`;
+  $('#dlg').showModal();
+  $('#dlg .close').onclick = () => $('#dlg').close();
+  $('#mineBtn').onclick = () => {
+    $('#dlg').close(); go('chatTab');
+    $('#text').value = tr('prefill')(bCat(r.category), r.place_name || r.governorate || '', bDate(r.date_iso)); $('#text').focus(); grow();
+    if (r.governorate && [...$('#gov').options].some(o => o.value === r.governorate)){ $('#gov').value = r.governorate; $('#gov').onchange(); }
+  };
+}
+$('#dlg').addEventListener('click', e => { if (e.target === $('#dlg')) $('#dlg').close(); });
+
+function applyBoardLang(){
+  document.querySelectorAll('.langsw button').forEach(b => b.classList.toggle('on', b.dataset.l === blang));
+  $('#bTitle').textContent = tr('title'); $('#bSub').textContent = tr('sub'); $('#q').placeholder = tr('search');
+  $('#fsort').options[0].text = tr('photo'); $('#fsort').options[1].text = tr('newest'); $('#more').textContent = tr('more');
+  $('#trNote').textContent = blang === 'en' ? '' : tr('tr');
+}
+async function translateVisible(xs){
+  if (blang === 'en') return;
+  const lang = blang, need = xs.filter(r => !(r.id in trCache[lang]) && r.record.canonical_description).map(r => r.id);
+  for (let i = 0; i < need.length; i += 24){
+    const batch = need.slice(i, i + 24);
+    batch.forEach(id => trCache[lang][id] = trCache[lang][id] || null);
+    try{
+      const res = await (await fetch('/tools/translate', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ids: batch, lang})})).json();
+      Object.entries(res).forEach(([id, t]) => { trCache[lang][id] = t; });
+    }catch(e){ batch.forEach(id => delete trCache[lang][id]); }
+    if (lang !== blang) return;
+    batch.forEach(id => { const el = document.querySelector(`[data-desc="${CSS.escape(id)}"]`); const r = items.find(x => x.id === id);
+      if (el && r) el.textContent = bDesc(r); });
+  }
+}
+document.querySelectorAll('.langsw button').forEach(b => b.onclick = () => {
+  blang = b.dataset.l; store.set('lqitha_board_lang', blang); loadBoard();
+});
+$('#newconv').onclick = () => {
+  session = {}; pendingClaim = null; pendingImage = null; lastNotif = 0;
+  ['lqitha_session','lqitha_claim','lqitha_notif'].forEach(k => store.set(k, null));
+  $('#log').innerHTML = ''; $('#preview').innerHTML = ''; welcome();
+  document.querySelectorAll('#pipe li').forEach(li => li.className = ''); $('#pipeFoot').textContent = 'Envoyez un message pour voir le chemin suivi dans n8n.';
+};
+
+// ------------------------------------------------------------ my reports
+async function loadMine(){
+  if (!session.session_id){ $('#mine').innerHTML = '<div class="empty">Vous n\'avez encore rien déclaré depuis ce navigateur. Ouvrez l\'Assistant et décrivez ce que vous avez perdu ou trouvé.</div>'; return; }
+  const r = await fetch(`/tools/sessions/${session.session_id}/reports`).then(x=>x.json()).catch(()=>({reports:[]}));
+  const reps = r.reports || [];
+  $('#mine').innerHTML = reps.map(x => {
+    const lost = x.type === 'lost', cl = x.claim || {}, done = x.status === 'resolved' || cl.status === 'verified';
+    const matched = done || !!x.claim;
+    const s = lost ? ['Déclaré', 'Correspondance trouvée', 'Propriété vérifiée'] : ['Enregistré', 'Propriétaire identifié', 'Objet rendu'];
+    const lvl = done ? 3 : matched ? 2 : 1;
+    const badge = cl.status === 'locked' ? '<span class="badge r">vérification bloquée</span>' : done ? '<span class="badge">résolu</span>' : '<span class="badge p">en recherche</span>';
+    return `<article class="rep"><div class="thumb">${x.image_file ? `<img src="/uploads/${esc(x.image_file)}" alt="">` : ICON.box}</div>
+      <div><h4>${lost ? 'Perdu' : 'Trouvé'} · ${esc(catLabel(x.category))} ${badge}</h4>
+      <div class="sub">${esc(x.record.canonical_description||'')}<br>${[x.place_name||x.governorate, fmtDate(x.date_iso), 'réf. '+x.id].filter(Boolean).map(esc).join(' · ')}</div>
+      <ol class="steps">${s.map((t,i)=>`<li class="${i<lvl?'ok':''} ${i===lvl-1?'now':''}">${t}</li>`).join('')}</ol></div></article>`;
+  }).join('') || '<div class="empty">Aucune déclaration pour le moment.</div>';
+}
+
+// ------------------------------------------------------------ tabs
+function go(tab){
+  document.querySelectorAll('nav button').forEach(x => x.classList.toggle('active', x.dataset.tab === tab));
+  ['chatTab','boardTab','myTab'].forEach(id => $('#'+id).classList.toggle('hidden', id !== tab));
+  if (tab === 'boardTab') loadBoard();
+  if (tab === 'myTab') loadMine();
+}
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => go(b.dataset.tab));
+
+function welcome(){ add("Marhba bik ! Je suis <b>Lqitha</b>. Dites-moi ce que vous avez <b>perdu</b> ou <b>trouvé</b> — par écrit, avec une photo ou un message vocal — ou posez une question sur les démarches (carte d'identité, passeport, bagage…).<div class=\"meta\">Écrivez en derja, français, anglais ou arabe : je garde la langue de votre premier message pendant toute la conversation.</div>", 'bot'); }
+welcome();
+if (pendingClaim) add('Une vérification de propriété est en attente : votre prochain message sera considéré comme la réponse.', 'sys');
+loadPlaces(); health(); refreshCount(); setInterval(health, 15000); poll();
+</script>
+</body>
+</html>

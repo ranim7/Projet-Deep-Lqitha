@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "multicolor",
+  "color_detail": "multicolor",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "purse",
+   "bank card",
+   "Aadhar card"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Multicolored bag containing a purse, a bank card, and an Aadhar card.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"multicolor\",\"color_detail\":\"multicolor\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"purse\",\"bank card\",\"Aadhar card\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Multicolored bag containing a purse, a bank card, and an Aadhar card.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.214040876,
+  "prompt_tokens": 786,
+  "prompt_time": 0.249785326,
+  "completion_tokens": 309,
+  "completion_time": 0.374846028,
+  "total_tokens": 1095,
+  "total_time": 0.624631354,
+  "completion_tokens_details": {
+   "reasoning_tokens": 194
+  }
+ },
+ "latency_s": 1.42
+}

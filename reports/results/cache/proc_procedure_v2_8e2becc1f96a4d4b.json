@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Salut, si ta valise n’est pas arrivée à Tunis‑Carthage, tu dois agir rapidement. \n\n1. Présente-toi immédiatement au comptoir « Bagages / Lost & Found » de la compagnie ou de son agent d’assistance. \n2. Fais établir un rapport d’irrégularité bagage (PIR) et garde une copie avec son numéro de dossier. \n3. Récupère les documents requis : carte d’embarquement, étiquette du bagage, pièce d’identité et description précise du bagage. \n4. Dépose ta réclamation écrite dans les **21 jours** suivant la date à laquelle le bagage aurait dû être mis à disposition du passager (article 17 de la Convention de Montréal). \n5. Envoie la réclamation à Tunisair (par courrier postal à l’adresse indiquée dans la politique de protection des passagers ou via les moyens de communication disponibles). \n6. Attends la réponse de Tunisair, qui doit être fournie dans un délai de 30 jours après réception de la demande. \n\n**Documents à fournir** :\n- Rapport d’irrégularité bagage (PIR) délivré à l’aéroport d’arrivée [3][4]\n- Original du talon de bagage [4]\n- Carte d’embarquement ou copie du billet [4]\n- Justificatifs utiles à l’évaluation de la réclamation [4]",
+  "used_sources": [
+   3,
+   4
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salut, si ta valise n’est pas arrivée à Tunis‑Carthage, tu dois agir rapidement. \\n\\n1. Présente-toi immédiatement au comptoir « Bagages / Lost & Found » de la compagnie ou de son agent d’assistance. \\n2. Fais établir un rapport d’irrégularité bagage (PIR) et garde une copie avec son numéro de dossier. \\n3. Récupère les documents requis : carte d’embarquement, étiquette du bagage, pièce d’identité et description précise du bagage. \\n4. Dépose ta réclamation écrite dans les **21 jours** suivant la date à laquelle le bagage aurait dû être mis à disposition du passager (article 17 de la Convention de Montréal). \\n5. Envoie la réclamation à Tunisair (par courrier postal à l’adresse indiquée dans la politique de protection des passagers ou via les moyens de communication disponibles). \\n6. Attends la réponse de Tunisair, qui doit être fournie dans un délai de 30 jours après réception de la demande. \\n\\n**Documents à fournir** :\\n- Rapport d’irrégularité bagage (PIR) délivré à l’aéroport d’arrivée [3][4]\\n- Original du talon de bagage [4]\\n- Carte d’embarquement ou copie du billet [4]\\n- Justificatifs utiles à l’évaluation de la réclamation [4]\",\"used_sources\":[3,4],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.194994077,
+  "prompt_tokens": 1664,
+  "prompt_time": 0.097417263,
+  "completion_tokens": 367,
+  "completion_time": 0.391772335,
+  "total_tokens": 2031,
+  "total_time": 0.489189598,
+  "completion_tokens_details": {
+   "reasoning_tokens": 27
+  }
+ },
+ "latency_s": 16.04
+}

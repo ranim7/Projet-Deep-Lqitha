@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "L9it backpack eswed fau9 l'khdma, fih chi wheels w hvac, nseetou lbera7 fel gare routière Redeyef."
+ },
+ "raw": "{\"message\":\"L9it backpack eswed fau9 l'khdma, fih chi wheels w hvac, nseetou lbera7 fel gare routière Redeyef.\"}",
+ "usage": {
+  "queue_time": 0.097584841,
+  "prompt_tokens": 350,
+  "prompt_time": 0.021721918,
+  "completion_tokens": 216,
+  "completion_time": 0.454001354,
+  "total_tokens": 566,
+  "total_time": 0.475723272,
+  "completion_tokens_details": {
+   "reasoning_tokens": 166
+  }
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "ar",
+  "slots": {
+   "item_category": null,
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "item_category",
+   "place_type",
+   "date"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "ما هو نوع الجهاز؟",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.8
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"ar\",\"slots\":{\"item_category\":null,\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"item_category\",\"place_type\",\"date\"],\"next_action\":\"ask_user\",\"question_to_user\":\"ما هو نوع الجهاز؟\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.8}",
+ "usage": {
+  "queue_time": 0.150815751,
+  "prompt_tokens": 1391,
+  "prompt_time": 0.087976751,
+  "completion_tokens": 182,
+  "completion_time": 0.193168713,
+  "total_tokens": 1573,
+  "total_time": 0.281145464,
+  "completion_tokens_details": {
+   "reasoning_tokens": 69
+  }
+ },
+ "latency_s": 3.76
+}

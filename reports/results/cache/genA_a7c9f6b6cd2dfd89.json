@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lé7t headphones rosa, plastika, 3andhom design mghayer, kanou m3aya f Tunis City lbera7, nseethom fel metro."
+ },
+ "raw": "{\"message\":\"Lé7t headphones rosa, plastika, 3andhom design mghayer, kanou m3aya f Tunis City lbera7, nseethom fel metro.\"}",
+ "usage": {
+  "queue_time": 0.295318879,
+  "prompt_tokens": 361,
+  "prompt_time": 0.016883497,
+  "completion_tokens": 81,
+  "completion_time": 0.170105862,
+  "total_tokens": 442,
+  "total_time": 0.186989359,
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ }
+}

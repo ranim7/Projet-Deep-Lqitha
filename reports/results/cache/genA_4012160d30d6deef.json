@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nseet 3andi lunettes de soleil multicolore, cadre round, 7chma shwiya, f Mg N1 lbera7."
+ },
+ "raw": "{\"message\":\"Nseet 3andi lunettes de soleil multicolore, cadre round, 7chma shwiya, f Mg N1 lbera7.\"}",
+ "usage": {
+  "queue_time": 0.153332103,
+  "prompt_tokens": 363,
+  "prompt_time": 0.021708372,
+  "completion_tokens": 128,
+  "completion_time": 0.267203205,
+  "total_tokens": 491,
+  "total_time": 0.288911577,
+  "completion_tokens_details": {
+   "reasoning_tokens": 82
+  }
+ }
+}

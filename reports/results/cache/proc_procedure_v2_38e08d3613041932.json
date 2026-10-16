@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Salut! Si tu as perdu ta carte bancaire à Tunis, voici ce qu’il faut faire:\n\n1. **Bloque immédiatement ta carte** en appelant le service client de ta banque ou en utilisant l’application mobile, si disponible. Le numéro est indiqué au dos de la carte ou sur le site de la banque. [4]\n2. **Vérifie les opérations récentes** sur ton compte pour repérer toute transaction suspecte. [4]\n3. **Dépose une plainte** auprès de la police (197) ou de la garde nationale (193) si tu soupçonnes un vol; le récépissé pourra être demandé par la banque. [4]\n4. **Demande une nouvelle carte** à ton agence bancaire dès que possible. [4]\n5. **Conserve les preuves** (captures d’écran, numéros d’appel, etc.) pour toute contestation future. [1]\n\n**Documents utiles** :\n- Copie de ton récépissé de plainte\n- Capture d’écran de l’opposition\n- Identité officielle (carte d’identité ou passeport)\n\nEn suivant ces étapes, tu protégeras ton compte et accéléreras la remise d’une nouvelle carte.\n",
+  "used_sources": [
+   4,
+   1
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salut! Si tu as perdu ta carte bancaire à Tunis, voici ce qu’il faut faire:\\n\\n1. **Bloque immédiatement ta carte** en appelant le service client de ta banque ou en utilisant l’application mobile, si disponible. Le numéro est indiqué au dos de la carte ou sur le site de la banque. [4]\\n2. **Vérifie les opérations récentes** sur ton compte pour repérer toute transaction suspecte. [4]\\n3. **Dépose une plainte** auprès de la police (197) ou de la garde nationale (193) si tu soupçonnes un vol; le récépissé pourra être demandé par la banque. [4]\\n4. **Demande une nouvelle carte** à ton agence bancaire dès que possible. [4]\\n5. **Conserve les preuves** (captures d’écran, numéros d’appel, etc.) pour toute contestation future. [1]\\n\\n**Documents utiles** :\\n- Copie de ton récépissé de plainte\\n- Capture d’écran de l’opposition\\n- Identité officielle (carte d’identité ou passeport)\\n\\nEn suivant ces étapes, tu protégeras ton compte et accéléreras la remise d’une nouvelle carte.\\n\",\"used_sources\":[4,1],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.192735554,
+  "prompt_tokens": 1364,
+  "prompt_time": 0.08119888,
+  "completion_tokens": 309,
+  "completion_time": 0.339207369,
+  "total_tokens": 1673,
+  "total_time": 0.420406249,
+  "completion_tokens_details": {
+   "reasoning_tokens": 27
+  }
+ },
+ "latency_s": 9.93
+}

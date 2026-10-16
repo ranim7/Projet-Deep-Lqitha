@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "en",
+  "slots": {
+   "item_category": "keys",
+   "date_text": "this morning",
+   "date_iso": "2026-10-14",
+   "place_type": "street",
+   "place_name": "Habib Bourguiba",
+   "governorate": "unknown",
+   "distinctive_detail": "red keychain",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Could you please provide a brief description of the owner or any identifying details that can help verify the rightful owner?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.88
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"en\",\"slots\":{\"item_category\":\"keys\",\"date_text\":\"this morning\",\"date_iso\":\"2026-10-14\",\"place_type\":\"street\",\"place_name\":\"Habib Bourguiba\",\"governorate\":\"unknown\",\"distinctive_detail\":\"red keychain\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Could you please provide a brief description of the owner or any identifying details that can help verify the rightful owner?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.88}",
+ "usage": {
+  "queue_time": 0.087457323,
+  "prompt_tokens": 1403,
+  "prompt_time": 0.083326383,
+  "completion_tokens": 220,
+  "completion_time": 0.236705334,
+  "total_tokens": 1623,
+  "total_time": 0.320031717,
+  "completion_tokens_details": {
+   "reasoning_tokens": 83
+  }
+ },
+ "latency_s": 12.11
+}

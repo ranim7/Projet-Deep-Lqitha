@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "bag",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "other",
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "En général, un bagage est considéré comme perdu après 30 jours. Vous pouvez contacter le service des bagages de l'aéroport ou de la compagnie pour déclarer la perte et suivre la procédure de réclamation.",
+  "search_query_fr": "bagage perdu 30 jours",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bag\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"other\",\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"En général, un bagage est considéré comme perdu après 30 jours. Vous pouvez contacter le service des bagages de l'aéroport ou de la compagnie pour déclarer la perte et suivre la procédure de réclamation.\",\"search_query_fr\":\"bagage perdu 30 jours\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.194030922,
+  "prompt_tokens": 1396,
+  "prompt_time": 0.077064308,
+  "completion_tokens": 158,
+  "completion_time": 0.18540222,
+  "total_tokens": 1554,
+  "total_time": 0.262466528,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9
+  }
+ },
+ "latency_s": 12.68
+}

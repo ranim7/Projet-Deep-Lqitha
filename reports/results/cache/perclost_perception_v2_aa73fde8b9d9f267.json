@@ -1,0 +1,45 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "headphone charger",
+   "clothes",
+   "pan",
+   "bank card",
+   "Aadhar ID"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Grey big bag containing a headphone charger, clothes, a pan, a bank card, and an Aadhar ID.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"headphone charger\",\"clothes\",\"pan\",\"bank card\",\"Aadhar ID\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Grey big bag containing a headphone charger, clothes, a pan, a bank card, and an Aadhar ID.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.196228442,
+  "prompt_tokens": 785,
+  "prompt_time": 0.016736176,
+  "completion_tokens": 194,
+  "completion_time": 0.198868263,
+  "total_tokens": 979,
+  "total_time": 0.215604439,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 70
+  }
+ },
+ "latency_s": 1.01
+}

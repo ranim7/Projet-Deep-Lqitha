@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "**Première étape : bloquer immédiatement votre carte**\n\n1. **Appelez le service client de votre banque**  \n   - Le numéro d’urgence se trouve sur le verso de votre carte, sur le site de la banque ou dans votre application mobile.  \n   - Demandez une opposition immédiate (blocage temporaire ou définitif).  \n\n2. **Bloquez la carte via l’application bancaire** (si votre banque le permet).  \n   - Ouvrez l’app, sélectionnez « Mon compte » → « Carte » → « Bloquer la carte ».  \n   - Confirmez l’opposition et notez le numéro de référence de l’appel ou de l’opération.\n\n3. **Vérifiez les opérations récentes**  \n   - Consultez votre relevé en ligne ou l’historique de l’application pour repérer toute transaction suspecte.  \n   - Si vous voyez des mouvements non autorisés, signalez‑les immédiatement à votre banque.\n\n---\n\n**En résumé** : appelez votre banque ou utilisez l’application pour bloquer la carte dès que vous réalisez qu’elle est perdue. Cela évite les fraudes et vous donne le temps de prendre les mesures suivantes (déposer une plainte, demander une nouvelle carte, etc.).",
+ "usage": {
+  "queue_time": 0.294590522,
+  "prompt_tokens": 1015,
+  "prompt_time": 0.050888746,
+  "completion_tokens": 281,
+  "completion_time": 0.322494623,
+  "total_tokens": 1296,
+  "total_time": 0.373383369,
+  "completion_tokens_details": {
+   "reasoning_tokens": 8
+  }
+ },
+ "latency_s": 2.45
+}

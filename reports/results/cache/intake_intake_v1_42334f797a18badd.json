@@ -1,0 +1,31 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "ar-TN",
+  "slots": {
+   "item": "glasses",
+   "location": "taxi"
+  },
+  "missing": [
+   "taxi_company",
+   "pickup_location"
+  ],
+  "next_action": "ask_for_details",
+  "question_to_user": "Pouvez-vous me dire le nom de la compagnie de taxi ou le lieu où vous avez pris le taxi, ainsi que la date et l'heure approximatives de votre trajet ?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"ar-TN\",\"slots\":{\"item\":\"glasses\",\"location\":\"taxi\"},\"missing\":[\"taxi_company\",\"pickup_location\"],\"next_action\":\"ask_for_details\",\"question_to_user\":\"Pouvez-vous me dire le nom de la compagnie de taxi ou le lieu où vous avez pris le taxi, ainsi que la date et l'heure approximatives de votre trajet ?\"}",
+ "usage": {
+  "queue_time": 0.294056155,
+  "prompt_tokens": 202,
+  "prompt_time": 0.009815739,
+  "completion_tokens": 154,
+  "completion_time": 0.169161109,
+  "total_tokens": 356,
+  "total_time": 0.178976848,
+  "completion_tokens_details": {
+   "reasoning_tokens": 60
+  }
+ },
+ "latency_s": 1.03
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Laisse, lbera7 f Bizerte Centre nseet luggage i7mar, fabric, 3andou trolly w roll, m3aya ommi w 3a9li, bch n9albouh."
+ },
+ "raw": "{\"message\":\"Laisse, lbera7 f Bizerte Centre nseet luggage i7mar, fabric, 3andou trolly w roll, m3aya ommi w 3a9li, bch n9albouh.\"}",
+ "usage": {
+  "queue_time": 0.020534294,
+  "prompt_tokens": 352,
+  "prompt_time": 0.01935067,
+  "completion_tokens": 121,
+  "completion_time": 0.253409672,
+  "total_tokens": 473,
+  "total_time": 0.272760342,
+  "completion_tokens_details": {
+   "reasoning_tokens": 57
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": "phone case",
+  "brand": null,
+  "model": null,
+  "color_family": "multicolor",
+  "color_detail": "multicolor",
+  "material": "transparent",
+  "distinctive_marks": [
+   "slim design",
+   "transparent"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Multicolor slim transparent phone case with a multicolor design.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"phone\",\n  \"subcategory\": \"phone case\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"multicolor\",\n  \"color_detail\": \"multicolor\",\n  \"material\": \"transparent\",\n  \"distinctive_marks\": [\n    \"slim design\",\n    \"transparent\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Multicolor slim transparent phone case with a multicolor design.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.9,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.077040079,
+  "prompt_tokens": 736,
+  "prompt_time": 0.066218097,
+  "completion_tokens": 170,
+  "completion_time": 0.342944813,
+  "total_tokens": 906,
+  "total_time": 0.40916291
+ },
+ "latency_s": 7.55
+}

@@ -1,0 +1,31 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "ar",
+  "slots": {
+   "item_category": "bag",
+   "place_type": "train_station"
+  },
+  "missing": [
+   "place_name",
+   "date"
+  ],
+  "next_action": "ask",
+  "question_to_user": "من فضلك، ما هو اسم المحطة التي فقدت فيها الحقيبة؟ ومتى حدث ذلك؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"ar\",\"slots\":{\"item_category\":\"bag\",\"place_type\":\"train_station\"},\"missing\":[\"place_name\",\"date\"],\"next_action\":\"ask\",\"question_to_user\":\"من فضلك، ما هو اسم المحطة التي فقدت فيها الحقيبة؟ ومتى حدث ذلك؟\"}",
+ "usage": {
+  "queue_time": 0.194733576,
+  "prompt_tokens": 217,
+  "prompt_time": 0.011400121,
+  "completion_tokens": 94,
+  "completion_time": 0.10078951,
+  "total_tokens": 311,
+  "total_time": 0.112189631,
+  "completion_tokens_details": {
+   "reasoning_tokens": 22
+  }
+ },
+ "latency_s": 1.88
+}

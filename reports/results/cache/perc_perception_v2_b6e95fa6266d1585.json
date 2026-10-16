@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": "glass bottle",
+  "brand": "Solimo",
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black sleeve, silver cap, clear glass",
+  "material": "glass, metal, fabric",
+  "distinctive_marks": [
+   "black fabric sleeve with white stitching",
+   "silver metal cap"
+  ],
+  "contents": [],
+  "visible_text": "SOLIMO",
+  "contains_sensitive_document": false,
+  "canonical_description": "Clear glass bottle with a silver metal cap and a black fabric sleeve featuring the Solimo logo.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.95
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"bottle\",\n  \"subcategory\": \"glass bottle\",\n  \"brand\": \"Solimo\",\n  \"model\": null,\n  \"color_family\": \"black\",\n  \"color_detail\": \"black sleeve, silver cap, clear glass\",\n  \"material\": \"glass, metal, fabric\",\n  \"distinctive_marks\": [\n    \"black fabric sleeve with white stitching\",\n    \"silver metal cap\"\n  ],\n  \"contents\": [],\n  \"visible_text\": \"SOLIMO\",\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Clear glass bottle with a silver metal cap and a black fabric sleeve featuring the Solimo logo.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.9,\n    \"brand\": 0.95\n  }\n}",
+ "usage": {
+  "queue_time": 0.090932205,
+  "prompt_tokens": 1724,
+  "prompt_time": 0.143879571,
+  "completion_tokens": 203,
+  "completion_time": 0.400417074,
+  "total_tokens": 1927,
+  "total_time": 0.544296645
+ },
+ "latency_s": 7.69
+}

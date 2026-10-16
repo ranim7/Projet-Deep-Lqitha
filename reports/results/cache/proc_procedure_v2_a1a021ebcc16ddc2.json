@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Salut! Si tu as perdu ta carte d'identité nationale, voici ce qu'il faut faire:\n\n1. **Informer immédiatement** le poste de police ou la garde nationale le plus proche de la perte de ta carte (Loi organique n° 2024‑22) [1][2].\n2. Le poste te délivrera un **certificat (attestation) de perte** après vérification de ton identité [1][2].\n3. Avec ce certificat, **dépose une demande de nouvelle carte d'identité** auprès de la préfecture ou de l’office compétent [1].\n4. La **puce électronique de la carte perdue sera désactivée** et la carte sera inscrite dans le système de recherche [1][2].\n5. **Renouvelez la carte dans un délai maximal de trente jours** après la perte (Loi organique n° 2024‑22) [1][2].\n\n**Documents nécessaires**\n- Certificat de perte délivré par la police ou la garde nationale\n- Pièce d'identité actuelle (si disponible) ou justificatif d'identité\n- Formulaire de demande de nouvelle carte (disponible sur le site de l’office ou à la préfecture)\n\nEn cas de vol, rappelle-toi d’appeler les numéros d’urgence 197 (police) ou 193 (garde nationale).\n",
+  "used_sources": [
+   1,
+   2
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salut! Si tu as perdu ta carte d'identité nationale, voici ce qu'il faut faire:\\n\\n1. **Informer immédiatement** le poste de police ou la garde nationale le plus proche de la perte de ta carte (Loi organique n° 2024‑22) [1][2].\\n2. Le poste te délivrera un **certificat (attestation) de perte** après vérification de ton identité [1][2].\\n3. Avec ce certificat, **dépose une demande de nouvelle carte d'identité** auprès de la préfecture ou de l’office compétent [1].\\n4. La **puce électronique de la carte perdue sera désactivée** et la carte sera inscrite dans le système de recherche [1][2].\\n5. **Renouvelez la carte dans un délai maximal de trente jours** après la perte (Loi organique n° 2024‑22) [1][2].\\n\\n**Documents nécessaires**\\n- Certificat de perte délivré par la police ou la garde nationale\\n- Pièce d'identité actuelle (si disponible) ou justificatif d'identité\\n- Formulaire de demande de nouvelle carte (disponible sur le site de l’office ou à la préfecture)\\n\\nEn cas de vol, rappelle-toi d’appeler les numéros d’urgence 197 (police) ou 193 (garde nationale).\\n\",\"used_sources\":[1,2],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.238677391,
+  "prompt_tokens": 1534,
+  "prompt_time": 0.081843062,
+  "completion_tokens": 355,
+  "completion_time": 0.407715199,
+  "total_tokens": 1889,
+  "total_time": 0.489558261,
+  "completion_tokens_details": {
+   "reasoning_tokens": 21
+  }
+ },
+ "latency_s": 11.02
+}

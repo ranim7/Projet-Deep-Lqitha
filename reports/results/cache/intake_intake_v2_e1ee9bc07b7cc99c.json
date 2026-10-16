@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "en",
+  "slots": {
+   "item_category": "bag",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "airport",
+   "place_name": "Enfidha",
+   "governorate": "Nabeul",
+   "distinctive_detail": "grey with a laptop inside",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "date"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "When did you lose the backpack?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"en\",\"slots\":{\"item_category\":\"bag\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"airport\",\"place_name\":\"Enfidha\",\"governorate\":\"Nabeul\",\"distinctive_detail\":\"grey with a laptop inside\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"date\"],\"next_action\":\"ask_user\",\"question_to_user\":\"When did you lose the backpack?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.197368161,
+  "prompt_tokens": 1397,
+  "prompt_time": 0.579616353,
+  "completion_tokens": 182,
+  "completion_time": 0.185655249,
+  "total_tokens": 1579,
+  "total_time": 0.765271602,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 65
+  }
+ },
+ "latency_s": 1.54
+}

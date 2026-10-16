@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "blue",
+  "material": "faux leather",
+  "distinctive_marks": [],
+  "contents": [
+   "money",
+   "makeup"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Blue faux leather bag, large, containing money and makeup, with a distinctive zipper.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"blue\",\"color_detail\":\"blue\",\"material\":\"faux leather\",\"distinctive_marks\":[],\"contents\":[\"money\",\"makeup\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Blue faux leather bag, large, containing money and makeup, with a distinctive zipper.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.016895174,
+  "prompt_tokens": 796,
+  "prompt_time": 0.043316641,
+  "completion_tokens": 673,
+  "completion_time": 0.707789364,
+  "total_tokens": 1469,
+  "total_time": 0.751106005,
+  "completion_tokens_details": {
+   "reasoning_tokens": 564
+  }
+ },
+ "latency_s": 1.3
+}

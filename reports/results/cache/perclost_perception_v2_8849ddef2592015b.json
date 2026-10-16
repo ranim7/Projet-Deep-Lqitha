@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": "leather",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown leather wallet with RFID closure, old nappa style, found near the first bus station.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"wallet\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"brown\",\"material\":\"leather\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Brown leather wallet with RFID closure, old nappa style, found near the first bus station.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.192320734,
+  "prompt_tokens": 784,
+  "prompt_time": 0.047121114,
+  "completion_tokens": 251,
+  "completion_time": 0.261242081,
+  "total_tokens": 1035,
+  "total_time": 0.308363195,
+  "completion_tokens_details": {
+   "reasoning_tokens": 146
+  }
+ },
+ "latency_s": 7.0
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J’ai perdu mon sac à main noir en cuir, assez petit, avec une fermeture éclair bleue. Il contenait de l’argent, des cosmétiques, un boîtier d’écoute et un peigne. C'était dans le louage pour Gabès, avant‑hier."
+ },
+ "raw": "{\"message\":\"J’ai perdu mon sac à main noir en cuir, assez petit, avec une fermeture éclair bleue. Il contenait de l’argent, des cosmétiques, un boîtier d’écoute et un peigne. C'était dans le louage pour Gabès, avant‑hier.\"}",
+ "usage": {
+  "queue_time": 0.463560153,
+  "prompt_tokens": 318,
+  "prompt_time": 0.01389393,
+  "completion_tokens": 108,
+  "completion_time": 0.224302017,
+  "total_tokens": 426,
+  "total_time": 0.238195947,
+  "completion_tokens_details": {
+   "reasoning_tokens": 37
+  }
+ }
+}

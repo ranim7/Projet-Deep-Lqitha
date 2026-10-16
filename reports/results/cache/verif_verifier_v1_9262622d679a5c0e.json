@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "decision": "no_match",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"decision\":\"no_match\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.232243525,
+  "prompt_tokens": 422,
+  "prompt_time": 0.019770604,
+  "completion_tokens": 57,
+  "completion_time": 0.117836394,
+  "total_tokens": 479,
+  "total_time": 0.137606998,
+  "completion_tokens_details": {
+   "reasoning_tokens": 36
+  }
+ },
+ "latency_s": 1.04
+}

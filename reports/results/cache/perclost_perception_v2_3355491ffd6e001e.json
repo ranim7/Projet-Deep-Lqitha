@@ -1,0 +1,46 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [
+   "blue strap"
+  ],
+  "contents": [
+   "notebooks",
+   "headphones",
+   "ID card",
+   "lunch box"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Grey bag with blue strap containing notebooks, headphones, an ID card, and a lunch box.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":null,\"distinctive_marks\":[\"blue strap\"],\"contents\":[\"notebooks\",\"headphones\",\"ID card\",\"lunch box\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Grey bag with blue strap containing notebooks, headphones, an ID card, and a lunch box.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.293341329,
+  "prompt_tokens": 795,
+  "prompt_time": 0.021900762,
+  "completion_tokens": 237,
+  "completion_time": 0.241782249,
+  "total_tokens": 1032,
+  "total_time": 0.263683011,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 117
+  }
+ },
+ "latency_s": 1.22
+}

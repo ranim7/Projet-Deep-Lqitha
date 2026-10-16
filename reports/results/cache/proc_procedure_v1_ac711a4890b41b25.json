@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "**Documents nécessaires pour obtenir un duplicata du passeport tunisien**  \n(les mêmes exigences s’appliquent tant que vous êtes résident à l’étranger que sur le territoire tunisien, à l’exception de la présence éventuelle d’un poste de police local à visiter)\n\n| # | Document | Détails / Particularités |\n|---|----------|--------------------------|\n| 1 | **Formulaire de demande de passeport** | Formulaire officiel (souvent disponible en ligne ou à la police). Remplissez-le soigneusement. |\n| 2 | **Copie de la Carte d’identité nationale (CIN)** | Présentez l’original ou, pour les mineurs, un extrait de naissance. |\n| 3 | **Photos d’identité** | 4 photos conformes aux normes (taille, fond, expression, etc.). |\n| 4 | **Attestation de déclaration de perte ou de vol** | Formulaire C2 (ou équivalent) rempli et signé, attestant la perte/vol du passeport. |\n| 5 | **Autorisation du tuteur (si mineur)** | Copie de la carte d’identité du tuteur + lettre d’autorisation signée. |\n| 6 | **Justificatif de scolarisation** | Pour les élèves/étudiants (attestation d’inscription, carte d’étudiant, etc.). |\n| 7 | **Justificatif de résidence à l’étranger** | Attestation de domicile, contrat de location, facture d’électricité, etc., prouvant votre résidence hors Tunisie. |\n| 8 | **Quittance de paiement du droit de timbre fiscal** | Preuve du paiement des frais de dossier (timbre fiscal). |\n| 9 | **Document prouvant la nécessité d’obtenir un duplicata** | Lettre de votre employeur, certificat médical, lettre d’école, etc., expliquant pourquoi vous avez besoin d’un nouveau passeport rapidement. |\n| 10 | **Attestation écrite de dépôt de plainte** *(optionnel mais recommandé)* | Si vous avez déposé une plainte pour vol ou perte, une copie de l’attestation de dépôt de plainte. |\n| 11 | **Se rendre au poste de police le plus proche** | Pour déposer la demande et fournir les documents originaux. |\n\n> **Remarque** :  \n> - Les photos et le formulaire doivent être en français ou en anglais, selon les exigences de l’ambassade ou du poste de police.  \n> - Pour les mineurs, l’autorisation du parent/tuteur est indispensable.  \n> - Si vous êtes à l’étranger, vérifiez si votre ambassade ou consulat propose un service de duplicata (parfois ils demandent un formulaire spécifique ou un paiement en devises).  \n\nEn suivant cette liste, vous devriez pouvoir préparer votre dossier complet et éviter les retards dans l’obtention de votre duplicata de passeport.",
+ "usage": {
+  "queue_time": 0.231840076,
+  "prompt_tokens": 988,
+  "prompt_time": 0.075741659,
+  "completion_tokens": 616,
+  "completion_time": 0.654730505,
+  "total_tokens": 1604,
+  "total_time": 0.730472164,
+  "completion_tokens_details": {
+   "reasoning_tokens": 5
+  }
+ },
+ "latency_s": 3.27
+}

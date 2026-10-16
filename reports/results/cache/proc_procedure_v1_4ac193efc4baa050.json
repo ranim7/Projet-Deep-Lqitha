@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Dans le métro, déposez le portefeuille directement auprès de l’agent de la station où vous l’avez trouvé :  \n- **Agent de la station** (ou du dépôt de la ligne concernée).  \n- Indiquez-lui le numéro de ligne, la direction, la date et l’heure approximative de la découverte.  \n\nSi vous ne trouvez pas d’agent sur place, vous pouvez le remettre à la station de **Tunis Marine** (ou à la station où vous êtes descendu) ; les objets trouvés dans le métro sont généralement déposés là.  \n\nEnsuite, pensez à déclarer l’objet sur Lqitha : prenez une photo (sans montrer de numéros), indiquez le lieu, la date et l’endroit où vous l’avez déposé, et ajoutez un détail caché que seul le vrai propriétaire pourra connaître. Cela facilitera la récupération si le propriétaire se manifeste.",
+ "usage": {
+  "queue_time": 0.086325909,
+  "prompt_tokens": 1165,
+  "prompt_time": 0.090245787,
+  "completion_tokens": 210,
+  "completion_time": 0.230672846,
+  "total_tokens": 1375,
+  "total_time": 0.320918633,
+  "completion_tokens_details": {
+   "reasoning_tokens": 10
+  }
+ },
+ "latency_s": 3.86
+}

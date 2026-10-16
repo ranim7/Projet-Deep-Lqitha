@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": "jute",
+  "distinctive_marks": [
+   "green stickers"
+  ],
+  "contents": [
+   "lunch box"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown jute bag with a lunch box and green stickers.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"brown\",\"material\":\"jute\",\"distinctive_marks\":[\"green stickers\"],\"contents\":[\"lunch box\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Brown jute bag with a lunch box and green stickers.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.140582001,
+  "prompt_tokens": 794,
+  "prompt_time": 0.039744836,
+  "completion_tokens": 245,
+  "completion_time": 0.251234728,
+  "total_tokens": 1039,
+  "total_time": 0.290979564,
+  "completion_tokens_details": {
+   "reasoning_tokens": 140
+  }
+ },
+ "latency_s": 1.05
+}

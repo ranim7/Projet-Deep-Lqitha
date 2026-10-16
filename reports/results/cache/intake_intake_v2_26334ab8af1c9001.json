@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "keys",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": "car key",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place",
+   "date"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Wesh t9dar t3ti l'makan li 9rit fih l'marka?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.8
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"keys\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":\"car key\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place\",\"date\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Wesh t9dar t3ti l'makan li 9rit fih l'marka?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.8}",
+ "usage": {
+  "queue_time": 0.466290484,
+  "prompt_tokens": 1402,
+  "prompt_time": 0.018010136,
+  "completion_tokens": 177,
+  "completion_time": 0.215401674,
+  "total_tokens": 1579,
+  "total_time": 0.23341181,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 46
+  }
+ },
+ "latency_s": 12.95
+}

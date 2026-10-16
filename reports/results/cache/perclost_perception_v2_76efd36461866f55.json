@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "summer clothing",
+   "old sandals"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey bag with a blue strap, containing summer clothing and old sandals.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"summer clothing\",\"old sandals\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey bag with a blue strap, containing summer clothing and old sandals.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.152954362,
+  "prompt_tokens": 785,
+  "prompt_time": 0.049077351,
+  "completion_tokens": 134,
+  "completion_time": 0.145106637,
+  "total_tokens": 919,
+  "total_time": 0.194183988,
+  "completion_tokens_details": {
+   "reasoning_tokens": 29
+  }
+ },
+ "latency_s": 0.95
+}

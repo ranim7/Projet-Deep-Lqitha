@@ -1,0 +1,30 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "Arabic",
+  "slots": {
+   "location": "Carrefour La Marsa parking",
+   "item": "car key"
+  },
+  "missing": [
+   "photo"
+  ],
+  "next_action": "ask_for_photo",
+  "question_to_user": "هل يمكنك إرفاق صورة للعنصر المفقود؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"Arabic\",\"slots\":{\"location\":\"Carrefour La Marsa parking\",\"item\":\"car key\"},\"missing\":[\"photo\"],\"next_action\":\"ask_for_photo\",\"question_to_user\":\"هل يمكنك إرفاق صورة للعنصر المفقود؟\"}",
+ "usage": {
+  "queue_time": 0.231269169,
+  "prompt_tokens": 213,
+  "prompt_time": 0.011896226,
+  "completion_tokens": 120,
+  "completion_time": 0.121797325,
+  "total_tokens": 333,
+  "total_time": 0.133693551,
+  "completion_tokens_details": {
+   "reasoning_tokens": 52
+  }
+ },
+ "latency_s": 1.33
+}

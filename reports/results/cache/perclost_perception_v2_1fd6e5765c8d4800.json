@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "backpack",
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "marine",
+  "material": "canvas",
+  "distinctive_marks": [
+   "small outer pocket"
+  ],
+  "contents": [
+   "phone charger",
+   "watch",
+   "slippers",
+   "keys"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Blue canvas backpack with a small outer pocket containing a phone charger, watch, slippers, and keys.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bag\", \"subcategory\": \"backpack\", \"brand\": null, \"model\": null,\n \"color_family\": \"blue\", \"color_detail\": \"marine\",\n \"material\": \"canvas\",\n \"distinctive_marks\": [\"small outer pocket\"],\n \"contents\": [\"phone charger\", \"watch\", \"slippers\", \"keys\"],\n \"visible_text\": null,\n \"contains_sensitive_document\": false,\n \"canonical_description\": \"Blue canvas backpack with a small outer pocket containing a phone charger, watch, slippers, and keys.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 757,
+  "prompt_tokens_details": {
+   "cached_tokens": 252
+  },
+  "completion_tokens": 156,
+  "total_tokens": 913
+ },
+ "latency_s": 22.49
+}

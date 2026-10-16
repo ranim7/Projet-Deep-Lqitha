@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": "leather",
+  "distinctive_marks": [],
+  "contents": [
+   "30 euros"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown leather small handbag with a zipper, containing about 30 euros.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"brown\",\"material\":\"leather\",\"distinctive_marks\":[],\"contents\":[\"30 euros\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Brown leather small handbag with a zipper, containing about 30 euros.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.15062851,
+  "prompt_tokens": 778,
+  "prompt_time": 0.040306906,
+  "completion_tokens": 169,
+  "completion_time": 0.187684551,
+  "total_tokens": 947,
+  "total_time": 0.227991457,
+  "completion_tokens_details": {
+   "reasoning_tokens": 66
+  }
+ },
+ "latency_s": 1.01
+}

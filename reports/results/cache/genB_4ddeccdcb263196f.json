@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nassen, awel lbera7, tlefet poly bag mkhalli9, fih jowab chwaya socks w handkerchiefs, koulou couleur gris w kouni nseet fih, please help!"
+ },
+ "raw": "{\"message\":\"Nassen, awel lbera7, tlefet poly bag mkhalli9, fih jowab chwaya socks w handkerchiefs, koulou couleur gris w kouni nseet fih, please help!\"}",
+ "usage": {
+  "queue_time": 0.302977489,
+  "prompt_tokens": 318,
+  "prompt_time": 0.014393356,
+  "completion_tokens": 98,
+  "completion_time": 0.20282497,
+  "total_tokens": 416,
+  "total_time": 0.217218326,
+  "completion_tokens_details": {
+   "reasoning_tokens": 36
+  }
+ }
+}

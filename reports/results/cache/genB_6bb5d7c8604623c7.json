@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lbara7 f Les Jasmins, nseet flasst steel sbir, couleur gris métal, 500ml, 3laha logo rouge w ma3aya w9t l3asr, ma n9adsh n9alib 3lih"
+ },
+ "raw": "{\"message\":\"Lbara7 f Les Jasmins, nseet flasst steel sbir, couleur gris métal, 500ml, 3laha logo rouge w ma3aya w9t l3asr, ma n9adsh n9alib 3lih\"}",
+ "usage": {
+  "queue_time": 0.048351698,
+  "prompt_tokens": 312,
+  "prompt_time": 0.013726866,
+  "completion_tokens": 116,
+  "completion_time": 0.239681478,
+  "total_tokens": 428,
+  "total_time": 0.253408344,
+  "completion_tokens_details": {
+   "reasoning_tokens": 44
+  }
+ }
+}

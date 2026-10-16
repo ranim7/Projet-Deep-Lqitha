@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "Computer peripheral (USB mouse and USB hub)",
+  "brand": "Arcanite",
+  "color": "Black",
+  "material": "Plastic",
+  "distinctive_marks": [
+   "Wired USB-A mouse with a standard two-button layout and scroll wheel.",
+   "Compact, rectangular USB hub with a glossy finish.",
+   "The brand name 'ARCANITE' is printed in white on the top surface of the hub."
+  ],
+  "description": "The image displays a set of two black computer peripherals against a white background. On the left is a standard wired USB mouse with a matte finish, featuring a scroll wheel and a short, coiled cable ending in a USB-A connector. To the right is a small, rectangular USB hub with a glossy black top surface. The brand name 'ARCANITE' is clearly visible in white lettering on the hub. The image is presented in a repeating, tiled format."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Computer peripheral (USB mouse and USB hub)\",\n  \"brand\": \"Arcanite\",\n  \"color\": \"Black\",\n  \"material\": \"Plastic\",\n  \"distinctive_marks\": [\n    \"Wired USB-A mouse with a standard two-button layout and scroll wheel.\",\n    \"Compact, rectangular USB hub with a glossy finish.\",\n    \"The brand name 'ARCANITE' is printed in white on the top surface of the hub.\"\n  ],\n  \"description\": \"The image displays a set of two black computer peripherals against a white background. On the left is a standard wired USB mouse with a matte finish, featuring a scroll wheel and a short, coiled cable ending in a USB-A connector. To the right is a small, rectangular USB hub with a glossy black top surface. The brand name 'ARCANITE' is clearly visible in white lettering on the hub. The image is presented in a repeating, tiled format.\"\n}",
+ "usage": {
+  "queue_time": 0.092414613,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.111600796,
+  "completion_tokens": 216,
+  "completion_time": 0.432306764,
+  "total_tokens": 1553,
+  "total_time": 0.54390756
+ },
+ "latency_s": 19.86
+}

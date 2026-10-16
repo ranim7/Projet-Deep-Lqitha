@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: same family (blue)",
+   "brand: both unknown",
+   "marks/contents: no contradiction (lost none, found has stripes/buckles)",
+   "time/place: found after lost, different towns (weak contradiction)"
+  ],
+  "agreements": [
+   "category",
+   "color_family",
+   "date"
+  ],
+  "contradictions": [],
+  "decision": "possible_match",
+  "confidence": 0.71,
+  "question_for_owner": "Did your bag have any striped pattern or buckles on it?"
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: same family (blue)\",\"brand: both unknown\",\"marks/contents: no contradiction (lost none, found has stripes/buckles)\",\"time/place: found after lost, different towns (weak contradiction)\"],\"agreements\":[\"category\",\"color_family\",\"date\"],\"contradictions\":[],\"decision\":\"possible_match\",\"confidence\":0.71,\"question_for_owner\":\"Did your bag have any striped pattern or buckles on it?\"}",
+ "usage": {
+  "queue_time": 0.29679211,
+  "prompt_tokens": 822,
+  "prompt_time": 0.035990024,
+  "completion_tokens": 318,
+  "completion_time": 0.662884581,
+  "total_tokens": 1140,
+  "total_time": 0.698874605,
+  "completion_tokens_details": {
+   "reasoning_tokens": 212
+  }
+ },
+ "latency_s": 1.55
+}

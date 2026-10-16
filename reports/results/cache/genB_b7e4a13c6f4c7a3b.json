@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon petit sac à main en cuir marron, avec une fermeture éclair, contenant environ 30 euros, à Kalaa Kebira avant-hier."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon petit sac à main en cuir marron, avec une fermeture éclair, contenant environ 30 euros, à Kalaa Kebira avant-hier.\"}",
+ "usage": {
+  "queue_time": 0.294869988,
+  "prompt_tokens": 315,
+  "prompt_time": 0.020474958,
+  "completion_tokens": 186,
+  "completion_time": 0.386371162,
+  "total_tokens": 501,
+  "total_time": 0.40684612,
+  "completion_tokens_details": {
+   "reasoning_tokens": 140
+  }
+ }
+}

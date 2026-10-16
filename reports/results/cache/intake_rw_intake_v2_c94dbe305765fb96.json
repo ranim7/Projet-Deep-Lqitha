@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Pour obtenir un duplicata de votre passeport, vous devez vous rendre à la préfecture ou à la mairie de votre lieu de résidence. Apportez votre pièce d'identité, un justificatif de domicile et un formulaire de demande de duplicata. Vous devrez également fournir une photo d'identité récente et payer les frais de duplication. Si vous avez besoin d’une copie numérique, vous pouvez la télécharger sur le site officiel de la préfecture après avoir rempli le formulaire en ligne.",
+  "search_query_fr": "duplicata passeport perte",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Pour obtenir un duplicata de votre passeport, vous devez vous rendre à la préfecture ou à la mairie de votre lieu de résidence. Apportez votre pièce d'identité, un justificatif de domicile et un formulaire de demande de duplicata. Vous devrez également fournir une photo d'identité récente et payer les frais de duplication. Si vous avez besoin d’une copie numérique, vous pouvez la télécharger sur le site officiel de la préfecture après avoir rempli le formulaire en ligne.\",\"search_query_fr\":\"duplicata passeport perte\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.234482696,
+  "prompt_tokens": 1407,
+  "prompt_time": 0.070183743,
+  "completion_tokens": 226,
+  "completion_time": 0.232847623,
+  "total_tokens": 1633,
+  "total_time": 0.303031366,
+  "completion_tokens_details": {
+   "reasoning_tokens": 21
+  }
+ },
+ "latency_s": 1.37
+}

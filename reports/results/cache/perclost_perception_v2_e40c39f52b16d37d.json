@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "yellow",
+  "color_detail": "yellow",
+  "material": null,
+  "distinctive_marks": [
+   "large logo"
+  ],
+  "contents": [
+   "tiffin"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Yellow bag with a large logo, containing a tiffin.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"yellow\",\"color_detail\":\"yellow\",\"material\":null,\"distinctive_marks\":[\"large logo\"],\"contents\":[\"tiffin\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Yellow bag with a large logo, containing a tiffin.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.195666786,
+  "prompt_tokens": 799,
+  "prompt_time": 0.020582785,
+  "completion_tokens": 212,
+  "completion_time": 0.22219091,
+  "total_tokens": 1011,
+  "total_time": 0.242773695,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 107
+  }
+ },
+ "latency_s": 1.2
+}

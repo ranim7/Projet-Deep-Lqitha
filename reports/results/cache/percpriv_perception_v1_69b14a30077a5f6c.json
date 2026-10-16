@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "Bag",
+  "brand": null,
+  "color": "Brown",
+  "material": "Leather",
+  "distinctive_marks": "Contains an ID card with number 07654321",
+  "description": "A brown leather bag that holds an identification card numbered 07654321. The bag appears to be a standard carry‑all with a simple design, suitable for everyday use."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"Bag\",\"brand\":null,\"color\":\"Brown\",\"material\":\"Leather\",\"distinctive_marks\":\"Contains an ID card with number 07654321\",\"description\":\"A brown leather bag that holds an identification card numbered 07654321. The bag appears to be a standard carry‑all with a simple design, suitable for everyday use.\"}",
+ "usage": {
+  "queue_time": 0.047050629,
+  "prompt_tokens": 145,
+  "prompt_time": 0.007094037,
+  "completion_tokens": 178,
+  "completion_time": 0.201780085,
+  "total_tokens": 323,
+  "total_time": 0.208874122,
+  "completion_tokens_details": {
+   "reasoning_tokens": 99
+  }
+ },
+ "latency_s": 0.77
+}

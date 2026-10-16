@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "category": "cable",
+  "brand": "Amazon",
+  "color": "black",
+  "material": "plastic, metal",
+  "distinctive_marks": "amazon logo",
+  "description": "A black Amazon brand cable with a USB Type-A connector on one end and a Micro-USB connector on the other. The connectors feature gold-plated contacts, and the USB Type-A plug has a blue interior, indicating it is likely a USB 3.0 cable. The 'amazon' logo is printed on the black plastic housing of both connectors."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"cable\",\n  \"brand\": \"Amazon\",\n  \"color\": \"black\",\n  \"material\": \"plastic, metal\",\n  \"distinctive_marks\": \"amazon logo\",\n  \"description\": \"A black Amazon brand cable with a USB Type-A connector on one end and a Micro-USB connector on the other. The connectors feature gold-plated contacts, and the USB Type-A plug has a blue interior, indicating it is likely a USB 3.0 cable. The 'amazon' logo is printed on the black plastic housing of both connectors.\"\n}",
+ "usage": {
+  "queue_time": 0.341391399,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.101568755,
+  "completion_tokens": 133,
+  "completion_time": 0.266863921,
+  "total_tokens": 1470,
+  "total_time": 0.368432676
+ },
+ "latency_s": 19.94
+}

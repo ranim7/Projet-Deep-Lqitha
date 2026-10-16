@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe may have located the bag you reported missing. It was turned in at the Gare de Tunis and is currently being held for you.\n\nTo confirm that this is indeed your bag, could you tell us what was inside the front pocket? (We’re looking for a specific hidden detail.)\n\nThank you!",
+ "usage": {
+  "queue_time": 0.088257307,
+  "prompt_tokens": 166,
+  "prompt_time": 0.007620116,
+  "completion_tokens": 94,
+  "completion_time": 0.199474502,
+  "total_tokens": 260,
+  "total_time": 0.207094618,
+  "completion_tokens_details": {
+   "reasoning_tokens": 23
+  }
+ },
+ "latency_s": 1.63
+}

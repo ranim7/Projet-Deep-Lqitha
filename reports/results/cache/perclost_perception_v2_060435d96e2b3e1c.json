@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "pink",
+  "color_detail": "dark pink",
+  "material": "leather",
+  "distinctive_marks": [],
+  "contents": [
+   "cards",
+   "money"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Small dark pink leather bag containing cards and money.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"pink\",\"color_detail\":\"dark pink\",\"material\":\"leather\",\"distinctive_marks\":[],\"contents\":[\"cards\",\"money\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Small dark pink leather bag containing cards and money.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.475998046,
+  "prompt_tokens": 783,
+  "prompt_time": 0.014678322,
+  "completion_tokens": 174,
+  "completion_time": 0.184236665,
+  "total_tokens": 957,
+  "total_time": 0.198914987,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 73
+  }
+ },
+ "latency_s": 5.89
+}

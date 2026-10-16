@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe may have located your missing phone. To confirm that it’s yours, could you tell us what animal is displayed on the lock‑screen wallpaper?\n\nThank you!",
+ "usage": {
+  "queue_time": 0.089517182,
+  "prompt_tokens": 161,
+  "prompt_time": 0.006041411,
+  "completion_tokens": 57,
+  "completion_time": 0.118549864,
+  "total_tokens": 218,
+  "total_time": 0.124591275,
+  "completion_tokens_details": {
+   "reasoning_tokens": 13
+  }
+ },
+ "latency_s": 1.31
+}

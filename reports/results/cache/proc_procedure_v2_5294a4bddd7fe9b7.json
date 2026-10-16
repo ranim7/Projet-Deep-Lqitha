@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Salut ! Voici les démarches pour obtenir un duplicata du passeport tunisien.\n\n1. **Remplir le formulaire** d’obtention d’un passeport (disponible sur Idaraty).\n2. **Présenter la copie** de votre carte d’identité nationale (ou l’original) ; pour les mineurs, un extrait de naissance.\n3. **Fournir 4 photos d’identité** conformes aux exigences.\n4. **Déclarer la perte** : attestation de déclaration de perte du passeport.\n5. **Justificatifs supplémentaires** :\n   - Autorisation du tuteur (avec copie de sa carte d’identité) si vous êtes mineur.\n   - Justificatif de scolarisation pour élèves/étudiants.\n   - Quittance de paiement du droit de timbre fiscal dû.\n   - Tout document prouvant la nécessité d’obtenir un duplicata.\n6. **Se rendre** au poste de police le plus proche (pour les résidents sur le territoire tunisien) ou à l’ambassade/consulat si vous êtes à l’étranger.\n\n**Documents à préparer**\n- Formulaire d’obtention d’un passeport.\n- Copie de la carte d’identité nationale (ou extrait de naissance pour mineurs).\n- 4 photos d’identité.\n- Attestation de déclaration de perte du passeport.\n- Autorisation du tuteur (si mineur) + copie de sa carte d’identité.\n- Justificatif de scolarisation (si applicable).\n- Quittance de paiement du droit de timbre fiscal.\n- Tout autre document prouvant la nécessité du duplicata.\n\nSources : [1], [2]",
+  "used_sources": [
+   1,
+   2
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salut ! Voici les démarches pour obtenir un duplicata du passeport tunisien.\\n\\n1. **Remplir le formulaire** d’obtention d’un passeport (disponible sur Idaraty).\\n2. **Présenter la copie** de votre carte d’identité nationale (ou l’original) ; pour les mineurs, un extrait de naissance.\\n3. **Fournir 4 photos d’identité** conformes aux exigences.\\n4. **Déclarer la perte** : attestation de déclaration de perte du passeport.\\n5. **Justificatifs supplémentaires** :\\n   - Autorisation du tuteur (avec copie de sa carte d’identité) si vous êtes mineur.\\n   - Justificatif de scolarisation pour élèves/étudiants.\\n   - Quittance de paiement du droit de timbre fiscal dû.\\n   - Tout document prouvant la nécessité d’obtenir un duplicata.\\n6. **Se rendre** au poste de police le plus proche (pour les résidents sur le territoire tunisien) ou à l’ambassade/consulat si vous êtes à l’étranger.\\n\\n**Documents à préparer**\\n- Formulaire d’obtention d’un passeport.\\n- Copie de la carte d’identité nationale (ou extrait de naissance pour mineurs).\\n- 4 photos d’identité.\\n- Attestation de déclaration de perte du passeport.\\n- Autorisation du tuteur (si mineur) + copie de sa carte d’identité.\\n- Justificatif de scolarisation (si applicable).\\n- Quittance de paiement du droit de timbre fiscal.\\n- Tout autre document prouvant la nécessité du duplicata.\\n\\nSources : [1], [2]\",\"used_sources\":[1,2],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.176998822,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.078919003,
+  "completion_tokens": 415,
+  "completion_time": 0.454731136,
+  "total_tokens": 1752,
+  "total_time": 0.533650139,
+  "completion_tokens_details": {
+   "reasoning_tokens": 23
+  }
+ },
+ "latency_s": 7.89
+}

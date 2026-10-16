@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lbara7 f Redeyef faddit sac kbir, couleur gris, fih charger ta3 headphones, chwaya clothes, pan, w carte bancaire Aadhar d'Anoop Kumar."
+ },
+ "raw": "{\"message\":\"Lbara7 f Redeyef faddit sac kbir, couleur gris, fih charger ta3 headphones, chwaya clothes, pan, w carte bancaire Aadhar d'Anoop Kumar.\"}",
+ "usage": {
+  "queue_time": 0.196401683,
+  "prompt_tokens": 327,
+  "prompt_time": 0.015634998,
+  "completion_tokens": 90,
+  "completion_time": 0.19503761,
+  "total_tokens": 417,
+  "total_time": 0.210672608,
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "category": "Sunglasses",
+  "brand": "Ray-Ban",
+  "color": "Black",
+  "material": "Metal",
+  "distinctive_marks": [
+   "Aviator style frame",
+   "Double bridge",
+   "Teardrop-shaped lenses",
+   "Thin metal temples"
+  ],
+  "description": "A pair of classic black metal aviator sunglasses with dark grey lenses. The image displays the product from multiple angles, including a full front view and a close-up side profile, highlighting the thin frame, double bridge, and sleek design."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Sunglasses\",\n  \"brand\": \"Ray-Ban\",\n  \"color\": \"Black\",\n  \"material\": \"Metal\",\n  \"distinctive_marks\": [\n    \"Aviator style frame\",\n    \"Double bridge\",\n    \"Teardrop-shaped lenses\",\n    \"Thin metal temples\"\n  ],\n  \"description\": \"A pair of classic black metal aviator sunglasses with dark grey lenses. The image displays the product from multiple angles, including a full front view and a close-up side profile, highlighting the thin frame, double bridge, and sleek design.\"\n}",
+ "usage": {
+  "queue_time": 0.078428858,
+  "prompt_tokens": 825,
+  "prompt_time": 0.058848313,
+  "completion_tokens": 139,
+  "completion_time": 0.264592109,
+  "total_tokens": 964,
+  "total_time": 0.323440422
+ },
+ "latency_s": 19.6
+}

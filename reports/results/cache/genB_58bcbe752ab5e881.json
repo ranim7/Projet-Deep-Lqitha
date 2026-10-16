@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lbara7 f Sidi Ayed nseet sac l'kora, couleur gris, mat, fih tiffins w waraq tissou, 3andou zip mftouh w 7ajet kbir."
+ },
+ "raw": "{\"message\":\"Lbara7 f Sidi Ayed nseet sac l'kora, couleur gris, mat, fih tiffins w waraq tissou, 3andou zip mftouh w 7ajet kbir.\"}",
+ "usage": {
+  "queue_time": 0.295524105,
+  "prompt_tokens": 315,
+  "prompt_time": 0.052825211,
+  "completion_tokens": 99,
+  "completion_time": 0.203322416,
+  "total_tokens": 414,
+  "total_time": 0.256147627,
+  "completion_tokens_details": {
+   "reasoning_tokens": 36
+  }
+ }
+}

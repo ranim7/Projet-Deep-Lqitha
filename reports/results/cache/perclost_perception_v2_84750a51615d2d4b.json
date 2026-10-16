@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "category": "laptop",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [
+   "colorful stickers",
+   "black keyboard"
+  ],
+  "contents": [
+   "work documents"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey laptop with a black keyboard and colorful stickers, containing work documents.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"laptop\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":null,\"distinctive_marks\":[\"colorful stickers\",\"black keyboard\"],\"contents\":[\"work documents\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey laptop with a black keyboard and colorful stickers, containing work documents.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.228976956,
+  "prompt_tokens": 793,
+  "prompt_time": 0.639629527,
+  "completion_tokens": 172,
+  "completion_time": 0.178011022,
+  "total_tokens": 965,
+  "total_time": 0.817640549,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 62
+  }
+ },
+ "latency_s": 1.71
+}

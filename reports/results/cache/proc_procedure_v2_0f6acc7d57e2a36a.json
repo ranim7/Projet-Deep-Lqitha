@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "answer": "Salut! Voici ce que tu dois faire si tu perds ton téléphone en Tunisie.\n\n1. **Déclare la perte sur Lqitha** : indique la couleur, la marque, la coque, le fond d'écran et tout signe distinctif (rayure, autocollant) [4].\n2. **Localise ou verrouille à distance** : utilise « Localiser » (Find My) pour iPhone ou « Localiser mon appareil » (Find My Device) pour Android [2].\n3. **Change tes mots‑de‑passe** : e‑mail, réseaux sociaux, banque, etc. si le téléphone n’était pas verrouillé [2].\n4. **Contacte ton opérateur** (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et éviter son usage. Demande une nouvelle carte SIM en agence en présentant ta pièce d’identité [2].\n5. **Dépose une plainte** : si tu penses que le téléphone a été volé, dépose plainte au poste de police (urgence : 197) ou à la garde nationale (urgence : 193) et indique le numéro IMEI du téléphone (code *#06# ou sur la boîte d’origine / facture) [2].\n6. **Attends la vérification** : Lqitha comparera ta déclaration avec les objets trouvés. Si un trouvé correspond, la vérification se fera via un détail caché avant tout échange de coordonnées [4].\n\n**Documents nécessaires** :\n- Pièce d’identité (pour l’opérateur et la plainte) \n- Facture ou boîte d’origine (pour le numéro IMEI) [2].",
+  "used_sources": [
+   1,
+   2,
+   4
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salut! Voici ce que tu dois faire si tu perds ton téléphone en Tunisie.\\n\\n1. **Déclare la perte sur Lqitha** : indique la couleur, la marque, la coque, le fond d'écran et tout signe distinctif (rayure, autocollant) [4].\\n2. **Localise ou verrouille à distance** : utilise « Localiser » (Find My) pour iPhone ou « Localiser mon appareil » (Find My Device) pour Android [2].\\n3. **Change tes mots‑de‑passe** : e‑mail, réseaux sociaux, banque, etc. si le téléphone n’était pas verrouillé [2].\\n4. **Contacte ton opérateur** (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et éviter son usage. Demande une nouvelle carte SIM en agence en présentant ta pièce d’identité [2].\\n5. **Dépose une plainte** : si tu penses que le téléphone a été volé, dépose plainte au poste de police (urgence : 197) ou à la garde nationale (urgence : 193) et indique le numéro IMEI du téléphone (code *#06# ou sur la boîte d’origine / facture) [2].\\n6. **Attends la vérification** : Lqitha comparera ta déclaration avec les objets trouvés. Si un trouvé correspond, la vérification se fera via un détail caché avant tout échange de coordonnées [4].\\n\\n**Documents nécessaires** :\\n- Pièce d’identité (pour l’opérateur et la plainte) \\n- Facture ou boîte d’origine (pour le numéro IMEI) [2].\",\"used_sources\":[1,2,4],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.191837664,
+  "prompt_tokens": 1094,
+  "prompt_time": 0.060223782,
+  "completion_tokens": 410,
+  "completion_time": 0.422038893,
+  "total_tokens": 1504,
+  "total_time": 0.482262675,
+  "completion_tokens_details": {
+   "reasoning_tokens": 15
+  }
+ },
+ "latency_s": 14.65
+}

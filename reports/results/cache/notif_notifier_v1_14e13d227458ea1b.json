@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe believe we may have found the jewelry you reported missing. It is currently being kept at the Gare de Tunis.\n\nTo confirm that this is indeed your item, could you please tell us what name is engraved inside the piece?\n\nThank you!",
+ "usage": {
+  "queue_time": 0.060082933,
+  "prompt_tokens": 164,
+  "prompt_time": 0.010767468,
+  "completion_tokens": 74,
+  "completion_time": 0.15628363,
+  "total_tokens": 238,
+  "total_time": 0.167051098,
+  "completion_tokens_details": {
+   "reasoning_tokens": 15
+  }
+ },
+ "latency_s": 1.21
+}

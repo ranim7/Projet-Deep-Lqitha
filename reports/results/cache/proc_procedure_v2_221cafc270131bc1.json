@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Salem, si tu as trouvé un portefeuille dans le métro, voici ce qu’il faut faire :\n\n1. **Dépose l’objet** : Remets le portefeuille à l’agent de la station de métro où tu l’as trouvé (ou à la station de Tunis Marine si c’est un TGM) [1][2].\n2. **Déclare sur Lqitha** : Prends une photo de l’objet sans montrer les numéros de carte, indique le lieu, la date et l’endroit où tu l’as déposé, et ajoute un détail caché que seul le propriétaire pourra connaître [1].\n3. **Contacte le chef de gare** (si c’est un train) ou l’agent de la station pour confirmer la remise et obtenir un reçu si possible [2].\n4. **Attends la confirmation** : Le personnel de la station ou du train te tiendra informé si le propriétaire se présente.\n5. **En cas de non‑réponse** : Si le propriétaire ne se manifeste pas dans un délai raisonnable, garde l’objet en sécurité jusqu’à ce qu’il soit récupéré.\n\n**Documents** : Aucun document supplémentaire n’est requis pour déposer un objet trouvé.\n\nEn cas d’urgence (vol ou perte d’un document officiel), rappelle‑les 197 (police) ou 193 (garde nationale).",
+  "used_sources": [
+   1,
+   2
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salem, si tu as trouvé un portefeuille dans le métro, voici ce qu’il faut faire :\\n\\n1. **Dépose l’objet** : Remets le portefeuille à l’agent de la station de métro où tu l’as trouvé (ou à la station de Tunis Marine si c’est un TGM) [1][2].\\n2. **Déclare sur Lqitha** : Prends une photo de l’objet sans montrer les numéros de carte, indique le lieu, la date et l’endroit où tu l’as déposé, et ajoute un détail caché que seul le propriétaire pourra connaître [1].\\n3. **Contacte le chef de gare** (si c’est un train) ou l’agent de la station pour confirmer la remise et obtenir un reçu si possible [2].\\n4. **Attends la confirmation** : Le personnel de la station ou du train te tiendra informé si le propriétaire se présente.\\n5. **En cas de non‑réponse** : Si le propriétaire ne se manifeste pas dans un délai raisonnable, garde l’objet en sécurité jusqu’à ce qu’il soit récupéré.\\n\\n**Documents** : Aucun document supplémentaire n’est requis pour déposer un objet trouvé.\\n\\nEn cas d’urgence (vol ou perte d’un document officiel), rappelle‑les 197 (police) ou 193 (garde nationale).\",\"used_sources\":[1,2],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.299388561,
+  "prompt_tokens": 1513,
+  "prompt_time": 0.109418755,
+  "completion_tokens": 341,
+  "completion_time": 0.40081974,
+  "total_tokens": 1854,
+  "total_time": 0.510238495,
+  "completion_tokens_details": {
+   "reasoning_tokens": 24
+  }
+ },
+ "latency_s": 19.99
+}

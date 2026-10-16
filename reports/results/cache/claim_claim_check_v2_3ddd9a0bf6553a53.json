@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": true,
+  "reason": "matches the specific fact"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":true,\"reason\":\"matches the specific fact\"}",
+ "usage": {
+  "queue_time": 0.196472765,
+  "prompt_tokens": 267,
+  "prompt_time": 0.017358049,
+  "completion_tokens": 76,
+  "completion_time": 0.092923008,
+  "total_tokens": 343,
+  "total_time": 0.110281057,
+  "completion_tokens_details": {
+   "reasoning_tokens": 55
+  }
+ },
+ "latency_s": 0.83
+}

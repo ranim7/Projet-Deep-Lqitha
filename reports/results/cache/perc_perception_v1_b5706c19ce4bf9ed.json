@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "category": "women's footwear",
+  "brand": "Unknown",
+  "color": "Tan",
+  "material": "Suede",
+  "distinctive_marks": [
+   "Wooden block heel with horizontal grain",
+   "Pull loop at the back of the collar",
+   "Elastic side panel for fit",
+   "Almond-shaped toe"
+  ],
+  "description": "A tan suede ankle boot featuring a pointed almond toe and a distinctive light-colored wooden block heel. The boot has a pull loop at the back and an elasticated side panel for easy wear."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"women's footwear\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Tan\",\n  \"material\": \"Suede\",\n  \"distinctive_marks\": [\n    \"Wooden block heel with horizontal grain\",\n    \"Pull loop at the back of the collar\",\n    \"Elastic side panel for fit\",\n    \"Almond-shaped toe\"\n  ],\n  \"description\": \"A tan suede ankle boot featuring a pointed almond toe and a distinctive light-colored wooden block heel. The boot has a pull loop at the back and an elasticated side panel for easy wear.\"\n}",
+ "usage": {
+  "queue_time": 0.12329253,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.09796786,
+  "completion_tokens": 140,
+  "completion_time": 0.30853045,
+  "total_tokens": 1477,
+  "total_time": 0.40649831
+ },
+ "latency_s": 19.88
+}

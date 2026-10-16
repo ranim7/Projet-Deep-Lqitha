@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "umbrella",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "blue",
+  "material": "lightweight",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Blue double-layer umbrella with a pointed tip and a C-shaped handle, lightweight and suitable for sunny days.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"umbrella\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"blue\",\"color_detail\":\"blue\",\"material\":\"lightweight\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Blue double-layer umbrella with a pointed tip and a C-shaped handle, lightweight and suitable for sunny days.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.047520288,
+  "prompt_tokens": 792,
+  "prompt_time": 0.022075093,
+  "completion_tokens": 436,
+  "completion_time": 0.544624699,
+  "total_tokens": 1228,
+  "total_time": 0.566699792,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 328
+  }
+ },
+ "latency_s": 1.7
+}

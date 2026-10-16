@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "luggage",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "red",
+  "color_detail": "red",
+  "material": "fabric",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Red fabric luggage with trolley and roll.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"luggage\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"red\",\"color_detail\":\"red\",\"material\":\"fabric\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Red fabric luggage with trolley and roll.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.232573878,
+  "prompt_tokens": 796,
+  "prompt_time": 0.04373594,
+  "completion_tokens": 163,
+  "completion_time": 0.165992653,
+  "total_tokens": 959,
+  "total_time": 0.209728593,
+  "completion_tokens_details": {
+   "reasoning_tokens": 69
+  }
+ },
+ "latency_s": 1.29
+}

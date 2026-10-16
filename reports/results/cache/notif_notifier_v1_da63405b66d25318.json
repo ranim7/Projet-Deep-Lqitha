@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe may have located the keys you reported missing. To confirm that you are the rightful owner, could you tell us **what color the third key was**? \n\nThank you!",
+ "usage": {
+  "queue_time": 0.088798224,
+  "prompt_tokens": 163,
+  "prompt_time": 0.006274348,
+  "completion_tokens": 58,
+  "completion_time": 0.130780913,
+  "total_tokens": 221,
+  "total_time": 0.137055261,
+  "completion_tokens_details": {
+   "reasoning_tokens": 11
+  }
+ },
+ "latency_s": 1.35
+}

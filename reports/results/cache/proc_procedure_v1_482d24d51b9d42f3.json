@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "**En cas de perte de votre carte d’identité nationale (CIN) en Tunisie :**\n\n| Étape | Action à réaliser | Documents / informations à fournir | Délai recommandé |\n|-------|-------------------|------------------------------------|------------------|\n| 1 | **Déclarer la perte immédiatement** | - Se rendre au poste de police ou à la garde nationale le plus proche (ou le poste de votre domicile). <br>- Présenter votre identité (ex. passeport, carte d’identité, ou tout autre document officiel). | Dès que possible, idéalement le jour même |\n| 2 | **Obtenir le certificat (attestation) de perte** | - Le service vérifiera votre identité. <br>- Vous recevrez un certificat écrit (attestation) de perte. | Immédiatement après la vérification |\n| 3 | **Faire inscrire la carte dans le système de recherche** | - Le poste de police/garant nationale l’inscrit automatiquement. <br>- La puce électronique de la carte est désactivée. | Automatique, dès la déclaration |\n| 4 | **Demander une nouvelle carte d’identité** | - Se rendre à la préfecture ou à la mairie compétente (ou via le portail **idaraty.tn** si vous avez accès). <br>- Remplir le formulaire de demande de nouvelle CIN. <br>- Fournir : <br>  • Le certificat de perte (attestation). <br>  • Un justificatif de domicile (facture, quittance, etc.). <br>  • Un justificatif de situation familiale (si applicable). <br>  • Une photo d’identité récente (format et dimensions précisés par la préfecture). | **30 jours maximum** après la perte (conformément à la Loi organique n° 2024‑22). |\n| 5 | **Suivre la procédure en ligne (facultatif)** | - Si vous avez un compte sur **idaraty.tn**, vous pouvez déclarer la perte et demander le duplicata en ligne. <br>- Vous devrez télécharger le certificat de perte et les autres pièces justificatives. | 24–48 h après la déclaration, selon le traitement |\n| 6 | **Récupérer la nouvelle carte** | - Une fois la demande validée, vous serez informé(e) de la date de retrait. <br>- Vous devrez vous présenter en personne pour récupérer la nouvelle CIN. | Selon le calendrier de la préfecture (souvent 5–10 jours ouvrés) |\n\n### Points clés à retenir\n\n1. **Déclaration immédiate** – La loi impose d’en informer le poste de police ou la garde nationale dès que vous constatez la perte.\n2. **Certificat de perte** – Vous ne pourrez pas obtenir une nouvelle carte sans ce document officiel.\n3. **Délai de 30 jours** – Vous avez jusqu’à 30 jours pour renouveler votre carte après la perte.\n4. **Puce désactivée** – La carte perdue est automatiquement désactivée et inscrite dans le système de recherche, ce qui protège votre identité.\n5. **Consulat à l’étranger** – Si vous êtes à l’étranger, faites la déclaration auprès du poste de police local et demandez le duplicata auprès du consulat tunisien.\n\n---\n\n#### En résumé\n\n1. **Allez immédiatement au poste de police ou à la garde nationale** pour déclarer la perte et obtenir l’attestation de perte.  \n2. **Demandez votre nouvelle carte d’identité** (préfecture, mairie ou via **idaraty.tn**) en présentant l’attestation, un justificatif de domicile et une photo d’identité.  \n3. **Respectez le délai de 30 jours** pour renouveler votre CIN.  \n\nSi vous avez besoin d’aide pour remplir les formulaires ou pour naviguer sur **idaraty.tn**, n’hésitez pas à me le demander !",
+ "usage": {
+  "queue_time": 0.070119807,
+  "prompt_tokens": 1185,
+  "prompt_time": 0.082089271,
+  "completion_tokens": 838,
+  "completion_time": 0.922432614,
+  "total_tokens": 2023,
+  "total_time": 1.004521885,
+  "completion_tokens_details": {
+   "reasoning_tokens": 6
+  }
+ },
+ "latency_s": 2.15
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "SRTM Agence Ben Guerdane, awel lbera7, faddit sac maina, couleur noir, matiere cuir, fih bank card w PAN card mta3 Sarita Thapa, très important"
+ },
+ "raw": "{\"message\":\"SRTM Agence Ben Guerdane, awel lbera7, faddit sac maina, couleur noir, matiere cuir, fih bank card w PAN card mta3 Sarita Thapa, très important\"}",
+ "usage": {
+  "queue_time": 0.086717627,
+  "prompt_tokens": 323,
+  "prompt_time": 0.017210664,
+  "completion_tokens": 87,
+  "completion_time": 0.184256636,
+  "total_tokens": 410,
+  "total_time": 0.2014673,
+  "completion_tokens_details": {
+   "reasoning_tokens": 28
+  }
+ }
+}

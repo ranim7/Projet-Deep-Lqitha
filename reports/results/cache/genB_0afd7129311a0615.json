@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Saree chooda, sac carry couleur gris m3a strap rouge, 3andou zip mftou7, tleftha fel BELLEVUE lyoum, nseetou m3a l'kaf"
+ },
+ "raw": "{\"message\":\"Saree chooda, sac carry couleur gris m3a strap rouge, 3andou zip mftou7, tleftha fel BELLEVUE lyoum, nseetou m3a l'kaf\"}",
+ "usage": {
+  "queue_time": 0.049379731,
+  "prompt_tokens": 312,
+  "prompt_time": 0.012391406,
+  "completion_tokens": 95,
+  "completion_time": 0.199979311,
+  "total_tokens": 407,
+  "total_time": 0.212370717,
+  "completion_tokens_details": {
+   "reasoning_tokens": 35
+  }
+ }
+}

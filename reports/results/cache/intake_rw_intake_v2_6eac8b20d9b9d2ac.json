@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "bag",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Pour réclamer une indemnisation pour un bagage perdu chez Tunisair, vous devez généralement fournir les documents suivants :\n1. Le formulaire de réclamation rempli (disponible sur le site de Tunisair ou à l'aéroport).\n2. Le reçu d'enregistrement du bagage ou le numéro de suivi.\n3. Une copie de votre billet d’avion.\n4. Un justificatif d’identité (passeport ou carte d’identité).\n5. Un relevé de votre compte bancaire ou un chèque pour le paiement de l’indemnisation.\n6. Une preuve de la valeur du bagage (factures, photos, etc.) si vous demandez une indemnisation au-delà du plafond standard.\n\nVous pouvez soumettre ces documents en ligne via le portail de Tunisair ou les envoyer par courrier à l’adresse indiquée sur le formulaire de réclamation. Assurez-vous de conserver une copie de tous les documents envoyés.",
+  "search_query_fr": "documents indemnisation bagage perdu Tunisair",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bag\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Pour réclamer une indemnisation pour un bagage perdu chez Tunisair, vous devez généralement fournir les documents suivants :\\n1. Le formulaire de réclamation rempli (disponible sur le site de Tunisair ou à l'aéroport).\\n2. Le reçu d'enregistrement du bagage ou le numéro de suivi.\\n3. Une copie de votre billet d’avion.\\n4. Un justificatif d’identité (passeport ou carte d’identité).\\n5. Un relevé de votre compte bancaire ou un chèque pour le paiement de l’indemnisation.\\n6. Une preuve de la valeur du bagage (factures, photos, etc.) si vous demandez une indemnisation au-delà du plafond standard.\\n\\nVous pouvez soumettre ces documents en ligne via le portail de Tunisair ou les envoyer par courrier à l’adresse indiquée sur le formulaire de réclamation. Assurez-vous de conserver une copie de tous les documents envoyés.\",\"search_query_fr\":\"documents indemnisation bagage perdu Tunisair\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.198491579,
+  "prompt_tokens": 1398,
+  "prompt_time": 0.081108717,
+  "completion_tokens": 345,
+  "completion_time": 0.354627773,
+  "total_tokens": 1743,
+  "total_time": 0.43573649,
+  "completion_tokens_details": {
+   "reasoning_tokens": 41
+  }
+ },
+ "latency_s": 1.21
+}

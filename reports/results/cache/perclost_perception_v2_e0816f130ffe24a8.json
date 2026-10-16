@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "headphones",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "blue",
+  "material": "plastic",
+  "distinctive_marks": [
+   "unique design"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Blue plastic headphones with a unique design.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"headphones\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"blue\",\"color_detail\":\"blue\",\"material\":\"plastic\",\"distinctive_marks\":[\"unique design\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Blue plastic headphones with a unique design.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.293427225,
+  "prompt_tokens": 783,
+  "prompt_time": 0.058345807,
+  "completion_tokens": 134,
+  "completion_time": 0.146818475,
+  "total_tokens": 917,
+  "total_time": 0.205164282,
+  "completion_tokens_details": {
+   "reasoning_tokens": 37
+  }
+ },
+ "latency_s": 1.41
+}

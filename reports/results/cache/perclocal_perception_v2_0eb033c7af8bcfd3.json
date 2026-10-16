@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "watch",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "rubber, metal",
+  "distinctive_marks": [
+   "digital display",
+   "water resistant"
+  ],
+  "contents": [],
+  "visible_text": [
+   "1:16",
+   "ATM 100 FT"
+  ],
+  "contains_sensitive_document": false,
+  "canonical_description": "Black digital watch with a metal bezel and a rubber strap, displaying the time 1:16 and ATM 100 FT.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"watch\", \"subcategory\": null, \"brand\": null, \"model\": null,\n \"color_family\": \"black\", \"color_detail\": \"black\", \"material\": \"rubber, metal\",\n \"distinctive_marks\": [\"digital display\", \"water resistant\"],\n \"contents\": [], \"visible_text\": [\"1:16\", \"ATM 100 FT\"],\n \"contains_sensitive_document\": false,\n \"canonical_description\": \"Black digital watch with a metal bezel and a rubber strap, displaying the time 1:16 and ATM 100 FT.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 165,
+  "total_tokens": 1156
+ },
+ "latency_s": 21.02
+}

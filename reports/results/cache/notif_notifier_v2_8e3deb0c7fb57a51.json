@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "owner_message": "Nous avons trouvé vos clés à la Gare de Tunis. Pour récupérer vos objets, veuillez répondre à la question de vérification ci‑dessous. Merci de votre compréhension.",
+  "challenge_question": "Quel était le nombre total de clés perdues ?",
+  "finder_message": "Merci d'avoir trouvé les clés. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification de votre réponse."
+ },
+ "strict_json": true,
+ "raw": "{\"owner_message\":\"Nous avons trouvé vos clés à la Gare de Tunis. Pour récupérer vos objets, veuillez répondre à la question de vérification ci‑dessous. Merci de votre compréhension.\",\"challenge_question\":\"Quel était le nombre total de clés perdues ?\",\"finder_message\":\"Merci d'avoir trouvé les clés. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification de votre réponse.\"}",
+ "usage": {
+  "queue_time": 0.295780321,
+  "prompt_tokens": 438,
+  "prompt_time": 0.022159561,
+  "completion_tokens": 234,
+  "completion_time": 0.490081041,
+  "total_tokens": 672,
+  "total_time": 0.512240602,
+  "completion_tokens_details": {
+   "reasoning_tokens": 142
+  }
+ },
+ "latency_s": 1.27
+}

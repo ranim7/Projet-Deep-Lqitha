@@ -1,0 +1,2146 @@
+[
+ {
+  "lost_message": "Nseet 7ija, sac bleu faux leather, 7ajet kbir w 9a3da f'kif, fih flouss w maquillage, l9ith fi Rue Zaghouan lbera7, sbah.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "bag",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "blue",
+   "color_detail": "blue",
+   "material": "faux leather",
+   "distinctive_marks": [],
+   "contents": [
+    "money",
+    "makeup"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Blue faux leather bag, large, containing money and makeup, with a distinctive zipper.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "bag",
+   "subcategory": "tote bag",
+   "brand": null,
+   "model": null,
+   "color_family": "blue",
+   "color_detail": "light blue",
+   "material": "fabric, leather",
+   "distinctive_marks": [
+    "striped fabric",
+    "buckles"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Light blue striped fabric tote bag with light blue leather handles and buckles.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F0",
+    "score": 0.5937
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "L'bouteille s9i9a, koulouha s7ar, made of steel, nseetha f Bizerte Centre lbera7, fiha chi markaziyen",
+  "lang": "derja",
+  "lost_record": {
+   "category": "bottle",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": null,
+   "color_detail": null,
+   "material": "steel",
+   "distinctive_marks": [
+    "central marks"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Small hot steel bottle with central marks, no contents, left behind today.",
+   "field_confidence": {
+    "category": 0.9,
+    "color_family": 0.0,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "bottle",
+   "subcategory": null,
+   "brand": "solimo",
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "glass, leather",
+   "distinctive_marks": [
+    "solimo logo"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black glass bottle with a leather carrying case and the Solimo logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.8
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F1",
+    "score": 0.4911
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Dha3li chape blanche, forme round, 3andha klemta sghira fil jnab, nseet'ha fil Rue Jendouba awel lbera7, 3la trawa",
+  "lang": "derja",
+  "lost_record": {
+   "category": "clothing",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "white",
+   "color_detail": "white",
+   "material": null,
+   "distinctive_marks": [
+    "small clip on the side"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "White round hat with a small clip on the side.",
+   "field_confidence": {
+    "category": 0.9,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "hat",
+   "subcategory": null,
+   "brand": "STARTER",
+   "model": null,
+   "color_family": "white",
+   "color_detail": "white",
+   "material": "fabric",
+   "distinctive_marks": [
+    "logo on the front",
+    "black trim"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "White hat with a black trim and the STARTER logo on the front.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.9
+   }
+  },
+  "top_candidates": [],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "9e3t 3la case noir mta3 portable, ykoun 3la 7ajet sghira, fih chi design simple, f Louaget lyoum, ma3andich 7aja m3a7da",
+  "lang": "derja",
+  "lost_record": {
+   "category": "phone",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black phone case with simple design, small size.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "phone",
+   "subcategory": "phone case",
+   "brand": null,
+   "model": null,
+   "color_family": "red",
+   "color_detail": "red",
+   "material": "plastic",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Red plastic phone case with multiple compartments.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 1.0,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F3",
+    "score": 0.6084
+   },
+   {
+    "id": "A-F34",
+    "score": 0.586
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Lé9t 3andi nadharat zahra, gold, grande w 3andha cadre rétro, w f'Costa Mall lbera7, t7eb t9albiha, kanet ma3aya fl'market.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "jewelry",
+   "subcategory": "necklace",
+   "brand": null,
+   "model": null,
+   "color_family": "gold",
+   "color_detail": "gold",
+   "material": "gold",
+   "distinctive_marks": [
+    "retro frame"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Gold necklace, large size, featuring a retro frame, with a distinctive retro frame.",
+   "field_confidence": {
+    "category": 0.9,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "glasses",
+   "subcategory": "sunglasses",
+   "brand": null,
+   "model": null,
+   "color_family": "gold",
+   "color_detail": "gold and brown",
+   "material": "metal and acetate",
+   "distinctive_marks": [
+    "double bridge",
+    "tortoise shell frame"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Gold sunglasses with a double bridge and tortoise shell frame.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Lé7t headphones rosa, plastika, 3andhom design mghayer, kanou m3aya f Tunis City lbera7, nseethom fel metro.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "headphones",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "pink",
+   "color_detail": "pink",
+   "material": "plastic",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Pink plastic headphones with a modified design, lost in Tunis City metro.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "headphones",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "pink",
+   "color_detail": "pink",
+   "material": "plastic",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Pink plastic wireless headphones with a charging case.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 1.0,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F5",
+    "score": 0.7481
+   },
+   {
+    "id": "A-F31",
+    "score": 0.4842
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Sma3, nseet laptop ta3i f Louage station Tozeur lyoum, couleur gris, écran كبير، clavier فيه شوية بقع، فيه ملفات تدريب و بعض الصور",
+  "lang": "derja",
+  "lost_record": {
+   "category": "laptop",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "grey",
+   "color_detail": "grey",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [
+    "training files",
+    "photos"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Grey laptop with a large screen and a slightly spotted keyboard, containing training files and some photos.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "other",
+   "subcategory": null,
+   "brand": "amazon basics",
+   "model": null,
+   "color_family": "yellow",
+   "color_detail": "yellow",
+   "material": "net",
+   "distinctive_marks": [
+    "amazon basics logo"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Yellow net soccer goal with an amazon basics logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.75
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F32",
+    "score": 0.6078
+   }
+  ],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Nseet 7ajti fl Lamta lyoum, sac petite couleur rosa scuro, pelle, fih ba3d cartes w flouss, ma3andich label.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "bag",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "pink",
+   "color_detail": "dark pink",
+   "material": "leather",
+   "distinctive_marks": [],
+   "contents": [
+    "cards",
+    "money"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Small dark pink leather bag containing cards and money.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "wallet",
+   "subcategory": "bifold wallet",
+   "brand": "ona",
+   "model": null,
+   "color_family": "pink",
+   "color_detail": "pink",
+   "material": "leather",
+   "distinctive_marks": [
+    "ona logo"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Pink leather bifold wallet with the 'ona' logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.7
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F0",
+    "score": 0.499
+   }
+  ],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Dha3li case ta3 telfoun, koulou multicolore, design mou7tamil, slim w transparent, kayn fi BELLEVUE (Fin ligne 28) lyoum",
+  "lang": "derja",
+  "lost_record": {
+   "category": "phone",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "multicolor",
+   "color_detail": "multicolor",
+   "material": "plastic",
+   "distinctive_marks": [
+    "design mou7tamil",
+    "slim",
+    "transparent"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Multicolor transparent slim phone case with a unique design, found in Bellevue on line 28 today.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "phone",
+   "subcategory": "phone case",
+   "brand": "motorola",
+   "model": null,
+   "color_family": "blue",
+   "color_detail": null,
+   "material": "plastic",
+   "distinctive_marks": [
+    "floral pattern",
+    "moon design"
+   ],
+   "contents": [],
+   "visible_text": [
+    "11:35"
+   ],
+   "contains_sensitive_document": false,
+   "canonical_description": "Blue plastic phone case with a floral pattern and moon design, featuring the time 11:35.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.8
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F8",
+    "score": 0.6463
+   },
+   {
+    "id": "A-F3",
+    "score": 0.5501
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Sabbt l9edma dyali, sbat grey charcoal, kima l7it, 9a3da fi El Hamada lyoum, nseet n9edhom fi l7alqa, ykoun fihom marra wheda.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "bag",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "grey",
+   "color_detail": "charcoal",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Grey charcoal bag, lost in El Hamada today, possibly containing one item.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "shoes",
+   "subcategory": "dress shoes",
+   "brand": null,
+   "model": null,
+   "color_family": "grey",
+   "color_detail": "grey",
+   "material": "suede",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Grey suede dress shoes with a brown sole.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F13",
+    "score": 0.4601
+   },
+   {
+    "id": "A-F39",
+    "score": 0.4358
+   }
+  ],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Lé7t chamsi mta3i, chamsi bleu pointé, double couche, matériau léger, ykoun 3andou un manche en C, f Sousse Bab Djedid lbera7.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "umbrella",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "blue",
+   "color_detail": "blue",
+   "material": "lightweight",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Blue double-layer umbrella with a pointed tip and a C-shaped handle, lightweight and suitable for sunny days.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "umbrella",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "blue",
+   "color_detail": "dark blue",
+   "material": "fabric",
+   "distinctive_marks": [
+    "pattern of stars",
+    "red inner lining",
+    "C-shaped handle"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Dark blue umbrella with a pattern of stars and a red inner lining, featuring a C-shaped handle.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F10",
+    "score": 0.7824
+   },
+   {
+    "id": "A-F36",
+    "score": 0.4803
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "dha3li porte-feuille nappa 9dim, couleur marron, matiere pelle, avec fermeture RFID, t9a3ed fi Gare de bus awel lbera7",
+  "lang": "derja",
+  "lost_record": {
+   "category": "wallet",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "brown",
+   "material": "leather",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown leather wallet with RFID closure, old nappa style, found near the first bus station.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "wallet",
+   "subcategory": "bifold wallet",
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "leather",
+   "distinctive_marks": [
+    "Gesundheitskarte"
+   ],
+   "contents": [
+    "health card"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": true,
+   "canonical_description": "Black leather bifold wallet containing a health card.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 1.0,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F11",
+    "score": 0.6174
+   },
+   {
+    "id": "A-F7",
+    "score": 0.5083
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Dha3li sa3a s7ira, 9amra w resine noir, écran LCD, t9adar tji l'eau. Tnassit'ha f Sbeïtla lbera7, kanet ma3aya lyoum.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "watch",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "red",
+   "color_detail": "red and black",
+   "material": "resin",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Red resin watch with LCD screen, water resistant.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "watch",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "plastic",
+   "distinctive_marks": [
+    "digital display",
+    "water resistant"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black plastic digital watch with a water resistant display.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 1.0,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F12",
+    "score": 0.6827
+   },
+   {
+    "id": "A-F25",
+    "score": 0.5651
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "L9it backpack eswed fau9 l'khdma, fih chi wheels w hvac, nseetou lbera7 fel gare routière Redeyef.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "bag",
+   "subcategory": "backpack",
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": null,
+   "distinctive_marks": [
+    "wheels",
+    "hvac"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black backpack with wheels and HVAC, found on way to work.",
+   "field_confidence": {
+    "category": 0.9,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "bag",
+   "subcategory": "backpack",
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black and silver",
+   "material": "fabric",
+   "distinctive_marks": [
+    "silver stripe",
+    "multiple pockets"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black and silver backpack with a silver stripe and multiple pockets.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F13",
+    "score": 0.5927
+   },
+   {
+    "id": "A-F0",
+    "score": 0.4014
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "9na tlefna fl Belli lyoum, bouteille gris plastique, 1 litre, 3laha markab sghir w l'kaf faw9, kont ndhak biha lma",
+  "lang": "derja",
+  "lost_record": {
+   "category": "bottle",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "grey",
+   "color_detail": "grey",
+   "material": "plastic",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Gray plastic 1-liter bottle with small marks and cap on top.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "bottle",
+   "subcategory": null,
+   "brand": "solimo",
+   "model": null,
+   "color_family": "grey",
+   "color_detail": "grey",
+   "material": "plastic",
+   "distinctive_marks": [
+    "solimo logo"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Three grey plastic bottles with the solimo logo on them.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.8
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F14",
+    "score": 0.5901
+   },
+   {
+    "id": "A-F1",
+    "score": 0.5773
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Sba7t, nseet chachia kbira sawda fi Les Hôtels Monastir, awel lbera7, kanet ma3aya w ma3aha chi ta3rifa, nhebha bech nla9ha",
+  "lang": "derja",
+  "lost_record": {
+   "category": "clothing",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black big hat, lost in Les Hôtels Monastir.",
+   "field_confidence": {
+    "category": 0.9,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "other",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "red",
+   "color_detail": "red and white",
+   "material": "fabric",
+   "distinctive_marks": [
+    "stars",
+    "stripes",
+    "american flag"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Red and white fabric tube with stars and stripes, resembling the American flag.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Dha3li cover kamera aswad, ki case sghir, fih zayra mouch m3a9la, t9a3ed fil Mall Of Sousse lyoum, nseetou b'khater l'camera",
+  "lang": "derja",
+  "lost_record": {
+   "category": "other",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": null,
+   "distinctive_marks": [
+    "sticker"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black small camera cover with a sticker, found at Mall of Sousse.",
+   "field_confidence": {
+    "category": 0.8,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "bag",
+   "subcategory": "rolling bag",
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "fabric",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black rolling bag with wheels.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 1.0,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F29",
+    "score": 0.5199
+   },
+   {
+    "id": "A-F24",
+    "score": 0.4365
+   }
+  ],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Nseet 3andi lunettes de soleil multicolore, cadre round, 7chma shwiya, f Mg N1 lbera7.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "glasses",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "multicolor",
+   "color_detail": "multicolor",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Multicolor round sunglasses with a slight tint.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "glasses",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "tortoiseshell",
+   "material": "acetate",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown tortoiseshell sunglasses with a metal frame.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F17",
+    "score": 0.7286
+   },
+   {
+    "id": "A-F30",
+    "score": 0.6342
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Nseet headphones aswad fi Aïn Mesria, awel lbera7, 3andhom micro m3a mic bleu w kabla t3awd, ykounou m7ottin fi jabet l'khdma.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "headphones",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black headphones with a blue microphone and cable, likely stored in a work bag.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "headphones",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "plastic",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black plastic headphones with a microphone and a cable.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 1.0,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F18",
+    "score": 0.7151
+   },
+   {
+    "id": "A-F31",
+    "score": 0.5038
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Nseet laptop m3aya fi Jemmel awel lbera7, couleur gris m3a quelques stickers colorés, clavier noir, fih chi documents de travail, ma3andich marque, kan m3a sahbi.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "laptop",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "grey",
+   "color_detail": "grey",
+   "material": null,
+   "distinctive_marks": [
+    "colorful stickers",
+    "black keyboard"
+   ],
+   "contents": [
+    "work documents"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Grey laptop with a black keyboard and colorful stickers, containing work documents.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "other",
+   "subcategory": null,
+   "brand": "amazon basics",
+   "model": null,
+   "color_family": "yellow",
+   "color_detail": "yellow",
+   "material": "net",
+   "distinctive_marks": [
+    "amazon basics logo"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Yellow net soccer goal with an amazon basics logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.75
+   }
+  },
+  "top_candidates": [],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Laisse, lbera7 f Bizerte Centre nseet luggage i7mar, fabric, 3andou trolly w roll, m3aya ommi w 3a9li, bch n9albouh.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "luggage",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "red",
+   "color_detail": "red",
+   "material": "fabric",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Red fabric luggage with trolley and roll.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "luggage",
+   "subcategory": "shopping cart",
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "fabric",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black shopping cart with white wheels and a fabric body.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F20",
+    "score": 0.4758
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Sma3t rou7i 3and Bir El Bey, nseyt my phone lyoum, fih couleur noir w 3andou case m3a sticker sghir, kan mawjoud f'koulchi.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "phone",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": null,
+   "distinctive_marks": [
+    "small sticker on case"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black phone with a small sticker on its case.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "electronics",
+   "subcategory": "tv mount",
+   "brand": "eono",
+   "model": null,
+   "color_family": "black",
+   "color_detail": null,
+   "material": "metal",
+   "distinctive_marks": [
+    "eono logo"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black metal tv mount with the eono logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.8
+   }
+  },
+  "top_candidates": [],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Nseet boot cognac, 9i9a m3a zharri fawqa, 9rib l'kif, f Station Louage Bab Saasoun lyoum, ma3andich logo.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "shoes",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "brown",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown shoe with no visible brand, lost in the vicinity of a train station.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "shoes",
+   "subcategory": "boots",
+   "brand": null,
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "brown",
+   "material": "leather",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown leather ankle boots with laces.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F22",
+    "score": 0.5947
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Nseet ombrello rosso w blanc, 3la chkl portable, f JARDIN THAMEUR lyoum, m3a système anti-vent, kan m3aya w mazel ma tlawa.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "umbrella",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "multicolor",
+   "color_detail": "red and white",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Red and white umbrella with anti‑wind system, lost in Jardin Thameur today.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "umbrella",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "red",
+   "color_detail": "red with white polka dots",
+   "material": null,
+   "distinctive_marks": [
+    "white polka dots"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Red umbrella with white polka dots, a compact design.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F36",
+    "score": 0.5728
+   },
+   {
+    "id": "A-F23",
+    "score": 0.5606
+   }
+  ],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Nseet wallet abyad f Omrane Superieur awel lbera7, fih foto 11x14 m7ottin, kima 7ajet tal3a, ma3andich markha, 9a3d ykoun ma3aya.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "wallet",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "white",
+   "color_detail": "white",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [
+    "photo 11x14"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "White wallet containing an 11x14 photo, with no visible marks.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "other",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "white",
+   "color_detail": "white",
+   "material": "cardboard",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "White cardboard picture frames.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 1.0,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F11",
+    "score": 0.4837
+   },
+   {
+    "id": "A-F33",
+    "score": 0.4489
+   }
+  ],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "dha3li montre sghira b couleur moudhira, 3andha sâ3a dorriya, tleftha f Dar Halima Shop lyoum, n7ebha barcha",
+  "lang": "derja",
+  "lost_record": {
+   "category": "watch",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "gold",
+   "color_detail": "gold",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Gold watch with a golden color, featuring a gold hour hand, recently purchased at Dar Halima Shop.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "watch",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "pink",
+   "color_detail": "pink",
+   "material": "leather",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Pink leather watch with a silver-colored face.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F25",
+    "score": 0.5782
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Dha3li backpack rosa, 3andou zip maftou7 w 3la ljanb logo moudhahar, nseetou fi Bus Station awel lbera7, kan fih kitab w flous.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "bag",
+   "subcategory": "backpack",
+   "brand": null,
+   "model": null,
+   "color_family": "pink",
+   "color_detail": "pink",
+   "material": null,
+   "distinctive_marks": [
+    "open zipper",
+    "side logo"
+   ],
+   "contents": [
+    "book",
+    "money"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Pink backpack with open zipper and side logo, containing a book and money.",
+   "field_confidence": {
+    "category": 0.9,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "bag",
+   "subcategory": "backpack",
+   "brand": null,
+   "model": null,
+   "color_family": "pink",
+   "color_detail": "pink and blue",
+   "material": "fabric",
+   "distinctive_marks": [
+    "blue accents",
+    "white zippers"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Pink backpack with blue accents and white zippers.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F26",
+    "score": 0.6679
+   },
+   {
+    "id": "A-F13",
+    "score": 0.5159
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Dha3li botla mrawwa, kima lma, ma3roufa b'kbirha w ma3a l'kass, t7ebt fi حومة السوق awel lbera7.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "bottle",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": null,
+   "color_detail": null,
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [
+    "water"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Transparent bottle full of water, known for its large size and case, lost in the market neighborhood.",
+   "field_confidence": {
+    "category": 0.8,
+    "color_family": 0.2,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "bottle",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "transparent",
+   "color_detail": "transparent",
+   "material": "plastic",
+   "distinctive_marks": [
+    "eco"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Transparent plastic water bottle with an eco logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F27",
+    "score": 0.6845
+   },
+   {
+    "id": "A-F1",
+    "score": 0.5149
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Lé9it chapeau couleur 6, kounou sghir w m3ammar b'khout, nseetou fi La Goulette lbera7, 3andou 7ajet tkhalliha mouchkila.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "other",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": null,
+   "color_detail": null,
+   "material": "wool",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Small hat filled with wool, found at La Goulette beach.",
+   "field_confidence": {
+    "category": 0.2,
+    "color_family": 0.1,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "headphones",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "blue",
+   "color_detail": "blue and yellow",
+   "material": "fabric",
+   "distinctive_marks": [
+    "skull pattern"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Blue fabric face mask with a skull pattern.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F15",
+    "score": 0.4491
+   },
+   {
+    "id": "A-F19",
+    "score": 0.4367
+   }
+  ],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Lyoum f Rue Kairouan nseet stand portable l'ordinateur, couleur noir, metal, ykoun 3andou bras moujoud li ykhalik t7ot laptop w monitor.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "other",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "metal",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black metal laptop stand with a built-in arm for holding a laptop and monitor.",
+   "field_confidence": {
+    "category": 0.9,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "other",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "metal",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black metal desk organizer.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 1.0,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F29",
+    "score": 0.5921
+   },
+   {
+    "id": "A-F24",
+    "score": 0.3948
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Dha3li n9ass 3liya lunettes marron b print cheetah, kima chi tkharej fil 7ouma. Kounou fl Zaafrane, wa9t awel lbera7, ma3andich brand, just l'style unique.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "glasses",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "brown",
+   "material": null,
+   "distinctive_marks": [
+    "cheetah print"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown glasses featuring cheetah print, unique style, lost during a crowd.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "glasses",
+   "subcategory": "sunglasses",
+   "brand": null,
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "brown, tan",
+   "material": "plastic, metal",
+   "distinctive_marks": [
+    "tortoise shell pattern"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown tortoise shell sunglasses with a metal frame.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F30",
+    "score": 0.6974
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "lbara7 f Station bus El Montazah nseet headphones azul, plastique, w fih chi design mouch 3adi, kan ykoun m3aya lkol",
+  "lang": "derja",
+  "lost_record": {
+   "category": "headphones",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "blue",
+   "color_detail": "blue",
+   "material": "plastic",
+   "distinctive_marks": [
+    "unique design"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Blue plastic headphones with a unique design.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "headphones",
+   "subcategory": null,
+   "brand": "UMI",
+   "model": null,
+   "color_family": "blue",
+   "color_detail": "blue",
+   "material": "plastic",
+   "distinctive_marks": [
+    "UMI logo"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Blue plastic headphones with the UMI logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.9
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F31",
+    "score": 0.8159
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "Nseet l'ordinateur portable noir fi Ghannouch lbera7, 15.6 inch, clavier bleu, fih camera bluetooth w HDMI, w fih chi cartes d'études w quelques photos",
+  "lang": "derja",
+  "lost_record": {
+   "category": "laptop",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [
+    "study cards",
+    "photos"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black laptop with a 15.6-inch screen, blue keyboard, Bluetooth and HDMI ports, containing study cards and photos.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "laptop",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "fabric",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black laptop with a backpack.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F32",
+    "score": 0.7625
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "dha3li valiza kbira sowa9a, lounha aswad, 3andha zip w RFID, tlefet fi Sidi Nsir lyoum",
+  "lang": "derja",
+  "lost_record": {
+   "category": "luggage",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": null,
+   "distinctive_marks": [
+    "zip",
+    "RFID"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black big suitcase with a zipper and RFID tag, lost today, heavy, durable, travel.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "wallet",
+   "subcategory": "bifold wallet",
+   "brand": "Golla",
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "leather",
+   "distinctive_marks": [
+    "Golla logo"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black leather bifold wallet with the \"Golla\" logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 1.0,
+    "brand": 0.8
+   }
+  },
+  "top_candidates": [],
+  "correct_top1": false
+ },
+ {
+  "lost_message": "Sidi Mtir, awel lbera7, nseet 7outa mobile 3la forme 3D, couleur m7arba w ma3roufa b design toulou, matiere hard, kan fih chi 7wayej sghir.",
+  "lang": "derja",
+  "lost_record": {
+   "category": "phone",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "orange",
+   "color_detail": "orange",
+   "material": "hard",
+   "distinctive_marks": [],
+   "contents": [
+    "small items"
+   ],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Orange hard phone with a distinctive design, containing small items.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "phone",
+   "subcategory": "phone case",
+   "brand": null,
+   "model": null,
+   "color_family": "grey",
+   "color_detail": "grey",
+   "material": "wood",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Grey wooden phone case with a camera lens.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F34",
+    "score": 0.6104
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "J'ai perdu une sandale couleur ivoire, très claire, à l'القطب التكنولوجي avant-hier. Elle était assez simple, sans détails marquants.",
+  "lang": "fr",
+  "lost_record": {
+   "category": "shoes",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "beige",
+   "color_detail": "ivory",
+   "material": null,
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Beige simple sandal with no distinctive marks, lost near the technology pole two days ago.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "shoes",
+   "subcategory": "sandals",
+   "brand": null,
+   "model": null,
+   "color_family": "beige",
+   "color_detail": "beige",
+   "material": "leather",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Beige leather sandals with a dark brown sole.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F35",
+    "score": 0.7463
+   },
+   {
+    "id": "A-F22",
+    "score": 0.5147
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "J'ai perdu mon parapluie noir à Ettadhamen avant‑hier. C’est un gros parapluie de golf, automatique, avec une tige canne solide, coupe‑vent et incassable, très résistant.",
+  "lang": "fr",
+  "lost_record": {
+   "category": "umbrella",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "unknown",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black umbrella, large golf-style automatic, with a solid pole, windproof and unbreakable, very durable.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "umbrella",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "fabric",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black umbrella with a patterned canopy.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F36",
+    "score": 0.7749
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "J'ai perdu mon portefeuille couleur camel, en matière synthétique, avec un petit motif Converse, hier à la Gare routière de Kairouan.",
+  "lang": "fr",
+  "lost_record": {
+   "category": "wallet",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "camel",
+   "material": "synthetic",
+   "distinctive_marks": [
+    "small Converse pattern"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown synthetic wallet with a small Converse pattern.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "wallet",
+   "subcategory": "bifold wallet",
+   "brand": "foxxwing",
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "brown",
+   "material": "leather",
+   "distinctive_marks": [
+    "foxxwing logo"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown leather bifold wallet with the foxxwing logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.75
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F37",
+    "score": 0.6427
+   },
+   {
+    "id": "A-F11",
+    "score": 0.5105
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "J'ai perdu ma montre noire et argentée à Henchir Souatir avant‑hier, avec un petit écran LCD et un bracelet résine, très pratique et étanche.",
+  "lang": "fr",
+  "lost_record": {
+   "category": "watch",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black and silver",
+   "material": "resin",
+   "distinctive_marks": [],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Black and silver watch with a small LCD screen and a resin strap, waterproof.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "watch",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "black",
+   "color_detail": "black",
+   "material": "rubber, metal",
+   "distinctive_marks": [
+    "digital display",
+    "water resistant"
+   ],
+   "contents": [],
+   "visible_text": [
+    "1:16",
+    "ATM 100 FT"
+   ],
+   "contains_sensitive_document": false,
+   "canonical_description": "Black digital watch with a metal bezel and a rubber strap, displaying the time 1:16 and ATM 100 FT.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.0
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F38",
+    "score": 0.6885
+   },
+   {
+    "id": "A-F25",
+    "score": 0.5278
+   }
+  ],
+  "correct_top1": true
+ },
+ {
+  "lost_message": "J'ai perdu un sac à main couleur chameau en faux cuir, avec une petite boucle argentée, à Ain Rahma ce matin.",
+  "lang": "fr",
+  "lost_record": {
+   "category": "bag",
+   "subcategory": null,
+   "brand": null,
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "brown",
+   "material": "faux leather",
+   "distinctive_marks": [
+    "small silver buckle"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown faux leather handbag with a small silver buckle.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.9,
+    "brand": 0.0
+   }
+  },
+  "true_found": {
+   "category": "bag",
+   "subcategory": "tote bag",
+   "brand": "PIMK",
+   "model": null,
+   "color_family": "brown",
+   "color_detail": "brown",
+   "material": "leather",
+   "distinctive_marks": [
+    "logo on the bag"
+   ],
+   "contents": [],
+   "visible_text": null,
+   "contains_sensitive_document": false,
+   "canonical_description": "Brown leather tote bag with a PIMK logo.",
+   "field_confidence": {
+    "category": 0.95,
+    "color_family": 0.95,
+    "brand": 0.75
+   }
+  },
+  "top_candidates": [
+   {
+    "id": "A-F39",
+    "score": 0.7551
+   },
+   {
+    "id": "A-F0",
+    "score": 0.5518
+   }
+  ],
+  "correct_top1": true
+ }
+]

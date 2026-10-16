@@ -1,0 +1,31 @@
+{
+ "parsed": {
+  "intent": "report_found_item",
+  "language": "fr",
+  "slots": {
+   "item_type": "carte d'identité",
+   "location": "poste de Sfax",
+   "time": "ce matin"
+  },
+  "missing": [
+   "contact_info"
+  ],
+  "next_action": "ask_contact_info",
+  "question_to_user": "Pouvez-vous me donner votre numéro de téléphone ou votre adresse e-mail pour que nous puissions vous contacter ?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_found_item\",\"language\":\"fr\",\"slots\":{\"item_type\":\"carte d'identité\",\"location\":\"poste de Sfax\",\"time\":\"ce matin\"},\"missing\":[\"contact_info\"],\"next_action\":\"ask_contact_info\",\"question_to_user\":\"Pouvez-vous me donner votre numéro de téléphone ou votre adresse e-mail pour que nous puissions vous contacter ?\"}",
+ "usage": {
+  "queue_time": 0.01815814,
+  "prompt_tokens": 209,
+  "prompt_time": 0.017335395,
+  "completion_tokens": 253,
+  "completion_time": 0.271627361,
+  "total_tokens": 462,
+  "total_time": 0.288962756,
+  "completion_tokens_details": {
+   "reasoning_tokens": 168
+  }
+ },
+ "latency_s": 1.92
+}

@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "thick fabric",
+  "distinctive_marks": [
+   "external blue pockets"
+  ],
+  "contents": [
+   "books",
+   "phone charger",
+   "belt"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black thick fabric bag with external blue pockets, containing books, a phone charger, and a belt.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"thick fabric\",\"distinctive_marks\":[\"external blue pockets\"],\"contents\":[\"books\",\"phone charger\",\"belt\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black thick fabric bag with external blue pockets, containing books, a phone charger, and a belt.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.14115513,
+  "prompt_tokens": 787,
+  "prompt_time": 0.039320552,
+  "completion_tokens": 166,
+  "completion_time": 0.168935199,
+  "total_tokens": 953,
+  "total_time": 0.208255751,
+  "completion_tokens_details": {
+   "reasoning_tokens": 48
+  }
+ },
+ "latency_s": 0.97
+}

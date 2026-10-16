@@ -1,0 +1,29 @@
+{
+ "parsed": {
+  "intent": "greeting",
+  "language": "fr",
+  "slots": {},
+  "missing": [
+   "item_type",
+   "location",
+   "description"
+  ],
+  "next_action": "ask_for_details",
+  "question_to_user": "Bonjour! Pouvez‑vous me dire quel objet vous avez perdu, où et quand, et une brève description de l’objet ?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"greeting\",\"language\":\"fr\",\"slots\":{},\"missing\":[\"item_type\",\"location\",\"description\"],\"next_action\":\"ask_for_details\",\"question_to_user\":\"Bonjour! Pouvez‑vous me dire quel objet vous avez perdu, où et quand, et une brève description de l’objet ?\"}",
+ "usage": {
+  "queue_time": 0.153618911,
+  "prompt_tokens": 195,
+  "prompt_time": 0.009381611,
+  "completion_tokens": 87,
+  "completion_time": 0.095602564,
+  "total_tokens": 282,
+  "total_time": 0.104984175,
+  "completion_tokens_details": {
+   "reasoning_tokens": 14
+  }
+ },
+ "latency_s": 0.87
+}

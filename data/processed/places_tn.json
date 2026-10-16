@@ -1,0 +1,6540 @@
+[
+ {
+  "name": "Aeroport Gafsa Ksar",
+  "name_ar": "مطار قفصة قصر",
+  "place_type": "airport",
+  "governorate": "Gafsa",
+  "lat": 34.42241,
+  "lon": 8.8258,
+  "iata": "GAF",
+  "osm_id": "relation/10719042"
+ },
+ {
+  "name": "Aeroport Tabarka Ain Draham",
+  "name_ar": "مطار طبرقة عين دراهم",
+  "place_type": "airport",
+  "governorate": "Beja",
+  "lat": 36.97836,
+  "lon": 8.87783,
+  "iata": "TBJ",
+  "osm_id": "way/129798793"
+ },
+ {
+  "name": "Aéroport International de Tozeur - Nefta",
+  "name_ar": "مطار توزر نفطة",
+  "place_type": "airport",
+  "governorate": "Tozeur",
+  "lat": 33.93758,
+  "lon": 8.09813,
+  "iata": "TOE",
+  "osm_id": "way/79642875"
+ },
+ {
+  "name": "Aéroport d'El-Borma",
+  "name_ar": "مطار البرمة",
+  "place_type": "airport",
+  "governorate": "Tataouine",
+  "lat": 31.70391,
+  "lon": 9.25566,
+  "iata": "EBM",
+  "osm_id": "way/97252436"
+ },
+ {
+  "name": "Aéroport de Gabès-Matmata",
+  "name_ar": "مطار قابس مطماطة",
+  "place_type": "airport",
+  "governorate": "Gabes",
+  "lat": 33.73048,
+  "lon": 9.92011,
+  "iata": "GAE",
+  "osm_id": "relation/10719206"
+ },
+ {
+  "name": "Aéroport international d'Enfida",
+  "name_ar": "مطار النفيضة الحمامات",
+  "place_type": "airport",
+  "governorate": "Sousse",
+  "lat": 36.07697,
+  "lon": 10.43865,
+  "iata": "NBE",
+  "osm_id": "way/173579537"
+ },
+ {
+  "name": "Aéroport international de Djerba-Zarzis",
+  "name_ar": "مطار جربة جرجيس",
+  "place_type": "airport",
+  "governorate": "Gabes",
+  "lat": 33.87496,
+  "lon": 10.77398,
+  "iata": "DJE",
+  "osm_id": "way/183797360"
+ },
+ {
+  "name": "Aéroport international de Monastir Habib-Bourguiba",
+  "name_ar": "مطار المنستير حبيب بورقيبة",
+  "place_type": "airport",
+  "governorate": "Monastir",
+  "lat": 35.75899,
+  "lon": 10.75412,
+  "iata": "MIR",
+  "osm_id": "way/96253011"
+ },
+ {
+  "name": "Aéroport international de Sfax-Thyna",
+  "name_ar": "مطار صفاقس طينة",
+  "place_type": "airport",
+  "governorate": "Sfax",
+  "lat": 34.71682,
+  "lon": 10.69039,
+  "iata": "SFA",
+  "osm_id": "way/97284445"
+ },
+ {
+  "name": "Aéroport international de Tunis–Carthage",
+  "name_ar": "مطار تونس قرطاج الدولي",
+  "place_type": "airport",
+  "governorate": "Ariana",
+  "lat": 36.85199,
+  "lon": 10.23155,
+  "iata": "TUN",
+  "osm_id": "way/94666415"
+ },
+ {
+  "name": "القاعدة الجوية بسيدي أحمد",
+  "name_ar": "القاعدة الجوية بسيدي أحمد",
+  "place_type": "airport",
+  "governorate": "Bizerte",
+  "lat": 37.24591,
+  "lon": 9.78155,
+  "iata": "OIZ",
+  "osm_id": "node/1042031985"
+ },
+ {
+  "name": "19C",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.74845,
+  "lon": 10.2515,
+  "iata": null,
+  "osm_id": "node/4251900291"
+ },
+ {
+  "name": "55",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Manouba",
+  "lat": 36.83309,
+  "lon": 10.09568,
+  "iata": null,
+  "osm_id": "way/382865648"
+ },
+ {
+  "name": "Ali Belhaouan",
+  "name_ar": "علي بلهوان",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.80663,
+  "lon": 10.17423,
+  "iata": null,
+  "osm_id": "way/95132614"
+ },
+ {
+  "name": "Arrêt 20 mars",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.71066,
+  "lon": 10.20632,
+  "iata": null,
+  "osm_id": "node/2348334056"
+ },
+ {
+  "name": "Arrêt du Train Hammam-Lif",
+  "name_ar": "محطة القطار حمام الأنف",
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.72915,
+  "lon": 10.33442,
+  "iata": null,
+  "osm_id": "way/104281647"
+ },
+ {
+  "name": "Avenue de CARTHAGE",
+  "name_ar": "شارع قرطاج",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.79192,
+  "lon": 10.18226,
+  "iata": null,
+  "osm_id": "node/10295305681"
+ },
+ {
+  "name": "BELLEVUE",
+  "name_ar": "بال في",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.77296,
+  "lon": 10.1875,
+  "iata": null,
+  "osm_id": "node/10295305452"
+ },
+ {
+  "name": "BELLEVUE (Fin ligne 28)",
+  "name_ar": "بال في (نهاية خط 28)",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.77408,
+  "lon": 10.18589,
+  "iata": null,
+  "osm_id": "node/12480666635"
+ },
+ {
+  "name": "Bab Alioua",
+  "name_ar": "باب عليوة",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.78882,
+  "lon": 10.18041,
+  "iata": null,
+  "osm_id": "node/10295305033"
+ },
+ {
+  "name": "Bab Saadoun",
+  "name_ar": "باب سعدون",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.81064,
+  "lon": 10.15358,
+  "iata": null,
+  "osm_id": "way/203029531"
+ },
+ {
+  "name": "Barraket essahel",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.40475,
+  "lon": 10.56207,
+  "iata": null,
+  "osm_id": "node/4396253922"
+ },
+ {
+  "name": "Bureaux régionaux des douanes",
+  "name_ar": "مكاتب الجمارك الإقليمية",
+  "place_type": "bus_station",
+  "governorate": "Bizerte",
+  "lat": 37.26903,
+  "lon": 9.87266,
+  "iata": null,
+  "osm_id": "way/311749675"
+ },
+ {
+  "name": "Bus Station",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Beja",
+  "lat": 36.45803,
+  "lon": 9.24942,
+  "iata": null,
+  "osm_id": "node/7146515886"
+ },
+ {
+  "name": "Bus station La Marsa",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ariana",
+  "lat": 36.88801,
+  "lon": 10.32337,
+  "iata": null,
+  "osm_id": "node/7744425885"
+ },
+ {
+  "name": "Béni Khiar",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.46929,
+  "lon": 10.78121,
+  "iata": null,
+  "osm_id": "node/6252317139"
+ },
+ {
+  "name": "El Hammah Bus Station",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Gabes",
+  "lat": 33.88924,
+  "lon": 9.80025,
+  "iata": null,
+  "osm_id": "way/1244613487"
+ },
+ {
+  "name": "GARE ROUTIÈRE DE TUNIS SUD",
+  "name_ar": "المحطة الجنوبية للنقل البري",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.78809,
+  "lon": 10.17964,
+  "iata": null,
+  "osm_id": "way/103399498"
+ },
+ {
+  "name": "Gammarth",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ariana",
+  "lat": 36.90647,
+  "lon": 10.30286,
+  "iata": null,
+  "osm_id": "node/1625961071"
+ },
+ {
+  "name": "Gare Routiere de Sousse",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.81444,
+  "lon": 10.63071,
+  "iata": null,
+  "osm_id": "way/1320669871"
+ },
+ {
+  "name": "Gare Routiere de Tunis Sud, Bab Alioua",
+  "name_ar": "المحطة الجنوبية للنقل البري باب عليوة",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.78779,
+  "lon": 10.17978,
+  "iata": null,
+  "osm_id": "way/95199304"
+ },
+ {
+  "name": "Gare Routière",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Kasserine",
+  "lat": 35.17794,
+  "lon": 8.84772,
+  "iata": null,
+  "osm_id": "node/5221105421"
+ },
+ {
+  "name": "Gare Routière Nationale Route Gabes",
+  "name_ar": "محطة النقل البري الوطنية طريق قابس",
+  "place_type": "bus_station",
+  "governorate": "Medenine",
+  "lat": 33.3611,
+  "lon": 10.46913,
+  "iata": null,
+  "osm_id": "way/284064570"
+ },
+ {
+  "name": "Gare Routière Nord",
+  "name_ar": "محطة النقل البري للشمال",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.81064,
+  "lon": 10.1535,
+  "iata": null,
+  "osm_id": "node/13743543554"
+ },
+ {
+  "name": "Gare Routière SRTB",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Bizerte",
+  "lat": 37.26537,
+  "lon": 9.88643,
+  "iata": null,
+  "osm_id": "way/312140310"
+ },
+ {
+  "name": "Gare Routière de Chebba",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Mahdia",
+  "lat": 35.23503,
+  "lon": 11.10746,
+  "iata": null,
+  "osm_id": "node/5988810816"
+ },
+ {
+  "name": "Gare Routière de Menzel Bourguiba",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Bizerte",
+  "lat": 37.1558,
+  "lon": 9.78958,
+  "iata": null,
+  "osm_id": "node/5055878121"
+ },
+ {
+  "name": "Gare Régional de Kerkennah",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sfax",
+  "lat": 34.70491,
+  "lon": 11.20264,
+  "iata": null,
+  "osm_id": "way/242297580"
+ },
+ {
+  "name": "Gare de bus",
+  "name_ar": "محطة الحافلات",
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.69326,
+  "lon": 10.49325,
+  "iata": null,
+  "osm_id": "node/3750284165"
+ },
+ {
+  "name": "Gare de bus longues lignes",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Kebili",
+  "lat": 33.72576,
+  "lon": 8.98017,
+  "iata": null,
+  "osm_id": "node/5763648885"
+ },
+ {
+  "name": "Gare routière de Ben Guerdane",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Medenine",
+  "lat": 33.15561,
+  "lon": 11.21297,
+  "iata": null,
+  "osm_id": "way/296331904"
+ },
+ {
+  "name": "Gare routière de Gabés",
+  "name_ar": "محطة حافلات قابس",
+  "place_type": "bus_station",
+  "governorate": "Gabes",
+  "lat": 33.88227,
+  "lon": 10.08625,
+  "iata": null,
+  "osm_id": "node/2958429800"
+ },
+ {
+  "name": "Gare routière de Houmt Souk",
+  "name_ar": "محطة حومة السوق الحافلات",
+  "place_type": "bus_station",
+  "governorate": "Medenine",
+  "lat": 33.87238,
+  "lon": 10.85821,
+  "iata": null,
+  "osm_id": "node/3655351329"
+ },
+ {
+  "name": "Gare routière de Kairouan",
+  "name_ar": "محطة القيروان الحافلات",
+  "place_type": "bus_station",
+  "governorate": "Kairouan",
+  "lat": 35.68145,
+  "lon": 10.08656,
+  "iata": null,
+  "osm_id": "way/124083153"
+ },
+ {
+  "name": "Gare routière de Mahdia",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Mahdia",
+  "lat": 35.50024,
+  "lon": 11.05013,
+  "iata": null,
+  "osm_id": "way/681230218"
+ },
+ {
+  "name": "Gare routière de Nabeul",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.45145,
+  "lon": 10.72977,
+  "iata": null,
+  "osm_id": "way/244662755"
+ },
+ {
+  "name": "Gare routière de Zarzis",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Medenine",
+  "lat": 33.49918,
+  "lon": 11.11516,
+  "iata": null,
+  "osm_id": "way/1117802281"
+ },
+ {
+  "name": "Gare routière du Nord",
+  "name_ar": "محطة حافلات",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.80962,
+  "lon": 10.16171,
+  "iata": null,
+  "osm_id": "node/3611684915"
+ },
+ {
+  "name": "Habib Bourguiba",
+  "name_ar": "محطة الحبيب بورقيبه",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.8013,
+  "lon": 10.18618,
+  "iata": null,
+  "osm_id": "node/4453398490"
+ },
+ {
+  "name": "Hammamet Station",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.39667,
+  "lon": 10.61455,
+  "iata": null,
+  "osm_id": "node/2524351741"
+ },
+ {
+  "name": "JARDIN THAMEUR",
+  "name_ar": "حديقة ثامر",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.80381,
+  "lon": 10.17791,
+  "iata": null,
+  "osm_id": "node/10295305721"
+ },
+ {
+  "name": "La Goulette",
+  "name_ar": "حلق الوادي",
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.81806,
+  "lon": 10.30187,
+  "iata": null,
+  "osm_id": "way/823009311"
+ },
+ {
+  "name": "Mahatta",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Tataouine",
+  "lat": 33.05874,
+  "lon": 10.34056,
+  "iata": null,
+  "osm_id": "way/878933048"
+ },
+ {
+  "name": "Marche de Gros",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.72507,
+  "lon": 10.22867,
+  "iata": null,
+  "osm_id": "node/13194562161"
+ },
+ {
+  "name": "Marché ettahrir station",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Manouba",
+  "lat": 36.82555,
+  "lon": 10.12564,
+  "iata": null,
+  "osm_id": "node/11053233305"
+ },
+ {
+  "name": "Mateur",
+  "name_ar": "ماطر",
+  "place_type": "bus_station",
+  "governorate": "Bizerte",
+  "lat": 37.03629,
+  "lon": 9.66736,
+  "iata": null,
+  "osm_id": "way/680589855"
+ },
+ {
+  "name": "Medina",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sfax",
+  "lat": 34.73741,
+  "lon": 10.75786,
+  "iata": null,
+  "osm_id": "way/1126946945"
+ },
+ {
+  "name": "Mohamed V",
+  "name_ar": "محطة محمد الخامس جنب السفارة",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.8195,
+  "lon": 10.18188,
+  "iata": null,
+  "osm_id": "node/4453517189"
+ },
+ {
+  "name": "Parc De La SORETRAS",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sfax",
+  "lat": 34.72813,
+  "lon": 10.75639,
+  "iata": null,
+  "osm_id": "way/40879350"
+ },
+ {
+  "name": "RR21",
+  "name_ar": "طج 21",
+  "place_type": "bus_station",
+  "governorate": "Ariana",
+  "lat": 36.84223,
+  "lon": 10.17306,
+  "iata": null,
+  "osm_id": "node/3712368518"
+ },
+ {
+  "name": "SRTM Agence Ben Guerdane",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Medenine",
+  "lat": 33.14077,
+  "lon": 11.21738,
+  "iata": null,
+  "osm_id": "way/884339828"
+ },
+ {
+  "name": "SRTN",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.45209,
+  "lon": 10.72584,
+  "iata": null,
+  "osm_id": "way/175819644"
+ },
+ {
+  "name": "Sayada",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Monastir",
+  "lat": 35.66604,
+  "lon": 10.88824,
+  "iata": null,
+  "osm_id": "way/1198524635"
+ },
+ {
+  "name": "Societé regional de transport",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Tataouine",
+  "lat": 32.92924,
+  "lon": 10.44703,
+  "iata": null,
+  "osm_id": "way/1064362847"
+ },
+ {
+  "name": "Société de Transport du Sahel",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.83283,
+  "lon": 10.63117,
+  "iata": null,
+  "osm_id": "node/2095491824"
+ },
+ {
+  "name": "Société tunisienne de l'électricité et du gaz (Aller)",
+  "name_ar": "الشركة التونسية للكهرباء والغاز (ذهاب)",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.8055,
+  "lon": 10.182,
+  "iata": null,
+  "osm_id": "node/10295304585"
+ },
+ {
+  "name": "Station Bouchoucha",
+  "name_ar": "محطة بوشوشة",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.80903,
+  "lon": 10.14848,
+  "iata": null,
+  "osm_id": "node/3611675863"
+ },
+ {
+  "name": "Station Bus Ek kaouefel",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Gafsa",
+  "lat": 34.41649,
+  "lon": 8.78988,
+  "iata": null,
+  "osm_id": "way/319454398"
+ },
+ {
+  "name": "Station Bus Slimen Kehia",
+  "name_ar": "محطة سليمان كاهية الحافلات",
+  "place_type": "bus_station",
+  "governorate": "Manouba",
+  "lat": 36.80351,
+  "lon": 10.0993,
+  "iata": null,
+  "osm_id": "node/2371772950"
+ },
+ {
+  "name": "Station De Bus Et Taxis",
+  "name_ar": "محطة الحافلات وسيارات الأجرة",
+  "place_type": "bus_station",
+  "governorate": "Sfax",
+  "lat": 34.65573,
+  "lon": 10.97012,
+  "iata": null,
+  "osm_id": "node/4922410822"
+ },
+ {
+  "name": "Station El Karia",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sfax",
+  "lat": 34.73971,
+  "lon": 10.76139,
+  "iata": null,
+  "osm_id": "way/248818099"
+ },
+ {
+  "name": "Station Louage Bab Aliwa",
+  "name_ar": "محطة اللواج باب عليوة",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.789,
+  "lon": 10.18183,
+  "iata": null,
+  "osm_id": "node/10246235609"
+ },
+ {
+  "name": "Station Louage Bab saasoun",
+  "name_ar": "محطة اللواج باب سعدون",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.81019,
+  "lon": 10.1543,
+  "iata": null,
+  "osm_id": "node/13743543553"
+ },
+ {
+  "name": "Station Louage Moncef Bey",
+  "name_ar": "محطة اللواج المنصف باي",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.79166,
+  "lon": 10.18715,
+  "iata": null,
+  "osm_id": "node/13743543551"
+ },
+ {
+  "name": "Station Louage Tataouine",
+  "name_ar": "محطة اللواج تطاوين",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.79701,
+  "lon": 10.18851,
+  "iata": null,
+  "osm_id": "node/13743543552"
+ },
+ {
+  "name": "Station Place de Barcelone",
+  "name_ar": "محطة ساحة البرشلونة",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.79707,
+  "lon": 10.18023,
+  "iata": null,
+  "osm_id": "node/10295305660"
+ },
+ {
+  "name": "Station Tozeur",
+  "name_ar": "محطة توزر",
+  "place_type": "bus_station",
+  "governorate": "Tozeur",
+  "lat": 33.9224,
+  "lon": 8.13097,
+  "iata": null,
+  "osm_id": "way/749059170"
+ },
+ {
+  "name": "Station Tunis Marine",
+  "name_ar": "محطة تونس البحرية",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.80032,
+  "lon": 10.19042,
+  "iata": null,
+  "osm_id": "node/1080749590"
+ },
+ {
+  "name": "Station bus El Montazah",
+  "name_ar": "محطة الحافلات المنتزه",
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.7427,
+  "lon": 10.19361,
+  "iata": null,
+  "osm_id": "way/94280296"
+ },
+ {
+  "name": "Station de Bus",
+  "name_ar": "محطة الحافلة",
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.82838,
+  "lon": 10.63891,
+  "iata": null,
+  "osm_id": "node/2095497143"
+ },
+ {
+  "name": "Station de Bus Grandes Lignes",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sfax",
+  "lat": 34.72374,
+  "lon": 10.75532,
+  "iata": null,
+  "osm_id": "way/521566194"
+ },
+ {
+  "name": "Station de Bus STS",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Monastir",
+  "lat": 35.77318,
+  "lon": 10.82605,
+  "iata": null,
+  "osm_id": "way/1308694083"
+ },
+ {
+  "name": "Station de Bus de Maamoura",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.47771,
+  "lon": 10.79801,
+  "iata": null,
+  "osm_id": "node/6339857224"
+ },
+ {
+  "name": "Station de Louages",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.82828,
+  "lon": 10.63769,
+  "iata": null,
+  "osm_id": "node/2095499137"
+ },
+ {
+  "name": "Station de bus Grande lignes",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.81437,
+  "lon": 10.63047,
+  "iata": null,
+  "osm_id": "node/2094071547"
+ },
+ {
+  "name": "Station de bus de Béni Khaled",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.65131,
+  "lon": 10.59053,
+  "iata": null,
+  "osm_id": "way/207216168"
+ },
+ {
+  "name": "Station de louage",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.80933,
+  "lon": 10.63634,
+  "iata": null,
+  "osm_id": "node/2096304542"
+ },
+ {
+  "name": "Station des bus Mornag",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.67983,
+  "lon": 10.28954,
+  "iata": null,
+  "osm_id": "way/100159444"
+ },
+ {
+  "name": "Station routière",
+  "name_ar": "محطة مارث الحافلات",
+  "place_type": "bus_station",
+  "governorate": "Gabes",
+  "lat": 33.61796,
+  "lon": 10.28575,
+  "iata": null,
+  "osm_id": "way/220507464"
+ },
+ {
+  "name": "T.U.S",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Manouba",
+  "lat": 36.82821,
+  "lon": 10.0763,
+  "iata": null,
+  "osm_id": "way/664624245"
+ },
+ {
+  "name": "Taxis collectifs",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.81018,
+  "lon": 10.63679,
+  "iata": null,
+  "osm_id": "node/5159455424"
+ },
+ {
+  "name": "Terminus 74",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.71009,
+  "lon": 10.20133,
+  "iata": null,
+  "osm_id": "node/2348334057"
+ },
+ {
+  "name": "Terminus Mornaguia 23",
+  "name_ar": "محطة حافلات المرناقية 23",
+  "place_type": "bus_station",
+  "governorate": "Manouba",
+  "lat": 36.75696,
+  "lon": 10.0144,
+  "iata": null,
+  "osm_id": "node/4400882006"
+ },
+ {
+  "name": "Terminus TUT",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.70943,
+  "lon": 10.20583,
+  "iata": null,
+  "osm_id": "node/2348334059"
+ },
+ {
+  "name": "Thameur",
+  "name_ar": "حبيب ثامر",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.80375,
+  "lon": 10.17801,
+  "iata": null,
+  "osm_id": "way/95130082"
+ },
+ {
+  "name": "Zerzour",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sidi Bouzid",
+  "lat": 35.24905,
+  "lon": 9.30379,
+  "iata": null,
+  "osm_id": "node/8231384452"
+ },
+ {
+  "name": "bus 68",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Manouba",
+  "lat": 36.82768,
+  "lon": 10.10609,
+  "iata": null,
+  "osm_id": "way/386263364"
+ },
+ {
+  "name": "gare routière Redeyef",
+  "name_ar": "محطة النقل البري الرديف",
+  "place_type": "bus_station",
+  "governorate": "Tozeur",
+  "lat": 34.38465,
+  "lon": 8.155,
+  "iata": null,
+  "osm_id": "way/613730221"
+ },
+ {
+  "name": "hattab radiateur",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.71615,
+  "lon": 10.18372,
+  "iata": null,
+  "osm_id": "node/11143567143"
+ },
+ {
+  "name": "ksar said 2 Bus Station",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Manouba",
+  "lat": 36.82287,
+  "lon": 10.1224,
+  "iata": null,
+  "osm_id": "node/4394884945"
+ },
+ {
+  "name": "l'Aéroport",
+  "name_ar": "المطار",
+  "place_type": "bus_station",
+  "governorate": "Gabes",
+  "lat": 33.87074,
+  "lon": 10.77594,
+  "iata": null,
+  "osm_id": "node/5048665494"
+ },
+ {
+  "name": "lwaj ras jebel",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Bizerte",
+  "lat": 37.26916,
+  "lon": 9.87235,
+  "iata": null,
+  "osm_id": "node/6246619686"
+ },
+ {
+  "name": "place de la République",
+  "name_ar": "ساحة الجمهورية",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.80465,
+  "lon": 10.1798,
+  "iata": null,
+  "osm_id": "node/10295304334"
+ },
+ {
+  "name": "station de rabattement Ariana",
+  "name_ar": "محطة ترابط اريانة",
+  "place_type": "bus_station",
+  "governorate": "Ariana",
+  "lat": 36.86017,
+  "lon": 10.19819,
+  "iata": null,
+  "osm_id": "node/10295304422"
+ },
+ {
+  "name": "station louage",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Siliana",
+  "lat": 35.84777,
+  "lon": 9.59077,
+  "iata": null,
+  "osm_id": "node/12499190745"
+ },
+ {
+  "name": "taxi station",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.80077,
+  "lon": 10.18796,
+  "iata": null,
+  "osm_id": "node/7876445885"
+ },
+ {
+  "name": "الشركة الجهرية للنقل بنابل فرع قليبية",
+  "name_ar": "الشركة الجهرية للنقل بنابل فرع قليبية",
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.84826,
+  "lon": 11.08759,
+  "iata": null,
+  "osm_id": "way/250696132"
+ },
+ {
+  "name": "الشركة الجهوية للنقل بولاية نابل فرع قربة",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.57636,
+  "lon": 10.86014,
+  "iata": null,
+  "osm_id": "node/13653565206"
+ },
+ {
+  "name": "بيجو",
+  "name_ar": "بيجو",
+  "place_type": "bus_station",
+  "governorate": "Tataouine",
+  "lat": 32.93203,
+  "lon": 10.45076,
+  "iata": null,
+  "osm_id": "node/6461651458"
+ },
+ {
+  "name": "تطاوين",
+  "name_ar": "تطاوين",
+  "place_type": "bus_station",
+  "governorate": "Tataouine",
+  "lat": 32.94773,
+  "lon": 10.4572,
+  "iata": null,
+  "osm_id": "way/215247722"
+ },
+ {
+  "name": "حومة السوق",
+  "name_ar": "حومة السوق",
+  "place_type": "bus_station",
+  "governorate": "Medenine",
+  "lat": 33.8721,
+  "lon": 10.85802,
+  "iata": null,
+  "osm_id": "node/2585065963"
+ },
+ {
+  "name": "لواج",
+  "name_ar": "لواج",
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.8102,
+  "lon": 10.63642,
+  "iata": null,
+  "osm_id": "node/4490862999"
+ },
+ {
+  "name": "محطة التاكسي قربة Station De Taxi",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Nabeul",
+  "lat": 36.57386,
+  "lon": 10.85849,
+  "iata": null,
+  "osm_id": "node/6318392170"
+ },
+ {
+  "name": "محطة الحافلات تالة",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Kasserine",
+  "lat": 35.57259,
+  "lon": 8.67033,
+  "iata": null,
+  "osm_id": "node/14064021565"
+ },
+ {
+  "name": "محطة الحافلة",
+  "name_ar": "محطة الحافلة",
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.75152,
+  "lon": 10.71157,
+  "iata": null,
+  "osm_id": "node/5300682138"
+ },
+ {
+  "name": "محطة القوافل",
+  "name_ar": "محطة القوافل",
+  "place_type": "bus_station",
+  "governorate": "Gafsa",
+  "lat": 34.48649,
+  "lon": 8.26162,
+  "iata": null,
+  "osm_id": "way/613760058"
+ },
+ {
+  "name": "محطة المدي",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Sousse",
+  "lat": 35.83377,
+  "lon": 10.589,
+  "iata": null,
+  "osm_id": "node/11388111069"
+ },
+ {
+  "name": "محطة المنار1",
+  "name_ar": "محطة المنار1",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.83898,
+  "lon": 10.15686,
+  "iata": null,
+  "osm_id": "node/4453494989"
+ },
+ {
+  "name": "محطة النقل الريفي المكنين",
+  "name_ar": "محطة النقل الريفي المكنين",
+  "place_type": "bus_station",
+  "governorate": "Monastir",
+  "lat": 35.6255,
+  "lon": 10.89975,
+  "iata": null,
+  "osm_id": "way/1310652848"
+ },
+ {
+  "name": "محطة الواج رمادة",
+  "name_ar": "محطة الواج رمادة",
+  "place_type": "bus_station",
+  "governorate": "Tataouine",
+  "lat": 32.92786,
+  "lon": 10.44754,
+  "iata": null,
+  "osm_id": "node/9775256831"
+ },
+ {
+  "name": "محطة بوشوشة",
+  "name_ar": "محطة بوشوشة",
+  "place_type": "bus_station",
+  "governorate": "Tunis",
+  "lat": 36.80956,
+  "lon": 10.15034,
+  "iata": null,
+  "osm_id": "node/3611676948"
+ },
+ {
+  "name": "محطة حاجب العيون الباص",
+  "name_ar": "محطة حاجب العيون الباص",
+  "place_type": "bus_station",
+  "governorate": "Sidi Bouzid",
+  "lat": 35.39589,
+  "lon": 9.54229,
+  "iata": null,
+  "osm_id": "way/1280843749"
+ },
+ {
+  "name": "محطة حافلات",
+  "name_ar": null,
+  "place_type": "bus_station",
+  "governorate": "Ben Arous",
+  "lat": 36.78177,
+  "lon": 10.2344,
+  "iata": null,
+  "osm_id": "node/13255124730"
+ },
+ {
+  "name": "محطة حافلة النقل المدرسي",
+  "name_ar": "محطة حافلة النقل المدرسي",
+  "place_type": "bus_station",
+  "governorate": "Sidi Bouzid",
+  "lat": 35.21604,
+  "lon": 9.60769,
+  "iata": null,
+  "osm_id": "node/1977220963"
+ },
+ {
+  "name": "محطة ماطر الحافلات",
+  "name_ar": "محطة ماطر الحافلات",
+  "place_type": "bus_station",
+  "governorate": "Bizerte",
+  "lat": 37.26803,
+  "lon": 9.8584,
+  "iata": null,
+  "osm_id": "way/256681682"
+ },
+ {
+  "name": "Gare de Louage à Beja",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Beja",
+  "lat": 36.95143,
+  "lon": 8.76187,
+  "iata": null,
+  "osm_id": "node/10308259909"
+ },
+ {
+  "name": "Gare des louages longues lignes",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Kebili",
+  "lat": 33.72651,
+  "lon": 8.9802,
+  "iata": null,
+  "osm_id": "node/5763648886"
+ },
+ {
+  "name": "Local Louage Station",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Tataouine",
+  "lat": 32.92773,
+  "lon": 10.44705,
+  "iata": null,
+  "osm_id": "node/9308841217"
+ },
+ {
+  "name": "Louage",
+  "name_ar": "تكسي جماعي",
+  "place_type": "louage",
+  "governorate": "Kef",
+  "lat": 35.94639,
+  "lon": 8.83071,
+  "iata": null,
+  "osm_id": "node/4978372721"
+ },
+ {
+  "name": "Louage - محطة سيارات الأجرة بقربة",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Nabeul",
+  "lat": 36.57541,
+  "lon": 10.85897,
+  "iata": null,
+  "osm_id": "node/6318392168"
+ },
+ {
+  "name": "Louage Matmata",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Gabes",
+  "lat": 33.88478,
+  "lon": 10.09073,
+  "iata": null,
+  "osm_id": "node/6404006085"
+ },
+ {
+  "name": "Louage Station",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Sidi Bouzid",
+  "lat": 35.04387,
+  "lon": 9.49634,
+  "iata": null,
+  "osm_id": "node/9293588017"
+ },
+ {
+  "name": "Louage Station Beja",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Beja",
+  "lat": 36.7264,
+  "lon": 9.18691,
+  "iata": null,
+  "osm_id": "node/10308628309"
+ },
+ {
+  "name": "Louage station Gabes",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Gabes",
+  "lat": 33.88237,
+  "lon": 10.08636,
+  "iata": null,
+  "osm_id": "node/10275487109"
+ },
+ {
+  "name": "Louage station Kasserine",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Kasserine",
+  "lat": 35.17802,
+  "lon": 8.84779,
+  "iata": null,
+  "osm_id": "node/10296598009"
+ },
+ {
+  "name": "Louage station Tozeur",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Tozeur",
+  "lat": 33.92256,
+  "lon": 8.13042,
+  "iata": null,
+  "osm_id": "node/10289203809"
+ },
+ {
+  "name": "Louage to Gabes",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Medenine",
+  "lat": 33.34676,
+  "lon": 10.4902,
+  "iata": null,
+  "osm_id": "node/10264906409"
+ },
+ {
+  "name": "Louage à Tozeur",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Tozeur",
+  "lat": 33.87262,
+  "lon": 7.88621,
+  "iata": null,
+  "osm_id": "node/10293029709"
+ },
+ {
+  "name": "Louages (Rakkeda)",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Kairouan",
+  "lat": 35.66394,
+  "lon": 10.09758,
+  "iata": null,
+  "osm_id": "node/12676166701"
+ },
+ {
+  "name": "Louaget",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Bizerte",
+  "lat": 37.14902,
+  "lon": 9.79014,
+  "iata": null,
+  "osm_id": "node/14124245001"
+ },
+ {
+  "name": "Station Louage",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Kasserine",
+  "lat": 35.2278,
+  "lon": 9.12766,
+  "iata": null,
+  "osm_id": "node/9293600917"
+ },
+ {
+  "name": "Station Louage Mahdia",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Mahdia",
+  "lat": 35.49828,
+  "lon": 11.05311,
+  "iata": null,
+  "osm_id": "way/681230217"
+ },
+ {
+  "name": "Station Louage Monastir-Jammel-Ksar Hellal",
+  "name_ar": "محطة سيارات أجرة قصر هلال-مكنين",
+  "place_type": "louage",
+  "governorate": "Monastir",
+  "lat": 35.76995,
+  "lon": 10.82606,
+  "iata": null,
+  "osm_id": "way/1253625133"
+ },
+ {
+  "name": "Station Louage Moncef Bey",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Tunis",
+  "lat": 36.79165,
+  "lon": 10.18715,
+  "iata": null,
+  "osm_id": "way/672867836"
+ },
+ {
+  "name": "Station de Bus et louage",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Sousse",
+  "lat": 35.83453,
+  "lon": 10.59005,
+  "iata": null,
+  "osm_id": "node/2109037682"
+ },
+ {
+  "name": "Station de Louage",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Sfax",
+  "lat": 34.73445,
+  "lon": 10.74913,
+  "iata": null,
+  "osm_id": "node/4629644294"
+ },
+ {
+  "name": "Station de Louage Jebeniana El Hencha",
+  "name_ar": "محطة لواج جبنيانة الحنشة",
+  "place_type": "louage",
+  "governorate": "Sfax",
+  "lat": 34.7415,
+  "lon": 10.762,
+  "iata": null,
+  "osm_id": "node/5659333605"
+ },
+ {
+  "name": "Station de Louage Le Kef",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Kef",
+  "lat": 36.17532,
+  "lon": 8.70749,
+  "iata": null,
+  "osm_id": "node/10298110009"
+ },
+ {
+  "name": "Station de Louage de Menzel Temime",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Nabeul",
+  "lat": 36.78137,
+  "lon": 10.99417,
+  "iata": null,
+  "osm_id": "way/678016068"
+ },
+ {
+  "name": "Station de Louages - Tunis MB",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Bizerte",
+  "lat": 37.15042,
+  "lon": 9.7954,
+  "iata": null,
+  "osm_id": "node/6311344981"
+ },
+ {
+  "name": "Station de Louages Zaghouan",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Zaghouan",
+  "lat": 36.40031,
+  "lon": 10.14768,
+  "iata": null,
+  "osm_id": "node/3846832715"
+ },
+ {
+  "name": "Station de louage de Grombalia",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Nabeul",
+  "lat": 36.59374,
+  "lon": 10.50267,
+  "iata": null,
+  "osm_id": "way/678157614"
+ },
+ {
+  "name": "Station de louages",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Sousse",
+  "lat": 35.80946,
+  "lon": 10.63664,
+  "iata": null,
+  "osm_id": "node/5159455423"
+ },
+ {
+  "name": "Station des Bus et Louage",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Sfax",
+  "lat": 34.53281,
+  "lon": 10.57769,
+  "iata": null,
+  "osm_id": "way/753114640"
+ },
+ {
+  "name": "Station des Louages",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Kairouan",
+  "lat": 35.67918,
+  "lon": 10.08837,
+  "iata": null,
+  "osm_id": "node/13727132001"
+ },
+ {
+  "name": "Station des louages (jaune)",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Kairouan",
+  "lat": 35.68024,
+  "lon": 10.08666,
+  "iata": null,
+  "osm_id": "node/12389226738"
+ },
+ {
+  "name": "Station louage Aïn Draham",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Jendouba",
+  "lat": 36.77803,
+  "lon": 8.68783,
+  "iata": null,
+  "osm_id": "node/10302101909"
+ },
+ {
+  "name": "Station louage Tabarka",
+  "name_ar": null,
+  "place_type": "louage",
+  "governorate": "Beja",
+  "lat": 36.95169,
+  "lon": 8.75988,
+  "iata": null,
+  "osm_id": "node/10304098209"
+ },
+ {
+  "name": "ATTIA FITNESS",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.4027,
+  "lon": 10.61436,
+  "iata": null,
+  "osm_id": "way/672517685"
+ },
+ {
+  "name": "Bardo Centre",
+  "name_ar": "باردو سنتر",
+  "place_type": "mall",
+  "governorate": "Manouba",
+  "lat": 36.8096,
+  "lon": 10.13774,
+  "iata": null,
+  "osm_id": "way/102831449"
+ },
+ {
+  "name": "Batam",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.4051,
+  "lon": 10.63007,
+  "iata": null,
+  "osm_id": "node/3715287415"
+ },
+ {
+  "name": "Bazarr",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Sidi Bouzid",
+  "lat": 34.85132,
+  "lon": 9.78259,
+  "iata": null,
+  "osm_id": "node/4117140579"
+ },
+ {
+  "name": "Behi Bazar De Bonheur",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.45523,
+  "lon": 10.73675,
+  "iata": null,
+  "osm_id": "node/6244759026"
+ },
+ {
+  "name": "Bizerte Centre",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Bizerte",
+  "lat": 37.27021,
+  "lon": 9.87504,
+  "iata": null,
+  "osm_id": "way/671609749"
+ },
+ {
+  "name": "Bourgo Mall",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Medenine",
+  "lat": 33.81755,
+  "lon": 10.97109,
+  "iata": null,
+  "osm_id": "way/407957952"
+ },
+ {
+  "name": "Boutique Julia",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.4008,
+  "lon": 10.61936,
+  "iata": null,
+  "osm_id": "node/6329687615"
+ },
+ {
+  "name": "Boutique Souvenirs",
+  "name_ar": "محل هدايا تذكارية",
+  "place_type": "mall",
+  "governorate": "Ben Arous",
+  "lat": 36.81082,
+  "lon": 10.30309,
+  "iata": null,
+  "osm_id": "way/26207072"
+ },
+ {
+  "name": "CCL Ksar Mezouar",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Beja",
+  "lat": 36.78817,
+  "lon": 9.32665,
+  "iata": null,
+  "osm_id": "node/9828158693"
+ },
+ {
+  "name": "Camaieu",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.80381,
+  "lon": 10.18275,
+  "iata": null,
+  "osm_id": "node/6580422462"
+ },
+ {
+  "name": "Carpet City",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.41679,
+  "lon": 10.65522,
+  "iata": null,
+  "osm_id": "node/6274661522"
+ },
+ {
+  "name": "Carrefour",
+  "name_ar": "كارفور",
+  "place_type": "mall",
+  "governorate": "Gafsa",
+  "lat": 34.41746,
+  "lon": 8.79078,
+  "iata": null,
+  "osm_id": "node/3175105643"
+ },
+ {
+  "name": "Central Park",
+  "name_ar": "سنترال بارك",
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.80187,
+  "lon": 10.18331,
+  "iata": null,
+  "osm_id": "way/94346632"
+ },
+ {
+  "name": "Centre Commercial",
+  "name_ar": "المركز التجاري",
+  "place_type": "mall",
+  "governorate": "Sidi Bouzid",
+  "lat": 35.03712,
+  "lon": 9.49054,
+  "iata": null,
+  "osm_id": "node/2262007087"
+ },
+ {
+  "name": "Centre Commercial Azur City",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Ben Arous",
+  "lat": 36.72608,
+  "lon": 10.25655,
+  "iata": null,
+  "osm_id": "node/7082363841"
+ },
+ {
+  "name": "Centre Commercial Borj Khefacha",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Monastir",
+  "lat": 35.77392,
+  "lon": 10.81966,
+  "iata": null,
+  "osm_id": "node/2306656351"
+ },
+ {
+  "name": "Centre Commercial Lafayette",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.81239,
+  "lon": 10.18108,
+  "iata": null,
+  "osm_id": "way/95134306"
+ },
+ {
+  "name": "Centre Commercial Le Vicomte",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Sousse",
+  "lat": 35.84746,
+  "lon": 10.61884,
+  "iata": null,
+  "osm_id": "way/546447398"
+ },
+ {
+  "name": "Centre Commercial Marina",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.37484,
+  "lon": 10.54206,
+  "iata": null,
+  "osm_id": "way/121863595"
+ },
+ {
+  "name": "Centre Commerciale Menzah 6",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Ariana",
+  "lat": 36.84709,
+  "lon": 10.1663,
+  "iata": null,
+  "osm_id": "node/1037021957"
+ },
+ {
+  "name": "Centre Myriam",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.80698,
+  "lon": 10.18131,
+  "iata": null,
+  "osm_id": "way/205747409"
+ },
+ {
+  "name": "Centre Tataouine",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tataouine",
+  "lat": 32.92811,
+  "lon": 10.44667,
+  "iata": null,
+  "osm_id": "way/1064364170"
+ },
+ {
+  "name": "Centre de vie ,SOPIVEL",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Ben Arous",
+  "lat": 36.71855,
+  "lon": 10.16716,
+  "iata": null,
+  "osm_id": "node/11124011508"
+ },
+ {
+  "name": "Champs Elysee",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Sousse",
+  "lat": 35.84445,
+  "lon": 10.62118,
+  "iata": null,
+  "osm_id": "way/318687130"
+ },
+ {
+  "name": "City Sport",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.80096,
+  "lon": 10.1818,
+  "iata": null,
+  "osm_id": "node/6300053835"
+ },
+ {
+  "name": "Commerce divers",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.46047,
+  "lon": 10.75821,
+  "iata": null,
+  "osm_id": "node/3772153176"
+ },
+ {
+  "name": "Costa Mall",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.36954,
+  "lon": 10.53749,
+  "iata": null,
+  "osm_id": "way/159758239"
+ },
+ {
+  "name": "Dar Halima Shop",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.39335,
+  "lon": 10.61302,
+  "iata": null,
+  "osm_id": "node/6329687629"
+ },
+ {
+  "name": "Euro Sport",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.45347,
+  "lon": 10.74173,
+  "iata": null,
+  "osm_id": "node/6308245597"
+ },
+ {
+  "name": "Ezzahra",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Kasserine",
+  "lat": 35.17442,
+  "lon": 8.84646,
+  "iata": null,
+  "osm_id": "way/643069091"
+ },
+ {
+  "name": "Fifth Avenue",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Sousse",
+  "lat": 35.84423,
+  "lon": 10.62184,
+  "iata": null,
+  "osm_id": "way/318687131"
+ },
+ {
+  "name": "Foudhayli Shopping",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tataouine",
+  "lat": 33.0593,
+  "lon": 10.33612,
+  "iata": null,
+  "osm_id": "way/744568445"
+ },
+ {
+  "name": "Gabès Centre",
+  "name_ar": "مركز قابس",
+  "place_type": "mall",
+  "governorate": "Gabes",
+  "lat": 33.88719,
+  "lon": 10.10319,
+  "iata": null,
+  "osm_id": "relation/5307558"
+ },
+ {
+  "name": "Gammarth Center",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Ariana",
+  "lat": 36.92453,
+  "lon": 10.27436,
+  "iata": null,
+  "osm_id": "relation/1964862"
+ },
+ {
+  "name": "Gustami",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.40401,
+  "lon": 10.61229,
+  "iata": null,
+  "osm_id": "node/6336540320"
+ },
+ {
+  "name": "International Fair of Nabeul",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.44474,
+  "lon": 10.74065,
+  "iata": null,
+  "osm_id": "node/6201364023"
+ },
+ {
+  "name": "Kochkach Shopping Center",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.39787,
+  "lon": 10.61481,
+  "iata": null,
+  "osm_id": "way/668131769"
+ },
+ {
+  "name": "L'Émeraude Tunis",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.81981,
+  "lon": 10.19149,
+  "iata": null,
+  "osm_id": "way/525848688"
+ },
+ {
+  "name": "La Maison Arabe",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.39402,
+  "lon": 10.61398,
+  "iata": null,
+  "osm_id": "node/6329687630"
+ },
+ {
+  "name": "La Marina Hammamet",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.37385,
+  "lon": 10.54275,
+  "iata": null,
+  "osm_id": "relation/1665534"
+ },
+ {
+  "name": "La Medina Yasmine Hammamet",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.36754,
+  "lon": 10.53365,
+  "iata": null,
+  "osm_id": "way/689988303"
+ },
+ {
+  "name": "Le Millenium",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Ariana",
+  "lat": 36.87049,
+  "lon": 10.31094,
+  "iata": null,
+  "osm_id": "way/100807794"
+ },
+ {
+  "name": "Le Safari",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Sousse",
+  "lat": 35.7802,
+  "lon": 10.69474,
+  "iata": null,
+  "osm_id": "node/5067304898"
+ },
+ {
+  "name": "MG ADEL YOU",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Kebili",
+  "lat": 33.70509,
+  "lon": 8.97089,
+  "iata": null,
+  "osm_id": "way/310918238"
+ },
+ {
+  "name": "Magasin général",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Manouba",
+  "lat": 36.82961,
+  "lon": 10.13428,
+  "iata": null,
+  "osm_id": "node/1239680774"
+ },
+ {
+  "name": "Mall Of Sfax",
+  "name_ar": "مول صفاقس",
+  "place_type": "mall",
+  "governorate": "Sfax",
+  "lat": 34.84167,
+  "lon": 10.76245,
+  "iata": null,
+  "osm_id": "node/9815328084"
+ },
+ {
+  "name": "Mall Of Sousse",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Sousse",
+  "lat": 35.90333,
+  "lon": 10.54418,
+  "iata": null,
+  "osm_id": "node/7083023470"
+ },
+ {
+  "name": "Manar City",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Ariana",
+  "lat": 36.84233,
+  "lon": 10.16336,
+  "iata": null,
+  "osm_id": "node/7637748888"
+ },
+ {
+  "name": "Marsa Mall",
+  "name_ar": "مرسى مول",
+  "place_type": "mall",
+  "governorate": "Ariana",
+  "lat": 36.87005,
+  "lon": 10.31009,
+  "iata": null,
+  "osm_id": "way/542444129"
+ },
+ {
+  "name": "Mezhoudi Engins",
+  "name_ar": "المزهودي للآلات الثقيلة",
+  "place_type": "mall",
+  "governorate": "Gabes",
+  "lat": 33.89172,
+  "lon": 10.07947,
+  "iata": null,
+  "osm_id": "node/4104795996"
+ },
+ {
+  "name": "Monoprix Monastir",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Monastir",
+  "lat": 35.77238,
+  "lon": 10.83083,
+  "iata": null,
+  "osm_id": "way/1308693332"
+ },
+ {
+  "name": "Médina de Nabeul",
+  "name_ar": "مدينة نابل العتيقة",
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.45505,
+  "lon": 10.7362,
+  "iata": null,
+  "osm_id": "way/666952329"
+ },
+ {
+  "name": "Nabeul Centre",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.45266,
+  "lon": 10.73267,
+  "iata": null,
+  "osm_id": "way/662504050"
+ },
+ {
+  "name": "Neapolis Centre Nabeul",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.45706,
+  "lon": 10.73813,
+  "iata": null,
+  "osm_id": "way/661590448"
+ },
+ {
+  "name": "Palmarium",
+  "name_ar": "بلماريوم",
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.79886,
+  "lon": 10.18106,
+  "iata": null,
+  "osm_id": "way/95130038"
+ },
+ {
+  "name": "Romène Shopping Center",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.40211,
+  "lon": 10.63155,
+  "iata": null,
+  "osm_id": "way/441939106"
+ },
+ {
+  "name": "Sfax 2000",
+  "name_ar": "صفاقس 2000",
+  "place_type": "mall",
+  "governorate": "Sfax",
+  "lat": 34.74093,
+  "lon": 10.76029,
+  "iata": null,
+  "osm_id": "node/316118792"
+ },
+ {
+  "name": "Shopping Centre TEJ MARHABA",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Sousse",
+  "lat": 35.84161,
+  "lon": 10.62707,
+  "iata": null,
+  "osm_id": "way/210042119"
+ },
+ {
+  "name": "Slim Centre",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Sousse",
+  "lat": 35.84517,
+  "lon": 10.62043,
+  "iata": null,
+  "osm_id": "way/105563563"
+ },
+ {
+  "name": "Souk Chaabi",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Kasserine",
+  "lat": 35.16884,
+  "lon": 8.837,
+  "iata": null,
+  "osm_id": "way/660542474"
+ },
+ {
+  "name": "Souk Moncef Bey",
+  "name_ar": "سوق المنصف باي",
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.79379,
+  "lon": 10.18921,
+  "iata": null,
+  "osm_id": "relation/18915849"
+ },
+ {
+  "name": "Souk Sidi Boumendil",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.79808,
+  "lon": 10.17505,
+  "iata": null,
+  "osm_id": "way/698355840"
+ },
+ {
+  "name": "Tanit Center",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Ariana",
+  "lat": 36.86624,
+  "lon": 10.29496,
+  "iata": null,
+  "osm_id": "node/1080422033"
+ },
+ {
+  "name": "Taraji",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.81558,
+  "lon": 10.18646,
+  "iata": null,
+  "osm_id": "way/138715881"
+ },
+ {
+  "name": "Tunis City",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Ariana",
+  "lat": 36.90028,
+  "lon": 10.12316,
+  "iata": null,
+  "osm_id": "way/34392127"
+ },
+ {
+  "name": "Tunisia Mall",
+  "name_ar": "تونس مول",
+  "place_type": "mall",
+  "governorate": "Ariana",
+  "lat": 36.84785,
+  "lon": 10.27907,
+  "iata": null,
+  "osm_id": "way/535372054"
+ },
+ {
+  "name": "Tunisie Télécom",
+  "name_ar": "إتصالات تونس",
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.79658,
+  "lon": 10.17883,
+  "iata": null,
+  "osm_id": "node/6301143987"
+ },
+ {
+  "name": "Twist",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.37248,
+  "lon": 10.54199,
+  "iata": null,
+  "osm_id": "node/6312464549"
+ },
+ {
+  "name": "Vendre des légumes et des fruits",
+  "name_ar": "بيع خضر وغلال",
+  "place_type": "mall",
+  "governorate": "Tataouine",
+  "lat": 32.87192,
+  "lon": 10.38056,
+  "iata": null,
+  "osm_id": "node/9808321179"
+ },
+ {
+  "name": "Vita Sport",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.79947,
+  "lon": 10.18379,
+  "iata": null,
+  "osm_id": "node/6302251635"
+ },
+ {
+  "name": "Yesmine Centre",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.45495,
+  "lon": 10.7364,
+  "iata": null,
+  "osm_id": "node/6244759027"
+ },
+ {
+  "name": "ZEN",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tunis",
+  "lat": 36.80311,
+  "lon": 10.18295,
+  "iata": null,
+  "osm_id": "node/6580422469"
+ },
+ {
+  "name": "Zéphyr",
+  "name_ar": "الزفير",
+  "place_type": "mall",
+  "governorate": "Ariana",
+  "lat": 36.88373,
+  "lon": 10.33372,
+  "iata": null,
+  "osm_id": "way/89976460"
+ },
+ {
+  "name": "jerjis deco",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Ben Arous",
+  "lat": 36.75924,
+  "lon": 10.19766,
+  "iata": null,
+  "osm_id": "way/715447802"
+ },
+ {
+  "name": "koleze el janoub",
+  "name_ar": "الكوليزي",
+  "place_type": "mall",
+  "governorate": "Tataouine",
+  "lat": 32.92717,
+  "lon": 10.44903,
+  "iata": null,
+  "osm_id": "way/1070605754"
+ },
+ {
+  "name": "souk cha3bi ennour",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Kasserine",
+  "lat": 35.16624,
+  "lon": 8.84334,
+  "iata": null,
+  "osm_id": "node/6317165873"
+ },
+ {
+  "name": "التسوق الملكي",
+  "name_ar": "التسوق الملكي",
+  "place_type": "mall",
+  "governorate": "Medenine",
+  "lat": 33.80843,
+  "lon": 10.99381,
+  "iata": null,
+  "osm_id": "node/3277675868"
+ },
+ {
+  "name": "الجرة",
+  "name_ar": "الجرة",
+  "place_type": "mall",
+  "governorate": "Nabeul",
+  "lat": 36.45165,
+  "lon": 10.73568,
+  "iata": null,
+  "osm_id": "way/662525480"
+ },
+ {
+  "name": "مخبزة مطماطة",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Gabes",
+  "lat": 33.54413,
+  "lon": 9.96949,
+  "iata": null,
+  "osm_id": "node/10649682710"
+ },
+ {
+  "name": "مفاتيح",
+  "name_ar": null,
+  "place_type": "mall",
+  "governorate": "Tataouine",
+  "lat": 32.92936,
+  "lon": 10.45014,
+  "iata": null,
+  "osm_id": "node/9825362559"
+ },
+ {
+  "name": "مول جربة",
+  "name_ar": "مول جربة",
+  "place_type": "mall",
+  "governorate": "Medenine",
+  "lat": 33.80549,
+  "lon": 10.99177,
+  "iata": null,
+  "osm_id": "node/5887764885"
+ },
+ {
+  "name": "10 Décembre 1948",
+  "name_ar": "10 ديسمبر 1984",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.84425,
+  "lon": 10.18404,
+  "iata": null,
+  "osm_id": "node/5815305346"
+ },
+ {
+  "name": "13 Août",
+  "name_ar": "13 أوت",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.77509,
+  "lon": 10.17921,
+  "iata": null,
+  "osm_id": "way/688053298"
+ },
+ {
+  "name": "14 Janvier 2011",
+  "name_ar": "14 يناير 2011",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.82286,
+  "lon": 10.13997,
+  "iata": null,
+  "osm_id": "node/5814938955"
+ },
+ {
+  "name": "Abou El Kacem Echebbi",
+  "name_ar": "أبو القاسم الشابي",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.75245,
+  "lon": 10.21475,
+  "iata": null,
+  "osm_id": "node/13591363929"
+ },
+ {
+  "name": "Ariana",
+  "name_ar": "أريانة",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.85976,
+  "lon": 10.19748,
+  "iata": null,
+  "osm_id": "node/5815305352"
+ },
+ {
+  "name": "Bab Alioua",
+  "name_ar": "باب عليوة",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.7857,
+  "lon": 10.17982,
+  "iata": null,
+  "osm_id": "way/688053293"
+ },
+ {
+  "name": "Bab El Assel",
+  "name_ar": "باب العسل",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.81329,
+  "lon": 10.16817,
+  "iata": null,
+  "osm_id": "node/1095146798"
+ },
+ {
+  "name": "Bab El Khadra",
+  "name_ar": "باب الخضراء",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.81024,
+  "lon": 10.17247,
+  "iata": null,
+  "osm_id": "node/5807318586"
+ },
+ {
+  "name": "Bab Saadoun",
+  "name_ar": "باب سعدون",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.80979,
+  "lon": 10.16198,
+  "iata": null,
+  "osm_id": "node/5807318617"
+ },
+ {
+  "name": "Ben Arous",
+  "name_ar": "بن عروس",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.7554,
+  "lon": 10.22031,
+  "iata": null,
+  "osm_id": "node/13591363928"
+ },
+ {
+  "name": "Bouchoucha",
+  "name_ar": "بوشوشة",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.80924,
+  "lon": 10.14902,
+  "iata": null,
+  "osm_id": "node/5807318670"
+ },
+ {
+  "name": "Boulevard 20 Mars",
+  "name_ar": "شارع 20 مارس",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.80829,
+  "lon": 10.14288,
+  "iata": null,
+  "osm_id": "node/5807318671"
+ },
+ {
+  "name": "Campus",
+  "name_ar": "حرم الجامعة",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.82601,
+  "lon": 10.14399,
+  "iata": null,
+  "osm_id": "node/5814938967"
+ },
+ {
+  "name": "Campus Universitaire",
+  "name_ar": "المركب الجامعي",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.81294,
+  "lon": 10.0619,
+  "iata": null,
+  "osm_id": "node/5806301475"
+ },
+ {
+  "name": "Carthage Amilcar",
+  "name_ar": "قرطاج أميلكار",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.86661,
+  "lon": 10.33751,
+  "iata": null,
+  "osm_id": "node/5814603906"
+ },
+ {
+  "name": "Carthage Byrsa",
+  "name_ar": "قرطاج بيرصة",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.84623,
+  "lon": 10.32184,
+  "iata": null,
+  "osm_id": "node/9162088821"
+ },
+ {
+  "name": "Carthage Dermech",
+  "name_ar": "قرطاج درمش",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.8502,
+  "lon": 10.3257,
+  "iata": null,
+  "osm_id": "node/5814603909"
+ },
+ {
+  "name": "Carthage Hannibal",
+  "name_ar": "قرطاج حنبعل",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.85355,
+  "lon": 10.329,
+  "iata": null,
+  "osm_id": "node/5814603908"
+ },
+ {
+  "name": "Carthage Présidence",
+  "name_ar": "قرطاج الرئاسة",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.86166,
+  "lon": 10.33502,
+  "iata": null,
+  "osm_id": "node/5814603907"
+ },
+ {
+  "name": "Carthage Salammbô",
+  "name_ar": "قرطاج صلامبو",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.84169,
+  "lon": 10.31914,
+  "iata": null,
+  "osm_id": "node/5814603911"
+ },
+ {
+  "name": "Cité El Khadra",
+  "name_ar": "حي الخضراء",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.82919,
+  "lon": 10.19037,
+  "iata": null,
+  "osm_id": "node/661316493"
+ },
+ {
+  "name": "Cité Ennour",
+  "name_ar": "حي النور",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.75148,
+  "lon": 10.20474,
+  "iata": null,
+  "osm_id": "node/5807446756"
+ },
+ {
+  "name": "Cité Municipale",
+  "name_ar": "الحي البلدي",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.74843,
+  "lon": 10.18872,
+  "iata": null,
+  "osm_id": "way/688053320"
+ },
+ {
+  "name": "Cité Sportive",
+  "name_ar": "الحي الرياضي",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.83851,
+  "lon": 10.18196,
+  "iata": null,
+  "osm_id": "node/5815305343"
+ },
+ {
+  "name": "Cité des sciences",
+  "name_ar": "مدينة العلوم",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.84699,
+  "lon": 10.19236,
+  "iata": null,
+  "osm_id": "node/5815305348"
+ },
+ {
+  "name": "Den Den",
+  "name_ar": "الدندان",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.80221,
+  "lon": 10.11077,
+  "iata": null,
+  "osm_id": "node/5807318673"
+ },
+ {
+  "name": "El Kabaria",
+  "name_ar": "الكبارية",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.75988,
+  "lon": 10.19054,
+  "iata": null,
+  "osm_id": "node/5807446776"
+ },
+ {
+  "name": "El Montazah",
+  "name_ar": "المنتزه",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.74289,
+  "lon": 10.1935,
+  "iata": null,
+  "osm_id": "way/688042775"
+ },
+ {
+  "name": "El Mourouj 1",
+  "name_ar": "المروج 1",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.73848,
+  "lon": 10.20655,
+  "iata": null,
+  "osm_id": "way/688042797"
+ },
+ {
+  "name": "El Mourouj 2",
+  "name_ar": "المروج 2",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.74211,
+  "lon": 10.19775,
+  "iata": null,
+  "osm_id": "way/688042779"
+ },
+ {
+  "name": "El Mourouj 3",
+  "name_ar": "المروج 3",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.72873,
+  "lon": 10.21074,
+  "iata": null,
+  "osm_id": "way/688042805"
+ },
+ {
+  "name": "El Mourouj 4",
+  "name_ar": "المروج 4",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.71978,
+  "lon": 10.21641,
+  "iata": null,
+  "osm_id": "way/688042807"
+ },
+ {
+  "name": "El Ouardia",
+  "name_ar": "الوردية",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.75421,
+  "lon": 10.19907,
+  "iata": null,
+  "osm_id": "node/6416450569"
+ },
+ {
+  "name": "Ennesri",
+  "name_ar": "النسري",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.74504,
+  "lon": 10.19043,
+  "iata": null,
+  "osm_id": "way/688053327"
+ },
+ {
+  "name": "Environnement",
+  "name_ar": "البيئة",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.73312,
+  "lon": 10.21037,
+  "iata": null,
+  "osm_id": "way/688042801"
+ },
+ {
+  "name": "Essaida",
+  "name_ar": "السعيدية",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.80541,
+  "lon": 10.12671,
+  "iata": null,
+  "osm_id": "node/5807318001"
+ },
+ {
+  "name": "Ettadhamen",
+  "name_ar": "التضامن",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.83573,
+  "lon": 10.11766,
+  "iata": null,
+  "osm_id": "node/3843956271"
+ },
+ {
+  "name": "Farhat Hached",
+  "name_ar": "فرحات حشاد",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.79789,
+  "lon": 10.1861,
+  "iata": null,
+  "osm_id": "node/5807445623"
+ },
+ {
+  "name": "Ghazeli",
+  "name_ar": "الغزالي",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.75465,
+  "lon": 10.18763,
+  "iata": null,
+  "osm_id": "way/688053315"
+ },
+ {
+  "name": "Habib Thameur",
+  "name_ar": "حبيب ثامر",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.80197,
+  "lon": 10.17891,
+  "iata": null,
+  "osm_id": "node/1095145955"
+ },
+ {
+  "name": "Ibn Khaldoun",
+  "name_ar": "ابن خلدون",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.83073,
+  "lon": 10.13416,
+  "iata": null,
+  "osm_id": "node/5815161181"
+ },
+ {
+  "name": "Ibn Rachiq",
+  "name_ar": "ابن رشيق",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.8008,
+  "lon": 10.1812,
+  "iata": null,
+  "osm_id": "node/1094476493"
+ },
+ {
+  "name": "Ibn Sina",
+  "name_ar": "ابن سينا",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.75426,
+  "lon": 10.19396,
+  "iata": null,
+  "osm_id": "node/5807446778"
+ },
+ {
+  "name": "Intilaka",
+  "name_ar": "الانطلاقة",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.83919,
+  "lon": 10.11704,
+  "iata": null,
+  "osm_id": "node/3843950316"
+ },
+ {
+  "name": "Khasnadar",
+  "name_ar": "خزندار",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.80418,
+  "lon": 10.12174,
+  "iata": null,
+  "osm_id": "node/5807318010"
+ },
+ {
+  "name": "Khereddine",
+  "name_ar": "خير الدين",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.82893,
+  "lon": 10.3116,
+  "iata": null,
+  "osm_id": "node/5814603914"
+ },
+ {
+  "name": "L'Artisanat",
+  "name_ar": "صناعات تقليدية",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.8029,
+  "lon": 10.11602,
+  "iata": null,
+  "osm_id": "node/5807318672"
+ },
+ {
+  "name": "L'Aéroport",
+  "name_ar": "المرسى الجوية",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.83204,
+  "lon": 10.31387,
+  "iata": null,
+  "osm_id": "node/5814603913"
+ },
+ {
+  "name": "L'Indépendance",
+  "name_ar": "الاستقلال",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.85439,
+  "lon": 10.19592,
+  "iata": null,
+  "osm_id": "node/5815305349"
+ },
+ {
+  "name": "La Corniche",
+  "name_ar": "الكورنيش",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.8797,
+  "lon": 10.3393,
+  "iata": null,
+  "osm_id": "node/5814603903"
+ },
+ {
+  "name": "La Goulette Casino",
+  "name_ar": "حلق الوادي الكازينو",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.82424,
+  "lon": 10.30871,
+  "iata": null,
+  "osm_id": "node/5814603916"
+ },
+ {
+  "name": "La Goulette Neuve",
+  "name_ar": "حلق الوادي الجديد",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.81994,
+  "lon": 10.30564,
+  "iata": null,
+  "osm_id": "node/5814603915"
+ },
+ {
+  "name": "La Goulette Vielle",
+  "name_ar": "حلق الوادي",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.81803,
+  "lon": 10.30196,
+  "iata": null,
+  "osm_id": "node/7701748630"
+ },
+ {
+  "name": "La Jeunesse",
+  "name_ar": "الشباب",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.83332,
+  "lon": 10.1828,
+  "iata": null,
+  "osm_id": "node/5815305342"
+ },
+ {
+  "name": "La Marsa Plage",
+  "name_ar": "شاطئ المرسى",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.88286,
+  "lon": 10.33365,
+  "iata": null,
+  "osm_id": "node/5814603919"
+ },
+ {
+  "name": "Le Bac",
+  "name_ar": "البطاح",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.81423,
+  "lon": 10.29237,
+  "iata": null,
+  "osm_id": "node/5814603920"
+ },
+ {
+  "name": "Le Bardo",
+  "name_ar": "باردو",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.80721,
+  "lon": 10.13523,
+  "iata": null,
+  "osm_id": "node/5807317992"
+ },
+ {
+  "name": "Le Kram",
+  "name_ar": "الكرم",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.83634,
+  "lon": 10.31666,
+  "iata": null,
+  "osm_id": "node/5814603912"
+ },
+ {
+  "name": "Les Jasmins",
+  "name_ar": "الياسمين",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.82583,
+  "lon": 10.13459,
+  "iata": null,
+  "osm_id": "node/3995088067"
+ },
+ {
+  "name": "Martyrs",
+  "name_ar": "الشهداء",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.72356,
+  "lon": 10.21214,
+  "iata": null,
+  "osm_id": "way/688042806"
+ },
+ {
+  "name": "Meftah Saadallah",
+  "name_ar": "مفتاح سعد الله",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.81306,
+  "lon": 10.15627,
+  "iata": null,
+  "osm_id": "node/5807318022"
+ },
+ {
+  "name": "Mohamed Manachou",
+  "name_ar": "محمد مناشو",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.7821,
+  "lon": 10.17986,
+  "iata": null,
+  "osm_id": "way/688053294"
+ },
+ {
+  "name": "Mohamed V",
+  "name_ar": "محمد الخامس",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.81593,
+  "lon": 10.18319,
+  "iata": null,
+  "osm_id": "node/13835966905"
+ },
+ {
+  "name": "Mohammed Ali",
+  "name_ar": "محمد علي",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.76772,
+  "lon": 10.18401,
+  "iata": null,
+  "osm_id": "way/688053307"
+ },
+ {
+  "name": "Moncef Bey",
+  "name_ar": "المنصف باي",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.80525,
+  "lon": 10.09066,
+  "iata": null,
+  "osm_id": "node/5806301471"
+ },
+ {
+  "name": "Nelson Mandela",
+  "name_ar": "نيلسون مانديلا",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.8111,
+  "lon": 10.18255,
+  "iata": null,
+  "osm_id": "node/5807318035"
+ },
+ {
+  "name": "Omrane Superieur",
+  "name_ar": "العمران الأعلى",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.83057,
+  "lon": 10.12399,
+  "iata": null,
+  "osm_id": "node/3995088058"
+ },
+ {
+  "name": "Palais Al-Warda",
+  "name_ar": "قصر الوردة",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.81029,
+  "lon": 10.06795,
+  "iata": null,
+  "osm_id": "node/5806301474"
+ },
+ {
+  "name": "Palestine",
+  "name_ar": "فلسطين",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.82022,
+  "lon": 10.18218,
+  "iata": null,
+  "osm_id": "node/1094902351"
+ },
+ {
+  "name": "Place de Barcelone",
+  "name_ar": "ساحة برشلونة",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.79609,
+  "lon": 10.18045,
+  "iata": null,
+  "osm_id": "node/5807318668"
+ },
+ {
+  "name": "Place de la République",
+  "name_ar": "ساحة الجمهورية",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.8065,
+  "lon": 10.18083,
+  "iata": null,
+  "osm_id": "node/5807318669"
+ },
+ {
+  "name": "Rommana",
+  "name_ar": "الرمانة",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.82353,
+  "lon": 10.15089,
+  "iata": null,
+  "osm_id": "node/3995088080"
+ },
+ {
+  "name": "Sidi Bou Saïd",
+  "name_ar": "سيدي بوسعيد",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.87061,
+  "lon": 10.34209,
+  "iata": null,
+  "osm_id": "node/5814603905"
+ },
+ {
+  "name": "Sidi Dhrif",
+  "name_ar": "سيدي الظريف",
+  "place_type": "metro",
+  "governorate": "Ariana",
+  "lat": 36.87576,
+  "lon": 10.33975,
+  "iata": null,
+  "osm_id": "node/5814603904"
+ },
+ {
+  "name": "Station Les Jardins",
+  "name_ar": "الحدائق",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.82352,
+  "lon": 10.18559,
+  "iata": null,
+  "osm_id": "node/1094915522"
+ },
+ {
+  "name": "Tahar Haddad",
+  "name_ar": "الطاهر الحداد",
+  "place_type": "metro",
+  "governorate": "Ben Arous",
+  "lat": 36.76076,
+  "lon": 10.18698,
+  "iata": null,
+  "osm_id": "way/688053309"
+ },
+ {
+  "name": "Tunis Marine",
+  "name_ar": "تونس البحرية",
+  "place_type": "metro",
+  "governorate": "Tunis",
+  "lat": 36.80013,
+  "lon": 10.1929,
+  "iata": null,
+  "osm_id": "node/5807318667"
+ },
+ {
+  "name": "أبو بكر الرازي",
+  "name_ar": "أبو بكر الرازي",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.8074,
+  "lon": 10.08245,
+  "iata": null,
+  "osm_id": "node/5806301472"
+ },
+ {
+  "name": "التحرير",
+  "name_ar": "التحرير",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.82908,
+  "lon": 10.12866,
+  "iata": null,
+  "osm_id": "node/5814938606"
+ },
+ {
+  "name": "القطب التكنولوجي",
+  "name_ar": "القطب التكنولوجي",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.80905,
+  "lon": 10.07543,
+  "iata": null,
+  "osm_id": "node/5806301473"
+ },
+ {
+  "name": "المكنين المنطقة الصناعية",
+  "name_ar": null,
+  "place_type": "metro",
+  "governorate": "Mahdia",
+  "lat": 35.6308,
+  "lon": 10.93151,
+  "iata": null,
+  "osm_id": "way/1547487389"
+ },
+ {
+  "name": "خير الدين",
+  "name_ar": "خير الدين",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.81529,
+  "lon": 10.05677,
+  "iata": null,
+  "osm_id": "node/4520401404"
+ },
+ {
+  "name": "منوبة",
+  "name_ar": "منوبة",
+  "place_type": "metro",
+  "governorate": "Manouba",
+  "lat": 36.80208,
+  "lon": 10.10264,
+  "iata": null,
+  "osm_id": "node/6383429945"
+ },
+ {
+  "name": "Borj Khadija",
+  "name_ar": "برج خديجة",
+  "place_type": "museum",
+  "governorate": "Mahdia",
+  "lat": 35.23498,
+  "lon": 11.15634,
+  "iata": null,
+  "osm_id": "node/974763393"
+ },
+ {
+  "name": "Borj el Ghazi Mustapha",
+  "name_ar": "برج غازي مصطفى",
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.88389,
+  "lon": 10.86042,
+  "iata": null,
+  "osm_id": "node/3417566382"
+ },
+ {
+  "name": "Chemtou",
+  "name_ar": "شمتو",
+  "place_type": "museum",
+  "governorate": "Jendouba",
+  "lat": 36.49009,
+  "lon": 8.57715,
+  "iata": null,
+  "osm_id": "node/4505038289"
+ },
+ {
+  "name": "Dar Cherait",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Tozeur",
+  "lat": 33.91316,
+  "lon": 8.12061,
+  "iata": null,
+  "osm_id": "node/351597412"
+ },
+ {
+  "name": "Dar El Jem",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Mahdia",
+  "lat": 35.29842,
+  "lon": 10.70542,
+  "iata": null,
+  "osm_id": "node/2610190990"
+ },
+ {
+  "name": "Dar Taoufik Matmata",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Gabes",
+  "lat": 33.54986,
+  "lon": 9.943,
+  "iata": null,
+  "osm_id": "node/4914008623"
+ },
+ {
+  "name": "Ecomuseum",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Ben Arous",
+  "lat": 36.72636,
+  "lon": 10.32972,
+  "iata": null,
+  "osm_id": "way/117017509"
+ },
+ {
+  "name": "Eden Palm",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Tozeur",
+  "lat": 33.91711,
+  "lon": 8.1472,
+  "iata": null,
+  "osm_id": "node/2178628385"
+ },
+ {
+  "name": "Ennejma Ezzahra",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 36.86919,
+  "lon": 10.34821,
+  "iata": null,
+  "osm_id": "way/209175154"
+ },
+ {
+  "name": "Galerie A.Gorgi (ex Galerie Ammar Farhat)",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 36.87095,
+  "lon": 10.34701,
+  "iata": null,
+  "osm_id": "way/670006841"
+ },
+ {
+  "name": "Ghar el Kébir",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Nabeul",
+  "lat": 37.05915,
+  "lon": 10.99542,
+  "iata": null,
+  "osm_id": "way/207776929"
+ },
+ {
+  "name": "Huilerie traditionnelle souterraine Fessili",
+  "name_ar": "معصرة الفصيلي",
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.81014,
+  "lon": 10.99194,
+  "iata": null,
+  "osm_id": "node/11691949310"
+ },
+ {
+  "name": "Jebil National Park",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Kebili",
+  "lat": 33.10233,
+  "lon": 9.06053,
+  "iata": null,
+  "osm_id": "way/243112494"
+ },
+ {
+  "name": "La Cité des sciences",
+  "name_ar": "مدينة العلوم",
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 36.84826,
+  "lon": 10.18884,
+  "iata": null,
+  "osm_id": "way/105557781"
+ },
+ {
+  "name": "La Ferme de Lotos - Musée de l'automobile et de la moto",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.79635,
+  "lon": 11.01796,
+  "iata": null,
+  "osm_id": "node/13354579859"
+ },
+ {
+  "name": "Lalla Hadria",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.81991,
+  "lon": 11.04492,
+  "iata": null,
+  "osm_id": "node/352842148"
+ },
+ {
+  "name": "Le musée archéologique d'El Jem",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Mahdia",
+  "lat": 35.28948,
+  "lon": 10.70542,
+  "iata": null,
+  "osm_id": "relation/2894408"
+ },
+ {
+  "name": "MACAM Tunis",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.81055,
+  "lon": 10.18646,
+  "iata": null,
+  "osm_id": "node/10296641011"
+ },
+ {
+  "name": "Madrassa Sidi Moussa Jomani",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Gabes",
+  "lat": 33.544,
+  "lon": 9.97291,
+  "iata": null,
+  "osm_id": "node/11807174192"
+ },
+ {
+  "name": "Maison Am Taieb d'art contemporain",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Sousse",
+  "lat": 35.82147,
+  "lon": 10.63019,
+  "iata": null,
+  "osm_id": "node/10293525509"
+ },
+ {
+  "name": "Maison de Abou El Kacem Chebbi",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Tozeur",
+  "lat": 33.9142,
+  "lon": 8.12878,
+  "iata": null,
+  "osm_id": "node/13732184601"
+ },
+ {
+  "name": "Mausolée Sidi Ammar",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Monastir",
+  "lat": 35.67072,
+  "lon": 10.89235,
+  "iata": null,
+  "osm_id": "node/705194168"
+ },
+ {
+  "name": "Mausolée du Barbier",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Kairouan",
+  "lat": 35.68192,
+  "lon": 10.09049,
+  "iata": null,
+  "osm_id": "node/6361214898"
+ },
+ {
+  "name": "Meninx - exposition archéologique",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.68578,
+  "lon": 10.92051,
+  "iata": null,
+  "osm_id": "way/990322704"
+ },
+ {
+  "name": "Musee dar Khadija",
+  "name_ar": "متحف دار خديجة",
+  "place_type": "museum",
+  "governorate": "Gabes",
+  "lat": 33.54216,
+  "lon": 9.96854,
+  "iata": null,
+  "osm_id": "node/6220843190"
+ },
+ {
+  "name": "Museum El-Kobba",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Sousse",
+  "lat": 35.8251,
+  "lon": 10.63816,
+  "iata": null,
+  "osm_id": "relation/18159494"
+ },
+ {
+  "name": "Musée Berbère de Tamezret",
+  "name_ar": "متحف بربري",
+  "place_type": "museum",
+  "governorate": "Gabes",
+  "lat": 33.53688,
+  "lon": 9.86444,
+  "iata": null,
+  "osm_id": "node/4811121277"
+ },
+ {
+  "name": "Musée D'Enfidha",
+  "name_ar": "متحف النفيضة",
+  "place_type": "museum",
+  "governorate": "Zaghouan",
+  "lat": 36.13532,
+  "lon": 10.37984,
+  "iata": null,
+  "osm_id": "way/678873928"
+ },
+ {
+  "name": "Musée Dar Ben Abdallah",
+  "name_ar": "دار بن عبد الله",
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.794,
+  "lon": 10.17381,
+  "iata": null,
+  "osm_id": "relation/1552763"
+ },
+ {
+  "name": "Musée Dar Essid",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Sousse",
+  "lat": 35.82715,
+  "lon": 10.63544,
+  "iata": null,
+  "osm_id": "node/5090248521"
+ },
+ {
+  "name": "Musée Dar Jallouli",
+  "name_ar": "دار الجلولي",
+  "place_type": "museum",
+  "governorate": "Sfax",
+  "lat": 34.73684,
+  "lon": 10.76239,
+  "iata": null,
+  "osm_id": "way/39972294"
+ },
+ {
+  "name": "Musée Du Patrimoine Insulaire",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Sfax",
+  "lat": 34.71957,
+  "lon": 11.2436,
+  "iata": null,
+  "osm_id": "node/4581665234"
+ },
+ {
+  "name": "Musée Geologique",
+  "name_ar": "المتحف الجيولوجي",
+  "place_type": "museum",
+  "governorate": "Bizerte",
+  "lat": 37.13575,
+  "lon": 9.69141,
+  "iata": null,
+  "osm_id": "way/217819344"
+ },
+ {
+  "name": "Musée Memoire de la Terre Tataouine",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Tataouine",
+  "lat": 32.91766,
+  "lon": 10.41523,
+  "iata": null,
+  "osm_id": "way/186982425"
+ },
+ {
+  "name": "Musée National Militaire du Palais al Warda",
+  "name_ar": "المتحف الوطني العسكري بقصر الوردة",
+  "place_type": "museum",
+  "governorate": "Manouba",
+  "lat": 36.81131,
+  "lon": 10.0985,
+  "iata": null,
+  "osm_id": "relation/2283621"
+ },
+ {
+  "name": "Musée National de Carthage",
+  "name_ar": "المتحف الوطني بقرطاج",
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 36.85357,
+  "lon": 10.3243,
+  "iata": null,
+  "osm_id": "node/288347882"
+ },
+ {
+  "name": "Musée Naturel Du Sud Tunisien",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Gabes",
+  "lat": 33.86379,
+  "lon": 10.05991,
+  "iata": null,
+  "osm_id": "node/2967189009"
+ },
+ {
+  "name": "Musée Romain et Palaeo-Chrétien",
+  "name_ar": "المتحف المسيحي المبكر بقرطاج",
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 36.84809,
+  "lon": 10.32461,
+  "iata": null,
+  "osm_id": "way/93164734"
+ },
+ {
+  "name": "Musée Salakta",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Mahdia",
+  "lat": 35.39238,
+  "lon": 11.04879,
+  "iata": null,
+  "osm_id": "way/1146823335"
+ },
+ {
+  "name": "Musée Troglodyte de Ksour",
+  "name_ar": "متحف المساكن الجوفية بالقصور",
+  "place_type": "museum",
+  "governorate": "Gabes",
+  "lat": 33.54202,
+  "lon": 9.97615,
+  "iata": null,
+  "osm_id": "node/13808859301"
+ },
+ {
+  "name": "Musée archéologique de Chemtou",
+  "name_ar": "المتحف الأثري بشمتو",
+  "place_type": "museum",
+  "governorate": "Jendouba",
+  "lat": 36.48954,
+  "lon": 8.57682,
+  "iata": null,
+  "osm_id": "way/274188286"
+ },
+ {
+  "name": "Musée archéologique de Sousse",
+  "name_ar": "المتحف الأثري بسوسة",
+  "place_type": "museum",
+  "governorate": "Sousse",
+  "lat": 35.82311,
+  "lon": 10.63558,
+  "iata": null,
+  "osm_id": "node/2094066071"
+ },
+ {
+  "name": "Musée archéologique et ethnographique de Moknine",
+  "name_ar": "متحف المكنين الأثري",
+  "place_type": "museum",
+  "governorate": "Monastir",
+  "lat": 35.62552,
+  "lon": 10.90085,
+  "iata": null,
+  "osm_id": "way/1551496390"
+ },
+ {
+  "name": "Musée d'Art Moderne",
+  "name_ar": "متحف مدينة تونس",
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.80162,
+  "lon": 10.1685,
+  "iata": null,
+  "osm_id": "node/1103552060"
+ },
+ {
+  "name": "Musée d'arts islamiques",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Monastir",
+  "lat": 35.77593,
+  "lon": 10.83308,
+  "iata": null,
+  "osm_id": "node/2935194780"
+ },
+ {
+  "name": "Musée de Bulla Regia",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Jendouba",
+  "lat": 36.55655,
+  "lon": 8.75448,
+  "iata": null,
+  "osm_id": "way/204427161"
+ },
+ {
+  "name": "Musée de Maktaris",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Siliana",
+  "lat": 35.856,
+  "lon": 9.20638,
+  "iata": null,
+  "osm_id": "way/204686869"
+ },
+ {
+  "name": "Musée de Zarzis",
+  "name_ar": "متحف جرجيس",
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.50205,
+  "lon": 11.11393,
+  "iata": null,
+  "osm_id": "way/1178217349"
+ },
+ {
+  "name": "Musée de la Justice et des Droits de l’Homme",
+  "name_ar": "متحف العدل وحقوق الإنسان",
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.79988,
+  "lon": 10.16613,
+  "iata": null,
+  "osm_id": "node/5669152954"
+ },
+ {
+  "name": "Musée de la Monnaie",
+  "name_ar": "متحف العملة",
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.80466,
+  "lon": 10.18506,
+  "iata": null,
+  "osm_id": "node/1036946012"
+ },
+ {
+  "name": "Musée de la Mémoire Nationale",
+  "name_ar": "متحف الذاكرة الوطنية بالسيجومي",
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.77222,
+  "lon": 10.17184,
+  "iata": null,
+  "osm_id": "way/179953386"
+ },
+ {
+  "name": "Musée des Arts et Traditions Populaires",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Kef",
+  "lat": 36.18276,
+  "lon": 8.71533,
+  "iata": null,
+  "osm_id": "way/179545357"
+ },
+ {
+  "name": "Musée des Costumes et des Traditions",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.34746,
+  "lon": 10.49121,
+  "iata": null,
+  "osm_id": "node/11807118339"
+ },
+ {
+  "name": "Musée des Timbres",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.7969,
+  "lon": 10.17866,
+  "iata": null,
+  "osm_id": "node/5090400921"
+ },
+ {
+  "name": "Musée des coutumes et des traditions",
+  "name_ar": "متحف العادات والتقاليد",
+  "place_type": "museum",
+  "governorate": "Gabes",
+  "lat": 33.86862,
+  "lon": 10.09079,
+  "iata": null,
+  "osm_id": "node/1789165452"
+ },
+ {
+  "name": "Musée des finances",
+  "name_ar": "متحف المالية",
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.80112,
+  "lon": 10.17831,
+  "iata": null,
+  "osm_id": "node/1263965887"
+ },
+ {
+  "name": "Musée du Cinéma",
+  "name_ar": "متحف السينما",
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.79643,
+  "lon": 10.1656,
+  "iata": null,
+  "osm_id": "node/5089226022"
+ },
+ {
+  "name": "Musée du Mouvement National",
+  "name_ar": "دار معقل الزعيم",
+  "place_type": "museum",
+  "governorate": "Tunis",
+  "lat": 36.79365,
+  "lon": 10.16437,
+  "iata": null,
+  "osm_id": "relation/1555964"
+ },
+ {
+  "name": "Musée du Patrimoine de Guellala",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.73256,
+  "lon": 10.86563,
+  "iata": null,
+  "osm_id": "node/1905357351"
+ },
+ {
+  "name": "Musée du Quartier Sud de Thysdrus",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Mahdia",
+  "lat": 35.28955,
+  "lon": 10.70489,
+  "iata": null,
+  "osm_id": "relation/2894406"
+ },
+ {
+  "name": "Musée du Sahara de Douz",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Kebili",
+  "lat": 33.45191,
+  "lon": 9.01833,
+  "iata": null,
+  "osm_id": "node/12386384101"
+ },
+ {
+  "name": "Musée du Tapis",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Kairouan",
+  "lat": 35.67253,
+  "lon": 10.09917,
+  "iata": null,
+  "osm_id": "way/94481603"
+ },
+ {
+  "name": "Musée du parc national de l'Ichkeul",
+  "name_ar": "متحف الحديقة الوطنية بإشكل",
+  "place_type": "museum",
+  "governorate": "Bizerte",
+  "lat": 37.13834,
+  "lon": 9.69268,
+  "iata": null,
+  "osm_id": "way/104161175"
+ },
+ {
+  "name": "Musée du patrimoine traditionnel de Djerba",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.87992,
+  "lon": 10.86243,
+  "iata": null,
+  "osm_id": "node/3416046215"
+ },
+ {
+  "name": "Musée el Kobba des arts et costumes traditionels",
+  "name_ar": "متحف القبة",
+  "place_type": "museum",
+  "governorate": "Sousse",
+  "lat": 35.825,
+  "lon": 10.63829,
+  "iata": null,
+  "osm_id": "node/5090298621"
+ },
+ {
+  "name": "Musée militaire de la ligne défensive de Mareth",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.59615,
+  "lon": 10.31144,
+  "iata": null,
+  "osm_id": "way/255198642"
+ },
+ {
+  "name": "Musée mémoire Zmerten",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Medenine",
+  "lat": 33.41941,
+  "lon": 10.12682,
+  "iata": null,
+  "osm_id": "node/11047496962"
+ },
+ {
+  "name": "Musée national d'Utica",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 37.05067,
+  "lon": 10.05693,
+  "iata": null,
+  "osm_id": "way/97779426"
+ },
+ {
+  "name": "Musée national d'Utique",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 37.05067,
+  "lon": 10.05694,
+  "iata": null,
+  "osm_id": "node/1131734857"
+ },
+ {
+  "name": "Musée national du Bardo",
+  "name_ar": "المتحف الوطني بباردو",
+  "place_type": "museum",
+  "governorate": "Manouba",
+  "lat": 36.80932,
+  "lon": 10.13425,
+  "iata": null,
+  "osm_id": "relation/2401476"
+ },
+ {
+  "name": "Musée océanographique",
+  "name_ar": "المتحف الأوقيانوغرافي",
+  "place_type": "museum",
+  "governorate": "Bizerte",
+  "lat": 37.27819,
+  "lon": 9.8767,
+  "iata": null,
+  "osm_id": "node/1761027112"
+ },
+ {
+  "name": "Musée océanographique « Dar El Hout » de Salammbô",
+  "name_ar": "المتحف الأقيانوسي «دار الحوت» بصلامبو",
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 36.84372,
+  "lon": 10.32629,
+  "iata": null,
+  "osm_id": "way/101011816"
+ },
+ {
+  "name": "Musée paléochrétien de Carthage",
+  "name_ar": "المتحف الكنيسة الأثرية بقرطاج",
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 36.85064,
+  "lon": 10.32815,
+  "iata": null,
+  "osm_id": "node/6343593152"
+ },
+ {
+  "name": "Musée régional de Mahdia",
+  "name_ar": "متحف المهدية",
+  "place_type": "museum",
+  "governorate": "Mahdia",
+  "lat": 35.50377,
+  "lon": 11.0688,
+  "iata": null,
+  "osm_id": "way/397958691"
+ },
+ {
+  "name": "Nabeul Museum",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Nabeul",
+  "lat": 36.45068,
+  "lon": 10.73624,
+  "iata": null,
+  "osm_id": "node/1859395402"
+ },
+ {
+  "name": "Oceanographic Museum",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Bizerte",
+  "lat": 37.27818,
+  "lon": 9.87674,
+  "iata": null,
+  "osm_id": "way/1295007021"
+ },
+ {
+  "name": "Palais Ksar Said",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Manouba",
+  "lat": 36.81141,
+  "lon": 10.1295,
+  "iata": null,
+  "osm_id": "way/103825459"
+ },
+ {
+  "name": "Palais Présidentiel de Bourguiba",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Monastir",
+  "lat": 35.77848,
+  "lon": 10.78411,
+  "iata": null,
+  "osm_id": "node/2306650078"
+ },
+ {
+  "name": "Palais des Sciences Monastir",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Monastir",
+  "lat": 35.77212,
+  "lon": 10.83244,
+  "iata": null,
+  "osm_id": "way/1308693349"
+ },
+ {
+  "name": "Rakada Palace Museum",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Kairouan",
+  "lat": 35.59349,
+  "lon": 10.05318,
+  "iata": null,
+  "osm_id": "node/2902045923"
+ },
+ {
+  "name": "Sidi Abid el-Ghariani Zaouia",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Kairouan",
+  "lat": 35.67527,
+  "lon": 10.10172,
+  "iata": null,
+  "osm_id": "node/322930940"
+ },
+ {
+  "name": "Sidi Abu Said",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 36.87053,
+  "lon": 10.35081,
+  "iata": null,
+  "osm_id": "node/6274661851"
+ },
+ {
+  "name": "Sousse Archaeological Museum",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Sousse",
+  "lat": 35.82314,
+  "lon": 10.63551,
+  "iata": null,
+  "osm_id": "way/95206060"
+ },
+ {
+  "name": "دار العنابي",
+  "name_ar": "دار العنابي",
+  "place_type": "museum",
+  "governorate": "Ariana",
+  "lat": 36.87095,
+  "lon": 10.3474,
+  "iata": null,
+  "osm_id": "node/6274661845"
+ },
+ {
+  "name": "متحف القصبة",
+  "name_ar": "متحف القصبة",
+  "place_type": "museum",
+  "governorate": "Sfax",
+  "lat": 34.7335,
+  "lon": 10.75881,
+  "iata": null,
+  "osm_id": "node/316133636"
+ },
+ {
+  "name": "متحف جبل السرج ecomuseum jbel al sarj",
+  "name_ar": null,
+  "place_type": "museum",
+  "governorate": "Siliana",
+  "lat": 35.94481,
+  "lon": 9.54688,
+  "iata": null,
+  "osm_id": "node/12509972698"
+ },
+ {
+  "name": "Adjim",
+  "name_ar": "أجيم",
+  "place_type": "port",
+  "governorate": "Medenine",
+  "lat": 33.71586,
+  "lon": 10.74174,
+  "iata": null,
+  "osm_id": "node/4185045079"
+ },
+ {
+  "name": "Bateau Pirate Hammamet",
+  "name_ar": null,
+  "place_type": "port",
+  "governorate": "Nabeul",
+  "lat": 36.37121,
+  "lon": 10.54691,
+  "iata": null,
+  "osm_id": "node/6312464546"
+ },
+ {
+  "name": "Bateau de voyageur",
+  "name_ar": "زورق المسافر",
+  "place_type": "port",
+  "governorate": "Sousse",
+  "lat": 35.82728,
+  "lon": 10.64345,
+  "iata": null,
+  "osm_id": "node/2107250596"
+ },
+ {
+  "name": "Djorf",
+  "name_ar": "الجرف",
+  "place_type": "port",
+  "governorate": "Medenine",
+  "lat": 33.69786,
+  "lon": 10.7356,
+  "iata": null,
+  "osm_id": "node/4185050560"
+ },
+ {
+  "name": "Ferry terminal passengers",
+  "name_ar": null,
+  "place_type": "port",
+  "governorate": "Ben Arous",
+  "lat": 36.80841,
+  "lon": 10.30484,
+  "iata": null,
+  "osm_id": "node/10216551187"
+ },
+ {
+  "name": "Gabès",
+  "name_ar": "قابس",
+  "place_type": "port",
+  "governorate": "Gabes",
+  "lat": 33.89546,
+  "lon": 10.11661,
+  "iata": null,
+  "osm_id": "node/8822123567"
+ },
+ {
+  "name": "Gare Maritime Sfax - Kerkennah Sonotrak",
+  "name_ar": "محطة بحرية صفاقس-قرقنة سونوتراك",
+  "place_type": "port",
+  "governorate": "Sfax",
+  "lat": 34.72727,
+  "lon": 10.76351,
+  "iata": null,
+  "osm_id": "way/265587792"
+ },
+ {
+  "name": "Houmt Souk",
+  "name_ar": "حومة السوق",
+  "place_type": "port",
+  "governorate": "Medenine",
+  "lat": 33.88804,
+  "lon": 10.85699,
+  "iata": null,
+  "osm_id": "node/2237144707"
+ },
+ {
+  "name": "Monastir",
+  "name_ar": null,
+  "place_type": "port",
+  "governorate": "Monastir",
+  "lat": 35.77884,
+  "lon": 10.83465,
+  "iata": null,
+  "osm_id": "node/10233294627"
+ },
+ {
+  "name": "Sfax",
+  "name_ar": "صفاقس",
+  "place_type": "port",
+  "governorate": "Sfax",
+  "lat": 34.72717,
+  "lon": 10.76404,
+  "iata": null,
+  "osm_id": "node/497424302"
+ },
+ {
+  "name": "Sidi Youssef",
+  "name_ar": "سيدي يوسف",
+  "place_type": "port",
+  "governorate": "Sfax",
+  "lat": 34.65591,
+  "lon": 10.9689,
+  "iata": null,
+  "osm_id": "node/2039196947"
+ },
+ {
+  "name": "Sortie en mer",
+  "name_ar": null,
+  "place_type": "port",
+  "governorate": "Sousse",
+  "lat": 35.82567,
+  "lon": 10.64209,
+  "iata": null,
+  "osm_id": "node/2125989297"
+ },
+ {
+  "name": "Tunis",
+  "name_ar": "تونس",
+  "place_type": "port",
+  "governorate": "Ben Arous",
+  "lat": 36.81,
+  "lon": 10.3005,
+  "iata": null,
+  "osm_id": "node/1367084928"
+ },
+ {
+  "name": "10 Decembre 1984",
+  "name_ar": "10 ديسمبر 1984",
+  "place_type": "train_station",
+  "governorate": "Ariana",
+  "lat": 36.84446,
+  "lon": 10.18455,
+  "iata": null,
+  "osm_id": "node/2537049183"
+ },
+ {
+  "name": "Aguila",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.37963,
+  "lon": 8.7684,
+  "iata": null,
+  "osm_id": "node/8231384459"
+ },
+ {
+  "name": "Ain Ghelal",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Bizerte",
+  "lat": 37.02342,
+  "lon": 9.83335,
+  "iata": null,
+  "osm_id": "node/5227818026"
+ },
+ {
+  "name": "Ain Rahma",
+  "name_ar": "عين الرحمة",
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.23007,
+  "lon": 10.42777,
+  "iata": null,
+  "osm_id": "node/5234854582"
+ },
+ {
+  "name": "Aouinet",
+  "name_ar": "العوينات",
+  "place_type": "train_station",
+  "governorate": "Gabes",
+  "lat": 33.98521,
+  "lon": 10.0038,
+  "iata": null,
+  "osm_id": "node/5234854564"
+ },
+ {
+  "name": "Arrêt du Dépôt Sousse",
+  "name_ar": "سوسة المخزن",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.79211,
+  "lon": 10.65385,
+  "iata": null,
+  "osm_id": "node/4024305577"
+ },
+ {
+  "name": "Arrêt du Stade",
+  "name_ar": "محطة الملعب",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.72361,
+  "lon": 10.34834,
+  "iata": null,
+  "osm_id": "node/5227817789"
+ },
+ {
+  "name": "Aéroport Monastir",
+  "name_ar": "مطار المنستير",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.76264,
+  "lon": 10.75454,
+  "iata": null,
+  "osm_id": "node/2003736239"
+ },
+ {
+  "name": "Aïn Mesria",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 35.91219,
+  "lon": 8.73936,
+  "iata": null,
+  "osm_id": "node/2020814293"
+ },
+ {
+  "name": "Baghdadi",
+  "name_ar": "بغدادي",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.56954,
+  "lon": 11.01839,
+  "iata": null,
+  "osm_id": "node/5227817921"
+ },
+ {
+  "name": "Bekalta",
+  "name_ar": "البقالطة",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.61506,
+  "lon": 10.98955,
+  "iata": null,
+  "osm_id": "node/5227817923"
+ },
+ {
+  "name": "Belli",
+  "name_ar": "بلي",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.56064,
+  "lon": 10.52499,
+  "iata": null,
+  "osm_id": "node/7831856330"
+ },
+ {
+  "name": "Ben Bechir",
+  "name_ar": "بن بشير",
+  "place_type": "train_station",
+  "governorate": "Jendouba",
+  "lat": 36.5677,
+  "lon": 8.85583,
+  "iata": null,
+  "osm_id": "node/8037521491"
+ },
+ {
+  "name": "Bir Bouregba",
+  "name_ar": "بئر بورقبة",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.43066,
+  "lon": 10.57391,
+  "iata": null,
+  "osm_id": "node/7831856332"
+ },
+ {
+  "name": "Bir El Bey",
+  "name_ar": "بئر الباي",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.71034,
+  "lon": 10.37849,
+  "iata": null,
+  "osm_id": "node/5227817776"
+ },
+ {
+  "name": "Bir Kassa",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.74057,
+  "lon": 10.22879,
+  "iata": null,
+  "osm_id": "node/8231384505"
+ },
+ {
+  "name": "Bir Mcherga",
+  "name_ar": "بئر مشارقة",
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.50631,
+  "lon": 10.02181,
+  "iata": null,
+  "osm_id": "node/8676317696"
+ },
+ {
+  "name": "Bizerte",
+  "name_ar": "بنزرت",
+  "place_type": "train_station",
+  "governorate": "Bizerte",
+  "lat": 37.26724,
+  "lon": 9.86827,
+  "iata": null,
+  "osm_id": "way/125567517"
+ },
+ {
+  "name": "Borj Arif",
+  "name_ar": "برج عريف",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.50616,
+  "lon": 11.03032,
+  "iata": null,
+  "osm_id": "node/5227817818"
+ },
+ {
+  "name": "Borj Cédria",
+  "name_ar": "برج السدرية",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.70371,
+  "lon": 10.39772,
+  "iata": null,
+  "osm_id": "way/190081395"
+ },
+ {
+  "name": "Borj Ettoumi",
+  "name_ar": "برج التومي",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.78765,
+  "lon": 9.76163,
+  "iata": null,
+  "osm_id": "node/7677959231"
+ },
+ {
+  "name": "Borj Toumi",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.75624,
+  "lon": 9.71987,
+  "iata": null,
+  "osm_id": "node/9306574624"
+ },
+ {
+  "name": "Bou Arada",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Siliana",
+  "lat": 36.35702,
+  "lon": 9.62601,
+  "iata": null,
+  "osm_id": "node/8231384494"
+ },
+ {
+  "name": "Bou Argoub",
+  "name_ar": "بوعرقوب",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.53123,
+  "lon": 10.55145,
+  "iata": null,
+  "osm_id": "node/7831856331"
+ },
+ {
+  "name": "Bou Ficha",
+  "name_ar": "بوفيشة",
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.30265,
+  "lon": 10.45114,
+  "iata": null,
+  "osm_id": "node/7831856333"
+ },
+ {
+  "name": "Bou Salem",
+  "name_ar": "بوسالم",
+  "place_type": "train_station",
+  "governorate": "Jendouba",
+  "lat": 36.61113,
+  "lon": 8.97219,
+  "iata": null,
+  "osm_id": "node/8037521490"
+ },
+ {
+  "name": "Bougabrine",
+  "name_ar": "بوقبرين",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.53739,
+  "lon": 10.6439,
+  "iata": null,
+  "osm_id": "node/7832503623"
+ },
+ {
+  "name": "Bougatfa-Sidi Hassine",
+  "name_ar": "بوقطفة-سيدي حسين",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.7801,
+  "lon": 10.10182,
+  "iata": null,
+  "osm_id": "node/10767239312"
+ },
+ {
+  "name": "Bouhjar",
+  "name_ar": "بوحجر",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.67224,
+  "lon": 10.86783,
+  "iata": null,
+  "osm_id": "node/5227817942"
+ },
+ {
+  "name": "Boukornine",
+  "name_ar": "بوقرنين",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.73486,
+  "lon": 10.32389,
+  "iata": null,
+  "osm_id": "node/7830836236"
+ },
+ {
+  "name": "Béja",
+  "name_ar": "باجة",
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 36.72496,
+  "lon": 9.19014,
+  "iata": null,
+  "osm_id": "node/8037521486"
+ },
+ {
+  "name": "Chaal",
+  "name_ar": "الشعال",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.51634,
+  "lon": 10.34225,
+  "iata": null,
+  "osm_id": "node/5227817758"
+ },
+ {
+  "name": "Chaouat",
+  "name_ar": "شواط",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.88959,
+  "lon": 9.94434,
+  "iata": null,
+  "osm_id": "node/9303551506"
+ },
+ {
+  "name": "Cheylus",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.55531,
+  "lon": 10.05994,
+  "iata": null,
+  "osm_id": "node/7678085027"
+ },
+ {
+  "name": "Cité Erraoudha",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Tunis",
+  "lat": 36.80626,
+  "lon": 10.13923,
+  "iata": null,
+  "osm_id": "node/8231372195"
+ },
+ {
+  "name": "Cité Erriadh",
+  "name_ar": "حي الرياض",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.83745,
+  "lon": 9.98488,
+  "iata": null,
+  "osm_id": "way/190359640"
+ },
+ {
+  "name": "Dahmani",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 35.94518,
+  "lon": 8.8287,
+  "iata": null,
+  "osm_id": "node/8231384482"
+ },
+ {
+  "name": "Degache",
+  "name_ar": "محطة دقاش",
+  "place_type": "train_station",
+  "governorate": "Tozeur",
+  "lat": 33.98679,
+  "lon": 8.21341,
+  "iata": null,
+  "osm_id": "node/2175374557"
+ },
+ {
+  "name": "Depienne",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.45721,
+  "lon": 10.02352,
+  "iata": null,
+  "osm_id": "node/8231384499"
+ },
+ {
+  "name": "Dokhane",
+  "name_ar": "دخان",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.99069,
+  "lon": 10.76085,
+  "iata": null,
+  "osm_id": "node/5227817740"
+ },
+ {
+  "name": "Dépôt Farhat Hached",
+  "name_ar": "مخزن فرحات حشاد",
+  "place_type": "train_station",
+  "governorate": "Tunis",
+  "lat": 36.78394,
+  "lon": 10.19215,
+  "iata": null,
+  "osm_id": "node/5227817809"
+ },
+ {
+  "name": "Echraf",
+  "name_ar": "الشرف",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.597,
+  "lon": 11.00909,
+  "iata": null,
+  "osm_id": "node/5227817922"
+ },
+ {
+  "name": "El Aroussa",
+  "name_ar": "العروسة",
+  "place_type": "train_station",
+  "governorate": "Siliana",
+  "lat": 36.38112,
+  "lon": 9.45449,
+  "iata": null,
+  "osm_id": "node/8589212730"
+ },
+ {
+  "name": "El Bortal",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.81204,
+  "lon": 10.11597,
+  "iata": null,
+  "osm_id": "way/1223243261"
+ },
+ {
+  "name": "El Fejij",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gabes",
+  "lat": 34.06544,
+  "lon": 9.73654,
+  "iata": null,
+  "osm_id": "node/3732837772"
+ },
+ {
+  "name": "El Guetar",
+  "name_ar": "القطار",
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.33031,
+  "lon": 8.94884,
+  "iata": null,
+  "osm_id": "node/7833812111"
+ },
+ {
+  "name": "El Hamada",
+  "name_ar": "الحمادة",
+  "place_type": "train_station",
+  "governorate": "Gabes",
+  "lat": 34.37864,
+  "lon": 10.11727,
+  "iata": null,
+  "osm_id": "node/7833555212"
+ },
+ {
+  "name": "El Harrech",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 37.05957,
+  "lon": 9.22057,
+  "iata": null,
+  "osm_id": "node/5227817990"
+ },
+ {
+  "name": "El Hencha",
+  "name_ar": "الحنشة",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 35.1373,
+  "lon": 10.72847,
+  "iata": null,
+  "osm_id": "node/7833063361"
+ },
+ {
+  "name": "El Hraïria",
+  "name_ar": "الحرايرية",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.78379,
+  "lon": 10.11548,
+  "iata": null,
+  "osm_id": "node/10767225191"
+ },
+ {
+  "name": "El Jem",
+  "name_ar": "الجم",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.29257,
+  "lon": 10.70957,
+  "iata": null,
+  "osm_id": "node/7833063360"
+ },
+ {
+  "name": "Enfidha",
+  "name_ar": "النفيضة",
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.13075,
+  "lon": 10.38364,
+  "iata": null,
+  "osm_id": "node/7831856338"
+ },
+ {
+  "name": "Ennajah",
+  "name_ar": "النجاح",
+  "place_type": "train_station",
+  "governorate": "Tunis",
+  "lat": 36.79321,
+  "lon": 10.15473,
+  "iata": null,
+  "osm_id": "node/10767225171"
+ },
+ {
+  "name": "Erraoudha",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Tunis",
+  "lat": 36.80188,
+  "lon": 10.14784,
+  "iata": null,
+  "osm_id": "way/976763475"
+ },
+ {
+  "name": "Erriadh",
+  "name_ar": "الرياض",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.69954,
+  "lon": 10.4148,
+  "iata": null,
+  "osm_id": "node/5227817780"
+ },
+ {
+  "name": "Ettayaran-Ezzouhour 1",
+  "name_ar": "الطيران-الزهور 1",
+  "place_type": "train_station",
+  "governorate": "Tunis",
+  "lat": 36.79211,
+  "lon": 10.13892,
+  "iata": null,
+  "osm_id": "node/10767225183"
+ },
+ {
+  "name": "Ezzahra",
+  "name_ar": "الزهراء المهدية",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.50002,
+  "lon": 11.04825,
+  "iata": null,
+  "osm_id": "node/5227817817"
+ },
+ {
+  "name": "Ezzouhour 2",
+  "name_ar": "الزهور 2",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.7877,
+  "lon": 10.12771,
+  "iata": null,
+  "osm_id": "node/10761009587"
+ },
+ {
+  "name": "Faculté 1",
+  "name_ar": "المنستير الكلية",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.75939,
+  "lon": 10.80703,
+  "iata": null,
+  "osm_id": "node/5227817978"
+ },
+ {
+  "name": "Faculté 2",
+  "name_ar": "المنستير الكلية 2",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.7608,
+  "lon": 10.80917,
+  "iata": null,
+  "osm_id": "node/5227817957"
+ },
+ {
+  "name": "Fej Etameur",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 35.87829,
+  "lon": 8.7083,
+  "iata": null,
+  "osm_id": "node/4547030230"
+ },
+ {
+  "name": "Fondouk Jedid",
+  "name_ar": "فندق الجديد",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.66895,
+  "lon": 10.44671,
+  "iata": null,
+  "osm_id": "node/7831546092"
+ },
+ {
+  "name": "Founi",
+  "name_ar": "الفوني",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.51607,
+  "lon": 10.04308,
+  "iata": null,
+  "osm_id": "node/7833555211"
+ },
+ {
+  "name": "Foussana",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kasserine",
+  "lat": 35.34927,
+  "lon": 8.62501,
+  "iata": null,
+  "osm_id": "node/8231384476"
+ },
+ {
+  "name": "Frina",
+  "name_ar": "الفرينة",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.73063,
+  "lon": 10.81267,
+  "iata": null,
+  "osm_id": "node/5227817945"
+ },
+ {
+  "name": "Fériana",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kasserine",
+  "lat": 34.94888,
+  "lon": 8.56918,
+  "iata": null,
+  "osm_id": "node/2171994504"
+ },
+ {
+  "name": "Gabès",
+  "name_ar": "قابس",
+  "place_type": "train_station",
+  "governorate": "Gabes",
+  "lat": 33.88418,
+  "lon": 10.09916,
+  "iata": null,
+  "osm_id": "node/7833555215"
+ },
+ {
+  "name": "Gafsa",
+  "name_ar": "قفصة",
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.39461,
+  "lon": 8.80393,
+  "iata": null,
+  "osm_id": "node/8231384530"
+ },
+ {
+  "name": "Gare d'El Jem",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.29277,
+  "lon": 10.70961,
+  "iata": null,
+  "osm_id": "way/189773170"
+ },
+ {
+  "name": "Gare de Tunis",
+  "name_ar": "محطة تونس",
+  "place_type": "train_station",
+  "governorate": "Tunis",
+  "lat": 36.79525,
+  "lon": 10.18058,
+  "iata": null,
+  "osm_id": "way/29993446"
+ },
+ {
+  "name": "Gargour",
+  "name_ar": "قرقور",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.56314,
+  "lon": 10.56287,
+  "iata": null,
+  "osm_id": "node/5227817762"
+ },
+ {
+  "name": "Gaâfour",
+  "name_ar": "قعفور",
+  "place_type": "train_station",
+  "governorate": "Siliana",
+  "lat": 36.32244,
+  "lon": 9.3262,
+  "iata": null,
+  "osm_id": "node/2015479914"
+ },
+ {
+  "name": "Ghannouch",
+  "name_ar": "غنوش",
+  "place_type": "train_station",
+  "governorate": "Gabes",
+  "lat": 33.92142,
+  "lon": 10.07693,
+  "iata": null,
+  "osm_id": "node/7833555214"
+ },
+ {
+  "name": "Ghardimaou",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Jendouba",
+  "lat": 36.44777,
+  "lon": 8.4372,
+  "iata": null,
+  "osm_id": "node/8231372199"
+ },
+ {
+  "name": "Ghraiba",
+  "name_ar": "الغريبة",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.49969,
+  "lon": 10.21377,
+  "iata": null,
+  "osm_id": "node/7833555210"
+ },
+ {
+  "name": "Gobaâ",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.82018,
+  "lon": 10.0749,
+  "iata": null,
+  "osm_id": "way/976766729"
+ },
+ {
+  "name": "Gouraia",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 35.86334,
+  "lon": 8.68471,
+  "iata": null,
+  "osm_id": "node/5227817803"
+ },
+ {
+  "name": "Gouraïa",
+  "name_ar": "قوراية",
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 35.8188,
+  "lon": 8.66494,
+  "iata": null,
+  "osm_id": "node/4555578199"
+ },
+ {
+  "name": "Grombalia",
+  "name_ar": "قرمبالية",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.59608,
+  "lon": 10.49792,
+  "iata": null,
+  "osm_id": "node/7831856312"
+ },
+ {
+  "name": "Hached",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Bizerte",
+  "lat": 37.06465,
+  "lon": 9.6021,
+  "iata": null,
+  "osm_id": "node/5227817976"
+ },
+ {
+  "name": "Haidra",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kasserine",
+  "lat": 35.56602,
+  "lon": 8.44824,
+  "iata": null,
+  "osm_id": "node/8231384477"
+ },
+ {
+  "name": "Hammam Chatt",
+  "name_ar": "حمام الشط",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.71367,
+  "lon": 10.36937,
+  "iata": null,
+  "osm_id": "node/5227817787"
+ },
+ {
+  "name": "Hammam Lif",
+  "name_ar": "حمام الأنف",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.72938,
+  "lon": 10.33455,
+  "iata": null,
+  "osm_id": "node/7830836244"
+ },
+ {
+  "name": "Hammamet",
+  "name_ar": "الحمامات",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.40743,
+  "lon": 10.61278,
+  "iata": null,
+  "osm_id": "node/8266107633"
+ },
+ {
+  "name": "Henchir Souatir",
+  "name_ar": "هنشير السويطير",
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.53337,
+  "lon": 8.37222,
+  "iata": null,
+  "osm_id": "node/4799670639"
+ },
+ {
+  "name": "Jalta",
+  "name_ar": "جالطة",
+  "place_type": "train_station",
+  "governorate": "Bizerte",
+  "lat": 37.07391,
+  "lon": 9.53475,
+  "iata": null,
+  "osm_id": "node/5227817987"
+ },
+ {
+  "name": "Jebel Jelloud",
+  "name_ar": "جبل الجلود",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.77237,
+  "lon": 10.20823,
+  "iata": null,
+  "osm_id": "way/823002727"
+ },
+ {
+  "name": "Jedeida",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.85086,
+  "lon": 9.9332,
+  "iata": null,
+  "osm_id": "node/8231372188"
+ },
+ {
+  "name": "Jefna",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 37.04255,
+  "lon": 9.44162,
+  "iata": null,
+  "osm_id": "node/5234855802"
+ },
+ {
+  "name": "Jelida",
+  "name_ar": "الجليدة",
+  "place_type": "train_station",
+  "governorate": "Siliana",
+  "lat": 36.37166,
+  "lon": 9.55646,
+  "iata": null,
+  "osm_id": "node/2014980265"
+ },
+ {
+  "name": "Jelma",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Sidi Bouzid",
+  "lat": 35.27358,
+  "lon": 9.42075,
+  "iata": null,
+  "osm_id": "node/9037886323"
+ },
+ {
+  "name": "Jemmel",
+  "name_ar": "جمّال",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.62849,
+  "lon": 10.75776,
+  "iata": null,
+  "osm_id": "node/1363688128"
+ },
+ {
+  "name": "Jendouba",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Jendouba",
+  "lat": 36.50106,
+  "lon": 8.77712,
+  "iata": null,
+  "osm_id": "node/8231372201"
+ },
+ {
+  "name": "Jerissa PV",
+  "name_ar": "محطة الجريصة",
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 35.85019,
+  "lon": 8.652,
+  "iata": null,
+  "osm_id": "node/8231384447"
+ },
+ {
+  "name": "Kalaa Kebira",
+  "name_ar": "القلعة الكبرى",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.86805,
+  "lon": 10.55306,
+  "iata": null,
+  "osm_id": "node/7830774022"
+ },
+ {
+  "name": "Kalaa Khasba",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 35.66031,
+  "lon": 8.59101,
+  "iata": null,
+  "osm_id": "node/8231384478"
+ },
+ {
+  "name": "Kalaa Seghira",
+  "name_ar": "القلعة الصغرى",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.82198,
+  "lon": 10.57146,
+  "iata": null,
+  "osm_id": "node/7830667498"
+ },
+ {
+  "name": "Kasserine",
+  "name_ar": "القصرين",
+  "place_type": "train_station",
+  "governorate": "Kasserine",
+  "lat": 35.16728,
+  "lon": 8.83479,
+  "iata": null,
+  "osm_id": "node/7938334075"
+ },
+ {
+  "name": "Kerker",
+  "name_ar": "كركر",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.46842,
+  "lon": 10.65962,
+  "iata": null,
+  "osm_id": "node/7832846864"
+ },
+ {
+  "name": "Khanguet",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.62518,
+  "lon": 10.46114,
+  "iata": null,
+  "osm_id": "node/7831546097"
+ },
+ {
+  "name": "Khenis - Bembla",
+  "name_ar": "خنيس - بنبلة",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.70894,
+  "lon": 10.81252,
+  "iata": null,
+  "osm_id": "node/5227817944"
+ },
+ {
+  "name": "Khledia",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.64629,
+  "lon": 10.19457,
+  "iata": null,
+  "osm_id": "node/2014339853"
+ },
+ {
+  "name": "Ksar Hellal",
+  "name_ar": "قصر هلال",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.64491,
+  "lon": 10.90102,
+  "iata": null,
+  "osm_id": "node/1359492705"
+ },
+ {
+  "name": "Ksar Hellal Zone Industrielle",
+  "name_ar": "قصر هلال المنطقة الصناعية",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.65174,
+  "lon": 10.89866,
+  "iata": null,
+  "osm_id": "node/1359426402"
+ },
+ {
+  "name": "Ksar Mezouar",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 36.91532,
+  "lon": 9.45812,
+  "iata": null,
+  "osm_id": "node/5227817814"
+ },
+ {
+  "name": "Ksibet El Mediouni / Bennane",
+  "name_ar": "قصيبة المديوني - بنان",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.67992,
+  "lon": 10.84268,
+  "iata": null,
+  "osm_id": "node/2003739332"
+ },
+ {
+  "name": "La Pêcherie",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Bizerte",
+  "lat": 37.2544,
+  "lon": 9.8399,
+  "iata": null,
+  "osm_id": "node/9306396343"
+ },
+ {
+  "name": "Lakhwat",
+  "name_ar": "الخوات",
+  "place_type": "train_station",
+  "governorate": "Siliana",
+  "lat": 36.25505,
+  "lon": 9.25486,
+  "iata": null,
+  "osm_id": "node/7882921283"
+ },
+ {
+  "name": "Lamta",
+  "name_ar": "لمطة",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.67016,
+  "lon": 10.88251,
+  "iata": null,
+  "osm_id": "node/1359492749"
+ },
+ {
+  "name": "Le Bardo",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.8074,
+  "lon": 10.13544,
+  "iata": null,
+  "osm_id": "way/1223437762"
+ },
+ {
+  "name": "Le Kef",
+  "name_ar": "الكاف",
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 36.16677,
+  "lon": 8.70368,
+  "iata": null,
+  "osm_id": "node/8231384507"
+ },
+ {
+  "name": "Le Krib",
+  "name_ar": "الكريب",
+  "place_type": "train_station",
+  "governorate": "Siliana",
+  "lat": 36.25417,
+  "lon": 9.18615,
+  "iata": null,
+  "osm_id": "node/7867580426"
+ },
+ {
+  "name": "Le Sers",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 36.07598,
+  "lon": 9.02323,
+  "iata": null,
+  "osm_id": "node/8231384485"
+ },
+ {
+  "name": "Les Hôtels Monastir",
+  "name_ar": "نزل المنستير",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.7601,
+  "lon": 10.74487,
+  "iata": null,
+  "osm_id": "node/2003736241"
+ },
+ {
+  "name": "Les Orangers",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.81857,
+  "lon": 10.08588,
+  "iata": null,
+  "osm_id": "way/976766730"
+ },
+ {
+  "name": "Les Salines",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 36.07843,
+  "lon": 8.96582,
+  "iata": null,
+  "osm_id": "node/8231384509"
+ },
+ {
+  "name": "Lycée Ezzahra",
+  "name_ar": "معهد الزهراء",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.73915,
+  "lon": 10.31792,
+  "iata": null,
+  "osm_id": "node/5227817812"
+ },
+ {
+  "name": "Lycée Technique Radès",
+  "name_ar": "معهد رادس",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.76679,
+  "lon": 10.26088,
+  "iata": null,
+  "osm_id": "node/5227817795"
+ },
+ {
+  "name": "Magel Bel Abbès",
+  "name_ar": "ماجل بلعباس",
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.74994,
+  "lon": 8.51956,
+  "iata": null,
+  "osm_id": "node/2175103410"
+ },
+ {
+  "name": "Magroun",
+  "name_ar": "مقرون",
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.33308,
+  "lon": 8.3949,
+  "iata": null,
+  "osm_id": "node/694068569"
+ },
+ {
+  "name": "Mahdia",
+  "name_ar": "المهدية",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.50071,
+  "lon": 11.06422,
+  "iata": null,
+  "osm_id": "node/7829479390"
+ },
+ {
+  "name": "Mahdia Zone Touristique",
+  "name_ar": "المهدية المنطقة السياحية",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.53686,
+  "lon": 11.02743,
+  "iata": null,
+  "osm_id": "node/5227817820"
+ },
+ {
+  "name": "Mahrès",
+  "name_ar": "المحرس",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.52631,
+  "lon": 10.49875,
+  "iata": null,
+  "osm_id": "node/7833555209"
+ },
+ {
+  "name": "Mannouba",
+  "name_ar": "منوبة",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.81593,
+  "lon": 10.10105,
+  "iata": null,
+  "osm_id": "way/1223243264"
+ },
+ {
+  "name": "Mastouta",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 36.66163,
+  "lon": 9.20901,
+  "iata": null,
+  "osm_id": "node/5227817997"
+ },
+ {
+  "name": "Mateur",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Bizerte",
+  "lat": 37.03811,
+  "lon": 9.68442,
+  "iata": null,
+  "osm_id": "node/8231384517"
+ },
+ {
+  "name": "Mdhilla",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.29205,
+  "lon": 8.72518,
+  "iata": null,
+  "osm_id": "node/9024876442"
+ },
+ {
+  "name": "Megdoudech",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kasserine",
+  "lat": 35.08241,
+  "lon": 8.72481,
+  "iata": null,
+  "osm_id": "node/5227817973"
+ },
+ {
+  "name": "Megrine",
+  "name_ar": "مقرين",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.76831,
+  "lon": 10.23387,
+  "iata": null,
+  "osm_id": "way/1225423895"
+ },
+ {
+  "name": "Megrine Riadh",
+  "name_ar": "مقرين الرياض",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.77032,
+  "lon": 10.22314,
+  "iata": null,
+  "osm_id": "node/5227817808"
+ },
+ {
+  "name": "Mejez El Bab",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 36.66573,
+  "lon": 9.60651,
+  "iata": null,
+  "osm_id": "node/8231372208"
+ },
+ {
+  "name": "Meknassy",
+  "name_ar": "المكناسي",
+  "place_type": "train_station",
+  "governorate": "Sidi Bouzid",
+  "lat": 34.60633,
+  "lon": 9.60559,
+  "iata": null,
+  "osm_id": "node/7833812091"
+ },
+ {
+  "name": "Mellassine",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Tunis",
+  "lat": 36.79655,
+  "lon": 10.15589,
+  "iata": null,
+  "osm_id": "way/976768239"
+ },
+ {
+  "name": "Menzel Bourguiba",
+  "name_ar": "محطة منزل بورقيبة",
+  "place_type": "train_station",
+  "governorate": "Bizerte",
+  "lat": 37.15138,
+  "lon": 9.79362,
+  "iata": null,
+  "osm_id": "node/8678682450"
+ },
+ {
+  "name": "Menzel Bouzaiane",
+  "name_ar": "منزل بوزيان",
+  "place_type": "train_station",
+  "governorate": "Sidi Bouzid",
+  "lat": 34.57577,
+  "lon": 9.45802,
+  "iata": null,
+  "osm_id": "node/5227817932"
+ },
+ {
+  "name": "Menzel Bouzaiene",
+  "name_ar": "منزل بوزيان",
+  "place_type": "train_station",
+  "governorate": "Sidi Bouzid",
+  "lat": 34.5738,
+  "lon": 9.41998,
+  "iata": null,
+  "osm_id": "node/7833812092"
+ },
+ {
+  "name": "Menzel Gare",
+  "name_ar": "منزل المحطة",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 36.01028,
+  "lon": 10.37788,
+  "iata": null,
+  "osm_id": "node/7831856339"
+ },
+ {
+  "name": "Messadine",
+  "name_ar": "المسعدين",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.75486,
+  "lon": 10.59098,
+  "iata": null,
+  "osm_id": "node/5227817813"
+ },
+ {
+  "name": "Metlaoui",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.31578,
+  "lon": 8.41643,
+  "iata": null,
+  "osm_id": "node/8231384524"
+ },
+ {
+  "name": "Mettarcheni",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Bizerte",
+  "lat": 37.00123,
+  "lon": 9.60088,
+  "iata": null,
+  "osm_id": "node/5227817816"
+ },
+ {
+  "name": "Mezzouna",
+  "name_ar": "المزونة",
+  "place_type": "train_station",
+  "governorate": "Sidi Bouzid",
+  "lat": 34.57416,
+  "lon": 9.84227,
+  "iata": null,
+  "osm_id": "node/7833812090"
+ },
+ {
+  "name": "Mg N1",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.27052,
+  "lon": 9.0496,
+  "iata": null,
+  "osm_id": "node/7833812112"
+ },
+ {
+  "name": "Moknine",
+  "name_ar": "المكنين",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.63124,
+  "lon": 10.91572,
+  "iata": null,
+  "osm_id": "node/2003737884"
+ },
+ {
+  "name": "Moknine Gribaa",
+  "name_ar": "مكنين قريبع",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.63791,
+  "lon": 10.90699,
+  "iata": null,
+  "osm_id": "node/1359426422"
+ },
+ {
+  "name": "Moknine Zone Industrielle",
+  "name_ar": "المكنين المنطقة الصناعية",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.63079,
+  "lon": 10.93152,
+  "iata": null,
+  "osm_id": "node/14076288599"
+ },
+ {
+  "name": "Monastir",
+  "name_ar": "المنستير",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.77085,
+  "lon": 10.82611,
+  "iata": null,
+  "osm_id": "node/7829749519"
+ },
+ {
+  "name": "Monastir Zone Industrielle",
+  "name_ar": "المنستير المنطقة الصناعية",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.7397,
+  "lon": 10.82034,
+  "iata": null,
+  "osm_id": "node/5234855760"
+ },
+ {
+  "name": "Mrezka",
+  "name_ar": "المرازقة",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.42817,
+  "lon": 10.6811,
+  "iata": null,
+  "osm_id": "node/3732837776"
+ },
+ {
+  "name": "Msaken",
+  "name_ar": "مساكن",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.72895,
+  "lon": 10.59995,
+  "iata": null,
+  "osm_id": "node/7830239214"
+ },
+ {
+  "name": "Nabeul",
+  "name_ar": "نابل",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.45089,
+  "lon": 10.73501,
+  "iata": null,
+  "osm_id": "node/8266107634"
+ },
+ {
+  "name": "Nabeul Marchandise",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.43214,
+  "lon": 10.69396,
+  "iata": null,
+  "osm_id": "node/5234855950"
+ },
+ {
+  "name": "Nassen",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.7031,
+  "lon": 10.2327,
+  "iata": null,
+  "osm_id": "node/8231384504"
+ },
+ {
+  "name": "Om El Arais",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.48706,
+  "lon": 8.27736,
+  "iata": null,
+  "osm_id": "node/8231384522"
+ },
+ {
+  "name": "Omar Khayem",
+  "name_ar": "عمر الخيام",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.42324,
+  "lon": 10.66746,
+  "iata": null,
+  "osm_id": "node/5227817751"
+ },
+ {
+  "name": "Oudna",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.62537,
+  "lon": 10.15101,
+  "iata": null,
+  "osm_id": "node/2014339686"
+ },
+ {
+  "name": "Oued El Ksab (23/24)",
+  "name_ar": "وادي القصب",
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.45055,
+  "lon": 8.95678,
+  "iata": null,
+  "osm_id": "node/5227817935"
+ },
+ {
+  "name": "Oued Ellil",
+  "name_ar": "وادي الليل",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.8363,
+  "lon": 10.00821,
+  "iata": null,
+  "osm_id": "way/190359644"
+ },
+ {
+  "name": "Oued Meliz",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Jendouba",
+  "lat": 36.46949,
+  "lon": 8.55017,
+  "iata": null,
+  "osm_id": "node/8231372200"
+ },
+ {
+  "name": "Oued Tessa",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 36.06737,
+  "lon": 8.93617,
+  "iata": null,
+  "osm_id": "node/5227817728"
+ },
+ {
+  "name": "Oued Zarga",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 36.67325,
+  "lon": 9.42665,
+  "iata": null,
+  "osm_id": "node/8231372189"
+ },
+ {
+  "name": "Parc Friguia",
+  "name_ar": "منتزه فريقيا",
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.2039,
+  "lon": 10.41947,
+  "iata": null,
+  "osm_id": "node/5234855725"
+ },
+ {
+  "name": "Pont du Fahs",
+  "name_ar": "الفحص",
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.37651,
+  "lon": 9.90217,
+  "iata": null,
+  "osm_id": "node/8213917790"
+ },
+ {
+  "name": "Radès",
+  "name_ar": "رادس",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.76859,
+  "lon": 10.27048,
+  "iata": null,
+  "osm_id": "node/1195329123"
+ },
+ {
+  "name": "Radès Méliane",
+  "name_ar": "رادس مليان",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.76313,
+  "lon": 10.28417,
+  "iata": null,
+  "osm_id": "node/5227817793"
+ },
+ {
+  "name": "Redeyef",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Tozeur",
+  "lat": 34.3882,
+  "lon": 8.1529,
+  "iata": null,
+  "osm_id": "node/8231384455"
+ },
+ {
+  "name": "Sahline Sebkha",
+  "name_ar": "الساحلين سبخة",
+  "place_type": "train_station",
+  "governorate": "Monastir",
+  "lat": 35.75746,
+  "lon": 10.71716,
+  "iata": null,
+  "osm_id": "node/2003736244"
+ },
+ {
+  "name": "Sahline Ville",
+  "name_ar": "الساحلين",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.75914,
+  "lon": 10.70312,
+  "iata": null,
+  "osm_id": "node/2003736247"
+ },
+ {
+  "name": "Sakiet Ezzit",
+  "name_ar": "ساقية الزيت",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.80118,
+  "lon": 10.76131,
+  "iata": null,
+  "osm_id": "node/7833063364"
+ },
+ {
+  "name": "Saïda Mannoubia",
+  "name_ar": "السيدة المنوبية",
+  "place_type": "train_station",
+  "governorate": "Tunis",
+  "lat": 36.78706,
+  "lon": 10.16562,
+  "iata": null,
+  "osm_id": "way/732867335"
+ },
+ {
+  "name": "Sbeïtla",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kasserine",
+  "lat": 35.22766,
+  "lon": 9.1281,
+  "iata": null,
+  "osm_id": "node/5234854612"
+ },
+ {
+  "name": "Segui",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.17551,
+  "lon": 9.37652,
+  "iata": null,
+  "osm_id": "node/5227817954"
+ },
+ {
+  "name": "Sehib",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.23703,
+  "lon": 8.64671,
+  "iata": null,
+  "osm_id": "node/8231384457"
+ },
+ {
+  "name": "Sejnane",
+  "name_ar": "سجنان",
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 37.05628,
+  "lon": 9.23749,
+  "iata": null,
+  "osm_id": "node/8035791872"
+ },
+ {
+  "name": "Selja",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.38513,
+  "lon": 8.34007,
+  "iata": null,
+  "osm_id": "node/8643227482"
+ },
+ {
+  "name": "Sened",
+  "name_ar": "السند",
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.53778,
+  "lon": 9.25413,
+  "iata": null,
+  "osm_id": "node/7833812093"
+ },
+ {
+  "name": "Sfax",
+  "name_ar": "صفاقس",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.73512,
+  "lon": 10.76712,
+  "iata": null,
+  "osm_id": "node/8231384585"
+ },
+ {
+  "name": "Sidi Abid",
+  "name_ar": "سيدي عبيد",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.69549,
+  "lon": 10.70227,
+  "iata": null,
+  "osm_id": "node/5227817764"
+ },
+ {
+  "name": "Sidi Ayed",
+  "name_ar": "سيدي عياد",
+  "place_type": "train_station",
+  "governorate": "Siliana",
+  "lat": 36.3512,
+  "lon": 9.39088,
+  "iata": null,
+  "osm_id": "node/7867290326"
+ },
+ {
+  "name": "Sidi Bou Ali",
+  "name_ar": "سيدي بوعلي",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.95278,
+  "lon": 10.45167,
+  "iata": null,
+  "osm_id": "node/7830774024"
+ },
+ {
+  "name": "Sidi Bou Rouis",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Siliana",
+  "lat": 36.17547,
+  "lon": 9.12526,
+  "iata": null,
+  "osm_id": "node/8231384487"
+ },
+ {
+  "name": "Sidi Boubaker",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.66752,
+  "lon": 8.46191,
+  "iata": null,
+  "osm_id": "node/9287672072"
+ },
+ {
+  "name": "Sidi M'Himech",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 36.78237,
+  "lon": 9.27964,
+  "iata": null,
+  "osm_id": "node/5234855798"
+ },
+ {
+  "name": "Sidi Masaoud",
+  "name_ar": "سيدي مسعود",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.52113,
+  "lon": 11.02734,
+  "iata": null,
+  "osm_id": "node/5227817819"
+ },
+ {
+  "name": "Sidi Mtir",
+  "name_ar": "سيدي مطير",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.35861,
+  "lon": 10.47918,
+  "iata": null,
+  "osm_id": "node/5234854584"
+ },
+ {
+  "name": "Sidi Nsir",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 36.96161,
+  "lon": 9.52443,
+  "iata": null,
+  "osm_id": "node/5227817815"
+ },
+ {
+  "name": "Sidi Othman",
+  "name_ar": "سيدي عثمان",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.9602,
+  "lon": 9.92458,
+  "iata": null,
+  "osm_id": "node/8027925515"
+ },
+ {
+  "name": "Sidi Rezig",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.76733,
+  "lon": 10.24455,
+  "iata": null,
+  "osm_id": "node/8231384555"
+ },
+ {
+  "name": "Sidi Salah",
+  "name_ar": "سيدي صالح",
+  "place_type": "train_station",
+  "governorate": "Sfax",
+  "lat": 34.85841,
+  "lon": 10.76737,
+  "iata": null,
+  "osm_id": "node/5234854553"
+ },
+ {
+  "name": "Sidi Smail",
+  "name_ar": "سيدي إسماعيل",
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 36.59566,
+  "lon": 9.1129,
+  "iata": null,
+  "osm_id": "node/8037521489"
+ },
+ {
+  "name": "Skhira",
+  "name_ar": "الصخيرة",
+  "place_type": "train_station",
+  "governorate": "Gabes",
+  "lat": 34.30034,
+  "lon": 10.06902,
+  "iata": null,
+  "osm_id": "node/7833555213"
+ },
+ {
+  "name": "Sousse",
+  "name_ar": "سوسة",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.83054,
+  "lon": 10.63814,
+  "iata": null,
+  "osm_id": "node/7829854811"
+ },
+ {
+  "name": "Sousse Bab Djedid",
+  "name_ar": "سوسة باب الجديد",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.82291,
+  "lon": 10.6415,
+  "iata": null,
+  "osm_id": "node/558822525"
+ },
+ {
+  "name": "Sousse Marchandise",
+  "name_ar": "سوسة بضائع",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.77789,
+  "lon": 10.57725,
+  "iata": null,
+  "osm_id": "node/5227817810"
+ },
+ {
+  "name": "Sousse Mohamed V",
+  "name_ar": "سوسة محمد الخامس",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.81628,
+  "lon": 10.64335,
+  "iata": null,
+  "osm_id": "node/2003736242"
+ },
+ {
+  "name": "Sousse Sud",
+  "name_ar": "سوسة الجنوبية",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.80019,
+  "lon": 10.64991,
+  "iata": null,
+  "osm_id": "node/7829854810"
+ },
+ {
+  "name": "Sousse Zone Industrielle Sidi Abdelhamid",
+  "name_ar": "سوسة المنطقة الصناعية سيدي عبد الحميد",
+  "place_type": "train_station",
+  "governorate": "Sousse",
+  "lat": 35.7821,
+  "lon": 10.6686,
+  "iata": null,
+  "osm_id": "node/2003736249"
+ },
+ {
+  "name": "Station Abandonné",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Sidi Bouzid",
+  "lat": 34.6309,
+  "lon": 9.74914,
+  "iata": null,
+  "osm_id": "node/5227817930"
+ },
+ {
+  "name": "Tabeddit",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.43648,
+  "lon": 8.25931,
+  "iata": null,
+  "osm_id": "node/8231384456"
+ },
+ {
+  "name": "Tahar Sfar",
+  "name_ar": "الطاهر صفر",
+  "place_type": "train_station",
+  "governorate": "Ben Arous",
+  "lat": 36.71765,
+  "lon": 10.35961,
+  "iata": null,
+  "osm_id": "node/5227817788"
+ },
+ {
+  "name": "Tajerouine",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 35.85186,
+  "lon": 8.54456,
+  "iata": null,
+  "osm_id": "node/8231384446"
+ },
+ {
+  "name": "Tamra",
+  "name_ar": "تمرة",
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 37.05528,
+  "lon": 9.11964,
+  "iata": null,
+  "osm_id": "node/5227817991"
+ },
+ {
+  "name": "Tarf Echena",
+  "name_ar": "طرف الشانة",
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.35527,
+  "lon": 9.71822,
+  "iata": null,
+  "osm_id": "node/5227818016"
+ },
+ {
+  "name": "Teboulba",
+  "name_ar": "طبلبة",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.63785,
+  "lon": 10.96123,
+  "iata": null,
+  "osm_id": "node/5234855738"
+ },
+ {
+  "name": "Teboulba Zone Industrielle",
+  "name_ar": "طبلبة المنطقة الصناعية",
+  "place_type": "train_station",
+  "governorate": "Mahdia",
+  "lat": 35.63365,
+  "lon": 10.9435,
+  "iata": null,
+  "osm_id": "node/1359426414"
+ },
+ {
+  "name": "Tebourba",
+  "name_ar": "طبربة",
+  "place_type": "train_station",
+  "governorate": "Manouba",
+  "lat": 36.82916,
+  "lon": 9.84437,
+  "iata": null,
+  "osm_id": "node/8231372191"
+ },
+ {
+  "name": "Thelepte",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kasserine",
+  "lat": 34.9755,
+  "lon": 8.59526,
+  "iata": null,
+  "osm_id": "node/8231384519"
+ },
+ {
+  "name": "Thibica",
+  "name_ar": "ثبيقة",
+  "place_type": "train_station",
+  "governorate": "Zaghouan",
+  "lat": 36.35598,
+  "lon": 9.8093,
+  "iata": null,
+  "osm_id": "node/5234855929"
+ },
+ {
+  "name": "Tinja",
+  "name_ar": "تينجة",
+  "place_type": "train_station",
+  "governorate": "Bizerte",
+  "lat": 37.1597,
+  "lon": 9.75729,
+  "iata": null,
+  "osm_id": "node/9016197592"
+ },
+ {
+  "name": "Tozeur",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Tozeur",
+  "lat": 33.92641,
+  "lon": 8.13577,
+  "iata": null,
+  "osm_id": "node/8231384531"
+ },
+ {
+  "name": "Turki",
+  "name_ar": "تركي",
+  "place_type": "train_station",
+  "governorate": "Nabeul",
+  "lat": 36.57554,
+  "lon": 10.51348,
+  "iata": null,
+  "osm_id": "node/5227817773"
+ },
+ {
+  "name": "Zaafrane",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 36.15788,
+  "lon": 8.83494,
+  "iata": null,
+  "osm_id": "node/9293679962"
+ },
+ {
+  "name": "Zannouch",
+  "name_ar": "زانوش",
+  "place_type": "train_station",
+  "governorate": "Gafsa",
+  "lat": 34.46819,
+  "lon": 9.05251,
+  "iata": null,
+  "osm_id": "node/3732837794"
+ },
+ {
+  "name": "الزوارين",
+  "name_ar": null,
+  "place_type": "train_station",
+  "governorate": "Kef",
+  "lat": 36.02302,
+  "lon": 8.90287,
+  "iata": null,
+  "osm_id": "node/2020535321"
+ },
+ {
+  "name": "محطة البضائع",
+  "name_ar": "محطة البضائع",
+  "place_type": "train_station",
+  "governorate": "Ariana",
+  "lat": 36.83664,
+  "lon": 10.21468,
+  "iata": null,
+  "osm_id": "node/283599937"
+ },
+ {
+  "name": "مستوتة",
+  "name_ar": "مستوتة",
+  "place_type": "train_station",
+  "governorate": "Beja",
+  "lat": 36.63572,
+  "lon": 9.19394,
+  "iata": null,
+  "osm_id": "node/8037521488"
+ },
+ {
+  "name": "Rue / espace public - Tunis",
+  "place_type": "street",
+  "governorate": "Tunis",
+  "lat": 36.806,
+  "lon": 10.181
+ },
+ {
+  "name": "Rue / espace public - Ariana",
+  "place_type": "street",
+  "governorate": "Ariana",
+  "lat": 36.862,
+  "lon": 10.195
+ },
+ {
+  "name": "Rue / espace public - Ben Arous",
+  "place_type": "street",
+  "governorate": "Ben Arous",
+  "lat": 36.753,
+  "lon": 10.231
+ },
+ {
+  "name": "Rue / espace public - Manouba",
+  "place_type": "street",
+  "governorate": "Manouba",
+  "lat": 36.808,
+  "lon": 10.097
+ },
+ {
+  "name": "Rue / espace public - Nabeul",
+  "place_type": "street",
+  "governorate": "Nabeul",
+  "lat": 36.456,
+  "lon": 10.737
+ },
+ {
+  "name": "Rue / espace public - Zaghouan",
+  "place_type": "street",
+  "governorate": "Zaghouan",
+  "lat": 36.402,
+  "lon": 10.143
+ },
+ {
+  "name": "Rue / espace public - Bizerte",
+  "place_type": "street",
+  "governorate": "Bizerte",
+  "lat": 37.274,
+  "lon": 9.874
+ },
+ {
+  "name": "Rue / espace public - Beja",
+  "place_type": "street",
+  "governorate": "Beja",
+  "lat": 36.725,
+  "lon": 9.182
+ },
+ {
+  "name": "Rue / espace public - Jendouba",
+  "place_type": "street",
+  "governorate": "Jendouba",
+  "lat": 36.501,
+  "lon": 8.78
+ },
+ {
+  "name": "Rue / espace public - Kef",
+  "place_type": "street",
+  "governorate": "Kef",
+  "lat": 36.174,
+  "lon": 8.704
+ },
+ {
+  "name": "Rue / espace public - Siliana",
+  "place_type": "street",
+  "governorate": "Siliana",
+  "lat": 36.085,
+  "lon": 9.371
+ },
+ {
+  "name": "Rue / espace public - Sousse",
+  "place_type": "street",
+  "governorate": "Sousse",
+  "lat": 35.826,
+  "lon": 10.636
+ },
+ {
+  "name": "Rue / espace public - Monastir",
+  "place_type": "street",
+  "governorate": "Monastir",
+  "lat": 35.778,
+  "lon": 10.826
+ },
+ {
+  "name": "Rue / espace public - Mahdia",
+  "place_type": "street",
+  "governorate": "Mahdia",
+  "lat": 35.504,
+  "lon": 11.062
+ },
+ {
+  "name": "Rue / espace public - Sfax",
+  "place_type": "street",
+  "governorate": "Sfax",
+  "lat": 34.74,
+  "lon": 10.76
+ },
+ {
+  "name": "Rue / espace public - Kairouan",
+  "place_type": "street",
+  "governorate": "Kairouan",
+  "lat": 35.678,
+  "lon": 10.096
+ },
+ {
+  "name": "Rue / espace public - Kasserine",
+  "place_type": "street",
+  "governorate": "Kasserine",
+  "lat": 35.168,
+  "lon": 8.836
+ },
+ {
+  "name": "Rue / espace public - Sidi Bouzid",
+  "place_type": "street",
+  "governorate": "Sidi Bouzid",
+  "lat": 35.038,
+  "lon": 9.485
+ },
+ {
+  "name": "Rue / espace public - Gabes",
+  "place_type": "street",
+  "governorate": "Gabes",
+  "lat": 33.881,
+  "lon": 10.098
+ },
+ {
+  "name": "Rue / espace public - Medenine",
+  "place_type": "street",
+  "governorate": "Medenine",
+  "lat": 33.354,
+  "lon": 10.505
+ },
+ {
+  "name": "Rue / espace public - Tataouine",
+  "place_type": "street",
+  "governorate": "Tataouine",
+  "lat": 32.929,
+  "lon": 10.451
+ },
+ {
+  "name": "Rue / espace public - Gafsa",
+  "place_type": "street",
+  "governorate": "Gafsa",
+  "lat": 34.425,
+  "lon": 8.784
+ },
+ {
+  "name": "Rue / espace public - Tozeur",
+  "place_type": "street",
+  "governorate": "Tozeur",
+  "lat": 33.92,
+  "lon": 8.134
+ },
+ {
+  "name": "Rue / espace public - Kebili",
+  "place_type": "street",
+  "governorate": "Kebili",
+  "lat": 33.705,
+  "lon": 8.969
+ }
+]

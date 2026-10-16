@@ -1,0 +1,46 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "phone",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type",
+   "place_name",
+   "date",
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où et quand avez-vous perdu votre téléphone ?",
+  "reply_to_user": null,
+  "search_query_fr": "perte téléphone démarches",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"phone\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\",\"place_name\",\"date\",\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où et quand avez-vous perdu votre téléphone ?\",\"reply_to_user\":null,\"search_query_fr\":\"perte téléphone démarches\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.231866732,
+  "prompt_tokens": 1392,
+  "prompt_time": 0.01182239,
+  "completion_tokens": 174,
+  "completion_time": 0.186437793,
+  "total_tokens": 1566,
+  "total_time": 0.198260183,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 47
+  }
+ },
+ "latency_s": 7.12
+}

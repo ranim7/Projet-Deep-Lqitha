@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "bank card",
+  "brand": null,
+  "color": "unknown",
+  "material": "plastic",
+  "distinctive_marks": "card number 4532 7788 1234 9900",
+  "description": "A standard plastic bank card with the number 4532 7788 1234 9900 printed on it. No additional branding or markings are visible."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bank card\",\"brand\":null,\"color\":\"unknown\",\"material\":\"plastic\",\"distinctive_marks\":\"card number 4532 7788 1234 9900\",\"description\":\"A standard plastic bank card with the number 4532 7788 1234 9900 printed on it. No additional branding or markings are visible.\"}",
+ "usage": {
+  "queue_time": 0.294149583,
+  "prompt_tokens": 158,
+  "prompt_time": 0.009858571,
+  "completion_tokens": 141,
+  "completion_time": 0.185377616,
+  "total_tokens": 299,
+  "total_time": 0.195236187,
+  "completion_tokens_details": {
+   "reasoning_tokens": 60
+  }
+ },
+ "latency_s": 0.89
+}

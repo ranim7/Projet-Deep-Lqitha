@@ -1,0 +1,34 @@
+{
+ "parsed": {
+  "category": "umbrella",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "red",
+  "color_detail": "red with white polka dots",
+  "material": null,
+  "distinctive_marks": [
+   "white polka dots"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Red umbrella with white polka dots, a compact design.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"umbrella\", \"subcategory\": null, \"brand\": null, \"model\": null,\n \"color_family\": \"red\", \"color_detail\": \"red with white polka dots\",\n \"material\": null,\n \"distinctive_marks\": [\"white polka dots\"],\n \"contents\": [],\n \"visible_text\": null,\n \"contains_sensitive_document\": false,\n \"canonical_description\": \"Red umbrella with white polka dots, a compact design.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 136,
+  "total_tokens": 1127
+ },
+ "latency_s": 22.67
+}

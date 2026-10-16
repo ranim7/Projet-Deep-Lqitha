@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon sac à dos à Bab Alioua avant‑hier, il est bleu marine, en toile, contenant une petite statue de dieu, un shankh, des peluches et des vêtements."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon sac à dos à Bab Alioua avant‑hier, il est bleu marine, en toile, contenant une petite statue de dieu, un shankh, des peluches et des vêtements.\"}",
+ "usage": {
+  "queue_time": 0.452712523,
+  "prompt_tokens": 320,
+  "prompt_time": 0.016995288,
+  "completion_tokens": 100,
+  "completion_time": 0.218802455,
+  "total_tokens": 420,
+  "total_time": 0.235797743,
+  "completion_tokens_details": {
+   "reasoning_tokens": 43
+  }
+ }
+}

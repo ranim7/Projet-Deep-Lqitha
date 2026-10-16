@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "owner_message": "Nous avons trouvé un bijou correspondant à votre description, il est conservé à la Gare de Tunis. Veuillez répondre à la question de vérification pour confirmer votre identité.",
+  "challenge_question": "Quel nom est gravé à l'intérieur du bijou?",
+  "finder_message": "Merci pour votre trouvaille. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification."
+ },
+ "strict_json": true,
+ "raw": "{\"owner_message\":\"Nous avons trouvé un bijou correspondant à votre description, il est conservé à la Gare de Tunis. Veuillez répondre à la question de vérification pour confirmer votre identité.\",\"challenge_question\":\"Quel nom est gravé à l'intérieur du bijou?\",\"finder_message\":\"Merci pour votre trouvaille. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification.\"}",
+ "usage": {
+  "queue_time": 0.048484486,
+  "prompt_tokens": 439,
+  "prompt_time": 0.020863639,
+  "completion_tokens": 308,
+  "completion_time": 0.639900423,
+  "total_tokens": 747,
+  "total_time": 0.660764062,
+  "completion_tokens_details": {
+   "reasoning_tokens": 218
+  }
+ },
+ "latency_s": 1.15
+}

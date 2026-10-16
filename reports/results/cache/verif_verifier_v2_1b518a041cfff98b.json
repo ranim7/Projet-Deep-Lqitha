@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: strong contradiction (pink vs blue)",
+   "brand: both unknown, no contradiction",
+   "marks/contents: no shared specifics",
+   "time/place: found after lost (10th vs 3rd) ok, different place weak"
+  ],
+  "agreements": [
+   "category"
+  ],
+  "contradictions": [
+   "color"
+  ],
+  "decision": "no_match",
+  "confidence": 0.95,
+  "question_for_owner": null
+ },
+ "strict_json": true,
+ "raw": "{\n  \"analysis\": [\n    \"category: same\",\n    \"color: strong contradiction (pink vs blue)\",\n    \"brand: both unknown, no contradiction\",\n    \"marks/contents: no shared specifics\",\n    \"time/place: found after lost (10th vs 3rd) ok, different place weak\"\n  ],\n  \"agreements\": [\"category\"],\n  \"contradictions\": [\"color\"],\n  \"decision\": \"no_match\",\n  \"confidence\": 0.95,\n  \"question_for_owner\": null\n}",
+ "usage": {
+  "queue_time": 0.09641411,
+  "prompt_tokens": 807,
+  "prompt_time": 0.082117311,
+  "completion_tokens": 151,
+  "completion_time": 0.316112247,
+  "total_tokens": 958,
+  "total_time": 0.398229558,
+  "completion_tokens_details": {
+   "reasoning_tokens": 32
+  }
+ },
+ "latency_s": 1.01
+}

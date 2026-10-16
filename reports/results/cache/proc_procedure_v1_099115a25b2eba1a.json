@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "I’m sorry, but I don’t have the phone number for the lost‑and‑found office at Sfax station in the information you provided. You might want to check the official SNCFT website or contact the station directly for that detail.",
+ "usage": {
+  "queue_time": 0.138936179,
+  "prompt_tokens": 882,
+  "prompt_time": 0.043904179,
+  "completion_tokens": 80,
+  "completion_time": 0.081922716,
+  "total_tokens": 962,
+  "total_time": 0.125826895,
+  "completion_tokens_details": {
+   "reasoning_tokens": 22
+  }
+ },
+ "latency_s": 5.34
+}

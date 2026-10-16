@@ -1,0 +1,45 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "fr",
+  "slots": {
+   "item_category": "wallet",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "street",
+   "place_name": null,
+   "governorate": "Tunis",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_name",
+   "date",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où exactement avez-vous trouvé le portefeuille ?",
+  "reply_to_user": null,
+  "search_query_fr": "portefeuille trouvé rue dépôt",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"wallet\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"street\",\"place_name\":null,\"governorate\":\"Tunis\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_name\",\"date\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où exactement avez-vous trouvé le portefeuille ?\",\"reply_to_user\":null,\"search_query_fr\":\"portefeuille trouvé rue dépôt\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.233845695,
+  "prompt_tokens": 1396,
+  "prompt_time": 0.010939971,
+  "completion_tokens": 141,
+  "completion_time": 0.143614871,
+  "total_tokens": 1537,
+  "total_time": 0.154554842,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 19
+  }
+ },
+ "latency_s": 8.79
+}

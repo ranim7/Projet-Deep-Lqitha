@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li botla mrawwa, kima lma, ma3roufa b'kbirha w ma3a l'kass, t7ebt fi حومة السوق awel lbera7."
+ },
+ "raw": "{\"message\":\"Dha3li botla mrawwa, kima lma, ma3roufa b'kbirha w ma3a l'kass, t7ebt fi حومة السوق awel lbera7.\"}",
+ "usage": {
+  "queue_time": 0.155703283,
+  "prompt_tokens": 356,
+  "prompt_time": 0.067956377,
+  "completion_tokens": 90,
+  "completion_time": 0.18964389,
+  "total_tokens": 446,
+  "total_time": 0.257600267,
+  "completion_tokens_details": {
+   "reasoning_tokens": 29
+  }
+ }
+}

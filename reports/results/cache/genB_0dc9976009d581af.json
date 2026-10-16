@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu hier à Foussana mon sac en toile noir, assez grand, avec des vêtements, des chaussures, une petite couverture et quelques ustensiles à l'intérieur."
+ },
+ "raw": "{\"message\":\"J'ai perdu hier à Foussana mon sac en toile noir, assez grand, avec des vêtements, des chaussures, une petite couverture et quelques ustensiles à l'intérieur.\"}",
+ "usage": {
+  "queue_time": 0.301606218,
+  "prompt_tokens": 320,
+  "prompt_time": 0.020490582,
+  "completion_tokens": 118,
+  "completion_time": 0.250111831,
+  "total_tokens": 438,
+  "total_time": 0.270602413,
+  "completion_tokens_details": {
+   "reasoning_tokens": 69
+  }
+ }
+}

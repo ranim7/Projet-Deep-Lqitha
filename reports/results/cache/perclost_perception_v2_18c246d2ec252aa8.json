@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "clutch",
+  "brand": null,
+  "model": null,
+  "color_family": "pink",
+  "color_detail": "dark pink",
+  "material": "leather",
+  "distinctive_marks": [
+   "no label"
+  ],
+  "contents": [
+   "cards",
+   "cash"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Dark pink leather small bag with no label, containing cards and cash.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"bag\",\n  \"subcategory\": \"clutch\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"pink\",\n  \"color_detail\": \"dark pink\",\n  \"material\": \"leather\",\n  \"distinctive_marks\": [\n    \"no label\"\n  ],\n  \"contents\": [\n    \"cards\",\n    \"cash\"\n  ],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Dark pink leather small bag with no label, containing cards and cash.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.9,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.080942838,
+  "prompt_tokens": 733,
+  "prompt_time": 0.0538202,
+  "completion_tokens": 179,
+  "completion_time": 0.368858232,
+  "total_tokens": 912,
+  "total_time": 0.422678432
+ },
+ "latency_s": 5.49
+}

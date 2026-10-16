@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "umbrella",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "dark blue",
+  "material": "fabric",
+  "distinctive_marks": [
+   "pattern of stars",
+   "red inner lining",
+   "C-shaped handle"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Dark blue umbrella with a pattern of stars and a red inner lining, featuring a C-shaped handle.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"umbrella\", \"subcategory\": null, \"brand\": null, \"model\": null,\n \"color_family\": \"blue\", \"color_detail\": \"dark blue\", \"material\": \"fabric\",\n \"distinctive_marks\": [\"pattern of stars\", \"red inner lining\", \"C-shaped handle\"],\n \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false, \"canonical_description\": \"Dark blue umbrella with a pattern of stars and a red inner lining, featuring a C-shaped handle.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 152,
+  "total_tokens": 1143
+ },
+ "latency_s": 20.05
+}

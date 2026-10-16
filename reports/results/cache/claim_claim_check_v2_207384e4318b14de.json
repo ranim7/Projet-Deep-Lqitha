@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": false,
+  "reason": "Answer lists multiple options, not a single specific fact"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":false,\"reason\":\"Answer lists multiple options, not a single specific fact\"}",
+ "usage": {
+  "queue_time": 0.328053037,
+  "prompt_tokens": 266,
+  "prompt_time": 0.101425884,
+  "completion_tokens": 44,
+  "completion_time": 0.047658672,
+  "total_tokens": 310,
+  "total_time": 0.149084556,
+  "completion_tokens_details": {
+   "reasoning_tokens": 17
+  }
+ },
+ "latency_s": 0.92
+}

@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "luggage",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [
+   "zip",
+   "RFID"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black big suitcase with a zipper and RFID tag, lost today, heavy, durable, travel.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"luggage\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[\"zip\",\"RFID\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black big suitcase with a zipper and RFID tag, lost today, heavy, durable, travel.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.603511239,
+  "prompt_tokens": 783,
+  "prompt_time": 0.017181986,
+  "completion_tokens": 1286,
+  "completion_time": 1.359398358,
+  "total_tokens": 2069,
+  "total_time": 1.376580344,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1176
+  }
+ },
+ "latency_s": 2.44
+}

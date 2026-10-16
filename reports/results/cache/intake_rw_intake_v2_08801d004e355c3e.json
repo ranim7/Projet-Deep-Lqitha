@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "désactivation puce carte d'identité perte",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"désactivation puce carte d'identité perte\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.080636907,
+  "prompt_tokens": 1399,
+  "prompt_time": 0.085354425,
+  "completion_tokens": 144,
+  "completion_time": 0.167309941,
+  "total_tokens": 1543,
+  "total_time": 0.252664366,
+  "completion_tokens_details": {
+   "reasoning_tokens": 32
+  }
+ },
+ "latency_s": 1.09
+}

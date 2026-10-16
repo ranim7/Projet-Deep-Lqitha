@@ -1,0 +1,482 @@
+{
+ "id": "LqithaRematch001",
+ "name": "Lqitha - Daily re-matching",
+ "nodes": [
+  {
+   "parameters": {
+    "content": "## Daily re-matching\nA phone lost today may only be handed in tomorrow. Every day at 08:00 the matcher re-scores all open lost reports; strong new candidates go through the same Verifier and Notifier agents, and the owner is notified in the web app.",
+    "height": 160,
+    "width": 600,
+    "color": 6
+   },
+   "id": "ec6b6c6c-7c86-5684-9b64-34f19a8ffc81",
+   "name": "Note 0",
+   "type": "n8n-nodes-base.stickyNote",
+   "typeVersion": 1,
+   "position": [
+    -300,
+    -300
+   ]
+  },
+  {
+   "parameters": {
+    "rule": {
+     "interval": [
+      {
+       "field": "days",
+       "triggerAtHour": 8
+      }
+     ]
+    }
+   },
+   "id": "4836e82a-bdab-567f-9f4b-f5981172d000",
+   "name": "Every day 08:00",
+   "type": "n8n-nodes-base.scheduleTrigger",
+   "typeVersion": 1.2,
+   "position": [
+    0,
+    0
+   ]
+  },
+  {
+   "parameters": {},
+   "id": "a41e4950-a4c7-56f2-b66d-9c4a3631f9a0",
+   "name": "Run now (manual)",
+   "type": "n8n-nodes-base.manualTrigger",
+   "typeVersion": 1,
+   "position": [
+    0,
+    200
+   ]
+  },
+  {
+   "parameters": {
+    "method": "GET",
+    "url": "={{ $env.LQITHA_API }}/tools/rematch/candidates?min_score=0.62",
+    "options": {
+     "timeout": 120000
+    }
+   },
+   "id": "fd0a1b2c-0fd6-5561-b8e1-a71b2cf66ee6",
+   "name": "Tool - Rematch candidates",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    220,
+    100
+   ],
+   "retryOnFail": true,
+   "maxTries": 3,
+   "waitBetweenTries": 4000
+  },
+  {
+   "parameters": {
+    "jsCode": "return ($json.pairs || []).map(p => ({ json: p }));"
+   },
+   "id": "eb3b04f1-3696-5feb-b7fb-f349d245e675",
+   "name": "Split pairs",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    440,
+    100
+   ],
+   "alwaysOutputData": false
+  },
+  {
+   "parameters": {
+    "method": "GET",
+    "url": "={{ $env.LQITHA_API }}/internal/pairs/{{ $json.lost_id }}/{{ $json.found_id }}",
+    "options": {
+     "timeout": 120000
+    },
+    "sendHeaders": true,
+    "headerParameters": {
+     "parameters": [
+      {
+       "name": "X-Internal-Token",
+       "value": "={{ $env.INTERNAL_TOKEN }}"
+      }
+     ]
+    }
+   },
+   "id": "e25ab9bf-911f-5a02-a74b-e953fcb07c52",
+   "name": "Tool - Read pair (internal)",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    660,
+    100
+   ],
+   "retryOnFail": true,
+   "maxTries": 3,
+   "waitBetweenTries": 4000
+  },
+  {
+   "parameters": {
+    "jsCode": "\nfunction render(t, v) {\n  return t.replace(/\\{\\{(\\w+)\\}\\}/g, (m, k) => (v[k] === undefined || v[k] === null) ? '' : (typeof v[k] === 'string' ? v[k] : JSON.stringify(v[k])));\n}\nfunction parseLLM(resp) {\n  try {\n    if (!resp || resp.error) return null;\n    const txt = resp.choices[0].message.content;\n    try { return JSON.parse(txt); } catch (e) { const m = txt.match(/\\{[\\s\\S]*\\}/); return m ? JSON.parse(m[0]) : null; }\n  } catch (e) { return null; }\n}\nfunction today() { return new Date().toISOString().slice(0, 10); }\nfunction L(lang, d) { return d[lang] || d.fr; }\n// language of a message, decided without the LLM when it is unambiguous (Arabic script, Derja spellings)\nfunction detectLang(t) {\n  if (!t) return null;\n  if (/[\\u0600-\\u06FF]/.test(t)) return 'ar';\n  const w = ' ' + t.toLowerCase() + ' ';\n  if (/[a-z][379]|[379][a-z]/.test(w)) return 'derja';\n  if (/\\b(l9it|lqit|dhaya3t|dha3li|mta3|mte3|lyoum|lbera7|chnowa|chnoua|fama|barcha|kifech|kifesh|3andi|7aja|ya3tik|sakoche|nheb|n7eb|winou|wine)\\b/.test(w)) return 'derja';\n  const en = (w.match(/\\b(the|i|my|lost|found|where|what|have|is|at|in|it|bag|phone)\\b/g) || []).length;\n  const fr = (w.match(/\\b(le|la|les|j'ai|je|mon|ma|mes|perdu|trouvé|trouve|à|de|du|que|est|un|une|dans|sac)\\b/g) || []).length;\n  if (en > fr) return 'en';\n  if (fr > 0) return 'fr';\n  return null;\n}\n// Prompt 'verifier' version v2 (generated from prompts/prompts.yaml - do not edit here)\nconst SYSTEM = \"# ROLE\\nYou are the verification agent of a lost-and-found service. You compare a LOST report with a\\nFOUND candidate and decide if they describe the same physical object. False matches are costly\\n(the item could be handed to the wrong person), so be strict but fair.\\n\\n# RUBRIC (fill \\\"analysis\\\" first, one line per attribute)\\n- category: different categories -> no_match (except phone vs phone case).\\n- color_family: a clear contradiction (black vs red) is strong evidence against.\\n  Close families (grey/silver, beige/brown, white/grey) are only a weak contradiction.\\n- brand / model: contradiction only if BOTH sides state a brand. One side null = unknown, NOT a contradiction.\\n- distinctive marks / contents: a specific shared detail (sticker, crack, name, keychain) is strong evidence for.\\n- time & place: found date must not be before the lost date (1-day tolerance). Different governorates\\n  is a weak contradiction (items travel with louages / trains).\\n- Missing information is NEVER a contradiction.\\n\\n# DECISION\\n- match: same category, no strong contradiction and at least 2 agreeing specific attributes. confidence >= 0.75\\n- possible_match: same category, no strong contradiction, but little specific evidence. confidence 0.4-0.75\\n- no_match: any strong contradiction. confidence < 0.4\\n\\n# OUTPUT (JSON only)\\n{\\\"analysis\\\": [\\\"category: ...\\\", \\\"color: ...\\\", \\\"brand: ...\\\", \\\"marks/contents: ...\\\", \\\"time/place: ...\\\"],\\n \\\"agreements\\\": [], \\\"contradictions\\\": [], \\\"decision\\\": \\\"match|possible_match|no_match\\\",\\n \\\"confidence\\\": 0.0, \\\"question_for_owner\\\": null}\\nquestion_for_owner: if possible_match, ONE question that would discriminate (e.g. \\\"Is there a sticker on the back?\\\").\\nNever mention details that only appear in the FOUND report in that question.\\n\";\nconst USER = \"LOST report: {{lost}}\\nFOUND candidate: {{found}}\\nMatcher similarity score: {{score}}\\n\";\nconst TEMPERATURE = 0.0;\nconst MODEL_ENV = \"TEXT_MODEL\";\n\nconst p = $json;\nconst side = rep => ({ ...rep.record, place: rep.place_name, governorate: rep.governorate, date: rep.date_iso });\nconst vars = { lost: side(p.lost), found: side(p.found), score: p.score };\nconst groq_body = { messages: [{ role: 'system', content: render(SYSTEM, vars) }, { role: 'user', content: render(USER, vars) }],\n                    temperature: TEMPERATURE, max_tokens: 700, response_format: { type: 'json_object' } };\nreturn { json: { groq_body, model_env: MODEL_ENV, vision: false } };\n",
+    "mode": "runOnceForEachItem"
+   },
+   "id": "7b0fdde8-bf47-542a-b4c7-a969683b55b8",
+   "name": "Agent 4 - Verifier - build prompt",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    880,
+    100
+   ],
+   "alwaysOutputData": false
+  },
+  {
+   "parameters": {
+    "method": "POST",
+    "url": "={{ $env.LLM_BASE_URL || 'https://api.groq.com/openai/v1' }}/chat/completions",
+    "options": {
+     "timeout": 90000
+    },
+    "sendHeaders": true,
+    "headerParameters": {
+     "parameters": [
+      {
+       "name": "Authorization",
+       "value": "=Bearer {{ $env.GROQ_API_KEY }}"
+      }
+     ]
+    },
+    "sendBody": true,
+    "specifyBody": "json",
+    "jsonBody": "={{ (() => { const m = $json.vision ? $env.VISION_MODEL : ($json.model_env === 'FAST_MODEL' ? $env.FAST_MODEL : ($json.model_env === 'VISION_MODEL' ? $env.VISION_MODEL : $env.TEXT_MODEL)); const r = m.includes('gpt-oss') ? {reasoning_effort: 'low'} : (m.includes('qwen') ? {reasoning_effort: 'none'} : {}); return JSON.stringify(Object.assign({}, $json.groq_body, {model: m, max_tokens: 1500}, r)); })() }}"
+   },
+   "id": "422f90d7-76ac-54b9-84b5-28acb9ccedc1",
+   "name": "Agent 4 - Verifier (LLM)",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    1100,
+    100
+   ],
+   "retryOnFail": true,
+   "maxTries": 3,
+   "waitBetweenTries": 4000,
+   "onError": "continueErrorOutput",
+   "notes": "Groq",
+   "notesInFlow": true
+  },
+  {
+   "parameters": {
+    "jsCode": "\nfunction render(t, v) {\n  return t.replace(/\\{\\{(\\w+)\\}\\}/g, (m, k) => (v[k] === undefined || v[k] === null) ? '' : (typeof v[k] === 'string' ? v[k] : JSON.stringify(v[k])));\n}\nfunction parseLLM(resp) {\n  try {\n    if (!resp || resp.error) return null;\n    const txt = resp.choices[0].message.content;\n    try { return JSON.parse(txt); } catch (e) { const m = txt.match(/\\{[\\s\\S]*\\}/); return m ? JSON.parse(m[0]) : null; }\n  } catch (e) { return null; }\n}\nfunction today() { return new Date().toISOString().slice(0, 10); }\nfunction L(lang, d) { return d[lang] || d.fr; }\n// language of a message, decided without the LLM when it is unambiguous (Arabic script, Derja spellings)\nfunction detectLang(t) {\n  if (!t) return null;\n  if (/[\\u0600-\\u06FF]/.test(t)) return 'ar';\n  const w = ' ' + t.toLowerCase() + ' ';\n  if (/[a-z][379]|[379][a-z]/.test(w)) return 'derja';\n  if (/\\b(l9it|lqit|dhaya3t|dha3li|mta3|mte3|lyoum|lbera7|chnowa|chnoua|fama|barcha|kifech|kifesh|3andi|7aja|ya3tik|sakoche|nheb|n7eb|winou|wine)\\b/.test(w)) return 'derja';\n  const en = (w.match(/\\b(the|i|my|lost|found|where|what|have|is|at|in|it|bag|phone)\\b/g) || []).length;\n  const fr = (w.match(/\\b(le|la|les|j'ai|je|mon|ma|mes|perdu|trouvé|trouve|à|de|du|que|est|un|une|dans|sac)\\b/g) || []).length;\n  if (en > fr) return 'en';\n  if (fr > 0) return 'fr';\n  return null;\n}\n\nconst pairs = $('Tool - Read pair (internal)').all();\nconst out = [];\n$input.all().forEach((it, i) => {\n  const v = parseLLM(it.json);\n  if (v && ['match', 'possible_match'].includes(v.decision)) out.push({ json: { pair: pairs[i].json, verdict: v } });\n});\nreturn out;\n"
+   },
+   "id": "5dd2f9f0-f042-565b-b69c-d312729703e3",
+   "name": "Keep confident matches",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    1320,
+    100
+   ],
+   "alwaysOutputData": false
+  },
+  {
+   "parameters": {
+    "jsCode": "\nfunction render(t, v) {\n  return t.replace(/\\{\\{(\\w+)\\}\\}/g, (m, k) => (v[k] === undefined || v[k] === null) ? '' : (typeof v[k] === 'string' ? v[k] : JSON.stringify(v[k])));\n}\nfunction parseLLM(resp) {\n  try {\n    if (!resp || resp.error) return null;\n    const txt = resp.choices[0].message.content;\n    try { return JSON.parse(txt); } catch (e) { const m = txt.match(/\\{[\\s\\S]*\\}/); return m ? JSON.parse(m[0]) : null; }\n  } catch (e) { return null; }\n}\nfunction today() { return new Date().toISOString().slice(0, 10); }\nfunction L(lang, d) { return d[lang] || d.fr; }\n// language of a message, decided without the LLM when it is unambiguous (Arabic script, Derja spellings)\nfunction detectLang(t) {\n  if (!t) return null;\n  if (/[\\u0600-\\u06FF]/.test(t)) return 'ar';\n  const w = ' ' + t.toLowerCase() + ' ';\n  if (/[a-z][379]|[379][a-z]/.test(w)) return 'derja';\n  if (/\\b(l9it|lqit|dhaya3t|dha3li|mta3|mte3|lyoum|lbera7|chnowa|chnoua|fama|barcha|kifech|kifesh|3andi|7aja|ya3tik|sakoche|nheb|n7eb|winou|wine)\\b/.test(w)) return 'derja';\n  const en = (w.match(/\\b(the|i|my|lost|found|where|what|have|is|at|in|it|bag|phone)\\b/g) || []).length;\n  const fr = (w.match(/\\b(le|la|les|j'ai|je|mon|ma|mes|perdu|trouvé|trouve|à|de|du|que|est|un|une|dans|sac)\\b/g) || []).length;\n  if (en > fr) return 'en';\n  if (fr > 0) return 'fr';\n  return null;\n}\n// Prompt 'notifier' version v2 (generated from prompts/prompts.yaml - do not edit here)\nconst SYSTEM = \"# ROLE\\nYou write short, warm notifications for Lqitha, a Tunisian lost-and-found service.\\n\\n# RULES\\n1. owner_message: tell the owner a {{decision}} was found, where it is kept (place name only),\\n   and that they must answer one verification question. Max 60 words. Language: {{language}}\\n   (derja = Tunisian Arabic written in LATIN letters with 3/7/9, e.g. \\\"l9ina telifounek\\\"; ar = Arabic script).\\n2. challenge_question: ONE question whose answer is the hidden detail, phrased so that the\\n   question itself does NOT reveal or hint at the answer (no color, no word of the answer,\\n   no yes/no question). Example: hidden detail \\\"lock screen shows a cat\\\" -> \\\"What picture is on the\\n   lock screen?\\\" (never \\\"Is there a cat on the lock screen?\\\").\\n3. finder_message: thank the finder, say a possible owner was identified and that contact\\n   details are shared only after verification. Max 40 words, same language as the finder ({{finder_language}}).\\n4. Never include phone numbers, ID numbers or the hidden detail itself in any message.\\n\\n# OUTPUT (JSON only)\\n{\\\"owner_message\\\": \\\"...\\\", \\\"challenge_question\\\": \\\"...\\\", \\\"finder_message\\\": \\\"...\\\"}\\n\";\nconst USER = \"Lost report: {{lost}}\\nFound report (public part): {{found}}\\nHidden detail (SECRET, never reveal): {{hidden_detail}}\\n\";\nconst TEMPERATURE = 0.3;\nconst MODEL_ENV = \"TEXT_MODEL\";\n\nconst p = $json.pair;\nconst vars = { lost: p.lost.record, found: { ...p.found.record, kept_at: p.found.place_name }, hidden_detail: p.hidden_detail || '(none given)',\n               decision: $json.verdict.decision === 'match' ? 'very likely match' : 'possible match',\n               language: p.lost.language || 'fr', finder_language: p.found.language || 'fr' };\nconst groq_body = { messages: [{ role: 'system', content: render(SYSTEM, vars) }, { role: 'user', content: render(USER, vars) }],\n                    temperature: TEMPERATURE, max_tokens: 600, response_format: { type: 'json_object' } };\nreturn { json: { groq_body, model_env: MODEL_ENV, vision: false } };\n",
+    "mode": "runOnceForEachItem"
+   },
+   "id": "1b3e57b2-4bd5-55ef-bd3f-0f322200fb44",
+   "name": "Agent 6 - Notifier - build prompt",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    1540,
+    100
+   ],
+   "alwaysOutputData": false
+  },
+  {
+   "parameters": {
+    "method": "POST",
+    "url": "={{ $env.LLM_BASE_URL || 'https://api.groq.com/openai/v1' }}/chat/completions",
+    "options": {
+     "timeout": 90000
+    },
+    "sendHeaders": true,
+    "headerParameters": {
+     "parameters": [
+      {
+       "name": "Authorization",
+       "value": "=Bearer {{ $env.GROQ_API_KEY }}"
+      }
+     ]
+    },
+    "sendBody": true,
+    "specifyBody": "json",
+    "jsonBody": "={{ (() => { const m = $json.vision ? $env.VISION_MODEL : ($json.model_env === 'FAST_MODEL' ? $env.FAST_MODEL : ($json.model_env === 'VISION_MODEL' ? $env.VISION_MODEL : $env.TEXT_MODEL)); const r = m.includes('gpt-oss') ? {reasoning_effort: 'low'} : (m.includes('qwen') ? {reasoning_effort: 'none'} : {}); return JSON.stringify(Object.assign({}, $json.groq_body, {model: m, max_tokens: 1500}, r)); })() }}"
+   },
+   "id": "dd808c5d-13bd-51e9-be91-8ba26243e54b",
+   "name": "Agent 6 - Notifier (LLM)",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    1760,
+    100
+   ],
+   "retryOnFail": true,
+   "maxTries": 3,
+   "waitBetweenTries": 4000,
+   "onError": "continueErrorOutput",
+   "notes": "Groq",
+   "notesInFlow": true
+  },
+  {
+   "parameters": {
+    "jsCode": "\nfunction render(t, v) {\n  return t.replace(/\\{\\{(\\w+)\\}\\}/g, (m, k) => (v[k] === undefined || v[k] === null) ? '' : (typeof v[k] === 'string' ? v[k] : JSON.stringify(v[k])));\n}\nfunction parseLLM(resp) {\n  try {\n    if (!resp || resp.error) return null;\n    const txt = resp.choices[0].message.content;\n    try { return JSON.parse(txt); } catch (e) { const m = txt.match(/\\{[\\s\\S]*\\}/); return m ? JSON.parse(m[0]) : null; }\n  } catch (e) { return null; }\n}\nfunction today() { return new Date().toISOString().slice(0, 10); }\nfunction L(lang, d) { return d[lang] || d.fr; }\n// language of a message, decided without the LLM when it is unambiguous (Arabic script, Derja spellings)\nfunction detectLang(t) {\n  if (!t) return null;\n  if (/[\\u0600-\\u06FF]/.test(t)) return 'ar';\n  const w = ' ' + t.toLowerCase() + ' ';\n  if (/[a-z][379]|[379][a-z]/.test(w)) return 'derja';\n  if (/\\b(l9it|lqit|dhaya3t|dha3li|mta3|mte3|lyoum|lbera7|chnowa|chnoua|fama|barcha|kifech|kifesh|3andi|7aja|ya3tik|sakoche|nheb|n7eb|winou|wine)\\b/.test(w)) return 'derja';\n  const en = (w.match(/\\b(the|i|my|lost|found|where|what|have|is|at|in|it|bag|phone)\\b/g) || []).length;\n  const fr = (w.match(/\\b(le|la|les|j'ai|je|mon|ma|mes|perdu|trouvé|trouve|à|de|du|que|est|un|une|dans|sac)\\b/g) || []).length;\n  if (en > fr) return 'en';\n  if (fr > 0) return 'fr';\n  return null;\n}\n\nconst prev = $('Keep confident matches').all();\nreturn $input.all().map((it, i) => {\n  const p = prev[i].json.pair, v = prev[i].json.verdict;\n  const n = parseLLM(it.json) || {};\n  const STOP = new Set(['dans','avec','pour','sont','cette','there','with','this','that','have','from','fama','your','votre','inside']);\n  const words = ((p.hidden_detail || '').toLowerCase().match(/[\\p{L}\\d]{4,}/gu) || []).filter(w => !STOP.has(w));\n  const q = (n.challenge_question || '').toLowerCase();\n  if (!n.challenge_question || words.some(w => q.includes(w)) || !p.hidden_detail)\n    n.challenge_question = 'Décrivez un détail que seul le propriétaire peut connaître (contenu, inscription, fond d\\'écran...).';\n  return { json: { lost_id: p.lost.id, found_id: p.found.id, decision: v.decision, confidence: v.confidence || 0.5,\n    challenge_question: n.challenge_question, owner_message: n.owner_message || 'Un objet correspondant à votre déclaration a peut-être été trouvé.',\n    finder_message: n.finder_message || 'Un propriétaire possible a été identifié.' } };\n});\n"
+   },
+   "id": "3d9218ef-63b2-5d8f-a436-913c3507adc0",
+   "name": "Leak guard + claim body",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    1980,
+    100
+   ],
+   "alwaysOutputData": false
+  },
+  {
+   "parameters": {
+    "method": "POST",
+    "url": "={{ $env.LQITHA_API }}/tools/claims",
+    "options": {
+     "timeout": 120000
+    },
+    "sendBody": true,
+    "specifyBody": "json",
+    "jsonBody": "={{ JSON.stringify($json) }}"
+   },
+   "id": "13bffcc3-e0b8-5502-9dc2-856c43b23c7c",
+   "name": "Tool - Create claim & notify",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    2200,
+    100
+   ],
+   "retryOnFail": true,
+   "maxTries": 3,
+   "waitBetweenTries": 4000
+  },
+  {
+   "parameters": {
+    "method": "POST",
+    "url": "={{ ($env.OLLAMA_DOCKER_URL || 'http://host.docker.internal:11434') }}/v1/chat/completions",
+    "sendBody": true,
+    "specifyBody": "json",
+    "jsonBody": "={{ JSON.stringify(Object.assign({}, $json.groq_body, {model: $env.LOCAL_VISION_MODEL || 'gemma3:4b'})) }}",
+    "options": {
+     "timeout": 300000
+    }
+   },
+   "id": "8b8b0ab4-f68f-51cd-8900-7619dd306eb2",
+   "name": "Agent 4 - Verifier (local fallback)",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    1100,
+    270
+   ],
+   "onError": "continueRegularOutput",
+   "notes": "local Ollama model - used only if Groq fails",
+   "notesInFlow": true
+  },
+  {
+   "parameters": {
+    "method": "POST",
+    "url": "={{ ($env.OLLAMA_DOCKER_URL || 'http://host.docker.internal:11434') }}/v1/chat/completions",
+    "sendBody": true,
+    "specifyBody": "json",
+    "jsonBody": "={{ JSON.stringify(Object.assign({}, $json.groq_body, {model: $env.LOCAL_VISION_MODEL || 'gemma3:4b'})) }}",
+    "options": {
+     "timeout": 300000
+    }
+   },
+   "id": "b5ed4626-43d2-5ef6-a857-14a296645a4e",
+   "name": "Agent 6 - Notifier (local fallback)",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    1760,
+    270
+   ],
+   "onError": "continueRegularOutput",
+   "notes": "local Ollama model - used only if Groq fails",
+   "notesInFlow": true
+  }
+ ],
+ "connections": {
+  "Every day 08:00": {
+   "main": [
+    [
+     {
+      "node": "Tool - Rematch candidates",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Run now (manual)": {
+   "main": [
+    [
+     {
+      "node": "Tool - Rematch candidates",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Tool - Rematch candidates": {
+   "main": [
+    [
+     {
+      "node": "Split pairs",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Split pairs": {
+   "main": [
+    [
+     {
+      "node": "Tool - Read pair (internal)",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Tool - Read pair (internal)": {
+   "main": [
+    [
+     {
+      "node": "Agent 4 - Verifier - build prompt",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Agent 4 - Verifier - build prompt": {
+   "main": [
+    [
+     {
+      "node": "Agent 4 - Verifier (LLM)",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Agent 4 - Verifier (LLM)": {
+   "main": [
+    [
+     {
+      "node": "Keep confident matches",
+      "type": "main",
+      "index": 0
+     }
+    ],
+    [
+     {
+      "node": "Agent 4 - Verifier (local fallback)",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Keep confident matches": {
+   "main": [
+    [
+     {
+      "node": "Agent 6 - Notifier - build prompt",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Agent 6 - Notifier - build prompt": {
+   "main": [
+    [
+     {
+      "node": "Agent 6 - Notifier (LLM)",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Agent 6 - Notifier (LLM)": {
+   "main": [
+    [
+     {
+      "node": "Leak guard + claim body",
+      "type": "main",
+      "index": 0
+     }
+    ],
+    [
+     {
+      "node": "Agent 6 - Notifier (local fallback)",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Leak guard + claim body": {
+   "main": [
+    [
+     {
+      "node": "Tool - Create claim & notify",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Agent 4 - Verifier (local fallback)": {
+   "main": [
+    [
+     {
+      "node": "Keep confident matches",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Agent 6 - Notifier (local fallback)": {
+   "main": [
+    [
+     {
+      "node": "Leak guard + claim body",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1",
+  "errorWorkflow": "LqithaErrorFlow1"
+ },
+ "pinData": {},
+ "active": false,
+ "meta": {
+  "templateCredsSetupCompleted": true
+ },
+ "tags": []
+}

@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "laptop",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "study cards",
+   "photos"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black laptop with a 15.6-inch screen, blue keyboard, Bluetooth and HDMI ports, containing study cards and photos.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"laptop\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"study cards\",\"photos\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black laptop with a 15.6-inch screen, blue keyboard, Bluetooth and HDMI ports, containing study cards and photos.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.196023927,
+  "prompt_tokens": 787,
+  "prompt_time": 0.042685125,
+  "completion_tokens": 195,
+  "completion_time": 0.210417093,
+  "total_tokens": 982,
+  "total_time": 0.253102218,
+  "completion_tokens_details": {
+   "reasoning_tokens": 79
+  }
+ },
+ "latency_s": 1.05
+}

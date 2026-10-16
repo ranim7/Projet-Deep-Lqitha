@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": "ce matin",
+   "date_iso": "2026-10-14",
+   "place_type": "street",
+   "place_name": "Sfax",
+   "governorate": "Sfax",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": true
+  },
+  "missing": [
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Pouvez‑vous me donner un détail qui vous permettrait de vérifier votre identité, comme votre nom complet ou votre date de naissance ?",
+  "reply_to_user": null,
+  "search_query_fr": "carte d'identité trouvée",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":\"ce matin\",\"date_iso\":\"2026-10-14\",\"place_type\":\"street\",\"place_name\":\"Sfax\",\"governorate\":\"Sfax\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":true},\"missing\":[\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Pouvez‑vous me donner un détail qui vous permettrait de vérifier votre identité, comme votre nom complet ou votre date de naissance ?\",\"reply_to_user\":null,\"search_query_fr\":\"carte d'identité trouvée\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.149062946,
+  "prompt_tokens": 1398,
+  "prompt_time": 0.087052489,
+  "completion_tokens": 250,
+  "completion_time": 0.267162754,
+  "total_tokens": 1648,
+  "total_time": 0.354215243,
+  "completion_tokens_details": {
+   "reasoning_tokens": 104
+  }
+ },
+ "latency_s": 11.68
+}

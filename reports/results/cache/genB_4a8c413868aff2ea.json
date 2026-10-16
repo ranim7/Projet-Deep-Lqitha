@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Ce matin, j'ai perdu mon petit sac à main noir à El Hencha, il contenait mes cartes de métro et un peu d'argent liquide, très important pour moi."
+ },
+ "raw": "{\"message\":\"Ce matin, j'ai perdu mon petit sac à main noir à El Hencha, il contenait mes cartes de métro et un peu d'argent liquide, très important pour moi.\"}",
+ "usage": {
+  "queue_time": 0.295253046,
+  "prompt_tokens": 309,
+  "prompt_time": 0.014509144,
+  "completion_tokens": 83,
+  "completion_time": 0.173138762,
+  "total_tokens": 392,
+  "total_time": 0.187647906,
+  "completion_tokens_details": {
+   "reasoning_tokens": 31
+  }
+ }
+}

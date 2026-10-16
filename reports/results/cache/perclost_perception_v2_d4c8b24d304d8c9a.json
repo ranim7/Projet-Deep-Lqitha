@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "resin",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black resin strap phone with LCD screen that displays time but does not charge.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"phone\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"resin\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black resin strap phone with LCD screen that displays time but does not charge.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.149559842,
+  "prompt_tokens": 792,
+  "prompt_time": 0.046827396,
+  "completion_tokens": 211,
+  "completion_time": 0.229933056,
+  "total_tokens": 1003,
+  "total_time": 0.276760452,
+  "completion_tokens_details": {
+   "reasoning_tokens": 110
+  }
+ },
+ "latency_s": 1.24
+}

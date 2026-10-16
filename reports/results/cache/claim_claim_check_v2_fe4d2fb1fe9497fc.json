@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": false,
+  "reason": "Answer lacks specific details"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":false,\"reason\":\"Answer lacks specific details\"}",
+ "usage": {
+  "queue_time": 0.197599056,
+  "prompt_tokens": 262,
+  "prompt_time": 0.012988942,
+  "completion_tokens": 61,
+  "completion_time": 0.065338222,
+  "total_tokens": 323,
+  "total_time": 0.078327164,
+  "completion_tokens_details": {
+   "reasoning_tokens": 40
+  }
+ },
+ "latency_s": 0.81
+}

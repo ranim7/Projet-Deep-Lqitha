@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "orange",
+  "color_detail": "orange",
+  "material": "hard",
+  "distinctive_marks": [],
+  "contents": [
+   "small items"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Orange hard phone with a distinctive design, containing small items.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"phone\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"orange\",\"color_detail\":\"orange\",\"material\":\"hard\",\"distinctive_marks\":[],\"contents\":[\"small items\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Orange hard phone with a distinctive design, containing small items.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.294247954,
+  "prompt_tokens": 803,
+  "prompt_time": 0.06084792,
+  "completion_tokens": 156,
+  "completion_time": 0.181448528,
+  "total_tokens": 959,
+  "total_time": 0.242296448,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 56
+  }
+ },
+ "latency_s": 0.99
+}

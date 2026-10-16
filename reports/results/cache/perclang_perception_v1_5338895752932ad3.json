@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "Backpack",
+  "brand": "Nike",
+  "color": "Not specified",
+  "material": "Not specified",
+  "distinctive_marks": [
+   "Nike branding",
+   "PC compartment",
+   "Charger pocket"
+  ],
+  "description": "A Nike backpack designed to hold a PC and charger."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Backpack\",\n  \"brand\": \"Nike\",\n  \"color\": \"Not specified\",\n  \"material\": \"Not specified\",\n  \"distinctive_marks\": [\n    \"Nike branding\",\n    \"PC compartment\",\n    \"Charger pocket\"\n  ],\n  \"description\": \"A Nike backpack designed to hold a PC and charger.\"\n}",
+ "usage": {
+  "queue_time": 0.018677425,
+  "prompt_tokens": 72,
+  "prompt_time": 0.005946531,
+  "completion_tokens": 86,
+  "completion_time": 0.171420247,
+  "total_tokens": 158,
+  "total_time": 0.177366778
+ },
+ "latency_s": 0.85
+}

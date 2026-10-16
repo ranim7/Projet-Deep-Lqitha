@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "Wallet",
+  "brand": "Unknown",
+  "color": "Black",
+  "material": "Leather",
+  "distinctive_marks": [
+   "Contains a driver's license with number 12345678",
+   "Contains a bank card"
+  ],
+  "description": "A black leather wallet containing a driver's license (number 12345678) and a bank card, as described in the provided text."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Wallet\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Black\",\n  \"material\": \"Leather\",\n  \"distinctive_marks\": [\n    \"Contains a driver's license with number 12345678\",\n    \"Contains a bank card\"\n  ],\n  \"description\": \"A black leather wallet containing a driver's license (number 12345678) and a bank card, as described in the provided text.\"\n}",
+ "usage": {
+  "queue_time": 0.018567024,
+  "prompt_tokens": 73,
+  "prompt_time": 0.004886583,
+  "completion_tokens": 115,
+  "completion_time": 0.236413142,
+  "total_tokens": 188,
+  "total_time": 0.241299725
+ },
+ "latency_s": 0.89
+}

@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "fr",
+  "slots": {
+   "item_category": "bag",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place",
+   "date",
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où exactement avez-vous laissé votre sac dans le train ?",
+  "reply_to_user": null,
+  "search_query_fr": "perte sac train contact",
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bag\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place\",\"date\",\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où exactement avez-vous laissé votre sac dans le train ?\",\"reply_to_user\":null,\"search_query_fr\":\"perte sac train contact\",\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.146584701,
+  "prompt_tokens": 1395,
+  "prompt_time": 0.071281342,
+  "completion_tokens": 184,
+  "completion_time": 0.231437087,
+  "total_tokens": 1579,
+  "total_time": 0.302718429,
+  "completion_tokens_details": {
+   "reasoning_tokens": 59
+  }
+ },
+ "latency_s": 8.8
+}

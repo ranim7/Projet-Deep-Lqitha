@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "ID card"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Bag containing an ID card with a number that is currently missing.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[\"ID card\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Bag containing an ID card with a number that is currently missing.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.151459524,
+  "prompt_tokens": 756,
+  "prompt_time": 0.041337596,
+  "completion_tokens": 271,
+  "completion_time": 0.292958424,
+  "total_tokens": 1027,
+  "total_time": 0.33429602,
+  "completion_tokens_details": {
+   "reasoning_tokens": 170
+  }
+ },
+ "latency_s": 1.12
+}

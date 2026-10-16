@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": false,
+  "reason": "Answer does not state the engraved name"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":false,\"reason\":\"Answer does not state the engraved name\"}",
+ "usage": {
+  "queue_time": 0.205100916,
+  "prompt_tokens": 268,
+  "prompt_time": 0.013217523,
+  "completion_tokens": 61,
+  "completion_time": 0.063091805,
+  "total_tokens": 329,
+  "total_time": 0.076309328,
+  "completion_tokens_details": {
+   "reasoning_tokens": 37
+  }
+ },
+ "latency_s": 0.81
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon sac à main près de Martyrs ce matin, il était noir, en cuir, contenant ma carte métro, plusieurs billets et mes cartes bancaires."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon sac à main près de Martyrs ce matin, il était noir, en cuir, contenant ma carte métro, plusieurs billets et mes cartes bancaires.\"}",
+ "usage": {
+  "queue_time": 0.089728984,
+  "prompt_tokens": 310,
+  "prompt_time": 0.013581141,
+  "completion_tokens": 84,
+  "completion_time": 0.172856071,
+  "total_tokens": 394,
+  "total_time": 0.186437212,
+  "completion_tokens_details": {
+   "reasoning_tokens": 37
+  }
+ }
+}

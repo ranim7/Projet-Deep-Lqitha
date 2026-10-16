@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": "phone case",
+  "brand": null,
+  "model": null,
+  "color_family": "red",
+  "color_detail": "red",
+  "material": "plastic",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Red plastic phone case with multiple compartments.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 1.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"phone\", \"subcategory\": \"phone case\", \"brand\": null, \"model\": null,\n \"color_family\": \"red\", \"color_detail\": \"red\", \"material\": \"plastic\",\n \"distinctive_marks\": [], \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false, \"canonical_description\": \"Red plastic phone case with multiple compartments.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 1.0, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 123,
+  "total_tokens": 1114
+ },
+ "latency_s": 17.95
+}

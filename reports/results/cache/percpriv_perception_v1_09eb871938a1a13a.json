@@ -1,0 +1,24 @@
+{
+ "parsed": {
+  "category": "Handbag",
+  "brand": "Unknown",
+  "color": "Unknown",
+  "material": "Unknown",
+  "distinctive_marks": [
+   "Identification card with number 07654321"
+  ],
+  "description": "A handbag containing an identification card with the number 07654321."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Handbag\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Unknown\",\n  \"material\": \"Unknown\",\n  \"distinctive_marks\": [\n    \"Identification card with number 07654321\"\n  ],\n  \"description\": \"A handbag containing an identification card with the number 07654321.\"\n}",
+ "usage": {
+  "queue_time": 0.018795525,
+  "prompt_tokens": 64,
+  "prompt_time": 0.005427331,
+  "completion_tokens": 91,
+  "completion_time": 0.178079084,
+  "total_tokens": 155,
+  "total_time": 0.183506415
+ },
+ "latency_s": 0.87
+}

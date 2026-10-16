@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "bank_card",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": "[masked]",
+  "contains_sensitive_document": true,
+  "canonical_description": "Bank card with masked number found near the counter in a public area.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bank_card\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":\"[masked]\",\"contains_sensitive_document\":true,\"canonical_description\":\"Bank card with masked number found near the counter in a public area.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 1.434412995,
+  "prompt_tokens": 769,
+  "prompt_time": 0.050298032,
+  "completion_tokens": 270,
+  "completion_time": 0.297573286,
+  "total_tokens": 1039,
+  "total_time": 0.347871318,
+  "completion_tokens_details": {
+   "reasoning_tokens": 168
+  }
+ },
+ "latency_s": 2.32
+}

@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": false,
+  "reason": "Answer does not confirm the specific fact"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":false,\"reason\":\"Answer does not confirm the specific fact\"}",
+ "usage": {
+  "queue_time": 0.138894174,
+  "prompt_tokens": 263,
+  "prompt_time": 0.013502517,
+  "completion_tokens": 32,
+  "completion_time": 0.034335541,
+  "total_tokens": 295,
+  "total_time": 0.047838058,
+  "completion_tokens_details": {
+   "reasoning_tokens": 8
+  }
+ },
+ "latency_s": 1.12
+}

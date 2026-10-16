@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "ar",
+  "slots": {
+   "item": "حقيبة سوداء",
+   "location": "مطار تونس قرطاج",
+   "date": "اليوم"
+  },
+  "missing": [
+   "photo",
+   "contact_information"
+  ],
+  "next_action": "ask_for_missing_info",
+  "question_to_user": "هل يمكنك إرفاق صورة للحقيبة أو تزويدنا بمعلومات الاتصال الخاصة بك؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"ar\",\"slots\":{\"item\":\"حقيبة سوداء\",\"location\":\"مطار تونس قرطاج\",\"date\":\"اليوم\"},\"missing\":[\"photo\",\"contact_information\"],\"next_action\":\"ask_for_missing_info\",\"question_to_user\":\"هل يمكنك إرفاق صورة للحقيبة أو تزويدنا بمعلومات الاتصال الخاصة بك؟\"}",
+ "usage": {
+  "queue_time": 0.216175366,
+  "prompt_tokens": 208,
+  "prompt_time": 0.010140974,
+  "completion_tokens": 156,
+  "completion_time": 0.182387528,
+  "total_tokens": 364,
+  "total_time": 0.192528502,
+  "completion_tokens_details": {
+   "reasoning_tokens": 69
+  }
+ },
+ "latency_s": 1.21
+}

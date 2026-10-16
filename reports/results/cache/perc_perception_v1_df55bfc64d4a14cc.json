@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "Audio Equipment",
+  "brand": "Apple",
+  "color": "White",
+  "material": "Plastic",
+  "distinctive_marks": [
+   "Star-shaped remote control",
+   "3.5mm audio jack",
+   "Over-ear design"
+  ],
+  "description": "A set of white Apple over-ear headphones, likely the 'Apple Earphones with Remote and Mic' model. The image displays the headphones, a star-shaped inline remote control with a 3.5mm jack, and close-up details of the headband and remote."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Audio Equipment\",\n  \"brand\": \"Apple\",\n  \"color\": \"White\",\n  \"material\": \"Plastic\",\n  \"distinctive_marks\": [\n    \"Star-shaped remote control\",\n    \"3.5mm audio jack\",\n    \"Over-ear design\"\n  ],\n  \"description\": \"A set of white Apple over-ear headphones, likely the 'Apple Earphones with Remote and Mic' model. The image displays the headphones, a star-shaped inline remote control with a 3.5mm jack, and close-up details of the headband and remote.\"\n}",
+ "usage": {
+  "queue_time": 0.090917366,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.116013068,
+  "completion_tokens": 141,
+  "completion_time": 0.276543847,
+  "total_tokens": 1478,
+  "total_time": 0.392556915
+ },
+ "latency_s": 19.81
+}

@@ -1,0 +1,30 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "ar",
+  "slots": {
+   "item": "مفاتيح"
+  },
+  "missing": [
+   "location",
+   "date"
+  ],
+  "next_action": "ask_missing_info",
+  "question_to_user": "من فضلك أخبرني أين فقدت مفاتيحك وتاريخ الفقدان؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"ar\",\"slots\":{\"item\":\"مفاتيح\"},\"missing\":[\"location\",\"date\"],\"next_action\":\"ask_missing_info\",\"question_to_user\":\"من فضلك أخبرني أين فقدت مفاتيحك وتاريخ الفقدان؟\"}",
+ "usage": {
+  "queue_time": 0.087708619,
+  "prompt_tokens": 198,
+  "prompt_time": 0.009524978,
+  "completion_tokens": 122,
+  "completion_time": 0.145788106,
+  "total_tokens": 320,
+  "total_time": 0.155313084,
+  "completion_tokens_details": {
+   "reasoning_tokens": 53
+  }
+ },
+ "latency_s": 0.89
+}

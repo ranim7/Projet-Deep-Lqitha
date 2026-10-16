@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "clothing",
+  "subcategory": "beanie",
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey body with navy blue cuff",
+  "material": "knitted wool",
+  "distinctive_marks": [
+   "ribbed knit texture",
+   "folded cuff"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey knitted beanie hat with a navy blue folded cuff and ribbed texture.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"clothing\",\n  \"subcategory\": \"beanie\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"grey\",\n  \"color_detail\": \"grey body with navy blue cuff\",\n  \"material\": \"knitted wool\",\n  \"distinctive_marks\": [\n    \"ribbed knit texture\",\n    \"folded cuff\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Grey knitted beanie hat with a navy blue folded cuff and ribbed texture.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.099686913,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.177330143,
+  "completion_tokens": 190,
+  "completion_time": 0.374989147,
+  "total_tokens": 2170,
+  "total_time": 0.55231929
+ },
+ "latency_s": 25.04
+}

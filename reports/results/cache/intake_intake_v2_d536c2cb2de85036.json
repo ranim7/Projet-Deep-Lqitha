@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "phone",
+   "date_text": "lbera7",
+   "date_iso": "2026-10-13",
+   "place_type": "louage",
+   "place_name": "Sousse",
+   "governorate": "Sousse",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Kifesh t7eb t9oul 3la l7aja li 9adit?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"phone\",\"date_text\":\"lbera7\",\"date_iso\":\"2026-10-13\",\"place_type\":\"louage\",\"place_name\":\"Sousse\",\"governorate\":\"Sousse\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Kifesh t7eb t9oul 3la l7aja li 9adit?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.293173893,
+  "prompt_tokens": 1401,
+  "prompt_time": 0.070038259,
+  "completion_tokens": 190,
+  "completion_time": 0.196911188,
+  "total_tokens": 1591,
+  "total_time": 0.266949447,
+  "completion_tokens_details": {
+   "reasoning_tokens": 54
+  }
+ },
+ "latency_s": 1.2
+}

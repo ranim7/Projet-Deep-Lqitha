@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "glasses",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": null,
+  "distinctive_marks": [
+   "cheetah print"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown glasses featuring cheetah print, unique style, lost during a crowd.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"glasses\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"brown\",\"material\":null,\"distinctive_marks\":[\"cheetah print\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Brown glasses featuring cheetah print, unique style, lost during a crowd.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.295807879,
+  "prompt_tokens": 807,
+  "prompt_time": 0.059684422,
+  "completion_tokens": 294,
+  "completion_time": 0.304441911,
+  "total_tokens": 1101,
+  "total_time": 0.364126333,
+  "completion_tokens_details": {
+   "reasoning_tokens": 187
+  }
+ },
+ "latency_s": 1.1
+}

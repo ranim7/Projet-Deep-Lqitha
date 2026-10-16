@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "backpack",
+  "brand": "Nike",
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "pc",
+   "charger"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black Nike backpack containing a PC and a charger.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.85
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":\"backpack\",\"brand\":\"Nike\",\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"pc\",\"charger\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black Nike backpack containing a PC and a charger.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.85}}",
+ "usage": {
+  "queue_time": 0.193671284,
+  "prompt_tokens": 766,
+  "prompt_time": 0.046109489,
+  "completion_tokens": 138,
+  "completion_time": 0.144592131,
+  "total_tokens": 904,
+  "total_time": 0.19070162,
+  "completion_tokens_details": {
+   "reasoning_tokens": 38
+  }
+ },
+ "latency_s": 0.94
+}

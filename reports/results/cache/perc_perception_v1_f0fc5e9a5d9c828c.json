@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "brand": "Mia & Nicole",
+  "color": "blue-grey",
+  "material": "leather",
+  "distinctive_marks": [
+   "perforated vertical strap",
+   "heart-shaped metal clasp",
+   "circular metal charm with 'M&N' and 'MIA & NICOLE' text",
+   "gold-tone chain"
+  ],
+  "description": "A blue-grey leather wallet with a textured finish. It features a central vertical strap with perforations and a heart-shaped metal clasp. A gold-tone chain is attached to the side, holding a circular metal charm engraved with the brand name 'Mia & Nicole' and the initials 'M&N'."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"wallet\",\n  \"brand\": \"Mia & Nicole\",\n  \"color\": \"blue-grey\",\n  \"material\": \"leather\",\n  \"distinctive_marks\": [\n    \"perforated vertical strap\",\n    \"heart-shaped metal clasp\",\n    \"circular metal charm with 'M&N' and 'MIA & NICOLE' text\",\n    \"gold-tone chain\"\n  ],\n  \"description\": \"A blue-grey leather wallet with a textured finish. It features a central vertical strap with perforations and a heart-shaped metal clasp. A gold-tone chain is attached to the side, holding a circular metal charm engraved with the brand name 'Mia & Nicole' and the initials 'M&N'.\"\n}",
+ "usage": {
+  "queue_time": 0.324393532,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.101543147,
+  "completion_tokens": 173,
+  "completion_time": 0.328281985,
+  "total_tokens": 1510,
+  "total_time": 0.429825132
+ },
+ "latency_s": 19.96
+}

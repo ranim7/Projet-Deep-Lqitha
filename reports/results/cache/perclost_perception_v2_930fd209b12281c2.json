@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "watch",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black and silver",
+  "material": "resin",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black and silver watch with a small LCD screen and a resin strap, waterproof.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"watch\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black and silver\",\"material\":\"resin\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black and silver watch with a small LCD screen and a resin strap, waterproof.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.292371322,
+  "prompt_tokens": 781,
+  "prompt_time": 0.04184882,
+  "completion_tokens": 227,
+  "completion_time": 0.236496539,
+  "total_tokens": 1008,
+  "total_time": 0.278345359,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 123
+  }
+ },
+ "latency_s": 1.14
+}

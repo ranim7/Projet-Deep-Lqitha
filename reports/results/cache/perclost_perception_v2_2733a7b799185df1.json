@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": "steel",
+  "distinctive_marks": [
+   "red logo"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey metal steel bottle 500ml with a red logo.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bottle\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":\"steel\",\"distinctive_marks\":[\"red logo\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey metal steel bottle 500ml with a red logo.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.294509118,
+  "prompt_tokens": 802,
+  "prompt_time": 0.022641522,
+  "completion_tokens": 273,
+  "completion_time": 0.283138602,
+  "total_tokens": 1075,
+  "total_time": 0.305780124,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 172
+  }
+ },
+ "latency_s": 1.28
+}

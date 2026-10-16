@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "category": "Umbrella",
+  "brand": "Unknown",
+  "color": "Black (main), Multi-colored (options)",
+  "material": "Fabric (Canopy), Metal (Ribs/Shaft), Plastic (Handle)",
+  "distinctive_marks": [
+   "8-panel canopy design",
+   "Straight shaft",
+   "Straight handle with wrist strap",
+   "Available in multiple colors and patterns"
+  ],
+  "description": "The image displays a standard 8-panel umbrella, shown open in a solid black color. It features a straight metal shaft and a straight handle with a wrist strap. Below the main image, a row of smaller umbrellas illustrates the product's availability in various other colors and patterns, including red, blue, green, grey, and red/white/blue star patterns."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Umbrella\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Black (main), Multi-colored (options)\",\n  \"material\": \"Fabric (Canopy), Metal (Ribs/Shaft), Plastic (Handle)\",\n  \"distinctive_marks\": [\n    \"8-panel canopy design\",\n    \"Straight shaft\",\n    \"Straight handle with wrist strap\",\n    \"Available in multiple colors and patterns\"\n  ],\n  \"description\": \"The image displays a standard 8-panel umbrella, shown open in a solid black color. It features a straight metal shaft and a straight handle with a wrist strap. Below the main image, a row of smaller umbrellas illustrates the product's availability in various other colors and patterns, including red, blue, green, grey, and red/white/blue star patterns.\"\n}",
+ "usage": {
+  "queue_time": 0.106597773,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.101255481,
+  "completion_tokens": 188,
+  "completion_time": 0.36734873,
+  "total_tokens": 1525,
+  "total_time": 0.468604211
+ },
+ "latency_s": 19.75
+}

@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "answer": "Salut! Je n’ai pas trouvé d’information sur le tarif exact du renouvellement de la carte d’identité en 2026 dans les sources fournies. Pour connaître le coût, il faut contacter le service de l’Identité nationale ou le poste de police le plus proche, qui pourra vous indiquer le montant actuel et les modalités de paiement.\n\n**Autorité compétente** : poste de police ou garde nationale, ou le service de l’Identité nationale.\n\n",
+  "used_sources": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "grounded": false
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salut! Je n’ai pas trouvé d’information sur le tarif exact du renouvellement de la carte d’identité en 2026 dans les sources fournies. Pour connaître le coût, il faut contacter le service de l’Identité nationale ou le poste de police le plus proche, qui pourra vous indiquer le montant actuel et les modalités de paiement.\\n\\n**Autorité compétente** : poste de police ou garde nationale, ou le service de l’Identité nationale.\\n\\n\", \"used_sources\":[1,2,3,4],\"grounded\":false}",
+ "usage": {
+  "queue_time": 0.086844915,
+  "prompt_tokens": 1624,
+  "prompt_time": 0.110212109,
+  "completion_tokens": 157,
+  "completion_time": 0.169838839,
+  "total_tokens": 1781,
+  "total_time": 0.280050948,
+  "completion_tokens_details": {
+   "reasoning_tokens": 26
+  }
+ },
+ "latency_s": 18.39
+}

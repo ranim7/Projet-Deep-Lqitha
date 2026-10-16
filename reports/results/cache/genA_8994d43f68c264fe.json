@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lbare7 f International Fair of Nabeul, nseet sa3a s7ra, strap resin k7el, écran LCD, t9dar t9ra l'heure w ma t9issh lma."
+ },
+ "raw": "{\"message\":\"Lbare7 f International Fair of Nabeul, nseet sa3a s7ra, strap resin k7el, écran LCD, t9dar t9ra l'heure w ma t9issh lma.\"}",
+ "usage": {
+  "queue_time": 0.299242475,
+  "prompt_tokens": 349,
+  "prompt_time": 0.088253354,
+  "completion_tokens": 113,
+  "completion_time": 0.235417933,
+  "total_tokens": 462,
+  "total_time": 0.323671287,
+  "completion_tokens_details": {
+   "reasoning_tokens": 53
+  }
+ }
+}

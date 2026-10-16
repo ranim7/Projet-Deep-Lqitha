@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": "leather",
+  "distinctive_marks": [
+   "silver clasp"
+  ],
+  "contents": [
+   "watch"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown leather bag with a silver clasp, containing a watch.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"brown\",\"material\":\"leather\",\"distinctive_marks\":[\"silver clasp\"],\"contents\":[\"watch\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Brown leather bag with a silver clasp, containing a watch.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.299521895,
+  "prompt_tokens": 771,
+  "prompt_time": 0.035809216,
+  "completion_tokens": 169,
+  "completion_time": 0.178813922,
+  "total_tokens": 940,
+  "total_time": 0.214623138,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 66
+  }
+ },
+ "latency_s": 1.12
+}

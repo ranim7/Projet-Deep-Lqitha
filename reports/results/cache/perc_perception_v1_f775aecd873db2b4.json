@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "category": "water bottle",
+  "brand": "Contigo",
+  "color": "green",
+  "material": "plastic",
+  "distinctive_marks": [
+   "flip-top lid",
+   "white slider on lid",
+   "ergonomic side grips",
+   "translucent body"
+  ],
+  "description": "A translucent green plastic water bottle with a matching green flip-top lid. The lid features a white slider mechanism for opening and closing. The bottle has a cylindrical shape with indented grips on the sides for better handling."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"water bottle\",\n  \"brand\": \"Contigo\",\n  \"color\": \"green\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"flip-top lid\",\n    \"white slider on lid\",\n    \"ergonomic side grips\",\n    \"translucent body\"\n  ],\n  \"description\": \"A translucent green plastic water bottle with a matching green flip-top lid. The lid features a white slider mechanism for opening and closing. The bottle has a cylindrical shape with indented grips on the sides for better handling.\"\n}",
+ "usage": {
+  "queue_time": 0.099306626,
+  "prompt_tokens": 1081,
+  "prompt_time": 0.074114929,
+  "completion_tokens": 134,
+  "completion_time": 0.28472653,
+  "total_tokens": 1215,
+  "total_time": 0.358841459
+ },
+ "latency_s": 19.69
+}

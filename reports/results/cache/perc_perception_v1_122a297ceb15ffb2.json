@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "logo",
+  "brand": "Amazon Basics",
+  "color": "black",
+  "material": "digital graphic",
+  "distinctive_marks": [
+   "amazon smile arrow",
+   "lowercase sans-serif font"
+  ],
+  "description": "A black and white digital logo for the brand 'amazonbasics'. The text is written in a lowercase, sans-serif font. A curved arrow, resembling a smile, is positioned underneath the word 'amazon', starting under the 'a' and ending with an arrowhead pointing towards the 'z'. The logo is displayed twice in the image, once fully at the top and once partially cropped at the bottom."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"logo\",\n  \"brand\": \"Amazon Basics\",\n  \"color\": \"black\",\n  \"material\": \"digital graphic\",\n  \"distinctive_marks\": [\n    \"amazon smile arrow\",\n    \"lowercase sans-serif font\"\n  ],\n  \"description\": \"A black and white digital logo for the brand 'amazonbasics'. The text is written in a lowercase, sans-serif font. A curved arrow, resembling a smile, is positioned underneath the word 'amazon', starting under the 'a' and ending with an arrowhead pointing towards the 'z'. The logo is displayed twice in the image, once fully at the top and once partially cropped at the bottom.\"\n}",
+ "usage": {
+  "queue_time": 0.151332427,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.09255981,
+  "completion_tokens": 158,
+  "completion_time": 0.326022876,
+  "total_tokens": 1495,
+  "total_time": 0.418582686
+ },
+ "latency_s": 19.73
+}

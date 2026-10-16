@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "fr",
+  "slots": {
+   "item": "téléphone",
+   "brand": "Samsung",
+   "color": "bleu",
+   "case": "transparente",
+   "location": "métro ligne 4",
+   "time": "avant-hier"
+  },
+  "missing": [
+   "station",
+   "contact_information"
+  ],
+  "next_action": "ask",
+  "question_to_user": "Pouvez-vous préciser à quelle station du métro ligne 4 vous avez perdu votre téléphone et me donner votre numéro de téléphone ou votre adresse e‑mail pour que nous puissions vous contacter ?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"fr\",\"slots\":{\"item\":\"téléphone\",\"brand\":\"Samsung\",\"color\":\"bleu\",\"case\":\"transparente\",\"location\":\"métro ligne 4\",\"time\":\"avant-hier\"},\"missing\":[\"station\",\"contact_information\"],\"next_action\":\"ask\",\"question_to_user\":\"Pouvez-vous préciser à quelle station du métro ligne 4 vous avez perdu votre téléphone et me donner votre numéro de téléphone ou votre adresse e‑mail pour que nous puissions vous contacter ?\"}",
+ "usage": {
+  "queue_time": 0.141075652,
+  "prompt_tokens": 213,
+  "prompt_time": 0.011865914,
+  "completion_tokens": 211,
+  "completion_time": 0.222024511,
+  "total_tokens": 424,
+  "total_time": 0.233890425,
+  "completion_tokens_details": {
+   "reasoning_tokens": 94
+  }
+ },
+ "latency_s": 0.99
+}

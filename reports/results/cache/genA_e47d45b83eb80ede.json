@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nseet 7ija, sac bleu faux leather, 7ajet kbir w 9a3da f'kif, fih flouss w maquillage, l9ith fi Rue Zaghouan lbera7, sbah."
+ },
+ "raw": "{\"message\":\"Nseet 7ija, sac bleu faux leather, 7ajet kbir w 9a3da f'kif, fih flouss w maquillage, l9ith fi Rue Zaghouan lbera7, sbah.\"}",
+ "usage": {
+  "queue_time": 0.236301265,
+  "prompt_tokens": 358,
+  "prompt_time": 0.019441834,
+  "completion_tokens": 127,
+  "completion_time": 0.261861601,
+  "total_tokens": 485,
+  "total_time": 0.281303435,
+  "completion_tokens_details": {
+   "reasoning_tokens": 63
+  }
+ }
+}

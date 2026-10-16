@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "answer": "Salut! Je n’ai pas trouvé d’information précise sur le numéro de téléphone du bureau des objets trouvés de la gare de Sfax dans les sources fournies. Vous pouvez contacter directement le chef de gare de la gare de Sfax (ou de la gare d’arrivée ou de départ) pour obtenir les coordonnées du bureau des objets trouvés. Si vous avez besoin d’aide supplémentaire, le service de police ou la garde nationale locale pourra également vous orienter vers la bonne personne.\n",
+  "used_sources": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "grounded": false
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salut! Je n’ai pas trouvé d’information précise sur le numéro de téléphone du bureau des objets trouvés de la gare de Sfax dans les sources fournies. Vous pouvez contacter directement le chef de gare de la gare de Sfax (ou de la gare d’arrivée ou de départ) pour obtenir les coordonnées du bureau des objets trouvés. Si vous avez besoin d’aide supplémentaire, le service de police ou la garde nationale locale pourra également vous orienter vers la bonne personne.\\n\",\"used_sources\":[1,2,3,4],\"grounded\":false}",
+ "usage": {
+  "queue_time": 0.196361472,
+  "prompt_tokens": 1230,
+  "prompt_time": 0.074812485,
+  "completion_tokens": 180,
+  "completion_time": 0.187514654,
+  "total_tokens": 1410,
+  "total_time": 0.262327139,
+  "completion_tokens_details": {
+   "reasoning_tokens": 54
+  }
+ },
+ "latency_s": 18.24
+}

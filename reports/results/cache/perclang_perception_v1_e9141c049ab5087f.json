@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "umbrella",
+  "brand": "unknown",
+  "color": "red",
+  "material": "unknown",
+  "distinctive_marks": "white dots",
+  "description": "A red umbrella with white dots, lost on bus 28."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"umbrella\",\"brand\":\"unknown\",\"color\":\"red\",\"material\":\"unknown\",\"distinctive_marks\":\"white dots\",\"description\":\"A red umbrella with white dots, lost on bus 28.\"}",
+ "usage": {
+  "queue_time": 0.018583825,
+  "prompt_tokens": 150,
+  "prompt_time": 0.007194004,
+  "completion_tokens": 89,
+  "completion_time": 0.092332944,
+  "total_tokens": 239,
+  "total_time": 0.099526948,
+  "completion_tokens_details": {
+   "reasoning_tokens": 39
+  }
+ },
+ "latency_s": 0.5
+}

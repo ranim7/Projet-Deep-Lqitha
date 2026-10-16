@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "navy",
+  "material": "canvas",
+  "distinctive_marks": [],
+  "contents": [
+   "small god statue",
+   "shankh",
+   "plush toys",
+   "clothes"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Navy blue canvas backpack containing a small god statue, a shankh, plush toys, and clothes.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"blue\",\"color_detail\":\"navy\",\"material\":\"canvas\",\"distinctive_marks\":[],\"contents\":[\"small god statue\",\"shankh\",\"plush toys\",\"clothes\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Navy blue canvas backpack containing a small god statue, a shankh, plush toys, and clothes.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.459526645,
+  "prompt_tokens": 789,
+  "prompt_time": 0.032591042,
+  "completion_tokens": 206,
+  "completion_time": 0.209276677,
+  "total_tokens": 995,
+  "total_time": 0.241867719,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 83
+  }
+ },
+ "latency_s": 4.74
+}

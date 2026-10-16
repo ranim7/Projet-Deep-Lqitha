@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "keychain",
+  "brand": "unknown",
+  "color": "gold",
+  "material": "metal",
+  "distinctive_marks": "Eiffel Tower shape",
+  "description": "A golden metal keychain shaped like the Eiffel Tower, used as a key holder."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"keychain\",\"brand\":\"unknown\",\"color\":\"gold\",\"material\":\"metal\",\"distinctive_marks\":\"Eiffel Tower shape\",\"description\":\"A golden metal keychain shaped like the Eiffel Tower, used as a key holder.\"}",
+ "usage": {
+  "queue_time": 0.293615537,
+  "prompt_tokens": 153,
+  "prompt_time": 0.008491819,
+  "completion_tokens": 89,
+  "completion_time": 0.090992635,
+  "total_tokens": 242,
+  "total_time": 0.099484454,
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ },
+ "latency_s": 0.77
+}

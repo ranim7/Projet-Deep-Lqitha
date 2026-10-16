@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li sac kbir faw9 l3in, couleur gris, matiere en toile, fih rain coat, gloves, shawl w Aadhaar ta3 Gaurav, tlefet f Tajerouine awel lbera7."
+ },
+ "raw": "{\"message\":\"Dha3li sac kbir faw9 l3in, couleur gris, matiere en toile, fih rain coat, gloves, shawl w Aadhaar ta3 Gaurav, tlefet f Tajerouine awel lbera7.\"}",
+ "usage": {
+  "queue_time": 0.302904565,
+  "prompt_tokens": 327,
+  "prompt_time": 0.014716761,
+  "completion_tokens": 93,
+  "completion_time": 0.192160499,
+  "total_tokens": 420,
+  "total_time": 0.20687726,
+  "completion_tokens_details": {
+   "reasoning_tokens": 27
+  }
+ }
+}

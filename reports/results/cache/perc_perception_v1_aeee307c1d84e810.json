@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "category": "phone case",
+  "brand": "Generic",
+  "color": "Multicolor (Red, White, Brown)",
+  "material": "Plastic",
+  "distinctive_marks": "Printed design of a string of five fabric hearts (two solid red, one white with polka dots, two red and white gingham) against a background of horizontal wooden planks.",
+  "description": "A smartphone case featuring a printed design of a vertical string of five decorative fabric hearts. The hearts alternate between solid red, white with black polka dots, and red-and-white gingham patterns. The background of the print is a warm-toned wooden surface with horizontal planks. The case has a cutout for a vertical triple-lens camera and flash on the upper left side."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"phone case\",\n  \"brand\": \"Generic\",\n  \"color\": \"Multicolor (Red, White, Brown)\",\n  \"material\": \"Plastic\",\n  \"distinctive_marks\": \"Printed design of a string of five fabric hearts (two solid red, one white with polka dots, two red and white gingham) against a background of horizontal wooden planks.\",\n  \"description\": \"A smartphone case featuring a printed design of a vertical string of five decorative fabric hearts. The hearts alternate between solid red, white with black polka dots, and red-and-white gingham patterns. The background of the print is a warm-toned wooden surface with horizontal planks. The case has a cutout for a vertical triple-lens camera and flash on the upper left side.\"\n}",
+ "usage": {
+  "queue_time": 0.098946057,
+  "prompt_tokens": 825,
+  "prompt_time": 0.056766585,
+  "completion_tokens": 179,
+  "completion_time": 0.394262658,
+  "total_tokens": 1004,
+  "total_time": 0.451029243
+ },
+ "latency_s": 19.77
+}

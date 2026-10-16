@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li chape blanche, forme round, 3andha klemta sghira fil jnab, nseet'ha fil Rue Jendouba awel lbera7, 3la trawa"
+ },
+ "raw": "{\"message\":\"Dha3li chape blanche, forme round, 3andha klemta sghira fil jnab, nseet'ha fil Rue Jendouba awel lbera7, 3la trawa\"}",
+ "usage": {
+  "queue_time": 0.04861093,
+  "prompt_tokens": 335,
+  "prompt_time": 0.017522323,
+  "completion_tokens": 103,
+  "completion_time": 0.21486916,
+  "total_tokens": 438,
+  "total_time": 0.232391483,
+  "completion_tokens_details": {
+   "reasoning_tokens": 44
+  }
+ }
+}

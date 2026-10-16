@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": "phone case",
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [
+   "small object attached",
+   "simple design"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black phone case with a simple design and a small object attached.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"phone\",\n  \"subcategory\": \"phone case\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"black\",\n  \"color_detail\": \"black\",\n  \"material\": null,\n  \"distinctive_marks\": [\n    \"small object attached\",\n    \"simple design\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Black phone case with a simple design and a small object attached.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.018881762,
+  "prompt_tokens": 747,
+  "prompt_time": 0.064773722,
+  "completion_tokens": 170,
+  "completion_time": 0.335998134,
+  "total_tokens": 917,
+  "total_time": 0.400771856
+ },
+ "latency_s": 6.49
+}

@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "brand": "unknown",
+  "color": "black",
+  "material": "leather",
+  "distinctive_marks": "contains permit number 12345678 and a bank card",
+  "description": "A black leather wallet designed to hold a driver's permit with the number 12345678 and a bank card. It features a simple, functional layout with a clear compartment for the permit and a slot for the card, suitable for everyday use."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"wallet\",\"brand\":\"unknown\",\"color\":\"black\",\"material\":\"leather\",\"distinctive_marks\":\"contains permit number 12345678 and a bank card\",\"description\":\"A black leather wallet designed to hold a driver's permit with the number 12345678 and a bank card. It features a simple, functional layout with a clear compartment for the permit and a slot for the card, suitable for everyday use.\"}",
+ "usage": {
+  "queue_time": 0.471911616,
+  "prompt_tokens": 151,
+  "prompt_time": 0.008875855,
+  "completion_tokens": 147,
+  "completion_time": 0.168368411,
+  "total_tokens": 298,
+  "total_time": 0.177244266,
+  "completion_tokens_details": {
+   "reasoning_tokens": 53
+  }
+ },
+ "latency_s": 1.42
+}

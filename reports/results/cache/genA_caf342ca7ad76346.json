@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nseet laptop m3aya fi Jemmel awel lbera7, couleur gris m3a quelques stickers colorés, clavier noir, fih chi documents de travail, ma3andich marque, kan m3a sahbi."
+ },
+ "raw": "{\"message\":\"Nseet laptop m3aya fi Jemmel awel lbera7, couleur gris m3a quelques stickers colorés, clavier noir, fih chi documents de travail, ma3andich marque, kan m3a sahbi.\"}",
+ "usage": {
+  "queue_time": 0.235743918,
+  "prompt_tokens": 345,
+  "prompt_time": 0.017343979,
+  "completion_tokens": 136,
+  "completion_time": 0.284429927,
+  "total_tokens": 481,
+  "total_time": 0.301773906,
+  "completion_tokens_details": {
+   "reasoning_tokens": 75
+  }
+ }
+}

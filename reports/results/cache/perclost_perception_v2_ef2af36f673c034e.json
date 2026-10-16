@@ -1,0 +1,46 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [
+   "red strap"
+  ],
+  "contents": [
+   "ID card",
+   "water bottle",
+   "headphones",
+   "underwear"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Black bag with a red strap containing an ID card, water bottle, headphones, and underwear.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[\"red strap\"],\"contents\":[\"ID card\",\"water bottle\",\"headphones\",\"underwear\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Black bag with a red strap containing an ID card, water bottle, headphones, and underwear.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.086406198,
+  "prompt_tokens": 794,
+  "prompt_time": 0.021864534,
+  "completion_tokens": 199,
+  "completion_time": 0.326885037,
+  "total_tokens": 993,
+  "total_time": 0.348749571,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 80
+  }
+ },
+ "latency_s": 8.39
+}

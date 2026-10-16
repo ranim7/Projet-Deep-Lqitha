@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe wanted to let you know that a phone matching your description may have been found and is currently being kept at the Gare de Tunis. To confirm that this is indeed your device, could you tell us what the wallpaper on the lock screen looks like?\n\nThank you!",
+ "usage": {
+  "queue_time": 0.467896888,
+  "prompt_tokens": 166,
+  "prompt_time": 0.006783988,
+  "completion_tokens": 87,
+  "completion_time": 0.180882168,
+  "total_tokens": 253,
+  "total_time": 0.187666156,
+  "completion_tokens_details": {
+   "reasoning_tokens": 23
+  }
+ },
+ "latency_s": 1.55
+}

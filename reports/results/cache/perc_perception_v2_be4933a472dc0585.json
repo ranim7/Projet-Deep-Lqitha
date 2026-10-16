@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "laptop sleeve",
+  "brand": "eono",
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "royal blue",
+  "material": "neoprene",
+  "distinctive_marks": [
+   "grey handle",
+   "grey zipper",
+   "white logo text"
+  ],
+  "contents": [],
+  "visible_text": "eono",
+  "contains_sensitive_document": false,
+  "canonical_description": "Blue neoprene laptop sleeve with a grey handle and zipper, featuring the white eono logo on the front.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.95
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"bag\",\n  \"subcategory\": \"laptop sleeve\",\n  \"brand\": \"eono\",\n  \"model\": null,\n  \"color_family\": \"blue\",\n  \"color_detail\": \"royal blue\",\n  \"material\": \"neoprene\",\n  \"distinctive_marks\": [\n    \"grey handle\",\n    \"grey zipper\",\n    \"white logo text\"\n  ],\n  \"contents\": [],\n  \"visible_text\": \"eono\",\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Blue neoprene laptop sleeve with a grey handle and zipper, featuring the white eono logo on the front.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.95\n  }\n}",
+ "usage": {
+  "queue_time": 0.71030817,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.177927495,
+  "completion_tokens": 202,
+  "completion_time": 0.396797314,
+  "total_tokens": 2182,
+  "total_time": 0.574724809
+ },
+ "latency_s": 25.58
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu une sandale couleur ivoire, très claire, à l'القطب التكنولوجي avant-hier. Elle était assez simple, sans détails marquants."
+ },
+ "raw": "{\"message\":\"J'ai perdu une sandale couleur ivoire, très claire, à l'القطب التكنولوجي avant-hier. Elle était assez simple, sans détails marquants.\"}",
+ "usage": {
+  "queue_time": 0.020075794,
+  "prompt_tokens": 330,
+  "prompt_time": 0.014112333,
+  "completion_tokens": 80,
+  "completion_time": 0.165970632,
+  "total_tokens": 410,
+  "total_time": 0.180082965,
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ }
+}

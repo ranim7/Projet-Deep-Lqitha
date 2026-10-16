@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [
+   "small sticker on case"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black phone with a small sticker on its case.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"phone\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[\"small sticker on case\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black phone with a small sticker on its case.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.19350995,
+  "prompt_tokens": 795,
+  "prompt_time": 0.057896899,
+  "completion_tokens": 118,
+  "completion_time": 0.130922097,
+  "total_tokens": 913,
+  "total_time": 0.188818996,
+  "completion_tokens_details": {
+   "reasoning_tokens": 18
+  }
+ },
+ "latency_s": 1.11
+}

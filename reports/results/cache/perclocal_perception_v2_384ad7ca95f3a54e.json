@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "tote bag",
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "light blue",
+  "material": "fabric, leather",
+  "distinctive_marks": [
+   "striped fabric",
+   "buckles"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Light blue striped fabric tote bag with light blue leather handles and buckles.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bag\", \"subcategory\": \"tote bag\", \"brand\": null, \"model\": null,\n \"color_family\": \"blue\",\n \"color_detail\": \"light blue\",\n \"material\": \"fabric, leather\",\n \"distinctive_marks\": [\"striped fabric\", \"buckles\"],\n \"contents\": [],\n \"visible_text\": null,\n \"contains_sensitive_document\": false,\n \"canonical_description\": \"Light blue striped fabric tote bag with light blue leather handles and buckles.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 146,
+  "total_tokens": 1137
+ },
+ "latency_s": 15.84
+}

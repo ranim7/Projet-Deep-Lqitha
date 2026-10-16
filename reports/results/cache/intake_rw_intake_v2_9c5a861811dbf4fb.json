@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "bank_card",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Pour bloquer temporairement votre carte bancaire depuis l’application, ouvrez l’application bancaire, allez dans la section « Cartes » ou « Mes cartes », sélectionnez la carte concernée, puis choisissez l’option « Bloquer la carte » ou « Suspendre la carte ». Confirmez votre choix et vous recevrez une notification de confirmation. Si vous ne voyez pas cette option, contactez le service client via l’application ou appelez le numéro indiqué.",
+  "search_query_fr": "bloquer carte bancaire application",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bank_card\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Pour bloquer temporairement votre carte bancaire depuis l’application, ouvrez l’application bancaire, allez dans la section « Cartes » ou « Mes cartes », sélectionnez la carte concernée, puis choisissez l’option « Bloquer la carte » ou « Suspendre la carte ». Confirmez votre choix et vous recevrez une notification de confirmation. Si vous ne voyez pas cette option, contactez le service client via l’application ou appelez le numéro indiqué.\",\"search_query_fr\":\"bloquer carte bancaire application\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.293385373,
+  "prompt_tokens": 1393,
+  "prompt_time": 1.7280033000000001,
+  "completion_tokens": 224,
+  "completion_time": 0.230929452,
+  "total_tokens": 1617,
+  "total_time": 1.958932752,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 18
+  }
+ },
+ "latency_s": 11.42
+}

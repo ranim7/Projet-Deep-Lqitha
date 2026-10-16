@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": "polyethylene",
+  "distinctive_marks": [],
+  "contents": [
+   "socks",
+   "handkerchiefs"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey poly bag containing socks and handkerchiefs.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":\"polyethylene\",\"distinctive_marks\":[],\"contents\":[\"socks\",\"handkerchiefs\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey poly bag containing socks and handkerchiefs.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.01723135,
+  "prompt_tokens": 794,
+  "prompt_time": 0.212554163,
+  "completion_tokens": 237,
+  "completion_time": 0.250268418,
+  "total_tokens": 1031,
+  "total_time": 0.462822581,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 132
+  }
+ },
+ "latency_s": 1.09
+}

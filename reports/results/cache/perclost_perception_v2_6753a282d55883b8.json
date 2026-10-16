@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "tiffins",
+   "paper towels"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey bag with an open zipper, containing tiffins and paper towels.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"tiffins\",\"paper towels\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey bag with an open zipper, containing tiffins and paper towels.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.293023939,
+  "prompt_tokens": 795,
+  "prompt_time": 0.315156015,
+  "completion_tokens": 243,
+  "completion_time": 0.2471254,
+  "total_tokens": 1038,
+  "total_time": 0.562281415,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 136
+  }
+ },
+ "latency_s": 1.93
+}

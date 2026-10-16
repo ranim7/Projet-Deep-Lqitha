@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Pour obtenir un duplicata de passeport, il faut généralement fournir une photo d’identité récente, de préférence en couleur, prise sur fond blanc. La photo doit respecter les normes officielles (taille 35x45 mm, visage centré, sans lunettes ni couvre-chef).",
+  "search_query_fr": "documents duplicata passeport photo",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Pour obtenir un duplicata de passeport, il faut généralement fournir une photo d’identité récente, de préférence en couleur, prise sur fond blanc. La photo doit respecter les normes officielles (taille 35x45 mm, visage centré, sans lunettes ni couvre-chef).\",\"search_query_fr\":\"documents duplicata passeport photo\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.088497806,
+  "prompt_tokens": 1395,
+  "prompt_time": 0.072890391,
+  "completion_tokens": 190,
+  "completion_time": 0.207638495,
+  "total_tokens": 1585,
+  "total_time": 0.280528886,
+  "completion_tokens_details": {
+   "reasoning_tokens": 25
+  }
+ },
+ "latency_s": 0.97
+}

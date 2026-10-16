@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: strong contradiction (grey vs black)",
+   "brand: both unknown, no contradiction",
+   "marks/contents: no shared details",
+   "time/place: found date after lost date (ok), different place (weak)"
+  ],
+  "agreements": [],
+  "contradictions": [
+   "color"
+  ],
+  "decision": "no_match",
+  "confidence": 0.1,
+  "question_for_owner": null
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: strong contradiction (grey vs black)\",\"brand: both unknown, no contradiction\",\"marks/contents: no shared details\",\"time/place: found date after lost date (ok), different place (weak)\"],\"agreements\":[],\"contradictions\":[\"color\"],\"decision\":\"no_match\",\"confidence\":0.1,\"question_for_owner\":null}",
+ "usage": {
+  "queue_time": 0.049434409,
+  "prompt_tokens": 796,
+  "prompt_time": 0.014571845,
+  "completion_tokens": 121,
+  "completion_time": 0.305268047,
+  "total_tokens": 917,
+  "total_time": 0.319839892,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ },
+ "latency_s": 8.81
+}

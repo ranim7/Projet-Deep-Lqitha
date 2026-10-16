@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "owner_message": "Bonjour, nous avons trouvé un téléphone qui pourrait être le vôtre à la Gare de Tunis. Pour confirmer, veuillez répondre à la question de vérification ci‑dessous.",
+  "challenge_question": "Quelle image apparaît sur l'écran de verrouillage ?",
+  "finder_message": "Merci pour votre aide. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification."
+ },
+ "strict_json": true,
+ "raw": "{\"owner_message\":\"Bonjour, nous avons trouvé un téléphone qui pourrait être le vôtre à la Gare de Tunis. Pour confirmer, veuillez répondre à la question de vérification ci‑dessous.\",\"challenge_question\":\"Quelle image apparaît sur l'écran de verrouillage ?\",\"finder_message\":\"Merci pour votre aide. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification.\"}",
+ "usage": {
+  "queue_time": 0.196721167,
+  "prompt_tokens": 436,
+  "prompt_time": 0.020839155,
+  "completion_tokens": 194,
+  "completion_time": 0.406542009,
+  "total_tokens": 630,
+  "total_time": 0.427381164,
+  "completion_tokens_details": {
+   "reasoning_tokens": 107
+  }
+ },
+ "latency_s": 1.56
+}

@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "category": "water bottle",
+  "brand": "eono",
+  "color": "multicolor (red, blue, green)",
+  "material": "plastic",
+  "distinctive_marks": "brand logo 'eono', measurement markings, integrated fruit infuser cup",
+  "description": "A set of translucent plastic water bottles with colored lids and bases in red, blue, and green. The bottles feature measurement markings and an integrated fruit infuser cup, shown with a lemon slice."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"water bottle\",\n  \"brand\": \"eono\",\n  \"color\": \"multicolor (red, blue, green)\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": \"brand logo 'eono', measurement markings, integrated fruit infuser cup\",\n  \"description\": \"A set of translucent plastic water bottles with colored lids and bases in red, blue, and green. The bottles feature measurement markings and an integrated fruit infuser cup, shown with a lemon slice.\"\n}",
+ "usage": {
+  "queue_time": 0.113106401,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.091900953,
+  "completion_tokens": 119,
+  "completion_time": 0.226442674,
+  "total_tokens": 1456,
+  "total_time": 0.318343627
+ },
+ "latency_s": 19.79
+}

@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": "glass bottle",
+  "brand": "Solimo",
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "teal",
+  "material": "glass, silicone, metal",
+  "distinctive_marks": [
+   "teal silicone sleeve",
+   "silver metal cap"
+  ],
+  "contents": [],
+  "visible_text": "SOLIMO",
+  "contains_sensitive_document": false,
+  "canonical_description": "Teal glass bottle with a silver metal cap and a silicone sleeve featuring the Solimo logo.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.95
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"bottle\",\n  \"subcategory\": \"glass bottle\",\n  \"brand\": \"Solimo\",\n  \"model\": null,\n  \"color_family\": \"blue\",\n  \"color_detail\": \"teal\",\n  \"material\": \"glass, silicone, metal\",\n  \"distinctive_marks\": [\n    \"teal silicone sleeve\",\n    \"silver metal cap\"\n  ],\n  \"contents\": [],\n  \"visible_text\": \"SOLIMO\",\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Teal glass bottle with a silver metal cap and a silicone sleeve featuring the Solimo logo.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.95\n  }\n}",
+ "usage": {
+  "queue_time": 0.087276215,
+  "prompt_tokens": 1724,
+  "prompt_time": 0.14949268,
+  "completion_tokens": 196,
+  "completion_time": 0.395424811,
+  "total_tokens": 1920,
+  "total_time": 0.544917491
+ },
+ "latency_s": 25.07
+}

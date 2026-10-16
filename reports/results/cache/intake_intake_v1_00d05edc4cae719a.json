@@ -1,0 +1,30 @@
+{
+ "parsed": {
+  "intent": "report_lost_wallet_and_request_card_block",
+  "language": "ar-TN",
+  "slots": {
+   "wallet_lost": true,
+   "card_present": true
+  },
+  "missing": [
+   "card_number"
+  ],
+  "next_action": "ask_for_card_number",
+  "question_to_user": "Could you please provide the last four digits of the card you want to block?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_wallet_and_request_card_block\",\"language\":\"ar-TN\",\"slots\":{\"wallet_lost\":true,\"card_present\":true},\"missing\":[\"card_number\"],\"next_action\":\"ask_for_card_number\",\"question_to_user\":\"Could you please provide the last four digits of the card you want to block?\"}",
+ "usage": {
+  "queue_time": 0.217233469,
+  "prompt_tokens": 215,
+  "prompt_time": 0.012410015,
+  "completion_tokens": 203,
+  "completion_time": 0.210423643,
+  "total_tokens": 418,
+  "total_time": 0.222833658,
+  "completion_tokens_details": {
+   "reasoning_tokens": 128
+  }
+ },
+ "latency_s": 1.13
+}

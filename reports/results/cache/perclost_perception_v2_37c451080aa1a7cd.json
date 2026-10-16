@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Gray carry bag with red strap and open zipper, found in Bellevue today.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Gray carry bag with red strap and open zipper, found in Bellevue today.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.018741879,
+  "prompt_tokens": 793,
+  "prompt_time": 0.039786027,
+  "completion_tokens": 293,
+  "completion_time": 0.302505793,
+  "total_tokens": 1086,
+  "total_time": 0.34229182,
+  "completion_tokens_details": {
+   "reasoning_tokens": 193
+  }
+ },
+ "latency_s": 1.03
+}

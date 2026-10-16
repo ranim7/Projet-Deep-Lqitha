@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "category": "hat",
+  "subcategory": null,
+  "brand": "STARTER",
+  "model": null,
+  "color_family": "white",
+  "color_detail": "white",
+  "material": "fabric",
+  "distinctive_marks": [
+   "logo on the front",
+   "black trim"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "White hat with a black trim and the STARTER logo on the front.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.9
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"hat\", \"subcategory\": null, \"brand\": \"STARTER\", \"model\": null,\n \"color_family\": \"white\", \"color_detail\": \"white\", \"material\": \"fabric\",\n \"distinctive_marks\": [\"logo on the front\", \"black trim\"],\n \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false, \"canonical_description\": \"White hat with a black trim and the STARTER logo on the front.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.9}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 141,
+  "total_tokens": 1132
+ },
+ "latency_s": 19.68
+}

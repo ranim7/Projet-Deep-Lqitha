@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe may have located the keys you reported missing. They were found at the Gare de Tunis and match the description you provided.\n\nTo confirm that they are indeed yours, could you tell us the hidden detail you mentioned in your report? (Hint: it’s something about a blue keychain shaped like a fish.)\n\nThank you!",
+ "usage": {
+  "queue_time": 0.090624689,
+  "prompt_tokens": 162,
+  "prompt_time": 0.006517694,
+  "completion_tokens": 92,
+  "completion_time": 0.191719199,
+  "total_tokens": 254,
+  "total_time": 0.198236893,
+  "completion_tokens_details": {
+   "reasoning_tokens": 16
+  }
+ },
+ "latency_s": 1.4
+}

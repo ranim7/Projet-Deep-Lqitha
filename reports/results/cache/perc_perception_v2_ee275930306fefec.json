@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "category": "headphones",
+  "subcategory": "over-ear headphones",
+  "brand": null,
+  "model": null,
+  "color_family": "white",
+  "color_detail": "white",
+  "material": "plastic",
+  "distinctive_marks": [
+   "wired",
+   "3.5mm jack",
+   "star-shaped inline remote"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "White plastic over-ear wired headphones with a 3.5mm jack and a star-shaped inline remote control.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"headphones\",\n  \"subcategory\": \"over-ear headphones\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"white\",\n  \"color_detail\": \"white\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"wired\",\n    \"3.5mm jack\",\n    \"star-shaped inline remote\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"White plastic over-ear wired headphones with a 3.5mm jack and a star-shaped inline remote control.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.096546858,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.165066291,
+  "completion_tokens": 200,
+  "completion_time": 0.400129121,
+  "total_tokens": 2180,
+  "total_time": 0.565195412
+ },
+ "latency_s": 25.76
+}

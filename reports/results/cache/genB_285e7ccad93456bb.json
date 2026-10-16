@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "I lost my small brown leather bag with a silver clasp and a hidden pocket containing my watch at Zéphyr two days ago."
+ },
+ "raw": "{\"message\":\"I lost my small brown leather bag with a silver clasp and a hidden pocket containing my watch at Zéphyr two days ago.\"}",
+ "usage": {
+  "queue_time": 0.236527492,
+  "prompt_tokens": 312,
+  "prompt_time": 0.018109402,
+  "completion_tokens": 93,
+  "completion_time": 0.191805664,
+  "total_tokens": 405,
+  "total_time": 0.209915066,
+  "completion_tokens_details": {
+   "reasoning_tokens": 54
+  }
+ }
+}

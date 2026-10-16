@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "handbag",
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "blue",
+  "material": "faux leather",
+  "distinctive_marks": [
+   "large size",
+   "zipper closure"
+  ],
+  "contents": [
+   "money",
+   "makeup"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Large blue faux leather handbag with a zipper closure, containing money and makeup.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"bag\",\n  \"subcategory\": \"handbag\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"blue\",\n  \"color_detail\": \"blue\",\n  \"material\": \"faux leather\",\n  \"distinctive_marks\": [\n    \"large size\",\n    \"zipper closure\"\n  ],\n  \"contents\": [\n    \"money\",\n    \"makeup\"\n  ],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Large blue faux leather handbag with a zipper closure, containing money and makeup.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.047748013,
+  "prompt_tokens": 747,
+  "prompt_time": 0.059858104,
+  "completion_tokens": 190,
+  "completion_time": 0.374131795,
+  "total_tokens": 937,
+  "total_time": 0.433989899
+ },
+ "latency_s": 1.07
+}

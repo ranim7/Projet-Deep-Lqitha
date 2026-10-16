@@ -1,0 +1,46 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type",
+   "place_name",
+   "date",
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où avez-vous perdu votre passeport ?",
+  "reply_to_user": null,
+  "search_query_fr": "perte passeport procédure",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\",\"place_name\",\"date\",\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où avez-vous perdu votre passeport ?\",\"reply_to_user\":null,\"search_query_fr\":\"perte passeport procédure\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.194840505,
+  "prompt_tokens": 1391,
+  "prompt_time": 0.01267201,
+  "completion_tokens": 163,
+  "completion_time": 0.168353527,
+  "total_tokens": 1554,
+  "total_time": 0.181025537,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 35
+  }
+ },
+ "latency_s": 12.43
+}

@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "bank_card",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Pour faire opposition sur votre carte bancaire, contactez immédiatement votre banque. Vous pouvez appeler le numéro d’urgence indiqué sur le verso de votre carte ou vous rendre dans une agence proche. Si vous avez un compte en ligne, connectez‑vous et suivez la procédure d’opposition disponible dans la section « Mes cartes ».",
+  "search_query_fr": "opposition carte bancaire perte",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bank_card\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Pour faire opposition sur votre carte bancaire, contactez immédiatement votre banque. Vous pouvez appeler le numéro d’urgence indiqué sur le verso de votre carte ou vous rendre dans une agence proche. Si vous avez un compte en ligne, connectez‑vous et suivez la procédure d’opposition disponible dans la section « Mes cartes ».\",\"search_query_fr\":\"opposition carte bancaire perte\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.2657199,
+  "prompt_tokens": 1395,
+  "prompt_time": 0.088437883,
+  "completion_tokens": 195,
+  "completion_time": 0.214247624,
+  "total_tokens": 1590,
+  "total_time": 0.302685507,
+  "completion_tokens_details": {
+   "reasoning_tokens": 23
+  }
+ },
+ "latency_s": 10.77
+}

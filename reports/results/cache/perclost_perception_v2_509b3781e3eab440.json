@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "navy blue",
+  "material": "canvas",
+  "distinctive_marks": [
+   "zippered front pocket"
+  ],
+  "contents": [
+   "wooden comb",
+   "metal pen box"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Blue canvas bag with a zippered front pocket, containing a wooden comb and a metal pen box.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"blue\",\"color_detail\":\"navy blue\",\"material\":\"canvas\",\"distinctive_marks\":[\"zippered front pocket\"],\"contents\":[\"wooden comb\",\"metal pen box\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Blue canvas bag with a zippered front pocket, containing a wooden comb and a metal pen box.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.29523612,
+  "prompt_tokens": 778,
+  "prompt_time": 0.144274589,
+  "completion_tokens": 219,
+  "completion_time": 0.302906537,
+  "total_tokens": 997,
+  "total_time": 0.447181126,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 99
+  }
+ },
+ "latency_s": 1.31
+}

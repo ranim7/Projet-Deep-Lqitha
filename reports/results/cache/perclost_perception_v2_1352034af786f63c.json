@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black phone case with simple design, small size.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"phone\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black phone case with simple design, small size.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.022412804,
+  "prompt_tokens": 799,
+  "prompt_time": 0.044208877,
+  "completion_tokens": 233,
+  "completion_time": 0.238531361,
+  "total_tokens": 1032,
+  "total_time": 0.282740238,
+  "completion_tokens_details": {
+   "reasoning_tokens": 138
+  }
+ },
+ "latency_s": 0.71
+}

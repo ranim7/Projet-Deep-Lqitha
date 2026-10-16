@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "category": "Sling Bag",
+  "brand": "Unknown",
+  "color": "Grey",
+  "material": "Textured Fabric (likely Polyester or Nylon)",
+  "distinctive_marks": [
+   "Black zippers with black piping",
+   "Red accent line on the front pocket zipper",
+   "Black top carry handle",
+   "Black side compression strap"
+  ],
+  "description": "A grey, teardrop-shaped sling bag made of a textured, heathered fabric. It features a main compartment and a front zippered pocket, both with black zippers and piping. A thin red line accents the zipper of the front pocket. The bag has a black carry handle at the top and a black strap visible on the side."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Sling Bag\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Grey\",\n  \"material\": \"Textured Fabric (likely Polyester or Nylon)\",\n  \"distinctive_marks\": [\n    \"Black zippers with black piping\",\n    \"Red accent line on the front pocket zipper\",\n    \"Black top carry handle\",\n    \"Black side compression strap\"\n  ],\n  \"description\": \"A grey, teardrop-shaped sling bag made of a textured, heathered fabric. It features a main compartment and a front zippered pocket, both with black zippers and piping. A thin red line accents the zipper of the front pocket. The bag has a black carry handle at the top and a black strap visible on the side.\"\n}",
+ "usage": {
+  "queue_time": 0.108171783,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.094959719,
+  "completion_tokens": 175,
+  "completion_time": 0.341424286,
+  "total_tokens": 1512,
+  "total_time": 0.436384005
+ },
+ "latency_s": 19.79
+}

@@ -1,0 +1,29 @@
+{
+ "parsed": {
+  "intent": "inquire_found_item",
+  "language": "fr",
+  "slots": {},
+  "missing": [
+   "item_type",
+   "location",
+   "description"
+  ],
+  "next_action": "ask_for_missing_info",
+  "question_to_user": "Pouvez‑vous préciser le type d’objet (par ex. montre), son lieu de perte ou toute description qui pourrait aider à le retrouver ?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"inquire_found_item\",\"language\":\"fr\",\"slots\":{},\"missing\":[\"item_type\",\"location\",\"description\"],\"next_action\":\"ask_for_missing_info\",\"question_to_user\":\"Pouvez‑vous préciser le type d’objet (par ex. montre), son lieu de perte ou toute description qui pourrait aider à le retrouver ?\"}",
+ "usage": {
+  "queue_time": 0.218581027,
+  "prompt_tokens": 201,
+  "prompt_time": 0.009746811,
+  "completion_tokens": 128,
+  "completion_time": 0.131778883,
+  "total_tokens": 329,
+  "total_time": 0.141525694,
+  "completion_tokens_details": {
+   "reasoning_tokens": 50
+  }
+ },
+ "latency_s": 1.06
+}

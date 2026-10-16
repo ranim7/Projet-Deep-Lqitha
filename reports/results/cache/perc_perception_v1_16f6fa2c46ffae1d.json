@@ -1,0 +1,28 @@
+{
+ "parsed": {
+  "category": "wristwatch",
+  "brand": "Unknown",
+  "color": "White",
+  "material": "Plastic",
+  "distinctive_marks": [
+   "Digital display",
+   "Octagonal case shape",
+   "Four side buttons",
+   "Text: ALARM CHRONO",
+   "Text: WATER RESIST 100FT"
+  ],
+  "description": "A white, octagonal-shaped digital wristwatch with a matching plastic strap. The watch features a black face with a digital display showing the time, and text indicating it has alarm and chronograph functions and is water-resistant to 100 feet. There are four silver-colored buttons on the sides of the case."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"wristwatch\",\n  \"brand\": \"Unknown\",\n  \"color\": \"White\",\n  \"material\": \"Plastic\",\n  \"distinctive_marks\": [\n    \"Digital display\",\n    \"Octagonal case shape\",\n    \"Four side buttons\",\n    \"Text: ALARM CHRONO\",\n    \"Text: WATER RESIST 100FT\"\n  ],\n  \"description\": \"A white, octagonal-shaped digital wristwatch with a matching plastic strap. The watch features a black face with a digital display showing the time, and text indicating it has alarm and chronograph functions and is water-resistant to 100 feet. There are four silver-colored buttons on the sides of the case.\"\n}",
+ "usage": {
+  "queue_time": 0.73616109,
+  "prompt_tokens": 1849,
+  "prompt_time": 0.158218812,
+  "completion_tokens": 170,
+  "completion_time": 0.396792905,
+  "total_tokens": 2019,
+  "total_time": 0.555011717
+ },
+ "latency_s": 20.49
+}

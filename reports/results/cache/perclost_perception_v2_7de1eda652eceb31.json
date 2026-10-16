@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": "faux leather",
+  "distinctive_marks": [
+   "small silver buckle"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown faux leather handbag with a small silver buckle.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"brown\",\"material\":\"faux leather\",\"distinctive_marks\":[\"small silver buckle\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Brown faux leather handbag with a small silver buckle.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.233497515,
+  "prompt_tokens": 774,
+  "prompt_time": 0.041174818,
+  "completion_tokens": 178,
+  "completion_time": 0.237619063,
+  "total_tokens": 952,
+  "total_time": 0.278793881,
+  "completion_tokens_details": {
+   "reasoning_tokens": 77
+  }
+ },
+ "latency_s": 1.9
+}

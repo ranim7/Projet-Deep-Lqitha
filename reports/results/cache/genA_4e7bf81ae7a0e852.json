@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li flasqa grey men l'bouteille plastiqui, 1 litre, ma3aha l'khal, f Nabeul Marchandise, tfa9ed lyoum."
+ },
+ "raw": "{\"message\":\"Dha3li flasqa grey men l'bouteille plastiqui, 1 litre, ma3aha l'khal, f Nabeul Marchandise, tfa9ed lyoum.\"}",
+ "usage": {
+  "queue_time": 0.232639271,
+  "prompt_tokens": 361,
+  "prompt_time": 0.016864075,
+  "completion_tokens": 130,
+  "completion_time": 0.27729168,
+  "total_tokens": 491,
+  "total_time": 0.294155755,
+  "completion_tokens_details": {
+   "reasoning_tokens": 74
+  }
+ }
+}

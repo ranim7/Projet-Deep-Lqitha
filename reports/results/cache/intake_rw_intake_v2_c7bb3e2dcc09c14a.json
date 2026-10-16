@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "duplicata passeport perte",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"duplicata passeport perte\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.047489029,
+  "prompt_tokens": 1400,
+  "prompt_time": 0.069552501,
+  "completion_tokens": 136,
+  "completion_time": 0.139260712,
+  "total_tokens": 1536,
+  "total_time": 0.208813213,
+  "completion_tokens_details": {
+   "reasoning_tokens": 28
+  }
+ },
+ "latency_s": 0.91
+}

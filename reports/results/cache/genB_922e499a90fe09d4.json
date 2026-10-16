@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon sac à main noir en cuir, avec une fermeture éclair rouge, contenant mes cartes bancaires, du cash et un petit porte-clés, à Mg N1 avant‑hier."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon sac à main noir en cuir, avec une fermeture éclair rouge, contenant mes cartes bancaires, du cash et un petit porte-clés, à Mg N1 avant‑hier.\"}",
+ "usage": {
+  "queue_time": 0.263681666,
+  "prompt_tokens": 318,
+  "prompt_time": 0.050886549,
+  "completion_tokens": 80,
+  "completion_time": 0.169606514,
+  "total_tokens": 398,
+  "total_time": 0.220493063,
+  "completion_tokens_details": {
+   "reasoning_tokens": 27
+  }
+ }
+}

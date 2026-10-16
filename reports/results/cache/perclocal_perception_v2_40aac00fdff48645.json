@@ -1,0 +1,34 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "transparent",
+  "color_detail": "transparent",
+  "material": "plastic",
+  "distinctive_marks": [
+   "eco"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Transparent plastic water bottle with an eco logo.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bottle\", \"subcategory\": null, \"brand\": null, \"model\": null,\n \"color_family\": \"transparent\", \"color_detail\": \"transparent\", \"material\": \"plastic\",\n \"distinctive_marks\": [\"eco\" ], \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false, \"canonical_description\": \"Transparent plastic water bottle with an eco logo.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 126,
+  "total_tokens": 1117
+ },
+ "latency_s": 21.9
+}

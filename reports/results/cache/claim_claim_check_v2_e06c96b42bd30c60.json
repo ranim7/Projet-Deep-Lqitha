@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": true,
+  "reason": "matches cat"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":true,\"reason\":\"matches cat\"}",
+ "usage": {
+  "queue_time": 0.088871428,
+  "prompt_tokens": 263,
+  "prompt_time": 0.014936876,
+  "completion_tokens": 59,
+  "completion_time": 0.076020017,
+  "total_tokens": 322,
+  "total_time": 0.090956893,
+  "completion_tokens_details": {
+   "reasoning_tokens": 40
+  }
+ },
+ "latency_s": 0.69
+}

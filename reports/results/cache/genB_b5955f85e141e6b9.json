@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon sac noir contenant une couverture, des gants et un châle, ce matin à la gare routière de Ksar Said 2."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon sac noir contenant une couverture, des gants et un châle, ce matin à la gare routière de Ksar Said 2.\"}",
+ "usage": {
+  "queue_time": 0.310408168,
+  "prompt_tokens": 323,
+  "prompt_time": 0.071629222,
+  "completion_tokens": 75,
+  "completion_time": 0.156773233,
+  "total_tokens": 398,
+  "total_time": 0.228402455,
+  "completion_tokens_details": {
+   "reasoning_tokens": 29
+  }
+ }
+}

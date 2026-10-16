@@ -1,0 +1,16 @@
+requests>=2.31
+beautifulsoup4>=4.12
+pandas>=2.0
+pyarrow>=14
+huggingface_hub>=0.24
+pypdf>=4.0
+python-dotenv>=1.0
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6
+jiwer>=3.0
+Pillow>=10.0
+numpy>=1.26
+kaggle>=1.6
+pyyaml>=6.0

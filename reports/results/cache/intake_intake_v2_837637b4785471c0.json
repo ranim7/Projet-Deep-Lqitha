@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "other",
+  "language": "fr",
+  "slots": {
+   "item_category": null,
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "reply_only",
+  "question_to_user": null,
+  "reply_to_user": "Bonjour! Comment puis-je vous aider aujourd'hui?",
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"other\",\"language\":\"fr\",\"slots\":{\"item_category\":null,\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"reply_only\",\"question_to_user\":null,\"reply_to_user\":\"Bonjour! Comment puis-je vous aider aujourd'hui?\",\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.193611004,
+  "prompt_tokens": 1384,
+  "prompt_time": 0.086106187,
+  "completion_tokens": 127,
+  "completion_time": 0.132632561,
+  "total_tokens": 1511,
+  "total_time": 0.218738748,
+  "completion_tokens_details": {
+   "reasoning_tokens": 17
+  }
+ },
+ "latency_s": 10.82
+}

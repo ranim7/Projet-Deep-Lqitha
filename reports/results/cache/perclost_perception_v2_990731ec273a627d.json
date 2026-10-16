@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "category": "glasses",
+  "subcategory": "eyeglasses",
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "charcoal grey",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Charcoal grey eyeglasses, likely with a single lens, lost in a bag.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"glasses\",\n  \"subcategory\": \"eyeglasses\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"grey\",\n  \"color_detail\": \"charcoal grey\",\n  \"material\": null,\n  \"distinctive_marks\": [],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Charcoal grey eyeglasses, likely with a single lens, lost in a bag.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.01865439,
+  "prompt_tokens": 750,
+  "prompt_time": 0.054564168,
+  "completion_tokens": 163,
+  "completion_time": 0.331879008,
+  "total_tokens": 913,
+  "total_time": 0.386443176
+ },
+ "latency_s": 7.41
+}

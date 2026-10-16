@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "en",
+  "slots": {
+   "item": "wallet",
+   "color": "brown leather",
+   "location": "Tunis-Carthage arrivals",
+   "time": "yesterday 10pm"
+  },
+  "missing": [
+   "date"
+  ],
+  "next_action": "ask_for_date",
+  "question_to_user": "Could you please confirm the exact date when you lost your wallet?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"en\",\"slots\":{\"item\":\"wallet\",\"color\":\"brown leather\",\"location\":\"Tunis-Carthage arrivals\",\"time\":\"yesterday 10pm\"},\"missing\":[\"date\"],\"next_action\":\"ask_for_date\",\"question_to_user\":\"Could you please confirm the exact date when you lost your wallet?\"}",
+ "usage": {
+  "queue_time": 0.194761463,
+  "prompt_tokens": 212,
+  "prompt_time": 0.01025054,
+  "completion_tokens": 154,
+  "completion_time": 0.156987538,
+  "total_tokens": 366,
+  "total_time": 0.167238078,
+  "completion_tokens_details": {
+   "reasoning_tokens": 74
+  }
+ },
+ "latency_s": 0.97
+}

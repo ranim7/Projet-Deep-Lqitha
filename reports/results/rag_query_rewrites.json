@@ -1,0 +1,194 @@
+[
+ {
+  "id": "q01",
+  "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+  "rewritten": "perte carte d'identité nationale",
+  "rank": 0
+ },
+ {
+  "id": "q02",
+  "query": "Où dois-je déclarer la perte de ma CIN ?",
+  "rewritten": "déclaration perte CIN",
+  "rank": 0
+ },
+ {
+  "id": "q03",
+  "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+  "rewritten": "désactivation puce carte d'identité perte",
+  "rank": 0
+ },
+ {
+  "id": "q04",
+  "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+  "rewritten": "renouveler carte d'identité perdue délai",
+  "rank": 0
+ },
+ {
+  "id": "q05",
+  "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+  "rewritten": "documents duplicata passeport perte Tunisie",
+  "rank": 0
+ },
+ {
+  "id": "q06",
+  "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+  "rewritten": "duplicata passeport perte",
+  "rank": 0
+ },
+ {
+  "id": "q07",
+  "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+  "rewritten": "documents duplicata passeport photo",
+  "rank": 0
+ },
+ {
+  "id": "q08",
+  "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+  "rewritten": "livret de famille perte documents à fournir",
+  "rank": 0
+ },
+ {
+  "id": "q09",
+  "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+  "rewritten": "valise perdue aéroport Tunis Carthage",
+  "rank": 1
+ },
+ {
+  "id": "q10",
+  "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+  "rewritten": "documents indemnisation bagage perdu Tunisair",
+  "rank": 0
+ },
+ {
+  "id": "q11",
+  "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+  "rewritten": "delai reclamation bagage endommagé",
+  "rank": 2
+ },
+ {
+  "id": "q12",
+  "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+  "rewritten": "bagage perdu 30 jours",
+  "rank": 0
+ },
+ {
+  "id": "q13",
+  "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+  "rewritten": "baggage retard remboursement Tunisair",
+  "rank": 0
+ },
+ {
+  "id": "q14",
+  "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+  "rewritten": "rapport d'irrégularité bagage PIR",
+  "rank": 0
+ },
+ {
+  "id": "q15",
+  "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+  "rewritten": "opposition carte bancaire perte",
+  "rank": 0
+ },
+ {
+  "id": "q16",
+  "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+  "rewritten": "bloquer carte bancaire application",
+  "rank": 0
+ },
+ {
+  "id": "q17",
+  "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+  "rewritten": "plaintes vol carte bancaire",
+  "rank": 0
+ },
+ {
+  "id": "q18",
+  "query": "On m'a volé mon téléphone, quelles démarches ?",
+  "rewritten": "perte téléphone démarches",
+  "rank": 0
+ },
+ {
+  "id": "q19",
+  "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+  "rewritten": "suspendre carte SIM perte téléphone",
+  "rank": 0
+ },
+ {
+  "id": "q20",
+  "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+  "rewritten": "comment trouver le numéro IMEI de mon téléphone",
+  "rank": 0
+ },
+ {
+  "id": "q21",
+  "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+  "rewritten": "perte sac train contact",
+  "rank": 2
+ },
+ {
+  "id": "q22",
+  "query": "J'ai perdu un objet dans un louage, que faire ?",
+  "rewritten": "perte objet louage",
+  "rank": 0
+ },
+ {
+  "id": "q23",
+  "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+  "rewritten": "portefeuille trouvé rue dépôt",
+  "rank": 0
+ },
+ {
+  "id": "q24",
+  "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+  "rewritten": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+  "rank": 0
+ },
+ {
+  "id": "q25",
+  "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+  "rewritten": "procédure vérification propriétaire objet",
+  "rank": 1
+ },
+ {
+  "id": "q26",
+  "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+  "rewritten": "passeport perdu Tunisie",
+  "rank": 0
+ },
+ {
+  "id": "q27",
+  "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+  "rewritten": "perte carte d'identité",
+  "rank": 0
+ },
+ {
+  "id": "q28",
+  "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+  "rewritten": "comment bloquer une carte bancaire volée",
+  "rank": 0
+ },
+ {
+  "id": "q29",
+  "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+  "rewritten": "duplicata passeport perte",
+  "rank": 0
+ },
+ {
+  "id": "q30",
+  "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+  "rewritten": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+  "rank": 0
+ },
+ {
+  "id": "q31",
+  "query": "What documents are needed for a lost baggage claim?",
+  "rewritten": "documents requis réclamation bagage perdu",
+  "rank": 0
+ },
+ {
+  "id": "q32",
+  "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+  "rewritten": "Convention de Montréal retard bagage",
+  "rank": 1
+ }
+]

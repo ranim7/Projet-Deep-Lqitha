@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "status_check",
+  "language": "fr",
+  "slots": {
+   "item_category": null,
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "reply_only",
+  "question_to_user": null,
+  "reply_to_user": "Désolé, je ne dispose pas d’informations sur la localisation de votre montre. Veuillez vérifier votre dossier de signalement ou contacter notre service client pour plus de détails.",
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"status_check\",\"language\":\"fr\",\"slots\":{\"item_category\":null,\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"reply_only\",\"question_to_user\":null,\"reply_to_user\":\"Désolé, je ne dispose pas d’informations sur la localisation de votre montre. Veuillez vérifier votre dossier de signalement ou contacter notre service client pour plus de détails.\",\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.017434103,
+  "prompt_tokens": 1390,
+  "prompt_time": 0.068744319,
+  "completion_tokens": 167,
+  "completion_time": 0.18896908,
+  "total_tokens": 1557,
+  "total_time": 0.257713399,
+  "completion_tokens_details": {
+   "reasoning_tokens": 32
+  }
+ },
+ "latency_s": 9.66
+}

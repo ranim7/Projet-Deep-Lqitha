@@ -1,0 +1,31 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "Arabic",
+  "slots": {
+   "item": "portefeuille",
+   "location": "station metro Barcelone"
+  },
+  "missing": [
+   "photo",
+   "contact_info"
+  ],
+  "next_action": "ask_missing",
+  "question_to_user": "هل يمكنك إرفاق صورة للمتعلّق أو تزويدنا بمعلومات الاتصال الخاصة بك؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"Arabic\",\"slots\":{\"item\":\"portefeuille\",\"location\":\"station metro Barcelone\"},\"missing\":[\"photo\",\"contact_info\"],\"next_action\":\"ask_missing\",\"question_to_user\":\"هل يمكنك إرفاق صورة للمتعلّق أو تزويدنا بمعلومات الاتصال الخاصة بك؟\"}",
+ "usage": {
+  "queue_time": 0.192673535,
+  "prompt_tokens": 205,
+  "prompt_time": 0.009959004,
+  "completion_tokens": 147,
+  "completion_time": 0.176659257,
+  "total_tokens": 352,
+  "total_time": 0.186618261,
+  "completion_tokens_details": {
+   "reasoning_tokens": 70
+  }
+ },
+ "latency_s": 1.05
+}

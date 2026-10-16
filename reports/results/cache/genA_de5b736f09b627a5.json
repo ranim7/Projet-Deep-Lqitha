@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nseet headphones aswad fi Aïn Mesria, awel lbera7, 3andhom micro m3a mic bleu w kabla t3awd, ykounou m7ottin fi jabet l'khdma."
+ },
+ "raw": "{\"message\":\"Nseet headphones aswad fi Aïn Mesria, awel lbera7, 3andhom micro m3a mic bleu w kabla t3awd, ykounou m7ottin fi jabet l'khdma.\"}",
+ "usage": {
+  "queue_time": 0.049442557,
+  "prompt_tokens": 339,
+  "prompt_time": 0.016216908,
+  "completion_tokens": 117,
+  "completion_time": 0.244747316,
+  "total_tokens": 456,
+  "total_time": 0.260964224,
+  "completion_tokens_details": {
+   "reasoning_tokens": 52
+  }
+ }
+}

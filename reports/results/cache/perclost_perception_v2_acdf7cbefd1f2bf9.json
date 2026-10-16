@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "laptop",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "training files",
+   "photos"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey laptop with a large screen and a slightly spotted keyboard, containing training files and some photos.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"laptop\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"training files\",\"photos\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey laptop with a large screen and a slightly spotted keyboard, containing training files and some photos.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.016922819,
+  "prompt_tokens": 787,
+  "prompt_time": 0.048438832,
+  "completion_tokens": 182,
+  "completion_time": 0.198610939,
+  "total_tokens": 969,
+  "total_time": 0.247049771,
+  "completion_tokens_details": {
+   "reasoning_tokens": 72
+  }
+ },
+ "latency_s": 0.63
+}

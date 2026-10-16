@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon téléphone noir, écran fissuré, coque en plastique avec un autocollant de chat, à Jebel Jelloud avant-hier."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon téléphone noir, écran fissuré, coque en plastique avec un autocollant de chat, à Jebel Jelloud avant-hier.\"}",
+ "usage": {
+  "queue_time": 0.047874056,
+  "prompt_tokens": 310,
+  "prompt_time": 0.014640281,
+  "completion_tokens": 177,
+  "completion_time": 0.369206408,
+  "total_tokens": 487,
+  "total_time": 0.383846689,
+  "completion_tokens_details": {
+   "reasoning_tokens": 132
+  }
+ }
+}

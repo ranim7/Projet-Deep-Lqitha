@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "sunglasses",
+  "brand": "Ray-Ban",
+  "color": "black",
+  "material": "plastic frame, polarized lenses",
+  "distinctive_marks": "classic Aviator shape, silver or gold metal temples, Ray‑Ban logo on the temples",
+  "description": "black Ray‑Ban sunglasses, likely the Aviator style with a plastic frame and polarized lenses, featuring the iconic Ray‑Ban logo on the temples and a sleek, timeless design."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"sunglasses\",\"brand\":\"Ray-Ban\",\"color\":\"black\",\"material\":\"plastic frame, polarized lenses\",\"distinctive_marks\":\"classic Aviator shape, silver or gold metal temples, Ray‑Ban logo on the temples\",\"description\":\"black Ray‑Ban sunglasses, likely the Aviator style with a plastic frame and polarized lenses, featuring the iconic Ray‑Ban logo on the temples and a sleek, timeless design.\"}",
+ "usage": {
+  "queue_time": 0.166294655,
+  "prompt_tokens": 149,
+  "prompt_time": 0.070002637,
+  "completion_tokens": 138,
+  "completion_time": 0.14552405,
+  "total_tokens": 287,
+  "total_time": 0.215526687,
+  "completion_tokens_details": {
+   "reasoning_tokens": 42
+  }
+ },
+ "latency_s": 0.85
+}

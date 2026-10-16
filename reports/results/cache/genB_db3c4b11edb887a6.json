@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Sabbah lyoum f Nelson Mandela, nseet jute bag li fih tiffin, koulou asfar w 3lih logo kbir, 7ajma kbira w khasa b 3la9et el 7alib."
+ },
+ "raw": "{\"message\":\"Sabbah lyoum f Nelson Mandela, nseet jute bag li fih tiffin, koulou asfar w 3lih logo kbir, 7ajma kbira w khasa b 3la9et el 7alib.\"}",
+ "usage": {
+  "queue_time": 0.020261492,
+  "prompt_tokens": 317,
+  "prompt_time": 0.016764166,
+  "completion_tokens": 92,
+  "completion_time": 0.195928512,
+  "total_tokens": 409,
+  "total_time": 0.212692678,
+  "completion_tokens_details": {
+   "reasoning_tokens": 25
+  }
+ }
+}

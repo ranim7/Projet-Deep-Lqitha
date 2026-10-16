@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "canvas",
+  "distinctive_marks": [],
+  "contents": [
+   "clothes",
+   "shoes",
+   "small blanket",
+   "utensils"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black canvas bag, large, containing clothes, shoes, a small blanket, and utensils.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"canvas\",\"distinctive_marks\":[],\"contents\":[\"clothes\",\"shoes\",\"small blanket\",\"utensils\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black canvas bag, large, containing clothes, shoes, a small blanket, and utensils.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.462039494,
+  "prompt_tokens": 781,
+  "prompt_time": 0.039652784,
+  "completion_tokens": 157,
+  "completion_time": 0.164431306,
+  "total_tokens": 938,
+  "total_time": 0.20408409,
+  "completion_tokens_details": {
+   "reasoning_tokens": 41
+  }
+ },
+ "latency_s": 1.53
+}

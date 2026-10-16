@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "keychain",
+  "brand": "Unknown",
+  "color": "gold",
+  "material": "metal",
+  "distinctive_marks": [
+   "Eiffel Tower shape",
+   "golden finish"
+  ],
+  "description": "A golden metal keychain shaped like the Eiffel Tower, attached to a lost set of keys."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"keychain\",\n  \"brand\": \"Unknown\",\n  \"color\": \"gold\",\n  \"material\": \"metal\",\n  \"distinctive_marks\": [\n    \"Eiffel Tower shape\",\n    \"golden finish\"\n  ],\n  \"description\": \"A golden metal keychain shaped like the Eiffel Tower, attached to a lost set of keys.\"\n}",
+ "usage": {
+  "queue_time": 0.042910464,
+  "prompt_tokens": 69,
+  "prompt_time": 0.006133078,
+  "completion_tokens": 89,
+  "completion_time": 0.174389673,
+  "total_tokens": 158,
+  "total_time": 0.180522751
+ },
+ "latency_s": 0.82
+}

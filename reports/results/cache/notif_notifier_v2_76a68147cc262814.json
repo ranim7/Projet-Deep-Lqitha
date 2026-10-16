@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "owner_message": "Nous avons trouvé un téléphone correspondant, il est conservé à la Gare de Tunis. Veuillez répondre à la question de vérification pour confirmer votre identité.",
+  "challenge_question": "Quel sticker se trouve au dos du téléphone ?",
+  "finder_message": "Merci ! Un propriétaire potentiel a été identifié, ses coordonnées seront communiquées après vérification."
+ },
+ "strict_json": true,
+ "raw": "{\"owner_message\":\"Nous avons trouvé un téléphone correspondant, il est conservé à la Gare de Tunis. Veuillez répondre à la question de vérification pour confirmer votre identité.\",\"challenge_question\":\"Quel sticker se trouve au dos du téléphone ?\",\"finder_message\":\"Merci ! Un propriétaire potentiel a été identifié, ses coordonnées seront communiquées après vérification.\"}",
+ "usage": {
+  "queue_time": 0.050768898,
+  "prompt_tokens": 439,
+  "prompt_time": 0.131743907,
+  "completion_tokens": 276,
+  "completion_time": 0.582047858,
+  "total_tokens": 715,
+  "total_time": 0.713791765,
+  "completion_tokens_details": {
+   "reasoning_tokens": 195
+  }
+ },
+ "latency_s": 1.27
+}

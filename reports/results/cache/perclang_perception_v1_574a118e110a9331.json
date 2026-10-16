@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "category": "Umbrella",
+  "brand": "Unknown",
+  "color": "Red with white polka dots",
+  "material": "Fabric (canopy), likely metal (frame)",
+  "distinctive_marks": "White polka dots on red background",
+  "description": "A red umbrella featuring a pattern of white polka dots, reported as lost on bus number 28."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Umbrella\",\n  \"brand\": \"Unknown\",\n  \"color\": \"Red with white polka dots\",\n  \"material\": \"Fabric (canopy), likely metal (frame)\",\n  \"distinctive_marks\": \"White polka dots on red background\",\n  \"description\": \"A red umbrella featuring a pattern of white polka dots, reported as lost on bus number 28.\"\n}",
+ "usage": {
+  "queue_time": 0.049040482,
+  "prompt_tokens": 66,
+  "prompt_time": 0.0052315,
+  "completion_tokens": 95,
+  "completion_time": 0.241380503,
+  "total_tokens": 161,
+  "total_time": 0.246612003
+ },
+ "latency_s": 5.44
+}

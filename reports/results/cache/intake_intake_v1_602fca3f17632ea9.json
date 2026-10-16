@@ -1,0 +1,31 @@
+{
+ "parsed": {
+  "intent": "report_lost_luggage",
+  "language": "fr",
+  "slots": {
+   "flight_number": "TU713",
+   "date": "hier soir"
+  },
+  "missing": [
+   "exact_date",
+   "location"
+  ],
+  "next_action": "ask_for_missing_info",
+  "question_to_user": "Pouvez-vous me préciser la date exacte (jour, mois, année) et le lieu où vous avez perdu votre valise (aéroport, terminal, etc.) ?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_luggage\",\"language\":\"fr\",\"slots\":{\"flight_number\":\"TU713\",\"date\":\"hier soir\"},\"missing\":[\"exact_date\",\"location\"],\"next_action\":\"ask_for_missing_info\",\"question_to_user\":\"Pouvez-vous me préciser la date exacte (jour, mois, année) et le lieu où vous avez perdu votre valise (aéroport, terminal, etc.) ?\"}",
+ "usage": {
+  "queue_time": 0.203407385,
+  "prompt_tokens": 207,
+  "prompt_time": 0.036003975,
+  "completion_tokens": 146,
+  "completion_time": 0.154115654,
+  "total_tokens": 353,
+  "total_time": 0.190119629,
+  "completion_tokens_details": {
+   "reasoning_tokens": 54
+  }
+ },
+ "latency_s": 1.31
+}

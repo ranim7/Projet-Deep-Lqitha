@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "backpack",
+  "brand": "Skechers",
+  "color": "black",
+  "material": "nylon",
+  "distinctive_marks": [
+   "Skechers logo patch on the front pocket",
+   "pink and green zipper pulls"
+  ],
+  "description": "A black backpack featuring a main compartment and a front zippered pocket. It has padded shoulder straps and a small, square Skechers logo patch on the upper front section. The zippers are accented with pink and green pulls."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"backpack\",\n  \"brand\": \"Skechers\",\n  \"color\": \"black\",\n  \"material\": \"nylon\",\n  \"distinctive_marks\": [\n    \"Skechers logo patch on the front pocket\",\n    \"pink and green zipper pulls\"\n  ],\n  \"description\": \"A black backpack featuring a main compartment and a front zippered pocket. It has padded shoulder straps and a small, square Skechers logo patch on the upper front section. The zippers are accented with pink and green pulls.\"\n}",
+ "usage": {
+  "queue_time": 0.15141346,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.097892399,
+  "completion_tokens": 130,
+  "completion_time": 0.286116645,
+  "total_tokens": 1467,
+  "total_time": 0.384009044
+ },
+ "latency_s": 19.82
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li backpack rosa, 3andou zip maftou7 w 3la ljanb logo moudhahar, nseetou fi Bus Station awel lbera7, kan fih kitab w flous."
+ },
+ "raw": "{\"message\":\"Dha3li backpack rosa, 3andou zip maftou7 w 3la ljanb logo moudhahar, nseetou fi Bus Station awel lbera7, kan fih kitab w flous.\"}",
+ "usage": {
+  "queue_time": 0.088939536,
+  "prompt_tokens": 341,
+  "prompt_time": 0.016354519,
+  "completion_tokens": 94,
+  "completion_time": 0.205369651,
+  "total_tokens": 435,
+  "total_time": 0.22172417,
+  "completion_tokens_details": {
+   "reasoning_tokens": 32
+  }
+ }
+}

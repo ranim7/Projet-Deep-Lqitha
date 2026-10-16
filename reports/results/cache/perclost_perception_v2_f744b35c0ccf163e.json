@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": "plastic",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Gray plastic 1-liter bottle with small marks and cap on top.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bottle\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":\"plastic\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Gray plastic 1-liter bottle with small marks and cap on top.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.088086143,
+  "prompt_tokens": 791,
+  "prompt_time": 0.463644964,
+  "completion_tokens": 234,
+  "completion_time": 0.250622814,
+  "total_tokens": 1025,
+  "total_time": 0.714267778,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 134
+  }
+ },
+ "latency_s": 1.33
+}

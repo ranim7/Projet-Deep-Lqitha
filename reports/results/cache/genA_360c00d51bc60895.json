@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "dha3li montre sghira b couleur moudhira, 3andha sâ3a dorriya, tleftha f Dar Halima Shop lyoum, n7ebha barcha"
+ },
+ "raw": "{\"message\":\"dha3li montre sghira b couleur moudhira, 3andha sâ3a dorriya, tleftha f Dar Halima Shop lyoum, n7ebha barcha\"}",
+ "usage": {
+  "queue_time": 0.627708151,
+  "prompt_tokens": 320,
+  "prompt_time": 0.020268301,
+  "completion_tokens": 132,
+  "completion_time": 0.275661511,
+  "total_tokens": 452,
+  "total_time": 0.295929812,
+  "completion_tokens_details": {
+   "reasoning_tokens": 77
+  }
+ }
+}

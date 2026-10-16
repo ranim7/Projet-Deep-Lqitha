@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe may have located the phone you reported missing. It was turned in at the Gare de Tunis. To confirm that it’s yours, could you tell us what was on the back of the device? (For example, any stickers, markings, or other details.)\n\nThank you!",
+ "usage": {
+  "queue_time": 0.019359189,
+  "prompt_tokens": 164,
+  "prompt_time": 0.007096206,
+  "completion_tokens": 82,
+  "completion_time": 0.168540769,
+  "total_tokens": 246,
+  "total_time": 0.175636975,
+  "completion_tokens_details": {
+   "reasoning_tokens": 15
+  }
+ },
+ "latency_s": 1.45
+}

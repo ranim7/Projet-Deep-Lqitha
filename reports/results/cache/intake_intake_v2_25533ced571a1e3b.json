@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "bag",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "train_station",
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "date",
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Waqtech l9itou lbag?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.8
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"bag\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"train_station\",\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"date\",\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Waqtech l9itou lbag?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.8}",
+ "usage": {
+  "queue_time": 0.29442818,
+  "prompt_tokens": 1406,
+  "prompt_time": 0.075092143,
+  "completion_tokens": 175,
+  "completion_time": 0.180666594,
+  "total_tokens": 1581,
+  "total_time": 0.255758737,
+  "completion_tokens_details": {
+   "reasoning_tokens": 53
+  }
+ },
+ "latency_s": 2.77
+}

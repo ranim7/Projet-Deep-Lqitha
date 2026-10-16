@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "watch",
+  "brand": "unknown",
+  "color": "silver",
+  "material": "silver",
+  "distinctive_marks": "broken bracelet",
+  "description": "A silver watch with a damaged bracelet, likely lost in a locker."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"watch\",\"brand\":\"unknown\",\"color\":\"silver\",\"material\":\"silver\",\"distinctive_marks\":\"broken bracelet\",\"description\":\"A silver watch with a damaged bracelet, likely lost in a locker.\"}",
+ "usage": {
+  "queue_time": 0.232139681,
+  "prompt_tokens": 158,
+  "prompt_time": 0.0076954,
+  "completion_tokens": 138,
+  "completion_time": 0.14807226,
+  "total_tokens": 296,
+  "total_time": 0.15576766,
+  "completion_tokens_details": {
+   "reasoning_tokens": 88
+  }
+ },
+ "latency_s": 1.29
+}

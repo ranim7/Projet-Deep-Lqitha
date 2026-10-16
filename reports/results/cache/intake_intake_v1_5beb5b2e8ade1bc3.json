@@ -1,0 +1,29 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "ar",
+  "slots": {},
+  "missing": [
+   "item",
+   "location",
+   "time"
+  ],
+  "next_action": "ask_missing_info",
+  "question_to_user": "ما هو اسم العنصر المفقود؟ وفي أي مكان حدث الحادث؟ ومتى حدث؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"ar\",\"slots\":{},\"missing\":[\"item\",\"location\",\"time\"],\"next_action\":\"ask_missing_info\",\"question_to_user\":\"ما هو اسم العنصر المفقود؟ وفي أي مكان حدث الحادث؟ ومتى حدث؟\"}",
+ "usage": {
+  "queue_time": 0.240690488,
+  "prompt_tokens": 202,
+  "prompt_time": 0.104147605,
+  "completion_tokens": 111,
+  "completion_time": 0.119764342,
+  "total_tokens": 313,
+  "total_time": 0.223911947,
+  "completion_tokens_details": {
+   "reasoning_tokens": 45
+  }
+ },
+ "latency_s": 3.3
+}

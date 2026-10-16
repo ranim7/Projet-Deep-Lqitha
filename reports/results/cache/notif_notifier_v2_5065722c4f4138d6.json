@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "owner_message": "Nous avons trouvé un téléphone correspondant, conservé à la Gare de Tunis. Pour confirmer que c’est le vôtre, répondez à la question suivante.",
+  "challenge_question": "Quelle image apparaît en fond d'écran du téléphone ?",
+  "finder_message": "Merci ! Un propriétaire potentiel a été identifié. Nous partagerons ses coordonnées après vérification."
+ },
+ "strict_json": true,
+ "raw": "{\"owner_message\":\"Nous avons trouvé un téléphone correspondant, conservé à la Gare de Tunis. Pour confirmer que c’est le vôtre, répondez à la question suivante.\",\"challenge_question\":\"Quelle image apparaît en fond d'écran du téléphone ?\",\"finder_message\":\"Merci ! Un propriétaire potentiel a été identifié. Nous partagerons ses coordonnées après vérification.\"}",
+ "usage": {
+  "queue_time": 0.301429558,
+  "prompt_tokens": 441,
+  "prompt_time": 0.020342671,
+  "completion_tokens": 285,
+  "completion_time": 0.592765738,
+  "total_tokens": 726,
+  "total_time": 0.613108409,
+  "completion_tokens_details": {
+   "reasoning_tokens": 204
+  }
+ },
+ "latency_s": 1.46
+}

@@ -1,0 +1,45 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [
+   "red logo"
+  ],
+  "contents": [
+   "mobile charger",
+   "power bank",
+   "data cable"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey big bag with a red logo containing a mobile charger, power bank, and data cable.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":null,\"distinctive_marks\":[\"red logo\"],\"contents\":[\"mobile charger\",\"power bank\",\"data cable\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey big bag with a red logo containing a mobile charger, power bank, and data cable.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.196031599,
+  "prompt_tokens": 782,
+  "prompt_time": 0.01654362,
+  "completion_tokens": 252,
+  "completion_time": 0.25736741,
+  "total_tokens": 1034,
+  "total_time": 0.27391103,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 136
+  }
+ },
+ "latency_s": 1.52
+}

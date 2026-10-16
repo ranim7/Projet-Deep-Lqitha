@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "9e3t 3la case noir mta3 portable, ykoun 3la 7ajet sghira, fih chi design simple, f Louaget lyoum, ma3andich 7aja m3a7da"
+ },
+ "raw": "{\"message\":\"9e3t 3la case noir mta3 portable, ykoun 3la 7ajet sghira, fih chi design simple, f Louaget lyoum, ma3andich 7aja m3a7da\"}",
+ "usage": {
+  "queue_time": 0.295681875,
+  "prompt_tokens": 323,
+  "prompt_time": 0.01813327,
+  "completion_tokens": 331,
+  "completion_time": 0.700950473,
+  "total_tokens": 654,
+  "total_time": 0.719083743,
+  "completion_tokens_details": {
+   "reasoning_tokens": 267
+  }
+ }
+}

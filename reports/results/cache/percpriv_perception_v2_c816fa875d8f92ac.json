@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "id_document",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": "Found passport belonging to a Tunisian citizen",
+  "contains_sensitive_document": true,
+  "canonical_description": "Found passport belonging to a Tunisian citizen.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"id_document\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":\"Found passport belonging to a Tunisian citizen\",\"contains_sensitive_document\":true,\"canonical_description\":\"Found passport belonging to a Tunisian citizen.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.331208401,
+  "prompt_tokens": 762,
+  "prompt_time": 0.118956653,
+  "completion_tokens": 240,
+  "completion_time": 0.247043173,
+  "total_tokens": 1002,
+  "total_time": 0.365999826,
+  "completion_tokens_details": {
+   "reasoning_tokens": 138
+  }
+ },
+ "latency_s": 1.24
+}

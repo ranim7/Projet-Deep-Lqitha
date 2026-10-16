@@ -1,0 +1,2231 @@
+{
+ "n_queries": 32,
+ "kb": {
+  "documents": 16,
+  "chars": 157412,
+  "strategies": [
+   {
+    "strategy": "structure",
+    "n_chunks": 204,
+    "avg_chars": 811,
+    "min_chars": 82,
+    "max_chars": 2092
+   },
+   {
+    "strategy": "recursive",
+    "n_chunks": 196,
+    "avg_chars": 935,
+    "min_chars": 35,
+    "max_chars": 1148
+   }
+  ],
+  "embed_model": "bge-m3",
+  "seconds": 84.9
+ },
+ "configs": [
+  {
+   "chunking": "structure",
+   "retrieval": "dense",
+   "item_type filter": "no",
+   "Hit@1": 0.75,
+   "Hit@3": 0.9375,
+   "Hit@5": 0.9375,
+   "MRR": 0.8333,
+   "ms/query": 2236,
+   "Hit@3 ar": 1.0,
+   "Hit@3 derja": 0.5,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 0.9615
+  },
+  {
+   "chunking": "structure",
+   "retrieval": "dense",
+   "item_type filter": "yes",
+   "Hit@1": 0.75,
+   "Hit@3": 0.9375,
+   "Hit@5": 0.9375,
+   "MRR": 0.8333,
+   "ms/query": 2222,
+   "Hit@3 ar": 1.0,
+   "Hit@3 derja": 0.5,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 0.9615
+  },
+  {
+   "chunking": "structure",
+   "retrieval": "hybrid",
+   "item_type filter": "no",
+   "Hit@1": 0.625,
+   "Hit@3": 0.9688,
+   "Hit@5": 0.9688,
+   "MRR": 0.7708,
+   "ms/query": 2241,
+   "Hit@3 ar": 1.0,
+   "Hit@3 derja": 0.5,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 1.0
+  },
+  {
+   "chunking": "structure",
+   "retrieval": "hybrid",
+   "item_type filter": "yes",
+   "Hit@1": 0.6562,
+   "Hit@3": 0.9375,
+   "Hit@5": 0.9688,
+   "MRR": 0.7875,
+   "ms/query": 2228,
+   "Hit@3 ar": 0.5,
+   "Hit@3 derja": 0.5,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 1.0
+  },
+  {
+   "chunking": "recursive",
+   "retrieval": "dense",
+   "item_type filter": "no",
+   "Hit@1": 0.8438,
+   "Hit@3": 0.9688,
+   "Hit@5": 1.0,
+   "MRR": 0.9125,
+   "ms/query": 2235,
+   "Hit@3 ar": 1.0,
+   "Hit@3 derja": 0.5,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 1.0
+  },
+  {
+   "chunking": "recursive",
+   "retrieval": "dense",
+   "item_type filter": "yes",
+   "Hit@1": 0.875,
+   "Hit@3": 1.0,
+   "Hit@5": 1.0,
+   "MRR": 0.9375,
+   "ms/query": 2230,
+   "Hit@3 ar": 1.0,
+   "Hit@3 derja": 1.0,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 1.0
+  },
+  {
+   "chunking": "recursive",
+   "retrieval": "hybrid",
+   "item_type filter": "no",
+   "Hit@1": 0.6875,
+   "Hit@3": 0.9688,
+   "Hit@5": 0.9688,
+   "MRR": 0.8281,
+   "ms/query": 2242,
+   "Hit@3 ar": 1.0,
+   "Hit@3 derja": 0.5,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 1.0
+  },
+  {
+   "chunking": "recursive",
+   "retrieval": "hybrid",
+   "item_type filter": "yes",
+   "Hit@1": 0.7188,
+   "Hit@3": 1.0,
+   "Hit@5": 1.0,
+   "MRR": 0.8594,
+   "ms/query": 2226,
+   "Hit@3 ar": 1.0,
+   "Hit@3 derja": 1.0,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 1.0
+  },
+  {
+   "chunking": "recursive",
+   "retrieval": "dense + query rewriting",
+   "item_type filter": "no",
+   "Hit@1": 0.8125,
+   "Hit@3": 0.9688,
+   "Hit@5": 1.0,
+   "MRR": 0.8865,
+   "ms/query": null,
+   "Hit@3 ar": 1.0,
+   "Hit@3 derja": 0.5,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 1.0
+  },
+  {
+   "chunking": "recursive",
+   "retrieval": "dense + query rewriting",
+   "item_type filter": "yes",
+   "Hit@1": 0.8438,
+   "Hit@3": 1.0,
+   "Hit@5": 1.0,
+   "MRR": 0.9115,
+   "ms/query": null,
+   "Hit@3 ar": 1.0,
+   "Hit@3 derja": 1.0,
+   "Hit@3 en": 1.0,
+   "Hit@3 fr": 1.0
+  }
+ ],
+ "best": {
+  "chunking": "recursive",
+  "retrieval": "dense",
+  "item_type filter": "yes",
+  "Hit@1": 0.875,
+  "Hit@3": 1.0,
+  "Hit@5": 1.0,
+  "MRR": 0.9375,
+  "ms/query": 2230,
+  "Hit@3 ar": 1.0,
+  "Hit@3 derja": 1.0,
+  "Hit@3 en": 1.0,
+  "Hit@3 fr": 1.0
+ },
+ "details": [
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q01",
+   "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q02",
+   "query": "Où dois-je déclarer la perte de ma CIN ?",
+   "rank": 1,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "[netherlands emergency document tunisia > Faire une déclaration de perte ou de vol]\nPendant le délai de traitement par le ministère, il est recommandé de faire une déclaration de perte ou de vol du do"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q03",
+   "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+   "rank": 0,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "[law 2024 22 national id card > LA LEGISLATION DU SECTEUR DE LA SECURITE EN TUNISIE]\nLa carte perdue est \ninsérée immédiatement dans le système de recherche avec l’indication de l’identité intégrale d"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q04",
+   "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q05",
+   "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "[idaraty passport duplicate tn > Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)]\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité national"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q06",
+   "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+   "rank": 2,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "[idaraty passport duplicate tn > Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)]\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité national"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q07",
+   "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "[idaraty passport duplicate abroad > Coûts:]\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale ou un extrait de naissance pour les mine"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q08",
+   "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+   "rank": 0,
+   "top_doc": "idaraty_family_booklet_duplicate",
+   "top_text": "[idaraty family booklet duplicate > Duplicata d'un livret de famille (perte)]\n- Formuler une demande à l'officier d'état civil de l'arrondissement où le contrat de mariage a été conclu\n- Une copie de "
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q09",
+   "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+   "rank": null,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- any supporting documents necessary to evaluate the claim. \nL’absence d’un ou de plusieurs des documents susmentionnés peut e"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q10",
+   "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+   "rank": 1,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- any supporting documents necessary to evaluate the claim. \nL’absence d’un ou de plusieurs des documents susmentionnés peut e"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q11",
+   "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "[sop airport lost item > Bagage enregistré perdu, retardé ou endommagé]\n- Ne quittez pas la zone de livraison des bagages : présentez-vous immédiatement au comptoir \"Bagages / Lost & Found\" de la comp"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q12",
+   "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nBagage perdu : un bagage peut être considéré comme perdu lorsqu’il ne peut pas être localisé \naprès 21 jours suivant la date à"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q13",
+   "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- Bagage retardé : lorsque le bagage est livré au passager après son arrivée, \nTunisair peut rembourser les dépenses raisonnab"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q14",
+   "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nLe passager doit remplir un rapport d’irrégularité bagages afin de permettre au transporteur \nde traiter la réclamation. \nPass"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q15",
+   "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > Comment faire opposition à ma carte bancaire depuis la Tunisie ?]\nVous pouvez faire opposition via l'application mobile de votre banque, votre espace client en ligne ou"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q16",
+   "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > 2) Bloquer temporairement si votre banque le permet]\nBeaucoup de banques permettent un gel temporaire de la carte (blocage instantané, réversible) depuis l’application."
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q17",
+   "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "[sop lost bank card > Ensuite]\n- En cas de vol, déposez plainte au poste de police (197) ou de la garde nationale (193) ; le récépissé peut être demandé par la banque.\n- Demandez une nouvelle carte à "
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q18",
+   "query": "On m'a volé mon téléphone, quelles démarches ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Vol]\n- En cas de vol, déposez plainte au poste de police (urgence : 197) ou de la garde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte "
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q19",
+   "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Ligne téléphonique]\n- Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et éviter son utilisation.\n- Une nouvelle carte SIM avec le m"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q20",
+   "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Vol]\n- En cas de vol, déposez plainte au poste de police (urgence : 197) ou de la garde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte "
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q21",
+   "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "[sop public transport lost item > Train (SNCFT)]\n- Contactez au plus vite le chef de gare de la gare d'arrivée ou de la gare de départ (par exemple Tunis Ville - place Barcelone, Sousse, Sfax).\n- Donn"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q22",
+   "query": "J'ai perdu un objet dans un louage, que faire ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "[sop public transport lost item > Louage (taxi collectif interurbain)]\n- Retournez à la station de louages (ex. station Moncef Bey ou Bab Saadoun à Tunis) et demandez au responsable de la ligne.\n- Le "
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q23",
+   "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Où le déposer]\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, comptoir de la c"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q24",
+   "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Ce qu'il ne faut pas faire]\n- Ne publiez pas de photo de pièce d'identité ou de carte bancaire sur les réseaux sociaux.\n- Ne remettez pas l'objet à une personne qui ne peu"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q25",
+   "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Déclarer sur Lqitha]\n- Prenez une photo de l'objet (sans montrer de numéro de document : Lqitha masque automatiquement les numéros détectés).\n- Indiquez le lieu, la date e"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q26",
+   "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+   "rank": 2,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "[netherlands emergency document tunisia > Étape 3 : Réunir les justificatifs nécessaires]\nPour faire votre demande, munissez-vous des documents suivants :\n- un formulaire de demande de passeport (info"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q27",
+   "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q28",
+   "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "[sop lost bank card > Ensuite]\n- En cas de vol, déposez plainte au poste de police (197) ou de la garde nationale (193) ; le récépissé peut être demandé par la banque.\n- Demandez une nouvelle carte à "
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q29",
+   "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "[idaraty passport duplicate abroad > Coûts:]\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale ou un extrait de naissance pour les mine"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q30",
+   "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+   "rank": null,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > 1) Vérifier vite et intelligemment]\nLes 5 actions immédiates (checklist anti-panique): On va faire simple. Vous êtes dehors, ou à l’hôtel, ou devant un DAB. Vous avez u"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q31",
+   "query": "What documents are needed for a lost baggage claim?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nBagage perdu : un bagage peut être considéré comme perdu lorsqu’il ne peut pas être localisé \naprès 21 jours suivant la date à"
+  },
+  {
+   "config": "structure/dense/nofilter",
+   "id": "q32",
+   "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "[sop airport lost item > Bagage enregistré perdu, retardé ou endommagé]\n- Ne quittez pas la zone de livraison des bagages : présentez-vous immédiatement au comptoir \"Bagages / Lost & Found\" de la comp"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q01",
+   "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q02",
+   "query": "Où dois-je déclarer la perte de ma CIN ?",
+   "rank": 1,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "[netherlands emergency document tunisia > Faire une déclaration de perte ou de vol]\nPendant le délai de traitement par le ministère, il est recommandé de faire une déclaration de perte ou de vol du do"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q03",
+   "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+   "rank": 0,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "[law 2024 22 national id card > LA LEGISLATION DU SECTEUR DE LA SECURITE EN TUNISIE]\nLa carte perdue est \ninsérée immédiatement dans le système de recherche avec l’indication de l’identité intégrale d"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q04",
+   "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q05",
+   "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "[idaraty passport duplicate tn > Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)]\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité national"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q06",
+   "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+   "rank": 2,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "[idaraty passport duplicate tn > Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)]\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité national"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q07",
+   "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "[idaraty passport duplicate abroad > Coûts:]\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale ou un extrait de naissance pour les mine"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q08",
+   "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+   "rank": 0,
+   "top_doc": "idaraty_family_booklet_duplicate",
+   "top_text": "[idaraty family booklet duplicate > Duplicata d'un livret de famille (perte)]\n- Formuler une demande à l'officier d'état civil de l'arrondissement où le contrat de mariage a été conclu\n- Une copie de "
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q09",
+   "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+   "rank": null,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- any supporting documents necessary to evaluate the claim. \nL’absence d’un ou de plusieurs des documents susmentionnés peut e"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q10",
+   "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+   "rank": 1,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- any supporting documents necessary to evaluate the claim. \nL’absence d’un ou de plusieurs des documents susmentionnés peut e"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q11",
+   "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "[sop airport lost item > Bagage enregistré perdu, retardé ou endommagé]\n- Ne quittez pas la zone de livraison des bagages : présentez-vous immédiatement au comptoir \"Bagages / Lost & Found\" de la comp"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q12",
+   "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nBagage perdu : un bagage peut être considéré comme perdu lorsqu’il ne peut pas être localisé \naprès 21 jours suivant la date à"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q13",
+   "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- Bagage retardé : lorsque le bagage est livré au passager après son arrivée, \nTunisair peut rembourser les dépenses raisonnab"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q14",
+   "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nLe passager doit remplir un rapport d’irrégularité bagages afin de permettre au transporteur \nde traiter la réclamation. \nPass"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q15",
+   "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > Comment faire opposition à ma carte bancaire depuis la Tunisie ?]\nVous pouvez faire opposition via l'application mobile de votre banque, votre espace client en ligne ou"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q16",
+   "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > 2) Bloquer temporairement si votre banque le permet]\nBeaucoup de banques permettent un gel temporaire de la carte (blocage instantané, réversible) depuis l’application."
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q17",
+   "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "[sop lost bank card > Ensuite]\n- En cas de vol, déposez plainte au poste de police (197) ou de la garde nationale (193) ; le récépissé peut être demandé par la banque.\n- Demandez une nouvelle carte à "
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q18",
+   "query": "On m'a volé mon téléphone, quelles démarches ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Vol]\n- En cas de vol, déposez plainte au poste de police (urgence : 197) ou de la garde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte "
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q19",
+   "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Ligne téléphonique]\n- Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et éviter son utilisation.\n- Une nouvelle carte SIM avec le m"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q20",
+   "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Vol]\n- En cas de vol, déposez plainte au poste de police (urgence : 197) ou de la garde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte "
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q21",
+   "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "[sop public transport lost item > Train (SNCFT)]\n- Contactez au plus vite le chef de gare de la gare d'arrivée ou de la gare de départ (par exemple Tunis Ville - place Barcelone, Sousse, Sfax).\n- Donn"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q22",
+   "query": "J'ai perdu un objet dans un louage, que faire ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "[sop public transport lost item > Louage (taxi collectif interurbain)]\n- Retournez à la station de louages (ex. station Moncef Bey ou Bab Saadoun à Tunis) et demandez au responsable de la ligne.\n- Le "
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q23",
+   "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Où le déposer]\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, comptoir de la c"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q24",
+   "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Ce qu'il ne faut pas faire]\n- Ne publiez pas de photo de pièce d'identité ou de carte bancaire sur les réseaux sociaux.\n- Ne remettez pas l'objet à une personne qui ne peu"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q25",
+   "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Déclarer sur Lqitha]\n- Prenez une photo de l'objet (sans montrer de numéro de document : Lqitha masque automatiquement les numéros détectés).\n- Indiquez le lieu, la date e"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q26",
+   "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+   "rank": 2,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "[netherlands emergency document tunisia > Étape 3 : Réunir les justificatifs nécessaires]\nPour faire votre demande, munissez-vous des documents suivants :\n- un formulaire de demande de passeport (info"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q27",
+   "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q28",
+   "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "[sop lost bank card > Ensuite]\n- En cas de vol, déposez plainte au poste de police (197) ou de la garde nationale (193) ; le récépissé peut être demandé par la banque.\n- Demandez une nouvelle carte à "
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q29",
+   "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "[idaraty passport duplicate abroad > Coûts:]\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale ou un extrait de naissance pour les mine"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q30",
+   "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+   "rank": null,
+   "top_doc": "montreal_convention_1999_text_fr",
+   "top_text": "[montreal convention 1999 text fr > Chapitre III]\n34 Arbitrage \n1 Sous réserve des dispositions du présent article, les parties au contrat de transport de \nfret peuvent stipuler que tout différend rel"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q31",
+   "query": "What documents are needed for a lost baggage claim?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nBagage perdu : un bagage peut être considéré comme perdu lorsqu’il ne peut pas être localisé \naprès 21 jours suivant la date à"
+  },
+  {
+   "config": "structure/dense/filter",
+   "id": "q32",
+   "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "[sop airport lost item > Bagage enregistré perdu, retardé ou endommagé]\n- Ne quittez pas la zone de livraison des bagages : présentez-vous immédiatement au comptoir \"Bagages / Lost & Found\" de la comp"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q01",
+   "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q02",
+   "query": "Où dois-je déclarer la perte de ma CIN ?",
+   "rank": 2,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > Quels documents et preuves dois-je conserver après avoir perdu ma carte bancaire ?]\nIl est essentiel de documenter toutes vos actions : captures d'écran des blocages ou"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q03",
+   "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+   "rank": 0,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "[law 2024 22 national id card > LA LEGISLATION DU SECTEUR DE LA SECURITE EN TUNISIE]\nLa carte perdue est \ninsérée immédiatement dans le système de recherche avec l’indication de l’identité intégrale d"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q04",
+   "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q05",
+   "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+   "rank": 1,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Passeport]\n- Faites d'abord la déclaration de perte au poste de police ou de la garde nationale pour obtenir l'attestation de déclaration de perte.\n- Demandez ensuite un"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q06",
+   "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+   "rank": 2,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "[idaraty passport duplicate tn > Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)]\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité national"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q07",
+   "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "[idaraty passport duplicate abroad > Coûts:]\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale ou un extrait de naissance pour les mine"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q08",
+   "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+   "rank": 0,
+   "top_doc": "idaraty_family_booklet_duplicate",
+   "top_text": "[idaraty family booklet duplicate > Duplicata d'un livret de famille (perte)]\n- Formuler une demande à l'officier d'état civil de l'arrondissement où le contrat de mariage a été conclu\n- Une copie de "
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q09",
+   "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+   "rank": 2,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nBagage perdu : un bagage peut être considéré comme perdu lorsqu’il ne peut pas être localisé \naprès 21 jours suivant la date à"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q10",
+   "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+   "rank": 2,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- any supporting documents necessary to evaluate the claim. \nL’absence d’un ou de plusieurs des documents susmentionnés peut e"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q11",
+   "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "[sop airport lost item > Bagage enregistré perdu, retardé ou endommagé]\n- Ne quittez pas la zone de livraison des bagages : présentez-vous immédiatement au comptoir \"Bagages / Lost & Found\" de la comp"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q12",
+   "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nBagage perdu : un bagage peut être considéré comme perdu lorsqu’il ne peut pas être localisé \naprès 21 jours suivant la date à"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q13",
+   "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- Bagage retardé : lorsque le bagage est livré au passager après son arrivée, \nTunisair peut rembourser les dépenses raisonnab"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q14",
+   "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nLe passager doit remplir un rapport d’irrégularité bagages afin de permettre au transporteur \nde traiter la réclamation. \nPass"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q15",
+   "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > Comment faire opposition à ma carte bancaire depuis la Tunisie ?]\nVous pouvez faire opposition via l'application mobile de votre banque, votre espace client en ligne ou"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q16",
+   "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > 2) Bloquer temporairement si votre banque le permet]\nBeaucoup de banques permettent un gel temporaire de la carte (blocage instantané, réversible) depuis l’application."
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q17",
+   "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > Quand porter plainte]\nDéposer plainte en Tunisie : quand c’est utile et comment s’y prendre: Porter plainte, ce n’est pas « obligatoire » dans tous les cas. Mais ça dev"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q18",
+   "query": "On m'a volé mon téléphone, quelles démarches ?",
+   "rank": 1,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Dans la première heure]\n- Appelez votre numéro depuis un autre téléphone : une personne honnête peut répondre.\n- Localisez ou verrouillez l'appareil à distance : \"Localiser\" (Find My"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q19",
+   "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Ligne téléphonique]\n- Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et éviter son utilisation.\n- Une nouvelle carte SIM avec le m"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q20",
+   "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Vol]\n- En cas de vol, déposez plainte au poste de police (urgence : 197) ou de la garde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte "
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q21",
+   "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "[sop public transport lost item > Train (SNCFT)]\n- Contactez au plus vite le chef de gare de la gare d'arrivée ou de la gare de départ (par exemple Tunis Ville - place Barcelone, Sousse, Sfax).\n- Donn"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q22",
+   "query": "J'ai perdu un objet dans un louage, que faire ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "[sop public transport lost item > Louage (taxi collectif interurbain)]\n- Retournez à la station de louages (ex. station Moncef Bey ou Bab Saadoun à Tunis) et demandez au responsable de la ligne.\n- Le "
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q23",
+   "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Où le déposer]\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, comptoir de la c"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q24",
+   "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Ce qu'il ne faut pas faire]\n- Ne publiez pas de photo de pièce d'identité ou de carte bancaire sur les réseaux sociaux.\n- Ne remettez pas l'objet à une personne qui ne peu"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q25",
+   "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Déclarer sur Lqitha]\n- Prenez une photo de l'objet (sans montrer de numéro de document : Lqitha masque automatiquement les numéros détectés).\n- Indiquez le lieu, la date e"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q26",
+   "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+   "rank": 2,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "[netherlands emergency document tunisia > Étape 3 : Réunir les justificatifs nécessaires]\nPour faire votre demande, munissez-vous des documents suivants :\n- un formulaire de demande de passeport (info"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q27",
+   "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+   "rank": 1,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "[law 2024 22 national id card > LA LEGISLATION DU SECTEUR DE LA SECURITE EN TUNISIE]\nLa carte perdue est \ninsérée immédiatement dans le système de recherche avec l’indication de l’identité intégrale d"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q28",
+   "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "[sop lost bank card > Ensuite]\n- En cas de vol, déposez plainte au poste de police (197) ou de la garde nationale (193) ; le récépissé peut être demandé par la banque.\n- Demandez une nouvelle carte à "
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q29",
+   "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "[idaraty passport duplicate tn > Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)]\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité national"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q30",
+   "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+   "rank": null,
+   "top_doc": "montreal_convention_1999_text_fr",
+   "top_text": "[montreal convention 1999 text fr > Chapitre VII Dispositions protocolaires]\nDanemark b 29 avril 2004 28 juin 2004 \nÉgypte 24 février 2005 A 25 avril 2005 \nEl Salvador 7 novembre 2007 A 6 janvier 2008"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q31",
+   "query": "What documents are needed for a lost baggage claim?",
+   "rank": 1,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- any supporting documents necessary to evaluate the claim. \nL’absence d’un ou de plusieurs des documents susmentionnés peut e"
+  },
+  {
+   "config": "structure/hybrid/nofilter",
+   "id": "q32",
+   "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "[sop airport lost item > Bagage enregistré perdu, retardé ou endommagé]\n- Ne quittez pas la zone de livraison des bagages : présentez-vous immédiatement au comptoir \"Bagages / Lost & Found\" de la comp"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q01",
+   "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q02",
+   "query": "Où dois-je déclarer la perte de ma CIN ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q03",
+   "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+   "rank": 0,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "[law 2024 22 national id card > LA LEGISLATION DU SECTEUR DE LA SECURITE EN TUNISIE]\nLa carte perdue est \ninsérée immédiatement dans le système de recherche avec l’indication de l’identité intégrale d"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q04",
+   "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Carte d'identité nationale]\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de la perte de la carte (Loi organique n°"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q05",
+   "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+   "rank": 1,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "[sop lost identity documents > Passeport]\n- Faites d'abord la déclaration de perte au poste de police ou de la garde nationale pour obtenir l'attestation de déclaration de perte.\n- Demandez ensuite un"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q06",
+   "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+   "rank": 2,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "[idaraty passport duplicate tn > Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)]\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité national"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q07",
+   "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "[idaraty passport duplicate abroad > Coûts:]\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale ou un extrait de naissance pour les mine"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q08",
+   "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+   "rank": 0,
+   "top_doc": "idaraty_family_booklet_duplicate",
+   "top_text": "[idaraty family booklet duplicate > Duplicata d'un livret de famille (perte)]\n- Formuler une demande à l'officier d'état civil de l'arrondissement où le contrat de mariage a été conclu\n- Une copie de "
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q09",
+   "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+   "rank": 1,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nBagage perdu : un bagage peut être considéré comme perdu lorsqu’il ne peut pas être localisé \naprès 21 jours suivant la date à"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q10",
+   "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+   "rank": 2,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- any supporting documents necessary to evaluate the claim. \nL’absence d’un ou de plusieurs des documents susmentionnés peut e"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q11",
+   "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "[sop airport lost item > Bagage enregistré perdu, retardé ou endommagé]\n- Ne quittez pas la zone de livraison des bagages : présentez-vous immédiatement au comptoir \"Bagages / Lost & Found\" de la comp"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q12",
+   "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nBagage perdu : un bagage peut être considéré comme perdu lorsqu’il ne peut pas être localisé \naprès 21 jours suivant la date à"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q13",
+   "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- Bagage retardé : lorsque le bagage est livré au passager après son arrivée, \nTunisair peut rembourser les dépenses raisonnab"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q14",
+   "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\nLe passager doit remplir un rapport d’irrégularité bagages afin de permettre au transporteur \nde traiter la réclamation. \nPass"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q15",
+   "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > Comment faire opposition à ma carte bancaire depuis la Tunisie ?]\nVous pouvez faire opposition via l'application mobile de votre banque, votre espace client en ligne ou"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q16",
+   "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > 2) Bloquer temporairement si votre banque le permet]\nBeaucoup de banques permettent un gel temporaire de la carte (blocage instantané, réversible) depuis l’application."
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q17",
+   "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > Quand porter plainte]\nDéposer plainte en Tunisie : quand c’est utile et comment s’y prendre: Porter plainte, ce n’est pas « obligatoire » dans tous les cas. Mais ça dev"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q18",
+   "query": "On m'a volé mon téléphone, quelles démarches ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Vol]\n- En cas de vol, déposez plainte au poste de police (urgence : 197) ou de la garde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte "
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q19",
+   "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Ligne téléphonique]\n- Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et éviter son utilisation.\n- Une nouvelle carte SIM avec le m"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q20",
+   "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "[sop lost phone > Vol]\n- En cas de vol, déposez plainte au poste de police (urgence : 197) ou de la garde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte "
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q21",
+   "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "[sop public transport lost item > Train (SNCFT)]\n- Contactez au plus vite le chef de gare de la gare d'arrivée ou de la gare de départ (par exemple Tunis Ville - place Barcelone, Sousse, Sfax).\n- Donn"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q22",
+   "query": "J'ai perdu un objet dans un louage, que faire ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "[sop public transport lost item > Louage (taxi collectif interurbain)]\n- Retournez à la station de louages (ex. station Moncef Bey ou Bab Saadoun à Tunis) et demandez au responsable de la ligne.\n- Le "
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q23",
+   "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Où le déposer]\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, comptoir de la c"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q24",
+   "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Ce qu'il ne faut pas faire]\n- Ne publiez pas de photo de pièce d'identité ou de carte bancaire sur les réseaux sociaux.\n- Ne remettez pas l'objet à une personne qui ne peu"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q25",
+   "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "[sop found item what to do > Déclarer sur Lqitha]\n- Prenez une photo de l'objet (sans montrer de numéro de document : Lqitha masque automatiquement les numéros détectés).\n- Indiquez le lieu, la date e"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q26",
+   "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+   "rank": 2,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "[netherlands emergency document tunisia > Étape 3 : Réunir les justificatifs nécessaires]\nPour faire votre demande, munissez-vous des documents suivants :\n- un formulaire de demande de passeport (info"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q27",
+   "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+   "rank": 1,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "[law 2024 22 national id card > LA LEGISLATION DU SECTEUR DE LA SECURITE EN TUNISIE]\nLa carte perdue est \ninsérée immédiatement dans le système de recherche avec l’indication de l’identité intégrale d"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q28",
+   "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+   "rank": 4,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "[guide lost bank card tunisia > 4) Sécuriser vos comptes (pas seulement la carte)]\nUne carte perdue, c’est parfois aussi un téléphone déverrouillé, un e-mail accessible, ou des comptes enregistrés.\n- "
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q29",
+   "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "[idaraty passport duplicate tn > Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)]\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité national"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q30",
+   "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+   "rank": null,
+   "top_doc": "montreal_convention_1999_text_fr",
+   "top_text": "[montreal convention 1999 text fr > Chapitre VII Dispositions protocolaires]\nDanemark b 29 avril 2004 28 juin 2004 \nÉgypte 24 février 2005 A 25 avril 2005 \nEl Salvador 7 novembre 2007 A 6 janvier 2008"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q31",
+   "query": "What documents are needed for a lost baggage claim?",
+   "rank": 1,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "[tunisair passenger protection 2026 > 2-LOST, DELAYED OR DAMAGED BAGGAGE]\n- any supporting documents necessary to evaluate the claim. \nL’absence d’un ou de plusieurs des documents susmentionnés peut e"
+  },
+  {
+   "config": "structure/hybrid/filter",
+   "id": "q32",
+   "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "[sop airport lost item > Bagage enregistré perdu, retardé ou endommagé]\n- Ne quittez pas la zone de livraison des bagages : présentez-vous immédiatement au comptoir \"Bagages / Lost & Found\" de la comp"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q01",
+   "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q02",
+   "query": "Où dois-je déclarer la perte de ma CIN ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q03",
+   "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+   "rank": 1,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "est automatiquement \n Page 2 sur 4 \n \n \n \nAccès aux lois, décrets et autres textes juridiques consolidés et mis à jour \nWWW.LEGISLATION-SECURITE.TN \ndésactivée dans le cas où la carte n’est pas renouv"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q04",
+   "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q05",
+   "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité nationale avec présentation de l'origina"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q06",
+   "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q07",
+   "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q08",
+   "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+   "rank": 0,
+   "top_doc": "idaraty_family_booklet_duplicate",
+   "top_text": "# Duplicata d'un livret de famille (perte)\n- Formuler une demande à l'officier d'état civil de l'arrondissement où le contrat de mariage a été conclu\n- Une copie de la carte d'identité du chef de la f"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q09",
+   "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "# Objet perdu dans un aéroport tunisien (Tunis-Carthage, Enfidha, Monastir, Djerba, Sfax, Tozeur, Tabarka)\n\n## Bagage enregistré perdu, retardé ou endommagé\n- Ne quittez pas la zone de livraison des b"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q10",
+   "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q11",
+   "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "doit être soumise dans les 7 jours suivant \nla réception du bagage ; \n- Bagage perdu : si le bagage est déclaré perdu par Tunisair, le passager peut \nprésenter une demande d’indemnisation accompagnée "
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q12",
+   "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Un bagage est considéré comme perdu s'il n'est pas arrivé 21 jours après la date où il aurait dû arriver (article 17 de la Convention de Montréal).\n- Conservez les reçus des achats de première néces"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q13",
+   "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "gé : Tunisair peut réparer le bagage endommagé ou offrir une \nindemnisation correspondant au dommage subi, sur présentation de preuves \nappropriées. \n- Bagage perdu : si le bagage est déclaré perdu, u"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q14",
+   "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q15",
+   "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "orairement la carte via l'application. Si le doute persiste, faites opposition définitive immédiatement via votre espace client ou numéro d'urgence.\n\n#### Comment faire opposition à ma carte bancaire "
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q16",
+   "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "l.\nL’idée, c’est de couvrir les endroits « probables » avant que ça devienne une heure de stress. Si ça ne sort pas rapidement, on passe à l’action.\n\n### 2) Bloquer temporairement si votre banque le p"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q17",
+   "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "# Carte bancaire perdue ou volée\n\n## Immédiatement\n- Faites opposition (blocage) de la carte en appelant le service client de votre banque ou de la Poste tunisienne : le numéro figure au dos de la car"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q18",
+   "query": "On m'a volé mon téléphone, quelles démarches ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "# Téléphone perdu ou volé en Tunisie\n\n## Dans la première heure\n- Appelez votre numéro depuis un autre téléphone : une personne honnête peut répondre.\n- Localisez ou verrouillez l'appareil à distance "
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q19",
+   "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "# Téléphone perdu ou volé en Tunisie\n\n## Dans la première heure\n- Appelez votre numéro depuis un autre téléphone : une personne honnête peut répondre.\n- Localisez ou verrouillez l'appareil à distance "
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q20",
+   "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "rde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte d'origine / la facture) : il identifie l'appareil.\n\n## Perte simple\n- Déclarez la perte sur Lqitha ave"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q21",
+   "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Conservez les reçus des achats de première nécessité en cas de retard : ils peuvent être remboursés par la compagnie selon ses conditions.\n\n\n## Objet oublié dans le terminal, au contrôle de sûreté o"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q22",
+   "query": "J'ai perdu un objet dans un louage, que faire ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "la direction, la date et l'heure approximative.\n- Pour le TGM, signalez la perte à la station de Tunis Marine ou à la station où vous êtes descendu.\n\n## Louage (taxi collectif interurbain)\n- Retournez"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q23",
+   "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q24",
+   "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "le vrai propriétaire peut connaître (fond d'écran, contenu d'une poche, inscription intérieure). Il reste secret et sert à vérifier le propriétaire.\n\n## Ce qu'il ne faut pas faire\n- Ne publiez pas de "
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q25",
+   "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q26",
+   "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+   "rank": 0,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "e provisoire suite à la perte ou au vol de votre passeport ou de votre carte d'identité en Tunisie, faites votre demande selon les étapes suivantes.\n\n### Étape 1 : Prendre contact par e-mail avec l’am"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q27",
+   "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q28",
+   "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "# Carte bancaire perdue ou volée\n\n## Immédiatement\n- Faites opposition (blocage) de la carte en appelant le service client de votre banque ou de la Poste tunisienne : le numéro figure au dos de la car"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q29",
+   "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q30",
+   "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+   "rank": 4,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "érence de dossier. Ça parait « administratif », mais si vous devez contester une opération ou activer une assurance, c’est votre filet de sécurité.\n\n\n## Les 5 actions immédiates (checklist anti-paniqu"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q31",
+   "query": "What documents are needed for a lost baggage claim?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/dense/nofilter",
+   "id": "q32",
+   "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Un bagage est considéré comme perdu s'il n'est pas arrivé 21 jours après la date où il aurait dû arriver (article 17 de la Convention de Montréal).\n- Conservez les reçus des achats de première néces"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q01",
+   "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q02",
+   "query": "Où dois-je déclarer la perte de ma CIN ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q03",
+   "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+   "rank": 1,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "est automatiquement \n Page 2 sur 4 \n \n \n \nAccès aux lois, décrets et autres textes juridiques consolidés et mis à jour \nWWW.LEGISLATION-SECURITE.TN \ndésactivée dans le cas où la carte n’est pas renouv"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q04",
+   "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q05",
+   "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité nationale avec présentation de l'origina"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q06",
+   "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q07",
+   "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q08",
+   "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+   "rank": 0,
+   "top_doc": "idaraty_family_booklet_duplicate",
+   "top_text": "# Duplicata d'un livret de famille (perte)\n- Formuler une demande à l'officier d'état civil de l'arrondissement où le contrat de mariage a été conclu\n- Une copie de la carte d'identité du chef de la f"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q09",
+   "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "# Objet perdu dans un aéroport tunisien (Tunis-Carthage, Enfidha, Monastir, Djerba, Sfax, Tozeur, Tabarka)\n\n## Bagage enregistré perdu, retardé ou endommagé\n- Ne quittez pas la zone de livraison des b"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q10",
+   "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q11",
+   "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "doit être soumise dans les 7 jours suivant \nla réception du bagage ; \n- Bagage perdu : si le bagage est déclaré perdu par Tunisair, le passager peut \nprésenter une demande d’indemnisation accompagnée "
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q12",
+   "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Un bagage est considéré comme perdu s'il n'est pas arrivé 21 jours après la date où il aurait dû arriver (article 17 de la Convention de Montréal).\n- Conservez les reçus des achats de première néces"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q13",
+   "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "gé : Tunisair peut réparer le bagage endommagé ou offrir une \nindemnisation correspondant au dommage subi, sur présentation de preuves \nappropriées. \n- Bagage perdu : si le bagage est déclaré perdu, u"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q14",
+   "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q15",
+   "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "orairement la carte via l'application. Si le doute persiste, faites opposition définitive immédiatement via votre espace client ou numéro d'urgence.\n\n#### Comment faire opposition à ma carte bancaire "
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q16",
+   "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "l.\nL’idée, c’est de couvrir les endroits « probables » avant que ça devienne une heure de stress. Si ça ne sort pas rapidement, on passe à l’action.\n\n### 2) Bloquer temporairement si votre banque le p"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q17",
+   "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "# Carte bancaire perdue ou volée\n\n## Immédiatement\n- Faites opposition (blocage) de la carte en appelant le service client de votre banque ou de la Poste tunisienne : le numéro figure au dos de la car"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q18",
+   "query": "On m'a volé mon téléphone, quelles démarches ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "# Téléphone perdu ou volé en Tunisie\n\n## Dans la première heure\n- Appelez votre numéro depuis un autre téléphone : une personne honnête peut répondre.\n- Localisez ou verrouillez l'appareil à distance "
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q19",
+   "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "# Téléphone perdu ou volé en Tunisie\n\n## Dans la première heure\n- Appelez votre numéro depuis un autre téléphone : une personne honnête peut répondre.\n- Localisez ou verrouillez l'appareil à distance "
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q20",
+   "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "rde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte d'origine / la facture) : il identifie l'appareil.\n\n## Perte simple\n- Déclarez la perte sur Lqitha ave"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q21",
+   "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Conservez les reçus des achats de première nécessité en cas de retard : ils peuvent être remboursés par la compagnie selon ses conditions.\n\n\n## Objet oublié dans le terminal, au contrôle de sûreté o"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q22",
+   "query": "J'ai perdu un objet dans un louage, que faire ?",
+   "rank": 0,
+   "top_doc": "sop_public_transport_lost_item",
+   "top_text": "la direction, la date et l'heure approximative.\n- Pour le TGM, signalez la perte à la station de Tunis Marine ou à la station où vous êtes descendu.\n\n## Louage (taxi collectif interurbain)\n- Retournez"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q23",
+   "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q24",
+   "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "le vrai propriétaire peut connaître (fond d'écran, contenu d'une poche, inscription intérieure). Il reste secret et sert à vérifier le propriétaire.\n\n## Ce qu'il ne faut pas faire\n- Ne publiez pas de "
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q25",
+   "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q26",
+   "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+   "rank": 0,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "e provisoire suite à la perte ou au vol de votre passeport ou de votre carte d'identité en Tunisie, faites votre demande selon les étapes suivantes.\n\n### Étape 1 : Prendre contact par e-mail avec l’am"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q27",
+   "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q28",
+   "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "# Carte bancaire perdue ou volée\n\n## Immédiatement\n- Faites opposition (blocage) de la carte en appelant le service client de votre banque ou de la Poste tunisienne : le numéro figure au dos de la car"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q29",
+   "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q30",
+   "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "# Objet perdu dans un aéroport tunisien (Tunis-Carthage, Enfidha, Monastir, Djerba, Sfax, Tozeur, Tabarka)\n\n## Bagage enregistré perdu, retardé ou endommagé\n- Ne quittez pas la zone de livraison des b"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q31",
+   "query": "What documents are needed for a lost baggage claim?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/dense/filter",
+   "id": "q32",
+   "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Un bagage est considéré comme perdu s'il n'est pas arrivé 21 jours après la date où il aurait dû arriver (article 17 de la Convention de Montréal).\n- Conservez les reçus des achats de première néces"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q01",
+   "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q02",
+   "query": "Où dois-je déclarer la perte de ma CIN ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q03",
+   "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+   "rank": 1,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "est automatiquement \n Page 2 sur 4 \n \n \n \nAccès aux lois, décrets et autres textes juridiques consolidés et mis à jour \nWWW.LEGISLATION-SECURITE.TN \ndésactivée dans le cas où la carte n’est pas renouv"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q04",
+   "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q05",
+   "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité nationale avec présentation de l'origina"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q06",
+   "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q07",
+   "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q08",
+   "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+   "rank": 0,
+   "top_doc": "idaraty_family_booklet_duplicate",
+   "top_text": "# Duplicata d'un livret de famille (perte)\n- Formuler une demande à l'officier d'état civil de l'arrondissement où le contrat de mariage a été conclu\n- Une copie de la carte d'identité du chef de la f"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q09",
+   "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "# Objet perdu dans un aéroport tunisien (Tunis-Carthage, Enfidha, Monastir, Djerba, Sfax, Tozeur, Tabarka)\n\n## Bagage enregistré perdu, retardé ou endommagé\n- Ne quittez pas la zone de livraison des b"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q10",
+   "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q11",
+   "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "doit être soumise dans les 7 jours suivant \nla réception du bagage ; \n- Bagage perdu : si le bagage est déclaré perdu par Tunisair, le passager peut \nprésenter une demande d’indemnisation accompagnée "
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q12",
+   "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Un bagage est considéré comme perdu s'il n'est pas arrivé 21 jours après la date où il aurait dû arriver (article 17 de la Convention de Montréal).\n- Conservez les reçus des achats de première néces"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q13",
+   "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "gé : Tunisair peut réparer le bagage endommagé ou offrir une \nindemnisation correspondant au dommage subi, sur présentation de preuves \nappropriées. \n- Bagage perdu : si le bagage est déclaré perdu, u"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q14",
+   "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q15",
+   "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "orairement la carte via l'application. Si le doute persiste, faites opposition définitive immédiatement via votre espace client ou numéro d'urgence.\n\n#### Comment faire opposition à ma carte bancaire "
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q16",
+   "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+   "rank": 1,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "orairement la carte via l'application. Si le doute persiste, faites opposition définitive immédiatement via votre espace client ou numéro d'urgence.\n\n#### Comment faire opposition à ma carte bancaire "
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q17",
+   "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "# Carte bancaire perdue ou volée\n\n## Immédiatement\n- Faites opposition (blocage) de la carte en appelant le service client de votre banque ou de la Poste tunisienne : le numéro figure au dos de la car"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q18",
+   "query": "On m'a volé mon téléphone, quelles démarches ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "# Téléphone perdu ou volé en Tunisie\n\n## Dans la première heure\n- Appelez votre numéro depuis un autre téléphone : une personne honnête peut répondre.\n- Localisez ou verrouillez l'appareil à distance "
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q19",
+   "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "# Téléphone perdu ou volé en Tunisie\n\n## Dans la première heure\n- Appelez votre numéro depuis un autre téléphone : une personne honnête peut répondre.\n- Localisez ou verrouillez l'appareil à distance "
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q20",
+   "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "rde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte d'origine / la facture) : il identifie l'appareil.\n\n## Perte simple\n- Déclarez la perte sur Lqitha ave"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q21",
+   "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q22",
+   "query": "J'ai perdu un objet dans un louage, que faire ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q23",
+   "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q24",
+   "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+   "rank": 1,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "à toute personne qui aura intentionnellement accédé à la puce électronique de la carte nationale \nd’identité sans qu’il ait la qualité d’y accéder. \nLes dispositions de la législation relative à la pr"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q25",
+   "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q26",
+   "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+   "rank": 1,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "de police locaux. Demandez une attestation écrite de votre déclaration, elle pourra vous être demandée par votre assurance ou les autorités locales.\n\n### Étape 3 : Réunir les justificatifs nécessaires"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q27",
+   "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+   "rank": 0,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "a direction générale de la sûreté nationale du décès dans un délai maximal de trente jours par \ntout moyen par tout moyen laissant une trace écrite. \nEn cas de perte de la carte nationale d’identité, "
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q28",
+   "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+   "rank": 1,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "vent la présenter à toute réquisition des agents \nde la sécurité intérieure et des agents des douanes dans les espaces publics, et des forces armées \nmilitaires dans les zones déclarées ou seront décl"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q29",
+   "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q30",
+   "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+   "rank": null,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "vent la présenter à toute réquisition des agents \nde la sécurité intérieure et des agents des douanes dans les espaces publics, et des forces armées \nmilitaires dans les zones déclarées ou seront décl"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q31",
+   "query": "What documents are needed for a lost baggage claim?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/hybrid/nofilter",
+   "id": "q32",
+   "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Un bagage est considéré comme perdu s'il n'est pas arrivé 21 jours après la date où il aurait dû arriver (article 17 de la Convention de Montréal).\n- Conservez les reçus des achats de première néces"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q01",
+   "query": "Que faire si j'ai perdu ma carte d'identité nationale ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q02",
+   "query": "Où dois-je déclarer la perte de ma CIN ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q03",
+   "query": "La puce électronique de la carte d'identité perdue est-elle désactivée ?",
+   "rank": 1,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "est automatiquement \n Page 2 sur 4 \n \n \n \nAccès aux lois, décrets et autres textes juridiques consolidés et mis à jour \nWWW.LEGISLATION-SECURITE.TN \ndésactivée dans le cas où la carte n’est pas renouv"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q04",
+   "query": "Dans quel délai faut-il renouveler une carte d'identité perdue ?",
+   "rank": 0,
+   "top_doc": "sop_lost_identity_documents",
+   "top_text": "# Carte d'identité nationale (CIN) ou passeport perdu en Tunisie\n\n## Carte d'identité nationale\n- La loi impose d'informer immédiatement le poste de police ou de la garde nationale le plus proche de l"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q05",
+   "query": "Quels documents faut-il pour un duplicata de passeport en Tunisie ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_tn",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents sur le territoire Tunisien)\n- Formulaire d'obtention d'un passeport.\n- Copie de la Carte d'identité nationale avec présentation de l'origina"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q06",
+   "query": "Je suis tunisien résident à l'étranger, comment obtenir un duplicata de passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q07",
+   "query": "Combien de photos faut-il pour le duplicata du passeport ?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q08",
+   "query": "J'ai perdu mon livret de famille, quels papiers fournir ?",
+   "rank": 0,
+   "top_doc": "idaraty_family_booklet_duplicate",
+   "top_text": "# Duplicata d'un livret de famille (perte)\n- Formuler une demande à l'officier d'état civil de l'arrondissement où le contrat de mariage a été conclu\n- Une copie de la carte d'identité du chef de la f"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q09",
+   "query": "Ma valise n'est pas arrivée à l'aéroport de Tunis-Carthage, que dois-je faire ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "# Objet perdu dans un aéroport tunisien (Tunis-Carthage, Enfidha, Monastir, Djerba, Sfax, Tozeur, Tabarka)\n\n## Bagage enregistré perdu, retardé ou endommagé\n- Ne quittez pas la zone de livraison des b"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q10",
+   "query": "Quels documents pour réclamer une indemnisation pour un bagage perdu chez Tunisair ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q11",
+   "query": "Quel est le délai de réclamation pour un bagage endommagé ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "doit être soumise dans les 7 jours suivant \nla réception du bagage ; \n- Bagage perdu : si le bagage est déclaré perdu par Tunisair, le passager peut \nprésenter une demande d’indemnisation accompagnée "
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q12",
+   "query": "Au bout de combien de jours un bagage est-il considéré comme perdu ?",
+   "rank": 0,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Un bagage est considéré comme perdu s'il n'est pas arrivé 21 jours après la date où il aurait dû arriver (article 17 de la Convention de Montréal).\n- Conservez les reçus des achats de première néces"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q13",
+   "query": "Can Tunisair reimburse what I buy if my baggage is delayed?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "gé : Tunisair peut réparer le bagage endommagé ou offrir une \nindemnisation correspondant au dommage subi, sur présentation de preuves \nappropriées. \n- Bagage perdu : si le bagage est déclaré perdu, u"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q14",
+   "query": "Qu'est-ce qu'un rapport d'irrégularité bagage (PIR) ?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q15",
+   "query": "J'ai perdu ma carte bancaire en Tunisie, comment faire opposition ?",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "orairement la carte via l'application. Si le doute persiste, faites opposition définitive immédiatement via votre espace client ou numéro d'urgence.\n\n#### Comment faire opposition à ma carte bancaire "
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q16",
+   "query": "Comment bloquer temporairement ma carte bancaire depuis l'application ?",
+   "rank": 1,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "orairement la carte via l'application. Si le doute persiste, faites opposition définitive immédiatement via votre espace client ou numéro d'urgence.\n\n#### Comment faire opposition à ma carte bancaire "
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q17",
+   "query": "Faut-il porter plainte si on m'a volé ma carte bancaire ?",
+   "rank": 0,
+   "top_doc": "sop_lost_bank_card",
+   "top_text": "# Carte bancaire perdue ou volée\n\n## Immédiatement\n- Faites opposition (blocage) de la carte en appelant le service client de votre banque ou de la Poste tunisienne : le numéro figure au dos de la car"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q18",
+   "query": "On m'a volé mon téléphone, quelles démarches ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "# Téléphone perdu ou volé en Tunisie\n\n## Dans la première heure\n- Appelez votre numéro depuis un autre téléphone : une personne honnête peut répondre.\n- Localisez ou verrouillez l'appareil à distance "
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q19",
+   "query": "Comment suspendre ma carte SIM après la perte de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "# Téléphone perdu ou volé en Tunisie\n\n## Dans la première heure\n- Appelez votre numéro depuis un autre téléphone : une personne honnête peut répondre.\n- Localisez ou verrouillez l'appareil à distance "
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q20",
+   "query": "Comment trouver le numéro IMEI de mon téléphone ?",
+   "rank": 0,
+   "top_doc": "sop_lost_phone",
+   "top_text": "rde nationale (urgence : 193).\n- Indiquez le numéro IMEI du téléphone (code *#06# ou sur la boîte d'origine / la facture) : il identifie l'appareil.\n\n## Perte simple\n- Déclarez la perte sur Lqitha ave"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q21",
+   "query": "J'ai oublié mon sac dans le train, qui dois-je contacter ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q22",
+   "query": "J'ai perdu un objet dans un louage, que faire ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q23",
+   "query": "J'ai trouvé un portefeuille dans la rue, où dois-je le déposer ?",
+   "rank": 0,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q24",
+   "query": "J'ai trouvé une carte d'identité, est-ce que je peux publier sa photo sur Facebook ?",
+   "rank": 1,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "à toute personne qui aura intentionnellement accédé à la puce électronique de la carte nationale \nd’identité sans qu’il ait la qualité d’y accéder. \nLes dispositions de la législation relative à la pr"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q25",
+   "query": "Comment Lqitha vérifie que je suis le vrai propriétaire de l'objet ?",
+   "rank": 1,
+   "top_doc": "sop_found_item_what_to_do",
+   "top_text": "# J'ai trouvé un objet : que faire ?\n\n## Où le déposer\n- Dans une gare, une station, un aéroport, un bus ou un train : remettez l'objet à l'agent de l'exploitant (chef de gare, agent de station, compt"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q26",
+   "query": "Je suis touriste néerlandais et j'ai perdu mon passeport en Tunisie",
+   "rank": 1,
+   "top_doc": "netherlands_emergency_document_tunisia",
+   "top_text": "de police locaux. Demandez une attestation écrite de votre déclaration, elle pourra vous être demandée par votre assurance ou les autorités locales.\n\n### Étape 3 : Réunir les justificatifs nécessaires"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q27",
+   "query": "فقدت بطاقة التعريف الوطنية، ماذا أفعل؟",
+   "rank": 0,
+   "top_doc": "law_2024_22_national_id_card",
+   "top_text": "a direction générale de la sûreté nationale du décès dans un délai maximal de trente jours par \ntout moyen par tout moyen laissant une trace écrite. \nEn cas de perte de la carte nationale d’identité, "
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q28",
+   "query": "سرقت بطاقتي البنكية، كيف أوقفها؟",
+   "rank": 0,
+   "top_doc": "guide_lost_bank_card_tunisia",
+   "top_text": "aire. Mais n’attendez pas non plus un miracle.\nSi vous hésitez, dites vous ça : mieux vaut refaire une carte que courir après un retrait frauduleux.\n\n### 4) Sécuriser vos comptes (pas seulement la car"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q29",
+   "query": "dha3li el passeport, chnowa el wra9 elli lazmin bech na3mel duplicata?",
+   "rank": 0,
+   "top_doc": "idaraty_passport_duplicate_abroad",
+   "top_text": "# Obtention d'un duplicata du passport (Tunisiens résidents à l'étranger)\n\n### Coûts:\n- Formulaire d'obtention d'un passeport.\n- Copie de la carte d'identité nationale avec présentation de l'originale"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q30",
+   "query": "el valiza mte3i ma jatech fil matar, chnowa na3mel?",
+   "rank": 1,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "ement, ainsi qu’à des options de réacheminement ou de \nremboursement. \n(2) Situations within the carrier’s control but required for safety reasons . \nIn these cases, no compensation for inconvenience "
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q31",
+   "query": "What documents are needed for a lost baggage claim?",
+   "rank": 0,
+   "top_doc": "tunisair_passenger_protection_2026",
+   "top_text": "rt d’irrégularité bagages (PIR) délivré à l’aéroport d’arrivée; \n- L’original du talon de bagage; \n- La carte d’embarquement ou une copie du billet; \n- Tout justificatif utile à l’évaluation de la réc"
+  },
+  {
+   "config": "recursive/hybrid/filter",
+   "id": "q32",
+   "query": "Que prévoit la Convention de Montréal en cas de retard d'un bagage ?",
+   "rank": 1,
+   "top_doc": "sop_airport_lost_item",
+   "top_text": "- Un bagage est considéré comme perdu s'il n'est pas arrivé 21 jours après la date où il aurait dû arriver (article 17 de la Convention de Montréal).\n- Conservez les reçus des achats de première néces"
+  }
+ ]
+}

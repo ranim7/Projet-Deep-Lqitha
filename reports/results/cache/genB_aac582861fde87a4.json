@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu hier mon sac à main noir en cuir, petit mais solide, avec une fermeture éclair dorée et mon porte-monnaie à l'intérieur, au Local Louage Station."
+ },
+ "raw": "{\"message\":\"J'ai perdu hier mon sac à main noir en cuir, petit mais solide, avec une fermeture éclair dorée et mon porte-monnaie à l'intérieur, au Local Louage Station.\"}",
+ "usage": {
+  "queue_time": 0.460709813,
+  "prompt_tokens": 307,
+  "prompt_time": 0.01666246,
+  "completion_tokens": 95,
+  "completion_time": 0.199766598,
+  "total_tokens": 402,
+  "total_time": 0.216429058,
+  "completion_tokens_details": {
+   "reasoning_tokens": 44
+  }
+ }
+}

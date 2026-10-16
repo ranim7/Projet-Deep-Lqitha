@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "L'bouteille s9i9a, koulouha s7ar, made of steel, nseetha f Bizerte Centre lbera7, fiha chi markaziyen"
+ },
+ "raw": "{\"message\":\"L'bouteille s9i9a, koulouha s7ar, made of steel, nseetha f Bizerte Centre lbera7, fiha chi markaziyen\"}",
+ "usage": {
+  "queue_time": 0.295865046,
+  "prompt_tokens": 357,
+  "prompt_time": 0.017242234,
+  "completion_tokens": 78,
+  "completion_time": 0.162624926,
+  "total_tokens": 435,
+  "total_time": 0.17986716,
+  "completion_tokens_details": {
+   "reasoning_tokens": 24
+  }
+ }
+}

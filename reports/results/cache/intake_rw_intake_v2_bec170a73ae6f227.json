@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "phone",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Pour trouver le numéro IMEI de votre téléphone, vous pouvez généralement le voir en composant *#06# depuis le clavier de votre téléphone. Si votre appareil ne répond pas, vous pouvez aussi le retrouver dans les paramètres sous « À propos du téléphone » ou « Informations système ».",
+  "search_query_fr": "comment trouver le numéro IMEI de mon téléphone",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"phone\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Pour trouver le numéro IMEI de votre téléphone, vous pouvez généralement le voir en composant *#06# depuis le clavier de votre téléphone. Si votre appareil ne répond pas, vous pouvez aussi le retrouver dans les paramètres sous « À propos du téléphone » ou « Informations système ».\",\"search_query_fr\":\"comment trouver le numéro IMEI de mon téléphone\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.730880338,
+  "prompt_tokens": 1391,
+  "prompt_time": 0.070585036,
+  "completion_tokens": 180,
+  "completion_time": 0.185008277,
+  "total_tokens": 1571,
+  "total_time": 0.255593313,
+  "completion_tokens_details": {
+   "reasoning_tokens": 14
+  }
+ },
+ "latency_s": 8.7
+}

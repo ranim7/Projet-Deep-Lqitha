@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": "phone case",
+  "brand": null,
+  "model": null,
+  "color_family": "multicolor",
+  "color_detail": "rainbow colors",
+  "material": "plastic",
+  "distinctive_marks": [
+   "colorful lion face design",
+   "camera cutout at top center"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Multicolor plastic phone case featuring a vibrant, artistic lion face design with a camera cutout.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"phone\",\n  \"subcategory\": \"phone case\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"multicolor\",\n  \"color_detail\": \"rainbow colors\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"colorful lion face design\",\n    \"camera cutout at top center\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Multicolor plastic phone case featuring a vibrant, artistic lion face design with a camera cutout.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.096729007,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.170980605,
+  "completion_tokens": 192,
+  "completion_time": 0.382921643,
+  "total_tokens": 2172,
+  "total_time": 0.553902248
+ },
+ "latency_s": 318.96
+}

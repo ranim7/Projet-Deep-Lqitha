@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "watch",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "gold",
+  "color_detail": "gold",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Gold watch with a golden color, featuring a gold hour hand, recently purchased at Dar Halima Shop.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"watch\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"gold\",\"color_detail\":\"gold\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Gold watch with a golden color, featuring a gold hour hand, recently purchased at Dar Halima Shop.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.232130941,
+  "prompt_tokens": 789,
+  "prompt_time": 0.250737306,
+  "completion_tokens": 139,
+  "completion_time": 0.140825494,
+  "total_tokens": 928,
+  "total_time": 0.3915628,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ },
+ "latency_s": 1.58
+}

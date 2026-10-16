@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li sa3a s7ira, 9amra w resine noir, écran LCD, t9adar tji l'eau. Tnassit'ha f Sbeïtla lbera7, kanet ma3aya lyoum."
+ },
+ "raw": "{\"message\":\"Dha3li sa3a s7ira, 9amra w resine noir, écran LCD, t9adar tji l'eau. Tnassit'ha f Sbeïtla lbera7, kanet ma3aya lyoum.\"}",
+ "usage": {
+  "queue_time": 0.057758182,
+  "prompt_tokens": 347,
+  "prompt_time": 0.119725598,
+  "completion_tokens": 99,
+  "completion_time": 0.206012036,
+  "total_tokens": 446,
+  "total_time": 0.325737634,
+  "completion_tokens_details": {
+   "reasoning_tokens": 32
+  }
+ }
+}

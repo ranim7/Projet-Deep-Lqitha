@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "camel",
+  "material": "synthetic",
+  "distinctive_marks": [
+   "small Converse pattern"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown synthetic wallet with a small Converse pattern.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"wallet\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"camel\",\"material\":\"synthetic\",\"distinctive_marks\":[\"small Converse pattern\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Brown synthetic wallet with a small Converse pattern.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.152538278,
+  "prompt_tokens": 776,
+  "prompt_time": 0.04422068,
+  "completion_tokens": 136,
+  "completion_time": 0.146367347,
+  "total_tokens": 912,
+  "total_time": 0.190588027,
+  "completion_tokens_details": {
+   "reasoning_tokens": 37
+  }
+ },
+ "latency_s": 0.79
+}

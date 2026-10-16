@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "category": "USB Hub",
+  "brand": "Amazon Basics",
+  "color": "Black",
+  "material": "Plastic",
+  "distinctive_marks": [
+   "Multiple USB ports on the side",
+   "Amazon Basics logo on the front",
+   "Curved top design",
+   "Integrated base stand"
+  ],
+  "description": "A black, vertically oriented USB hub with a curved top and a built-in base for stability. It features multiple USB ports on its side and is branded with the 'Amazon Basics' logo."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"USB Hub\",\n  \"brand\": \"Amazon Basics\",\n  \"color\": \"Black\",\n  \"material\": \"Plastic\",\n  \"distinctive_marks\": [\n    \"Multiple USB ports on the side\",\n    \"Amazon Basics logo on the front\",\n    \"Curved top design\",\n    \"Integrated base stand\"\n  ],\n  \"description\": \"A black, vertically oriented USB hub with a curved top and a built-in base for stability. It features multiple USB ports on its side and is branded with the 'Amazon Basics' logo.\"\n}",
+ "usage": {
+  "queue_time": 0.180750058,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.118951967,
+  "completion_tokens": 134,
+  "completion_time": 0.277939239,
+  "total_tokens": 1471,
+  "total_time": 0.396891206
+ },
+ "latency_s": 19.91
+}

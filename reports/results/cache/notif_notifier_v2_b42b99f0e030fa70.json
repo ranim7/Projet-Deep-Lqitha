@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "owner_message": "Bonjour, nous avons trouvé un sac correspondant à votre description à la Gare de Tunis. Pour confirmer que c'est bien le vôtre, veuillez répondre à la question de vérification ci‑dessous.",
+  "challenge_question": "Quel objet se trouve dans la poche avant du sac?",
+  "finder_message": "Merci pour votre aide. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification."
+ },
+ "strict_json": true,
+ "raw": "{\"owner_message\":\"Bonjour, nous avons trouvé un sac correspondant à votre description à la Gare de Tunis. Pour confirmer que c'est bien le vôtre, veuillez répondre à la question de vérification ci‑dessous.\",\"challenge_question\":\"Quel objet se trouve dans la poche avant du sac?\",\"finder_message\":\"Merci pour votre aide. Un propriétaire potentiel a été identifié ; nous partagerons ses coordonnées après vérification.\"}",
+ "usage": {
+  "queue_time": 0.08877946,
+  "prompt_tokens": 441,
+  "prompt_time": 0.02087562,
+  "completion_tokens": 157,
+  "completion_time": 0.326575753,
+  "total_tokens": 598,
+  "total_time": 0.347451373,
+  "completion_tokens_details": {
+   "reasoning_tokens": 63
+  }
+ },
+ "latency_s": 1.85
+}

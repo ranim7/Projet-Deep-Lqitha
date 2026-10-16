@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "Passport",
+  "brand": "Tunisian Government",
+  "color": "Green",
+  "material": "Polymer/Plastic",
+  "distinctive_marks": [
+   "National emblem of Tunisia",
+   "Text 'Tunisia' and 'Tunisie'",
+   "Passport number X1234567"
+  ],
+  "description": "A Tunisian passport with the number X1234567, belonging to a Tunisian citizen."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Passport\",\n  \"brand\": \"Tunisian Government\",\n  \"color\": \"Green\",\n  \"material\": \"Polymer/Plastic\",\n  \"distinctive_marks\": [\n    \"National emblem of Tunisia\",\n    \"Text 'Tunisia' and 'Tunisie'\",\n    \"Passport number X1234567\"\n  ],\n  \"description\": \"A Tunisian passport with the number X1234567, belonging to a Tunisian citizen.\"\n}",
+ "usage": {
+  "queue_time": 0.018300926,
+  "prompt_tokens": 70,
+  "prompt_time": 0.004672126,
+  "completion_tokens": 122,
+  "completion_time": 0.255433822,
+  "total_tokens": 192,
+  "total_time": 0.260105948
+ },
+ "latency_s": 0.9
+}

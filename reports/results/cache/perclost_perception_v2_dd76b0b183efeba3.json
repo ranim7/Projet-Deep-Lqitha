@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "laptop",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [
+   "large screen",
+   "stains on keyboard"
+  ],
+  "contents": [
+   "training files",
+   "photos"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey laptop with a large screen and stains on the keyboard, containing training files and photos.",
+  "field_confidence": {
+   "category": 1.0,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"laptop\",\n  \"subcategory\": null,\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"grey\",\n  \"color_detail\": \"grey\",\n  \"material\": null,\n  \"distinctive_marks\": [\n    \"large screen\",\n    \"stains on keyboard\"\n  ],\n  \"contents\": [\n    \"training files\",\n    \"photos\"\n  ],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Grey laptop with a large screen and stains on the keyboard, containing training files and photos.\",\n  \"field_confidence\": {\n    \"category\": 1.0,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.019663879,
+  "prompt_tokens": 735,
+  "prompt_time": 0.053831741,
+  "completion_tokens": 188,
+  "completion_time": 0.388328245,
+  "total_tokens": 923,
+  "total_time": 0.442159986
+ },
+ "latency_s": 7.51
+}

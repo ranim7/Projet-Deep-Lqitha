@@ -1,0 +1,30 @@
+{
+ "parsed": {
+  "intent": "report_loss",
+  "language": "fr",
+  "slots": {
+   "lost_item": "sac à dos"
+  },
+  "missing": [
+   "location",
+   "date_time"
+  ],
+  "next_action": "ask_location_and_time",
+  "question_to_user": "Pouvez-vous me dire où et quand vous avez perdu votre sac à dos?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_loss\",\"language\":\"fr\",\"slots\":{\"lost_item\":\"sac à dos\"},\"missing\":[\"location\",\"date_time\"],\"next_action\":\"ask_location_and_time\",\"question_to_user\":\"Pouvez-vous me dire où et quand vous avez perdu votre sac à dos?\"}",
+ "usage": {
+  "queue_time": 0.456197256,
+  "prompt_tokens": 200,
+  "prompt_time": 0.009880495,
+  "completion_tokens": 131,
+  "completion_time": 0.152064418,
+  "total_tokens": 331,
+  "total_time": 0.161944913,
+  "completion_tokens_details": {
+   "reasoning_tokens": 64
+  }
+ },
+ "latency_s": 2.56
+}

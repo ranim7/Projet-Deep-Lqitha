@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "laptop sleeve",
+  "brand": "unknown",
+  "color": "blue",
+  "material": "neoprene",
+  "distinctive_marks": [
+   "zipper closure",
+   "fabric pull tab on zipper"
+  ],
+  "description": "A blue neoprene laptop sleeve with a zipper closure and a fabric pull tab. The image shows the full item and a close-up of the corner and zipper detail."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"laptop sleeve\",\n  \"brand\": \"unknown\",\n  \"color\": \"blue\",\n  \"material\": \"neoprene\",\n  \"distinctive_marks\": [\n    \"zipper closure\",\n    \"fabric pull tab on zipper\"\n  ],\n  \"description\": \"A blue neoprene laptop sleeve with a zipper closure and a fabric pull tab. The image shows the full item and a close-up of the corner and zipper detail.\"\n}",
+ "usage": {
+  "queue_time": 0.107752542,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.095004863,
+  "completion_tokens": 112,
+  "completion_time": 0.223073524,
+  "total_tokens": 1449,
+  "total_time": 0.318078387
+ },
+ "latency_s": 19.64
+}

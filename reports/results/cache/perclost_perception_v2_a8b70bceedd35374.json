@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "glasses",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "multicolor",
+  "color_detail": "multicolor",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Multicolor round sunglasses with a slight tint.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"glasses\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"multicolor\",\"color_detail\":\"multicolor\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Multicolor round sunglasses with a slight tint.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.300569179,
+  "prompt_tokens": 777,
+  "prompt_time": 0.040302808,
+  "completion_tokens": 143,
+  "completion_time": 0.147611695,
+  "total_tokens": 920,
+  "total_time": 0.187914503,
+  "completion_tokens_details": {
+   "reasoning_tokens": 46
+  }
+ },
+ "latency_s": 1.62
+}

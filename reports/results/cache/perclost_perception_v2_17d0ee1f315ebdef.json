@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "clothes",
+   "cosmetics",
+   "key"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey big bag open containing clothes, cosmetics, and a key.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"clothes\",\"cosmetics\",\"key\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey big bag open containing clothes, cosmetics, and a key.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.150517258,
+  "prompt_tokens": 802,
+  "prompt_time": 0.078421451,
+  "completion_tokens": 192,
+  "completion_time": 0.265152196,
+  "total_tokens": 994,
+  "total_time": 0.343573647,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 86
+  }
+ },
+ "latency_s": 1.14
+}

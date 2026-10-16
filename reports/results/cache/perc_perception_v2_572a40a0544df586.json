@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "category": "glasses",
+  "subcategory": "sunglasses",
+  "brand": null,
+  "model": null,
+  "color_family": "gold",
+  "color_detail": "gold frame, brown gradient lenses, tortoiseshell temple tips",
+  "material": "metal",
+  "distinctive_marks": [
+   "aviator style",
+   "double bridge",
+   "tortoiseshell temple tips"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Gold metal aviator sunglasses with brown gradient lenses and tortoiseshell temple tips.",
+  "field_confidence": {
+   "category": 1.0,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"glasses\",\n  \"subcategory\": \"sunglasses\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"gold\",\n  \"color_detail\": \"gold frame, brown gradient lenses, tortoiseshell temple tips\",\n  \"material\": \"metal\",\n  \"distinctive_marks\": [\n    \"aviator style\",\n    \"double bridge\",\n    \"tortoiseshell temple tips\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Gold metal aviator sunglasses with brown gradient lenses and tortoiseshell temple tips.\",\n  \"field_confidence\": {\n    \"category\": 1.0,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.076843865,
+  "prompt_tokens": 1468,
+  "prompt_time": 0.129445154,
+  "completion_tokens": 203,
+  "completion_time": 0.425832789,
+  "total_tokens": 1671,
+  "total_time": 0.555277943
+ },
+ "latency_s": 23.61
+}

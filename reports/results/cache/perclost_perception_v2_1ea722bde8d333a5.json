@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "other",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [
+   "sticker"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black small camera cover with a sticker, found at Mall of Sousse.",
+  "field_confidence": {
+   "category": 0.8,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"other\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[\"sticker\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black small camera cover with a sticker, found at Mall of Sousse.\",\"field_confidence\":{\"category\":0.8,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.194340581,
+  "prompt_tokens": 797,
+  "prompt_time": 0.016441112,
+  "completion_tokens": 433,
+  "completion_time": 0.44306472,
+  "total_tokens": 1230,
+  "total_time": 0.459505832,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 330
+  }
+ },
+ "latency_s": 1.4
+}

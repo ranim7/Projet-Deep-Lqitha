@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "jewelry",
+  "subcategory": "necklace",
+  "brand": null,
+  "model": null,
+  "color_family": "gold",
+  "color_detail": "gold",
+  "material": "gold",
+  "distinctive_marks": [
+   "retro frame"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Gold necklace, large size, featuring a retro frame, with a distinctive retro frame.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"jewelry\",\"subcategory\":\"necklace\",\"brand\":null,\"model\":null,\"color_family\":\"gold\",\"color_detail\":\"gold\",\"material\":\"gold\",\"distinctive_marks\":[\"retro frame\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Gold necklace, large size, featuring a retro frame, with a distinctive retro frame.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.95,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.151483165,
+  "prompt_tokens": 795,
+  "prompt_time": 0.043026866,
+  "completion_tokens": 427,
+  "completion_time": 0.446963847,
+  "total_tokens": 1222,
+  "total_time": 0.489990713,
+  "completion_tokens_details": {
+   "reasoning_tokens": 319
+  }
+ },
+ "latency_s": 1.05
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu un sac à main couleur chameau en faux cuir, avec une petite boucle argentée, à Ain Rahma ce matin."
+ },
+ "raw": "{\"message\":\"J'ai perdu un sac à main couleur chameau en faux cuir, avec une petite boucle argentée, à Ain Rahma ce matin.\"}",
+ "usage": {
+  "queue_time": 0.049195845,
+  "prompt_tokens": 352,
+  "prompt_time": 0.017504624,
+  "completion_tokens": 68,
+  "completion_time": 0.141551115,
+  "total_tokens": 420,
+  "total_time": 0.159055739,
+  "completion_tokens_details": {
+   "reasoning_tokens": 26
+  }
+ }
+}

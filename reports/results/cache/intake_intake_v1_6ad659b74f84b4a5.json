@@ -1,0 +1,31 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "English",
+  "slots": {
+   "item_type": "car keys",
+   "location": "Avenue Habib Bourguiba",
+   "time": "this morning"
+  },
+  "missing": [
+   "owner_contact"
+  ],
+  "next_action": "ask_for_owner_contact",
+  "question_to_user": "Could you please provide the owner's contact information or any identifying details?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"English\",\"slots\":{\"item_type\":\"car keys\",\"location\":\"Avenue Habib Bourguiba\",\"time\":\"this morning\"},\"missing\":[\"owner_contact\"],\"next_action\":\"ask_for_owner_contact\",\"question_to_user\":\"Could you please provide the owner's contact information or any identifying details?\"}",
+ "usage": {
+  "queue_time": 0.149920952,
+  "prompt_tokens": 214,
+  "prompt_time": 0.010402889,
+  "completion_tokens": 157,
+  "completion_time": 0.17067048,
+  "total_tokens": 371,
+  "total_time": 0.181073369,
+  "completion_tokens_details": {
+   "reasoning_tokens": 80
+  }
+ },
+ "latency_s": 1.0
+}

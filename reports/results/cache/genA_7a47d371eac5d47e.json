@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nseet 7ajti fl Lamta lyoum, sac petite couleur rosa scuro, pelle, fih ba3d cartes w flouss, ma3andich label."
+ },
+ "raw": "{\"message\":\"Nseet 7ajti fl Lamta lyoum, sac petite couleur rosa scuro, pelle, fih ba3d cartes w flouss, ma3andich label.\"}",
+ "usage": {
+  "queue_time": 0.481390756,
+  "prompt_tokens": 352,
+  "prompt_time": 0.083185985,
+  "completion_tokens": 272,
+  "completion_time": 0.568511671,
+  "total_tokens": 624,
+  "total_time": 0.651697656,
+  "completion_tokens_details": {
+   "reasoning_tokens": 222
+  }
+ }
+}

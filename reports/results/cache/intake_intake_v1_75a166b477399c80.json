@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "ar",
+  "slots": {
+   "item_category": "phone",
+   "place_name": "Sousse",
+   "place_type": "louage",
+   "date_iso": "2026-10-13"
+  },
+  "missing": [
+   "distinctive_detail"
+  ],
+  "next_action": "ask",
+  "question_to_user": "Pouvez‑vous décrire une caractéristique distinctive de votre téléphone (couleur, coque, gravure, etc.) ?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"ar\",\"slots\":{\"item_category\":\"phone\",\"place_name\":\"Sousse\",\"place_type\":\"louage\",\"date_iso\":\"2026-10-13\"},\"missing\":[\"distinctive_detail\"],\"next_action\":\"ask\",\"question_to_user\":\"Pouvez‑vous décrire une caractéristique distinctive de votre téléphone (couleur, coque, gravure, etc.) ?\"}",
+ "usage": {
+  "queue_time": 0.017099246,
+  "prompt_tokens": 236,
+  "prompt_time": 0.011452536,
+  "completion_tokens": 172,
+  "completion_time": 0.176787104,
+  "total_tokens": 408,
+  "total_time": 0.18823964,
+  "completion_tokens_details": {
+   "reasoning_tokens": 81
+  }
+ },
+ "latency_s": 0.97
+}

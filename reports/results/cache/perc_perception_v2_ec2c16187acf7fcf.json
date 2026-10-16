@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": "smartphone",
+  "brand": "Moto",
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "dark blue",
+  "material": "plastic",
+  "distinctive_marks": [
+   "floral pattern with pink and white flowers",
+   "crescent moon design",
+   "dual camera cutout"
+  ],
+  "contents": [],
+  "visible_text": "moto",
+  "contains_sensitive_document": false,
+  "canonical_description": "Dark blue smartphone with a floral pattern and crescent moon design, featuring a dual camera and Moto branding.",
+  "field_confidence": {
+   "category": 1.0,
+   "color_family": 0.95,
+   "brand": 0.95
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"phone\",\n  \"subcategory\": \"smartphone\",\n  \"brand\": \"Moto\",\n  \"model\": null,\n  \"color_family\": \"blue\",\n  \"color_detail\": \"dark blue\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"floral pattern with pink and white flowers\",\n    \"crescent moon design\",\n    \"dual camera cutout\"\n  ],\n  \"contents\": [],\n  \"visible_text\": \"moto\",\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Dark blue smartphone with a floral pattern and crescent moon design, featuring a dual camera and Moto branding.\",\n  \"field_confidence\": {\n    \"category\": 1.0,\n    \"color_family\": 0.95,\n    \"brand\": 0.95\n  }\n}",
+ "usage": {
+  "queue_time": 0.101387547,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.170342594,
+  "completion_tokens": 206,
+  "completion_time": 0.442739802,
+  "total_tokens": 2186,
+  "total_time": 0.613082396
+ },
+ "latency_s": 23.71
+}

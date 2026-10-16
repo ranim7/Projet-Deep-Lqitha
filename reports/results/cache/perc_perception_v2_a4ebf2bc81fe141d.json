@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "category": "glasses",
+  "subcategory": "sunglasses",
+  "brand": null,
+  "model": null,
+  "color_family": "red",
+  "color_detail": "red frame, gradient grey lenses",
+  "material": "plastic",
+  "distinctive_marks": [
+   "silver metal accent on temple hinge"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Red plastic sunglasses with gradient grey lenses and silver metal accents on the temple hinges.",
+  "field_confidence": {
+   "category": 1.0,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"glasses\",\n  \"subcategory\": \"sunglasses\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"red\",\n  \"color_detail\": \"red frame, gradient grey lenses\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"silver metal accent on temple hinge\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Red plastic sunglasses with gradient grey lenses and silver metal accents on the temple hinges.\",\n  \"field_confidence\": {\n    \"category\": 1.0,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.095811417,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.165208629,
+  "completion_tokens": 182,
+  "completion_time": 0.367576057,
+  "total_tokens": 2162,
+  "total_time": 0.532784686
+ },
+ "latency_s": 24.81
+}

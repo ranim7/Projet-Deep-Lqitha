@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: red vs black (strong contradiction)",
+   "brand: both unknown",
+   "marks/contents: both mention water resistant but generic",
+   "time/place: same date and place"
+  ],
+  "agreements": [],
+  "contradictions": [
+   "color"
+  ],
+  "decision": "no_match",
+  "confidence": 0.1,
+  "question_for_owner": null
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: red vs black (strong contradiction)\",\"brand: both unknown\",\"marks/contents: both mention water resistant but generic\",\"time/place: same date and place\"],\"agreements\":[],\"contradictions\":[\"color\"],\"decision\":\"no_match\",\"confidence\":0.1,\"question_for_owner\":null}",
+ "usage": {
+  "queue_time": 0.295762995,
+  "prompt_tokens": 793,
+  "prompt_time": 0.03108739,
+  "completion_tokens": 110,
+  "completion_time": 0.2306963,
+  "total_tokens": 903,
+  "total_time": 0.26178369,
+  "completion_tokens_details": {
+   "reasoning_tokens": 31
+  }
+ },
+ "latency_s": 8.52
+}

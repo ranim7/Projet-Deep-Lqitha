@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "intent": "request_documents_for_duplicate_driver_license",
+  "language": "fr",
+  "slots": {},
+  "missing": [],
+  "next_action": "provide_information",
+  "question_to_user": ""
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"request_documents_for_duplicate_driver_license\",\"language\":\"fr\",\"slots\":{},\"missing\":[],\"next_action\":\"provide_information\",\"question_to_user\":\"\"}",
+ "usage": {
+  "queue_time": 0.148658582,
+  "prompt_tokens": 205,
+  "prompt_time": 0.011571314,
+  "completion_tokens": 86,
+  "completion_time": 0.101421051,
+  "total_tokens": 291,
+  "total_time": 0.112992365,
+  "completion_tokens_details": {
+   "reasoning_tokens": 44
+  }
+ },
+ "latency_s": 0.85
+}

@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "umbrella",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "red",
+  "color_detail": "red",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Red umbrella with white polka dots.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"umbrella\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"red\",\"color_detail\":\"red\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Red umbrella with white polka dots.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.194046647,
+  "prompt_tokens": 761,
+  "prompt_time": 0.042555744,
+  "completion_tokens": 147,
+  "completion_time": 0.163323122,
+  "total_tokens": 908,
+  "total_time": 0.205878866,
+  "completion_tokens_details": {
+   "reasoning_tokens": 53
+  }
+ },
+ "latency_s": 4.46
+}

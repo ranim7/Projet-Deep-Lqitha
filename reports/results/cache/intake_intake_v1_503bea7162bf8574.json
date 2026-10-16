@@ -1,0 +1,29 @@
+{
+ "parsed": {
+  "intent": "replace_license",
+  "language": "ar",
+  "slots": {
+   "license_type": "driver's license"
+  },
+  "missing": [
+   "expiration_date"
+  ],
+  "next_action": "ask_expiration_date",
+  "question_to_user": "ما هو تاريخ انتهاء رخصتك؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"replace_license\",\"language\":\"ar\",\"slots\":{\"license_type\":\"driver's license\"},\"missing\":[\"expiration_date\"],\"next_action\":\"ask_expiration_date\",\"question_to_user\":\"ما هو تاريخ انتهاء رخصتك؟\"}",
+ "usage": {
+  "queue_time": 0.140788964,
+  "prompt_tokens": 205,
+  "prompt_time": 0.011862765,
+  "completion_tokens": 128,
+  "completion_time": 0.13114668,
+  "total_tokens": 333,
+  "total_time": 0.143009445,
+  "completion_tokens_details": {
+   "reasoning_tokens": 72
+  }
+ },
+ "latency_s": 1.05
+}

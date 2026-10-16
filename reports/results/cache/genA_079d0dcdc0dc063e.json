@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Dha3li sac k7el, taille moyenne, fih zip mftou7 w 3la jnah, tensa f La Corniche awel lbera7"
+ },
+ "raw": "{\"message\":\"Dha3li sac k7el, taille moyenne, fih zip mftou7 w 3la jnah, tensa f La Corniche awel lbera7\"}",
+ "usage": {
+  "queue_time": 0.049586713,
+  "prompt_tokens": 349,
+  "prompt_time": 0.015011665,
+  "completion_tokens": 74,
+  "completion_time": 0.155935401,
+  "total_tokens": 423,
+  "total_time": 0.170947066,
+  "completion_tokens_details": {
+   "reasoning_tokens": 25
+  }
+ }
+}

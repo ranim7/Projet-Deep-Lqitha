@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "shoes",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "beige",
+  "color_detail": "ivory",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Beige simple sandal with no distinctive marks, lost near the technology pole two days ago.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"shoes\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"beige\",\"color_detail\":\"ivory\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Beige simple sandal with no distinctive marks, lost near the technology pole two days ago.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.15135858,
+  "prompt_tokens": 782,
+  "prompt_time": 0.024695639,
+  "completion_tokens": 233,
+  "completion_time": 0.240186682,
+  "total_tokens": 1015,
+  "total_time": 0.264882321,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 127
+  }
+ },
+ "latency_s": 0.88
+}

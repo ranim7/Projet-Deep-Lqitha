@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "ar",
+  "slots": {
+   "item_category": "phone",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "train_station",
+   "place_name": "Sousse",
+   "governorate": "Sousse",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": true
+  },
+  "missing": [
+   "date",
+   "distinctive_detail",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "متى وجدت الهاتف؟",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"ar\",\"slots\":{\"item_category\":\"phone\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"train_station\",\"place_name\":\"Sousse\",\"governorate\":\"Sousse\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":true},\"missing\":[\"date\",\"distinctive_detail\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"متى وجدت الهاتف؟\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.193569719,
+  "prompt_tokens": 1396,
+  "prompt_time": 0.088232269,
+  "completion_tokens": 169,
+  "completion_time": 0.173898346,
+  "total_tokens": 1565,
+  "total_time": 0.262130615,
+  "completion_tokens_details": {
+   "reasoning_tokens": 51
+  }
+ },
+ "latency_s": 10.81
+}

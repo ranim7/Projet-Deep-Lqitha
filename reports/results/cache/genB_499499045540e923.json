@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lbara7 f El Bortal, 9telt jute bag lounha kahla, fih slipp3rs w boutei9a m3a lma, 9dim w m3amr b'7wayej"
+ },
+ "raw": "{\"message\":\"Lbara7 f El Bortal, 9telt jute bag lounha kahla, fih slipp3rs w boutei9a m3a lma, 9dim w m3amr b'7wayej\"}",
+ "usage": {
+  "queue_time": 0.020039279,
+  "prompt_tokens": 313,
+  "prompt_time": 0.01592967,
+  "completion_tokens": 110,
+  "completion_time": 0.229012908,
+  "total_tokens": 423,
+  "total_time": 0.244942578,
+  "completion_tokens_details": {
+   "reasoning_tokens": 47
+  }
+ }
+}

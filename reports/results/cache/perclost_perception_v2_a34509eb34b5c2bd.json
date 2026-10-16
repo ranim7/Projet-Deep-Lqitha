@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "national ID card",
+   "metro card",
+   "bank card",
+   "cash"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Brown wallet containing a national ID card, metro card, bank card, and cash.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"wallet\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"brown\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"national ID card\",\"metro card\",\"bank card\",\"cash\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Brown wallet containing a national ID card, metro card, bank card, and cash.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.190217034,
+  "prompt_tokens": 793,
+  "prompt_time": 0.046956041,
+  "completion_tokens": 213,
+  "completion_time": 0.236769735,
+  "total_tokens": 1006,
+  "total_time": 0.283725776,
+  "completion_tokens_details": {
+   "reasoning_tokens": 99
+  }
+ },
+ "latency_s": 0.99
+}

@@ -1,0 +1,29 @@
+{
+ "parsed": {
+  "intent": "inquire_lost_item",
+  "language": "ar-TN",
+  "slots": {},
+  "missing": [
+   "item_description",
+   "location",
+   "date_time"
+  ],
+  "next_action": "ask_for_details",
+  "question_to_user": "هل يمكنك وصف الحقيبة التي فقدتها؟ أين و متى فقدتها؟"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"inquire_lost_item\",\"language\":\"ar-TN\",\"slots\":{},\"missing\":[\"item_description\",\"location\",\"date_time\"],\"next_action\":\"ask_for_details\",\"question_to_user\":\"هل يمكنك وصف الحقيبة التي فقدتها؟ أين و متى فقدتها؟\"}",
+ "usage": {
+  "queue_time": 0.016916453,
+  "prompt_tokens": 205,
+  "prompt_time": 0.013808817,
+  "completion_tokens": 138,
+  "completion_time": 0.144623,
+  "total_tokens": 343,
+  "total_time": 0.158431817,
+  "completion_tokens_details": {
+   "reasoning_tokens": 70
+  }
+ },
+ "latency_s": 0.85
+}

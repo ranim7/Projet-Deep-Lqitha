@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "keys",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "gold",
+  "color_detail": "gold",
+  "material": "metal",
+  "distinctive_marks": [
+   "golden Eiffel tower keychain"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Gold metal keys with a golden Eiffel tower keychain.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"keys\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"gold\",\"color_detail\":\"gold\",\"material\":\"metal\",\"distinctive_marks\":[\"golden Eiffel tower keychain\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Gold metal keys with a golden Eiffel tower keychain.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.017746295,
+  "prompt_tokens": 764,
+  "prompt_time": 0.015477468,
+  "completion_tokens": 139,
+  "completion_time": 0.180711365,
+  "total_tokens": 903,
+  "total_time": 0.196188833,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 36
+  }
+ },
+ "latency_s": 0.73
+}

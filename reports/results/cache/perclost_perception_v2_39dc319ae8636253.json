@@ -1,0 +1,45 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "backpack",
+  "brand": null,
+  "model": null,
+  "color_family": "pink",
+  "color_detail": "pink",
+  "material": null,
+  "distinctive_marks": [
+   "open zipper",
+   "side logo"
+  ],
+  "contents": [
+   "book",
+   "money"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Pink backpack with open zipper and side logo, containing a book and money.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":\"backpack\",\"brand\":null,\"model\":null,\"color_family\":\"pink\",\"color_detail\":\"pink\",\"material\":null,\"distinctive_marks\":[\"open zipper\",\"side logo\"],\"contents\":[\"book\",\"money\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Pink backpack with open zipper and side logo, containing a book and money.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.017326736,
+  "prompt_tokens": 793,
+  "prompt_time": 0.371285393,
+  "completion_tokens": 270,
+  "completion_time": 0.288003485,
+  "total_tokens": 1063,
+  "total_time": 0.659288878,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 159
+  }
+ },
+ "latency_s": 1.37
+}

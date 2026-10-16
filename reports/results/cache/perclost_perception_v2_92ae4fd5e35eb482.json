@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "leather",
+  "distinctive_marks": [],
+  "contents": [
+   "metro card",
+   "tickets",
+   "bank cards"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black leather handbag containing a metro card, several tickets, and bank cards.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"leather\",\"distinctive_marks\":[],\"contents\":[\"metro card\",\"tickets\",\"bank cards\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black leather handbag containing a metro card, several tickets, and bank cards.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.194682515,
+  "prompt_tokens": 779,
+  "prompt_time": 0.025671478,
+  "completion_tokens": 149,
+  "completion_time": 0.155422297,
+  "total_tokens": 928,
+  "total_time": 0.181093775,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 40
+  }
+ },
+ "latency_s": 1.94
+}

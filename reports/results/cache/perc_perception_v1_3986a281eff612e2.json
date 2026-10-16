@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "Sports Equipment",
+  "brand": "Amazon Basics",
+  "color": "Yellow and White",
+  "material": "Polyester net, Metal poles, Plastic feet",
+  "distinctive_marks": [
+   "Brand name 'amazonbasics' printed vertically on the yellow side panel",
+   "Black plastic feet at the base of the poles",
+   "Black and white striped pole sections"
+  ],
+  "description": "A portable, foldable sports goal, likely for soccer or lacrosse. It features a white mesh net stretched over a frame with yellow fabric panels on the top and sides. The frame consists of black and white striped poles with black plastic feet for stability. The brand name 'amazonbasics' is visible on the yellow side panel."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Sports Equipment\",\n  \"brand\": \"Amazon Basics\",\n  \"color\": \"Yellow and White\",\n  \"material\": \"Polyester net, Metal poles, Plastic feet\",\n  \"distinctive_marks\": [\n    \"Brand name 'amazonbasics' printed vertically on the yellow side panel\",\n    \"Black plastic feet at the base of the poles\",\n    \"Black and white striped pole sections\"\n  ],\n  \"description\": \"A portable, foldable sports goal, likely for soccer or lacrosse. It features a white mesh net stretched over a frame with yellow fabric panels on the top and sides. The frame consists of black and white striped poles with black plastic feet for stability. The brand name 'amazonbasics' is visible on the yellow side panel.\"\n}",
+ "usage": {
+  "queue_time": 0.176215642,
+  "prompt_tokens": 1849,
+  "prompt_time": 0.165654703,
+  "completion_tokens": 178,
+  "completion_time": 0.365571386,
+  "total_tokens": 2027,
+  "total_time": 0.531226089
+ },
+ "latency_s": 20.18
+}

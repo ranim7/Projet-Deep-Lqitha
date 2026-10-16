@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "owner_message": "Nous avons trouvé une possible correspondance pour vos clés, conservées à la Gare de Tunis. Veuillez répondre à la question de vérification pour confirmer votre identité.",
+  "challenge_question": "Quel est le motif du porte‑clés que vous aviez perdu ?",
+  "finder_message": "Merci ! Nous avons identifié un propriétaire potentiel. Ses coordonnées seront communiquées après vérification."
+ },
+ "strict_json": true,
+ "raw": "{\"owner_message\":\"Nous avons trouvé une possible correspondance pour vos clés, conservées à la Gare de Tunis. Veuillez répondre à la question de vérification pour confirmer votre identité.\",\"challenge_question\":\"Quel est le motif du porte‑clés que vous aviez perdu ?\",\"finder_message\":\"Merci ! Nous avons identifié un propriétaire potentiel. Ses coordonnées seront communiquées après vérification.\"}",
+ "usage": {
+  "queue_time": 0.461748402,
+  "prompt_tokens": 437,
+  "prompt_time": 0.023400359,
+  "completion_tokens": 298,
+  "completion_time": 0.63691886,
+  "total_tokens": 735,
+  "total_time": 0.660319219,
+  "completion_tokens_details": {
+   "reasoning_tokens": 208
+  }
+ },
+ "latency_s": 1.77
+}

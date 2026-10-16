@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "electronics",
+  "subcategory": "hub",
+  "brand": "Amazon Basics",
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "plastic",
+  "distinctive_marks": [
+   "multiple USB ports on the side",
+   "Amazon Basics logo on the front"
+  ],
+  "contents": [],
+  "visible_text": "amazon basics",
+  "contains_sensitive_document": false,
+  "canonical_description": "Black plastic Amazon Basics USB hub with multiple ports on the side and a logo on the front.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.95
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"electronics\",\n  \"subcategory\": \"hub\",\n  \"brand\": \"Amazon Basics\",\n  \"model\": null,\n  \"color_family\": \"black\",\n  \"color_detail\": \"black\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"multiple USB ports on the side\",\n    \"Amazon Basics logo on the front\"\n  ],\n  \"contents\": [],\n  \"visible_text\": \"amazon basics\",\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Black plastic Amazon Basics USB hub with multiple ports on the side and a logo on the front.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.95\n  }\n}",
+ "usage": {
+  "queue_time": 0.10803703,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.146471712,
+  "completion_tokens": 194,
+  "completion_time": 0.386356476,
+  "total_tokens": 2174,
+  "total_time": 0.532828188
+ },
+ "latency_s": 24.9
+}

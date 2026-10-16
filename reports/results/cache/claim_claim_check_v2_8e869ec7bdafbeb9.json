@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": true,
+  "reason": "matches keychain description"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":true,\"reason\":\"matches keychain description\"}",
+ "usage": {
+  "queue_time": 0.149117715,
+  "prompt_tokens": 264,
+  "prompt_time": 0.013111216,
+  "completion_tokens": 60,
+  "completion_time": 0.062456376,
+  "total_tokens": 324,
+  "total_time": 0.075567592,
+  "completion_tokens_details": {
+   "reasoning_tokens": 39
+  }
+ },
+ "latency_s": 7.12
+}

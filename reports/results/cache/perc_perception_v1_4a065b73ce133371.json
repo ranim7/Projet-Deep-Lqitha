@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "category": "laptop sleeve",
+  "brand": "eono",
+  "color": "blue",
+  "material": "neoprene",
+  "distinctive_marks": "white 'eono' logo, grey handle, grey zipper",
+  "description": "A set of three blue neoprene laptop sleeves in different sizes, each featuring a grey handle, a grey zipper, and a white 'eono' logo on the front."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"laptop sleeve\",\n  \"brand\": \"eono\",\n  \"color\": \"blue\",\n  \"material\": \"neoprene\",\n  \"distinctive_marks\": \"white 'eono' logo, grey handle, grey zipper\",\n  \"description\": \"A set of three blue neoprene laptop sleeves in different sizes, each featuring a grey handle, a grey zipper, and a white 'eono' logo on the front.\"\n}",
+ "usage": {
+  "queue_time": 0.214513502,
+  "prompt_tokens": 1337,
+  "prompt_time": 0.093839616,
+  "completion_tokens": 109,
+  "completion_time": 0.226222807,
+  "total_tokens": 1446,
+  "total_time": 0.320062423
+ },
+ "latency_s": 20.27
+}

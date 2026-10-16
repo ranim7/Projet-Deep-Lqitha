@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "Hello,\n\nWe believe we may have found the watch you reported missing. It was turned in at the Gare de Tunis. To confirm that this is indeed your watch, could you tell us how the strap was altered? (Hint: there’s a specific detail we noted about it.) \n\nThank you!",
+ "usage": {
+  "queue_time": 0.295944752,
+  "prompt_tokens": 162,
+  "prompt_time": 0.006469737,
+  "completion_tokens": 87,
+  "completion_time": 0.178955718,
+  "total_tokens": 249,
+  "total_time": 0.185425455,
+  "completion_tokens_details": {
+   "reasoning_tokens": 18
+  }
+ },
+ "latency_s": 1.44
+}

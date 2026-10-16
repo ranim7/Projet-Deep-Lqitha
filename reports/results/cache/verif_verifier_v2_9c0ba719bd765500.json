@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: grey vs black (different families, weak contradiction)",
+   "brand: both unknown, no contradiction",
+   "marks/contents: no shared details",
+   "time/place: found after lost date, different location (weak contradiction)"
+  ],
+  "agreements": [
+   "category"
+  ],
+  "contradictions": [
+   "color"
+  ],
+  "decision": "possible_match",
+  "confidence": 0.45,
+  "question_for_owner": "Does the bag have any silver stripe or other distinctive markings?"
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: grey vs black (different families, weak contradiction)\",\"brand: both unknown, no contradiction\",\"marks/contents: no shared details\",\"time/place: found after lost date, different location (weak contradiction)\"],\"agreements\":[\"category\"],\"contradictions\":[\"color\"],\"decision\":\"possible_match\",\"confidence\":0.45,\"question_for_owner\":\"Does the bag have any silver stripe or other distinctive markings?\"}",
+ "usage": {
+  "queue_time": 0.295796781,
+  "prompt_tokens": 803,
+  "prompt_time": 0.015971726,
+  "completion_tokens": 293,
+  "completion_time": 0.672308123,
+  "total_tokens": 1096,
+  "total_time": 0.688279849,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 191
+  }
+ },
+ "latency_s": 1.53
+}

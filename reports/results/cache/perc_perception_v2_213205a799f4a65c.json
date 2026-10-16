@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "clothing",
+  "subcategory": "cap",
+  "brand": "Starter",
+  "model": null,
+  "color_family": "white",
+  "color_detail": "white with black trim",
+  "material": "fabric",
+  "distinctive_marks": [
+   "black star logo on front",
+   "black text 'STARTER' on brim"
+  ],
+  "contents": [],
+  "visible_text": "STARTER",
+  "contains_sensitive_document": false,
+  "canonical_description": "White fabric baseball cap with black brim trim, featuring a black star logo and 'STARTER' text on the front.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.98
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"clothing\",\n  \"subcategory\": \"cap\",\n  \"brand\": \"Starter\",\n  \"model\": null,\n  \"color_family\": \"white\",\n  \"color_detail\": \"white with black trim\",\n  \"material\": \"fabric\",\n  \"distinctive_marks\": [\n    \"black star logo on front\",\n    \"black text 'STARTER' on brim\"\n  ],\n  \"contents\": [],\n  \"visible_text\": \"STARTER\",\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"White fabric baseball cap with black brim trim, featuring a black star logo and 'STARTER' text on the front.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.98\n  }\n}",
+ "usage": {
+  "queue_time": 0.120129845,
+  "prompt_tokens": 2492,
+  "prompt_time": 0.183730092,
+  "completion_tokens": 205,
+  "completion_time": 0.431700108,
+  "total_tokens": 2697,
+  "total_time": 0.6154302
+ },
+ "latency_s": 22.75
+}

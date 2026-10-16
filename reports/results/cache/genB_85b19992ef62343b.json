@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "I lost a clear poly bag with clothes, a watch, my purse, a charger and some cash belonging to Rahul at El Guetar this morning."
+ },
+ "raw": "{\"message\":\"I lost a clear poly bag with clothes, a watch, my purse, a charger and some cash belonging to Rahul at El Guetar this morning.\"}",
+ "usage": {
+  "queue_time": 0.048818099,
+  "prompt_tokens": 320,
+  "prompt_time": 0.014969714,
+  "completion_tokens": 95,
+  "completion_time": 0.19777064,
+  "total_tokens": 415,
+  "total_time": 0.212740354,
+  "completion_tokens_details": {
+   "reasoning_tokens": 52
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": null,
+ "strict_json": false,
+ "raw": "**Délai pour réclamer une valise non arrivée à Tunis‑Carthage**\n\n- **Bagage retardé** : vous devez soumettre votre réclamation **dans les 21 jours suivant la date à laquelle le bagage a été mis à votre disposition** (c’est‑à‑dire la date où il aurait dû être livré à l’aéroport).  \n- Si vous avez déjà reçu un **Property Irregularity Report (PIR)** à l’aéroport d’arrivée, conservez-le, car il est indispensable pour votre demande.\n\n---\n\n### Que faire immédiatement\n\n1. **Ne quittez pas la zone de livraison**. Présentez‑vous au comptoir « Bagages / Lost & Found » de Tunisair ou de son agent d’assistance.  \n2. **Obtenez un PIR** (rapport d’irrégularité bagage) et gardez une copie avec le numéro de dossier.  \n3. **Rassemblez les documents suivants** pour votre réclamation écrite :\n   - Le PIR original  \n   - L’étiquette (talon) du bagage  \n   - La carte d’embarquement ou une copie du billet  \n   - Toute pièce d’identité et description précise du bagage (couleur, marque, taille, signes distinctifs, contenu)  \n   - Factures ou justificatifs de dépenses engagées (si vous avez dû acheter des articles de première nécessité)  \n\n4. **Envoyez votre réclamation** :\n   - **Par courrier postal** à l’adresse :\n     ```\n     Tunisair\n     Customer Relations Department\n     Charguia II\n     2035 Tunis – Carthage\n     Tunisia\n     ```\n   - **Ou via le formulaire en ligne** disponible sur le site de Tunisair (https://www.tunisair.com/en/customer-care).  \n   - **Ou par tout autre moyen de communication** que Tunisair propose aux passagers.\n\n5. **Respectez le délai** : assurez‑vous de soumettre la réclamation **avant le 21ᵉ jour** suivant la date de mise à disposition du bagage.  \n\n---\n\n### Si vous ne recevez pas de réponse dans les 30 jours\n\n- Tunisair doit vous répondre dans les 30 jours suivant la réception de votre demande.  \n- En cas de non‑réponse ou de réponse insatisfaisante, vous pouvez déposer une plainte auprès de l’**Office des transports du Canada (OTC)** (ou de l’**Agence canadienne des transports (CTA)** si vous êtes un passager canadien).\n\n---\n\n**En résumé** : vous avez **21 jours** à partir de la date où votre valise aurait dû être livrée pour faire votre réclamation. Préparez les documents requis, soumettez votre demande rapidement et conservez une copie de tout ce que vous envoyez.",
+ "usage": {
+  "queue_time": 0.016929156,
+  "prompt_tokens": 1316,
+  "prompt_time": 0.092749754,
+  "completion_tokens": 619,
+  "completion_time": 0.73559727,
+  "total_tokens": 1935,
+  "total_time": 0.828347024,
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ },
+ "latency_s": 2.41
+}

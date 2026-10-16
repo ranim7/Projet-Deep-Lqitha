@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "blanket",
+   "gloves",
+   "shawl"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black bag containing a blanket, gloves, and a shawl.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[],\"contents\":[\"blanket\",\"gloves\",\"shawl\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black bag containing a blanket, gloves, and a shawl.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.152629159,
+  "prompt_tokens": 778,
+  "prompt_time": 0.083648578,
+  "completion_tokens": 137,
+  "completion_time": 0.150482102,
+  "total_tokens": 915,
+  "total_time": 0.23413068,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ },
+ "latency_s": 0.92
+}

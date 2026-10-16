@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "Sunglasses",
+  "brand": "Ray-Ban",
+  "color": "Black",
+  "material": "Acetate",
+  "distinctive_marks": [
+   "Black frame",
+   "Ray-Ban logo"
+  ],
+  "description": "A pair of black Ray-Ban sunglasses."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Sunglasses\",\n  \"brand\": \"Ray-Ban\",\n  \"color\": \"Black\",\n  \"material\": \"Acetate\",\n  \"distinctive_marks\": [\n    \"Black frame\",\n    \"Ray-Ban logo\"\n  ],\n  \"description\": \"A pair of black Ray-Ban sunglasses.\"\n}",
+ "usage": {
+  "queue_time": 0.021754975,
+  "prompt_tokens": 63,
+  "prompt_time": 0.004549888,
+  "completion_tokens": 82,
+  "completion_time": 0.172845857,
+  "total_tokens": 145,
+  "total_time": 0.177395745
+ },
+ "latency_s": 4.49
+}

@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "derja",
+  "slots": {
+   "item_category": null,
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "louage",
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "item_category",
+   "date",
+   "photo",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Chnou hya l7aja li l9it?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.8
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"derja\",\"slots\":{\"item_category\":null,\"date_text\":null,\"date_iso\":null,\"place_type\":\"louage\",\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"item_category\",\"date\",\"photo\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Chnou hya l7aja li l9it?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.8}",
+ "usage": {
+  "queue_time": 0.23195423,
+  "prompt_tokens": 1391,
+  "prompt_time": 0.090597143,
+  "completion_tokens": 155,
+  "completion_time": 0.159354653,
+  "total_tokens": 1546,
+  "total_time": 0.249951796,
+  "completion_tokens_details": {
+   "reasoning_tokens": 31
+  }
+ },
+ "latency_s": 1.93
+}

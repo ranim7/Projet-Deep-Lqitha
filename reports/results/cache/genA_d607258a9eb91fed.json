@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nseet boot cognac, 9i9a m3a zharri fawqa, 9rib l'kif, f Station Louage Bab Saasoun lyoum, ma3andich logo."
+ },
+ "raw": "{\"message\":\"Nseet boot cognac, 9i9a m3a zharri fawqa, 9rib l'kif, f Station Louage Bab Saasoun lyoum, ma3andich logo.\"}",
+ "usage": {
+  "queue_time": 0.298777813,
+  "prompt_tokens": 327,
+  "prompt_time": 0.015785642,
+  "completion_tokens": 245,
+  "completion_time": 0.504416655,
+  "total_tokens": 572,
+  "total_time": 0.520202297,
+  "completion_tokens_details": {
+   "reasoning_tokens": 185
+  }
+ }
+}

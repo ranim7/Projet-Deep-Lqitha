@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "headphones",
+  "subcategory": "earbuds",
+  "brand": null,
+  "model": null,
+  "color_family": "pink",
+  "color_detail": "light pink",
+  "material": "plastic",
+  "distinctive_marks": [
+   "charging case included",
+   "three LED indicator lights on case"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Light pink plastic wireless earbuds with a matching charging case featuring three indicator lights.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"headphones\",\n  \"subcategory\": \"earbuds\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"pink\",\n  \"color_detail\": \"light pink\",\n  \"material\": \"plastic\",\n  \"distinctive_marks\": [\n    \"charging case included\",\n    \"three LED indicator lights on case\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Light pink plastic wireless earbuds with a matching charging case featuring three indicator lights.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.093945436,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.178224465,
+  "completion_tokens": 188,
+  "completion_time": 0.371310464,
+  "total_tokens": 2168,
+  "total_time": 0.549534929
+ },
+ "latency_s": 22.69
+}

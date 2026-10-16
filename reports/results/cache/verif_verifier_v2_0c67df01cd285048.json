@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same (phone)",
+   "color: strong contradiction (multicolor vs red)",
+   "brand: both unknown, no contradiction",
+   "marks/contents: no shared distinctive marks",
+   "time/place: found date after lost date, place different but weak"
+  ],
+  "agreements": [],
+  "contradictions": [
+   "color"
+  ],
+  "decision": "no_match",
+  "confidence": 0.2,
+  "question_for_owner": null
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same (phone)\",\"color: strong contradiction (multicolor vs red)\",\"brand: both unknown, no contradiction\",\"marks/contents: no shared distinctive marks\",\"time/place: found date after lost date, place different but weak\"],\"agreements\":[],\"contradictions\":[\"color\"],\"decision\":\"no_match\",\"confidence\":0.2,\"question_for_owner\":null}",
+ "usage": {
+  "queue_time": 0.234021466,
+  "prompt_tokens": 810,
+  "prompt_time": 0.013773449,
+  "completion_tokens": 151,
+  "completion_time": 0.312448984,
+  "total_tokens": 961,
+  "total_time": 0.326222433,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 61
+  }
+ },
+ "latency_s": 10.62
+}

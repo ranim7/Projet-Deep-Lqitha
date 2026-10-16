@@ -1,0 +1,138 @@
+{
+ "set_A": {
+  "n_lost": 40,
+  "n_found_pool": 40,
+  "ablation": [
+   {
+    "matcher": "M0 raw message, dense",
+    "Hit@1": 0.325,
+    "Hit@3": 0.575,
+    "Hit@5": 0.675,
+    "MRR": 0.4863
+   },
+   {
+    "matcher": "M1 + perception normalisation",
+    "Hit@1": 0.4,
+    "Hit@3": 0.75,
+    "Hit@5": 0.85,
+    "MRR": 0.5902
+   },
+   {
+    "matcher": "M2 + hard filters (category, date)",
+    "Hit@1": 0.575,
+    "Hit@3": 0.7,
+    "Hit@5": 0.7,
+    "MRR": 0.6333
+   },
+   {
+    "matcher": "M3 full matcher (+ attribute re-scoring)",
+    "Hit@1": 0.675,
+    "Hit@3": 0.7,
+    "Hit@5": 0.7,
+    "MRR": 0.6875
+   }
+  ],
+  "by_language": [
+   {
+    "language": "derja",
+    "n": 35,
+    "Hit@1": 0.6286,
+    "Hit@3": 0.6571,
+    "MRR": 0.6429
+   },
+   {
+    "language": "fr",
+    "n": 5,
+    "Hit@1": 1.0,
+    "Hit@3": 1.0,
+    "MRR": 1.0
+   }
+  ]
+ },
+ "set_B": {
+  "n_lost": 40,
+  "n_found_pool": 1540,
+  "ablation": [
+   {
+    "matcher": "M0 raw message, dense",
+    "Hit@1": 0.375,
+    "Hit@3": 0.45,
+    "Hit@5": 0.475,
+    "MRR": 0.4331
+   },
+   {
+    "matcher": "M1 + perception normalisation",
+    "Hit@1": 0.275,
+    "Hit@3": 0.4,
+    "Hit@5": 0.4,
+    "MRR": 0.3562
+   },
+   {
+    "matcher": "M2 + hard filters (category, date)",
+    "Hit@1": 0.225,
+    "Hit@3": 0.3,
+    "Hit@5": 0.325,
+    "MRR": 0.2842
+   },
+   {
+    "matcher": "M3 full matcher (+ attribute re-scoring)",
+    "Hit@1": 0.375,
+    "Hit@3": 0.375,
+    "Hit@5": 0.425,
+    "MRR": 0.3911
+   }
+  ],
+  "by_language": [
+   {
+    "language": "ar",
+    "n": 6,
+    "Hit@1": 0.5,
+    "Hit@3": 0.5,
+    "MRR": 0.5
+   },
+   {
+    "language": "derja",
+    "n": 15,
+    "Hit@1": 0.4667,
+    "Hit@3": 0.4667,
+    "MRR": 0.4907
+   },
+   {
+    "language": "en",
+    "n": 4,
+    "Hit@1": 0.75,
+    "Hit@3": 0.75,
+    "MRR": 0.75
+   },
+   {
+    "language": "fr",
+    "n": 15,
+    "Hit@1": 0.1333,
+    "Hit@3": 0.1333,
+    "MRR": 0.1522
+   }
+  ]
+ },
+ "verifier": [
+  {
+   "version": "v1",
+   "pairs": 22,
+   "true_pairs": 10,
+   "match_precision": 1.0,
+   "true_pairs_kept (match or possible)": 0.2,
+   "wrong_pairs_called_match": 0,
+   "wrong_pairs_rejected": 12,
+   "wrong_pairs_possible": 0
+  },
+  {
+   "version": "v2",
+   "pairs": 22,
+   "true_pairs": 10,
+   "match_precision": 1.0,
+   "true_pairs_kept (match or possible)": 0.6,
+   "wrong_pairs_called_match": 0,
+   "wrong_pairs_rejected": 10,
+   "wrong_pairs_possible": 2
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: strong contradiction (black vs blue)",
+   "brand: both unknown",
+   "marks/contents: no shared distinctive marks",
+   "time/place: found date after lost date, places different but not strong"
+  ],
+  "agreements": [],
+  "contradictions": [
+   "color"
+  ],
+  "decision": "no_match",
+  "confidence": 0.1,
+  "question_for_owner": null
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: strong contradiction (black vs blue)\",\"brand: both unknown\",\"marks/contents: no shared distinctive marks\",\"time/place: found date after lost date, places different but not strong\"],\"agreements\":[],\"contradictions\":[\"color\"],\"decision\":\"no_match\",\"confidence\":0.1,\"question_for_owner\":null}",
+ "usage": {
+  "queue_time": 0.049187547,
+  "prompt_tokens": 816,
+  "prompt_time": 0.039278074,
+  "completion_tokens": 122,
+  "completion_time": 0.252714866,
+  "total_tokens": 938,
+  "total_time": 0.29199294,
+  "completion_tokens_details": {
+   "reasoning_tokens": 38
+  }
+ },
+ "latency_s": 3.95
+}

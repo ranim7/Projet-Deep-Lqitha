@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nseet wallet abyad f Omrane Superieur awel lbera7, fih foto 11x14 m7ottin, kima 7ajet tal3a, ma3andich markha, 9a3d ykoun ma3aya."
+ },
+ "raw": "{\"message\":\"Nseet wallet abyad f Omrane Superieur awel lbera7, fih foto 11x14 m7ottin, kima 7ajet tal3a, ma3andich markha, 9a3d ykoun ma3aya.\"}",
+ "usage": {
+  "queue_time": 0.778087189,
+  "prompt_tokens": 362,
+  "prompt_time": 0.019624622,
+  "completion_tokens": 121,
+  "completion_time": 0.251895927,
+  "total_tokens": 483,
+  "total_time": 0.271520549,
+  "completion_tokens_details": {
+   "reasoning_tokens": 50
+  }
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "jute",
+  "distinctive_marks": [],
+  "contents": [
+   "slippers",
+   "water bottle"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black jute bag containing slippers and a water bottle, old and full of items.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"jute\",\"distinctive_marks\":[],\"contents\":[\"slippers\",\"water bottle\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black jute bag containing slippers and a water bottle, old and full of items.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.310289776,
+  "prompt_tokens": 796,
+  "prompt_time": 0.436095575,
+  "completion_tokens": 292,
+  "completion_time": 0.296431811,
+  "total_tokens": 1088,
+  "total_time": 0.732527386,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 183
+  }
+ },
+ "latency_s": 10.04
+}

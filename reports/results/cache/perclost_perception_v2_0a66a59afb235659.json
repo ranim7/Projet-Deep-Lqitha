@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": "leather",
+  "distinctive_marks": [],
+  "contents": [
+   "Aadhar card",
+   "bracelets",
+   "keys",
+   "small bottle of oil",
+   "cash",
+   "note from Kamini Nagwansi"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Brown leather bag containing an Aadhar card, several bracelets, keys, a small oil bottle, cash, and a note from Kamini Nagwansi.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":\"brown\",\"material\":\"leather\",\"distinctive_marks\":[],\"contents\":[\"Aadhar card\",\"bracelets\",\"keys\",\"small bottle of oil\",\"cash\",\"note from Kamini Nagwansi\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Brown leather bag containing an Aadhar card, several bracelets, keys, a small oil bottle, cash, and a note from Kamini Nagwansi.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.016440538,
+  "prompt_tokens": 786,
+  "prompt_time": 0.039157739,
+  "completion_tokens": 329,
+  "completion_time": 0.422855747,
+  "total_tokens": 1115,
+  "total_time": 0.462013486,
+  "completion_tokens_details": {
+   "reasoning_tokens": 188
+  }
+ },
+ "latency_s": 9.38
+}

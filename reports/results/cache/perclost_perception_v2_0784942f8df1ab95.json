@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "leather",
+  "distinctive_marks": [
+   "gold zipper"
+  ],
+  "contents": [
+   "wallet"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black leather handbag with a gold zipper, containing a wallet.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"leather\",\"distinctive_marks\":[\"gold zipper\"],\"contents\":[\"wallet\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black leather handbag with a gold zipper, containing a wallet.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.149752601,
+  "prompt_tokens": 783,
+  "prompt_time": 0.020873302,
+  "completion_tokens": 173,
+  "completion_time": 0.221570041,
+  "total_tokens": 956,
+  "total_time": 0.242443343,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 70
+  }
+ },
+ "latency_s": 0.95
+}

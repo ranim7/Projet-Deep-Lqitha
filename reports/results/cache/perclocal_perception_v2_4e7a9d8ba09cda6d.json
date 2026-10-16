@@ -1,0 +1,34 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "tote bag",
+  "brand": "PIMK",
+  "model": null,
+  "color_family": "brown",
+  "color_detail": "brown",
+  "material": "leather",
+  "distinctive_marks": [
+   "logo on the bag"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown leather tote bag with a PIMK logo.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.75
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bag\", \"subcategory\": \"tote bag\", \"brand\": \"PIMK\", \"model\": null,\n \"color_family\": \"brown\", \"color_detail\": \"brown\", \"material\": \"leather\",\n \"distinctive_marks\": [\"logo on the bag\"], \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false, \"canonical_description\": \"Brown leather tote bag with a PIMK logo.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.75}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 478
+  },
+  "completion_tokens": 137,
+  "total_tokens": 1128
+ },
+ "latency_s": 18.65
+}

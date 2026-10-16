@@ -1,0 +1,28 @@
+{
+ "parsed": {
+  "intent": "report_found_item",
+  "language": "ar",
+  "slots": {},
+  "missing": [
+   "item_description",
+   "photo"
+  ],
+  "next_action": "ask_for_details",
+  "question_to_user": "Bonjour! Pouvez‑vous décrire l’objet que vous avez trouvé dans votre bagage ? Si vous avez une photo, merci de la joindre."
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_found_item\",\"language\":\"ar\",\"slots\":{},\"missing\":[\"item_description\",\"photo\"],\"next_action\":\"ask_for_details\",\"question_to_user\":\"Bonjour! Pouvez‑vous décrire l’objet que vous avez trouvé dans votre bagage ? Si vous avez une photo, merci de la joindre.\"}",
+ "usage": {
+  "queue_time": 0.231121177,
+  "prompt_tokens": 202,
+  "prompt_time": 0.011429581,
+  "completion_tokens": 129,
+  "completion_time": 0.135240191,
+  "total_tokens": 331,
+  "total_time": 0.146669772,
+  "completion_tokens_details": {
+   "reasoning_tokens": 54
+  }
+ },
+ "latency_s": 1.72
+}

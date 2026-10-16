@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "category": "other",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "metal",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black metal desk organizer.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 1.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"other\", \"subcategory\": null, \"brand\": null, \"model\": null,\n \"color_family\": \"black\", \"color_detail\": \"black\", \"material\": \"metal\",\n \"distinctive_marks\": [], \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false, \"canonical_description\": \"Black metal desk organizer.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 1.0, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 991,
+  "prompt_tokens_details": {
+   "cached_tokens": 986
+  },
+  "completion_tokens": 118,
+  "total_tokens": 1109
+ },
+ "latency_s": 13.58
+}

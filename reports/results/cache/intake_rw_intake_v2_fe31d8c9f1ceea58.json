@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": null,
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Un rapport d'irrégularité bagage (PIR) est un document officiel que vous remplissez lorsqu'un bagage est perdu, endommagé ou ne correspond pas à ce qui a été déclaré. Il permet de signaler l'incident aux autorités compétentes (compagnie aérienne, gare, etc.) et de lancer les démarches de recherche ou de compensation. Vous devez fournir les détails du bagage, la date et le lieu de l'incident, ainsi que vos coordonnées. Si vous avez besoin d'un modèle ou d'instructions précises, je peux vous aider davantage.",
+  "search_query_fr": "rapport d'irrégularité bagage PIR",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":null,\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Un rapport d'irrégularité bagage (PIR) est un document officiel que vous remplissez lorsqu'un bagage est perdu, endommagé ou ne correspond pas à ce qui a été déclaré. Il permet de signaler l'incident aux autorités compétentes (compagnie aérienne, gare, etc.) et de lancer les démarches de recherche ou de compensation. Vous devez fournir les détails du bagage, la date et le lieu de l'incident, ainsi que vos coordonnées. Si vous avez besoin d'un modèle ou d'instructions précises, je peux vous aider davantage.\",\"search_query_fr\":\"rapport d'irrégularité bagage PIR\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.204068184,
+  "prompt_tokens": 1400,
+  "prompt_time": 0.100309677,
+  "completion_tokens": 246,
+  "completion_time": 0.273014687,
+  "total_tokens": 1646,
+  "total_time": 0.373324364,
+  "completion_tokens_details": {
+   "reasoning_tokens": 15
+  }
+ },
+ "latency_s": 7.92
+}

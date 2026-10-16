@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "category": "Document",
+  "brand": "Passport",
+  "color": "Blue",
+  "material": "Paper",
+  "distinctive_marks": "Embossed national emblem, serial number X1234567, biometric chip",
+  "description": "A Tunisian passport, featuring a deep blue cover with the national emblem embossed in gold. The passport contains the holder's personal details, a biometric chip, and the unique passport number X1234567. It is a standard government-issued travel document used for international identification and travel."
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"Document\",\"brand\":\"Passport\",\"color\":\"Blue\",\"material\":\"Paper\",\"distinctive_marks\":\"Embossed national emblem, serial number X1234567, biometric chip\",\"description\":\"A Tunisian passport, featuring a deep blue cover with the national emblem embossed in gold. The passport contains the holder's personal details, a biometric chip, and the unique passport number X1234567. It is a standard government-issued travel document used for international identification and travel.\"}",
+ "usage": {
+  "queue_time": 0.152949622,
+  "prompt_tokens": 151,
+  "prompt_time": 0.00742208,
+  "completion_tokens": 132,
+  "completion_time": 0.143008338,
+  "total_tokens": 283,
+  "total_time": 0.150430418,
+  "completion_tokens_details": {
+   "reasoning_tokens": 27
+  }
+ },
+ "latency_s": 1.28
+}

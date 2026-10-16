@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon sac à main à El Aroussa avant‑hier. Il était noir, en cuir souple, avec une petite boucle argentée et contenait de l'argent liquide et une carte d'identité Aadhar de Sheetal."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon sac à main à El Aroussa avant‑hier. Il était noir, en cuir souple, avec une petite boucle argentée et contenait de l'argent liquide et une carte d'identité Aadhar de Sheetal.\"}",
+ "usage": {
+  "queue_time": 0.23182818,
+  "prompt_tokens": 322,
+  "prompt_time": 0.048936797,
+  "completion_tokens": 95,
+  "completion_time": 0.195500823,
+  "total_tokens": 417,
+  "total_time": 0.24443762,
+  "completion_tokens_details": {
+   "reasoning_tokens": 32
+  }
+ }
+}

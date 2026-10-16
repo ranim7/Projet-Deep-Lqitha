@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Nseet ombrello rosso w blanc, 3la chkl portable, f JARDIN THAMEUR lyoum, m3a système anti-vent, kan m3aya w mazel ma tlawa."
+ },
+ "raw": "{\"message\":\"Nseet ombrello rosso w blanc, 3la chkl portable, f JARDIN THAMEUR lyoum, m3a système anti-vent, kan m3aya w mazel ma tlawa.\"}",
+ "usage": {
+  "queue_time": 0.304174941,
+  "prompt_tokens": 365,
+  "prompt_time": 0.015264512,
+  "completion_tokens": 110,
+  "completion_time": 0.228644542,
+  "total_tokens": 475,
+  "total_time": 0.243909054,
+  "completion_tokens_details": {
+   "reasoning_tokens": 47
+  }
+ }
+}

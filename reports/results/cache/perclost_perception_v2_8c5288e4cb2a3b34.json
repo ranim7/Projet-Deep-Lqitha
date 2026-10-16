@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "clothing",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black big hat, lost in Les Hôtels Monastir.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"clothing\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black big hat, lost in Les Hôtels Monastir.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.149536489,
+  "prompt_tokens": 798,
+  "prompt_time": 0.04266299,
+  "completion_tokens": 223,
+  "completion_time": 0.237642443,
+  "total_tokens": 1021,
+  "total_time": 0.280305433,
+  "completion_tokens_details": {
+   "reasoning_tokens": 124
+  }
+ },
+ "latency_s": 1.17
+}

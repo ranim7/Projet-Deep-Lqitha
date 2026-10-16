@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "other",
+  "language": "en",
+  "slots": {
+   "item_category": null,
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "reply_only",
+  "question_to_user": null,
+  "reply_to_user": "Je suis désolé, mais je ne peux pas accéder à ces informations.",
+  "search_query_fr": null,
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"other\",\"language\":\"en\",\"slots\":{\"item_category\":null,\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"reply_only\",\"question_to_user\":null,\"reply_to_user\":\"Je suis désolé, mais je ne peux pas accéder à ces informations.\",\"search_query_fr\":null,\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.14129982,
+  "prompt_tokens": 1402,
+  "prompt_time": 0.123526809,
+  "completion_tokens": 129,
+  "completion_time": 0.142464878,
+  "total_tokens": 1531,
+  "total_time": 0.265991687,
+  "completion_tokens_details": {
+   "reasoning_tokens": 14
+  }
+ },
+ "latency_s": 2.7
+}

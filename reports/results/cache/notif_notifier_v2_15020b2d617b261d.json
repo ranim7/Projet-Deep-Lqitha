@@ -1,0 +1,22 @@
+{
+ "parsed": {
+  "owner_message": "Nous avons trouvé une montre correspondant à votre description, conservée à la Gare de Tunis. Pour confirmer, veuillez répondre à la question de vérification.",
+  "challenge_question": "Quel matériau a été utilisé pour réparer le bracelet de la montre?",
+  "finder_message": "Merci! Nous avons identifié un propriétaire potentiel. Ses coordonnées seront communiquées après vérification."
+ },
+ "strict_json": true,
+ "raw": "{\"owner_message\":\"Nous avons trouvé une montre correspondant à votre description, conservée à la Gare de Tunis. Pour confirmer, veuillez répondre à la question de vérification.\",\"challenge_question\":\"Quel matériau a été utilisé pour réparer le bracelet de la montre?\",\"finder_message\":\"Merci! Nous avons identifié un propriétaire potentiel. Ses coordonnées seront communiquées après vérification.\"}",
+ "usage": {
+  "queue_time": 0.30019508,
+  "prompt_tokens": 437,
+  "prompt_time": 0.120288054,
+  "completion_tokens": 294,
+  "completion_time": 0.6126605,
+  "total_tokens": 731,
+  "total_time": 0.732948554,
+  "completion_tokens_details": {
+   "reasoning_tokens": 211
+  }
+ },
+ "latency_s": 1.57
+}

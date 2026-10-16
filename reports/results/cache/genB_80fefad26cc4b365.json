@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lbare7 f Mateur nseet sac bleu, fih 7wayej, charger, w earphones, ma3a quelques chemises, ykoun 3andou zip mftou7 w label petit"
+ },
+ "raw": "{\"message\":\"Lbare7 f Mateur nseet sac bleu, fih 7wayej, charger, w earphones, ma3a quelques chemises, ykoun 3andou zip mftou7 w label petit\"}",
+ "usage": {
+  "queue_time": 0.300610239,
+  "prompt_tokens": 314,
+  "prompt_time": 0.016230491,
+  "completion_tokens": 92,
+  "completion_time": 0.193802946,
+  "total_tokens": 406,
+  "total_time": 0.210033437,
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ }
+}

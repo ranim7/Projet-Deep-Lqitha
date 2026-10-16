@@ -1,0 +1,143 @@
+{
+ "file": "tsa_claims.csv",
+ "rows": 204267,
+ "columns": [
+  "Claim Number",
+  "Date Received",
+  "Incident Date",
+  "Airport Code",
+  "Airport Name",
+  "Airline Name",
+  "Claim Type",
+  "Claim Site",
+  "Item",
+  "Claim Amount",
+  "Status",
+  "Close Amount",
+  "Disposition"
+ ],
+ "claim_types": [
+  [
+   "Passenger Property Loss",
+   117868
+  ],
+  [
+   "Property Damage",
+   75364
+  ],
+  [
+   "",
+   7909
+  ],
+  [
+   "Personal Injury",
+   1465
+  ],
+  [
+   "Employee Loss (MPCECA)",
+   485
+  ],
+  [
+   "Passenger Theft",
+   465
+  ],
+  [
+   "Motor Vehicle",
+   369
+  ],
+  [
+   "-",
+   282
+  ],
+  [
+   "Complaint",
+   48
+  ],
+  [
+   null,
+   4
+  ]
+ ],
+ "top_items": [
+  [
+   "Other",
+   43924
+  ],
+  [
+   "etc.",
+   27207
+  ],
+  [
+   "Luggage",
+   21472
+  ],
+  [
+   "Clothing - Shoes",
+   18536
+  ],
+  [
+   "belts",
+   18536
+  ],
+  [
+   "accessories",
+   18536
+  ],
+  [
+   "Cameras - Digital",
+   12034
+  ],
+  [
+   "Jewelry - Fine",
+   11341
+  ],
+  [
+   "Locks",
+   10960
+  ],
+  [
+   "Computer - Laptop",
+   9531
+  ],
+  [
+   "Baggage/Cases/Purses",
+   8557
+  ],
+  [
+   "Clothing",
+   7364
+  ],
+  [
+   "Computer & Accessories",
+   6079
+  ],
+  [
+   "Cosmetics - Perfume",
+   6077
+  ],
+  [
+   "toilet articles",
+   6077
+  ],
+  [
+   "medicines",
+   6077
+  ],
+  [
+   "soaps",
+   6077
+  ],
+  [
+   "Jewelry & Watches",
+   6044
+  ],
+  [
+   "Eyeglasses -",
+   4737
+  ],
+  [
+   "Travel Accessories",
+   4648
+  ]
+ ]
+}

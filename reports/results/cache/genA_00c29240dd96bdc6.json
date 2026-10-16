@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lé9t 3andi nadharat zahra, gold, grande w 3andha cadre rétro, w f'Costa Mall lbera7, t7eb t9albiha, kanet ma3aya fl'market."
+ },
+ "raw": "{\"message\":\"Lé9t 3andi nadharat zahra, gold, grande w 3andha cadre rétro, w f'Costa Mall lbera7, t7eb t9albiha, kanet ma3aya fl'market.\"}",
+ "usage": {
+  "queue_time": 0.295302759,
+  "prompt_tokens": 350,
+  "prompt_time": 0.015471453,
+  "completion_tokens": 95,
+  "completion_time": 0.197884642,
+  "total_tokens": 445,
+  "total_time": 0.213356095,
+  "completion_tokens_details": {
+   "reasoning_tokens": 31
+  }
+ }
+}

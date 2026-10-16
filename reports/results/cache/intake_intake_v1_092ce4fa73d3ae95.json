@@ -1,0 +1,30 @@
+{
+ "parsed": {
+  "intent": "report_lost_item",
+  "language": "fr",
+  "slots": {
+   "item_type": "lunettes de vue"
+  },
+  "missing": [
+   "location",
+   "time"
+  ],
+  "next_action": "ask_for_missing_info",
+  "question_to_user": "Où et quand avez-vous perdu vos lunettes de vue ?"
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"report_lost_item\",\"language\":\"fr\",\"slots\":{\"item_type\":\"lunettes de vue\"},\"missing\":[\"location\",\"time\"],\"next_action\":\"ask_for_missing_info\",\"question_to_user\":\"Où et quand avez-vous perdu vos lunettes de vue ?\"}",
+ "usage": {
+  "queue_time": 0.230570898,
+  "prompt_tokens": 200,
+  "prompt_time": 0.009666252,
+  "completion_tokens": 103,
+  "completion_time": 0.114765919,
+  "total_tokens": 303,
+  "total_time": 0.124432171,
+  "completion_tokens_details": {
+   "reasoning_tokens": 38
+  }
+ },
+ "latency_s": 1.21
+}

@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "tote bag",
+  "brand": null,
+  "model": null,
+  "color_family": "blue",
+  "color_detail": "light blue and grey",
+  "material": "canvas and leather",
+  "distinctive_marks": [
+   "vertical grey stripes",
+   "light blue leather straps",
+   "gold-tone hardware",
+   "light blue leather base"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Light blue and grey striped canvas tote bag with light blue leather straps, base, and gold-tone hardware.",
+  "field_confidence": {
+   "category": 0.98,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"bag\",\n  \"subcategory\": \"tote bag\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"blue\",\n  \"color_detail\": \"light blue and grey\",\n  \"material\": \"canvas and leather\",\n  \"distinctive_marks\": [\n    \"vertical grey stripes\",\n    \"light blue leather straps\",\n    \"gold-tone hardware\",\n    \"light blue leather base\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Light blue and grey striped canvas tote bag with light blue leather straps, base, and gold-tone hardware.\",\n  \"field_confidence\": {\n    \"category\": 0.98,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.143412905,
+  "prompt_tokens": 2492,
+  "prompt_time": 0.18296143,
+  "completion_tokens": 207,
+  "completion_time": 0.426213516,
+  "total_tokens": 2699,
+  "total_time": 0.609174946
+ },
+ "latency_s": 1.33
+}

@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "shoes",
+  "subcategory": "oxford",
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey suede with brown sole",
+  "material": "suede",
+  "distinctive_marks": [
+   "brogue perforations",
+   "brown stacked heel"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey suede oxford shoes with brogue perforations and brown stacked heels.",
+  "field_confidence": {
+   "category": 1.0,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"shoes\",\n  \"subcategory\": \"oxford\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"grey\",\n  \"color_detail\": \"grey suede with brown sole\",\n  \"material\": \"suede\",\n  \"distinctive_marks\": [\n    \"brogue perforations\",\n    \"brown stacked heel\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Grey suede oxford shoes with brogue perforations and brown stacked heels.\",\n  \"field_confidence\": {\n    \"category\": 1.0,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.091565695,
+  "prompt_tokens": 1724,
+  "prompt_time": 0.118258611,
+  "completion_tokens": 186,
+  "completion_time": 0.373964162,
+  "total_tokens": 1910,
+  "total_time": 0.492222773
+ },
+ "latency_s": 23.82
+}

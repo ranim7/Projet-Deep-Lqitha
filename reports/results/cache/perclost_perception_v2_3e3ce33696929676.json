@@ -1,0 +1,35 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": null,
+  "material": "plastic",
+  "distinctive_marks": [
+   "screen cracked",
+   "sticker of a cat"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black phone with a cracked screen and a cat sticker on a plastic case.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"phone\", \"subcategory\": null, \"brand\": null, \"model\": null,\n \"color_family\": \"black\", \"color_detail\": null, \"material\": \"plastic\",\n \"distinctive_marks\": [\"screen cracked\", \"sticker of a cat\"],\n \"contents\": [], \"visible_text\": null,\n \"contains_sensitive_document\": false, \"canonical_description\": \"Black phone with a cracked screen and a cat sticker on a plastic case.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 0.95, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 751,
+  "prompt_tokens_details": {
+   "cached_tokens": 251
+  },
+  "completion_tokens": 138,
+  "total_tokens": 889
+ },
+ "latency_s": 16.05
+}

@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": "steel",
+  "distinctive_marks": [
+   "central marks"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Small hot steel bottle with central marks, no contents, left behind today.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bottle\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":\"steel\",\"distinctive_marks\":[\"central marks\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Small hot steel bottle with central marks, no contents, left behind today.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.233217229,
+  "prompt_tokens": 786,
+  "prompt_time": 0.039716234,
+  "completion_tokens": 641,
+  "completion_time": 0.666828428,
+  "total_tokens": 1427,
+  "total_time": 0.706544662,
+  "completion_tokens_details": {
+   "reasoning_tokens": 537
+  }
+ },
+ "latency_s": 2.11
+}

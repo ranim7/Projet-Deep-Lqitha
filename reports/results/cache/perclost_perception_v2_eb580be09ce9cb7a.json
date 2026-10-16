@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "silver",
+  "color_detail": "steel",
+  "material": "steel",
+  "distinctive_marks": [
+   "scratched all over",
+   "has some stickers"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Silver steel bottle scratched all over with some stickers on it.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"bottle\",\n  \"subcategory\": null,\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"silver\",\n  \"color_detail\": \"steel\",\n  \"material\": \"steel\",\n  \"distinctive_marks\": [\n    \"scratched all over\",\n    \"has some stickers\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Silver steel bottle scratched all over with some stickers on it.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.9,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.040744045,
+  "prompt_tokens": 735,
+  "prompt_time": 0.05743862,
+  "completion_tokens": 170,
+  "completion_time": 0.343658629,
+  "total_tokens": 905,
+  "total_time": 0.401097249
+ },
+ "latency_s": 7.47
+}

@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Medium bag with an open side zipper, lost at La Corniche on Saturday.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Medium bag with an open side zipper, lost at La Corniche on Saturday.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.018336547,
+  "prompt_tokens": 781,
+  "prompt_time": 0.042101818,
+  "completion_tokens": 539,
+  "completion_time": 0.619368901,
+  "total_tokens": 1320,
+  "total_time": 0.661470719,
+  "completion_tokens_details": {
+   "reasoning_tokens": 438
+  }
+ },
+ "latency_s": 1.33
+}

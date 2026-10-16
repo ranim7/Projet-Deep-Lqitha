@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": "plastic",
+  "distinctive_marks": [],
+  "contents": [
+   "empty plastic bottle"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey plastic bottle, 1 litre, empty.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bottle\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":\"plastic\",\"distinctive_marks\":[],\"contents\":[\"empty plastic bottle\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey plastic bottle, 1 litre, empty.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.295100248,
+  "prompt_tokens": 788,
+  "prompt_time": 0.017598211,
+  "completion_tokens": 238,
+  "completion_time": 0.244443864,
+  "total_tokens": 1026,
+  "total_time": 0.262042075,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 138
+  }
+ },
+ "latency_s": 1.17
+}

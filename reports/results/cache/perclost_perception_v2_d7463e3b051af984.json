@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "handbag",
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "leather",
+  "distinctive_marks": [
+   "bank card",
+   "PAN card with Sarita Thapa"
+  ],
+  "contents": [
+   "bank card",
+   "PAN card"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Black leather handbag containing a bank card and a PAN card with Sarita Thapa.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 1.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\": \"bag\", \"subcategory\": \"handbag\", \"brand\": null, \"model\": null,\n \"color_family\": \"black\", \"color_detail\": \"black\", \"material\": \"leather\",\n \"distinctive_marks\": [\"bank card\", \"PAN card with Sarita Thapa\"],\n \"contents\": [\"bank card\", \"PAN card\"], \"visible_text\": null,\n \"contains_sensitive_document\": true, \"canonical_description\": \"Black leather handbag containing a bank card and a PAN card with Sarita Thapa.\",\n \"field_confidence\": {\"category\": 0.95, \"color_family\": 1.0, \"brand\": 0.0}}",
+ "usage": {
+  "prompt_tokens": 763,
+  "prompt_tokens_details": {
+   "cached_tokens": 255
+  },
+  "completion_tokens": 152,
+  "total_tokens": 915
+ },
+ "latency_s": 22.06
+}

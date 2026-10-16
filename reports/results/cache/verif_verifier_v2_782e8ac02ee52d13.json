@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "analysis": [
+   "category: same",
+   "color: same family (blue)",
+   "brand: both unknown",
+   "marks/contents: both mention C-shaped handle",
+   "time/place: same date and location"
+  ],
+  "agreements": [
+   "category",
+   "color_family",
+   "C-shaped handle",
+   "place",
+   "date"
+  ],
+  "contradictions": [],
+  "decision": "match",
+  "confidence": 0.86,
+  "question_for_owner": null
+ },
+ "strict_json": true,
+ "raw": "{\"analysis\":[\"category: same\",\"color: same family (blue)\",\"brand: both unknown\",\"marks/contents: both mention C-shaped handle\",\"time/place: same date and location\"],\"agreements\":[\"category\",\"color_family\",\"C-shaped handle\",\"place\",\"date\"],\"contradictions\":[],\"decision\":\"match\",\"confidence\":0.86,\"question_for_owner\":null}",
+ "usage": {
+  "queue_time": 0.087869555,
+  "prompt_tokens": 826,
+  "prompt_time": 0.042877772,
+  "completion_tokens": 178,
+  "completion_time": 0.370850224,
+  "total_tokens": 1004,
+  "total_time": 0.413727996,
+  "completion_tokens_details": {
+   "reasoning_tokens": 92
+  }
+ },
+ "latency_s": 5.95
+}

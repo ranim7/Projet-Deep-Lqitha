@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "glasses",
+  "subcategory": "eyeglasses",
+  "brand": null,
+  "model": null,
+  "color_family": "gold",
+  "color_detail": "gold",
+  "material": "metal",
+  "distinctive_marks": [
+   "large frame",
+   "retro style"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Large gold metal retro-style eyeglasses with a distinctive frame design.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"glasses\",\n  \"subcategory\": \"eyeglasses\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"gold\",\n  \"color_detail\": \"gold\",\n  \"material\": \"metal\",\n  \"distinctive_marks\": [\n    \"large frame\",\n    \"retro style\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Large gold metal retro-style eyeglasses with a distinctive frame design.\",\n  \"field_confidence\": {\n    \"category\": 0.95,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.018298452,
+  "prompt_tokens": 746,
+  "prompt_time": 0.052407085,
+  "completion_tokens": 174,
+  "completion_time": 0.371820807,
+  "total_tokens": 920,
+  "total_time": 0.424227892
+ },
+ "latency_s": 7.63
+}

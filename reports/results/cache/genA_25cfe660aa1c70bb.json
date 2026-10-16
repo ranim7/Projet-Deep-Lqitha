@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Sma3t rou7i 3and Bir El Bey, nseyt my phone lyoum, fih couleur noir w 3andou case m3a sticker sghir, kan mawjoud f'koulchi."
+ },
+ "raw": "{\"message\":\"Sma3t rou7i 3and Bir El Bey, nseyt my phone lyoum, fih couleur noir w 3andou case m3a sticker sghir, kan mawjoud f'koulchi.\"}",
+ "usage": {
+  "queue_time": 0.086613337,
+  "prompt_tokens": 348,
+  "prompt_time": 0.014778038,
+  "completion_tokens": 86,
+  "completion_time": 0.185968804,
+  "total_tokens": 434,
+  "total_time": 0.200746842,
+  "completion_tokens_details": {
+   "reasoning_tokens": 23
+  }
+ }
+}

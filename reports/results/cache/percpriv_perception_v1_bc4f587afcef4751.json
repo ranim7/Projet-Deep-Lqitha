@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "category": "Identity Card",
+  "brand": "Government Issued (Tunisia)",
+  "color": "White background with blue and red accents",
+  "material": "Plastic/PVC",
+  "distinctive_marks": [
+   "National emblem of Tunisia",
+   "Machine-readable zone (MRZ) at the bottom",
+   "Holographic security features"
+  ],
+  "description": "A Tunisian national identity card (Carte d'Identité) belonging to Ahmed Ben Salah. The card displays the ID number 08765432 and the date of birth 12/03/1990. It features the standard layout with a photo, personal details, and security elements typical of Tunisian ID documents."
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"Identity Card\",\n  \"brand\": \"Government Issued (Tunisia)\",\n  \"color\": \"White background with blue and red accents\",\n  \"material\": \"Plastic/PVC\",\n  \"distinctive_marks\": [\n    \"National emblem of Tunisia\",\n    \"Machine-readable zone (MRZ) at the bottom\",\n    \"Holographic security features\"\n  ],\n  \"description\": \"A Tunisian national identity card (Carte d'Identité) belonging to Ahmed Ben Salah. The card displays the ID number 08765432 and the date of birth 12/03/1990. It features the standard layout with a photo, personal details, and security elements typical of Tunisian ID documents.\"\n}",
+ "usage": {
+  "queue_time": 0.090133897,
+  "prompt_tokens": 92,
+  "prompt_time": 0.007977535,
+  "completion_tokens": 179,
+  "completion_time": 0.384347776,
+  "total_tokens": 271,
+  "total_time": 0.392325311
+ },
+ "latency_s": 3.65
+}

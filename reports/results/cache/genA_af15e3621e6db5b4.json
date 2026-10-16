@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "J'ai perdu mon portefeuille couleur camel, en matière synthétique, avec un petit motif Converse, hier à la Gare routière de Kairouan."
+ },
+ "raw": "{\"message\":\"J'ai perdu mon portefeuille couleur camel, en matière synthétique, avec un petit motif Converse, hier à la Gare routière de Kairouan.\"}",
+ "usage": {
+  "queue_time": 0.394723762,
+  "prompt_tokens": 379,
+  "prompt_time": 0.132298497,
+  "completion_tokens": 64,
+  "completion_time": 0.133609783,
+  "total_tokens": 443,
+  "total_time": 0.26590828,
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ }
+}

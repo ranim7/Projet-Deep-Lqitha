@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "clothing",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "white",
+  "color_detail": "white",
+  "material": null,
+  "distinctive_marks": [
+   "small clip on the side"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "White round hat with a small clip on the side.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"clothing\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"white\",\"color_detail\":\"white\",\"material\":null,\"distinctive_marks\":[\"small clip on the side\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"White round hat with a small clip on the side.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.151829642,
+  "prompt_tokens": 791,
+  "prompt_time": 0.063311235,
+  "completion_tokens": 328,
+  "completion_time": 0.344139545,
+  "total_tokens": 1119,
+  "total_time": 0.40745078,
+  "completion_tokens_details": {
+   "reasoning_tokens": 225
+  }
+ },
+ "latency_s": 0.98
+}

@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "headphones",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "pink",
+  "color_detail": "pink",
+  "material": "plastic",
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Pink plastic headphones with a modified design, lost in Tunis City metro.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"headphones\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"pink\",\"color_detail\":\"pink\",\"material\":\"plastic\",\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Pink plastic headphones with a modified design, lost in Tunis City metro.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 1.228050603,
+  "prompt_tokens": 782,
+  "prompt_time": 0.040917553,
+  "completion_tokens": 262,
+  "completion_time": 0.322011503,
+  "total_tokens": 1044,
+  "total_time": 0.362929056,
+  "completion_tokens_details": {
+   "reasoning_tokens": 162
+  }
+ },
+ "latency_s": 2.64
+}

@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "Lé7t chamsi mta3i, chamsi bleu pointé, double couche, matériau léger, ykoun 3andou un manche en C, f Sousse Bab Djedid lbera7."
+ },
+ "raw": "{\"message\":\"Lé7t chamsi mta3i, chamsi bleu pointé, double couche, matériau léger, ykoun 3andou un manche en C, f Sousse Bab Djedid lbera7.\"}",
+ "usage": {
+  "queue_time": 0.307152423,
+  "prompt_tokens": 410,
+  "prompt_time": 0.039276165,
+  "completion_tokens": 123,
+  "completion_time": 0.254658689,
+  "total_tokens": 533,
+  "total_time": 0.293934854,
+  "completion_tokens_details": {
+   "reasoning_tokens": 60
+  }
+ }
+}

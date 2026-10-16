@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "S7abti, l'jute bag li fiha lunch box, couleur marron, fih kess kbir w'khrta m3a des stickers vert, tfaqqart awel lbera7 f Campus."
+ },
+ "raw": "{\"message\":\"S7abti, l'jute bag li fiha lunch box, couleur marron, fih kess kbir w'khrta m3a des stickers vert, tfaqqart awel lbera7 f Campus.\"}",
+ "usage": {
+  "queue_time": 0.300230529,
+  "prompt_tokens": 310,
+  "prompt_time": 0.018581667,
+  "completion_tokens": 101,
+  "completion_time": 0.211143047,
+  "total_tokens": 411,
+  "total_time": 0.229724714,
+  "completion_tokens_details": {
+   "reasoning_tokens": 35
+  }
+ }
+}

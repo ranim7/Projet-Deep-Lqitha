@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": "backpack",
+  "brand": null,
+  "model": null,
+  "color_family": "red",
+  "color_detail": "red body with blue top and sides",
+  "material": "synthetic fabric",
+  "distinctive_marks": [
+   "front zippered pocket",
+   "black top handle",
+   "black zipper pulls"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Red and blue synthetic fabric backpack with a front zippered pocket and black handle.",
+  "field_confidence": {
+   "category": 0.98,
+   "color_family": 0.95,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"category\": \"bag\",\n  \"subcategory\": \"backpack\",\n  \"brand\": null,\n  \"model\": null,\n  \"color_family\": \"red\",\n  \"color_detail\": \"red body with blue top and sides\",\n  \"material\": \"synthetic fabric\",\n  \"distinctive_marks\": [\n    \"front zippered pocket\",\n    \"black top handle\",\n    \"black zipper pulls\"\n  ],\n  \"contents\": [],\n  \"visible_text\": null,\n  \"contains_sensitive_document\": false,\n  \"canonical_description\": \"Red and blue synthetic fabric backpack with a front zippered pocket and black handle.\",\n  \"field_confidence\": {\n    \"category\": 0.98,\n    \"color_family\": 0.95,\n    \"brand\": 0.0\n  }\n}",
+ "usage": {
+  "queue_time": 0.096289771,
+  "prompt_tokens": 1980,
+  "prompt_time": 0.172827898,
+  "completion_tokens": 196,
+  "completion_time": 0.44390892,
+  "total_tokens": 2176,
+  "total_time": 0.616736818
+ },
+ "latency_s": 7.02
+}

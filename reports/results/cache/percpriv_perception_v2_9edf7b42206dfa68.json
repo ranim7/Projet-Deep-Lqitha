@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "phone",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": "[masked]",
+  "contains_sensitive_document": true,
+  "canonical_description": "Phone with a sticker showing a masked number.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"phone\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":\"[masked]\",\"contains_sensitive_document\":true,\"canonical_description\":\"Phone with a sticker showing a masked number.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.047595352,
+  "prompt_tokens": 768,
+  "prompt_time": 0.039956561,
+  "completion_tokens": 246,
+  "completion_time": 0.257869988,
+  "total_tokens": 1014,
+  "total_time": 0.297826549,
+  "completion_tokens_details": {
+   "reasoning_tokens": 150
+  }
+ },
+ "latency_s": 0.86
+}

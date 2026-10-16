@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "verified": true,
+  "reason": "matches the engraved name"
+ },
+ "strict_json": true,
+ "raw": "{\"verified\":true,\"reason\":\"matches the engraved name\"}",
+ "usage": {
+  "queue_time": 0.301662717,
+  "prompt_tokens": 263,
+  "prompt_time": 0.012873706,
+  "completion_tokens": 59,
+  "completion_time": 0.090662571,
+  "total_tokens": 322,
+  "total_time": 0.103536277,
+  "completion_tokens_details": {
+   "reasoning_tokens": 38
+  }
+ },
+ "latency_s": 5.46
+}

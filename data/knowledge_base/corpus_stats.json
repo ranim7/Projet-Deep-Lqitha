@@ -1,0 +1,146 @@
+[
+ {
+  "id": "idaraty_passport_duplicate_tn",
+  "kind": "official",
+  "item_type": "passport",
+  "lang": "fr",
+  "chars": 707,
+  "authority": "Ministère de l'Intérieur",
+  "url": "https://idaraty.tn/fr/procedures/obtention-dun-duplicata-du-passport-tunisiens-residents-sur-le-territoire-tunisien"
+ },
+ {
+  "id": "idaraty_passport_duplicate_abroad",
+  "kind": "official",
+  "item_type": "passport",
+  "lang": "fr",
+  "chars": 715,
+  "authority": "Ministère de l'Intérieur",
+  "url": "https://idaraty.tn/fr/procedures/obtention-dun-duplicata-du-passport-tunisiens-residents-a-l-etranger"
+ },
+ {
+  "id": "idaraty_family_booklet_duplicate",
+  "kind": "official",
+  "item_type": "family_booklet",
+  "lang": "fr",
+  "chars": 562,
+  "authority": "Municipalité",
+  "url": "https://idaraty.tn/fr/procedures/duplicata-dun-livret-de-famille-perte"
+ },
+ {
+  "id": "law_2024_22_national_id_card",
+  "kind": "official",
+  "item_type": "national_id",
+  "lang": "fr",
+  "chars": 11965,
+  "authority": "Loi organique 2024-22",
+  "url": "https://legislation-securite.tn/wp-content/uploads/sites/5/2024/03/Loi-organique-n%C2%B0-2024-22-du-11-mars-2024.pdf"
+ },
+ {
+  "id": "tunisair_passenger_protection_2026",
+  "kind": "official",
+  "item_type": "baggage",
+  "lang": "fr",
+  "chars": 37322,
+  "authority": "Tunisair",
+  "url": "https://www.tunisair.com/sites/default/files/2026-07/protection-des-passagers_v1f_2026-30.06.2026.pdf"
+ },
+ {
+  "id": "montreal_convention_1999_text_fr",
+  "kind": "official",
+  "item_type": "baggage",
+  "lang": "fr",
+  "chars": 61843,
+  "authority": "Convention de Montréal 1999 (texte officiel, recueil systématique suisse)",
+  "url": "https://www.admin.ch/opc/fr/classified-compilation/20031862/201109010000/0.748.411.pdf"
+ },
+ {
+  "id": "icao_montreal_convention_1999_fr",
+  "kind": "official",
+  "item_type": "baggage",
+  "lang": "fr",
+  "chars": 8613,
+  "authority": "OACI / ICAO",
+  "url": "https://www.icao.int/sites/default/files/secretariat/legal/Administrative%20Packages/mtl99_fr.pdf"
+ },
+ {
+  "id": "guide_lost_bank_card_tunisia",
+  "kind": "official",
+  "item_type": "bank_card",
+  "lang": "fr",
+  "chars": 22020,
+  "authority": "Guide voyage",
+  "url": "https://www.lemagvoyage.fr/tunisie/perdre-carte-bancaire-tunisie-opposition-retrait-urgence-solutions/"
+ },
+ {
+  "id": "netherlands_emergency_document_tunisia",
+  "kind": "official",
+  "item_type": "passport",
+  "lang": "fr",
+  "chars": 4838,
+  "authority": "Ambassade des Pays-Bas",
+  "url": "https://www.netherlandsworldwide.nl/passport-id-card/emergency-document/apply-tunisia.fr"
+ },
+ {
+  "id": "sop_airport_lost_item",
+  "kind": "sop",
+  "item_type": "baggage",
+  "lang": "fr",
+  "chars": 1918,
+  "authority": "Lqitha team (SOP based on ICAO Montreal Convention 1999 and Tunisair passenger protection policy)",
+  "url": "team-authored"
+ },
+ {
+  "id": "sop_found_item_what_to_do",
+  "kind": "sop",
+  "item_type": "general",
+  "lang": "fr",
+  "chars": 1074,
+  "authority": "Lqitha team (SOP)",
+  "url": "team-authored"
+ },
+ {
+  "id": "sop_lost_bank_card",
+  "kind": "sop",
+  "item_type": "bank_card",
+  "lang": "fr",
+  "chars": 671,
+  "authority": "Lqitha team (SOP)",
+  "url": "team-authored"
+ },
+ {
+  "id": "sop_lost_identity_documents",
+  "kind": "sop",
+  "item_type": "national_id",
+  "lang": "fr",
+  "chars": 1484,
+  "authority": "Lqitha team (SOP based on Loi organique 2024-22 and idaraty.tn procedures)",
+  "url": "team-authored"
+ },
+ {
+  "id": "sop_lost_phone",
+  "kind": "sop",
+  "item_type": "phone",
+  "lang": "fr",
+  "chars": 1079,
+  "authority": "Lqitha team (SOP)",
+  "url": "team-authored"
+ },
+ {
+  "id": "sop_lqitha_service",
+  "kind": "sop",
+  "item_type": "general",
+  "lang": "fr",
+  "chars": 1020,
+  "authority": "Lqitha team (service description)",
+  "url": "team-authored"
+ },
+ {
+  "id": "sop_public_transport_lost_item",
+  "kind": "sop",
+  "item_type": "general",
+  "lang": "fr",
+  "chars": 1581,
+  "authority": "Lqitha team (SOP)",
+  "url": "team-authored"
+ }
+]

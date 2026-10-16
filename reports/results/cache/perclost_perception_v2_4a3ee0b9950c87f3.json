@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "water"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Transparent bottle full of water, known for its large size and case, lost in the market neighborhood.",
+  "field_confidence": {
+   "category": 0.8,
+   "color_family": 0.2,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bottle\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[\"water\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Transparent bottle full of water, known for its large size and case, lost in the market neighborhood.\",\"field_confidence\":{\"category\":0.8,\"color_family\":0.2,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.166457183,
+  "prompt_tokens": 792,
+  "prompt_time": 0.10178345,
+  "completion_tokens": 275,
+  "completion_time": 0.334451775,
+  "total_tokens": 1067,
+  "total_time": 0.436235225,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 167
+  }
+ },
+ "latency_s": 1.44
+}

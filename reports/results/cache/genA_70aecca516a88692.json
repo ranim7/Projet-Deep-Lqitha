@@ -1,0 +1,18 @@
+{
+ "parsed": {
+  "message": "dha3li porte-feuille nappa 9dim, couleur marron, matiere pelle, avec fermeture RFID, t9a3ed fi Gare de bus awel lbera7"
+ },
+ "raw": "{\"message\":\"dha3li porte-feuille nappa 9dim, couleur marron, matiere pelle, avec fermeture RFID, t9a3ed fi Gare de bus awel lbera7\"}",
+ "usage": {
+  "queue_time": 0.051809037,
+  "prompt_tokens": 361,
+  "prompt_time": 0.048873046,
+  "completion_tokens": 71,
+  "completion_time": 0.150291843,
+  "total_tokens": 432,
+  "total_time": 0.199164889,
+  "completion_tokens_details": {
+   "reasoning_tokens": 20
+  }
+ }
+}
