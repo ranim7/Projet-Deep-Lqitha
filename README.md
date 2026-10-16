@@ -10,23 +10,47 @@ Everything is **free**: Groq free tier (LLMs + Whisper), Ollama (local embedding
 
 ---
 
-## 1. Run it (Windows)
+## 1. Install and run (Windows 10/11)
 
-Prerequisites: Python 3.10+, Docker Desktop, Ollama, a free Groq key in `.env`. **Full step-by-step guide for a new machine: [INSTALL.md](INSTALL.md).**
+### Prerequisites (free)
+| Software | Link |
+|---|---|
+| Python 3.10+ (tick "Add python.exe to PATH") | https://www.python.org/downloads/ |
+| Docker Desktop (runs n8n) | https://www.docker.com/products/docker-desktop/ |
+| Ollama (local embeddings + local fallback model) | https://ollama.com/download |
+| Groq API key (LLMs, vision model, Whisper) | https://console.groq.com/keys |
+| Kaggle API token - optional, only to re-download the Kaggle datasets | https://www.kaggle.com/settings |
 
-| Step | Double-click | What it does |
-|---|---|---|
-| 1 | `run_01_download_data.bat` | Downloads the real datasets into `data/raw/` (see section 4) |
-| 2 | `run_02_setup.bat` | Pulls `bge-m3`, checks Groq, prepares data, builds the knowledge base, starts n8n in Docker and imports the workflows |
-| 3 | `run_03_start.bat` | Starts the Lqitha API + web app and opens **http://localhost:8000** |
-| 4 | `run_04_evaluate.bat` | Re-runs all evaluations (RAG, prompts v1/v2, matching, speech-to-text) -> `reports/results/` |
+Start Docker Desktop and Ollama once so they are running.
 
-* n8n editor: **http://localhost:5678** (first visit: create your local owner account). Workflows:
+### Steps
+```bat
+git clone https://github.com/ranim7/Projet-Deep-Lqitha.git
+cd Projet-Deep-Lqitha
+copy .env.example .env
+notepad .env        &:: paste your Groq key after GROQ_API_KEY= and set any random INTERNAL_TOKEN
+```
+
+Then double-click, in this order:
+
+| Step | Double-click | What it does | Time |
+|---|---|---|---|
+| 1 | `run_01_download_data.bat` | Downloads the real datasets into `data/raw/` (see section 4) | 5-10 min |
+| 2 | `run_02_setup.bat` | Python environment, pulls `bge-m3` and `gemma3:4b` (Ollama), checks Groq, prepares the data, builds the knowledge base, generates and imports the n8n workflows (Docker), seeds the demo database | 10-20 min |
+| 3 | `run_03_start.bat` | Starts the tools API and opens the web app on **http://localhost:8000** | 1 min |
+| 4 | `run_04_evaluate.bat` (optional) | Re-runs all evaluations (RAG, prompts v1/v2, matching, speech-to-text) -> `reports/results/` | 30-60 min |
+
+Logs of every step: `logs/`.
+
+### Use it
+* **Web app - http://localhost:8000**: write in Derja, French, Arabic or English, attach a photo or record a voice note,
+  browse the found-items board (Derja / French / English) and follow your reports.
+* **n8n - http://localhost:5678**: on the first visit n8n asks you to create a local owner account. Workflows:
   `Lqitha - Main (multi-agent lost & found)`, `Lqitha - Daily re-matching`, `Lqitha - Error handler`.
-* API docs (tools used by the agents): **http://localhost:8000/docs**
-* Change a prompt: edit `prompts/prompts.yaml` -> `python scripts/build_n8n.py` -> re-import (`run_02_setup.bat` step 7).
-
-`.env` (copy `.env.example`): `GROQ_API_KEY` (free at console.groq.com), model names, `INTERNAL_TOKEN`.
+  Open **Executions** to see the input and output of every agent for each message.
+* **API docs - http://localhost:8000/docs** (the tools called by the agents).
+* Demo scenario, manual import of the workflows and troubleshooting: **[INSTALL.md](INSTALL.md)**.
+* Change a prompt: edit `prompts/prompts.yaml` -> `.venv\Scripts\python scripts\build_n8n.py` -> re-run `run_02_setup.bat`.
 
 ## 2. Architecture
 
