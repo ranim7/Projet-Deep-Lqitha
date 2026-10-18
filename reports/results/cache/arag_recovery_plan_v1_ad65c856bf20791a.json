@@ -1,0 +1,56 @@
+{
+ "parsed": {
+  "summary": "Vous avez trouvé un portefeuille contenant une carte d’identité dans le métro tunisien. Vous devez le sécuriser, le remettre à l’agent du métro, le déclarer sur Lqitha avec une photo et un détail caché, et éviter de diffuser des informations sensibles.",
+  "steps": [
+   {
+    "when": "immédiatement après la découverte",
+    "action": "Prenez une photo du portefeuille (sans montrer les numéros de la carte d’identité, Lqitha les masque automatiquement).",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "sur place, avant de quitter la station",
+    "action": "Remettez le portefeuille à l’agent de la station du métro (ou au dépôt de la ligne concernée) en précisant le numéro de ligne, la direction, la date et l’heure approximative de la perte.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "when": "dès que possible après la remise",
+    "action": "Déclarez l’objet sur l’application Lqitha : téléversez la photo, indiquez le lieu, la date et l’endroit où vous l’avez déposé, et ajoutez un « détail caché » (ex. fond d’écran du téléphone, contenu d’une poche, inscription intérieure) que seul le propriétaire connaît.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "when": "immédiatement après la déclaration",
+    "action": "Ne publiez aucune image de la carte d’identité ou de la carte bancaire sur les réseaux sociaux et ne remettez l’objet à personne qui ne peut pas prouver sa propriété.",
+    "cites": [
+     1,
+     3
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Vous avez trouvé un portefeuille contenant une carte d’identité dans le métro tunisien. Vous devez le sécuriser, le remettre à l’agent du métro, le déclarer sur Lqitha avec une photo et un détail caché, et éviter de diffuser des informations sensibles.\",\"steps\":[{\"when\":\"immédiatement après la découverte\",\"action\":\"Prenez une photo du portefeuille (sans montrer les numéros de la carte d’identité, Lqitha les masque automatiquement).\",\"cites\":[1]},{\"when\":\"sur place, avant de quitter la station\",\"action\":\"Remettez le portefeuille à l’agent de la station du métro (ou au dépôt de la ligne concernée) en précisant le numéro de ligne, la direction, la date et l’heure approximative de la perte.\",\"cites\":[1,2]},{\"when\":\"dès que possible après la remise\",\"action\":\"Déclarez l’objet sur l’application Lqitha : téléversez la photo, indiquez le lieu, la date et l’endroit où vous l’avez déposé, et ajoutez un « détail caché » (ex. fond d’écran du téléphone, contenu d’une poche, inscription intérieure) que seul le propriétaire connaît.\",\"cites\":[1,3]},{\"when\":\"immédiatement après la déclaration\",\"action\":\"Ne publiez aucune image de la carte d’identité ou de la carte bancaire sur les réseaux sociaux et ne remettez l’objet à personne qui ne peut pas prouver sa propriété.\",\"cites\":[1,3]}],\"documents\":[],\"deadlines\":[],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.050167271,
+  "prompt_tokens": 763,
+  "prompt_time": 0.032085858,
+  "completion_tokens": 389,
+  "completion_time": 0.810183362,
+  "total_tokens": 1152,
+  "total_time": 0.84226922,
+  "completion_tokens_details": {
+   "reasoning_tokens": 49
+  }
+ },
+ "latency_s": 1.62
+}

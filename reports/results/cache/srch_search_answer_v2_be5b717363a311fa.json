@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-3e316d5e",
+    "relevance": "high",
+    "reason": "color white, wired, star remote, found at Den Den on 2026-10-06"
+   }
+  ],
+  "answer": "3la 9lil, fama item wa7ed li yjib l9a: F-3e316d5e, l9ina fi Den Den, 06/10/2026. 7ell item w dabb 3la \"C'est peut-être à moi\" wala 3ayet l'khdma bach yb3athlek notification."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-3e316d5e\",\"relevance\":\"high\",\"reason\":\"color white, wired, star remote, found at Den Den on 2026-10-06\"}],\"answer\":\"3la 9lil, fama item wa7ed li yjib l9a: F-3e316d5e, l9ina fi Den Den, 06/10/2026. 7ell item w dabb 3la \\\"C'est peut-être à moi\\\" wala 3ayet l'khdma bach yb3athlek notification.\"}",
+ "usage": {
+  "queue_time": 0.210836929,
+  "prompt_tokens": 1057,
+  "prompt_time": 0.044736867,
+  "completion_tokens": 202,
+  "completion_time": 0.422114149,
+  "total_tokens": 1259,
+  "total_time": 0.466851016,
+  "completion_tokens_details": {
+   "reasoning_tokens": 67
+  }
+ },
+ "latency_s": 1.32
+}

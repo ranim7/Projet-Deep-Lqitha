@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "phone",
+   "money",
+   "charger"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Bag with a phone, money, and charger.",
+  "field_confidence": {
+   "category": 0.9,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[\"phone\",\"money\",\"charger\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Bag with a phone, money, and charger.\",\"field_confidence\":{\"category\":0.9,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.016646062,
+  "prompt_tokens": 837,
+  "prompt_time": 0.025027796,
+  "completion_tokens": 204,
+  "completion_time": 0.214038378,
+  "total_tokens": 1041,
+  "total_time": 0.239066174,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 103
+  }
+ },
+ "latency_s": 0.77
+}

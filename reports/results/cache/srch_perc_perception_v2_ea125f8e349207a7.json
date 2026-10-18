@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "category": "wallet",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": "leather",
+  "distinctive_marks": [
+   "black leather bifold wallet"
+  ],
+  "contents": [
+   "health card"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black leather bifold wallet containing a health card.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"wallet\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":\"leather\",\"distinctive_marks\":[\"black leather bifold wallet\"],\"contents\":[\"health card\"],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black leather bifold wallet containing a health card.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.017676071,
+  "prompt_tokens": 855,
+  "prompt_time": 0.022539329,
+  "completion_tokens": 144,
+  "completion_time": 0.147539067,
+  "total_tokens": 999,
+  "total_time": 0.170078396,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 39
+  }
+ },
+ "latency_s": 0.74
+}

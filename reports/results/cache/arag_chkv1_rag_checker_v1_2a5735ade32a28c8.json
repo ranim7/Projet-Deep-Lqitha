@@ -1,0 +1,53 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly advises calling own number from another phone."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage lists Find My iPhone and Find My Device for locating/locking."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage advises changing passwords for email, social media, and bank."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage mentions contacting operator to suspend SIM, but does not mention requesting replacement or presenting ID."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "Cited passage [1] does not contain information about police reports, emergency numbers, or IMEI."
+   },
+   {
+    "step": 6,
+    "label": "supported",
+    "reason": "Passage [4] explicitly details reporting on Lqitha with specific phone descriptions."
+   },
+   {
+    "step": 7,
+    "label": "partially",
+    "reason": "Passage [2] mentions addressing station agent for metro, but does not specify providing line number, direction, or time."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly advises calling own number from another phone.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage lists Find My iPhone and Find My Device for locating/locking.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage advises changing passwords for email, social media, and bank.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage mentions contacting operator to suspend SIM, but does not mention requesting replacement or presenting ID.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"Cited passage [1] does not contain information about police reports, emergency numbers, or IMEI.\"}, {\"step\": 6, \"label\": \"supported\", \"reason\": \"Passage [4] explicitly details reporting on Lqitha with specific phone descriptions.\"}, {\"step\": 7, \"label\": \"partially\", \"reason\": \"Passage [2] mentions addressing station agent for metro, but does not specify providing line number, direction, or time.\"}]}",
+ "usage": {
+  "queue_time": 0.018927297,
+  "prompt_tokens": 1382,
+  "prompt_time": 0.119263925,
+  "completion_tokens": 251,
+  "completion_time": 0.544593252,
+  "total_tokens": 1633,
+  "total_time": 0.663857177
+ },
+ "latency_s": 8.38
+}

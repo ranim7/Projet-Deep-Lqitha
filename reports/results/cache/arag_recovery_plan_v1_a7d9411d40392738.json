@@ -1,0 +1,69 @@
+{
+ "parsed": {
+  "summary": "Perte du portefeuille contenant la carte d’identité nationale et la carte bancaire dans un louage à Sousse. Il faut d’abord sécuriser le compte bancaire, puis déclarer la perte aux autorités, obtenir le certificat de perte et demander le remplacement des deux documents.",
+  "steps": [
+   {
+    "when": "Immédiatement (aujourd’hui)",
+    "action": "Bloquez la carte bancaire en appelant le service client de votre banque (numéro au dos ou via l’application) ou via votre espace client en ligne. Vérifiez les dernières opérations et signalez toute transaction suspecte.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Immédiatement après le blocage",
+    "action": "Déposez une plainte pour perte/vol au poste de police ou à la garde nationale la plus proche (numéro 197 ou 193). Mentionnez le lieu (louage à Sousse), l’heure approximative, la description du louage et le contenu du portefeuille (carte d’identité, carte bancaire).",
+    "cites": [
+     3,
+     4
+    ]
+   },
+   {
+    "when": "Dans les 24 h suivant la plainte",
+    "action": "Demandez au poste de police le récépissé ou l’attestation de perte. Ce document vous sera demandé par la banque pour la procédure d’opposition définitive et par les services d’État pour le renouvellement de la carte d’identité.",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "when": "Dans les 2 jours suivants",
+    "action": "Contactez votre agence bancaire (ou via l’application) pour demander l’émission d’une nouvelle carte bancaire en présentant le récépissé de perte fourni par la police.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Dans les 5 jours suivants",
+    "action": "Avec le certificat de perte, déposez une demande de renouvellement de la carte d’identité nationale auprès de votre centre d’état civil ou de la direction de la carte d’identité. Respectez le délai de 30 jours imposé par la loi organique n° 2024‑22.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "when": "Après réception des nouveaux documents",
+    "action": "Mettez à jour vos mots de passe et sécurisez vos comptes en ligne (email, applications bancaires) au cas où vos données auraient été compromises.",
+    "cites": [
+     2
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Perte du portefeuille contenant la carte d’identité nationale et la carte bancaire dans un louage à Sousse. Il faut d’abord sécuriser le compte bancaire, puis déclarer la perte aux autorités, obtenir le certificat de perte et demander le remplacement des deux documents.\",\"steps\":[{\"when\":\"Immédiatement (aujourd’hui)\",\"action\":\"Bloquez la carte bancaire en appelant le service client de votre banque (numéro au dos ou via l’application) ou via votre espace client en ligne. Vérifiez les dernières opérations et signalez toute transaction suspecte.\",\"cites\":[1]},{\"when\":\"Immédiatement après le blocage\",\"action\":\"Déposez une plainte pour perte/vol au poste de police ou à la garde nationale la plus proche (numéro 197 ou 193). Mentionnez le lieu (louage à Sousse), l’heure approximative, la description du louage et le contenu du portefeuille (carte d’identité, carte bancaire).\",\"cites\":[3,4]},{\"when\":\"Dans les 24 h suivant la plainte\",\"action\":\"Demandez au poste de police le récépissé ou l’attestation de perte. Ce document vous sera demandé par la banque pour la procédure d’opposition définitive et par les services d’État pour le renouvellement de la carte d’identité.\",\"cites\":[4]},{\"when\":\"Dans les 2 jours suivants\",\"action\":\"Contactez votre agence bancaire (ou via l’application) pour demander l’émission d’une nouvelle carte bancaire en présentant le récépissé de perte fourni par la police.\",\"cites\":[1]},{\"when\":\"Dans les 5 jours suivants\",\"action\":\"Avec le certificat de perte, déposez une demande de renouvellement de la carte d’identité nationale auprès de votre centre d’état civil ou de la direction de la carte d’identité. Respectez le délai de 30 jours imposé par la loi organique n° 2024‑22.\",\"cites\":[4,5]},{\"when\":\"Après réception des nouveaux documents\",\"action\":\"Mettez à jour vos mots de passe et sécurisez vos comptes en ligne (email, applications bancaires) au cas où vos données auraient été compromises.\",\"cites\":[2]}],\"documents\":[],\"deadlines\":[],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.294646305,
+  "prompt_tokens": 1353,
+  "prompt_time": 0.063020393,
+  "completion_tokens": 546,
+  "completion_time": 1.136599409,
+  "total_tokens": 1899,
+  "total_time": 1.199619802,
+  "completion_tokens_details": {
+   "reasoning_tokens": 65
+  }
+ },
+ "latency_s": 1.91
+}

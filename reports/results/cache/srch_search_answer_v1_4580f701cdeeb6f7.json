@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-f96621fd",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The item F-f96621fd matches the request: a multicolor eono bottle with lemon found at Les Orangers, Manouba."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-f96621fd\",\"relevance\":\"high\"}],\"answer\":\"The item F-f96621fd matches the request: a multicolor eono bottle with lemon found at Les Orangers, Manouba.\"}",
+ "usage": {
+  "queue_time": 0.021612009,
+  "prompt_tokens": 592,
+  "prompt_time": 0.02835745,
+  "completion_tokens": 105,
+  "completion_time": 0.218875661,
+  "total_tokens": 697,
+  "total_time": 0.247233111,
+  "completion_tokens_details": {
+   "reasoning_tokens": 46
+  }
+ },
+ "latency_s": 0.85
+}

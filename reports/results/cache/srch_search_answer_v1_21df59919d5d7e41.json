@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "results": [],
+  "answer": "None of the listed items match the request for a metal frame with tortoiseshell, as all candidates are watches."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[],\"answer\":\"None of the listed items match the request for a metal frame with tortoiseshell, as all candidates are watches.\"}",
+ "usage": {
+  "queue_time": 0.049144314,
+  "prompt_tokens": 405,
+  "prompt_time": 0.016613863,
+  "completion_tokens": 82,
+  "completion_time": 0.170649091,
+  "total_tokens": 487,
+  "total_time": 0.187262954,
+  "completion_tokens_details": {
+   "reasoning_tokens": 42
+  }
+ },
+ "latency_s": 0.81
+}

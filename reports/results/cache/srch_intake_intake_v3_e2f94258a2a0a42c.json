@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "derja",
+  "slots": {
+   "item_category": "headphones",
+   "date_text": "12 days ago",
+   "date_iso": "2026-10-06",
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": "white wired with remote star",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Kif n9dar n3awnek? Fi chnoua l'makan li 9a l headphones?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"derja\",\"slots\":{\"item_category\":\"headphones\",\"date_text\":\"12 days ago\",\"date_iso\":\"2026-10-06\",\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":\"white wired with remote star\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Kif n9dar n3awnek? Fi chnoua l'makan li 9a l headphones?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.047246971,
+  "prompt_tokens": 1928,
+  "prompt_time": 0.120158379,
+  "completion_tokens": 186,
+  "completion_time": 0.192035033,
+  "total_tokens": 2114,
+  "total_time": 0.312193412,
+  "completion_tokens_details": {
+   "reasoning_tokens": 45
+  }
+ },
+ "latency_s": 0.96
+}

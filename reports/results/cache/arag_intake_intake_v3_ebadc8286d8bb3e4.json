@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "en",
+  "slots": {
+   "item_category": "bag",
+   "date_text": "yesterday",
+   "date_iso": "2026-10-17",
+   "place_type": "airport",
+   "place_name": "Djerba",
+   "governorate": "Djerba",
+   "distinctive_detail": "damaged",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "bag endommagé à l'aéroport de Djerba réclamation",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"en\",\"slots\":{\"item_category\":\"bag\",\"date_text\":\"yesterday\",\"date_iso\":\"2026-10-17\",\"place_type\":\"airport\",\"place_name\":\"Djerba\",\"governorate\":\"Djerba\",\"distinctive_detail\":\"damaged\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"bag endommagé à l'aéroport de Djerba réclamation\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.21069605,
+  "prompt_tokens": 1923,
+  "prompt_time": 0.013457687,
+  "completion_tokens": 206,
+  "completion_time": 0.215607991,
+  "total_tokens": 2129,
+  "total_time": 0.229065678,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 79
+  }
+ },
+ "latency_s": 1.02
+}

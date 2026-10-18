@@ -8,7 +8,8 @@ Model: openai/gpt-oss-120b (vision: qwen/qwen3.8-27b), Groq free tier.
 | version | n_cases | json_valid | intent | intent_semantic (lenient) | next_action | language | one_question | category | date | no_color_q_with_photo | all_checks_passed |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | v1 | 30 | 1.0 | 0.067 | 0.7 | 0.0 | 0.6 | 0.9 | 0.0 | 0.0 | 1.0 | 0.0 |
-| v2 | 30 | 1.0 | 0.967 | 0.967 | 0.867 | 1.0 | 0.967 | 0.944 | 1.0 | 1.0 | 0.833 |
+| v2 | 30 | 1.0 | 0.967 | 0.967 | 0.867 | 0.967 | 0.867 | 0.944 | 1.0 | 0.75 | 0.7 |
+| v3 | 30 | 1.0 | 1.0 | 0.933 | 0.867 | 1.0 | 0.967 | 0.944 | 1.0 | 0.75 | 0.733 |
 
 
 ## perception

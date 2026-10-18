@@ -1,0 +1,48 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [3] explicitly instructs to go to the Lost & Found counter and obtain a PIR."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passages [2] and [3] list the required documents including PIR, tag, boarding pass, and ID."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "The specific address is not in the cited text, though the action of writing a claim is supported."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "The specific postal address and URL are not fully present in the cited snippet."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "Passages do not mention filing a complaint with the Civil Aviation Authority or consumer body."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [3] explicitly instructs to go to the Lost & Found counter and obtain a PIR.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passages [2] and [3] list the required documents including PIR, tag, boarding pass, and ID.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"The specific address is not in the cited text, though the action of writing a claim is supported.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"The specific postal address and URL are not fully present in the cited snippet.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"Passages do not mention filing a complaint with the Civil Aviation Authority or consumer body.\"}]}",
+ "usage": {
+  "queue_time": 0.171820253,
+  "prompt_tokens": 1683,
+  "prompt_time": 0.151033578,
+  "completion_tokens": 214,
+  "completion_time": 0.453226742,
+  "total_tokens": 1897,
+  "total_time": 0.60426032
+ },
+ "latency_s": 5.59
+}

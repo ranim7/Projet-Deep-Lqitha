@@ -1,0 +1,92 @@
+{
+ "parsed": {
+  "summary": "Hey, désolé pour le vol du téléphone ! Voici les actions à faire rapidement pour sécuriser tes données, bloquer la SIM et déclarer le vol aux autorités.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Appelez votre numéro depuis un autre téléphone pour vérifier s'il est récupéré ou bloqué par un honnête passant. [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Localisez ou verrouillez le téléphone à distance via “Find My” (iPhone) ou “Find My Device” (Android). [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et demander une nouvelle SIM avec le même numéro en agence, en présentant votre pièce d’identité. [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Déposez une plainte au poste de police (urgence : 197) ou à la garde nationale (urgence : 193) en indiquant le numéro IMEI du téléphone (*#06# ou sur la boîte/facture). [1][4]",
+    "cites": [
+     1,
+     4
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Signalez la perte au dépôt de la ligne de métro concernée (station où vous êtes descendu) en donnant le numéro de ligne, la direction, la date et l’heure approximative. [2]",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Déclarez la perte sur la plateforme Lqitha en décrivant le téléphone (marque, couleur, coque, signes distinctifs). [4]",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Changez les mots de passe des comptes importants (e‑mail, réseaux sociaux, banque) si le téléphone n’était pas verrouillé. [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Vérifiez les relevés bancaires et les notifications d’applications pour détecter toute utilisation frauduleuse. (Pas de source spécifique, mais bonne pratique).",
+    "cites": []
+   }
+  ],
+  "documents": [
+   "Pièce d’identité nationale (CIN) pour obtenir une nouvelle carte SIM"
+  ],
+  "deadlines": [],
+  "coverage": [
+   {
+    "item": "phone",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "police_declaration",
+   "title": "Déclaration de vol de téléphone portable",
+   "body": "[Nom] [Prénom]\n[N° CIN]\n[Adresse]\n[Téléphone]\n\nObjet : Déclaration de vol de téléphone portable\n\nJe soussigné(e), [Nom] [Prénom], né(e) le __________, résidant à [Adresse], déclare avoir été victime du vol de mon téléphone portable le 2026-10-18, aux environs de __________, dans le métro de Tunis.\n\nMarque et modèle : __________\nCouleur et caractéristiques : __________\nNuméro IMEI : __________ (obtenu via *#06# ou sur la boîte/facture)\n\nJe vous prie de bien vouloir enregistrer cette plainte et de me communiquer les suites à donner.\n\nFait à Tunis, le 2026-10-18.\n\nSignature : ______________________"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Hey, désolé pour le vol du téléphone ! Voici les actions à faire rapidement pour sécuriser tes données, bloquer la SIM et déclarer le vol aux autorités.\",\"steps\":[{\"when\":\"now\",\"action\":\"Appelez votre numéro depuis un autre téléphone pour vérifier s'il est récupéré ou bloqué par un honnête passant. [1]\",\"cites\":[1]},{\"when\":\"now\",\"action\":\"Localisez ou verrouillez le téléphone à distance via “Find My” (iPhone) ou “Find My Device” (Android). [1]\",\"cites\":[1]},{\"when\":\"now\",\"action\":\"Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et demander une nouvelle SIM avec le même numéro en agence, en présentant votre pièce d’identité. [1]\",\"cites\":[1]},{\"when\":\"now\",\"action\":\"Déposez une plainte au poste de police (urgence : 197) ou à la garde nationale (urgence : 193) en indiquant le numéro IMEI du téléphone (*#06# ou sur la boîte/facture). [1][4]\",\"cites\":[1,4]},{\"when\":\"now\",\"action\":\"Signalez la perte au dépôt de la ligne de métro concernée (station où vous êtes descendu) en donnant le numéro de ligne, la direction, la date et l’heure approximative. [2]\",\"cites\":[2]},{\"when\":\"now\",\"action\":\"Déclarez la perte sur la plateforme Lqitha en décrivant le téléphone (marque, couleur, coque, signes distinctifs). [4]\",\"cites\":[4]},{\"when\":\"today\",\"action\":\"Changez les mots de passe des comptes importants (e‑mail, réseaux sociaux, banque) si le téléphone n’était pas verrouillé. [1]\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Vérifiez les relevés bancaires et les notifications d’applications pour détecter toute utilisation frauduleuse. (Pas de source spécifique, mais bonne pratique).\",\"cites\":[]}],\"documents\":[\"Pièce d’identité nationale (CIN) pour obtenir une nouvelle carte SIM\"],\"deadlines\":[],\"coverage\":[{\"item\":\"phone\",\"covered\":true}],\"letter\":{\"type\":\"police_declaration\",\"title\":\"Déclaration de vol de téléphone portable\",\"body\":\"[Nom] [Prénom]\\n[N° CIN]\\n[Adresse]\\n[Téléphone]\\n\\nObjet : Déclaration de vol de téléphone portable\\n\\nJe soussigné(e), [Nom] [Prénom], né(e) le __________, résidant à [Adresse], déclare avoir été victime du vol de mon téléphone portable le 2026-10-18, aux environs de __________, dans le métro de Tunis.\\n\\nMarque et modèle : __________\\nCouleur et caractéristiques : __________\\nNuméro IMEI : __________ (obtenu via *#06# ou sur la boîte/facture)\\n\\nJe vous prie de bien vouloir enregistrer cette plainte et de me communiquer les suites à donner.\\n\\nFait à Tunis, le 2026-10-18.\\n\\nSignature : ______________________\"}}",
+ "usage": {
+  "queue_time": 0.023896066,
+  "prompt_tokens": 1446,
+  "prompt_time": 0.067988987,
+  "completion_tokens": 769,
+  "completion_time": 1.594244108,
+  "total_tokens": 2215,
+  "total_time": 1.662233095,
+  "completion_tokens_details": {
+   "reasoning_tokens": 87
+  }
+ },
+ "latency_s": 2.13
+}

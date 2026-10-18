@@ -5,6 +5,7 @@ agents' LLM calls are made by n8n with the SAME prompts (see scripts/build_n8n.p
 """
 import base64
 import json
+import os
 import random
 import re
 import time
@@ -94,6 +95,9 @@ def chat(messages, model=None, temperature=0.0, json_mode=True, max_tokens=1500,
         body["response_format"] = {"type": "json_object"}
     for attempt in range(retries):
         r = requests.post(f"{config.GROQ_BASE}/chat/completions", headers=_headers(), json=body, timeout=120)
+        if r.status_code == 429 and "per day" in r.text and os.getenv("LQITHA_NO_LOCAL_FALLBACK"):
+            # evaluations: never mix in local-model answers - stop, the cache lets the run resume after the quota resets
+            raise RuntimeError(f"{model}: daily quota exhausted (evaluation stopped, re-run later to resume from the cache)")
         if r.status_code == 429 and "per day" in r.text:
             # daily free quota exhausted -> fall back to the local model (vision if the request has an image)
             has_img = any(isinstance(m.get("content"), list) for m in messages)

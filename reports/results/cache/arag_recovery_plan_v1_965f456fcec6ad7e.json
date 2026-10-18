@@ -1,0 +1,74 @@
+{
+ "parsed": {
+  "summary": "Your phone was stolen on the Tunis metro. Act quickly to secure your data, block the SIM, report the theft to the police and your carrier, and file a loss report on Lqitha.",
+  "steps": [
+   {
+    "when": "Immediately (within the first hour)",
+    "action": "Call your own number from another phone to see if someone answers and can keep it safe.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Immediately",
+    "action": "Use Find My iPhone or Find My Device (Google) to locate, lock, or erase the phone remotely.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Immediately after locating/locking",
+    "action": "Change passwords for email, social media, banking and any other critical accounts that were accessible from the phone.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "As soon as possible",
+    "action": "Contact your mobile operator (Tunisie Telecom, Ooredoo, or Orange Tunisie) to suspend the SIM and request a replacement SIM with the same number, presenting your ID at an agency.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Within the next few hours",
+    "action": "File a police report at the nearest police station or the national guard (emergency 197 or 193). Provide the phone’s IMEI number (dial *#06# or find on box/facture).",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "After filing the police report",
+    "action": "Report the theft on the Lqitha platform, including detailed description of the phone (color, brand, case, wallpaper, any distinctive marks) to increase chances of recovery.",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "when": "When you reach the metro station or line office",
+    "action": "Inform the metro staff or the station manager of the loss, giving the line number, direction, approximate time, and any details of the incident.",
+    "cites": [
+     2
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Your phone was stolen on the Tunis metro. Act quickly to secure your data, block the SIM, report the theft to the police and your carrier, and file a loss report on Lqitha.\",\"steps\":[{\"when\":\"Immediately (within the first hour)\",\"action\":\"Call your own number from another phone to see if someone answers and can keep it safe.\",\"cites\":[1]},{\"when\":\"Immediately\",\"action\":\"Use Find My iPhone or Find My Device (Google) to locate, lock, or erase the phone remotely.\",\"cites\":[1]},{\"when\":\"Immediately after locating/locking\",\"action\":\"Change passwords for email, social media, banking and any other critical accounts that were accessible from the phone.\",\"cites\":[1]},{\"when\":\"As soon as possible\",\"action\":\"Contact your mobile operator (Tunisie Telecom, Ooredoo, or Orange Tunisie) to suspend the SIM and request a replacement SIM with the same number, presenting your ID at an agency.\",\"cites\":[1]},{\"when\":\"Within the next few hours\",\"action\":\"File a police report at the nearest police station or the national guard (emergency 197 or 193). Provide the phone’s IMEI number (dial *#06# or find on box/facture).\",\"cites\":[1]},{\"when\":\"After filing the police report\",\"action\":\"Report the theft on the Lqitha platform, including detailed description of the phone (color, brand, case, wallpaper, any distinctive marks) to increase chances of recovery.\",\"cites\":[4]},{\"when\":\"When you reach the metro station or line office\",\"action\":\"Inform the metro staff or the station manager of the loss, giving the line number, direction, approximate time, and any details of the incident.\",\"cites\":[2]}],\"documents\":[],\"deadlines\":[],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.048901717,
+  "prompt_tokens": 1017,
+  "prompt_time": 0.047763893,
+  "completion_tokens": 456,
+  "completion_time": 0.945104994,
+  "total_tokens": 1473,
+  "total_time": 0.992868887,
+  "completion_tokens_details": {
+   "reasoning_tokens": 68
+  }
+ },
+ "latency_s": 1.5
+}

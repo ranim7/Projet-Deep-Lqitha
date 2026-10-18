@@ -1,0 +1,77 @@
+{
+ "parsed": {
+  "summary": "Sbah el khir! Jib l'police w baad t'mchi l'office du passeport, w kol شي tجهّز.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Se rendre immédiatement au poste de police le plus proche pour déclarer la perte du passeport et obtenir l'attestation de déclaration de perte",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Préparer les documents requis : copie de la Carte d'identité nationale (original à présenter), 4 photos conformes, quittance de paiement du timbre fiscal, et tout document prouvant la nécessité du duplicata",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Payer le droit de timbre fiscal auprès du centre de paiement indiqué et obtenir la quittance correspondante",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Se rendre à la direction de la police ou au centre de délivrance des passeports avec le formulaire d’obtention, l’attestation de perte, les pièces d’identité, les photos, la quittance du timbre fiscal et tout justificatif de nécessité pour déposer la demande de duplicata",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Suivre la procédure de traitement et récupérer le passeport duplicata dès qu’il est prêt, idéalement avant le départ prévu dans une semaine",
+    "cites": [
+     1
+    ]
+   }
+  ],
+  "documents": [
+   "Formulaire d'obtention d'un passeport",
+   "Copie de la Carte d'identité nationale avec présentation de l'originale",
+   "04 photos conformes aux exigences",
+   "Attestation de déclaration de perte du passeport",
+   "Quittance de paiement du droit de timbre fiscal",
+   "Tout document prouvant la nécessité d'obtention d'un duplicata du passeport"
+  ],
+  "deadlines": [],
+  "coverage": [
+   {
+    "item": "passport",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "police_declaration",
+   "title": "Déclaration de perte de passeport",
+   "body": "Je soussigné(e) [Nom] [Prénom], né(e) le [Date de naissance], titulaire de la Carte d'Identité Nationale n° [N° CIN], résidant à [Adresse], déclare avoir perdu mon passeport le 2026-10-18 à l'aéroport Tunis-Carthage. Je joins à cette déclaration l'attestation de perte délivrée par le poste de police. Je certifie la véracité des faits et m'engage à fournir tout document complémentaire requis.\n\nFait à Tunis, le 2026-10-18.\n\nSignature : __________________\n\nContact : [Téléphone]"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Sbah el khir! Jib l'police w baad t'mchi l'office du passeport, w kol شي tجهّز.\",\"steps\":[{\"when\":\"now\",\"action\":\"Se rendre immédiatement au poste de police le plus proche pour déclarer la perte du passeport et obtenir l'attestation de déclaration de perte\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Préparer les documents requis : copie de la Carte d'identité nationale (original à présenter), 4 photos conformes, quittance de paiement du timbre fiscal, et tout document prouvant la nécessité du duplicata\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Payer le droit de timbre fiscal auprès du centre de paiement indiqué et obtenir la quittance correspondante\",\"cites\":[1]},{\"when\":\"this_week\",\"action\":\"Se rendre à la direction de la police ou au centre de délivrance des passeports avec le formulaire d’obtention, l’attestation de perte, les pièces d’identité, les photos, la quittance du timbre fiscal et tout justificatif de nécessité pour déposer la demande de duplicata\",\"cites\":[1]},{\"when\":\"this_week\",\"action\":\"Suivre la procédure de traitement et récupérer le passeport duplicata dès qu’il est prêt, idéalement avant le départ prévu dans une semaine\",\"cites\":[1]}],\"documents\":[\"Formulaire d'obtention d'un passeport\",\"Copie de la Carte d'identité nationale avec présentation de l'originale\",\"04 photos conformes aux exigences\",\"Attestation de déclaration de perte du passeport\",\"Quittance de paiement du droit de timbre fiscal\",\"Tout document prouvant la nécessité d'obtention d'un duplicata du passeport\"],\"deadlines\":[],\"coverage\":[{\"item\":\"passport\",\"covered\":true}],\"letter\":{\"type\":\"police_declaration\",\"title\":\"Déclaration de perte de passeport\",\"body\":\"Je soussigné(e) [Nom] [Prénom], né(e) le [Date de naissance], titulaire de la Carte d'Identité Nationale n° [N° CIN], résidant à [Adresse], déclare avoir perdu mon passeport le 2026-10-18 à l'aéroport Tunis-Carthage. Je joins à cette déclaration l'attestation de perte délivrée par le poste de police. Je certifie la véracité des faits et m'engage à fournir tout document complémentaire requis.\\n\\nFait à Tunis, le 2026-10-18.\\n\\nSignature : __________________\\n\\nContact : [Téléphone]\"}}",
+ "usage": {
+  "queue_time": 0.049722679,
+  "prompt_tokens": 1084,
+  "prompt_time": 0.050944746,
+  "completion_tokens": 753,
+  "completion_time": 1.5659214000000001,
+  "total_tokens": 1837,
+  "total_time": 1.616866146,
+  "completion_tokens_details": {
+   "reasoning_tokens": 207
+  }
+ },
+ "latency_s": 2.17
+}

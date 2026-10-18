@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "queries": [
+   {
+    "id": "F-8b4a0385",
+    "message": "fama chkoun l9a ndour 3lihom l9awanin dor gold, l3inayn b brown gradient, t9a9t 9 days li fât fi Khir ed-Din?"
+   },
+   {
+    "id": "F-f96621fd",
+    "message": "Quelqu’un a trouvé une bouteille multicolore eono avec citron, perdue il y a 10 jours à Les Orangers, Manouba ?"
+   },
+   {
+    "id": "F-a3e61ce4",
+    "message": "Has anyone seen a white baseball cap with black star logo, lost 14 days ago at the Nabeul transport office in Kélibia?"
+   },
+   {
+    "id": "F-e737d416",
+    "message": "fama chkoun l9a ndour 3lihom ndour b frame metal w tortoiseshell, t9a9t 10 days li fât fi Mahdia station louage?"
+   },
+   {
+    "id": "F-8f945af5",
+    "message": "Quelqu’un a ramassé un sac à dos rose avec accents bleus et fermetures blanches, perdu il y a 6 jours à Mellassine, Tunis ?"
+   },
+   {
+    "id": "F-ffd37c58",
+    "message": "Has anyone found a black leather bifold wallet with a health card, lost 12 days ago at the yellow louage station in Kairouan?"
+   }
+  ]
+ },
+ "raw": "{\n  \"queries\": [\n    {\n      \"id\": \"F-8b4a0385\",\n      \"message\": \"fama chkoun l9a ndour 3lihom l9awanin dor gold, l3inayn b brown gradient, t9a9t 9 days li fât fi Khir ed-Din?\"\n    },\n    {\n      \"id\": \"F-f96621fd\",\n      \"message\": \"Quelqu’un a trouvé une bouteille multicolore eono avec citron, perdue il y a 10 jours à Les Orangers, Manouba ?\"\n    },\n    {\n      \"id\": \"F-a3e61ce4\",\n      \"message\": \"Has anyone seen a white baseball cap with black star logo, lost 14 days ago at the Nabeul transport office in Kélibia?\"\n    },\n    {\n      \"id\": \"F-e737d416\",\n      \"message\": \"fama chkoun l9a ndour 3lihom ndour b frame metal w tortoiseshell, t9a9t 10 days li fât fi Mahdia station louage?\"\n    },\n    {\n      \"id\": \"F-8f945af5\",\n      \"message\": \"Quelqu’un a ramassé un sac à dos rose avec accents bleus et fermetures blanches, perdu il y a 6 jours à Mellassine, Tunis ?\"\n    },\n    {\n      \"id\": \"F-ffd37c58\",\n      \"message\": \"Has anyone found a black leather bifold wallet with a health card, lost 12 days ago at the yellow louage station in Kairouan?\"\n    }]}",
+ "usage": {
+  "queue_time": 0.294036578,
+  "prompt_tokens": 1113,
+  "prompt_time": 0.048676899,
+  "completion_tokens": 500,
+  "completion_time": 1.042561811,
+  "total_tokens": 1613,
+  "total_time": 1.09123871,
+  "completion_tokens_details": {
+   "reasoning_tokens": 114
+  }
+ }
+}

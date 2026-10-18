@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "bag",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "train_station",
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Chnowa l7aja li t7eb t9oul 3liha 3la lbag?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.8
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"bag\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"train_station\",\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Chnowa l7aja li t7eb t9oul 3liha 3la lbag?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.8}",
+ "usage": {
+  "queue_time": 0.089067706,
+  "prompt_tokens": 1926,
+  "prompt_time": 0.144282397,
+  "completion_tokens": 219,
+  "completion_time": 0.278029202,
+  "total_tokens": 2145,
+  "total_time": 0.422311599,
+  "completion_tokens_details": {
+   "reasoning_tokens": 90
+  }
+ },
+ "latency_s": 1.01
+}

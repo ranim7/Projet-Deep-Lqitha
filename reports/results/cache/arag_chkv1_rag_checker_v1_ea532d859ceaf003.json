@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly states to formulate a request to the officer of civil status of the arrondissement where the marriage contract was concluded."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage lists 'Une copie de la carte d'identité du chef de la famille' as a required document."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage lists 'Extrait de l'acte de mariage' as a required document."
+   },
+   {
+    "step": 4,
+    "label": "supported",
+    "reason": "Passage lists 'Extrait de naissance de chacun des deux époux' as a required document."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage lists the death certificate but specifies it is for when the booklet is issued to the mother; Step 5 presents it as a general requirement without this condition."
+   },
+   {
+    "step": 6,
+    "label": "partially",
+    "reason": "Passage lists the divorce judgment but specifies it is for the mother with custody; Step 6 presents it as a general requirement without this condition."
+   },
+   {
+    "step": 7,
+    "label": "supported",
+    "reason": "Passage lists 'Extrait de naissance des autres membres de la f[amille]' as a required document."
+   },
+   {
+    "step": 8,
+    "label": "supported",
+    "reason": "Passage lists 'Redevance due sur le livret de famille' and the context implies submission to the office mentioned in the title."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly states to formulate a request to the officer of civil status of the arrondissement where the marriage contract was concluded.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage lists 'Une copie de la carte d'identité du chef de la famille' as a required document.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage lists 'Extrait de l'acte de mariage' as a required document.\"}, {\"step\": 4, \"label\": \"supported\", \"reason\": \"Passage lists 'Extrait de naissance de chacun des deux époux' as a required document.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage lists the death certificate but specifies it is for when the booklet is issued to the mother; Step 5 presents it as a general requirement without this condition.\"}, {\"step\": 6, \"label\": \"partially\", \"reason\": \"Passage lists the divorce judgment but specifies it is for the mother with custody; Step 6 presents it as a general requirement without this condition.\"}, {\"step\": 7, \"label\": \"supported\", \"reason\": \"Passage lists 'Extrait de naissance des autres membres de la f[amille]' as a required document.\"}, {\"step\": 8, \"label\": \"supported\", \"reason\": \"Passage lists 'Redevance due sur le livret de famille' and the context implies submission to the office mentioned in the title.\"}]}",
+ "usage": {
+  "queue_time": 0.018834412,
+  "prompt_tokens": 1559,
+  "prompt_time": 0.129928788,
+  "completion_tokens": 344,
+  "completion_time": 0.742670204,
+  "total_tokens": 1903,
+  "total_time": 0.872598992
+ },
+ "latency_s": 1.36
+}

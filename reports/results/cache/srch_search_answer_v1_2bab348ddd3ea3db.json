@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-8f945af5",
+    "relevance": "high"
+   }
+  ],
+  "answer": "Le sac à dos rose avec accents bleus et fermetures blanches trouvé à Mellassine correspond à l'objet recherché."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-8f945af5\",\"relevance\":\"high\"}],\"answer\":\"Le sac à dos rose avec accents bleus et fermetures blanches trouvé à Mellassine correspond à l'objet recherché.\"}",
+ "usage": {
+  "queue_time": 0.019534955,
+  "prompt_tokens": 506,
+  "prompt_time": 0.023947636,
+  "completion_tokens": 85,
+  "completion_time": 0.176169347,
+  "total_tokens": 591,
+  "total_time": 0.200116983,
+  "completion_tokens_details": {
+   "reasoning_tokens": 26
+  }
+ },
+ "latency_s": 0.86
+}

@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "derja",
+  "slots": {
+   "item_category": "bag",
+   "date_text": "9 days ago",
+   "date_iso": "2026-10-09",
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": "sac sling with cash and cards",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Fech men l'makan 9a3tou l'bag?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.88
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"derja\",\"slots\":{\"item_category\":\"bag\",\"date_text\":\"9 days ago\",\"date_iso\":\"2026-10-09\",\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":\"sac sling with cash and cards\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Fech men l'makan 9a3tou l'bag?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.88}",
+ "usage": {
+  "queue_time": 0.150974268,
+  "prompt_tokens": 1932,
+  "prompt_time": 0.014440364,
+  "completion_tokens": 181,
+  "completion_time": 0.19025217,
+  "total_tokens": 2113,
+  "total_time": 0.204692534,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 42
+  }
+ },
+ "latency_s": 0.92
+}

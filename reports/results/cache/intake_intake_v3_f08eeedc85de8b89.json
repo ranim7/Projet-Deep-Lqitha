@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "fr",
+  "slots": {
+   "item_category": "luggage",
+   "date_text": "hier soir",
+   "date_iso": "2026-10-13",
+   "place_type": "airport",
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_name"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où exactement avez-vous perdu votre valise?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"fr\",\"slots\":{\"item_category\":\"luggage\",\"date_text\":\"hier soir\",\"date_iso\":\"2026-10-13\",\"place_type\":\"airport\",\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_name\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où exactement avez-vous perdu votre valise?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.017499728,
+  "prompt_tokens": 1916,
+  "prompt_time": 0.110532453,
+  "completion_tokens": 158,
+  "completion_time": 0.167663757,
+  "total_tokens": 2074,
+  "total_time": 0.27819621,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 38
+  }
+ },
+ "latency_s": 14.57
+}

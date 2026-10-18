@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "partially",
+    "reason": "Passage mentions email and ID details but does not list phone number or proof of non-deferrable travel."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage mentions police declaration and written attestation but does not specify 'French' police or 'passport loss' specifically in the text provided."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage lists the form as a cost/requirement but does not mention downloading it from the Ministry of Interior website."
+   },
+   {
+    "step": 4,
+    "label": "supported",
+    "reason": "All listed documents (photos, CNI/birth cert, loss attestation, guardian auth, school proof, residence proof) are explicitly listed in the passage."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage implies submission to consulate for Tunisians abroad but does not explicitly state 'go to the nearest consulate in France' or name 'Paris'."
+   },
+   {
+    "step": 6,
+    "label": "partially",
+    "reason": "Passage lists 'Coûts' (costs) but does not explicitly mention paying a 'fiscal stamp' or obtaining a 'receipt of deposit'."
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "Passage lists requirements/costs but contains no information about tracking the application or collecting the passport."
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "Passage is about contacting the embassy for a temporary passport; it does not mention informing airlines or updating reservations."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"partially\", \"reason\": \"Passage mentions email and ID details but does not list phone number or proof of non-deferrable travel.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage mentions police declaration and written attestation but does not specify 'French' police or 'passport loss' specifically in the text provided.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage lists the form as a cost/requirement but does not mention downloading it from the Ministry of Interior website.\"}, {\"step\": 4, \"label\": \"supported\", \"reason\": \"All listed documents (photos, CNI/birth cert, loss attestation, guardian auth, school proof, residence proof) are explicitly listed in the passage.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage implies submission to consulate for Tunisians abroad but does not explicitly state 'go to the nearest consulate in France' or name 'Paris'.\"}, {\"step\": 6, \"label\": \"partially\", \"reason\": \"Passage lists 'Coûts' (costs) but does not explicitly mention paying a 'fiscal stamp' or obtaining a 'receipt of deposit'.\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"Passage lists requirements/costs but contains no information about tracking the application or collecting the passport.\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"Passage is about contacting the embassy for a temporary passport; it does not mention informing airlines or updating reservations.\"}]}",
+ "usage": {
+  "queue_time": 0.071963522,
+  "prompt_tokens": 1735,
+  "prompt_time": 0.122816746,
+  "completion_tokens": 359,
+  "completion_time": 0.768067524,
+  "total_tokens": 2094,
+  "total_time": 0.89088427
+ },
+ "latency_s": 1.46
+}

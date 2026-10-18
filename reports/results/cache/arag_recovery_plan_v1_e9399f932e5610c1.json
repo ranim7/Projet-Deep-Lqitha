@@ -1,0 +1,67 @@
+{
+ "parsed": {
+  "summary": "Your Tunisian passport was lost at Tunis‑Carthage airport and you need a replacement before traveling in a week. You must file a police loss declaration and then apply for a passport duplicate at the nearest police post, providing the required documents and paying the fiscal stamp.",
+  "steps": [
+   {
+    "when": "Immediately",
+    "action": "Go to the nearest police station to file an official loss declaration (attestation de déclaration de perte du passeport).",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Same day after the declaration",
+    "action": "Obtain the passport application form (formulaire d'obtention d'un passeport) from the police station or download it from the Ministry of Interior website.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Within the next 1‑2 days",
+    "action": "Gather the required documents: \n- Copy of your national identity card (original for verification) \n- 4 recent passport‑type photos meeting the specified standards \n- The police loss declaration you just obtained \n- Receipt of payment for the fiscal stamp (quittance de paiement du droit de timbre fiscal) \n- Any document proving the necessity of the duplicate (e.g., flight ticket, travel itinerary)",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Within 2‑3 days",
+    "action": "Pay the fiscal stamp fee at an authorized post office and keep the receipt.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "As soon as you have all documents",
+    "action": "Submit the complete dossier (application form + all documents) at the nearest police post that handles passport services. Request expedited processing due to your imminent travel.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Typically 3‑5 business days (or sooner with expedited service)",
+    "action": "Collect the duplicate passport once it is issued. Verify that the travel dates on the new passport are correct and that it meets the entry requirements of your destination.",
+    "cites": [
+     1
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Your Tunisian passport was lost at Tunis‑Carthage airport and you need a replacement before traveling in a week. You must file a police loss declaration and then apply for a passport duplicate at the nearest police post, providing the required documents and paying the fiscal stamp.\",\"steps\":[{\"when\":\"Immediately\",\"action\":\"Go to the nearest police station to file an official loss declaration (attestation de déclaration de perte du passeport).\",\"cites\":[1]},{\"when\":\"Same day after the declaration\",\"action\":\"Obtain the passport application form (formulaire d'obtention d'un passeport) from the police station or download it from the Ministry of Interior website.\",\"cites\":[1]},{\"when\":\"Within the next 1‑2 days\",\"action\":\"Gather the required documents: \\n- Copy of your national identity card (original for verification) \\n- 4 recent passport‑type photos meeting the specified standards \\n- The police loss declaration you just obtained \\n- Receipt of payment for the fiscal stamp (quittance de paiement du droit de timbre fiscal) \\n- Any document proving the necessity of the duplicate (e.g., flight ticket, travel itinerary)\",\"cites\":[1]},{\"when\":\"Within 2‑3 days\",\"action\":\"Pay the fiscal stamp fee at an authorized post office and keep the receipt.\",\"cites\":[1]},{\"when\":\"As soon as you have all documents\",\"action\":\"Submit the complete dossier (application form + all documents) at the nearest police post that handles passport services. Request expedited processing due to your imminent travel.\",\"cites\":[1]},{\"when\":\"Typically 3‑5 business days (or sooner with expedited service)\",\"action\":\"Collect the duplicate passport once it is issued. Verify that the travel dates on the new passport are correct and that it meets the entry requirements of your destination.\",\"cites\":[1]}],\"documents\":[],\"deadlines\":[],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.050225678,
+  "prompt_tokens": 652,
+  "prompt_time": 0.030405621,
+  "completion_tokens": 438,
+  "completion_time": 0.920436551,
+  "total_tokens": 1090,
+  "total_time": 0.950842172,
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ },
+ "latency_s": 1.57
+}

@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "derja",
+  "slots": {
+   "item_category": "jewelry",
+   "date_text": "9 days ago",
+   "date_iso": "2026-10-09",
+   "place_type": null,
+   "place_name": "Khir ed-Din",
+   "governorate": "Tunis",
+   "distinctive_detail": "gold ring with brown gradient eyes",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_search",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "bijou ornement oriel perdu Khir ed-Din",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"derja\",\"slots\":{\"item_category\":\"jewelry\",\"date_text\":\"9 days ago\",\"date_iso\":\"2026-10-09\",\"place_type\":null,\"place_name\":\"Khir ed-Din\",\"governorate\":\"Tunis\",\"distinctive_detail\":\"gold ring with brown gradient eyes\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_search\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"bijou ornement oriel perdu Khir ed-Din\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.208479465,
+  "prompt_tokens": 1951,
+  "prompt_time": 0.108487592,
+  "completion_tokens": 167,
+  "completion_time": 0.21548436,
+  "total_tokens": 2118,
+  "total_time": 0.323971952,
+  "completion_tokens_details": {
+   "reasoning_tokens": 34
+  }
+ },
+ "latency_s": 1.18
+}

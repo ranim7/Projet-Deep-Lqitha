@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-e83c3621",
+    "relevance": "high",
+    "reason": "couleur noire, sac à roulettes, même lieu et même date"
+   }
+  ],
+  "answer": "Nous avons trouvé 1 article très pertinent : le sac noir à roulettes (F-e83c3621) trouvé à la Gare routière de Kairouan le 2026-10-10. Ouvrez cet article et cliquez sur « C'est peut-être à moi ». Si rien ne correspond, déclarez la perte pour être notifié automatiquement."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-e83c3621\",\"relevance\":\"high\",\"reason\":\"couleur noire, sac à roulettes, même lieu et même date\"}],\"answer\":\"Nous avons trouvé 1 article très pertinent : le sac noir à roulettes (F-e83c3621) trouvé à la Gare routière de Kairouan le 2026-10-10. Ouvrez cet article et cliquez sur « C'est peut-être à moi ». Si rien ne correspond, déclarez la perte pour être notifié automatiquement.\"}",
+ "usage": {
+  "queue_time": 0.212172444,
+  "prompt_tokens": 1032,
+  "prompt_time": 0.042132421,
+  "completion_tokens": 317,
+  "completion_time": 0.653802742,
+  "total_tokens": 1349,
+  "total_time": 0.695935163,
+  "completion_tokens_details": {
+   "reasoning_tokens": 192
+  }
+ },
+ "latency_s": 1.43
+}

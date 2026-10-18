@@ -1,0 +1,46 @@
+{
+ "parsed": {
+  "situation": "My Tunisair luggage has been delayed for 3 days and I had to buy clothes, can I be reimbursed?",
+  "affected_items": [
+   "luggage"
+  ],
+  "urgency": "normal",
+  "sub_questions": [
+   {
+    "q": "Quel est le délai de remboursement pour un bagage retardé par Tunisair et comment puis-je obtenir une compensation?",
+    "sources": [
+     "operator"
+    ],
+    "item_type": "luggage",
+    "need": "compensation for delayed baggage"
+   },
+   {
+    "q": "Où dois-je déposer ma réclamation de bagage retardé à l'aéroport de Monastir?",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "file claim at airport"
+   }
+  ],
+  "letter": "airline_claim"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"My Tunisair luggage has been delayed for 3 days and I had to buy clothes, can I be reimbursed?\",\"affected_items\":[\"luggage\"],\"urgency\":\"normal\",\"sub_questions\":[{\"q\":\"Quel est le délai de remboursement pour un bagage retardé par Tunisair et comment puis-je obtenir une compensation?\",\"sources\":[\"operator\"],\"item_type\":\"luggage\",\"need\":\"compensation for delayed baggage\"},{\"q\":\"Où dois-je déposer ma réclamation de bagage retardé à l'aéroport de Monastir?\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"file claim at airport\"}],\"letter\":\"airline_claim\"}",
+ "usage": {
+  "queue_time": 0.047228492,
+  "prompt_tokens": 994,
+  "prompt_time": 0.015542753,
+  "completion_tokens": 187,
+  "completion_time": 0.190523233,
+  "total_tokens": 1181,
+  "total_time": 0.206065986,
+  "prompt_tokens_details": {
+   "cached_tokens": 768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 39
+  }
+ },
+ "latency_s": 0.92
+}

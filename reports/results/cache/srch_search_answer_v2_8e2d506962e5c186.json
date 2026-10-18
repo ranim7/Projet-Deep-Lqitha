@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "results": [],
+  "answer": "Ma fama hata item ychbah l9awanin dor gold li t9a9t 9 ayyam li fât fi Khir ed-Din. N9aḥlek t3alim l9adiya w t3abir 3la l9adiya b'kifk."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[],\"answer\":\"Ma fama hata item ychbah l9awanin dor gold li t9a9t 9 ayyam li fât fi Khir ed-Din. N9aḥlek t3alim l9adiya w t3abir 3la l9adiya b'kifk.\"}",
+ "usage": {
+  "queue_time": 0.048281993,
+  "prompt_tokens": 1105,
+  "prompt_time": 0.051668485,
+  "completion_tokens": 139,
+  "completion_time": 0.285990475,
+  "total_tokens": 1244,
+  "total_time": 0.33765896,
+  "completion_tokens_details": {
+   "reasoning_tokens": 60
+  }
+ },
+ "latency_s": 1.0
+}

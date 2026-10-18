@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "fr",
+  "slots": {
+   "item_category": "watch",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type",
+   "place_name"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où avez‑vous perdu votre montre ?",
+  "reply_to_user": null,
+  "search_query_fr": "montre perdue",
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"watch\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\",\"place_name\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où avez‑vous perdu votre montre ?\",\"reply_to_user\":null,\"search_query_fr\":\"montre perdue\",\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.016307407,
+  "prompt_tokens": 1910,
+  "prompt_time": 0.015791398,
+  "completion_tokens": 186,
+  "completion_time": 0.204400765,
+  "total_tokens": 2096,
+  "total_time": 0.220192163,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 66
+  }
+ },
+ "latency_s": 0.74
+}

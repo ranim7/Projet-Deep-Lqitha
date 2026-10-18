@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "watch",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "brown",
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [
+   "metal frame",
+   "tortoiseshell"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Brown watch with metal frame and tortoiseshell design.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.8,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"watch\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"brown\",\"color_detail\":null,\"material\":null,\"distinctive_marks\":[\"metal frame\",\"tortoiseshell\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Brown watch with metal frame and tortoiseshell design.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.8,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.017707549,
+  "prompt_tokens": 859,
+  "prompt_time": 0.032353599,
+  "completion_tokens": 240,
+  "completion_time": 0.315712247,
+  "total_tokens": 1099,
+  "total_time": 0.348065846,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 135
+  }
+ },
+ "latency_s": 0.98
+}

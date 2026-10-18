@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "fr",
+  "slots": {
+   "item_category": "bank_card",
+   "date_text": "lyoum",
+   "date_iso": "2026-10-18",
+   "place_type": "airport",
+   "place_name": "Tunis-Carthage",
+   "governorate": "Tunis",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Pouvez‑vous décrire les détails distinctifs de la carte bancaire et de la carte d'identité que vous avez perdues?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bank_card\",\"date_text\":\"lyoum\",\"date_iso\":\"2026-10-18\",\"place_type\":\"airport\",\"place_name\":\"Tunis-Carthage\",\"governorate\":\"Tunis\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Pouvez‑vous décrire les détails distinctifs de la carte bancaire et de la carte d'identité que vous avez perdues?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.016888418,
+  "prompt_tokens": 1928,
+  "prompt_time": 0.109126291,
+  "completion_tokens": 356,
+  "completion_time": 0.400130557,
+  "total_tokens": 2284,
+  "total_time": 0.509256848,
+  "completion_tokens_details": {
+   "reasoning_tokens": 213
+  }
+ },
+ "latency_s": 1.16
+}

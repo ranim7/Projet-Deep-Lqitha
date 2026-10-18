@@ -1,0 +1,78 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passages [3] and [4] explicitly state to report loss to police/guard to get an attestation."
+   },
+   {
+    "step": 2,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 6,
+    "label": "partially",
+    "reason": "Passage [4] mentions the law but does not state the 30-day deadline or fees for the passport specifically."
+   },
+   {
+    "step": 7,
+    "label": "supported",
+    "reason": "Passage [1] describes the process for Dutch citizens to request a provisional document from the consulate."
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 9,
+    "label": "supported",
+    "reason": "Passages [3] and [4] confirm the requirement of a loss attestation."
+   },
+   {
+    "step": 10,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 11,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 12,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passages [3] and [4] explicitly state to report loss to police/guard to get an attestation.\"}, {\"step\": 2, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 6, \"label\": \"partially\", \"reason\": \"Passage [4] mentions the law but does not state the 30-day deadline or fees for the passport specifically.\"}, {\"step\": 7, \"label\": \"supported\", \"reason\": \"Passage [1] describes the process for Dutch citizens to request a provisional document from the consulate.\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 9, \"label\": \"supported\", \"reason\": \"Passages [3] and [4] confirm the requirement of a loss attestation.\"}, {\"step\": 10, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 11, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 12, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.020215252,
+  "prompt_tokens": 1474,
+  "prompt_time": 0.127397143,
+  "completion_tokens": 334,
+  "completion_time": 0.685546577,
+  "total_tokens": 1808,
+  "total_time": 0.81294372
+ },
+ "latency_s": 28.68
+}

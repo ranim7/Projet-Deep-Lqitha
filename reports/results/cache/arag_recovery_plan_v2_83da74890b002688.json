@@ -1,0 +1,95 @@
+{
+ "parsed": {
+  "summary": "Ahlan! Hnéka chnoua t3ml bech tjib duplicata mta3 livret de famille.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Ruh l'officier d'état civil fi l'arrondissement li t3aqed fih l'3aqd nikaah w 9addim talab duplicata mta3 livret de famille.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Jmaâ copie de la carte d'identité du chef de la famille w jibliha m3ak.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Jmaâ extrait de l'acte de mariage w jibliha.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Jmaâ extrait de naissance de chaque époux w jiblihom.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Idha kan livret ykoun mta3 l'om, jmaâ extrait de l'acte de décès du conjoint w jiblih.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Idha kan l'om 3andha garde, jmaâ expédition du jugement de divorce w jibliha.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Jmaâ extrait de naissance des autres membres de la famille w jiblihom.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Dafaâ la redevance due 3la livret de famille (mabrouk) w dakhil talab m3a les documents li jmaâthom.",
+    "cites": [
+     1
+    ]
+   }
+  ],
+  "documents": [
+   "Copie de la carte d'identité du chef de famille",
+   "Extrait de l'acte de mariage",
+   "Extrait de naissance de chaque époux",
+   "Extrait de l'acte de décès du conjoint (si applicable)",
+   "Expédition du jugement de divorce (si applicable)",
+   "Extrait de naissance des autres membres de la famille",
+   "Redevance due sur le livret de famille"
+  ],
+  "deadlines": [],
+  "coverage": [
+   {
+    "item": "family_booklet",
+    "covered": true
+   }
+  ],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Ahlan! Hnéka chnoua t3ml bech tjib duplicata mta3 livret de famille.\",\"steps\":[{\"when\":\"now\",\"action\":\"Ruh l'officier d'état civil fi l'arrondissement li t3aqed fih l'3aqd nikaah w 9addim talab duplicata mta3 livret de famille.\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Jmaâ copie de la carte d'identité du chef de la famille w jibliha m3ak.\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Jmaâ extrait de l'acte de mariage w jibliha.\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Jmaâ extrait de naissance de chaque époux w jiblihom.\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Idha kan livret ykoun mta3 l'om, jmaâ extrait de l'acte de décès du conjoint w jiblih.\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Idha kan l'om 3andha garde, jmaâ expédition du jugement de divorce w jibliha.\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Jmaâ extrait de naissance des autres membres de la famille w jiblihom.\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Dafaâ la redevance due 3la livret de famille (mabrouk) w dakhil talab m3a les documents li jmaâthom.\",\"cites\":[1]}],\"documents\":[\"Copie de la carte d'identité du chef de famille\",\"Extrait de l'acte de mariage\",\"Extrait de naissance de chaque époux\",\"Extrait de l'acte de décès du conjoint (si applicable)\",\"Expédition du jugement de divorce (si applicable)\",\"Extrait de naissance des autres membres de la famille\",\"Redevance due sur le livret de famille\"],\"deadlines\":[],\"coverage\":[{\"item\":\"family_booklet\",\"covered\":true}],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.088442346,
+  "prompt_tokens": 822,
+  "prompt_time": 0.031955078,
+  "completion_tokens": 482,
+  "completion_time": 1.011622653,
+  "total_tokens": 1304,
+  "total_time": 1.043577731,
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ },
+ "latency_s": 1.59
+}

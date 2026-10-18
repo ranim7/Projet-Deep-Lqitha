@@ -1,0 +1,46 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "ar",
+  "slots": {
+   "item_category": "electronics",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type",
+   "place_name",
+   "date",
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "فين كان في الكار؟",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"ar\",\"slots\":{\"item_category\":\"electronics\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\",\"place_name\",\"date\",\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"فين كان في الكار؟\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.017455554,
+  "prompt_tokens": 1911,
+  "prompt_time": 0.013534751,
+  "completion_tokens": 300,
+  "completion_time": 0.315897685,
+  "total_tokens": 2211,
+  "total_time": 0.329432436,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 182
+  }
+ },
+ "latency_s": 13.81
+}

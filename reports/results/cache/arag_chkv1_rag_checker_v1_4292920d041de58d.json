@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [1] explicitly lists the actions, locations (Sfax, Tunis Ville), and details to provide."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage [3] discusses passports, not driving licenses; the specific document type is not supported."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage [3] describes the passport duplicate process, not the driving license; the specific document type is not supported."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage [1] supports retrieving lost items at the station, but Passage [3] refers to passports, not driving licenses."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [1] explicitly lists the actions, locations (Sfax, Tunis Ville), and details to provide.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage [3] discusses passports, not driving licenses; the specific document type is not supported.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage [3] describes the passport duplicate process, not the driving license; the specific document type is not supported.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage [1] supports retrieving lost items at the station, but Passage [3] refers to passports, not driving licenses.\"}]}",
+ "usage": {
+  "queue_time": 0.018444523,
+  "prompt_tokens": 1197,
+  "prompt_time": 0.090695628,
+  "completion_tokens": 171,
+  "completion_time": 0.335928353,
+  "total_tokens": 1368,
+  "total_time": 0.426623981
+ },
+ "latency_s": 1.01
+}

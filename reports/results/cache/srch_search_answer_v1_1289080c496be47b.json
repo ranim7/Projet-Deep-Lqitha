@@ -1,0 +1,30 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-2c8a55e1",
+    "relevance": "high"
+   },
+   {
+    "id": "F-ce0e230a",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The items that best match the request for a sling bag containing cash and cards are F-2c8a55e1 and F-ce0e230a."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-2c8a55e1\",\"relevance\":\"high\"},{\"id\":\"F-ce0e230a\",\"relevance\":\"high\"}],\"answer\":\"The items that best match the request for a sling bag containing cash and cards are F-2c8a55e1 and F-ce0e230a.\"}",
+ "usage": {
+  "queue_time": 0.049069408,
+  "prompt_tokens": 512,
+  "prompt_time": 0.021066291,
+  "completion_tokens": 193,
+  "completion_time": 0.400666851,
+  "total_tokens": 705,
+  "total_time": 0.421733142,
+  "completion_tokens_details": {
+   "reasoning_tokens": 112
+  }
+ },
+ "latency_s": 0.92
+}

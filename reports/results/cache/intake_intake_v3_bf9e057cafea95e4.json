@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "ar",
+  "slots": {
+   "item_category": "phone",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "train_station",
+   "place_name": "Sousse",
+   "governorate": "Sousse",
+   "distinctive_detail": "black",
+   "hidden_detail": null,
+   "has_photo": true
+  },
+  "missing": [
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "ما هو التفصيل المميز الذي يساعد على التحقق من ملكية الهاتف؟",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"ar\",\"slots\":{\"item_category\":\"phone\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"train_station\",\"place_name\":\"Sousse\",\"governorate\":\"Sousse\",\"distinctive_detail\":\"black\",\"hidden_detail\":null,\"has_photo\":true},\"missing\":[\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"ما هو التفصيل المميز الذي يساعد على التحقق من ملكية الهاتف؟\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.213931204,
+  "prompt_tokens": 1916,
+  "prompt_time": 0.012403035,
+  "completion_tokens": 181,
+  "completion_time": 0.192301769,
+  "total_tokens": 2097,
+  "total_time": 0.204704804,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 59
+  }
+ },
+ "latency_s": 0.95
+}

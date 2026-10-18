@@ -1,0 +1,60 @@
+{
+ "parsed": {
+  "summary": "Safi, t9addem l'objèkt li l9iti f le métro b'khir. Hnéka chnoua tdir b'koul khatwa.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Apporte le portefeuille au guichet ou à l'agent de la station du métro où tu l'as trouvé et remets‑le à la police ou à la garde nationale, comme indiqué pour les documents officiels comme la carte d'identité [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Prends une photo du portefeuille (en masquant les numéros de la carte d'identité) et déclare l'objet sur la plateforme Lqitha en indiquant le lieu, la date et le détail caché que seul le propriétaire connaît [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Si le propriétaire ne se manifeste pas rapidement, contacte le chef de gare ou l'agent de la station pour vérifier que le portefeuille a bien été enregistré dans le dépôt des objets trouvés du métro [2]",
+    "cites": [
+     2
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "coverage": [
+   {
+    "item": "wallet",
+    "covered": true
+   },
+   {
+    "item": "national_id",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "none",
+   "title": null,
+   "body": null
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Safi, t9addem l'objèkt li l9iti f le métro b'khir. Hnéka chnoua tdir b'koul khatwa.\",\"steps\":[{\"when\":\"now\",\"action\":\"Apporte le portefeuille au guichet ou à l'agent de la station du métro où tu l'as trouvé et remets‑le à la police ou à la garde nationale, comme indiqué pour les documents officiels comme la carte d'identité [1]\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Prends une photo du portefeuille (en masquant les numéros de la carte d'identité) et déclare l'objet sur la plateforme Lqitha en indiquant le lieu, la date et le détail caché que seul le propriétaire connaît [1]\",\"cites\":[1]},{\"when\":\"later\",\"action\":\"Si le propriétaire ne se manifeste pas rapidement, contacte le chef de gare ou l'agent de la station pour vérifier que le portefeuille a bien été enregistré dans le dépôt des objets trouvés du métro [2]\",\"cites\":[2]}],\"documents\":[],\"deadlines\":[],\"coverage\":[{\"item\":\"wallet\",\"covered\":true},{\"item\":\"national_id\",\"covered\":true}],\"letter\":{\"type\":\"none\",\"title\":null,\"body\":null}}",
+ "usage": {
+  "queue_time": 0.151437484,
+  "prompt_tokens": 1196,
+  "prompt_time": 0.063938857,
+  "completion_tokens": 354,
+  "completion_time": 0.742160535,
+  "total_tokens": 1550,
+  "total_time": 0.806099392,
+  "completion_tokens_details": {
+   "reasoning_tokens": 72
+  }
+ },
+ "latency_s": 1.59
+}

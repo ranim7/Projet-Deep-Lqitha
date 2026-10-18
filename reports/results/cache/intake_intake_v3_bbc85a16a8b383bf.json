@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "fr",
+  "slots": {
+   "item_category": "bag",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": true
+  },
+  "missing": [
+   "place_type",
+   "place_name",
+   "date"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où avez-vous perdu votre sac à dos?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bag\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":true},\"missing\":[\"place_type\",\"place_name\",\"date\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où avez-vous perdu votre sac à dos?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.151574098,
+  "prompt_tokens": 1909,
+  "prompt_time": 0.104177608,
+  "completion_tokens": 156,
+  "completion_time": 0.159241701,
+  "total_tokens": 2065,
+  "total_time": 0.263419309,
+  "completion_tokens_details": {
+   "reasoning_tokens": 38
+  }
+ },
+ "latency_s": 0.9
+}

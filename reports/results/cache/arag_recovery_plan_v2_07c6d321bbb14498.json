@@ -1,0 +1,112 @@
+{
+ "parsed": {
+  "summary": "Hey, ma3lich, n3awnek t7ell el moshkila b sra3a. Houni plan mta3ek b steps w documents w deadline.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Faites opposition immédiate de la carte bancaire en appelant le service client de votre banque ou via l’application mobile (numéro au dos de la carte ou sur le site).",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Déclarez la perte de la carte d’identité nationale et du portefeuille au poste de police ou de la garde nationale le plus proche (poste de police de Sousse).",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Obtenez le récépissé/attestation de perte délivré par le poste de police (preuve nécessaire pour le remplacement de la CIN).",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Retournez à la station de louage où vous êtes descendu à Sousse et demandez au responsable le numéro d’immatriculation du louage et l’heure de départ pour faciliter la recherche.",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Présentez l’attestation de perte au centre de la direction de l’état civil (ou à la mairie de votre domicile) pour demander une nouvelle carte d’identité nationale.",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Rendez‑vous à votre agence bancaire avec le récépissé de plainte et demandez l’émission d’une nouvelle carte bancaire.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Surveillez les dernières opérations de votre compte et changez les mots de passe de vos services bancaires en ligne pour sécuriser vos comptes.",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Déclarez la perte du portefeuille sur la plateforme Lqitha en précisant couleur, marque et contenu pour augmenter les chances de le retrouver.",
+    "cites": [
+     3
+    ]
+   }
+  ],
+  "documents": [
+   "Attestation de perte délivrée par le poste de police (CIN)",
+   "Récépissé de plainte ou de déclaration de perte (pour la banque)",
+   "Pièce d’identité ou justificatif de domicile (pour la demande de nouvelle CIN)"
+  ],
+  "deadlines": [
+   {
+    "what": "Demande de renouvellement de la carte d’identité nationale (CIN)",
+    "date_iso": "2026-11-16",
+    "cites": [
+     4,
+     5
+    ]
+   }
+  ],
+  "coverage": [
+   {
+    "item": "wallet",
+    "covered": true
+   },
+   {
+    "item": "national_id",
+    "covered": true
+   },
+   {
+    "item": "bank_card",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "police_declaration",
+   "title": "Déclaration de perte au poste de police",
+   "body": "[Nom] [Prénom]\nAdresse : [Adresse]\nTéléphone : [Téléphone]\n\nObjet : Déclaration de perte d’un portefeuille contenant une carte d’identité nationale et une carte bancaire\n\nJe soussigné(e), [Nom] [Prénom], né(e) le __/__/____, titulaire de la carte d’identité nationale n° [N° CIN], déclare avoir perdu mon portefeuille le 17/10/2026 à Sousse, dans un louage (taxi collectif interurbain). Le portefeuille contenait notamment :\n- Carte d’identité nationale (CIN)\n- Carte bancaire\n\nJe vous prie de bien vouloir établir un récépissé de perte afin de procéder aux démarches de remplacement de ces documents.\n\nFait à Sousse, le 18/10/2026.\n\nSignature : ______________________"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Hey, ma3lich, n3awnek t7ell el moshkila b sra3a. Houni plan mta3ek b steps w documents w deadline.\",\"steps\":[{\"when\":\"now\",\"action\":\"Faites opposition immédiate de la carte bancaire en appelant le service client de votre banque ou via l’application mobile (numéro au dos de la carte ou sur le site).\",\"cites\":[1]},{\"when\":\"now\",\"action\":\"Déclarez la perte de la carte d’identité nationale et du portefeuille au poste de police ou de la garde nationale le plus proche (poste de police de Sousse).\",\"cites\":[4]},{\"when\":\"today\",\"action\":\"Obtenez le récépissé/attestation de perte délivré par le poste de police (preuve nécessaire pour le remplacement de la CIN).\",\"cites\":[4]},{\"when\":\"today\",\"action\":\"Retournez à la station de louage où vous êtes descendu à Sousse et demandez au responsable le numéro d’immatriculation du louage et l’heure de départ pour faciliter la recherche.\",\"cites\":[3]},{\"when\":\"this_week\",\"action\":\"Présentez l’attestation de perte au centre de la direction de l’état civil (ou à la mairie de votre domicile) pour demander une nouvelle carte d’identité nationale.\",\"cites\":[4]},{\"when\":\"this_week\",\"action\":\"Rendez‑vous à votre agence bancaire avec le récépissé de plainte et demandez l’émission d’une nouvelle carte bancaire.\",\"cites\":[1]},{\"when\":\"later\",\"action\":\"Surveillez les dernières opérations de votre compte et changez les mots de passe de vos services bancaires en ligne pour sécuriser vos comptes.\",\"cites\":[2]},{\"when\":\"later\",\"action\":\"Déclarez la perte du portefeuille sur la plateforme Lqitha en précisant couleur, marque et contenu pour augmenter les chances de le retrouver.\",\"cites\":[3]}],\"documents\":[\"Attestation de perte délivrée par le poste de police (CIN)\",\"Récépissé de plainte ou de déclaration de perte (pour la banque)\",\"Pièce d’identité ou justificatif de domicile (pour la demande de nouvelle CIN)\"],\"deadlines\":[{\"what\":\"Demande de renouvellement de la carte d’identité nationale (CIN)\",\"date_iso\":\"2026-11-16\",\"cites\":[4,5]}],\"coverage\":[{\"item\":\"wallet\",\"covered\":true},{\"item\":\"national_id\",\"covered\":true},{\"item\":\"bank_card\",\"covered\":true}],\"letter\":{\"type\":\"police_declaration\",\"title\":\"Déclaration de perte au poste de police\",\"body\":\"[Nom] [Prénom]\\nAdresse : [Adresse]\\nTéléphone : [Téléphone]\\n\\nObjet : Déclaration de perte d’un portefeuille contenant une carte d’identité nationale et une carte bancaire\\n\\nJe soussigné(e), [Nom] [Prénom], né(e) le __/__/____, titulaire de la carte d’identité nationale n° [N° CIN], déclare avoir perdu mon portefeuille le 17/10/2026 à Sousse, dans un louage (taxi collectif interurbain). Le portefeuille contenait notamment :\\n- Carte d’identité nationale (CIN)\\n- Carte bancaire\\n\\nJe vous prie de bien vouloir établir un récépissé de perte afin de procéder aux démarches de remplacement de ces documents.\\n\\nFait à Sousse, le 18/10/2026.\\n\\nSignature : ______________________\"}}",
+ "usage": {
+  "queue_time": 0.297723485,
+  "prompt_tokens": 1793,
+  "prompt_time": 0.073580813,
+  "completion_tokens": 942,
+  "completion_time": 1.9456589229999999,
+  "total_tokens": 2735,
+  "total_time": 2.019239736,
+  "completion_tokens_details": {
+   "reasoning_tokens": 201
+  }
+ },
+ "latency_s": 2.77
+}

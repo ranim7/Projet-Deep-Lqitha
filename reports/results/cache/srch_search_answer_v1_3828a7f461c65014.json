@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-56eed07c",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The item F-56eed07c is a car key found at Gare des louages longues lignes in Kebili, matching the request."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-56eed07c\",\"relevance\":\"high\"}],\"answer\":\"The item F-56eed07c is a car key found at Gare des louages longues lignes in Kebili, matching the request.\"}",
+ "usage": {
+  "queue_time": 0.295961574,
+  "prompt_tokens": 514,
+  "prompt_time": 0.020925713,
+  "completion_tokens": 155,
+  "completion_time": 0.322101502,
+  "total_tokens": 669,
+  "total_time": 0.343027215,
+  "completion_tokens_details": {
+   "reasoning_tokens": 96
+  }
+ },
+ "latency_s": 1.31
+}

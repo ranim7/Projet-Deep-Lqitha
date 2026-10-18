@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-f96621fd",
+    "relevance": "high",
+    "reason": "correspondance couleur multicolore, marque eono, citron, même lieu et date"
+   }
+  ],
+  "answer": "Nous avons 1 résultat hautement pertinent : F-f96621fd trouvé à Les Orangers le 2026-10-08. Ouvrez cet objet et cliquez sur « C'est peut-être à moi ». Si rien ne correspond, déclarez la perte pour être notifié automatiquement."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-f96621fd\",\"relevance\":\"high\",\"reason\":\"correspondance couleur multicolore, marque eono, citron, même lieu et date\"}],\"answer\":\"Nous avons 1 résultat hautement pertinent : F-f96621fd trouvé à Les Orangers le 2026-10-08. Ouvrez cet objet et cliquez sur « C'est peut-être à moi ». Si rien ne correspond, déclarez la perte pour être notifié automatiquement.\"}",
+ "usage": {
+  "queue_time": 0.211057766,
+  "prompt_tokens": 1129,
+  "prompt_time": 0.052663199,
+  "completion_tokens": 177,
+  "completion_time": 0.367712102,
+  "total_tokens": 1306,
+  "total_time": 0.420375301,
+  "completion_tokens_details": {
+   "reasoning_tokens": 64
+  }
+ },
+ "latency_s": 1.25
+}

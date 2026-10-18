@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-cdfc7770",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The water bottle found at Pont du Fahs on 2026-10-13 (ID F-cdfc7770) matches the request for a bottle lost 5 days ago at that location."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-cdfc7770\",\"relevance\":\"high\"}],\"answer\":\"The water bottle found at Pont du Fahs on 2026-10-13 (ID F-cdfc7770) matches the request for a bottle lost 5 days ago at that location.\"}",
+ "usage": {
+  "queue_time": 0.212002538,
+  "prompt_tokens": 512,
+  "prompt_time": 0.023787015,
+  "completion_tokens": 148,
+  "completion_time": 0.308907736,
+  "total_tokens": 660,
+  "total_time": 0.332694751,
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  }
+ },
+ "latency_s": 1.0
+}

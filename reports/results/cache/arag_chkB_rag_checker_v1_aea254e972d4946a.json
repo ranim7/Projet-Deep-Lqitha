@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly lists contacting station chief and providing train details."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage states found objects are generally deposited at the terminus station."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage mentions terminus station but does not specify a 'Bagages / Lost & Found' counter."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Passage does not mention police, national guard, or emergency numbers 197/193."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "Passage does not mention the platform 'Lqitha' or specific content like driver's license."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly lists contacting station chief and providing train details.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage states found objects are generally deposited at the terminus station.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage mentions terminus station but does not specify a 'Bagages / Lost & Found' counter.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Passage does not mention police, national guard, or emergency numbers 197/193.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"Passage does not mention the platform 'Lqitha' or specific content like driver's license.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.066422321,
+  "prompt_tokens": 1289,
+  "prompt_time": 0.093112078,
+  "completion_tokens": 246,
+  "completion_time": 0.499782506,
+  "total_tokens": 1535,
+  "total_time": 0.592894584
+ },
+ "latency_s": 1.27
+}

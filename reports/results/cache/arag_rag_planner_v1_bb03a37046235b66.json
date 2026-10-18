@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "situation": "Found a wallet with a national ID in the Tunis metro on 2026-10-18",
+  "affected_items": [
+   "wallet",
+   "national_id"
+  ],
+  "urgency": "normal",
+  "sub_questions": [
+   {
+    "q": "Où dois-je remettre le portefeuille trouvé dans le métro de Tunis ?",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "hand in lost item"
+   },
+   {
+    "q": "Que ne dois-je pas faire avec le portefeuille trouvé ?",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "avoid misuse"
+   }
+  ],
+  "letter": "none"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Found a wallet with a national ID in the Tunis metro on 2026-10-18\",\"affected_items\":[\"wallet\",\"national_id\"],\"urgency\":\"normal\",\"sub_questions\":[{\"q\":\"Où dois-je remettre le portefeuille trouvé dans le métro de Tunis ?\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"hand in lost item\"},{\"q\":\"Que ne dois-je pas faire avec le portefeuille trouvé ?\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"avoid misuse\"}],\"letter\":\"none\"}",
+ "usage": {
+  "queue_time": 0.20781974,
+  "prompt_tokens": 984,
+  "prompt_time": 0.052599377,
+  "completion_tokens": 180,
+  "completion_time": 0.187091514,
+  "total_tokens": 1164,
+  "total_time": 0.239690891,
+  "completion_tokens_details": {
+   "reasoning_tokens": 59
+  }
+ },
+ "latency_s": 1.07
+}

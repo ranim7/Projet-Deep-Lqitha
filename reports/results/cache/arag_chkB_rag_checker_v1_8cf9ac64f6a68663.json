@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly states to present immediately at the counter."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage explicitly states to fill out PIR and keep a copy with file number."
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Cited passage does not mention the 7-day deadline."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly states to present immediately at the counter.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage explicitly states to fill out PIR and keep a copy with file number.\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Cited passage does not mention the 7-day deadline.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.050697705,
+  "prompt_tokens": 901,
+  "prompt_time": 0.072698601,
+  "completion_tokens": 140,
+  "completion_time": 0.314989531,
+  "total_tokens": 1041,
+  "total_time": 0.387688132
+ },
+ "latency_s": 1.03
+}

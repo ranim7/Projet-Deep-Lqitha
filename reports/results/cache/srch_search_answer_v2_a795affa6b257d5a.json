@@ -1,0 +1,62 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-8b4a0385",
+    "relevance": "low",
+    "reason": "category mismatch (glasses vs jewelry), colour gold but item type wrong"
+   },
+   {
+    "id": "F-321ed3cf",
+    "relevance": "low",
+    "reason": "category mismatch (bag vs jewelry)"
+   },
+   {
+    "id": "F-864d542b",
+    "relevance": "low",
+    "reason": "category mismatch (glasses vs jewelry)"
+   },
+   {
+    "id": "F-e737d416",
+    "relevance": "low",
+    "reason": "category mismatch (glasses vs jewelry)"
+   },
+   {
+    "id": "F-f6c99328",
+    "relevance": "low",
+    "reason": "category mismatch (glasses vs jewelry)"
+   },
+   {
+    "id": "F-6cece6f6",
+    "relevance": "low",
+    "reason": "category mismatch (bag vs jewelry)"
+   },
+   {
+    "id": "F-fb249fd4",
+    "relevance": "low",
+    "reason": "category mismatch (wallet vs jewelry)"
+   },
+   {
+    "id": "F-44c75523",
+    "relevance": "low",
+    "reason": "category mismatch (bag vs jewelry)"
+   }
+  ],
+  "answer": "ma fama hata 7aja high wala medium. n9i7lek t3alim l9adiya w t3alim l'khassara bch ykoun notification automatique."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-8b4a0385\",\"relevance\":\"low\",\"reason\":\"category mismatch (glasses vs jewelry), colour gold but item type wrong\"},{\"id\":\"F-321ed3cf\",\"relevance\":\"low\",\"reason\":\"category mismatch (bag vs jewelry)\"},{\"id\":\"F-864d542b\",\"relevance\":\"low\",\"reason\":\"category mismatch (glasses vs jewelry)\"},{\"id\":\"F-e737d416\",\"relevance\":\"low\",\"reason\":\"category mismatch (glasses vs jewelry)\"},{\"id\":\"F-f6c99328\",\"relevance\":\"low\",\"reason\":\"category mismatch (glasses vs jewelry)\"},{\"id\":\"F-6cece6f6\",\"relevance\":\"low\",\"reason\":\"category mismatch (bag vs jewelry)\"},{\"id\":\"F-fb249fd4\",\"relevance\":\"low\",\"reason\":\"category mismatch (wallet vs jewelry)\"},{\"id\":\"F-44c75523\",\"relevance\":\"low\",\"reason\":\"category mismatch (bag vs jewelry)\"}],\"answer\":\"ma fama hata 7aja high wala medium. n9i7lek t3alim l9adiya w t3alim l'khassara bch ykoun notification automatique.\"}",
+ "usage": {
+  "queue_time": 0.30031262,
+  "prompt_tokens": 1100,
+  "prompt_time": 0.043255813,
+  "completion_tokens": 321,
+  "completion_time": 0.666521107,
+  "total_tokens": 1421,
+  "total_time": 0.70977692,
+  "completion_tokens_details": {
+   "reasoning_tokens": 60
+  }
+ },
+ "latency_s": 1.61
+}

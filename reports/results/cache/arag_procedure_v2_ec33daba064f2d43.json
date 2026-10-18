@@ -1,0 +1,24 @@
+{
+ "parsed": {
+  "answer": "Salam! Pour faire un duplicata du livret de famille, voici les étapes à suivre :\n\n1. **Demande** : Rédigez une demande à l’officier d’état civil de l’arrondissement où le contrat de mariage a été conclu.\n2. **Pièces justificatives** : Préparez les documents suivants :\n   - Copie de la carte d’identité du chef de la famille.\n   - Extrait de l’acte de mariage.\n   - Extrait de naissance de chacun des deux époux.\n   - Extrait de naissance des autres membres de la famille.\n   - Si le livret doit être délivré à la mère, l’extrait de l’acte de décès du conjoint.\n   - Si la mère a la garde des enfants, une expédition du jugement de divorce.\n3. **Redevance** : Payez la redevance due sur le livret de famille.\n4. **Dépôt** : Déposez votre demande et les pièces au bureau d’état civil.\n5. **Suivi** : Attendez la délivrance du duplicata.\n\n**Documents à fournir**\n- Carte d’identité du chef de famille\n- Extrait de l’acte de mariage\n- Extraits de naissance (époux et autres membres)\n- Extrait de décès (si applicable)\n- Jugement de divorce (si applicable)\n- Redevance\n\n[1]",
+  "used_sources": [
+   1
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salam! Pour faire un duplicata du livret de famille, voici les étapes à suivre :\\n\\n1. **Demande** : Rédigez une demande à l’officier d’état civil de l’arrondissement où le contrat de mariage a été conclu.\\n2. **Pièces justificatives** : Préparez les documents suivants :\\n   - Copie de la carte d’identité du chef de la famille.\\n   - Extrait de l’acte de mariage.\\n   - Extrait de naissance de chacun des deux époux.\\n   - Extrait de naissance des autres membres de la famille.\\n   - Si le livret doit être délivré à la mère, l’extrait de l’acte de décès du conjoint.\\n   - Si la mère a la garde des enfants, une expédition du jugement de divorce.\\n3. **Redevance** : Payez la redevance due sur le livret de famille.\\n4. **Dépôt** : Déposez votre demande et les pièces au bureau d’état civil.\\n5. **Suivi** : Attendez la délivrance du duplicata.\\n\\n**Documents à fournir**\\n- Carte d’identité du chef de famille\\n- Extrait de l’acte de mariage\\n- Extraits de naissance (époux et autres membres)\\n- Extrait de décès (si applicable)\\n- Jugement de divorce (si applicable)\\n- Redevance\\n\\n[1]\",\"used_sources\":[1],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.216760741,
+  "prompt_tokens": 1456,
+  "prompt_time": 0.072871467,
+  "completion_tokens": 361,
+  "completion_time": 0.409719384,
+  "total_tokens": 1817,
+  "total_time": 0.482590851,
+  "completion_tokens_details": {
+   "reasoning_tokens": 24
+  }
+ },
+ "latency_s": 1.15
+}

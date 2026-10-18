@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "answer": "Salam! Si t’as perdu ton portefeuille à Louage, Sousse, voici ce qu’il faut faire:\n\n1. **Signaler la perte** : Appelle immédiatement la police (197) ou la garde nationale (193) pour déposer une plainte. [1]\n2. **Contacter ta banque** : Informe‑la de la perte et demande l’opposition de ta carte bancaire. Prépare ton nom, ta date de naissance, ton numéro de compte ou IBAN, et le numéro de la carte si tu l’as. [3]\n3. **Faire opposition à la carte d’identité** : Contacte la préfecture ou la police locale pour déclarer la perte de ton ID. [1]\n4. **Demander un duplicata** : Une fois l’opposition confirmée, demande un duplicata de la carte bancaire et de l’identité. La banque peut te fournir une carte temporaire ou virtuelle. [4]\n5. **Suivre les instructions** : Conserve les copies de la plainte, de l’opposition et des échanges avec la banque. Elles seront utiles pour contester d’éventuelles transactions frauduleuses. [2]\n6. **Vérifier les transactions** : Surveille ton compte et signale toute opération suspecte à la banque. [1]\n\n**Documents à préparer**\n- Pièce d’identité (si possible)\n- Copie de la plainte\n- Copie de l’opposition bancaire\n- Dernières relevés bancaires\n\nEn cas de doute, contacte la police locale ou la banque pour plus d’instructions.\n",
+  "used_sources": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salam! Si t’as perdu ton portefeuille à Louage, Sousse, voici ce qu’il faut faire:\\n\\n1. **Signaler la perte** : Appelle immédiatement la police (197) ou la garde nationale (193) pour déposer une plainte. [1]\\n2. **Contacter ta banque** : Informe‑la de la perte et demande l’opposition de ta carte bancaire. Prépare ton nom, ta date de naissance, ton numéro de compte ou IBAN, et le numéro de la carte si tu l’as. [3]\\n3. **Faire opposition à la carte d’identité** : Contacte la préfecture ou la police locale pour déclarer la perte de ton ID. [1]\\n4. **Demander un duplicata** : Une fois l’opposition confirmée, demande un duplicata de la carte bancaire et de l’identité. La banque peut te fournir une carte temporaire ou virtuelle. [4]\\n5. **Suivre les instructions** : Conserve les copies de la plainte, de l’opposition et des échanges avec la banque. Elles seront utiles pour contester d’éventuelles transactions frauduleuses. [2]\\n6. **Vérifier les transactions** : Surveille ton compte et signale toute opération suspecte à la banque. [1]\\n\\n**Documents à préparer**\\n- Pièce d’identité (si possible)\\n- Copie de la plainte\\n- Copie de l’opposition bancaire\\n- Dernières relevés bancaires\\n\\nEn cas de doute, contacte la police locale ou la banque pour plus d’instructions.\\n\",\"used_sources\":[1,2,3,4],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.298071335,
+  "prompt_tokens": 1354,
+  "prompt_time": 0.18527501,
+  "completion_tokens": 390,
+  "completion_time": 0.407934449,
+  "total_tokens": 1744,
+  "total_time": 0.593209459,
+  "completion_tokens_details": {
+   "reasoning_tokens": 22
+  }
+ },
+ "latency_s": 1.41
+}

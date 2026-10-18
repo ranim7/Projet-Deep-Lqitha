@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "en",
+  "slots": {
+   "item_category": "other",
+   "date_text": "14 days ago",
+   "date_iso": "2026-10-04",
+   "place_type": "other",
+   "place_name": "Nabeul transport office in Kélibia",
+   "governorate": "Nabeul",
+   "distinctive_detail": "white baseball cap with black star logo",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_search",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "cap de baseball blanc logo étoile noire perdu à l'office de transport de Nabeul",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"en\",\"slots\":{\"item_category\":\"other\",\"date_text\":\"14 days ago\",\"date_iso\":\"2026-10-04\",\"place_type\":\"other\",\"place_name\":\"Nabeul transport office in Kélibia\",\"governorate\":\"Nabeul\",\"distinctive_detail\":\"white baseball cap with black star logo\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_search\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"cap de baseball blanc logo étoile noire perdu à l'office de transport de Nabeul\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.14863433,
+  "prompt_tokens": 1936,
+  "prompt_time": 0.017033949,
+  "completion_tokens": 232,
+  "completion_time": 0.291990964,
+  "total_tokens": 2168,
+  "total_time": 0.309024913,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 88
+  }
+ },
+ "latency_s": 1.05
+}

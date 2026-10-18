@@ -1,0 +1,53 @@
+{
+ "parsed": {
+  "situation": "Bag containing a driving licence lost on the SNCFT train from Tunis to Sfax this morning",
+  "affected_items": [
+   "bag",
+   "driving_licence"
+  ],
+  "urgency": "normal",
+  "sub_questions": [
+   {
+    "q": "Où puis-je déclarer la perte de mon sac à la gare de Sfax et où chercher le personnel du train SNCFT ?",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "search and declare at train station"
+   },
+   {
+    "q": "Comment déclarer officiellement la perte de mon permis de conduire auprès des autorités tunisiennes ?",
+    "sources": [
+     "sop",
+     "law"
+    ],
+    "item_type": "driving_licence",
+    "need": "declare and replace driving licence"
+   },
+   {
+    "q": "Quelles sont les démarches pour obtenir un duplicata du permis de conduire et quels sont les délais à respecter ?",
+    "sources": [
+     "law"
+    ],
+    "item_type": "driving_licence",
+    "need": "replacement deadlines"
+   }
+  ],
+  "letter": "none"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Bag containing a driving licence lost on the SNCFT train from Tunis to Sfax this morning\",\"affected_items\":[\"bag\",\"driving_licence\"],\"urgency\":\"normal\",\"sub_questions\":[{\"q\":\"Où puis-je déclarer la perte de mon sac à la gare de Sfax et où chercher le personnel du train SNCFT ?\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"search and declare at train station\"},{\"q\":\"Comment déclarer officiellement la perte de mon permis de conduire auprès des autorités tunisiennes ?\",\"sources\":[\"sop\",\"law\"],\"item_type\":\"driving_licence\",\"need\":\"declare and replace driving licence\"},{\"q\":\"Quelles sont les démarches pour obtenir un duplicata du permis de conduire et quels sont les délais à respecter ?\",\"sources\":[\"law\"],\"item_type\":\"driving_licence\",\"need\":\"replacement deadlines\"}],\"letter\":\"none\"}",
+ "usage": {
+  "queue_time": 0.291924775,
+  "prompt_tokens": 988,
+  "prompt_time": 0.073433714,
+  "completion_tokens": 286,
+  "completion_time": 0.308371942,
+  "total_tokens": 1274,
+  "total_time": 0.381805656,
+  "completion_tokens_details": {
+   "reasoning_tokens": 89
+  }
+ },
+ "latency_s": 1.29
+}

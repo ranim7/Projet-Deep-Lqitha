@@ -1,0 +1,114 @@
+{
+ "parsed": {
+  "summary": "Salam! N7awlek t9addem barcha 7aloul b sra3a ba3d ma 9a3det tfdha l'wallet, carte bancaire w CIN f l'aéroport Tunis‑Carthage.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Bloquez immédiatement votre carte bancaire en appelant le service client de votre banque (numéro au dos ou via l'application) ou en la bloquant depuis l'application mobile. [1][2]",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Déposez une plainte au poste de police (197) ou à la garde nationale (193) de l'aéroport pour la perte de la carte bancaire et de la carte d'identité nationale. Demandez le récépissé qui servira à la banque et à la demande de nouvelle CIN. [1][5]",
+    "cites": [
+     1,
+     5
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Rendez‑vous au bureau des objets trouvés de l'aéroport Tunis‑Carthage pour signaler la perte du wallet et récupérer le récépissé de dépôt. [4]",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Demandez une nouvelle carte bancaire à votre agence en présentant le récépissé de plainte et votre pièce d’identité de remplacement (ou autre justificatif). [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Avec le certificat de perte délivré par le poste de police, déposez une demande de nouvelle carte d’identité nationale dans les 30 jours suivant la perte. [5]",
+    "cites": [
+     5
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Vérifiez les dernières opérations de votre compte bancaire et changez les mots de passe de vos services en ligne pour sécuriser vos comptes. [2]",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Suivez le traitement de votre réclamation auprès de la banque et de la préfecture pour vous assurer de la réception de la nouvelle carte bancaire et du nouveau CIN.",
+    "cites": []
+   },
+   {
+    "when": "later",
+    "action": "Si le wallet n’est pas retrouvé, demandez à votre assureur (si vous avez une assurance voyage) le remboursement des achats de première nécessité. [4]",
+    "cites": [
+     4
+    ]
+   }
+  ],
+  "documents": [
+   "Récépissé de plainte au poste de police ou à la garde nationale",
+   "Certificat de perte de la CIN délivré par le poste de police",
+   "Pièce d’identité de remplacement ou autre justificatif pour la demande de nouvelle CIN",
+   "Récépissé du bureau des objets trouvés de l'aéroport",
+   "Numéro de carte bancaire ou relevé d’identité bancaire pour la demande de nouvelle carte"
+  ],
+  "deadlines": [
+   {
+    "what": "Demande de renouvellement de la carte d’identité nationale (CIN)",
+    "date_iso": "2026-11-17",
+    "cites": [
+     5,
+     6
+    ]
+   }
+  ],
+  "coverage": [
+   {
+    "item": "wallet",
+    "covered": false
+   },
+   {
+    "item": "bank_card",
+    "covered": true
+   },
+   {
+    "item": "national_id",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "police_declaration",
+   "title": "Déclaration de perte d'objets personnels",
+   "body": "Je soussigné(e) [Nom] [Prénom], né(e) le __________, titulaire de la carte d’identité nationale n° [N° CIN], résidant à [Adresse], téléphone [Téléphone],\n\nDéclare avoir perdu le 18/10/2026, à l’aéroport Tunis‑Carthage, les objets suivants :\n- Carte bancaire\n- Carte d’identité nationale\n- Portefeuille contenant divers effets personnels\n\nCes pertes ont été constatées alors que je me trouvais dans le terminal de l’aéroport. Je sollicite l’établissement d’un récépissé de perte afin de procéder aux démarches de remplacement auprès de ma banque et des services d’état civil.\n\nFait à Tunis, le 18/10/2026.\n\nSignature : ______________________"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Salam! N7awlek t9addem barcha 7aloul b sra3a ba3d ma 9a3det tfdha l'wallet, carte bancaire w CIN f l'aéroport Tunis‑Carthage.\",\"steps\":[{\"when\":\"now\",\"action\":\"Bloquez immédiatement votre carte bancaire en appelant le service client de votre banque (numéro au dos ou via l'application) ou en la bloquant depuis l'application mobile. [1][2]\",\"cites\":[1,2]},{\"when\":\"now\",\"action\":\"Déposez une plainte au poste de police (197) ou à la garde nationale (193) de l'aéroport pour la perte de la carte bancaire et de la carte d'identité nationale. Demandez le récépissé qui servira à la banque et à la demande de nouvelle CIN. [1][5]\",\"cites\":[1,5]},{\"when\":\"today\",\"action\":\"Rendez‑vous au bureau des objets trouvés de l'aéroport Tunis‑Carthage pour signaler la perte du wallet et récupérer le récépissé de dépôt. [4]\",\"cites\":[4]},{\"when\":\"today\",\"action\":\"Demandez une nouvelle carte bancaire à votre agence en présentant le récépissé de plainte et votre pièce d’identité de remplacement (ou autre justificatif). [1]\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Avec le certificat de perte délivré par le poste de police, déposez une demande de nouvelle carte d’identité nationale dans les 30 jours suivant la perte. [5]\",\"cites\":[5]},{\"when\":\"this_week\",\"action\":\"Vérifiez les dernières opérations de votre compte bancaire et changez les mots de passe de vos services en ligne pour sécuriser vos comptes. [2]\",\"cites\":[2]},{\"when\":\"later\",\"action\":\"Suivez le traitement de votre réclamation auprès de la banque et de la préfecture pour vous assurer de la réception de la nouvelle carte bancaire et du nouveau CIN.\",\"cites\":[]},{\"when\":\"later\",\"action\":\"Si le wallet n’est pas retrouvé, demandez à votre assureur (si vous avez une assurance voyage) le remboursement des achats de première nécessité. [4]\",\"cites\":[4]}],\"documents\":[\"Récépissé de plainte au poste de police ou à la garde nationale\",\"Certificat de perte de la CIN délivré par le poste de police\",\"Pièce d’identité de remplacement ou autre justificatif pour la demande de nouvelle CIN\",\"Récépissé du bureau des objets trouvés de l'aéroport\",\"Numéro de carte bancaire ou relevé d’identité bancaire pour la demande de nouvelle carte\"],\"deadlines\":[{\"what\":\"Demande de renouvellement de la carte d’identité nationale (CIN)\",\"date_iso\":\"2026-11-17\",\"cites\":[5,6]}],\"coverage\":[{\"item\":\"wallet\",\"covered\":false},{\"item\":\"bank_card\",\"covered\":true},{\"item\":\"national_id\",\"covered\":true}],\"letter\":{\"type\":\"police_declaration\",\"title\":\"Déclaration de perte d'objets personnels\",\"body\":\"Je soussigné(e) [Nom] [Prénom], né(e) le __________, titulaire de la carte d’identité nationale n° [N° CIN], résidant à [Adresse], téléphone [Téléphone],\\n\\nDéclare avoir perdu le 18/10/2026, à l’aéroport Tunis‑Carthage, les objets suivants :\\n- Carte bancaire\\n- Carte d’identité nationale\\n- Portefeuille contenant divers effets personnels\\n\\nCes pertes ont été constatées alors que je me trouvais dans le terminal de l’aéroport. Je sollicite l’établissement d’un récépissé de perte afin de procéder aux démarches de remplacement auprès de ma banque et des services d’état civil.\\n\\nFait à Tunis, le 18/10/2026.\\n\\nSignature : ______________________\"}}",
+ "usage": {
+  "queue_time": 0.424036622,
+  "prompt_tokens": 2067,
+  "prompt_time": 0.08539658,
+  "completion_tokens": 1064,
+  "completion_time": 2.234055715,
+  "total_tokens": 3131,
+  "total_time": 2.319452295,
+  "completion_tokens_details": {
+   "reasoning_tokens": 237
+  }
+ },
+ "latency_s": 3.35
+}

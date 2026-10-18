@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "headphones",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "white",
+  "color_detail": "white",
+  "material": null,
+  "distinctive_marks": [
+   "wired with remote star"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "White wired headphones with remote star.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"headphones\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"white\",\"color_detail\":\"white\",\"material\":null,\"distinctive_marks\":[\"wired with remote star\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"White wired headphones with remote star.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.046972484,
+  "prompt_tokens": 833,
+  "prompt_time": 0.018245712,
+  "completion_tokens": 182,
+  "completion_time": 0.188202903,
+  "total_tokens": 1015,
+  "total_time": 0.206448615,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 84
+  }
+ },
+ "latency_s": 0.88
+}

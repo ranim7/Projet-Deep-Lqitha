@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly states to hand over to station agent or police."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage mentions photo and Lqitha but cuts off before detailing location/date/hidden detail."
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "Passage discusses bank cards, not identity cards."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly states to hand over to station agent or police.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage mentions photo and Lqitha but cuts off before detailing location/date/hidden detail.\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"Passage discusses bank cards, not identity cards.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.358593011,
+  "prompt_tokens": 924,
+  "prompt_time": 0.075801593,
+  "completion_tokens": 123,
+  "completion_time": 0.287352945,
+  "total_tokens": 1047,
+  "total_time": 0.363154538
+ },
+ "latency_s": 1.32
+}

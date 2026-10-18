@@ -1,0 +1,61 @@
+{
+ "parsed": {
+  "summary": "Vous avez perdu votre passeau tunisien alors que vous êtes en France. Vous devez d’abord déclarer la perte aux autorités françaises, puis contacter l’Ambassade des Pays‑Bas pour obtenir un document de voyage d’urgence, et enfin préparer les pièces nécessaires pour obtenir un duplicata tunisien ou un laissez‑passer.",
+  "steps": [
+   {
+    "when": "Immédiatement après la perte",
+    "action": "Déclarez la perte ou le vol de votre passeport auprès de la police française et obtenez une attestation écrite de dépôt de plainte (exemple : formulaire de déclaration de perte). Cette attestation sera exigée par l’ambassade et votre assurance.",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "Dans les 24 h suivant la déclaration",
+    "action": "Envoyez un e‑mail à l’Ambassade des Pays‑Bas en France (tun‑ca@minbuza.nl) avec les informations suivantes : nom complet, date de naissance, nom de l’autorité ayant délivré le passeport, date de délivrance, numéro de téléphone, preuve d’urgence de voyage (billet d’avion, réservation d’hôtel, etc.) et, si possible, une copie ou photo du passeport perdu.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Après réception de la réponse de l’ambassade (généralement 1‑2 jours ouvrés)",
+    "action": "Rassemblez les documents requis pour la demande de document d’urgence :\n- Formulaire de demande de passeport (en anglais) rempli ;\n- Formulaire C2 de déclaration de perte/vol (en anglais) ;\n- Deux photos d’identité conformes aux critères néerlandais ;\n- Attestation de dépôt de plainte de la police française ;\n- Preuve d’impossibilité de reporter le voyage (billet d’avion, itinéraire, courrier de l’employeur) ;\n- Copie ou scan du passeport perdu (si disponible) ;\n- Toute autre pièce d’identité disponible.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "when": "Lors du rendez‑vous à l’ambassade (ou consulat) des Pays‑Bas en France",
+    "action": "Présentez tous les documents réunis. L’ambassade vous délivrera un document de voyage d’urgence (titre de voyage temporaire) valable pour la durée de votre séjour ou jusqu’à l’obtention d’un duplicata tunisien.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Après votre retour en Tunisie ou si vous avez besoin d’un passeport tunisien complet",
+    "action": "Demandez un duplicata du passeport tunisien auprès du consulat ou de l’Ambassade de Tunisie en suivant la procédure du Ministère de l’Intérieur : fournir le formulaire d’obtention, copie de la carte d’identité ou extrait de naissance, 4 photos, attestation de perte, justificatif de résidence à l’étranger, quittance de paiement du timbre fiscal, et tout document prouvant la nécessité du duplicata.",
+    "cites": [
+     3
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\n  \"summary\": \"Vous avez perdu votre passeau tunisien alors que vous êtes en France. Vous devez d’abord déclarer la perte aux autorités françaises, puis contacter l’Ambassade des Pays‑Bas pour obtenir un document de voyage d’urgence, et enfin préparer les pièces nécessaires pour obtenir un duplicata tunisien ou un laissez‑passer.\",\n  \"steps\": [\n    {\n      \"when\": \"Immédiatement après la perte\",\n      \"action\": \"Déclarez la perte ou le vol de votre passeport auprès de la police française et obtenez une attestation écrite de dépôt de plainte (exemple : formulaire de déclaration de perte). Cette attestation sera exigée par l’ambassade et votre assurance.\",\n      \"cites\": [2]\n    },\n    {\n      \"when\": \"Dans les 24 h suivant la déclaration\",\n      \"action\": \"Envoyez un e‑mail à l’Ambassade des Pays‑Bas en France (tun‑ca@minbuza.nl) avec les informations suivantes : nom complet, date de naissance, nom de l’autorité ayant délivré le passeport, date de délivrance, numéro de téléphone, preuve d’urgence de voyage (billet d’avion, réservation d’hôtel, etc.) et, si possible, une copie ou photo du passeport perdu.\",\n      \"cites\": [1]\n    },\n    {\n      \"when\": \"Après réception de la réponse de l’ambassade (généralement 1‑2 jours ouvrés)\",\n      \"action\": \"Rassemblez les documents requis pour la demande de document d’urgence :\\n- Formulaire de demande de passeport (en anglais) rempli ;\\n- Formulaire C2 de déclaration de perte/vol (en anglais) ;\\n- Deux photos d’identité conformes aux critères néerlandais ;\\n- Attestation de dépôt de plainte de la police française ;\\n- Preuve d’impossibilité de reporter le voyage (billet d’avion, itinéraire, courrier de l’employeur) ;\\n- Copie ou scan du passeport perdu (si disponible) ;\\n- Toute autre pièce d’identité disponible.\",\n      \"cites\": [1, 2]\n    },\n    {\n      \"when\": \"Lors du rendez‑vous à l’ambassade (ou consulat) des Pays‑Bas en France\",\n      \"action\": \"Présentez tous les documents réunis. L’ambassade vous délivrera un document de voyage d’urgence (titre de voyage temporaire) valable pour la durée de votre séjour ou jusqu’à l’obtention d’un duplicata tunisien.\",\n      \"cites\": [1]\n    },\n    {\n      \"when\": \"Après votre retour en Tunisie ou si vous avez besoin d’un passeport tunisien complet\",\n      \"action\": \"Demandez un duplicata du passeport tunisien auprès du consulat ou de l’Ambassade de Tunisie en suivant la procédure du Ministère de l’Intérieur : fournir le formulaire d’obtention, copie de la carte d’identité ou extrait de naissance, 4 photos, attestation de perte, justificatif de résidence à l’étranger, quittance de paiement du timbre fiscal, et tout document prouvant la nécessité du duplicata.\",\n      \"cites\": [3]\n    }\n  ],\n  \"documents\": [],\n  \"deadlines\": [],\n  \"letter\": null\n}",
+ "usage": {
+  "queue_time": 0.295665868,
+  "prompt_tokens": 989,
+  "prompt_time": 0.040793772,
+  "completion_tokens": 737,
+  "completion_time": 1.52318091,
+  "total_tokens": 1726,
+  "total_time": 1.563974682,
+  "completion_tokens_details": {
+   "reasoning_tokens": 12
+  }
+ },
+ "latency_s": 4.57
+}

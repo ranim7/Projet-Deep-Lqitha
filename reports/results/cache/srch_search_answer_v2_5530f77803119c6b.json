@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "results": [],
+  "answer": "Ma fama hata item ykoun mouchabih m3a description mte3ek. N9ollik ma fama hata watch brown b metal frame w tortoiseshell. Nse7ek t3alim l'perte b'kifk, w n9ollik t3ayet l'administration bach ykounou yb3thou notification."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[],\"answer\":\"Ma fama hata item ykoun mouchabih m3a description mte3ek. N9ollik ma fama hata watch brown b metal frame w tortoiseshell. Nse7ek t3alim l'perte b'kifk, w n9ollik t3ayet l'administration bach ykounou yb3thou notification.\"}",
+ "usage": {
+  "queue_time": 0.296265788,
+  "prompt_tokens": 1133,
+  "prompt_time": 0.05504529,
+  "completion_tokens": 168,
+  "completion_time": 0.35301367,
+  "total_tokens": 1301,
+  "total_time": 0.40805896,
+  "completion_tokens_details": {
+   "reasoning_tokens": 75
+  }
+ },
+ "latency_s": 1.28
+}

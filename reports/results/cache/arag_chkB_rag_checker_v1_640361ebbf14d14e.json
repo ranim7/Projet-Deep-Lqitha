@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "unsupported",
+    "reason": "Passage mentions TGM/Louage/Taxi stations, not police/garde nationale or numbers 197/193."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage explicitly states to use receipt/app to contact the driver for individual taxis."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage supports depositing at police/garde nationale for official docs, but 'agent de la station de taxi' is not mentioned in this context."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage supports Lqitha declaration and photo without numbers, but 'détail caché' (hidden detail) is not mentioned."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "Passage refers to receipts for first necessity purchases due to delay, not for lost item exchanges or police needs."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"unsupported\", \"reason\": \"Passage mentions TGM/Louage/Taxi stations, not police/garde nationale or numbers 197/193.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage explicitly states to use receipt/app to contact the driver for individual taxis.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage supports depositing at police/garde nationale for official docs, but 'agent de la station de taxi' is not mentioned in this context.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage supports Lqitha declaration and photo without numbers, but 'détail caché' (hidden detail) is not mentioned.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"Passage refers to receipts for first necessity purchases due to delay, not for lost item exchanges or police needs.\"}]}",
+ "usage": {
+  "queue_time": 0.324108911,
+  "prompt_tokens": 1181,
+  "prompt_time": 0.104211212,
+  "completion_tokens": 220,
+  "completion_time": 0.44615503,
+  "total_tokens": 1401,
+  "total_time": 0.550366242
+ },
+ "latency_s": 1.46
+}

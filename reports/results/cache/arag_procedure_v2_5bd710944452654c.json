@@ -1,0 +1,28 @@
+{
+ "parsed": {
+  "answer": "Bonjour! Voici ce que vous devez faire si votre bagage enregistré est arrivé endommagé à l’aéroport de Djerba.\n\n1. **Présentez-vous immédiatement** au comptoir « Bagages / Lost & Found » de Tunisair ou de son agent d’assistance. [1]\n2. **Remplissez un rapport d’irrégularité bagage (PIR)** et conservez une copie avec le numéro de dossier. [1]\n3. **Soumettez une réclamation écrite** à Tunisair, accompagnée des documents suivants :\n   - Original du rapport d’irrégularité (PIR) délivré à l’aéroport d’arrivée ; [2]\n   - Original du talon de bagage ; [2]\n   - Carte d’embarquement ou copie du billet ; [2]\n   - Description détaillée du bagage endommagé (couleur, marque, taille, signes distinctifs, contenu). [1]\n4. **Respectez les délais** : pour un bagage endommagé, la réclamation doit être faite dans les 7 jours suivant la réception du bagage. [1]\n5. **Attendez la décision** de Tunisair. En cas de perte confirmée (si le bagage n’est pas retrouvé après 21 jours), vous pourrez demander une indemnisation conformément à la Convention de Montréal. [1, 2]\n\n**Documents à fournir**\n- Rapport d’irrégularité (PIR) original\n- Talon de bagage original\n- Carte d’embarquement ou billet\n- Description détaillée du bagage\n\nEn cas de problème ou si vous ne trouvez pas les informations nécessaires, contactez le service client de Tunisair ou le comptoir de service bagages de l’aéroport. Bonne chance !",
+  "used_sources": [
+   1,
+   2
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Bonjour! Voici ce que vous devez faire si votre bagage enregistré est arrivé endommagé à l’aéroport de Djerba.\\n\\n1. **Présentez-vous immédiatement** au comptoir « Bagages / Lost & Found » de Tunisair ou de son agent d’assistance. [1]\\n2. **Remplissez un rapport d’irrégularité bagage (PIR)** et conservez une copie avec le numéro de dossier. [1]\\n3. **Soumettez une réclamation écrite** à Tunisair, accompagnée des documents suivants :\\n   - Original du rapport d’irrégularité (PIR) délivré à l’aéroport d’arrivée ; [2]\\n   - Original du talon de bagage ; [2]\\n   - Carte d’embarquement ou copie du billet ; [2]\\n   - Description détaillée du bagage endommagé (couleur, marque, taille, signes distinctifs, contenu). [1]\\n4. **Respectez les délais** : pour un bagage endommagé, la réclamation doit être faite dans les 7 jours suivant la réception du bagage. [1]\\n5. **Attendez la décision** de Tunisair. En cas de perte confirmée (si le bagage n’est pas retrouvé après 21 jours), vous pourrez demander une indemnisation conformément à la Convention de Montréal. [1, 2]\\n\\n**Documents à fournir**\\n- Rapport d’irrégularité (PIR) original\\n- Talon de bagage original\\n- Carte d’embarquement ou billet\\n- Description détaillée du bagage\\n\\nEn cas de problème ou si vous ne trouvez pas les informations nécessaires, contactez le service client de Tunisair ou le comptoir de service bagages de l’aéroport. Bonne chance !\",\"used_sources\":[1,2],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.206554693,
+  "prompt_tokens": 1675,
+  "prompt_time": 0.144083521,
+  "completion_tokens": 446,
+  "completion_time": 0.456544744,
+  "total_tokens": 2121,
+  "total_time": 0.600628265,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 23
+  }
+ },
+ "latency_s": 1.44
+}

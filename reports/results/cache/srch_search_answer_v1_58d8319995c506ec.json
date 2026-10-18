@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-3e316d5e",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The item F-3e316d5e matches the request: white wired headphones with a star-shaped remote, found at Den Den about 12 days ago."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-3e316d5e\",\"relevance\":\"high\"}],\"answer\":\"The item F-3e316d5e matches the request: white wired headphones with a star-shaped remote, found at Den Den about 12 days ago.\"}",
+ "usage": {
+  "queue_time": 0.298174587,
+  "prompt_tokens": 542,
+  "prompt_time": 0.024564171,
+  "completion_tokens": 135,
+  "completion_time": 0.279231528,
+  "total_tokens": 677,
+  "total_time": 0.303795699,
+  "completion_tokens_details": {
+   "reasoning_tokens": 68
+  }
+ },
+ "latency_s": 1.17
+}

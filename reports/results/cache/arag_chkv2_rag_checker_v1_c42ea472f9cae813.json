@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [1] explicitly states to hand over official documents like ID cards to police or national guard."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage [1] instructs to take a photo (hiding numbers) and declare on Lqitha."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage [2] mentions contacting station agents for lost items, but does not specify checking if the item was 'registered' or the specific timeframe 'if owner does not appear quickly'."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [1] explicitly states to hand over official documents like ID cards to police or national guard.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage [1] instructs to take a photo (hiding numbers) and declare on Lqitha.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage [2] mentions contacting station agents for lost items, but does not specify checking if the item was 'registered' or the specific timeframe 'if owner does not appear quickly'.\"}]}",
+ "usage": {
+  "queue_time": 0.272670727,
+  "prompt_tokens": 840,
+  "prompt_time": 0.063931739,
+  "completion_tokens": 142,
+  "completion_time": 0.289161834,
+  "total_tokens": 982,
+  "total_time": 0.353093573
+ },
+ "latency_s": 8.89
+}

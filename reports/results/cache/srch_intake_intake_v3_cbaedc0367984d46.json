@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "fr",
+  "slots": {
+   "item_category": "bag",
+   "date_text": "il y a 8 jours",
+   "date_iso": "2026-10-10",
+   "place_type": "bus_station",
+   "place_name": "Kairouan",
+   "governorate": "Kairouan",
+   "distinctive_detail": "sac noir à roulettes",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_search",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "sac noir à roulettes perdu à la gare routière de Kairouan",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bag\",\"date_text\":\"il y a 8 jours\",\"date_iso\":\"2026-10-10\",\"place_type\":\"bus_station\",\"place_name\":\"Kairouan\",\"governorate\":\"Kairouan\",\"distinctive_detail\":\"sac noir à roulettes\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_search\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"sac noir à roulettes perdu à la gare routière de Kairouan\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.050518853,
+  "prompt_tokens": 1936,
+  "prompt_time": 0.012485944,
+  "completion_tokens": 192,
+  "completion_time": 0.215377676,
+  "total_tokens": 2128,
+  "total_time": 0.22786362,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 52
+  }
+ },
+ "latency_s": 0.88
+}

@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "phone",
+   "date_text": "lbera7",
+   "date_iso": "2026-10-13",
+   "place_type": "louage",
+   "place_name": "Sousse",
+   "governorate": "Sousse",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Chnowa l7aja li t7eb t7ot 3lih 3la telifouni?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"phone\",\"date_text\":\"lbera7\",\"date_iso\":\"2026-10-13\",\"place_type\":\"louage\",\"place_name\":\"Sousse\",\"governorate\":\"Sousse\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Chnowa l7aja li t7eb t7ot 3lih 3la telifouni?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.413197966,
+  "prompt_tokens": 1921,
+  "prompt_time": 0.375979046,
+  "completion_tokens": 181,
+  "completion_time": 0.189519549,
+  "total_tokens": 2102,
+  "total_time": 0.565498595,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 42
+  }
+ },
+ "latency_s": 5.54
+}

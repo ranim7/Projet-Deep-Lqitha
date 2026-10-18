@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [1] explicitly states to block the card by calling customer service or using the mobile app."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passages support filing a complaint and getting a receipt, but do not mention the specific location 'airport' or the loss of the national ID card in the same context as the bank card complaint."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage [4] mentions the lost property office at the airport, but does not explicitly state that a 'receipt of deposit' (récépissé de dépôt) is issued there, only to address the office or police."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage [1] is cut off before detailing the process for requesting a new card or the specific documents required (receipt, ID)."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage [5] supports using the certificate to request a new ID, but the specific '30 days' deadline is not mentioned in the provided text."
+   },
+   {
+    "step": 6,
+    "label": "partially",
+    "reason": "Passage [1] (cited in Step 1, but Step 6 cites [2]) mentions checking operations. Passage [2] discusses securing accounts but the text is cut off before explicitly mentioning changing passwords, though it implies securing accounts."
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 8,
+    "label": "partially",
+    "reason": "Passage [4] mentions reimbursement by the 'company' (airline), not the 'travel insurance' (assureur) as stated in the step."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [1] explicitly states to block the card by calling customer service or using the mobile app.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passages support filing a complaint and getting a receipt, but do not mention the specific location 'airport' or the loss of the national ID card in the same context as the bank card complaint.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage [4] mentions the lost property office at the airport, but does not explicitly state that a 'receipt of deposit' (récépissé de dépôt) is issued there, only to address the office or police.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage [1] is cut off before detailing the process for requesting a new card or the specific documents required (receipt, ID).\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage [5] supports using the certificate to request a new ID, but the specific '30 days' deadline is not mentioned in the provided text.\"}, {\"step\": 6, \"label\": \"partially\", \"reason\": \"Passage [1] (cited in Step 1, but Step 6 cites [2]) mentions checking operations. Passage [2] discusses securing accounts but the text is cut off before explicitly mentioning changing passwords, though it implies securing accounts.\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 8, \"label\": \"partially\", \"reason\": \"Passage [4] mentions reimbursement by the 'company' (airline), not the 'travel insurance' (assureur) as stated in the step.\"}]}",
+ "usage": {
+  "queue_time": 0.027172396,
+  "prompt_tokens": 1765,
+  "prompt_time": 0.128647989,
+  "completion_tokens": 401,
+  "completion_time": 0.912752402,
+  "total_tokens": 2166,
+  "total_time": 1.041400391
+ },
+ "latency_s": 1.74
+}

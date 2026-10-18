@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [3] explicitly lists the counter, PIR report, and required documents."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage [1] mentions submitting claims with supporting documents but does not explicitly instruct to keep receipts for first necessities or make digital copies."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passages support the need for a claim and PIR number, but do not specify sending via email or a specific 'reclamation service' email address."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage [3] mentions keeping the case number, but does not explicitly instruct to verify receipt via phone or email follow-up."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage [1] confirms the 21-day deadline for delayed baggage, but the specific action of following up after 14 days via phone or registered mail is not stated in the passages."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [3] explicitly lists the counter, PIR report, and required documents.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage [1] mentions submitting claims with supporting documents but does not explicitly instruct to keep receipts for first necessities or make digital copies.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passages support the need for a claim and PIR number, but do not specify sending via email or a specific 'reclamation service' email address.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage [3] mentions keeping the case number, but does not explicitly instruct to verify receipt via phone or email follow-up.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage [1] confirms the 21-day deadline for delayed baggage, but the specific action of following up after 14 days via phone or registered mail is not stated in the passages.\"}]}",
+ "usage": {
+  "queue_time": 0.018023535,
+  "prompt_tokens": 1479,
+  "prompt_time": 0.101645493,
+  "completion_tokens": 238,
+  "completion_time": 0.520081521,
+  "total_tokens": 1717,
+  "total_time": 0.621727014
+ },
+ "latency_s": 7.34
+}

@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "fr",
+  "slots": {
+   "item_category": "luggage",
+   "date_text": "hier",
+   "date_iso": "2026-10-17",
+   "place_type": "airport",
+   "place_name": "Tunis-Carthage",
+   "governorate": "Tunis",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Pouvez‑vous décrire votre valise (couleur, marque, caractéristiques particulières) ?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"fr\",\"slots\":{\"item_category\":\"luggage\",\"date_text\":\"hier\",\"date_iso\":\"2026-10-17\",\"place_type\":\"airport\",\"place_name\":\"Tunis-Carthage\",\"governorate\":\"Tunis\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Pouvez‑vous décrire votre valise (couleur, marque, caractéristiques particulières) ?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.018097593,
+  "prompt_tokens": 1927,
+  "prompt_time": 0.102277112,
+  "completion_tokens": 177,
+  "completion_time": 0.19419497,
+  "total_tokens": 2104,
+  "total_time": 0.296472082,
+  "completion_tokens_details": {
+   "reasoning_tokens": 41
+  }
+ },
+ "latency_s": 0.75
+}

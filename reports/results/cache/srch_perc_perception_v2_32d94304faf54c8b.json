@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "category": "shoes",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "grey",
+  "color_detail": "grey",
+  "material": "suede",
+  "distinctive_marks": [
+   "brogue perforations",
+   "brown heels"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Grey suede shoes with brogue perforations and brown heels.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"shoes\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"grey\",\"color_detail\":\"grey\",\"material\":\"suede\",\"distinctive_marks\":[\"brogue perforations\",\"brown heels\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Grey suede shoes with brogue perforations and brown heels.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.017799467,
+  "prompt_tokens": 858,
+  "prompt_time": 0.022790246,
+  "completion_tokens": 171,
+  "completion_time": 0.178702037,
+  "total_tokens": 1029,
+  "total_time": 0.201492283,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 63
+  }
+ },
+ "latency_s": 0.82
+}

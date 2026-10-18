@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-cdfc7770",
+    "relevance": "high",
+    "reason": "matches category and exact place/date"
+   }
+  ],
+  "answer": "We have 1 high‑relevance item: F-cdfc7770 found at Pont du Fahs on 2026-10-13. Please open the item and press \"C'est peut-être à moi\" or declare the loss to be notified automatically."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-cdfc7770\",\"relevance\":\"high\",\"reason\":\"matches category and exact place/date\"}],\"answer\":\"We have 1 high‑relevance item: F-cdfc7770 found at Pont du Fahs on 2026-10-13. Please open the item and press \\\"C'est peut-être à moi\\\" or declare the loss to be notified automatically.\"}",
+ "usage": {
+  "queue_time": 0.209324495,
+  "prompt_tokens": 1025,
+  "prompt_time": 0.044586445,
+  "completion_tokens": 212,
+  "completion_time": 0.437387544,
+  "total_tokens": 1237,
+  "total_time": 0.481973989,
+  "completion_tokens_details": {
+   "reasoning_tokens": 118
+  }
+ },
+ "latency_s": 1.21
+}

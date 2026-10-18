@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-56eed07c",
+    "relevance": "high",
+    "reason": "category keys, same place Gare des louages longues lignes, same date 2026-10-05"
+   }
+  ],
+  "answer": "3la 9lil, 1 item 3andou relevance high: F-56eed07c (found f Gare des louages longues lignes, 2026-10-05). Ma fama 7aja okhra mouch mouchkila. Iftah item w dabb 3la \"C'est peut-être à moi\" wala 3ml déclaration ta3 perte."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-56eed07c\",\"relevance\":\"high\",\"reason\":\"category keys, same place Gare des louages longues lignes, same date 2026-10-05\"}],\"answer\":\"3la 9lil, 1 item 3andou relevance high: F-56eed07c (found f Gare des louages longues lignes, 2026-10-05). Ma fama 7aja okhra mouch mouchkila. Iftah item w dabb 3la \\\"C'est peut-être à moi\\\" wala 3ml déclaration ta3 perte.\"}",
+ "usage": {
+  "queue_time": 0.298062316,
+  "prompt_tokens": 1040,
+  "prompt_time": 0.046130656,
+  "completion_tokens": 216,
+  "completion_time": 0.459270075,
+  "total_tokens": 1256,
+  "total_time": 0.505400731,
+  "completion_tokens_details": {
+   "reasoning_tokens": 79
+  }
+ },
+ "latency_s": 1.75
+}

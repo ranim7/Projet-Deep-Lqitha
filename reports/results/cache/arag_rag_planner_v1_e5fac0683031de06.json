@@ -1,0 +1,59 @@
+{
+ "parsed": {
+  "situation": "Phone stolen on the metro in Tunis this morning",
+  "affected_items": [
+   "phone"
+  ],
+  "urgency": "high",
+  "sub_questions": [
+   {
+    "q": "Comment bloquer immédiatement la carte SIM de mon téléphone volé",
+    "sources": [
+     "operator"
+    ],
+    "item_type": "phone",
+    "need": "block the SIM"
+   },
+   {
+    "q": "Où puis-je déclarer le vol de mon téléphone dans le métro de Tunis",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "report at metro"
+   },
+   {
+    "q": "Quelles démarches suivre pour déclarer le vol de mon téléphone auprès de la police",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "police declaration"
+   },
+   {
+    "q": "Comment obtenir un nouveau téléphone après le vol",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "phone",
+    "need": "replace phone"
+   }
+  ],
+  "letter": "police_declaration"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Phone stolen on the metro in Tunis this morning\",\"affected_items\":[\"phone\"],\"urgency\":\"high\",\"sub_questions\":[{\"q\":\"Comment bloquer immédiatement la carte SIM de mon téléphone volé\",\"sources\":[\"operator\"],\"item_type\":\"phone\",\"need\":\"block the SIM\"},{\"q\":\"Où puis-je déclarer le vol de mon téléphone dans le métro de Tunis\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"report at metro\"},{\"q\":\"Quelles démarches suivre pour déclarer le vol de mon téléphone auprès de la police\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"police declaration\"},{\"q\":\"Comment obtenir un nouveau téléphone après le vol\",\"sources\":[\"sop\"],\"item_type\":\"phone\",\"need\":\"replace phone\"}],\"letter\":\"police_declaration\"}",
+ "usage": {
+  "queue_time": 0.206599338,
+  "prompt_tokens": 983,
+  "prompt_time": 0.050400883,
+  "completion_tokens": 282,
+  "completion_time": 0.296431907,
+  "total_tokens": 1265,
+  "total_time": 0.34683279,
+  "completion_tokens_details": {
+   "reasoning_tokens": 106
+  }
+ },
+ "latency_s": 1.03
+}

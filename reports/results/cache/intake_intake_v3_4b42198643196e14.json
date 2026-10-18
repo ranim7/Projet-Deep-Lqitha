@@ -1,0 +1,42 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "derja",
+  "slots": {
+   "item_category": "wallet",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "metro",
+   "place_name": "Barcelone",
+   "governorate": "Tunis",
+   "distinctive_detail": "old wallet",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "date",
+   "photo",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Waqtech l9itou?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"derja\",\"slots\":{\"item_category\":\"wallet\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"metro\",\"place_name\":\"Barcelone\",\"governorate\":\"Tunis\",\"distinctive_detail\":\"old wallet\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"date\",\"photo\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Waqtech l9itou?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.017696256,
+  "prompt_tokens": 1914,
+  "prompt_time": 0.120565416,
+  "completion_tokens": 186,
+  "completion_time": 0.188128454,
+  "total_tokens": 2100,
+  "total_time": 0.30869387,
+  "completion_tokens_details": {
+   "reasoning_tokens": 62
+  }
+ },
+ "latency_s": 15.99
+}

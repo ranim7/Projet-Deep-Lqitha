@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-28c4a22f",
+    "relevance": "medium",
+    "reason": "contenu: argent et chargeur, pas de portable"
+   },
+   {
+    "id": "F-57d47d10",
+    "relevance": "medium",
+    "reason": "contenu: argent et chargeur, pas de portable"
+   },
+   {
+    "id": "F-8909b129",
+    "relevance": "medium",
+    "reason": "contenu: argent et chargeur, pas de portable"
+   }
+  ],
+  "answer": "Aucun résultat hautement pertinent, mais 3 résultats moyens : F-28c4a22f trouvé à El Jem le 2026-10-05, F-57d47d10 à Oued Zarga le 2026-10-05 et F-8909b129 à Baghdadi le 2026-10-04. La recherche a été élargie aux autres gouvernorats. Ouvrez chaque article et cliquez sur « C'est peut-être à moi » ou déclarez la perte pour être notifié automatiquement."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-28c4a22f\",\"relevance\":\"medium\",\"reason\":\"contenu: argent et chargeur, pas de portable\"},{\"id\":\"F-57d47d10\",\"relevance\":\"medium\",\"reason\":\"contenu: argent et chargeur, pas de portable\"},{\"id\":\"F-8909b129\",\"relevance\":\"medium\",\"reason\":\"contenu: argent et chargeur, pas de portable\"}],\"answer\":\"Aucun résultat hautement pertinent, mais 3 résultats moyens : F-28c4a22f trouvé à El Jem le 2026-10-05, F-57d47d10 à Oued Zarga le 2026-10-05 et F-8909b129 à Baghdadi le 2026-10-04. La recherche a été élargie aux autres gouvernorats. Ouvrez chaque article et cliquez sur « C'est peut-être à moi » ou déclarez la perte pour être notifié automatiquement.\"}",
+ "usage": {
+  "queue_time": 0.293592248,
+  "prompt_tokens": 983,
+  "prompt_time": 0.053403484,
+  "completion_tokens": 539,
+  "completion_time": 1.123485726,
+  "total_tokens": 1522,
+  "total_time": 1.17688921,
+  "completion_tokens_details": {
+   "reasoning_tokens": 318
+  }
+ },
+ "latency_s": 2.0
+}

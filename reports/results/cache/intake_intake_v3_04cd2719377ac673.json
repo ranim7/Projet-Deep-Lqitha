@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": "Pour obtenir un duplicata du permis de conduire, vous devez généralement présenter :\n1. Votre demande écrite (formulaire de demande de duplicata).\n2. Une copie de votre pièce d’identité (carte d’identité ou passeport).\n3. Un justificatif de domicile récent (facture d’électricité, de téléphone, etc.).\n4. Un relevé de votre ancien permis (si vous l’avez encore).\n5. Le paiement des frais de dossier.\nIl est conseillé de vérifier les exigences précises auprès de la préfecture ou de la sous-préfecture de votre lieu de résidence, car les documents requis peuvent varier légèrement selon la région.",
+  "search_query_fr": null,
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":\"Pour obtenir un duplicata du permis de conduire, vous devez généralement présenter :\\n1. Votre demande écrite (formulaire de demande de duplicata).\\n2. Une copie de votre pièce d’identité (carte d’identité ou passeport).\\n3. Un justificatif de domicile récent (facture d’électricité, de téléphone, etc.).\\n4. Un relevé de votre ancien permis (si vous l’avez encore).\\n5. Le paiement des frais de dossier.\\nIl est conseillé de vérifier les exigences précises auprès de la préfecture ou de la sous-préfecture de votre lieu de résidence, car les documents requis peuvent varier légèrement selon la région.\",\"search_query_fr\":null,\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.047697282,
+  "prompt_tokens": 1914,
+  "prompt_time": 0.089017788,
+  "completion_tokens": 260,
+  "completion_time": 0.265826652,
+  "total_tokens": 2174,
+  "total_time": 0.35484444,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 18
+  }
+ },
+ "latency_s": 14.9
+}

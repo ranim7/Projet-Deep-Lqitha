@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Salut! Si tu as perdu ton passeport tunisien en France, voici ce qu’il faut faire :\n\n1. **Déclare la perte** au poste de police ou à la garde nationale française pour obtenir une attestation de déclaration de perte. \n2. **Contacte le consulat tunisien** à Paris (ou le consulat le plus proche) pour demander un duplicata de passeport. \n3. **Prépare les documents requis** :\n   - Formulaire de demande de duplicata (disponible au consulat ou sur le site d’Idaraty). \n   - Copie de ta carte d’identité nationale (avec l’original). \n   - Attestation de déclaration de perte (issue de la police française). \n   - Justificatif de ton séjour en France (billet d’avion, réservation d’hôtel, etc.) si demandé. \n4. **Paye les frais** : le duplicata est soumis à un droit de timbre fiscal ; le montant exact est indiqué sur le site d’Idaraty. \n5. **Soumets la demande** au consulat et attends la délivrance du duplicata. Le délai est généralement de quelques jours ouvrés, mais vérifie auprès du consulat. \n\n**Documents à fournir**\n- Formulaire de demande de duplicata. \n- Copie de la carte d’identité nationale (avec l’original). \n- Attestation de déclaration de perte. \n- Justificatif de séjour en France (si demandé). \n- Quittance de paiement du droit de timbre fiscal.\n\nEn cas d’urgence, rappelle‑toi que tu peux contacter la police (197) ou la garde nationale (193) pour signaler le vol ou la perte.\n\nSources : [2], [4]",
+  "used_sources": [
+   2,
+   4
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salut! Si tu as perdu ton passeport tunisien en France, voici ce qu’il faut faire :\\n\\n1. **Déclare la perte** au poste de police ou à la garde nationale française pour obtenir une attestation de déclaration de perte. \\n2. **Contacte le consulat tunisien** à Paris (ou le consulat le plus proche) pour demander un duplicata de passeport. \\n3. **Prépare les documents requis** :\\n   - Formulaire de demande de duplicata (disponible au consulat ou sur le site d’Idaraty). \\n   - Copie de ta carte d’identité nationale (avec l’original). \\n   - Attestation de déclaration de perte (issue de la police française). \\n   - Justificatif de ton séjour en France (billet d’avion, réservation d’hôtel, etc.) si demandé. \\n4. **Paye les frais** : le duplicata est soumis à un droit de timbre fiscal ; le montant exact est indiqué sur le site d’Idaraty. \\n5. **Soumets la demande** au consulat et attends la délivrance du duplicata. Le délai est généralement de quelques jours ouvrés, mais vérifie auprès du consulat. \\n\\n**Documents à fournir**\\n- Formulaire de demande de duplicata. \\n- Copie de la carte d’identité nationale (avec l’original). \\n- Attestation de déclaration de perte. \\n- Justificatif de séjour en France (si demandé). \\n- Quittance de paiement du droit de timbre fiscal.\\n\\nEn cas d’urgence, rappelle‑toi que tu peux contacter la police (197) ou la garde nationale (193) pour signaler le vol ou la perte.\\n\\nSources : [2], [4]\",\"used_sources\":[2,4],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.582643829,
+  "prompt_tokens": 1324,
+  "prompt_time": 0.07129149,
+  "completion_tokens": 440,
+  "completion_time": 0.45468401,
+  "total_tokens": 1764,
+  "total_time": 0.5259755,
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ },
+ "latency_s": 1.62
+}

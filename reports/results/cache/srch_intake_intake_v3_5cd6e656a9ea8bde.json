@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "derja",
+  "slots": {
+   "item_category": "watch",
+   "date_text": "10 days ago",
+   "date_iso": "2026-10-08",
+   "place_type": "louage",
+   "place_name": "Mahdia",
+   "governorate": "Mahdia",
+   "distinctive_detail": "frame metal w tortoiseshell",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_search",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "montre cadre métal et nacre trouvée à Mahdia",
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"derja\",\"slots\":{\"item_category\":\"watch\",\"date_text\":\"10 days ago\",\"date_iso\":\"2026-10-08\",\"place_type\":\"louage\",\"place_name\":\"Mahdia\",\"governorate\":\"Mahdia\",\"distinctive_detail\":\"frame metal w tortoiseshell\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_search\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"montre cadre métal et nacre trouvée à Mahdia\",\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.016705295,
+  "prompt_tokens": 1947,
+  "prompt_time": 0.013958821,
+  "completion_tokens": 235,
+  "completion_time": 0.283195584,
+  "total_tokens": 2182,
+  "total_time": 0.297154405,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 105
+  }
+ },
+ "latency_s": 0.96
+}

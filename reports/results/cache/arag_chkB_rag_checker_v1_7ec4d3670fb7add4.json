@@ -1,0 +1,68 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [3] explicitly states to stay in the delivery zone and go to the Baggage/Lost & Found counter."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passages [3] and [2] both mention filling out a PIR and keeping a copy with the file number."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage [3] lists boarding pass, tag, and ID, but the detailed description (color, brand, etc.) is not explicitly in the provided text snippet."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage [4] mentions the 21-day period for lost baggage definition, but does not explicitly state the deadline for submitting a written claim or cite Article 17 of the Montreal Convention."
+   },
+   {
+    "step": 5,
+    "label": "supported",
+    "reason": "Passage [1] explicitly states Tunisair will provide a response within 30 days of receiving the request."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 9,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 10,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [3] explicitly states to stay in the delivery zone and go to the Baggage/Lost & Found counter.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passages [3] and [2] both mention filling out a PIR and keeping a copy with the file number.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage [3] lists boarding pass, tag, and ID, but the detailed description (color, brand, etc.) is not explicitly in the provided text snippet.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage [4] mentions the 21-day period for lost baggage definition, but does not explicitly state the deadline for submitting a written claim or cite Article 17 of the Montreal Convention.\"}, {\"step\": 5, \"label\": \"supported\", \"reason\": \"Passage [1] explicitly states Tunisair will provide a response within 30 days of receiving the request.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 9, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 10, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.017174475,
+  "prompt_tokens": 1559,
+  "prompt_time": 0.138407804,
+  "completion_tokens": 347,
+  "completion_time": 0.697329366,
+  "total_tokens": 1906,
+  "total_time": 0.83573717
+ },
+ "latency_s": 1.35
+}

@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-ce0e230a",
+    "relevance": "high",
+    "reason": "cash w cards"
+   },
+   {
+    "id": "F-45c2f7bf",
+    "relevance": "medium",
+    "reason": "cash only, no cards mentioned"
+   },
+   {
+    "id": "F-cfb81646",
+    "relevance": "medium",
+    "reason": "cash only, no cards mentioned"
+   }
+  ],
+  "answer": "3 items li ykounou mouchkil: 1 high (F-ce0e230a f La Goulette Casino, 2026-10-08) w 2 medium (F-45c2f7bf f Monastir, 2026-10-10 w F-cfb81646 f Tunis, 2026-10-10). mazel ma t7eb t7ellhom, iftah item w doss \"C'est peut-être à moi\" wala a3mel déclaration ta3 perte."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-ce0e230a\",\"relevance\":\"high\",\"reason\":\"cash w cards\"},{\"id\":\"F-45c2f7bf\",\"relevance\":\"medium\",\"reason\":\"cash only, no cards mentioned\"},{\"id\":\"F-cfb81646\",\"relevance\":\"medium\",\"reason\":\"cash only, no cards mentioned\"}],\"answer\":\"3 items li ykounou mouchkil: 1 high (F-ce0e230a f La Goulette Casino, 2026-10-08) w 2 medium (F-45c2f7bf f Monastir, 2026-10-10 w F-cfb81646 f Tunis, 2026-10-10). mazel ma t7eb t7ellhom, iftah item w doss \\\"C'est peut-être à moi\\\" wala a3mel déclaration ta3 perte.\"}",
+ "usage": {
+  "queue_time": 0.297847536,
+  "prompt_tokens": 1025,
+  "prompt_time": 0.046204016,
+  "completion_tokens": 550,
+  "completion_time": 1.13751457,
+  "total_tokens": 1575,
+  "total_time": 1.183718586,
+  "completion_tokens_details": {
+   "reasoning_tokens": 354
+  }
+ },
+ "latency_s": 2.17
+}

@@ -1,0 +1,66 @@
+{
+ "parsed": {
+  "selection": [
+   {
+    "sub_question": 1,
+    "passages": [
+     {
+      "pid": 1,
+      "score": 3
+     },
+     {
+      "pid": 2,
+      "score": 2
+     }
+    ]
+   },
+   {
+    "sub_question": 2,
+    "passages": [
+     {
+      "pid": 4,
+      "score": 2
+     },
+     {
+      "pid": 5,
+      "score": 2
+     }
+    ]
+   },
+   {
+    "sub_question": 3,
+    "passages": [
+     {
+      "pid": 6,
+      "score": 2
+     }
+    ]
+   },
+   {
+    "sub_question": 4,
+    "passages": [
+     {
+      "pid": 10,
+      "score": 3
+     },
+     {
+      "pid": 9,
+      "score": 2
+     }
+    ]
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"selection\": [{\"sub_question\": 1, \"passages\": [{\"pid\": 1, \"score\": 3}, {\"pid\": 2, \"score\": 2}]}, {\"sub_question\": 2, \"passages\": [{\"pid\": 4, \"score\": 2}, {\"pid\": 5, \"score\": 2}]}, {\"sub_question\": 3, \"passages\": [{\"pid\": 6, \"score\": 2}]}, {\"sub_question\": 4, \"passages\": [{\"pid\": 10, \"score\": 3}, {\"pid\": 9, \"score\": 2}]}]}",
+ "usage": {
+  "queue_time": 0.018960965,
+  "prompt_tokens": 1284,
+  "prompt_time": 0.091835961,
+  "completion_tokens": 138,
+  "completion_time": 0.292592549,
+  "total_tokens": 1422,
+  "total_time": 0.38442851
+ },
+ "latency_s": 6.78
+}

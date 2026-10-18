@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [1] explicitly instructs to take a photo without showing document numbers."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage [2] instructs to address the station agent or depot and provide line details."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passages [1] and [3] cover the Lqitha declaration process and the 'hidden detail' verification method."
+   },
+   {
+    "step": 4,
+    "label": "supported",
+    "reason": "Passage [3] explicitly lists these actions under 'Ce qu'il ne faut pas faire'."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [1] explicitly instructs to take a photo without showing document numbers.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage [2] instructs to address the station agent or depot and provide line details.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passages [1] and [3] cover the Lqitha declaration process and the 'hidden detail' verification method.\"}, {\"step\": 4, \"label\": \"supported\", \"reason\": \"Passage [3] explicitly lists these actions under 'Ce qu'il ne faut pas faire'.\"}]}",
+ "usage": {
+  "queue_time": 0.475550475,
+  "prompt_tokens": 1375,
+  "prompt_time": 0.105208573,
+  "completion_tokens": 157,
+  "completion_time": 0.347093171,
+  "total_tokens": 1532,
+  "total_time": 0.452301744
+ },
+ "latency_s": 1.54
+}

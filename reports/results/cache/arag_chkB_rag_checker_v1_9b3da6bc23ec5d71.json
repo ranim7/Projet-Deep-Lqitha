@@ -1,0 +1,48 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "partially",
+    "reason": "Passage mentions app/online space but not international emergency number"
+   },
+   {
+    "step": 2,
+    "label": "unsupported",
+    "reason": "Passage discusses risks, not police report procedure"
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "Passage does not mention civil aviation office or lost item reporting"
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Passage is about bank cards, not ID card replacement"
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage mentions securing accounts but not changing passwords specifically"
+   },
+   {
+    "step": 6,
+    "label": "partially",
+    "reason": "Passage mentions backup card but not adjusting limits"
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"partially\", \"reason\": \"Passage mentions app/online space but not international emergency number\"}, {\"step\": 2, \"label\": \"unsupported\", \"reason\": \"Passage discusses risks, not police report procedure\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"Passage does not mention civil aviation office or lost item reporting\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Passage is about bank cards, not ID card replacement\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage mentions securing accounts but not changing passwords specifically\"}, {\"step\": 6, \"label\": \"partially\", \"reason\": \"Passage mentions backup card but not adjusting limits\"}]}",
+ "usage": {
+  "queue_time": 0.068697912,
+  "prompt_tokens": 1347,
+  "prompt_time": 0.117546901,
+  "completion_tokens": 175,
+  "completion_time": 0.355170488,
+  "total_tokens": 1522,
+  "total_time": 0.472717389
+ },
+ "latency_s": 1.22
+}

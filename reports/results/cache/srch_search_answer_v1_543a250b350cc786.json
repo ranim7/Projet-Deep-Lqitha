@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-28c4a22f",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The item F-28c4a22f matches the request: a bag containing a laptop, cash, and a charger found in El Jem."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-28c4a22f\",\"relevance\":\"high\"}],\"answer\":\"The item F-28c4a22f matches the request: a bag containing a laptop, cash, and a charger found in El Jem.\"}",
+ "usage": {
+  "queue_time": 0.213761302,
+  "prompt_tokens": 464,
+  "prompt_time": 0.019881213,
+  "completion_tokens": 163,
+  "completion_time": 0.335101865,
+  "total_tokens": 627,
+  "total_time": 0.354983078,
+  "completion_tokens_details": {
+   "reasoning_tokens": 100
+  }
+ },
+ "latency_s": 1.03
+}

@@ -1,0 +1,106 @@
+{
+ "parsed": {
+  "summary": "Hey, ma3lich, n7awlu n7ellou moshkla m3a valiztek li ma wosletch. Houni plan moudabbir bech t9addem taleb ta3k w t7aqqiq 7aqqek.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Ruh 3ala comptoir \"Bagages / Lost & Found\" fi Tunisair fi aéroport Tunis‑Carthage w a3mil Property Irregularity Report (PIR) w khoukh copie m3a numéro de dossier. [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Jma3 w 7oth fi dossier l’original ta3 talon de bagage, la carte d’embarquement, w watha2i9 l’identité (CIN) w description détaillée ta3 valiztek (couleur, marque, taille, signes distinctifs). [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Sajjel taleb ta3 compensation 3la site web Tunisair via formulaire de réclamation https://www.tunisair.com/fr-ca/node/382. [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "B3ath taleb maktoub (lettre de réclamation) li ykoun fih l’original du PIR, talon de bagage, carte d’embarquement w ay watha2i9 moudamija, 3la l’adresse: Tunisair, Direction Relation Clientèle, Charguia II, 2035 Tunis – Carthage. [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Hott copie du talon de bagage w carte d’embarquement fi email/wa9t li t3ayet l’customer service ta3 Tunisair bech ykoun 3andek proof. [2]",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Taba3 ma3 Tunisair 3la status ta3 taleb via numéro de dossier li 3titouhlek fi PIR, w taleb ta3k ykoun mawjoud fi système. [2]",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Idha ma tl9ash valiztek ba3d 21 yawm, a3mil réclamation officielle 3la perte (bagage perdu) w taleb ta3 compensation selon Convention de Montréal. [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Sajjel ay frais de première nécessité (receipts) li 9tartihom min ba3d l’retard, bech t9addemhom ba3d ma ykoun el claim ma9bul. [4]",
+    "cites": [
+     4
+    ]
+   }
+  ],
+  "documents": [
+   "Original Property Irregularity Report (PIR) issued at arrival airport",
+   "Original baggage tag (talon)",
+   "Boarding pass or copy of ticket",
+   "Identity document (CIN)",
+   "Detailed description of the luggage",
+   "Any supporting receipts for essential purchases"
+  ],
+  "deadlines": [
+   {
+    "what": "Submit written claim for lost baggage",
+    "date_iso": "2026-11-07",
+    "cites": [
+     3
+    ]
+   }
+  ],
+  "coverage": [
+   {
+    "item": "luggage",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "airline_claim",
+   "title": "Réclamation pour perte de bagage – Vol Tunisair Paris‑Tunis, 17/10/2026",
+   "body": "[Nom] [Prénom]\n[N° CIN]\n[Adresse]\n[Téléphone]\n\nObjet : Réclamation pour perte de bagage – Vol Tunisair Paris‑Tunis du 17 octobre 2026\n\nMadame, Monsieur,\n\nJe soussigné(e) [Nom] [Prénom], titulaire du CIN n°[N° CIN], résidant à [Adresse], vous adresse la présente réclamation concernant la perte de ma valise enregistrée lors du vol Tunisair n°____ du 17 octobre 2026, départ de Paris et arrivée à l’aéroport Tunis‑Carthage.\n\nLe bagage n’a pas été remis à la zone de récupération à mon arrivée. Un Property Irregularity Report (PIR) a été établi sur place, dont le numéro de dossier est _______. Vous trouverez ci-joint les documents suivants :\n- L’original du PIR\n- Le talon de bagage\n- La carte d’embarquement (ou copie du billet)\n- Une description détaillée du bagage (couleur, marque, taille, signes distinctifs)\n- Tout autre justificatif utile.\n\nConformément à la Convention de Montréal et à la politique de protection des passagers de Tunisair, je vous prie de bien vouloir procéder à l’indemnisation prévue pour la perte de mon bagage.\n\nDans l’attente d’une réponse rapide, je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\n\n[Nom] [Prénom]"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Hey, ma3lich, n7awlu n7ellou moshkla m3a valiztek li ma wosletch. Houni plan moudabbir bech t9addem taleb ta3k w t7aqqiq 7aqqek.\",\"steps\":[{\"when\":\"now\",\"action\":\"Ruh 3ala comptoir \\\"Bagages / Lost & Found\\\" fi Tunisair fi aéroport Tunis‑Carthage w a3mil Property Irregularity Report (PIR) w khoukh copie m3a numéro de dossier. [3]\",\"cites\":[3]},{\"when\":\"now\",\"action\":\"Jma3 w 7oth fi dossier l’original ta3 talon de bagage, la carte d’embarquement, w watha2i9 l’identité (CIN) w description détaillée ta3 valiztek (couleur, marque, taille, signes distinctifs). [3]\",\"cites\":[3]},{\"when\":\"today\",\"action\":\"Sajjel taleb ta3 compensation 3la site web Tunisair via formulaire de réclamation https://www.tunisair.com/fr-ca/node/382. [1]\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"B3ath taleb maktoub (lettre de réclamation) li ykoun fih l’original du PIR, talon de bagage, carte d’embarquement w ay watha2i9 moudamija, 3la l’adresse: Tunisair, Direction Relation Clientèle, Charguia II, 2035 Tunis – Carthage. [1]\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Hott copie du talon de bagage w carte d’embarquement fi email/wa9t li t3ayet l’customer service ta3 Tunisair bech ykoun 3andek proof. [2]\",\"cites\":[2]},{\"when\":\"this_week\",\"action\":\"Taba3 ma3 Tunisair 3la status ta3 taleb via numéro de dossier li 3titouhlek fi PIR, w taleb ta3k ykoun mawjoud fi système. [2]\",\"cites\":[2]},{\"when\":\"later\",\"action\":\"Idha ma tl9ash valiztek ba3d 21 yawm, a3mil réclamation officielle 3la perte (bagage perdu) w taleb ta3 compensation selon Convention de Montréal. [3]\",\"cites\":[3]},{\"when\":\"later\",\"action\":\"Sajjel ay frais de première nécessité (receipts) li 9tartihom min ba3d l’retard, bech t9addemhom ba3d ma ykoun el claim ma9bul. [4]\",\"cites\":[4]}],\"documents\":[\"Original Property Irregularity Report (PIR) issued at arrival airport\",\"Original baggage tag (talon)\",\"Boarding pass or copy of ticket\",\"Identity document (CIN)\",\"Detailed description of the luggage\",\"Any supporting receipts for essential purchases\"],\"deadlines\":[{\"what\":\"Submit written claim for lost baggage\",\"date_iso\":\"2026-11-07\",\"cites\":[3]}],\"coverage\":[{\"item\":\"luggage\",\"covered\":true}],\"letter\":{\"type\":\"airline_claim\",\"title\":\"Réclamation pour perte de bagage – Vol Tunisair Paris‑Tunis, 17/10/2026\",\"body\":\"[Nom] [Prénom]\\n[N° CIN]\\n[Adresse]\\n[Téléphone]\\n\\nObjet : Réclamation pour perte de bagage – Vol Tunisair Paris‑Tunis du 17 octobre 2026\\n\\nMadame, Monsieur,\\n\\nJe soussigné(e) [Nom] [Prénom], titulaire du CIN n°[N° CIN], résidant à [Adresse], vous adresse la présente réclamation concernant la perte de ma valise enregistrée lors du vol Tunisair n°____ du 17 octobre 2026, départ de Paris et arrivée à l’aéroport Tunis‑Carthage.\\n\\nLe bagage n’a pas été remis à la zone de récupération à mon arrivée. Un Property Irregularity Report (PIR) a été établi sur place, dont le numéro de dossier est _______. Vous trouverez ci-joint les documents suivants :\\n- L’original du PIR\\n- Le talon de bagage\\n- La carte d’embarquement (ou copie du billet)\\n- Une description détaillée du bagage (couleur, marque, taille, signes distinctifs)\\n- Tout autre justificatif utile.\\n\\nConformément à la Convention de Montréal et à la politique de protection des passagers de Tunisair, je vous prie de bien vouloir procéder à l’indemnisation prévue pour la perte de mon bagage.\\n\\nDans l’attente d’une réponse rapide, je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\\n\\n[Nom] [Prénom]\"}}",
+ "usage": {
+  "queue_time": 0.208537116,
+  "prompt_tokens": 1969,
+  "prompt_time": 0.082413422,
+  "completion_tokens": 1238,
+  "completion_time": 2.56403342,
+  "total_tokens": 3207,
+  "total_time": 2.646446842,
+  "completion_tokens_details": {
+   "reasoning_tokens": 172
+  }
+ },
+ "latency_s": 3.27
+}

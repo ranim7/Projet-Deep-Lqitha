@@ -1,0 +1,102 @@
+{
+ "parsed": {
+  "summary": "Salam ! Si t’as perdu ton passeport en France, voici les démarches à suivre pour obtenir un duplicata rapidement.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Envoyer un e‑mail à l’ambassade des Pays‑Bas (tun‑ca@minbuza.nl) en joignant vos nom·prénom, date de naissance, numéro de téléphone, les renseignements du passeport perdu (nom de l’instance, date de délivrance) et la preuve que vous ne pouvez pas repousser votre voyage (plan de vol, réservation, etc.) [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Déposer une plainte auprès du commissariat de police français et demander une attestation écrite de dépôt de plainte mentionnant la perte du passeport [2]",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Télécharger le formulaire de demande de passeport tunisien (en anglais) depuis le site du ministère de l’Intérieur et le remplir soigneusement [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Préparer les pièces justificatives requises : 4 photos d’identité conformes, copie du CNI ou extrait de naissance, attestation de déclaration de perte, autorisation du tuteur si mineur, justificatif de scolarisation (si étudiant), preuve de résidence à l’étranger, quittance du timbre fiscal et tout document prouvant la nécessité du duplicata [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Se rendre au consulat tunisien le plus proche en France (ex. Consulat de Tunisie à Paris) avec le formulaire rempli et tous les justificatifs pour déposer la demande de duplicata du passeport [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Payer les frais de dossier et le timbre fiscal exigés par le consulat et obtenir le récépissé de dépôt [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Suivre l’avancement de la demande auprès du consulat (par e‑mail ou téléphone) et récupérer le passeport provisoire ou le duplicata dès notification [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Informer votre compagnie aérienne ou agence de voyage de la réception du nouveau passeport et mettre à jour vos réservations si nécessaire [1]",
+    "cites": [
+     1
+    ]
+   }
+  ],
+  "documents": [
+   "Formulaire de demande de passeport (anglais)",
+   "Déclaration de perte ou vol (formulaire C2)",
+   "4 photos d’identité conformes aux critères néerlandais",
+   "Attestation écrite de dépôt de plainte française",
+   "Preuve d’impossibilité de repousser le voyage (plan de vol, réservation)",
+   "Copie de la carte d’identité nationale ou extrait de naissance",
+   "Autorisation du tuteur et copie de sa carte d’identité (si mineur)",
+   "Justificatif de scolarisation (si étudiant)",
+   "Pièce prouvant la résidence réglementaire à l’étranger",
+   "Quittance de paiement du timbre fiscal"
+  ],
+  "deadlines": [],
+  "coverage": [
+   {
+    "item": "passport",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "police_declaration",
+   "title": "Attestation de dépôt de plainte – Perte de passeport tunisien",
+   "body": "[Nom] [Prénom]\n[Adresse]\n[Téléphone]\n\nObjet : Attestation de dépôt de plainte pour perte de passeport tunisien\n\nJe soussigné(e), [Nom] [Prénom], né(e) le [date de naissance], demeurant à [Adresse], déclare avoir perdu mon passeport tunisien le [date de perte approximative] alors que je me trouvais en France.\n\nCette perte a été déclarée au commissariat de police de [nom du commissariat ou ville] le [date de dépôt de plainte]. Une attestation écrite de dépôt de plainte a été délivrée à ma demande.\n\nJe joins à la présente attestation les copies suivantes :\n- Copie du passeport perdu (si disponible) ou les informations figurant sur le document.\n- Preuve de mon déplacement (billet d’avion, réservation d’hôtel, etc.).\n\nFait à [Ville], le [date du jour].\n\nSignature : ______________________"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Salam ! Si t’as perdu ton passeport en France, voici les démarches à suivre pour obtenir un duplicata rapidement.\",\"steps\":[{\"when\":\"now\",\"action\":\"Envoyer un e‑mail à l’ambassade des Pays‑Bas (tun‑ca@minbuza.nl) en joignant vos nom·prénom, date de naissance, numéro de téléphone, les renseignements du passeport perdu (nom de l’instance, date de délivrance) et la preuve que vous ne pouvez pas repousser votre voyage (plan de vol, réservation, etc.) [1]\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Déposer une plainte auprès du commissariat de police français et demander une attestation écrite de dépôt de plainte mentionnant la perte du passeport [2]\",\"cites\":[2]},{\"when\":\"today\",\"action\":\"Télécharger le formulaire de demande de passeport tunisien (en anglais) depuis le site du ministère de l’Intérieur et le remplir soigneusement [3]\",\"cites\":[3]},{\"when\":\"today\",\"action\":\"Préparer les pièces justificatives requises : 4 photos d’identité conformes, copie du CNI ou extrait de naissance, attestation de déclaration de perte, autorisation du tuteur si mineur, justificatif de scolarisation (si étudiant), preuve de résidence à l’étranger, quittance du timbre fiscal et tout document prouvant la nécessité du duplicata [3]\",\"cites\":[3]},{\"when\":\"this_week\",\"action\":\"Se rendre au consulat tunisien le plus proche en France (ex. Consulat de Tunisie à Paris) avec le formulaire rempli et tous les justificatifs pour déposer la demande de duplicata du passeport [3]\",\"cites\":[3]},{\"when\":\"this_week\",\"action\":\"Payer les frais de dossier et le timbre fiscal exigés par le consulat et obtenir le récépissé de dépôt [3]\",\"cites\":[3]},{\"when\":\"later\",\"action\":\"Suivre l’avancement de la demande auprès du consulat (par e‑mail ou téléphone) et récupérer le passeport provisoire ou le duplicata dès notification [3]\",\"cites\":[3]},{\"when\":\"later\",\"action\":\"Informer votre compagnie aérienne ou agence de voyage de la réception du nouveau passeport et mettre à jour vos réservations si nécessaire [1]\",\"cites\":[1]}],\"documents\":[\"Formulaire de demande de passeport (anglais)\",\"Déclaration de perte ou vol (formulaire C2)\",\"4 photos d’identité conformes aux critères néerlandais\",\"Attestation écrite de dépôt de plainte française\",\"Preuve d’impossibilité de repousser le voyage (plan de vol, réservation)\",\"Copie de la carte d’identité nationale ou extrait de naissance\",\"Autorisation du tuteur et copie de sa carte d’identité (si mineur)\",\"Justificatif de scolarisation (si étudiant)\",\"Pièce prouvant la résidence réglementaire à l’étranger\",\"Quittance de paiement du timbre fiscal\"],\"deadlines\":[],\"coverage\":[{\"item\":\"passport\",\"covered\":true}],\"letter\":{\"type\":\"police_declaration\",\"title\":\"Attestation de dépôt de plainte – Perte de passeport tunisien\",\"body\":\"[Nom] [Prénom]\\n[Adresse]\\n[Téléphone]\\n\\nObjet : Attestation de dépôt de plainte pour perte de passeport tunisien\\n\\nJe soussigné(e), [Nom] [Prénom], né(e) le [date de naissance], demeurant à [Adresse], déclare avoir perdu mon passeport tunisien le [date de perte approximative] alors que je me trouvais en France.\\n\\nCette perte a été déclarée au commissariat de police de [nom du commissariat ou ville] le [date de dépôt de plainte]. Une attestation écrite de dépôt de plainte a été délivrée à ma demande.\\n\\nJe joins à la présente attestation les copies suivantes :\\n- Copie du passeport perdu (si disponible) ou les informations figurant sur le document.\\n- Preuve de mon déplacement (billet d’avion, réservation d’hôtel, etc.).\\n\\nFait à [Ville], le [date du jour].\\n\\nSignature : ______________________\"}}",
+ "usage": {
+  "queue_time": 0.298152073,
+  "prompt_tokens": 1440,
+  "prompt_time": 0.059510349,
+  "completion_tokens": 987,
+  "completion_time": 2.024697197,
+  "total_tokens": 2427,
+  "total_time": 2.084207546,
+  "completion_tokens_details": {
+   "reasoning_tokens": 85
+  }
+ },
+ "latency_s": 2.92
+}

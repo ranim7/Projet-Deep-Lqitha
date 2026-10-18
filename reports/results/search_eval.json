@@ -1,0 +1,1723 @@
+{
+ "summary": {
+  "n_queries": 13,
+  "pool": 209,
+  "intent_accuracy": 0.923,
+  "recall@8 (production retrieval)": 0.923,
+  "precision of 'high' labels (v2)": 0.9
+ },
+ "table": [
+  {
+   "configuration": "R0 dense only",
+   "Hit@1": 0.9231,
+   "Hit@3": 0.9231,
+   "MRR": 0.9359,
+   "empty results": 0.0
+  },
+  {
+   "configuration": "R1 dense + strict filters",
+   "Hit@1": 0.6154,
+   "Hit@3": 0.6154,
+   "MRR": 0.6154,
+   "empty results": 0.231
+  },
+  {
+   "configuration": "R2 dense + filters with relaxation",
+   "Hit@1": 0.8462,
+   "Hit@3": 0.8462,
+   "MRR": 0.8462,
+   "empty results": 0.0
+  },
+  {
+   "configuration": "R3 relaxation + hybrid score",
+   "Hit@1": 0.7692,
+   "Hit@3": 0.7692,
+   "MRR": 0.7821,
+   "empty results": 0.0
+  },
+  {
+   "configuration": "R4 dense + soft constraints (production)",
+   "Hit@1": 0.8462,
+   "Hit@3": 0.9231,
+   "MRR": 0.8846,
+   "empty results": 0.0
+  },
+  {
+   "configuration": "R5 soft + attribute agreement",
+   "Hit@1": 0.8462,
+   "Hit@3": 0.9231,
+   "MRR": 0.8846,
+   "empty results": 0.0
+  },
+  {
+   "configuration": "G1 R3 + answer agent v1",
+   "Hit@1": 0.8462,
+   "Hit@3": 0.8462,
+   "MRR": 0.8462,
+   "empty results": "-"
+  },
+  {
+   "configuration": "G2 R3 + answer agent v2",
+   "Hit@1": 0.8462,
+   "Hit@3": 0.8462,
+   "MRR": 0.8462,
+   "empty results": "-"
+  },
+  {
+   "configuration": "G3 R4 + answer agent v2 (production)",
+   "Hit@1": 0.8462,
+   "Hit@3": 0.9231,
+   "MRR": 0.8846,
+   "empty results": "-"
+  }
+ ],
+ "details": [
+  {
+   "gold": "F-8b4a0385",
+   "message": "fama chkoun l9a ndour 3lihom l9awanin dor gold, l3inayn b brown gradient, t9a9t 9 days li fât fi Khir ed-Din?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "Tunis",
+    "place_name": "Khir ed-Din",
+    "date_iso": "2026-10-09"
+   },
+   "record": {
+    "category": "jewelry",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": "gold",
+    "color_detail": "gold ring with brown gradient eyes",
+    "material": null,
+    "distinctive_marks": [],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Gold ring with brown gradient eyes.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.9,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": null,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 1,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 1,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-8b4a0385",
+      "high"
+     ],
+     [
+      "F-321ed3cf",
+      "unranked"
+     ],
+     [
+      "F-864d542b",
+      "unranked"
+     ],
+     [
+      "F-e737d416",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-8b4a0385",
+      "low"
+     ],
+     [
+      "F-321ed3cf",
+      "low"
+     ],
+     [
+      "F-864d542b",
+      "low"
+     ],
+     [
+      "F-e737d416",
+      "low"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 1,
+    "labels": [
+     [
+      "F-a863bdb5",
+      "unranked"
+     ],
+     [
+      "F-8b4a0385",
+      "unranked"
+     ],
+     [
+      "F-954b24be",
+      "unranked"
+     ],
+     [
+      "F-864d542b",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-f96621fd",
+   "message": "Quelqu’un a trouvé une bouteille multicolore eono avec citron, perdue il y a 10 jours à Les Orangers, Manouba ?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "Manouba",
+    "place_name": "Les Orangers",
+    "place_type": "other",
+    "date_iso": "2026-10-08"
+   },
+   "record": {
+    "category": "bottle",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": "multicolor",
+    "color_detail": "multicolor",
+    "material": null,
+    "distinctive_marks": [
+     "multicolore eono avec citron"
+    ],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Multicolor bottle with lemon, found in Les Orangers, Manouba, lost 10 days ago.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.9,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-f96621fd",
+      "high"
+     ],
+     [
+      "F-53f86799",
+      "unranked"
+     ],
+     [
+      "F-cdfc7770",
+      "unranked"
+     ],
+     [
+      "F-c2a81b87",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-f96621fd",
+      "high"
+     ],
+     [
+      "F-53f86799",
+      "unranked"
+     ],
+     [
+      "F-cdfc7770",
+      "unranked"
+     ],
+     [
+      "F-c2a81b87",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-f96621fd",
+      "high"
+     ],
+     [
+      "F-cdfc7770",
+      "unranked"
+     ],
+     [
+      "F-c2a81b87",
+      "unranked"
+     ],
+     [
+      "F-673f012c",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-a3e61ce4",
+   "message": "Has anyone seen a white baseball cap with black star logo, lost 14 days ago at the Nabeul transport office in Kélibia?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "Nabeul",
+    "place_name": "Nabeul transport office in Kélibia",
+    "place_type": "other",
+    "date_iso": "2026-10-04"
+   },
+   "record": {
+    "category": "clothing",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": "white",
+    "color_detail": "white",
+    "material": null,
+    "distinctive_marks": [
+     "black star logo"
+    ],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "White baseball cap with black star logo.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.9,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-a3e61ce4",
+      "high"
+     ],
+     [
+      "F-3e316d5e",
+      "unranked"
+     ],
+     [
+      "F-ee8036f5",
+      "unranked"
+     ],
+     [
+      "F-7694683b",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-a3e61ce4",
+      "high"
+     ],
+     [
+      "F-3e316d5e",
+      "unranked"
+     ],
+     [
+      "F-ee8036f5",
+      "unranked"
+     ],
+     [
+      "F-7694683b",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-a3e61ce4",
+      "high"
+     ],
+     [
+      "F-8969c272",
+      "unranked"
+     ],
+     [
+      "F-44c75523",
+      "unranked"
+     ],
+     [
+      "F-be71654b",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-e737d416",
+   "message": "fama chkoun l9a ndour 3lihom ndour b frame metal w tortoiseshell, t9a9t 10 days li fât fi Mahdia station louage?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "Mahdia",
+    "place_name": "Mahdia",
+    "place_type": "louage",
+    "date_iso": "2026-10-08"
+   },
+   "record": {
+    "category": "watch",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": "brown",
+    "color_detail": null,
+    "material": null,
+    "distinctive_marks": [
+     "metal frame",
+     "tortoiseshell"
+    ],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Brown watch with metal frame and tortoiseshell design.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.8,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": null,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": null,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": null,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": null,
+    "labels": [
+     [
+      "F-76b4858e",
+      "unranked"
+     ],
+     [
+      "F-04d3dd3c",
+      "unranked"
+     ],
+     [
+      "F-294f6746",
+      "unranked"
+     ],
+     [
+      "F-534aa080",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": null,
+    "labels": [
+     [
+      "F-76b4858e",
+      "unranked"
+     ],
+     [
+      "F-04d3dd3c",
+      "unranked"
+     ],
+     [
+      "F-294f6746",
+      "unranked"
+     ],
+     [
+      "F-534aa080",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-e737d416",
+      "unranked"
+     ],
+     [
+      "F-f6c99328",
+      "unranked"
+     ],
+     [
+      "F-04d3dd3c",
+      "unranked"
+     ],
+     [
+      "F-76b4858e",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-8f945af5",
+   "message": "Quelqu’un a ramassé un sac à dos rose avec accents bleus et fermetures blanches, perdu il y a 6 jours à Mellassine, Tunis ?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "Tunis",
+    "place_name": "Mellassine",
+    "place_type": "other",
+    "date_iso": "2026-10-12"
+   },
+   "record": {
+    "category": "bag",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": "pink",
+    "color_detail": "pink",
+    "material": null,
+    "distinctive_marks": [
+     "pink backpack with blue accents and white zippers"
+    ],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Pink backpack with blue accents and white zippers.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.9,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-8f945af5",
+      "high"
+     ],
+     [
+      "F-90989d6a",
+      "unranked"
+     ],
+     [
+      "F-e159a27e",
+      "unranked"
+     ],
+     [
+      "F-888c2ed8",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-8f945af5",
+      "high"
+     ],
+     [
+      "F-90989d6a",
+      "unranked"
+     ],
+     [
+      "F-e159a27e",
+      "unranked"
+     ],
+     [
+      "F-888c2ed8",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-8f945af5",
+      "high"
+     ],
+     [
+      "F-148000f5",
+      "unranked"
+     ],
+     [
+      "F-90989d6a",
+      "unranked"
+     ],
+     [
+      "F-e159a27e",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-ffd37c58",
+   "message": "Has anyone found a black leather bifold wallet with a health card, lost 12 days ago at the yellow louage station in Kairouan?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "Kairouan",
+    "place_name": "Kairouan",
+    "place_type": "louage",
+    "date_iso": "2026-10-06"
+   },
+   "record": {
+    "category": "wallet",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": "black",
+    "color_detail": "black",
+    "material": "leather",
+    "distinctive_marks": [
+     "black leather bifold wallet"
+    ],
+    "contents": [
+     "health card"
+    ],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Black leather bifold wallet containing a health card.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.9,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-ffd37c58",
+      "high"
+     ],
+     [
+      "F-d3888c87",
+      "unranked"
+     ],
+     [
+      "F-b9b26b70",
+      "unranked"
+     ],
+     [
+      "F-9454ee0e",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-ffd37c58",
+      "high"
+     ],
+     [
+      "F-d3888c87",
+      "medium"
+     ],
+     [
+      "F-b9b26b70",
+      "unranked"
+     ],
+     [
+      "F-9454ee0e",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-ffd37c58",
+      "high"
+     ],
+     [
+      "F-d3888c87",
+      "medium"
+     ],
+     [
+      "F-9454ee0e",
+      "unranked"
+     ],
+     [
+      "F-8361bca0",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-3e316d5e",
+   "message": "fama chkoun l9a headphones white wired b remote star, 12 days ago fella Den Den?",
+   "intent": "search_found",
+   "slots": {
+    "date_iso": "2026-10-06"
+   },
+   "record": {
+    "category": "headphones",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": "white",
+    "color_detail": "white",
+    "material": null,
+    "distinctive_marks": [
+     "wired with remote star"
+    ],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "White wired headphones with remote star.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.9,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-3e316d5e",
+      "high"
+     ],
+     [
+      "F-c89b933c",
+      "unranked"
+     ],
+     [
+      "F-eeb310ee",
+      "unranked"
+     ],
+     [
+      "F-4164eb49",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-3e316d5e",
+      "high"
+     ],
+     [
+      "F-c89b933c",
+      "unranked"
+     ],
+     [
+      "F-eeb310ee",
+      "unranked"
+     ],
+     [
+      "F-4164eb49",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-3e316d5e",
+      "high"
+     ],
+     [
+      "F-c89b933c",
+      "unranked"
+     ],
+     [
+      "F-4164eb49",
+      "unranked"
+     ],
+     [
+      "F-67381494",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-e83c3621",
+   "message": "Quelqu'un a trouvé un sac noir à roulettes, perdu il y a 8 jours à la Gare routière de Kairouan?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "Kairouan",
+    "place_name": "Kairouan",
+    "place_type": "bus_station",
+    "date_iso": "2026-10-10"
+   },
+   "record": {
+    "category": "bag",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": "black",
+    "color_detail": "black",
+    "material": null,
+    "distinctive_marks": [],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Black bag with wheels, found at Kairouan bus station.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.9,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-e83c3621",
+      "high"
+     ],
+     [
+      "F-a7768928",
+      "unranked"
+     ],
+     [
+      "F-19d5c4f2",
+      "unranked"
+     ],
+     [
+      "F-1a9ad43e",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-e83c3621",
+      "high"
+     ],
+     [
+      "F-a7768928",
+      "unranked"
+     ],
+     [
+      "F-19d5c4f2",
+      "unranked"
+     ],
+     [
+      "F-1a9ad43e",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-e83c3621",
+      "high"
+     ],
+     [
+      "F-1a9ad43e",
+      "unranked"
+     ],
+     [
+      "F-171f54dc",
+      "unranked"
+     ],
+     [
+      "F-eb564307",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-90ec01b1",
+   "message": "Has anyone seen grey suede shoes with brogue perforations and brown heels, lost 13 days ago near Abou El Kacem Echebbi?",
+   "intent": "lost",
+   "slots": {
+    "place_name": "Abou El Kacem Echebbi",
+    "place_type": "street",
+    "date_iso": "2026-10-05"
+   },
+   "record": {
+    "category": "shoes",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": "grey",
+    "color_detail": "grey",
+    "material": "suede",
+    "distinctive_marks": [
+     "brogue perforations",
+     "brown heels"
+    ],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Grey suede shoes with brogue perforations and brown heels.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.9,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-90ec01b1",
+      "high"
+     ],
+     [
+      "F-62baaa90",
+      "unranked"
+     ],
+     [
+      "F-c9870759",
+      "unranked"
+     ],
+     [
+      "F-954b24be",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-90ec01b1",
+      "high"
+     ],
+     [
+      "F-62baaa90",
+      "unranked"
+     ],
+     [
+      "F-c9870759",
+      "unranked"
+     ],
+     [
+      "F-954b24be",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-90ec01b1",
+      "high"
+     ],
+     [
+      "F-62baaa90",
+      "unranked"
+     ],
+     [
+      "F-c9870759",
+      "unranked"
+     ],
+     [
+      "F-954b24be",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-56eed07c",
+   "message": "fama chkoun l9a clef de voiture, 13 days ago fella Gare des louages longues lignes Kebili?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "Kebili",
+    "place_name": "Gare des louages longues lignes",
+    "place_type": "bus_station",
+    "date_iso": "2026-10-05"
+   },
+   "record": {
+    "category": "keys",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": null,
+    "color_detail": null,
+    "material": null,
+    "distinctive_marks": [],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Keys found at bus station in Kebili, near Gare des louages longues lignes.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.0,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 5,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-56eed07c",
+      "high"
+     ],
+     [
+      "F-b9b26b70",
+      "unranked"
+     ],
+     [
+      "F-da4a8807",
+      "unranked"
+     ],
+     [
+      "F-4edadc5f",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-56eed07c",
+      "high"
+     ],
+     [
+      "F-b9b26b70",
+      "unranked"
+     ],
+     [
+      "F-da4a8807",
+      "unranked"
+     ],
+     [
+      "F-4edadc5f",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-56eed07c",
+      "high"
+     ],
+     [
+      "F-da4a8807",
+      "unranked"
+     ],
+     [
+      "F-e00d4b75",
+      "unranked"
+     ],
+     [
+      "F-0ae88963",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-28c4a22f",
+   "message": "Quelqu'un a ramassé un sac avec portable, argent et chargeur, perdu il y a 13 jours à El Jem?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "El Jem",
+    "place_name": "El Jem",
+    "place_type": "other",
+    "date_iso": "2026-10-05"
+   },
+   "record": {
+    "category": "bag",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": null,
+    "color_detail": null,
+    "material": null,
+    "distinctive_marks": [],
+    "contents": [
+     "phone",
+     "money",
+     "charger"
+    ],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Bag with a phone, money, and charger.",
+    "field_confidence": {
+     "category": 0.9,
+     "color_family": 0.0,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": null,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-28c4a22f",
+      "high"
+     ],
+     [
+      "F-57d47d10",
+      "unranked"
+     ],
+     [
+      "F-82a2ffd0",
+      "unranked"
+     ],
+     [
+      "F-bc00519e",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-28c4a22f",
+      "medium"
+     ],
+     [
+      "F-57d47d10",
+      "medium"
+     ],
+     [
+      "F-8909b129",
+      "medium"
+     ],
+     [
+      "F-82a2ffd0",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-28c4a22f",
+      "medium"
+     ],
+     [
+      "F-57d47d10",
+      "medium"
+     ],
+     [
+      "F-8909b129",
+      "unranked"
+     ],
+     [
+      "F-2d30aa3d",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-cdfc7770",
+   "message": "Has anyone found a water bottle lost 5 days ago at Pont du Fahs?",
+   "intent": "search_found",
+   "slots": {
+    "governorate": "Tunis",
+    "place_name": "Pont du Fahs",
+    "place_type": "other",
+    "date_iso": "2026-10-13"
+   },
+   "record": {
+    "category": "bottle",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": null,
+    "color_detail": null,
+    "material": null,
+    "distinctive_marks": [],
+    "contents": [],
+    "visible_text": null,
+    "contains_sensitive_document": false,
+    "canonical_description": "Water bottle lost at Pont du Fahs.",
+    "field_confidence": {
+     "category": 0.0,
+     "color_family": 0.0,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 0,
+    "relaxed": [
+     "category",
+     "governorate",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": null,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": 0,
+    "relaxed": [
+     "governorate",
+     "date"
+    ]
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": 0,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-cdfc7770",
+      "high"
+     ],
+     [
+      "F-673f012c",
+      "unranked"
+     ],
+     [
+      "F-53f86799",
+      "unranked"
+     ],
+     [
+      "F-f96621fd",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-cdfc7770",
+      "high"
+     ],
+     [
+      "F-673f012c",
+      "unranked"
+     ],
+     [
+      "F-53f86799",
+      "unranked"
+     ],
+     [
+      "F-f96621fd",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": 0,
+    "labels": [
+     [
+      "F-cdfc7770",
+      "high"
+     ],
+     [
+      "F-c6e5945e",
+      "unranked"
+     ],
+     [
+      "F-b9b26b70",
+      "unranked"
+     ],
+     [
+      "F-13fbe98b",
+      "unranked"
+     ]
+    ]
+   }
+  },
+  {
+   "gold": "F-8d8f3475",
+   "message": "fama chkoun l9a sac sling b cash w cartes, 9 days ago fella مفاتيح Tataouine?",
+   "intent": "search_found",
+   "slots": {
+    "date_iso": "2026-10-09"
+   },
+   "record": {
+    "category": "bag",
+    "subcategory": null,
+    "brand": null,
+    "model": null,
+    "color_family": null,
+    "color_detail": null,
+    "material": null,
+    "distinctive_marks": [],
+    "contents": [
+     "cash",
+     "cards"
+    ],
+    "visible_text": null,
+    "contains_sensitive_document": true,
+    "canonical_description": "Sling bag containing cash and cards.",
+    "field_confidence": {
+     "category": 0.95,
+     "color_family": 0.0,
+     "brand": 0.0
+    }
+   },
+   "R0 dense only": {
+    "rank": 5,
+    "relaxed": [
+     "category",
+     "date"
+    ]
+   },
+   "R1 dense + strict filters": {
+    "rank": null,
+    "relaxed": []
+   },
+   "R2 dense + filters with relaxation": {
+    "rank": null,
+    "relaxed": []
+   },
+   "R3 relaxation + hybrid score": {
+    "rank": null,
+    "relaxed": []
+   },
+   "R4 dense + soft constraints (production)": {
+    "rank": null,
+    "relaxed": []
+   },
+   "R5 soft + attribute agreement": {
+    "rank": null,
+    "relaxed": []
+   },
+   "G1 R3 + answer agent v1": {
+    "rank": null,
+    "labels": [
+     [
+      "F-2c8a55e1",
+      "high"
+     ],
+     [
+      "F-ce0e230a",
+      "high"
+     ],
+     [
+      "F-45c2f7bf",
+      "unranked"
+     ],
+     [
+      "F-cfb81646",
+      "unranked"
+     ]
+    ]
+   },
+   "G2 R3 + answer agent v2": {
+    "rank": null,
+    "labels": [
+     [
+      "F-45c2f7bf",
+      "medium"
+     ],
+     [
+      "F-2c8a55e1",
+      "medium"
+     ],
+     [
+      "F-ce0e230a",
+      "medium"
+     ],
+     [
+      "F-cfb81646",
+      "unranked"
+     ]
+    ]
+   },
+   "G3 R4 + answer agent v2 (production)": {
+    "rank": null,
+    "labels": [
+     [
+      "F-ce0e230a",
+      "high"
+     ],
+     [
+      "F-45c2f7bf",
+      "medium"
+     ],
+     [
+      "F-cfb81646",
+      "medium"
+     ],
+     [
+      "F-321ed3cf",
+      "unranked"
+     ]
+    ]
+   }
+  }
+ ]
+}

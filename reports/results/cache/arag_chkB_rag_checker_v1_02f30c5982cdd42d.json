@@ -1,0 +1,68 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [2] explicitly mentions using the app, online space, or international emergency number to block the card."
+   },
+   {
+    "step": 2,
+    "label": "unsupported",
+    "reason": "Passage [1] discusses the loss and risks but does not mention going to the police or noting a police report number."
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "Passage [1] does not mention contacting the civil aviation office or airport staff regarding lost items."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Passage [1] focuses on bank card loss and risks, not on obtaining an ID duplicate from a prefecture or town hall."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage [3] mentions securing accounts and opposition, but does not explicitly state changing passwords or activating payment notifications."
+   },
+   {
+    "step": 6,
+    "label": "partially",
+    "reason": "Passage [4] mentions keeping a backup card, but does not explicitly detail activating it or adjusting limits in the context of the lost card scenario described in the step."
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 9,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 10,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [2] explicitly mentions using the app, online space, or international emergency number to block the card.\"}, {\"step\": 2, \"label\": \"unsupported\", \"reason\": \"Passage [1] discusses the loss and risks but does not mention going to the police or noting a police report number.\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"Passage [1] does not mention contacting the civil aviation office or airport staff regarding lost items.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Passage [1] focuses on bank card loss and risks, not on obtaining an ID duplicate from a prefecture or town hall.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage [3] mentions securing accounts and opposition, but does not explicitly state changing passwords or activating payment notifications.\"}, {\"step\": 6, \"label\": \"partially\", \"reason\": \"Passage [4] mentions keeping a backup card, but does not explicitly detail activating it or adjusting limits in the context of the lost card scenario described in the step.\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 9, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 10, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.047433905,
+  "prompt_tokens": 1430,
+  "prompt_time": 0.119741014,
+  "completion_tokens": 348,
+  "completion_time": 0.747687867,
+  "total_tokens": 1778,
+  "total_time": 0.867428881
+ },
+ "latency_s": 1.61
+}

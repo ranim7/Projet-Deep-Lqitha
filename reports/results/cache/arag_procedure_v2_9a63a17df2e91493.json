@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Bonjour, voici ce que vous devez faire si votre téléphone a été volé dans le métro de Tunis.\n\n1. **Déposez une plainte** auprès du poste de police le plus proche ou de la garde nationale (urgences : 197 ou 193) et indiquez le numéro IMEI de votre téléphone [1].\n2. **Contactez votre opérateur** (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et éviter toute utilisation frauduleuse. Vous pouvez demander une nouvelle carte SIM avec le même numéro en agence en présentant votre pièce d’identité [1].\n3. **Signalez la perte** au personnel de la station de métro où vous avez été victime. Donnez le numéro de ligne, la direction, la date et l’heure approximative de votre trajet. Les objets trouvés sont généralement déposés à la station terminus ou au dépôt de la ligne concernée [2].\n4. **Déclarez la perte sur Lqitha** en fournissant une description précise (couleur, marque, coque, tout signe distinctif). Cela augmente les chances de retrouver votre appareil [2].\n5. **Surveillez votre compte** et changez les mots‑de‑passe importants (e‑mail, réseaux sociaux, banque) si votre téléphone n’était pas verrouillé [1].\n\n**Documents utiles**\n- Pièce d’identité (pour l’opérateur)\n- Facture ou boîte d’origine (pour le numéro IMEI)\n- Rapport de police (si disponible)\n\nEn cas de doute, vous pouvez également contacter le service client de votre opérateur ou le service d’assistance de Lqitha.\n",
+  "used_sources": [
+   1,
+   2
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Bonjour, voici ce que vous devez faire si votre téléphone a été volé dans le métro de Tunis.\\n\\n1. **Déposez une plainte** auprès du poste de police le plus proche ou de la garde nationale (urgences : 197 ou 193) et indiquez le numéro IMEI de votre téléphone [1].\\n2. **Contactez votre opérateur** (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et éviter toute utilisation frauduleuse. Vous pouvez demander une nouvelle carte SIM avec le même numéro en agence en présentant votre pièce d’identité [1].\\n3. **Signalez la perte** au personnel de la station de métro où vous avez été victime. Donnez le numéro de ligne, la direction, la date et l’heure approximative de votre trajet. Les objets trouvés sont généralement déposés à la station terminus ou au dépôt de la ligne concernée [2].\\n4. **Déclarez la perte sur Lqitha** en fournissant une description précise (couleur, marque, coque, tout signe distinctif). Cela augmente les chances de retrouver votre appareil [2].\\n5. **Surveillez votre compte** et changez les mots‑de‑passe importants (e‑mail, réseaux sociaux, banque) si votre téléphone n’était pas verrouillé [1].\\n\\n**Documents utiles**\\n- Pièce d’identité (pour l’opérateur)\\n- Facture ou boîte d’origine (pour le numéro IMEI)\\n- Rapport de police (si disponible)\\n\\nEn cas de doute, vous pouvez également contacter le service client de votre opérateur ou le service d’assistance de Lqitha.\\n\",\"used_sources\":[1,2],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.207657651,
+  "prompt_tokens": 1271,
+  "prompt_time": 0.074169205,
+  "completion_tokens": 415,
+  "completion_time": 0.458561277,
+  "total_tokens": 1686,
+  "total_time": 0.532730482,
+  "completion_tokens_details": {
+   "reasoning_tokens": 29
+  }
+ },
+ "latency_s": 1.21
+}

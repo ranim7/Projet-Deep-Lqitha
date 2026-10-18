@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-a3e61ce4",
+    "relevance": "high",
+    "reason": "matches category clothing, white color, black star logo, same place and date"
+   }
+  ],
+  "answer": "We have 1 high‑relevance item: F-a3e61ce4 found at الشركة الجهرية للنقل بنابل فرع قليبية on 2026-10-04. Please open the item and press \"C'est peut-être à moi\" if it looks like yours."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-a3e61ce4\",\"relevance\":\"high\",\"reason\":\"matches category clothing, white color, black star logo, same place and date\"}],\"answer\":\"We have 1 high‑relevance item: F-a3e61ce4 found at الشركة الجهرية للنقل بنابل فرع قليبية on 2026-10-04. Please open the item and press \\\"C'est peut-être à moi\\\" if it looks like yours.\"}",
+ "usage": {
+  "queue_time": 0.213675066,
+  "prompt_tokens": 1149,
+  "prompt_time": 0.050057105,
+  "completion_tokens": 178,
+  "completion_time": 0.37604722,
+  "total_tokens": 1327,
+  "total_time": 0.426104325,
+  "completion_tokens_details": {
+   "reasoning_tokens": 68
+  }
+ },
+ "latency_s": 1.29
+}

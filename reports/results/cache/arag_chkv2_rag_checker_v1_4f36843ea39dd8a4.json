@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly mentions the counter, PIR report, and keeping a copy with the file number."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage lists documents (boarding pass, tag, ID) but does not explicitly mention providing a detailed description of the suitcase."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage explicitly provides the URL for the complaint form on the Tunisair website."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage mentions submitting by postal mail but the specific address is cut off/not fully visible in the provided text snippet."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage lists required documents (PIR, tag, boarding pass) but does not explicitly instruct to send them via email to customer service."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "Passage lists required documents for a claim but does not mention tracking status via the PIR file number."
+   },
+   {
+    "step": 7,
+    "label": "partially",
+    "reason": "Passage discusses lost baggage procedures but does not explicitly state the 21-day deadline or reference the Montreal Convention (that is in passage [4])."
+   },
+   {
+    "step": 8,
+    "label": "supported",
+    "reason": "Passage explicitly advises keeping receipts for first necessity purchases in case of delay."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly mentions the counter, PIR report, and keeping a copy with the file number.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage lists documents (boarding pass, tag, ID) but does not explicitly mention providing a detailed description of the suitcase.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage explicitly provides the URL for the complaint form on the Tunisair website.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage mentions submitting by postal mail but the specific address is cut off/not fully visible in the provided text snippet.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage lists required documents (PIR, tag, boarding pass) but does not explicitly instruct to send them via email to customer service.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"Passage lists required documents for a claim but does not mention tracking status via the PIR file number.\"}, {\"step\": 7, \"label\": \"partially\", \"reason\": \"Passage discusses lost baggage procedures but does not explicitly state the 21-day deadline or reference the Montreal Convention (that is in passage [4]).\"}, {\"step\": 8, \"label\": \"supported\", \"reason\": \"Passage explicitly advises keeping receipts for first necessity purchases in case of delay.\"}]}",
+ "usage": {
+  "queue_time": 0.050181638,
+  "prompt_tokens": 1763,
+  "prompt_time": 0.199508334,
+  "completion_tokens": 325,
+  "completion_time": 0.733724626,
+  "total_tokens": 2088,
+  "total_time": 0.93323296
+ },
+ "latency_s": 1.44
+}

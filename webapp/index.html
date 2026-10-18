@@ -119,6 +119,35 @@ aside{display:flex;flex-direction:column;gap:16px;position:sticky;top:88px}
 .pipe li.done .n{background:var(--bab);border-color:var(--bab);color:#fff}
 .pipe li.skip{opacity:.38}
 .pipe-foot{margin-top:10px;font-size:12px;color:var(--muted)}
+.pipe .sub{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.pipe .sub i{font-style:normal;font-size:11px;padding:1px 7px;border-radius:999px;background:var(--wash);color:var(--muted);border:1px solid var(--line)}
+.pipe li.done .sub i{background:var(--bab-tint);color:var(--bab);border-color:transparent}
+/* recovery plan (agentic RAG) */
+.plan{margin-top:12px;white-space:normal;display:grid;gap:10px}
+.plan .head{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.plan .urg{font-size:12px;font-weight:600;padding:2px 10px;border-radius:999px;background:var(--louage-tint);color:var(--louage)}
+.plan .items i{font-style:normal;font-size:12px;padding:2px 9px;border-radius:999px;background:var(--bab-tint);color:var(--bab);margin-right:4px}
+.plan .grp{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.plan .grp h4{margin:0 0 6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.plan .grp.now{border-color:var(--louage)} .plan .grp.now h4{color:var(--louage)}
+.plan .step{display:flex;gap:8px;align-items:flex-start;font-size:14px;padding:4px 0}
+.plan .step .lb{flex:none;font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;margin-top:2px}
+.lb.supported{background:var(--olive-tint);color:var(--olive)} .lb.partially{background:var(--sun-tint);color:#7A5300}
+.plan .dl{font-size:13px} .plan .dl b{font-weight:600}
+.plan .stats{font-size:12px;color:var(--muted)}
+.letter{background:var(--paper);border:1px dashed var(--bab);border-radius:12px;padding:10px 12px}
+.letter pre{white-space:pre-wrap;font:inherit;font-size:13px;margin:6px 0 8px;max-height:220px;overflow:auto}
+.letter button,.res .mine{border:1px solid var(--bab);background:var(--paper);color:var(--bab);border-radius:999px;padding:4px 12px;font-size:12px;cursor:pointer}
+.src a.unc{opacity:.5}
+/* found-items search results */
+.res{margin-top:12px;display:grid;gap:8px;white-space:normal}
+.res .it{display:grid;grid-template-columns:64px 1fr;gap:10px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:8px}
+.res .it img,.res .it .ph{width:64px;height:64px;border-radius:8px;object-fit:cover;background:var(--wash);display:grid;place-items:center;color:var(--muted);font-size:11px}
+.res .it .d{font-size:14px;font-weight:500}
+.res .it .w{font-size:12px;color:var(--muted)}
+.res .rel{font-size:11px;font-weight:600;padding:1px 8px;border-radius:999px;margin-right:6px}
+.rel.high{background:var(--olive-tint);color:var(--olive)} .rel.medium{background:var(--sun-tint);color:#7A5300}
+.i-search .ico{background:var(--olive-tint);color:var(--olive)}
 .examples{display:flex;flex-direction:column;gap:6px}
 .chip{font-size:13px;text-align:left;border:0;background:var(--wash);border-radius:10px;padding:8px 12px;cursor:pointer}
 .chip:hover{background:var(--bab-tint)}
@@ -263,7 +292,8 @@ dialog::backdrop{background:rgba(19,35,63,.45)}
         <div class="intents">
           <button class="intent i-lost" data-prefill="J'ai perdu "><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></svg></span><span><strong>J'ai perdu un objet</strong><small>Décrivez-le, même de mémoire</small></span></button>
           <button class="intent i-found" data-prefill="J'ai trouvé "><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg></span><span><strong>J'ai trouvé un objet</strong><small>Une photo suffit pour commencer</small></span></button>
-          <button class="intent i-proc" data-prefill="Que faire si j'ai perdu "><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 3h9l3 3v15H6z"/><path d="M9 10h6M9 14h6M9 18h4"/></svg></span><span><strong>Une démarche</strong><small>Carte d'identité, passeport, bagage…</small></span></button>
+          <button class="intent i-proc" data-prefill="Que faire si j'ai perdu "><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 3h9l3 3v15H6z"/><path d="M9 10h6M9 14h6M9 18h4"/></svg></span><span><strong>Une démarche</strong><small>Plan personnalisé : carte, papiers, bagage…</small></span></button>
+          <button class="intent i-search" data-prefill="Est-ce que quelqu'un a trouvé "><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h10M4 17h7"/><circle cx="17.5" cy="16.5" r="3"/><path d="m21 20-1.3-1.3"/></svg></span><span><strong>Chercher un objet trouvé</strong><small>Par description ou par photo</small></span></button>
         </div>
       </div>
 
@@ -275,7 +305,8 @@ dialog::backdrop{background:rgba(19,35,63,.45)}
           <li data-k="matcher"><span class="n">3</span><span class="t">Recherche des correspondances<span class="d">Matcher · bge-m3</span></span></li>
           <li data-k="verifier"><span class="n">4</span><span class="t">Vérification<span class="d">Verifier · gpt-oss-120b</span></span></li>
           <li data-k="notifier"><span class="n">5</span><span class="t">Message et question secrète<span class="d">Notifier · gpt-oss-120b</span></span></li>
-          <li data-k="procedure"><span class="n">6</span><span class="t">Démarches officielles<span class="d">Procedure · RAG</span></span></li>
+          <li data-k="plan"><span class="n">6</span><span class="t">Plan de récupération<span class="d">RAG agentique · 4 agents</span><span class="sub"><i>planification</i><i>recherche multi-sources</i><i>re-classement</i><i>rédaction</i><i>vérification</i></span></span></li>
+          <li data-k="search"><span class="n">8</span><span class="t">Recherche des objets trouvés<span class="d">RAG multimodal · recherche hybride + re-classement</span></span></li>
           <li data-k="claim"><span class="n">7</span><span class="t">Contrôle du propriétaire<span class="d">Claim check · gpt-oss-20b</span></span></li>
         </ol>
         <div class="pipe-foot" id="pipeFoot">Envoyez un message pour voir le chemin suivi dans n8n.</div>
@@ -381,7 +412,9 @@ const EXAMPLES = [
   "J'ai trouvé un portefeuille noir à la gare de Tunis ce matin",
   'فقدت حقيبتي السوداء في مطار تونس قرطاج اليوم',
   "Que faire si j'ai perdu ma carte d'identité ?",
-  'fama 7add l9a sac mte3i?'
+  "dhaya3li portefeuille fih carte d'identité w carte bancaire fi louage Sousse lbera7, chnowa na3mel?",
+  'fama chkoun l9a sac à dos k7el fi Sousse?',
+  "Ma valise n'est pas arrivée à Tunis-Carthage après mon vol Tunisair d'hier"
 ];
 
 function esc(s){return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
@@ -402,8 +435,9 @@ $('#text').addEventListener('input', grow);
 
 // ------------------------------------------------------------ agent pipeline panel
 const PATHS = {
-  question:['intake'], reply:['intake'], status:['intake'], procedure:['intake','procedure'],
-  registered:['intake','perception','matcher','verifier','procedure'], challenge:['intake','perception','matcher','verifier','notifier'],
+  question:['intake'], reply:['intake'], status:['intake'], procedure:['intake','plan'], plan:['intake','plan'],
+  search:['intake','perception','search'],
+  registered:['intake','perception','matcher','verifier','plan'], challenge:['intake','perception','matcher','verifier','notifier'],
   match:['intake','perception','matcher','verifier','notifier'], claim_verified:['claim'], claim_retry:['claim'], claim_locked:['claim'], claim_failed:['claim']
 };
 function pipeSet(state, kind, secs){
@@ -429,8 +463,10 @@ function botReply(r){
       <div style="margin-top:8px">${esc(r.match.description)}</div>
       <div class="meta">${esc(r.match.place||'')} · ${esc(fmtDate(r.match.date))} · score ${r.match.score} · confiance ${r.match.confidence ?? ''}</div></div>`;
   }
+  if (r.plan) h += planHtml(r.plan);
+  if (r.found_items) h += resultsHtml(r.found_items, r.search);
   if (r.sources && r.sources.length){
-    h += '<div class="src">' + r.sources.map((s,i)=>`<a href="${s.url && s.url.startsWith('http') ? esc(s.url) : '#'}" target="_blank" rel="noopener" title="${esc(s.authority)}">[${i+1}] ${esc((s.authority||s.id||'').slice(0,42))}</a>`).join('') + '</div>';
+    h += '<div class="src">' + r.sources.map((s,i)=>`<a class="${s.cited===false?'unc':''}" href="${s.url && s.url.startsWith('http') ? esc(s.url) : '#'}" target="_blank" rel="noopener" title="${esc(s.authority)}${s.cited===false?' (non cité)':''}">[${s.n||i+1}] ${esc((s.authority||s.id||'').slice(0,42))}</a>`).join('') + '</div>';
   }
   if (r._latency_s) h += `<div class="meta">${esc(r.kind||'')} · ${r._latency_s} s</div>`;
   add(h, 'bot');
@@ -440,6 +476,44 @@ function botReply(r){
   if (r.kind && r.kind.startsWith('claim_') && r.kind !== 'claim_retry'){ pendingClaim = null; store.set('lqitha_claim', null); }
   if (r.kind === 'registered'){ pendingImage = null; $('#preview').innerHTML=''; refreshCount(); }
 }
+
+const WHEN = {now:'Maintenant', today:"Aujourd'hui", this_week:'Cette semaine', later:'Ensuite'};
+const LBL = {supported:'vérifié', partially:'à confirmer'};
+const ITEM = {wallet:'portefeuille', national_id:"carte d'identité", bank_card:'carte bancaire', phone:'téléphone', passport:'passeport', baggage:'bagage', luggage:'bagage', driving_licence:'permis', family_booklet:'livret de famille', bag:'sac', keys:'clés', laptop:'ordinateur'};
+function planHtml(p){
+  let h = '<div class="plan"><div class="head">' + (p.urgency==='high' ? '<span class="urg">Urgent</span>' : '') +
+    '<span class="items">' + (p.affected_items||[]).map(x => `<i>${esc(ITEM[x]||x)}</i>`).join('') + '</span></div>';
+  for (const k of ['now','today','this_week','later']){
+    const st = (p.steps||[]).filter(s => s.when === k); if (!st.length) continue;
+    h += `<div class="grp ${k}"><h4>${WHEN[k]}</h4>` + st.map(s => `<div class="step"><span class="lb ${esc(s.label)}">${esc(LBL[s.label]||s.label)}</span><span>${md(s.action)}</span></div>`).join('') + '</div>';
+  }
+  if ((p.deadlines||[]).length) h += '<div class="grp"><h4>Délais</h4>' + p.deadlines.filter(d=>d&&d.what).map(d => `<div class="dl">⏱ ${md(d.what)}${d.date_iso?` — <b>${esc(fmtDate(d.date_iso))}</b>`:''}</div>`).join('') + '</div>';
+  if ((p.documents||[]).length) h += '<div class="grp"><h4>Documents à préparer</h4><div class="dl">' + p.documents.map(esc).join(' · ') + '</div></div>';
+  if (p.letter && p.letter.body){
+    const id = 'l' + Math.random().toString(36).slice(2,8);
+    h += `<div class="letter"><b>${esc(p.letter.title || 'Lettre pré-remplie')}</b><pre id="${id}">${esc(p.letter.body)}</pre><button onclick="navigator.clipboard.writeText(document.getElementById('${id}').textContent);this.textContent='Copié ✓'">Copier la lettre</button></div>`;
+  }
+  const s = p.stats || {};
+  h += `<div class="stats">${s.sub_questions||0} sous-questions · ${s.candidates||0} passages trouvés → ${s.context||0} retenus · ${s.steps_kept||0}/${s.steps_written||0} étapes vérifiées${s.removed?` (${s.removed} retirée${s.removed>1?'s':''})`:''}</div>`;
+  return h + '</div>';
+}
+function resultsHtml(items, meta){
+  let h = '<div class="res">';
+  items.forEach(x => {
+    h += `<div class="it">${x.image_url ? `<img src="${esc(x.image_url)}" alt="">` : '<span class="ph">sans photo</span>'}<div>
+      <div class="d"><span class="rel ${esc(x.relevance)}">${x.relevance==='high'?'très proche':'possible'}</span>${esc(x.description||'')}</div>
+      <div class="w">${esc(x.id)} · ${esc(x.place_name||x.governorate||'')} · ${esc(fmtDate(x.date_iso))}</div>
+      ${x.reason?`<div class="w">${esc(x.reason)}</div>`:''}
+      <button class="mine" data-id="${esc(x.id)}" data-cat="${esc(x.category||'')}" data-place="${esc(x.place_name||x.governorate||'')}" data-date="${esc(x.date_iso||'')}">C'est peut-être à moi</button></div></div>`;
+  });
+  if (meta && (meta.relaxed||[]).length) h += `<div class="stats">Recherche élargie (filtres retirés : ${esc(meta.relaxed.join(', '))})</div>`;
+  return h + '</div>';
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('.res .mine'); if (!b) return;
+  $('#text').value = `J'ai perdu ${catLabel(b.dataset.cat).toLowerCase()} — je pense que c'est l'objet ${b.dataset.id} trouvé à ${b.dataset.place} (${fmtDate(b.dataset.date)}). `;
+  $('#text').focus(); grow();
+});
 
 async function send(){
   const text = $('#text').value.trim();
@@ -664,7 +738,7 @@ function go(tab){
 }
 document.querySelectorAll('nav button').forEach(b => b.onclick = () => go(b.dataset.tab));
 
-function welcome(){ add("Marhba bik ! Je suis <b>Lqitha</b>. Dites-moi ce que vous avez <b>perdu</b> ou <b>trouvé</b> — par écrit, avec une photo ou un message vocal — ou posez une question sur les démarches (carte d'identité, passeport, bagage…).<div class=\"meta\">Écrivez en derja, français, anglais ou arabe : je garde la langue de votre premier message pendant toute la conversation.</div>", 'bot'); }
+function welcome(){ add("Marhba bik ! Je suis <b>Lqitha</b>. Dites-moi ce que vous avez <b>perdu</b> ou <b>trouvé</b> — par écrit, avec une photo ou un message vocal. Je peux aussi <b>chercher parmi les objets trouvés</b> et vous préparer un <b>plan de récupération personnalisé</b> (carte bancaire, papiers, bagage…) avec ses sources et une lettre pré-remplie.<div class=\"meta\">Écrivez en derja, français, anglais ou arabe : je garde la langue de votre premier message pendant toute la conversation.</div>", 'bot'); }
 welcome();
 if (pendingClaim) add('Une vérification de propriété est en attente : votre prochain message sera considéré comme la réponse.', 'sys');
 loadPlaces(); health(); refreshCount(); setInterval(health, 15000); poll();

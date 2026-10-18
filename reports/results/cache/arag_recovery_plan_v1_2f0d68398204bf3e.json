@@ -1,0 +1,55 @@
+{
+ "parsed": {
+  "summary": "Your checked bag was damaged on arrival at Djerba airport. Under Tunisair’s passenger protection policy and the Montreal Convention, you must file a Property Irregularity Report (PIR) immediately, keep all documentation, and submit a written claim within 7 days of receiving the bag, providing proof of the damage and receipts for any repair or replacement costs.",
+  "steps": [
+   {
+    "when": "Immediately (while still at the baggage claim area)",
+    "action": "Go to the airline’s “Bagages / Lost & Found” counter and have a Property Irregularity Report (PIR) issued. Keep the report and note the reference number.",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "Within the next 7 days",
+    "action": "Prepare a written claim to Tunisair including: the PIR number, boarding pass, baggage tag, a detailed description of the bag (color, brand, size, distinctive marks), photos of the damage, and any receipts for repair or replacement of the bag or its contents.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "when": "As soon as possible after the claim is prepared",
+    "action": "Submit the claim to Tunisair’s customer service (email or online portal) together with the supporting documents. Request either repair of the bag or monetary compensation for the damage as provided in the airline’s policy.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "when": "If you do not receive a satisfactory response within 14 days of submission",
+    "action": "Escalate the matter by contacting the Tunisian Civil Aviation Authority or filing a complaint under the Montreal Convention (Article 31) for further mediation.",
+    "cites": [
+     2
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Your checked bag was damaged on arrival at Djerba airport. Under Tunisair’s passenger protection policy and the Montreal Convention, you must file a Property Irregularity Report (PIR) immediately, keep all documentation, and submit a written claim within 7 days of receiving the bag, providing proof of the damage and receipts for any repair or replacement costs.\",\"steps\":[{\"when\":\"Immediately (while still at the baggage claim area)\",\"action\":\"Go to the airline’s “Bagages / Lost & Found” counter and have a Property Irregularity Report (PIR) issued. Keep the report and note the reference number.\",\"cites\":[2]},{\"when\":\"Within the next 7 days\",\"action\":\"Prepare a written claim to Tunisair including: the PIR number, boarding pass, baggage tag, a detailed description of the bag (color, brand, size, distinctive marks), photos of the damage, and any receipts for repair or replacement of the bag or its contents.\",\"cites\":[1,2]},{\"when\":\"As soon as possible after the claim is prepared\",\"action\":\"Submit the claim to Tunisair’s customer service (email or online portal) together with the supporting documents. Request either repair of the bag or monetary compensation for the damage as provided in the airline’s policy.\",\"cites\":[1,3]},{\"when\":\"If you do not receive a satisfactory response within 14 days of submission\",\"action\":\"Escalate the matter by contacting the Tunisian Civil Aviation Authority or filing a complaint under the Montreal Convention (Article 31) for further mediation.\",\"cites\":[2]}],\"documents\":[],\"deadlines\":[],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.019289241,
+  "prompt_tokens": 1286,
+  "prompt_time": 0.076270488,
+  "completion_tokens": 399,
+  "completion_time": 0.842072602,
+  "total_tokens": 1685,
+  "total_time": 0.91834309,
+  "completion_tokens_details": {
+   "reasoning_tokens": 51
+  }
+ },
+ "latency_s": 1.56
+}

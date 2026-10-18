@@ -1,0 +1,48 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [1] explicitly states to block the card via customer service/app and check recent operations."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage [4] supports filing a report for ID loss, but the specific details about the 'louage' location and wallet contents are not in the cited passages."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage [4] confirms the police issues a certificate of loss required for renewal."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage [1] mentions the receipt can be requested by the bank, but does not explicitly state the action of requesting a *new* card issuance."
+   },
+   {
+    "step": 5,
+    "label": "supported",
+    "reason": "Passage [5] explicitly states the 30-day deadline for renewal in case of loss."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "Passage [2] cuts off before providing advice on securing accounts or updating passwords."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [1] explicitly states to block the card via customer service/app and check recent operations.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage [4] supports filing a report for ID loss, but the specific details about the 'louage' location and wallet contents are not in the cited passages.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage [4] confirms the police issues a certificate of loss required for renewal.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage [1] mentions the receipt can be requested by the bank, but does not explicitly state the action of requesting a *new* card issuance.\"}, {\"step\": 5, \"label\": \"supported\", \"reason\": \"Passage [5] explicitly states the 30-day deadline for renewal in case of loss.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"Passage [2] cuts off before providing advice on securing accounts or updating passwords.\"}]}",
+ "usage": {
+  "queue_time": 0.020273449,
+  "prompt_tokens": 1629,
+  "prompt_time": 0.120363848,
+  "completion_tokens": 250,
+  "completion_time": 0.512945089,
+  "total_tokens": 1879,
+  "total_time": 0.633308937
+ },
+ "latency_s": 1.09
+}

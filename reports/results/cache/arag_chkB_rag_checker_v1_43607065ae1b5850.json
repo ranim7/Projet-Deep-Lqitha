@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly lists contacting station chief and providing train details."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage states found objects are generally deposited at the terminus station."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage mentions terminus station but does not specify a 'Bagages / Lost & Found' counter."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Passage does not mention police, national guard, or emergency numbers 197/193."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "Passage does not mention the platform 'Lqitha' or specific contents like a driver's license."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly lists contacting station chief and providing train details.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage states found objects are generally deposited at the terminus station.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage mentions terminus station but does not specify a 'Bagages / Lost & Found' counter.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Passage does not mention police, national guard, or emergency numbers 197/193.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"Passage does not mention the platform 'Lqitha' or specific contents like a driver's license.\"}]}",
+ "usage": {
+  "queue_time": 0.319782935,
+  "prompt_tokens": 1215,
+  "prompt_time": 0.088142825,
+  "completion_tokens": 184,
+  "completion_time": 0.387638826,
+  "total_tokens": 1399,
+  "total_time": 0.475781651
+ },
+ "latency_s": 1.36
+}

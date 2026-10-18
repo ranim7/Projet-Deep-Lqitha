@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Water bottle lost at Pont du Fahs.",
+  "field_confidence": {
+   "category": 0.0,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bottle\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Water bottle lost at Pont du Fahs.\",\"field_confidence\":{\"category\":0.0,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.016727406,
+  "prompt_tokens": 830,
+  "prompt_time": 0.020591748,
+  "completion_tokens": 172,
+  "completion_time": 0.17622454,
+  "total_tokens": 1002,
+  "total_time": 0.196816288,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 77
+  }
+ },
+ "latency_s": 0.74
+}

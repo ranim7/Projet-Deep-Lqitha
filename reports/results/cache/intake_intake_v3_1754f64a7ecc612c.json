@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "en",
+  "slots": {
+   "item_category": "keys",
+   "date_text": "this morning",
+   "date_iso": "2026-10-14",
+   "place_type": "street",
+   "place_name": "Avenue Habib Bourguiba",
+   "governorate": "Tunis",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "distinctive_detail",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Could you please describe any distinctive detail of the keys or the keychain?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"en\",\"slots\":{\"item_category\":\"keys\",\"date_text\":\"this morning\",\"date_iso\":\"2026-10-14\",\"place_type\":\"street\",\"place_name\":\"Avenue Habib Bourguiba\",\"governorate\":\"Tunis\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"distinctive_detail\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Could you please describe any distinctive detail of the keys or the keychain?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.017480271,
+  "prompt_tokens": 1923,
+  "prompt_time": 0.012170911,
+  "completion_tokens": 187,
+  "completion_time": 0.221291994,
+  "total_tokens": 2110,
+  "total_time": 0.233462905,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 52
+  }
+ },
+ "latency_s": 15.45
+}

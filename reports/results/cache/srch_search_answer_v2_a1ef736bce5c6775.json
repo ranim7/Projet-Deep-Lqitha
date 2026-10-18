@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-ffd37c58",
+    "relevance": "high",
+    "reason": "matches wallet, black leather, health card, found at yellow louage station Kairouan on 2026-10-06"
+   },
+   {
+    "id": "F-d3888c87",
+    "relevance": "medium",
+    "reason": "black wallet, but different logo and location (Ariana)"
+   }
+  ],
+  "answer": "We have 1 high‑relevance item and 1 medium‑relevance item. The high one is F-ffd37c58 found at the yellow louage station in Kairouan on 2026-10-06. The medium one is F-d3888c87 found in Ariana on 2026-10-04. Please open the items and press \"C'est peut-être à moi\" or declare the loss to be notified automatically."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-ffd37c58\",\"relevance\":\"high\",\"reason\":\"matches wallet, black leather, health card, found at yellow louage station Kairouan on 2026-10-06\"},{\"id\":\"F-d3888c87\",\"relevance\":\"medium\",\"reason\":\"black wallet, but different logo and location (Ariana)\"}],\"answer\":\"We have 1 high‑relevance item and 1 medium‑relevance item. The high one is F-ffd37c58 found at the yellow louage station in Kairouan on 2026-10-06. The medium one is F-d3888c87 found in Ariana on 2026-10-04. Please open the items and press \\\"C'est peut-être à moi\\\" or declare the loss to be notified automatically.\"}",
+ "usage": {
+  "queue_time": 0.209174927,
+  "prompt_tokens": 1116,
+  "prompt_time": 0.048772301,
+  "completion_tokens": 357,
+  "completion_time": 0.739949707,
+  "total_tokens": 1473,
+  "total_time": 0.788722008,
+  "completion_tokens_details": {
+   "reasoning_tokens": 173
+  }
+ },
+ "latency_s": 1.61
+}

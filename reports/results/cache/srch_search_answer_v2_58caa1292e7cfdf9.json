@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-8f945af5",
+    "relevance": "high",
+    "reason": "correspondance exacte couleur, accents, fermetures, lieu et date"
+   }
+  ],
+  "answer": "1 résultat hautement pertinent : F-8f945af5 trouvé à Mellassine le 2026‑10‑12. Ouvrez l’article et cliquez sur « C'est peut‑être à moi ». Si rien ne correspond, déclarez la perte pour être notifié automatiquement."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-8f945af5\",\"relevance\":\"high\",\"reason\":\"correspondance exacte couleur, accents, fermetures, lieu et date\"}],\"answer\":\"1 résultat hautement pertinent : F-8f945af5 trouvé à Mellassine le 2026‑10‑12. Ouvrez l’article et cliquez sur « C'est peut‑être à moi ». Si rien ne correspond, déclarez la perte pour être notifié automatiquement.\"}",
+ "usage": {
+  "queue_time": 0.298674453,
+  "prompt_tokens": 1027,
+  "prompt_time": 0.045812908,
+  "completion_tokens": 149,
+  "completion_time": 0.308512864,
+  "total_tokens": 1176,
+  "total_time": 0.354325772,
+  "completion_tokens_details": {
+   "reasoning_tokens": 36
+  }
+ },
+ "latency_s": 1.24
+}

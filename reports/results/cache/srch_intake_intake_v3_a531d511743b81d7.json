@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "en",
+  "slots": {
+   "item_category": "wallet",
+   "date_text": "12 days ago",
+   "date_iso": "2026-10-06",
+   "place_type": "louage",
+   "place_name": "Kairouan",
+   "governorate": "Kairouan",
+   "distinctive_detail": "black leather bifold wallet with a health card",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_search",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "portefeuille bifold cuir noir avec carte de santé perdu à la station louage Kairouan",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"en\",\"slots\":{\"item_category\":\"wallet\",\"date_text\":\"12 days ago\",\"date_iso\":\"2026-10-06\",\"place_type\":\"louage\",\"place_name\":\"Kairouan\",\"governorate\":\"Kairouan\",\"distinctive_detail\":\"black leather bifold wallet with a health card\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_search\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"portefeuille bifold cuir noir avec carte de santé perdu à la station louage Kairouan\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.453089185,
+  "prompt_tokens": 1937,
+  "prompt_time": 0.11097173,
+  "completion_tokens": 228,
+  "completion_time": 0.231772928,
+  "total_tokens": 2165,
+  "total_time": 0.342744658,
+  "completion_tokens_details": {
+   "reasoning_tokens": 85
+  }
+ },
+ "latency_s": 1.43
+}

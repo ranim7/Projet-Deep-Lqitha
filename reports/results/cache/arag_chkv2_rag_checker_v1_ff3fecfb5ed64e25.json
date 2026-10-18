@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly lists contacting station chief, providing train details, and checking lost property service."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage describes procedure for passport, not driving license; specific office for license not mentioned."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage explicitly instructs to take photo without showing document numbers and declare on Lqitha."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage details passport duplicate procedure, not driving license; specific office 'Direction Générale des Transports' not in text."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage confirms items are deposited at terminus but does not specify presenting ID at a counter to retrieve."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly lists contacting station chief, providing train details, and checking lost property service.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage describes procedure for passport, not driving license; specific office for license not mentioned.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage explicitly instructs to take photo without showing document numbers and declare on Lqitha.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage details passport duplicate procedure, not driving license; specific office 'Direction Générale des Transports' not in text.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage confirms items are deposited at terminus but does not specify presenting ID at a counter to retrieve.\"}]}",
+ "usage": {
+  "queue_time": 0.089568057,
+  "prompt_tokens": 1234,
+  "prompt_time": 0.103902032,
+  "completion_tokens": 196,
+  "completion_time": 0.372309629,
+  "total_tokens": 1430,
+  "total_time": 0.476211661
+ },
+ "latency_s": 11.88
+}

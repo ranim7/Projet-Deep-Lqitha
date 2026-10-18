@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "ar",
+  "slots": {
+   "item_category": "bag",
+   "date_text": "اليوم",
+   "date_iso": "2026-10-14",
+   "place_type": "airport",
+   "place_name": "مطار تونس قرطاج",
+   "governorate": "تونس",
+   "distinctive_detail": "سوداء",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_perception",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"ar\",\"slots\":{\"item_category\":\"bag\",\"date_text\":\"اليوم\",\"date_iso\":\"2026-10-14\",\"place_type\":\"airport\",\"place_name\":\"مطار تونس قرطاج\",\"governorate\":\"تونس\",\"distinctive_detail\":\"سوداء\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_perception\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.205897782,
+  "prompt_tokens": 1917,
+  "prompt_time": 0.510828218,
+  "completion_tokens": 153,
+  "completion_time": 0.16494347,
+  "total_tokens": 2070,
+  "total_time": 0.675771688,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 37
+  }
+ },
+ "latency_s": 14.2
+}

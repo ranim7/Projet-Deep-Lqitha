@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "partially",
+    "reason": "Passage supports PIR, boarding pass, tag, and ID, but does not mention gathering receipts for essential items."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage supports submitting a claim with PIR and documents, but does not specify the method (website/email) or the requirement to include receipts for items bought."
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "Passage lists submission deadlines (7/21 days) but does not mention a 5-business-day acknowledgment period or follow-up procedure."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Passage does not mention the Tunisian Civil Aviation Authority, customer-relations office, or the Montreal Convention."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"partially\", \"reason\": \"Passage supports PIR, boarding pass, tag, and ID, but does not mention gathering receipts for essential items.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage supports submitting a claim with PIR and documents, but does not specify the method (website/email) or the requirement to include receipts for items bought.\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"Passage lists submission deadlines (7/21 days) but does not mention a 5-business-day acknowledgment period or follow-up procedure.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Passage does not mention the Tunisian Civil Aviation Authority, customer-relations office, or the Montreal Convention.\"}]}",
+ "usage": {
+  "queue_time": 0.018347348,
+  "prompt_tokens": 1118,
+  "prompt_time": 0.1006269,
+  "completion_tokens": 183,
+  "completion_time": 0.376228069,
+  "total_tokens": 1301,
+  "total_time": 0.476854969
+ },
+ "latency_s": 1.15
+}

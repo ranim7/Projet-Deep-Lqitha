@@ -1,0 +1,48 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passages [1] and [2] explicitly mention blocking the card via phone/app and checking recent transactions."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passages support filing a report for the ID and card, but 'airport police' is not mentioned in the cited texts."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passages confirm the receipt is needed for the ID replacement, but do not explicitly state it is required by the bank."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage [1] covers blocking and reporting, but does not explicitly detail the process of requesting a replacement card using the receipt."
+   },
+   {
+    "step": 5,
+    "label": "supported",
+    "reason": "Passage [5] confirms the certificate is used to request a new card, and Passage [6] confirms the 30-day renewal deadline for loss."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "Cited passages discuss blocking and securing accounts generally, but do not mention activating a new card or changing passwords."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passages [1] and [2] explicitly mention blocking the card via phone/app and checking recent transactions.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passages support filing a report for the ID and card, but 'airport police' is not mentioned in the cited texts.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passages confirm the receipt is needed for the ID replacement, but do not explicitly state it is required by the bank.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage [1] covers blocking and reporting, but does not explicitly detail the process of requesting a replacement card using the receipt.\"}, {\"step\": 5, \"label\": \"supported\", \"reason\": \"Passage [5] confirms the certificate is used to request a new card, and Passage [6] confirms the 30-day renewal deadline for loss.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"Cited passages discuss blocking and securing accounts generally, but do not mention activating a new card or changing passwords.\"}]}",
+ "usage": {
+  "queue_time": 0.019038897,
+  "prompt_tokens": 1782,
+  "prompt_time": 0.131242726,
+  "completion_tokens": 263,
+  "completion_time": 0.556270442,
+  "total_tokens": 2045,
+  "total_time": 0.687513168
+ },
+ "latency_s": 9.73
+}

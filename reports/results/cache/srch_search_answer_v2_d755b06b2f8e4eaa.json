@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-f96621fd",
+    "relevance": "high",
+    "reason": "catégorie bouteille, couleur multicolore, marque eono, citron présent, lieu et date concordent"
+   }
+  ],
+  "answer": "Nous avons trouvé 1 article à haute pertinence. C’est le F-f96621fd, une bouteille multicolore eono avec citron, trouvée à Les Orangers (Manouba) le 2026‑10‑08. Ouvrez cet article et cliquez sur « C'est peut-être à moi ». Si rien ne correspond, déclarez la perte pour être notifié automatiquement."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-f96621fd\",\"relevance\":\"high\",\"reason\":\"catégorie bouteille, couleur multicolore, marque eono, citron présent, lieu et date concordent\"}],\"answer\":\"Nous avons trouvé 1 article à haute pertinence. C’est le F-f96621fd, une bouteille multicolore eono avec citron, trouvée à Les Orangers (Manouba) le 2026‑10‑08. Ouvrez cet article et cliquez sur « C'est peut-être à moi ». Si rien ne correspond, déclarez la perte pour être notifié automatiquement.\"}",
+ "usage": {
+  "queue_time": 0.050055826,
+  "prompt_tokens": 1094,
+  "prompt_time": 0.054844626,
+  "completion_tokens": 248,
+  "completion_time": 0.534972862,
+  "total_tokens": 1342,
+  "total_time": 0.589817488,
+  "completion_tokens_details": {
+   "reasoning_tokens": 110
+  }
+ },
+ "latency_s": 1.12
+}

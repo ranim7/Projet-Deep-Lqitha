@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "other",
+  "language": "en",
+  "slots": {
+   "item_category": null,
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "reply_only",
+  "question_to_user": null,
+  "reply_to_user": "I’m sorry, but I can’t help with that request.",
+  "search_query_fr": null,
+  "confidence": 0.0
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"other\",\"language\":\"en\",\"slots\":{\"item_category\":null,\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"reply_only\",\"question_to_user\":null,\"reply_to_user\":\"I’m sorry, but I can’t help with that request.\",\"search_query_fr\":null,\"confidence\":0.0}",
+ "usage": {
+  "queue_time": 0.016249983,
+  "prompt_tokens": 1922,
+  "prompt_time": 0.014890014,
+  "completion_tokens": 126,
+  "completion_time": 0.135689618,
+  "total_tokens": 2048,
+  "total_time": 0.150579632,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 14
+  }
+ },
+ "latency_s": 10.87
+}

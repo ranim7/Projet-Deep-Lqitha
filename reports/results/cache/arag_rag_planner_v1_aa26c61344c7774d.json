@@ -1,0 +1,64 @@
+{
+ "parsed": {
+  "situation": "Lost bag containing a phone and bank card in a taxi",
+  "affected_items": [
+   "bag",
+   "phone",
+   "bank_card"
+  ],
+  "urgency": "high",
+  "sub_questions": [
+   {
+    "q": "Comment faire opposition sur une carte bancaire perdue",
+    "sources": [
+     "operator",
+     "sop"
+    ],
+    "item_type": "bank_card",
+    "need": "block the bank card"
+   },
+   {
+    "q": "Comment suspendre la carte SIM de mon téléphone perdu",
+    "sources": [
+     "operator",
+     "sop"
+    ],
+    "item_type": "phone",
+    "need": "suspend the SIM"
+   },
+   {
+    "q": "Où déclarer la perte d’un bag dans un taxi et où le chercher",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "search the taxi"
+   },
+   {
+    "q": "Comment déclarer la perte d’un document d’identité ou d’une carte bancaire à la police",
+    "sources": [
+     "sop",
+     "law"
+    ],
+    "item_type": "general",
+    "need": "declare and replace the ID card"
+   }
+  ],
+  "letter": "police_declaration"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Lost bag containing a phone and bank card in a taxi\",\"affected_items\":[\"bag\",\"phone\",\"bank_card\"],\"urgency\":\"high\",\"sub_questions\":[{\"q\":\"Comment faire opposition sur une carte bancaire perdue\",\"sources\":[\"operator\",\"sop\"],\"item_type\":\"bank_card\",\"need\":\"block the bank card\"},{\"q\":\"Comment suspendre la carte SIM de mon téléphone perdu\",\"sources\":[\"operator\",\"sop\"],\"item_type\":\"phone\",\"need\":\"suspend the SIM\"},{\"q\":\"Où déclarer la perte d’un bag dans un taxi et où le chercher\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"search the taxi\"},{\"q\":\"Comment déclarer la perte d’un document d’identité ou d’une carte bancaire à la police\",\"sources\":[\"sop\",\"law\"],\"item_type\":\"general\",\"need\":\"declare and replace the ID card\"}],\"letter\":\"police_declaration\"}",
+ "usage": {
+  "queue_time": 0.293798169,
+  "prompt_tokens": 991,
+  "prompt_time": 0.056625643,
+  "completion_tokens": 293,
+  "completion_time": 0.297765719,
+  "total_tokens": 1284,
+  "total_time": 0.354391362,
+  "completion_tokens_details": {
+   "reasoning_tokens": 95
+  }
+ },
+ "latency_s": 1.28
+}

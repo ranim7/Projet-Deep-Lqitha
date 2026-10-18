@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "fr",
+  "slots": {
+   "item_category": "bottle",
+   "date_text": "il y a 10 jours",
+   "date_iso": "2026-10-08",
+   "place_type": "other",
+   "place_name": "Les Orangers",
+   "governorate": "Manouba",
+   "distinctive_detail": "multicolore eono avec citron",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_search",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "bouteille multicolore eono avec citron perdue à Les Orangers Manouba",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bottle\",\"date_text\":\"il y a 10 jours\",\"date_iso\":\"2026-10-08\",\"place_type\":\"other\",\"place_name\":\"Les Orangers\",\"governorate\":\"Manouba\",\"distinctive_detail\":\"multicolore eono avec citron\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_search\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"bouteille multicolore eono avec citron perdue à Les Orangers Manouba\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.354423145,
+  "prompt_tokens": 1940,
+  "prompt_time": 0.170540938,
+  "completion_tokens": 224,
+  "completion_time": 0.276098268,
+  "total_tokens": 2164,
+  "total_time": 0.446639206,
+  "completion_tokens_details": {
+   "reasoning_tokens": 83
+  }
+ },
+ "latency_s": 1.48
+}

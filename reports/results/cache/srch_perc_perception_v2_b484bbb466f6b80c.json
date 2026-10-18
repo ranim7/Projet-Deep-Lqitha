@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "keys",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Keys found at bus station in Kebili, near Gare des louages longues lignes.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"keys\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Keys found at bus station in Kebili, near Gare des louages longues lignes.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.210091614,
+  "prompt_tokens": 843,
+  "prompt_time": 0.665448524,
+  "completion_tokens": 225,
+  "completion_time": 0.235027306,
+  "total_tokens": 1068,
+  "total_time": 0.90047583,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 123
+  }
+ },
+ "latency_s": 1.71
+}

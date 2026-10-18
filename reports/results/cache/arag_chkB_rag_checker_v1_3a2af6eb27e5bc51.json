@@ -1,0 +1,103 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 2,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 9,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 10,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 11,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 12,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 13,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 14,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 15,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 16,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 17,
+    "label": "unsupported",
+    "reason": "no citation"
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 2, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 9, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 10, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 11, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 12, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 13, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 14, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 15, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 16, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 17, \"label\": \"unsupported\", \"reason\": \"no citation\"}]}",
+ "usage": {
+  "queue_time": 0.018694972,
+  "prompt_tokens": 664,
+  "prompt_time": 0.054441334,
+  "completion_tokens": 338,
+  "completion_time": 0.674408421,
+  "total_tokens": 1002,
+  "total_time": 0.728849755
+ },
+ "latency_s": 19.28
+}

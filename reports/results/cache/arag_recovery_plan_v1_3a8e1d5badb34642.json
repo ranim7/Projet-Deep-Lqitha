@@ -1,0 +1,54 @@
+{
+ "parsed": {
+  "summary": "Vous avez perdu votre sac contenant votre permis de conduire dans le train SNCFT Tunis‑Sfax. Il faut d’abord signaler la perte aux responsables du train pour récupérer l’objet éventuel, puis déclarer la perte du permis et demander un duplicata conformément à la loi organique n° 2024‑22.",
+  "steps": [
+   {
+    "when": "Immédiatement (aujourd’hui)",
+    "action": "Contactez le chef de gare de la gare d’arrivée (Sfax) ou de la gare de départ (Tunis Ville – place Barcelone) et signalez la perte en précisant le numéro du train, la date, l’heure, la voiture et la place occupée. Les objets trouvés sont généralement déposés à la gare terminus du train.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Dans les 24 h suivant la perte",
+    "action": "Rendez‑vous au poste de police ou à la garde nationale la plus proche pour déclarer la perte du permis de conduire et obtenir une attestation de déclaration de perte (obligatoire pour le duplicata).",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "Dans les 30 jours suivant la perte",
+    "action": "Déposez la demande de duplicata du permis de conduire : remplissez le formulaire de demande, joignez une copie de votre carte d’identité nationale (original à présenter), l’attestation de déclaration de perte et tout autre document requis par la procédure idaraty.tn. Si vous êtes à l’étranger, adressez‑vous au consulat tunisien.",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "Après avoir récupéré l’objet ou reçu le duplicata",
+    "action": "Si le sac est retrouvé, récupérez‑le auprès du chef de gare ou du service des objets trouvés. Sinon, conservez l’attestation de perte et le duplicata du permis en lieu sûr.",
+    "cites": [
+     1,
+     3
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Vous avez perdu votre sac contenant votre permis de conduire dans le train SNCFT Tunis‑Sfax. Il faut d’abord signaler la perte aux responsables du train pour récupérer l’objet éventuel, puis déclarer la perte du permis et demander un duplicata conformément à la loi organique n° 2024‑22.\",\"steps\":[{\"when\":\"Immédiatement (aujourd’hui)\",\"action\":\"Contactez le chef de gare de la gare d’arrivée (Sfax) ou de la gare de départ (Tunis Ville – place Barcelone) et signalez la perte en précisant le numéro du train, la date, l’heure, la voiture et la place occupée. Les objets trouvés sont généralement déposés à la gare terminus du train.\",\"cites\":[1]},{\"when\":\"Dans les 24 h suivant la perte\",\"action\":\"Rendez‑vous au poste de police ou à la garde nationale la plus proche pour déclarer la perte du permis de conduire et obtenir une attestation de déclaration de perte (obligatoire pour le duplicata).\",\"cites\":[3]},{\"when\":\"Dans les 30 jours suivant la perte\",\"action\":\"Déposez la demande de duplicata du permis de conduire : remplissez le formulaire de demande, joignez une copie de votre carte d’identité nationale (original à présenter), l’attestation de déclaration de perte et tout autre document requis par la procédure idaraty.tn. Si vous êtes à l’étranger, adressez‑vous au consulat tunisien.\",\"cites\":[3]},{\"when\":\"Après avoir récupéré l’objet ou reçu le duplicata\",\"action\":\"Si le sac est retrouvé, récupérez‑le auprès du chef de gare ou du service des objets trouvés. Sinon, conservez l’attestation de perte et le duplicata du permis en lieu sûr.\",\"cites\":[1,3]}],\"documents\":[],\"deadlines\":[],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.210447912,
+  "prompt_tokens": 932,
+  "prompt_time": 0.046649657,
+  "completion_tokens": 466,
+  "completion_time": 0.980218467,
+  "total_tokens": 1398,
+  "total_time": 1.026868124,
+  "completion_tokens_details": {
+   "reasoning_tokens": 59
+  }
+ },
+ "latency_s": 1.8
+}

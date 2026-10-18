@@ -1,0 +1,53 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [2] explicitly instructs to go to the 'Bagages / Lost & Found' counter and obtain a PIR."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage [2] lists boarding pass, tag, and ID, but does not mention the detailed description of the bag (color, brand, etc.)."
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "Passage [1] mentions submitting a claim but does not state that the counter staff provides the form or the specific address/email."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "The 7-day deadline is in [1], but the specific date '2026-10-24' and the instruction to attach photos are not in the cited passages."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "Passage [1] mentions 'pièces justificatives' (supporting documents) for lost baggage claims, but does not explicitly mention receipts for essential items bought due to damage."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [2] explicitly instructs to go to the 'Bagages / Lost & Found' counter and obtain a PIR.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage [2] lists boarding pass, tag, and ID, but does not mention the detailed description of the bag (color, brand, etc.).\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"Passage [1] mentions submitting a claim but does not state that the counter staff provides the form or the specific address/email.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"The 7-day deadline is in [1], but the specific date '2026-10-24' and the instruction to attach photos are not in the cited passages.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"Passage [1] mentions 'pièces justificatives' (supporting documents) for lost baggage claims, but does not explicitly mention receipts for essential items bought due to damage.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.01898713,
+  "prompt_tokens": 1415,
+  "prompt_time": 0.097652886,
+  "completion_tokens": 295,
+  "completion_time": 0.601238035,
+  "total_tokens": 1710,
+  "total_time": 0.698890921
+ },
+ "latency_s": 1.36
+}

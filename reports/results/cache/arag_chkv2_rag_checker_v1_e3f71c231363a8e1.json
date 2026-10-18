@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly advises calling the number from another phone to check if an honest passerby has it."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage explicitly lists 'Find My' for iPhone and 'Find My Device' for Android for remote location/lock."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage supports contacting operator to suspend SIM, but details about requesting a new SIM in agency with ID are not in the cited text."
+   },
+   {
+    "step": 4,
+    "label": "supported",
+    "reason": "Passage [4] mentions police/garde nationale, IMEI code *#06#, and context implies filing a report for theft/loss."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage mentions reporting to station agent or depot for metro, but specific details like 'line number' and 'direction' are not explicitly listed in the snippet."
+   },
+   {
+    "step": 6,
+    "label": "supported",
+    "reason": "Passage explicitly states to declare loss on Lqitha with color, brand, case, and distinct signs."
+   },
+   {
+    "step": 7,
+    "label": "supported",
+    "reason": "Passage explicitly advises changing passwords for email, social media, and bank if phone was not locked."
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "No citation provided and no passage supports this specific action."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly advises calling the number from another phone to check if an honest passerby has it.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage explicitly lists 'Find My' for iPhone and 'Find My Device' for Android for remote location/lock.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage supports contacting operator to suspend SIM, but details about requesting a new SIM in agency with ID are not in the cited text.\"}, {\"step\": 4, \"label\": \"supported\", \"reason\": \"Passage [4] mentions police/garde nationale, IMEI code *#06#, and context implies filing a report for theft/loss.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage mentions reporting to station agent or depot for metro, but specific details like 'line number' and 'direction' are not explicitly listed in the snippet.\"}, {\"step\": 6, \"label\": \"supported\", \"reason\": \"Passage explicitly states to declare loss on Lqitha with color, brand, case, and distinct signs.\"}, {\"step\": 7, \"label\": \"supported\", \"reason\": \"Passage explicitly advises changing passwords for email, social media, and bank if phone was not locked.\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"No citation provided and no passage supports this specific action.\"}]}",
+ "usage": {
+  "queue_time": 0.101193715,
+  "prompt_tokens": 1588,
+  "prompt_time": 0.136870511,
+  "completion_tokens": 332,
+  "completion_time": 0.688462685,
+  "total_tokens": 1920,
+  "total_time": 0.825333196
+ },
+ "latency_s": 1.35
+}

@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "ar",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": "اليوم",
+   "date_iso": "2026-10-18",
+   "place_type": "airport",
+   "place_name": "مطار تونس قرطاج",
+   "governorate": "تونس",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "ما هو التفصيل المميز لجواز سفرك؟",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"ar\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":\"اليوم\",\"date_iso\":\"2026-10-18\",\"place_type\":\"airport\",\"place_name\":\"مطار تونس قرطاج\",\"governorate\":\"تونس\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"ما هو التفصيل المميز لجواز سفرك؟\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.017550414,
+  "prompt_tokens": 1929,
+  "prompt_time": 0.015578535,
+  "completion_tokens": 186,
+  "completion_time": 0.190363046,
+  "total_tokens": 2115,
+  "total_time": 0.205941581,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 57
+  }
+ },
+ "latency_s": 0.68
+}

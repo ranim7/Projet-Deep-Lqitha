@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-90ec01b1",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The item F-90ec01b1 matches the description of grey suede shoes with brogue perforations and brown heels found near Abou El Kacem Echebbi."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-90ec01b1\",\"relevance\":\"high\"}],\"answer\":\"The item F-90ec01b1 matches the description of grey suede shoes with brogue perforations and brown heels found near Abou El Kacem Echebbi.\"}",
+ "usage": {
+  "queue_time": 0.207128128,
+  "prompt_tokens": 383,
+  "prompt_time": 0.015764163,
+  "completion_tokens": 127,
+  "completion_time": 0.262210891,
+  "total_tokens": 510,
+  "total_time": 0.277975054,
+  "completion_tokens_details": {
+   "reasoning_tokens": 59
+  }
+ },
+ "latency_s": 1.14
+}

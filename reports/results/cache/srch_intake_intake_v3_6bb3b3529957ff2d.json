@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "en",
+  "slots": {
+   "item_category": "bottle",
+   "date_text": "5 days ago",
+   "date_iso": "2026-10-13",
+   "place_type": "other",
+   "place_name": "Pont du Fahs",
+   "governorate": "Tunis",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_search",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "bouteille perdue Pont du Fahs",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"en\",\"slots\":{\"item_category\":\"bottle\",\"date_text\":\"5 days ago\",\"date_iso\":\"2026-10-13\",\"place_type\":\"other\",\"place_name\":\"Pont du Fahs\",\"governorate\":\"Tunis\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_search\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"bouteille perdue Pont du Fahs\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.018271719,
+  "prompt_tokens": 1923,
+  "prompt_time": 0.02614399,
+  "completion_tokens": 178,
+  "completion_time": 0.180540589,
+  "total_tokens": 2101,
+  "total_time": 0.206684579,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 56
+  }
+ },
+ "latency_s": 0.74
+}

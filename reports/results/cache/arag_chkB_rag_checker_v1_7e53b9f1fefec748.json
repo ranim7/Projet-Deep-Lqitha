@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly states to inform Tunisair at baggage counter and fill PIR."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage mentions 'pièces justificatives' (supporting documents) but does not explicitly specify 'receipts for clothes/items bought during wait'."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage states claim for delayed baggage must be submitted within 21 days."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage mentions indemnification but does not explicitly state 'reimbursement of reasonable expenses for essential items'."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 6,
+    "label": "supported",
+    "reason": "Passage explicitly mentions completing a Property Irregularity Report (PIR)."
+   },
+   {
+    "step": 7,
+    "label": "partially",
+    "reason": "Passage mentions 'pièces justificatives' but does not explicitly list 'invoices for purchases during wait' as a specific required item."
+   },
+   {
+    "step": 8,
+    "label": "partially",
+    "reason": "Passage mentions PIR as proof/report but does not explicitly mention 'airport receipt' as a separate proof of loss/delay."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly states to inform Tunisair at baggage counter and fill PIR.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage mentions 'pièces justificatives' (supporting documents) but does not explicitly specify 'receipts for clothes/items bought during wait'.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage states claim for delayed baggage must be submitted within 21 days.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage mentions indemnification but does not explicitly state 'reimbursement of reasonable expenses for essential items'.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 6, \"label\": \"supported\", \"reason\": \"Passage explicitly mentions completing a Property Irregularity Report (PIR).\"}, {\"step\": 7, \"label\": \"partially\", \"reason\": \"Passage mentions 'pièces justificatives' but does not explicitly list 'invoices for purchases during wait' as a specific required item.\"}, {\"step\": 8, \"label\": \"partially\", \"reason\": \"Passage mentions PIR as proof/report but does not explicitly mention 'airport receipt' as a separate proof of loss/delay.\"}]}",
+ "usage": {
+  "queue_time": 0.048357486,
+  "prompt_tokens": 1397,
+  "prompt_time": 0.116290251,
+  "completion_tokens": 303,
+  "completion_time": 0.641493729,
+  "total_tokens": 1700,
+  "total_time": 0.75778398
+ },
+ "latency_s": 5.87
+}

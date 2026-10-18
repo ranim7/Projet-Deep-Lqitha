@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly states to inform Tunisair at baggage counter and fill PIR."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage mentions 'pièces justificatives' (supporting documents) but does not explicitly specify keeping receipts for clothes/items bought during wait."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage states claim for delayed baggage must be submitted within 21 days."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage mentions indemnification but does not explicitly state reimbursement for 'reasonable expenses' or 'first necessity items'."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly states to inform Tunisair at baggage counter and fill PIR.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage mentions 'pièces justificatives' (supporting documents) but does not explicitly specify keeping receipts for clothes/items bought during wait.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage states claim for delayed baggage must be submitted within 21 days.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage mentions indemnification but does not explicitly state reimbursement for 'reasonable expenses' or 'first necessity items'.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.049011127,
+  "prompt_tokens": 949,
+  "prompt_time": 0.076182584,
+  "completion_tokens": 181,
+  "completion_time": 0.395599569,
+  "total_tokens": 1130,
+  "total_time": 0.471782153
+ },
+ "latency_s": 1.19
+}

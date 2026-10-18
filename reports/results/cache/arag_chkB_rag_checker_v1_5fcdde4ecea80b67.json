@@ -1,0 +1,83 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly states to present immediately at the counter."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage explicitly states to fill out PIR and keep a copy with file number."
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Cited passage defines baggage types but does not list required documents for a claim."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "Cited passage defines baggage types but does not list required documents for a claim."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "Cited passage defines baggage types but does not list required documents for a claim."
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "Cited passage lists documents to present at the counter, not for a written claim, and does not mention detailed description."
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "Cited passage does not mention the 7-day deadline for damaged baggage claims."
+   },
+   {
+    "step": 9,
+    "label": "partially",
+    "reason": "21-day rule is in passage [2], but Montreal Convention is not mentioned in either passage."
+   },
+   {
+    "step": 10,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 11,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 12,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 13,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly states to present immediately at the counter.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage explicitly states to fill out PIR and keep a copy with file number.\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Cited passage defines baggage types but does not list required documents for a claim.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"Cited passage defines baggage types but does not list required documents for a claim.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"Cited passage defines baggage types but does not list required documents for a claim.\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"Cited passage lists documents to present at the counter, not for a written claim, and does not mention detailed description.\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"Cited passage does not mention the 7-day deadline for damaged baggage claims.\"}, {\"step\": 9, \"label\": \"partially\", \"reason\": \"21-day rule is in passage [2], but Montreal Convention is not mentioned in either passage.\"}, {\"step\": 10, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 11, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 12, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 13, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.106959464,
+  "prompt_tokens": 1622,
+  "prompt_time": 0.124923488,
+  "completion_tokens": 389,
+  "completion_time": 0.79535504,
+  "total_tokens": 2011,
+  "total_time": 0.920278528
+ },
+ "latency_s": 22.8
+}

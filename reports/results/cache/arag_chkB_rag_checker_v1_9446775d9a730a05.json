@@ -1,0 +1,53 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage explicitly states to hand over to station agent or police."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage mentions photo and Lqitha but cuts off before detailing hidden details or specific fields."
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "Passage is about bank cards, not ID cards; step claims ID card blocking via police."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage explicitly states to hand over to station agent or police.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage mentions photo and Lqitha but cuts off before detailing hidden details or specific fields.\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"Passage is about bank cards, not ID cards; step claims ID card blocking via police.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.193977962,
+  "prompt_tokens": 1005,
+  "prompt_time": 0.078519386,
+  "completion_tokens": 195,
+  "completion_time": 0.392800585,
+  "total_tokens": 1200,
+  "total_time": 0.471319971
+ },
+ "latency_s": 15.39
+}

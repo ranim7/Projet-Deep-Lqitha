@@ -1,0 +1,62 @@
+{
+ "parsed": {
+  "selection": [
+   {
+    "sub_question": 1,
+    "passages": [
+     {
+      "pid": 3,
+      "score": 3
+     }
+    ]
+   },
+   {
+    "sub_question": 2,
+    "passages": [
+     {
+      "pid": 4,
+      "score": 2
+     },
+     {
+      "pid": 5,
+      "score": 2
+     }
+    ]
+   },
+   {
+    "sub_question": 3,
+    "passages": [
+     {
+      "pid": 6,
+      "score": 3
+     },
+     {
+      "pid": 3,
+      "score": 2
+     }
+    ]
+   },
+   {
+    "sub_question": 4,
+    "passages": [
+     {
+      "pid": 3,
+      "score": 2
+     }
+    ]
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"selection\": [{\"sub_question\": 1, \"passages\": [{\"pid\": 3, \"score\": 3}]}, {\"sub_question\": 2, \"passages\": [{\"pid\": 4, \"score\": 2}, {\"pid\": 5, \"score\": 2}]}, {\"sub_question\": 3, \"passages\": [{\"pid\": 6, \"score\": 3}, {\"pid\": 3, \"score\": 2}]}, {\"sub_question\": 4, \"passages\": [{\"pid\": 3, \"score\": 2}]}]}",
+ "usage": {
+  "queue_time": 0.018382203,
+  "prompt_tokens": 912,
+  "prompt_time": 0.062663835,
+  "completion_tokens": 125,
+  "completion_time": 0.240105394,
+  "total_tokens": 1037,
+  "total_time": 0.302769229
+ },
+ "latency_s": 15.88
+}

@@ -1,0 +1,45 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "derja",
+  "slots": {
+   "item_category": "bank_card",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "other",
+   "place_name": "Ariana",
+   "governorate": "Ariana",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "date",
+   "photo",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Waqtech l9itou?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"derja\",\"slots\":{\"item_category\":\"bank_card\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"other\",\"place_name\":\"Ariana\",\"governorate\":\"Ariana\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"date\",\"photo\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Waqtech l9itou?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.299099642,
+  "prompt_tokens": 1914,
+  "prompt_time": 0.011714962,
+  "completion_tokens": 217,
+  "completion_time": 0.502449544,
+  "total_tokens": 2131,
+  "total_time": 0.514164506,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 94
+  }
+ },
+ "latency_s": 15.42
+}

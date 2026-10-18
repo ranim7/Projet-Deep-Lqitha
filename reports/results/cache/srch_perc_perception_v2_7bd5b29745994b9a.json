@@ -1,0 +1,39 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": null,
+  "color_detail": null,
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [
+   "cash",
+   "cards"
+  ],
+  "visible_text": null,
+  "contains_sensitive_document": true,
+  "canonical_description": "Sling bag containing cash and cards.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.0,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":null,\"color_detail\":null,\"material\":null,\"distinctive_marks\":[],\"contents\":[\"cash\",\"cards\"],\"visible_text\":null,\"contains_sensitive_document\":true,\"canonical_description\":\"Sling bag containing cash and cards.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.0,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.051543272,
+  "prompt_tokens": 838,
+  "prompt_time": 0.046305992,
+  "completion_tokens": 257,
+  "completion_time": 0.263506237,
+  "total_tokens": 1095,
+  "total_time": 0.309812229,
+  "completion_tokens_details": {
+   "reasoning_tokens": 160
+  }
+ },
+ "latency_s": 0.92
+}

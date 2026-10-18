@@ -1,0 +1,104 @@
+{
+ "parsed": {
+  "summary": "Ahlan! Nchallah n3awnek t7ell el moshkila mta3 el bag, el téléphone w el carte bancaire li tfa9douhom fel taxi.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Appelez le service client de votre banque (numéro au dos de la carte ou via l'application) pour faire opposition immédiate de la carte bancaire [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Bloquez le téléphone à distance avec \"Find My\" (iPhone) ou \"Find My Device\" (Android) et changez les mots de passe des comptes sensibles [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) depuis un autre téléphone pour suspendre la carte SIM et demander une nouvelle SIM en agence avec votre pièce d’identité [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "now",
+    "action": "Déposez une plainte au poste de police le plus proche (urgence 197) en indiquant le numéro IMEI du téléphone et la description du bag contenant les objets [3,5]",
+    "cites": [
+     3,
+     5
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Rendez-vous à votre agence bancaire avec le récépissé de plainte pour demander l’émission d’une nouvelle carte bancaire [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Déclarez la perte du bag (et de son contenu) sur la plateforme Lqitha en précisant couleur, marque, signes distinctifs et le lieu (taxi) [5]",
+    "cites": [
+     5
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Si vous avez un reçu ou l’identifiant du chauffeur de taxi, contactez‑le via l’application de réservation ou le numéro indiqué pour tenter de récupérer le bag [5]",
+    "cites": [
+     5
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Demandez à la police le récépissé de déclaration de perte pour le présenter aux éventuelles démarches administratives (ex. renouvellement de documents) [6]",
+    "cites": [
+     6
+    ]
+   }
+  ],
+  "documents": [
+   "Récépissé de plainte de police",
+   "Pièce d’identité (CIN ou passeport) pour la demande de nouvelle carte SIM",
+   "Numéro IMEI du téléphone"
+  ],
+  "deadlines": [],
+  "coverage": [
+   {
+    "item": "bank_card",
+    "covered": true
+   },
+   {
+    "item": "phone",
+    "covered": true
+   },
+   {
+    "item": "bag",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "police_declaration",
+   "title": "Déclaration de perte d'objets dans un taxi",
+   "body": "Je soussigné(e) [Nom] [Prénom], titulaire de la carte d'identité nationale n° [N° CIN], résidant à [Adresse], déclare avoir perdu le [date_iso] à [heure approximative] dans un taxi à Tunis. Le bag contenait un téléphone mobile (marque, modèle, IMEI *#06#) et une carte bancaire. Je joins le récépissé de plainte et demande l’enregistrement de cette perte.\n\nFait à Tunis, le [date_iso]\nSignature : __________________"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"summary\": \"Ahlan! Nchallah n3awnek t7ell el moshkila mta3 el bag, el téléphone w el carte bancaire li tfa9douhom fel taxi.\",\n  \"steps\": [\n    {\n      \"when\": \"now\",\n      \"action\": \"Appelez le service client de votre banque (numéro au dos de la carte ou via l'application) pour faire opposition immédiate de la carte bancaire [1]\",\n      \"cites\": [1]\n    },\n    {\n      \"when\": \"now\",\n      \"action\": \"Bloquez le téléphone à distance avec \\\"Find My\\\" (iPhone) ou \\\"Find My Device\\\" (Android) et changez les mots de passe des comptes sensibles [3]\",\n      \"cites\": [3]\n    },\n    {\n      \"when\": \"now\",\n      \"action\": \"Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) depuis un autre téléphone pour suspendre la carte SIM et demander une nouvelle SIM en agence avec votre pièce d’identité [3]\",\n      \"cites\": [3]\n    },\n    {\n      \"when\": \"now\",\n      \"action\": \"Déposez une plainte au poste de police le plus proche (urgence 197) en indiquant le numéro IMEI du téléphone et la description du bag contenant les objets [3,5]\",\n      \"cites\": [3,5]\n    },\n    {\n      \"when\": \"today\",\n      \"action\": \"Rendez-vous à votre agence bancaire avec le récépissé de plainte pour demander l’émission d’une nouvelle carte bancaire [1]\",\n      \"cites\": [1]\n    },\n    {\n      \"when\": \"today\",\n      \"action\": \"Déclarez la perte du bag (et de son contenu) sur la plateforme Lqitha en précisant couleur, marque, signes distinctifs et le lieu (taxi) [5]\",\n      \"cites\": [5]\n    },\n    {\n      \"when\": \"today\",\n      \"action\": \"Si vous avez un reçu ou l’identifiant du chauffeur de taxi, contactez‑le via l’application de réservation ou le numéro indiqué pour tenter de récupérer le bag [5]\",\n      \"cites\": [5]\n    },\n    {\n      \"when\": \"later\",\n      \"action\": \"Demandez à la police le récépissé de déclaration de perte pour le présenter aux éventuelles démarches administratives (ex. renouvellement de documents) [6]\",\n      \"cites\": [6]\n    }\n  ],\n  \"documents\": [\n    \"Récépissé de plainte de police\",\n    \"Pièce d’identité (CIN ou passeport) pour la demande de nouvelle carte SIM\",\n    \"Numéro IMEI du téléphone\"\n  ],\n  \"deadlines\": [],\n  \"coverage\": [\n    {\"item\": \"bank_card\", \"covered\": true},\n    {\"item\": \"phone\", \"covered\": true},\n    {\"item\": \"bag\", \"covered\": true}\n  ],\n  \"letter\": {\n    \"type\": \"police_declaration\",\n    \"title\": \"Déclaration de perte d'objets dans un taxi\",\n    \"body\": \"Je soussigné(e) [Nom] [Prénom], titulaire de la carte d'identité nationale n° [N° CIN], résidant à [Adresse], déclare avoir perdu le [date_iso] à [heure approximative] dans un taxi à Tunis. Le bag contenait un téléphone mobile (marque, modèle, IMEI *#06#) et une carte bancaire. Je joins le récépissé de plainte et demande l’enregistrement de cette perte.\\n\\nFait à Tunis, le [date_iso]\\nSignature : __________________\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.218731263,
+  "prompt_tokens": 2044,
+  "prompt_time": 0.136050624,
+  "completion_tokens": 871,
+  "completion_time": 1.8070157569999998,
+  "total_tokens": 2915,
+  "total_time": 1.943066381,
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  }
+ },
+ "latency_s": 5.84
+}

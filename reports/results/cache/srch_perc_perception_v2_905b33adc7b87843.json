@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "bottle",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "multicolor",
+  "color_detail": "multicolor",
+  "material": null,
+  "distinctive_marks": [
+   "multicolore eono avec citron"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Multicolor bottle with lemon, found in Les Orangers, Manouba, lost 10 days ago.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bottle\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"multicolor\",\"color_detail\":\"multicolor\",\"material\":null,\"distinctive_marks\":[\"multicolore eono avec citron\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Multicolor bottle with lemon, found in Les Orangers, Manouba, lost 10 days ago.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.046919996,
+  "prompt_tokens": 857,
+  "prompt_time": 0.047122448,
+  "completion_tokens": 227,
+  "completion_time": 0.238198497,
+  "total_tokens": 1084,
+  "total_time": 0.285320945,
+  "completion_tokens_details": {
+   "reasoning_tokens": 109
+  }
+ },
+ "latency_s": 0.95
+}

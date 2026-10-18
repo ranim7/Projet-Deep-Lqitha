@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-90ec01b1",
+    "relevance": "high",
+    "reason": "matches colour grey, suede, brogue perforations and brown heels; same place and date"
+   }
+  ],
+  "answer": "We found 1 high‑relevance item: F-90ec01b1 at Abou El Kacem Echebbi on 2026-10-05. No extra filters were needed. Please open the item and press \"C'est peut-être à moi\", or declare the loss to be notified automatically."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-90ec01b1\",\"relevance\":\"high\",\"reason\":\"matches colour grey, suede, brogue perforations and brown heels; same place and date\"}],\"answer\":\"We found 1 high‑relevance item: F-90ec01b1 at Abou El Kacem Echebbi on 2026-10-05. No extra filters were needed. Please open the item and press \\\"C'est peut-être à moi\\\", or declare the loss to be notified automatically.\"}",
+ "usage": {
+  "queue_time": 0.01882317,
+  "prompt_tokens": 915,
+  "prompt_time": 0.038599091,
+  "completion_tokens": 226,
+  "completion_time": 0.473910982,
+  "total_tokens": 1141,
+  "total_time": 0.512510073,
+  "completion_tokens_details": {
+   "reasoning_tokens": 108
+  }
+ },
+ "latency_s": 1.15
+}

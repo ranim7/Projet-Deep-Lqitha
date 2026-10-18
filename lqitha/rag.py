@@ -238,10 +238,35 @@ KB_TYPE_MAP = {
 }
 
 
-def search(query, strategy="recursive", mode="dense", top_k=5, item_type=None, fetch_k=20):
+# source families of the knowledge base (used by the agentic RAG to route each sub-question)
+SOURCE_FAMILIES = {
+    "administration": ["idaraty_passport_duplicate_tn", "idaraty_passport_duplicate_abroad", "idaraty_family_booklet_duplicate",
+                       "netherlands_emergency_document_tunisia"],
+    "law": ["law_2024_22_national_id_card", "montreal_convention_1999_text_fr", "icao_montreal_convention_1999_fr"],
+    "operator": ["tunisair_passenger_protection_2026", "guide_lost_bank_card_tunisia"],
+    "sop": ["sop_airport_lost_item", "sop_found_item_what_to_do", "sop_lost_bank_card", "sop_lost_identity_documents",
+            "sop_lost_phone", "sop_lqitha_service", "sop_public_transport_lost_item"],
+}
+DOC_SOURCE = {d: fam for fam, docs in SOURCE_FAMILIES.items() for d in docs}
+
+
+def source_of(doc_id):
+    return DOC_SOURCE.get(doc_id, "sop" if str(doc_id).startswith("sop_") else "administration")
+
+
+def search(query, strategy="recursive", mode="dense", top_k=5, item_type=None, fetch_k=20, sources=None):
     col = collection(strategy)
     allowed_types = KB_TYPE_MAP.get(item_type or "", None)
-    where = {"item_type": {"$in": allowed_types + ["general"]}} if allowed_types else None
+    conds = []
+    if allowed_types:
+        conds.append({"item_type": {"$in": allowed_types + ["general"]}})
+    if sources:
+        docs = [d for s in sources for d in SOURCE_FAMILIES.get(s, [])]
+        if docs:
+            conds.append({"doc_id": {"$in": docs}})
+    where = None if not conds else (conds[0] if len(conds) == 1 else {"$and": conds})
+    if mode != "dense" and sources:
+        mode = "dense"   # source routing is only used with dense retrieval (best configuration)
     qv = embed([query])[0]
     res = col.query(query_embeddings=[qv], n_results=fetch_k, where=where,
                     include=["documents", "metadatas", "distances"])
@@ -270,3 +295,43 @@ def search(query, strategy="recursive", mode="dense", top_k=5, item_type=None, f
 
 def format_context(hits):
     return "\n\n".join(f"[{i + 1}] ({h['authority']} - {h['url']})\n{h['text']}" for i, h in enumerate(hits))
+
+
+# ----------------------------------------------------------------------------- agentic RAG (recovery plan)
+KB_ITEM_TAGS = {"national_id", "passport", "family_booklet", "driving_licence", "bank_card", "baggage", "phone", "general"}
+
+
+def multi_search(sub_questions, per_question=3, max_passages=15, strategy="recursive"):
+    """Retrieval step of the agentic RAG: one dense search per sub-question, routed to its source families and
+    item type (from the planner agent). If routing is too narrow (< 2 hits) the sub-question falls back to the whole
+    knowledge base. Passages are de-duplicated and keep the list of sub-questions they were retrieved for."""
+    passages, order = {}, []
+    for qi, sq in enumerate(sub_questions[:5], start=1):
+        q = (sq.get("q") or sq.get("query") or "").strip()
+        if not q:
+            continue
+        tag = sq.get("item_type") if sq.get("item_type") in KB_ITEM_TAGS else None
+        srcs = [s for s in (sq.get("sources") or []) if s in SOURCE_FAMILIES] or None
+        hits = search(q, strategy, "dense", top_k=per_question, item_type=None if tag == "general" else tag, sources=srcs)
+        routed = True
+        if len(hits) < 2:
+            hits, routed = search(q, strategy, "dense", top_k=per_question), False
+        for h in hits:
+            p = passages.get(h["id"])
+            if p is None:
+                p = {"id": h["id"], "doc_id": h["doc_id"], "source": source_of(h["doc_id"]), "authority": h["authority"],
+                     "url": h["url"], "text": h["text"], "for": [], "score": 0.0, "routed": routed}
+                passages[h["id"]] = p
+                order.append(h["id"])
+            p["for"].append(qi)
+            p["score"] = round(max(p["score"], h.get("dense", 0)), 4)
+    out = [passages[i] for i in order][:max_passages]
+    for k, p in enumerate(out, start=1):
+        p["pid"] = k
+    return out
+
+
+def candidates_text(passages, chars=320):
+    """Compact view of the candidate passages for the re-ranking agent (token budget)."""
+    return "\n".join(f"P{p['pid']} [{p['source']} | {p['doc_id']} | for Q{','.join(map(str, p['for']))}] "
+                     f"{' '.join(p['text'].split())[:chars]}" for p in passages)

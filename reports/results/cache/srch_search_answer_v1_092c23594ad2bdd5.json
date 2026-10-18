@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-a3e61ce4",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The item F-a3e61ce4 matches the description of a white baseball cap with a black star logo and was found at the Nabeul transport office in Kélibia."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-a3e61ce4\",\"relevance\":\"high\"}],\"answer\":\"The item F-a3e61ce4 matches the description of a white baseball cap with a black star logo and was found at the Nabeul transport office in Kélibia.\"}",
+ "usage": {
+  "queue_time": 0.298991471,
+  "prompt_tokens": 623,
+  "prompt_time": 0.029206036,
+  "completion_tokens": 125,
+  "completion_time": 0.258399819,
+  "total_tokens": 748,
+  "total_time": 0.287605855,
+  "completion_tokens_details": {
+   "reasoning_tokens": 55
+  }
+ },
+ "latency_s": 1.23
+}

@@ -1,0 +1,48 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "unsupported",
+    "reason": "Passage mentions risks but does not state to call police (197) or national guard (193)."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage mentions opposition and agency options, but does not list specific data to prepare (name, DOB, IBAN)."
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "Passage is about bank cards, not identity cards or prefecture."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage mentions temporary freeze/opposition, but does not explicitly mention requesting a duplicate or virtual card."
+   },
+   {
+    "step": 5,
+    "label": "supported",
+    "reason": "Passage explicitly lists keeping copies of opposition, complaint, and exchanges for disputes."
+   },
+   {
+    "step": 6,
+    "label": "partially",
+    "reason": "Passage mentions fraud risks (payments/withdrawals) but does not explicitly instruct to monitor the account."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"unsupported\", \"reason\": \"Passage mentions risks but does not state to call police (197) or national guard (193).\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage mentions opposition and agency options, but does not list specific data to prepare (name, DOB, IBAN).\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"Passage is about bank cards, not identity cards or prefecture.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage mentions temporary freeze/opposition, but does not explicitly mention requesting a duplicate or virtual card.\"}, {\"step\": 5, \"label\": \"supported\", \"reason\": \"Passage explicitly lists keeping copies of opposition, complaint, and exchanges for disputes.\"}, {\"step\": 6, \"label\": \"partially\", \"reason\": \"Passage mentions fraud risks (payments/withdrawals) but does not explicitly instruct to monitor the account.\"}]}",
+ "usage": {
+  "queue_time": 0.018685731,
+  "prompt_tokens": 1304,
+  "prompt_time": 0.112892032,
+  "completion_tokens": 232,
+  "completion_time": 0.474924083,
+  "total_tokens": 1536,
+  "total_time": 0.587816115
+ },
+ "latency_s": 1.2
+}

@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-ffd37c58",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The item F-ffd37c58 matches the request: a black leather bifold wallet with a health card found at the yellow louage station in Kairouan on 2026-10-06, which is 12 days ago."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-ffd37c58\",\"relevance\":\"high\"}],\"answer\":\"The item F-ffd37c58 matches the request: a black leather bifold wallet with a health card found at the yellow louage station in Kairouan on 2026-10-06, which is 12 days ago.\"}",
+ "usage": {
+  "queue_time": 0.294224707,
+  "prompt_tokens": 590,
+  "prompt_time": 0.028003701,
+  "completion_tokens": 208,
+  "completion_time": 0.432132337,
+  "total_tokens": 798,
+  "total_time": 0.460136038,
+  "completion_tokens_details": {
+   "reasoning_tokens": 127
+  }
+ },
+ "latency_s": 1.4
+}

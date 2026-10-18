@@ -1,0 +1,70 @@
+{
+ "parsed": {
+  "summary": "You lost a bag with your phone and bank card in a taxi in Tunisia. You need to block the card, secure the phone, and report the loss to the police (and optionally on Lqitha) to protect your accounts and obtain a replacement ID documents if needed.",
+  "steps": [
+   {
+    "when": "Immediately (within the first hour)",
+    "action": "Call your bank’s emergency number (found on the back of the card or in the mobile app) and request an opposition/block on the card. If your banking app allows, block it directly from the app. Verify recent transactions for any unauthorized activity.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Immediately after the card is blocked",
+    "action": "Contact your mobile operator (Tunisie Telecom, Ooredoo, or Orange) from another phone and ask them to suspend the SIM. Request a new SIM with the same number, providing your ID. If the phone is not locked, use Find My iPhone or Find My Device to locate or remotely lock/wipe it.",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "Within the same day",
+    "action": "File a police report for the loss/ theft of the bag, phone and card. Call the police emergency line (197) or the national guard (193) and obtain an attestation of loss. Include details: taxi type, color, time, route, and any receipt or app reference.",
+    "cites": [
+     3,
+     5
+    ]
+   },
+   {
+    "when": "After the police report",
+    "action": "Report the loss on the Lqitha platform, providing a detailed description of the bag, phone (brand, model, IMEI), and card. Attach the police attestation if possible. This increases the chance of recovery and creates an official record.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "when": "After the card is blocked and police report filed",
+    "action": "Request a new bank card from your branch or via the app. Keep the opposition receipt for reference.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "If you need a new national ID or passport later",
+    "action": "Use the police attestation to request a duplicate CIN or passport within 30 days, as required by Loi organique n° 2024‑22.",
+    "cites": [
+     6,
+     7
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"You lost a bag with your phone and bank card in a taxi in Tunisia. You need to block the card, secure the phone, and report the loss to the police (and optionally on Lqitha) to protect your accounts and obtain a replacement ID documents if needed.\",\"steps\":[{\"when\":\"Immediately (within the first hour)\",\"action\":\"Call your bank’s emergency number (found on the back of the card or in the mobile app) and request an opposition/block on the card. If your banking app allows, block it directly from the app. Verify recent transactions for any unauthorized activity.\",\"cites\":[1]},{\"when\":\"Immediately after the card is blocked\",\"action\":\"Contact your mobile operator (Tunisie Telecom, Ooredoo, or Orange) from another phone and ask them to suspend the SIM. Request a new SIM with the same number, providing your ID. If the phone is not locked, use Find My iPhone or Find My Device to locate or remotely lock/wipe it.\",\"cites\":[3]},{\"when\":\"Within the same day\",\"action\":\"File a police report for the loss/ theft of the bag, phone and card. Call the police emergency line (197) or the national guard (193) and obtain an attestation of loss. Include details: taxi type, color, time, route, and any receipt or app reference.\",\"cites\":[3,5]},{\"when\":\"After the police report\",\"action\":\"Report the loss on the Lqitha platform, providing a detailed description of the bag, phone (brand, model, IMEI), and card. Attach the police attestation if possible. This increases the chance of recovery and creates an official record.\",\"cites\":[4,5]},{\"when\":\"After the card is blocked and police report filed\",\"action\":\"Request a new bank card from your branch or via the app. Keep the opposition receipt for reference.\",\"cites\":[1]},{\"when\":\"If you need a new national ID or passport later\",\"action\":\"Use the police attestation to request a duplicate CIN or passport within 30 days, as required by Loi organique n° 2024‑22.\",\"cites\":[6,7]}],\"documents\":[],\"deadlines\":[],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.211066023,
+  "prompt_tokens": 1637,
+  "prompt_time": 0.15360204,
+  "completion_tokens": 482,
+  "completion_time": 1.004459525,
+  "total_tokens": 2119,
+  "total_time": 1.158061565,
+  "completion_tokens_details": {
+   "reasoning_tokens": 13
+  }
+ },
+ "latency_s": 1.96
+}

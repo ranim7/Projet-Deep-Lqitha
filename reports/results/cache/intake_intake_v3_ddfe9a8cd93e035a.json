@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "keys",
+   "date_text": "lyoum",
+   "date_iso": "2026-10-14",
+   "place_type": null,
+   "place_name": "Carrefour La Marsa",
+   "governorate": "Tunis",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Kifesh n9dar n3awnek? Chnowa type d'endroit ta3 parking Carrefour La Marsa?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.85
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"keys\",\"date_text\":\"lyoum\",\"date_iso\":\"2026-10-14\",\"place_type\":null,\"place_name\":\"Carrefour La Marsa\",\"governorate\":\"Tunis\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Kifesh n9dar n3awnek? Chnowa type d'endroit ta3 parking Carrefour La Marsa?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.85}",
+ "usage": {
+  "queue_time": 0.207205743,
+  "prompt_tokens": 1922,
+  "prompt_time": 0.011762846,
+  "completion_tokens": 429,
+  "completion_time": 0.513552928,
+  "total_tokens": 2351,
+  "total_time": 0.525315774,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 283
+  }
+ },
+ "latency_s": 4.43
+}

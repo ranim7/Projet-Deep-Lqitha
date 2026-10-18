@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "wallet",
+   "date_text": "lbera7",
+   "date_iso": "2026-10-17",
+   "place_type": "louage",
+   "place_name": "Sousse",
+   "governorate": "Sousse",
+   "distinctive_detail": "wallet with ID and bank card",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_perception",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"wallet\",\"date_text\":\"lbera7\",\"date_iso\":\"2026-10-17\",\"place_type\":\"louage\",\"place_name\":\"Sousse\",\"governorate\":\"Sousse\",\"distinctive_detail\":\"wallet with ID and bank card\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_perception\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.206675151,
+  "prompt_tokens": 1935,
+  "prompt_time": 0.122874349,
+  "completion_tokens": 273,
+  "completion_time": 0.29499383,
+  "total_tokens": 2208,
+  "total_time": 0.417868179,
+  "completion_tokens_details": {
+   "reasoning_tokens": 155
+  }
+ },
+ "latency_s": 1.16
+}

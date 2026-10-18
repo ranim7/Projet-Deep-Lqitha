@@ -1,0 +1,47 @@
+{
+ "parsed": {
+  "queries": [
+   {
+    "id": "F-3e316d5e",
+    "message": "fama chkoun l9a headphones white wired b remote star, 12 days ago fella Den Den?"
+   },
+   {
+    "id": "F-e83c3621",
+    "message": "Quelqu'un a trouvé un sac noir à roulettes, perdu il y a 8 jours à la Gare routière de Kairouan?"
+   },
+   {
+    "id": "F-90ec01b1",
+    "message": "Has anyone seen grey suede shoes with brogue perforations and brown heels, lost 13 days ago near Abou El Kacem Echebbi?"
+   },
+   {
+    "id": "F-56eed07c",
+    "message": "fama chkoun l9a clef de voiture, 13 days ago fella Gare des louages longues lignes Kebili?"
+   },
+   {
+    "id": "F-28c4a22f",
+    "message": "Quelqu'un a ramassé un sac avec portable, argent et chargeur, perdu il y a 13 jours à El Jem?"
+   },
+   {
+    "id": "F-cdfc7770",
+    "message": "Has anyone found a water bottle lost 5 days ago at Pont du Fahs?"
+   },
+   {
+    "id": "F-8d8f3475",
+    "message": "fama chkoun l9a sac sling b cash w cartes, 9 days ago fella مفاتيح Tataouine?"
+   }
+  ]
+ },
+ "raw": "{\"queries\":[{\"id\":\"F-3e316d5e\",\"message\":\"fama chkoun l9a headphones white wired b remote star, 12 days ago fella Den Den?\"},{\"id\":\"F-e83c3621\",\"message\":\"Quelqu'un a trouvé un sac noir à roulettes, perdu il y a 8 jours à la Gare routière de Kairouan?\"},{\"id\":\"F-90ec01b1\",\"message\":\"Has anyone seen grey suede shoes with brogue perforations and brown heels, lost 13 days ago near Abou El Kacem Echebbi?\"},{\"id\":\"F-56eed07c\",\"message\":\"fama chkoun l9a clef de voiture, 13 days ago fella Gare des louages longues lignes Kebili?\"},{\"id\":\"F-28c4a22f\",\"message\":\"Quelqu'un a ramassé un sac avec portable, argent et chargeur, perdu il y a 13 jours à El Jem?\"},{\"id\":\"F-cdfc7770\",\"message\":\"Has anyone found a water bottle lost 5 days ago at Pont du Fahs?\"},{\"id\":\"F-8d8f3475\",\"message\":\"fama chkoun l9a sac sling b cash w cartes, 9 days ago fella مفاتيح Tataouine?\"}]}",
+ "usage": {
+  "queue_time": 0.20754278,
+  "prompt_tokens": 1052,
+  "prompt_time": 0.041887348,
+  "completion_tokens": 500,
+  "completion_time": 1.03268139,
+  "total_tokens": 1552,
+  "total_time": 1.074568738,
+  "completion_tokens_details": {
+   "reasoning_tokens": 187
+  }
+ }
+}

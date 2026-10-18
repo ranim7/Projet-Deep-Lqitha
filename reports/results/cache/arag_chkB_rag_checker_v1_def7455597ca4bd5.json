@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "unsupported",
+    "reason": "Passage does not mention police, national guard, or IMEI number."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage supports contacting operator to suspend SIM, but does not mention requesting a new SIM or presenting ID."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage explicitly mentions addressing the station agent and depositing items at the terminus or depot."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Passage does not mention the platform 'Lqitha' or providing specific descriptions like color/brand."
+   },
+   {
+    "step": 5,
+    "label": "supported",
+    "reason": "Passage explicitly states to change important passwords (email, social media, bank) if the phone was not locked."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"unsupported\", \"reason\": \"Passage does not mention police, national guard, or IMEI number.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage supports contacting operator to suspend SIM, but does not mention requesting a new SIM or presenting ID.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage explicitly mentions addressing the station agent and depositing items at the terminus or depot.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Passage does not mention the platform 'Lqitha' or providing specific descriptions like color/brand.\"}, {\"step\": 5, \"label\": \"supported\", \"reason\": \"Passage explicitly states to change important passwords (email, social media, bank) if the phone was not locked.\"}]}",
+ "usage": {
+  "queue_time": 0.103682308,
+  "prompt_tokens": 1216,
+  "prompt_time": 0.109146597,
+  "completion_tokens": 193,
+  "completion_time": 0.404738519,
+  "total_tokens": 1409,
+  "total_time": 0.513885116
+ },
+ "latency_s": 1.24
+}

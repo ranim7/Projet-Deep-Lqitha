@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-8f945af5",
+    "relevance": "high",
+    "reason": "correspondance exacte couleur rose, accents bleus, fermetures blanches, même lieu et date"
+   }
+  ],
+  "answer": "Nous avons trouvé 1 article très pertinent : F-8f945af5, sac à dos rose avec accents bleus et fermetures blanches, trouvé à Mellassine le 12/10/2026. Ouvrez cet article et cliquez sur \"C'est peut-être à moi\" ou déclarez la perte pour être notifié automatiquement."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-8f945af5\",\"relevance\":\"high\",\"reason\":\"correspondance exacte couleur rose, accents bleus, fermetures blanches, même lieu et date\"}],\"answer\":\"Nous avons trouvé 1 article très pertinent : F-8f945af5, sac à dos rose avec accents bleus et fermetures blanches, trouvé à Mellassine le 12/10/2026. Ouvrez cet article et cliquez sur \\\"C'est peut-être à moi\\\" ou déclarez la perte pour être notifié automatiquement.\"}",
+ "usage": {
+  "queue_time": 0.245541574,
+  "prompt_tokens": 1073,
+  "prompt_time": 0.089135593,
+  "completion_tokens": 188,
+  "completion_time": 0.389541424,
+  "total_tokens": 1261,
+  "total_time": 0.478677017,
+  "completion_tokens_details": {
+   "reasoning_tokens": 58
+  }
+ },
+ "latency_s": 1.34
+}

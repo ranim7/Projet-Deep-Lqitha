@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Sbah el khir! Si tu as trouvé un portefeuille avec une carte d’identité dans le métro, voici ce qu’il faut faire :\n\n1. **Déposez l’objet** : Remettez le portefeuille à l’agent de la station de métro ou, s’il n’y en a pas, au poste de police le plus proche [1].\n2. **Déclarez sur Lqitha** : Prenez une photo du portefeuille (sans montrer les numéros de la carte) et indiquez le lieu, la date et l’endroit où vous l’avez déposé. Ajoutez un détail caché que seul le propriétaire pourra connaître pour faciliter la vérification [1].\n3. **Bloquez la carte d’identité** : Si la carte d’identité est une carte officielle, contactez immédiatement la police ou la garde nationale pour faire opposition, surtout si vous pensez qu’elle a été volée. Le récépissé de plainte peut être demandé par la banque ou les autorités compétentes [2].\n4. **Suivi** : Attendez la confirmation de la police ou de Lqitha que le propriétaire a récupéré son bien. Si vous n’obtenez pas de retour, vous pouvez contacter le service client de Lqitha pour un suivi supplémentaire.\n\n**Documents**\n- Photo du portefeuille (sans numéros visibles)\n- Détail caché (ex. couleur d’un porte‑cartes, inscription intérieure)\n- Récépissé de dépôt (si fourni par la police ou Lqitha)",
+  "used_sources": [
+   1,
+   2
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Sbah el khir! Si tu as trouvé un portefeuille avec une carte d’identité dans le métro, voici ce qu’il faut faire :\\n\\n1. **Déposez l’objet** : Remettez le portefeuille à l’agent de la station de métro ou, s’il n’y en a pas, au poste de police le plus proche [1].\\n2. **Déclarez sur Lqitha** : Prenez une photo du portefeuille (sans montrer les numéros de la carte) et indiquez le lieu, la date et l’endroit où vous l’avez déposé. Ajoutez un détail caché que seul le propriétaire pourra connaître pour faciliter la vérification [1].\\n3. **Bloquez la carte d’identité** : Si la carte d’identité est une carte officielle, contactez immédiatement la police ou la garde nationale pour faire opposition, surtout si vous pensez qu’elle a été volée. Le récépissé de plainte peut être demandé par la banque ou les autorités compétentes [2].\\n4. **Suivi** : Attendez la confirmation de la police ou de Lqitha que le propriétaire a récupéré son bien. Si vous n’obtenez pas de retour, vous pouvez contacter le service client de Lqitha pour un suivi supplémentaire.\\n\\n**Documents**\\n- Photo du portefeuille (sans numéros visibles)\\n- Détail caché (ex. couleur d’un porte‑cartes, inscription intérieure)\\n- Récépissé de dépôt (si fourni par la police ou Lqitha)\",\"used_sources\":[1,2],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.02236131,
+  "prompt_tokens": 1472,
+  "prompt_time": 0.153835007,
+  "completion_tokens": 374,
+  "completion_time": 0.406783651,
+  "total_tokens": 1846,
+  "total_time": 0.560618658,
+  "completion_tokens_details": {
+   "reasoning_tokens": 24
+  }
+ },
+ "latency_s": 1.19
+}

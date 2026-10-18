@@ -1,0 +1,59 @@
+{
+ "parsed": {
+  "situation": "Lost luggage did not arrive at Tunis-Carthage airport after a Tunisair flight from Paris on 2026-10-17",
+  "affected_items": [
+   "luggage"
+  ],
+  "urgency": "normal",
+  "sub_questions": [
+   {
+    "q": "Comment déposer une réclamation auprès de Tunisair pour un bagage perdu ?",
+    "sources": [
+     "operator"
+    ],
+    "item_type": "baggage",
+    "need": "airline claim"
+   },
+   {
+    "q": "Où puis-je chercher mon bagage ou déclarer sa perte à l'aéroport de Tunis-Carthage ?",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "search or declare at airport"
+   },
+   {
+    "q": "Quelles sont les démarches officielles pour déclarer un bagage perdu à l'aéroport ?",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "official declaration"
+   },
+   {
+    "q": "Quels sont les délais et les conditions de compensation pour un bagage perdu selon la Convention de Montréal ?",
+    "sources": [
+     "law"
+    ],
+    "item_type": "baggage",
+    "need": "compensation deadlines"
+   }
+  ],
+  "letter": "airline_claim"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Lost luggage did not arrive at Tunis-Carthage airport after a Tunisair flight from Paris on 2026-10-17\",\"affected_items\":[\"luggage\"],\"urgency\":\"normal\",\"sub_questions\":[{\"q\":\"Comment déposer une réclamation auprès de Tunisair pour un bagage perdu ?\",\"sources\":[\"operator\"],\"item_type\":\"baggage\",\"need\":\"airline claim\"},{\"q\":\"Où puis-je chercher mon bagage ou déclarer sa perte à l'aéroport de Tunis-Carthage ?\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"search or declare at airport\"},{\"q\":\"Quelles sont les démarches officielles pour déclarer un bagage perdu à l'aéroport ?\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"official declaration\"},{\"q\":\"Quels sont les délais et les conditions de compensation pour un bagage perdu selon la Convention de Montréal ?\",\"sources\":[\"law\"],\"item_type\":\"baggage\",\"need\":\"compensation deadlines\"}],\"letter\":\"airline_claim\"}",
+ "usage": {
+  "queue_time": 0.017049047,
+  "prompt_tokens": 989,
+  "prompt_time": 0.052361444,
+  "completion_tokens": 271,
+  "completion_time": 0.287076056,
+  "total_tokens": 1260,
+  "total_time": 0.3394375,
+  "completion_tokens_details": {
+   "reasoning_tokens": 50
+  }
+ },
+ "latency_s": 0.8
+}

@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-e83c3621",
+    "relevance": "high"
+   }
+  ],
+  "answer": "Le sac noir à roulettes trouvé correspond à l'annonce F-e83c3621, découvert à la Gare routière de Kairouan le 2026-10-10, soit il y a 8 jours."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-e83c3621\",\"relevance\":\"high\"}],\"answer\":\"Le sac noir à roulettes trouvé correspond à l'annonce F-e83c3621, découvert à la Gare routière de Kairouan le 2026-10-10, soit il y a 8 jours.\"}",
+ "usage": {
+  "queue_time": 0.304423079,
+  "prompt_tokens": 517,
+  "prompt_time": 0.020193874,
+  "completion_tokens": 150,
+  "completion_time": 0.312920535,
+  "total_tokens": 667,
+  "total_time": 0.333114409,
+  "completion_tokens_details": {
+   "reasoning_tokens": 73
+  }
+ },
+ "latency_s": 1.26
+}

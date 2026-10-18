@@ -1,0 +1,52 @@
+{
+ "parsed": {
+  "situation": "Lost Tunisian passport while staying in France",
+  "affected_items": [
+   "passport"
+  ],
+  "urgency": "normal",
+  "sub_questions": [
+   {
+    "q": "Où puis-je déclarer la perte de mon passeport tunisien en France ?",
+    "sources": [
+     "administration"
+    ],
+    "item_type": "passport",
+    "need": "declare loss abroad"
+   },
+   {
+    "q": "Quel est le délai pour obtenir un duplicata de passeport tunisien après une perte à l'étranger ?",
+    "sources": [
+     "administration",
+     "law"
+    ],
+    "item_type": "passport",
+    "need": "replacement deadline"
+   },
+   {
+    "q": "Dois-je faire opposition sur mon passeport perdu ou est-ce uniquement pour les cartes bancaires ?",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "passport",
+    "need": "block passport"
+   }
+  ],
+  "letter": "police_declaration"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Lost Tunisian passport while staying in France\",\"affected_items\":[\"passport\"],\"urgency\":\"normal\",\"sub_questions\":[{\"q\":\"Où puis-je déclarer la perte de mon passeport tunisien en France ?\", \"sources\":[\"administration\"],\"item_type\":\"passport\",\"need\":\"declare loss abroad\"},{\"q\":\"Quel est le délai pour obtenir un duplicata de passeport tunisien après une perte à l'étranger ?\", \"sources\":[\"administration\",\"law\"],\"item_type\":\"passport\",\"need\":\"replacement deadline\"},{\"q\":\"Dois-je faire opposition sur mon passeport perdu ou est-ce uniquement pour les cartes bancaires ?\", \"sources\":[\"sop\"],\"item_type\":\"passport\",\"need\":\"block passport\"}],\"letter\":\"police_declaration\"}",
+ "usage": {
+  "queue_time": 0.048407519,
+  "prompt_tokens": 980,
+  "prompt_time": 0.051364242,
+  "completion_tokens": 260,
+  "completion_time": 0.268887153,
+  "total_tokens": 1240,
+  "total_time": 0.320251395,
+  "completion_tokens_details": {
+   "reasoning_tokens": 96
+  }
+ },
+ "latency_s": 0.81
+}

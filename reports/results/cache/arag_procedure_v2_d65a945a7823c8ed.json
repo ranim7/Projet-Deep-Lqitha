@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Sbah el khir! Si tu as perdu un sac avec téléphone et carte bancaire dans un taxi, voici ce qu’il faut faire :\n\n1. **Déclare immédiatement** la perte au poste de police le plus proche ou à la garde nationale (numéro d’urgence 197 ou 193 si besoin) [1].\n2. **Contacte le chauffeur** du taxi : si tu as un reçu ou l’application de réservation, utilise‑le pour joindre le chauffeur et lui demander de vérifier le sac [1].\n3. **Dépose le sac** (si tu le retrouves) auprès de l’agent de la station de taxi ou de la police, en précisant qu’il contient des documents officiels [4].\n4. **Déclare l’objet** sur Lqitha : prends une photo du sac (sans montrer les numéros de carte) et indique le lieu, la date et un détail caché (ex. couleur de la poche intérieure) pour aider à l’identification [4].\n5. **Conserve les reçus** de tout paiement ou échange lié à la perte, au cas où la compagnie ou la police en aurait besoin [2].\n\n**Documents**\n- Reçu de paiement du taxi ou capture d’écran de l’application de réservation.\n- Photo du sac (sans numéros visibles).\n- Note de la déclaration faite à la police ou à la garde nationale.\n\nEn cas de doute, tu peux aussi contacter la police de la ville où tu as pris le taxi pour plus d’assistance.",
+  "used_sources": [
+   1,
+   4
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Sbah el khir! Si tu as perdu un sac avec téléphone et carte bancaire dans un taxi, voici ce qu’il faut faire :\\n\\n1. **Déclare immédiatement** la perte au poste de police le plus proche ou à la garde nationale (numéro d’urgence 197 ou 193 si besoin) [1].\\n2. **Contacte le chauffeur** du taxi : si tu as un reçu ou l’application de réservation, utilise‑le pour joindre le chauffeur et lui demander de vérifier le sac [1].\\n3. **Dépose le sac** (si tu le retrouves) auprès de l’agent de la station de taxi ou de la police, en précisant qu’il contient des documents officiels [4].\\n4. **Déclare l’objet** sur Lqitha : prends une photo du sac (sans montrer les numéros de carte) et indique le lieu, la date et un détail caché (ex. couleur de la poche intérieure) pour aider à l’identification [4].\\n5. **Conserve les reçus** de tout paiement ou échange lié à la perte, au cas où la compagnie ou la police en aurait besoin [2].\\n\\n**Documents**\\n- Reçu de paiement du taxi ou capture d’écran de l’application de réservation.\\n- Photo du sac (sans numéros visibles).\\n- Note de la déclaration faite à la police ou à la garde nationale.\\n\\nEn cas de doute, tu peux aussi contacter la police de la ville où tu as pris le taxi pour plus d’assistance.\" ,\"used_sources\":[1,4],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.047583259,
+  "prompt_tokens": 1407,
+  "prompt_time": 0.077911498,
+  "completion_tokens": 390,
+  "completion_time": 0.41157811,
+  "total_tokens": 1797,
+  "total_time": 0.489489608,
+  "completion_tokens_details": {
+   "reasoning_tokens": 34
+  }
+ },
+ "latency_s": 1.19
+}

@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "situation": "Wallet with bank card and national ID lost at Tunis-Carthage airport today",
+  "affected_items": [
+   "wallet",
+   "bank_card",
+   "national_id"
+  ],
+  "urgency": "high",
+  "sub_questions": [
+   {
+    "q": "Comment faire opposition sur une carte bancaire perdue",
+    "sources": [
+     "operator",
+     "sop"
+    ],
+    "item_type": "bank_card",
+    "need": "block the bank card"
+   },
+   {
+    "q": "Où déclarer la perte d’un objet à l’aéroport Tunis-Carthage",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "search and declare at airport"
+   },
+   {
+    "q": "Déclaration de perte et renouvellement de la carte d’identité nationale",
+    "sources": [
+     "sop",
+     "law"
+    ],
+    "item_type": "national_id",
+    "need": "declare and replace the ID card"
+   }
+  ],
+  "letter": "police_declaration"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Wallet with bank card and national ID lost at Tunis-Carthage airport today\",\"affected_items\":[\"wallet\",\"bank_card\",\"national_id\"],\"urgency\":\"high\",\"sub_questions\":[{\"q\":\"Comment faire opposition sur une carte bancaire perdue\",\"sources\":[\"operator\",\"sop\"],\"item_type\":\"bank_card\",\"need\":\"block the bank card\"},{\"q\":\"Où déclarer la perte d’un objet à l’aéroport Tunis-Carthage\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"search and declare at airport\"},{\"q\":\"Déclaration de perte et renouvellement de la carte d’identité nationale\",\"sources\":[\"sop\",\"law\"],\"item_type\":\"national_id\",\"need\":\"declare and replace the ID card\"}],\"letter\":\"police_declaration\"}",
+ "usage": {
+  "queue_time": 0.016566939,
+  "prompt_tokens": 992,
+  "prompt_time": 0.013633673,
+  "completion_tokens": 245,
+  "completion_time": 0.247648682,
+  "total_tokens": 1237,
+  "total_time": 0.261282355,
+  "prompt_tokens_details": {
+   "cached_tokens": 768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  }
+ },
+ "latency_s": 0.87
+}

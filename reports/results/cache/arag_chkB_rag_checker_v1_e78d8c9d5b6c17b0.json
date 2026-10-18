@@ -1,0 +1,68 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "unsupported",
+    "reason": "Passage discusses risks, not police numbers"
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Mentions opposition but not specific ID details"
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "Passage is about bank cards, not ID"
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Passage discusses freezing, not duplicates"
+   },
+   {
+    "step": 5,
+    "label": "supported",
+    "reason": "Lists keeping copies of complaint/opposition"
+   },
+   {
+    "step": 6,
+    "label": "partially",
+    "reason": "Mentions fraud risk, implies monitoring"
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "No citation provided"
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "No citation provided"
+   },
+   {
+    "step": 9,
+    "label": "unsupported",
+    "reason": "No citation provided"
+   },
+   {
+    "step": 10,
+    "label": "unsupported",
+    "reason": "No citation provided"
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"unsupported\", \"reason\": \"Passage discusses risks, not police numbers\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Mentions opposition but not specific ID details\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"Passage is about bank cards, not ID\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Passage discusses freezing, not duplicates\"}, {\"step\": 5, \"label\": \"supported\", \"reason\": \"Lists keeping copies of complaint/opposition\"}, {\"step\": 6, \"label\": \"partially\", \"reason\": \"Mentions fraud risk, implies monitoring\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"No citation provided\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"No citation provided\"}, {\"step\": 9, \"label\": \"unsupported\", \"reason\": \"No citation provided\"}, {\"step\": 10, \"label\": \"unsupported\", \"reason\": \"No citation provided\"}]}",
+ "usage": {
+  "queue_time": 0.018826224,
+  "prompt_tokens": 1381,
+  "prompt_time": 0.106691414,
+  "completion_tokens": 238,
+  "completion_time": 0.516746964,
+  "total_tokens": 1619,
+  "total_time": 0.623438378
+ },
+ "latency_s": 1.09
+}

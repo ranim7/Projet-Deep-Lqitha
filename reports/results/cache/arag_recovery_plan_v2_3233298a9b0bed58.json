@@ -1,0 +1,87 @@
+{
+ "parsed": {
+  "summary": "Hey Lqitha, on dirait que ton bagage est en retard depuis 3 jours et t’as dû acheter des fringues. Pas de panique, voici le plan pour récupérer tes frais !",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Rends-toi immédiatement au comptoir \"Bagages / Lost & Found\" de Tunisair à l’aéroport de Monastir et fais établir un Rapport d'irrégularité bagage (PIR) en présentant ta carte d'embarquement, l'étiquette du bagage, une pièce d'identité et une description précise du bagage.",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Conserve toutes les factures d'achat des articles de première nécessité (vêtements, produits d'hygiène, etc.) et fais‑en des copies numériques.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Prépare une lettre de réclamation (modèle fourni ci‑dessous) en y joignant le numéro du PIR, les factures et les documents d’identité requis, puis envoie‑la par email au service réclamation de Tunisair ou dépose‑la au comptoir Bagages.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Vérifie que la réclamation a bien été reçue par Tunisair (appel ou email de suivi) et conserve le numéro de dossier fourni.",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Si aucune réponse sous 14 jours, relance le service réclamation par téléphone ou courrier recommandé en rappelant le délai de 21 jours pour soumettre la demande après mise à disposition du bagage.",
+    "cites": [
+     1,
+     3
+    ]
+   }
+  ],
+  "documents": [
+   "Carte d'embarquement",
+   "Étiquette (talon) du bagage",
+   "Pièce d'identité",
+   "Description précise du bagage (couleur, marque, taille, signes distinctifs, contenu)",
+   "Factures originales des achats effectués (vêtements, produits d'hygiène)"
+  ],
+  "deadlines": [
+   {
+    "what": "Soumettre la réclamation pour bagage retardé",
+    "date_iso": "2026-11-05",
+    "cites": [
+     1,
+     3
+    ]
+   }
+  ],
+  "coverage": [
+   {
+    "item": "luggage",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "airline_claim",
+   "title": "Demande d’indemnisation pour bagage retardé",
+   "body": "[Nom] [Prénom]\n[N° CIN]\n[Adresse]\n[Téléphone]\n\nObjet : Demande d’indemnisation pour bagage retardé – Référence PIR : __________\n\nMadame, Monsieur,\n\nJe vous informe que mon bagage enregistré, prévu à l’arrivée le 15/10/2026 à l’aéroport de Monastir, ne m’a pas été remis à l’heure et accuse un retard de trois (3) jours à ce jour. En raison de ce retard, j’ai dû acquérir des articles de première nécessité (vêtements, produits d’hygiène) pour subvenir à mes besoins immédiats.\n\nConformément à la politique de protection des passagers de Tunisair (article relatif aux bagages retardés) et à la Convention de Montréal, je vous prie de bien vouloir me rembourser les dépenses raisonnables engagées. Vous trouverez ci‑joint :\n- Le Rapport d'irrégularité bagage (PIR) n° __________\n- Les factures originales des achats effectués\n- Une copie de ma carte d'embarquement et de l’étiquette du bagage\n- Une copie de ma pièce d’identité\n\nJe vous remercie de bien vouloir traiter cette demande dans les meilleurs délais, conformément au délai de 21 jours prévu pour les réclamations de bagages retardés.\n\nDans l’attente de votre réponse, je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\n\n[Nom] [Prénom]"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Hey Lqitha, on dirait que ton bagage est en retard depuis 3 jours et t’as dû acheter des fringues. Pas de panique, voici le plan pour récupérer tes frais !\",\"steps\":[{\"when\":\"now\",\"action\":\"Rends-toi immédiatement au comptoir \\\"Bagages / Lost & Found\\\" de Tunisair à l’aéroport de Monastir et fais établir un Rapport d'irrégularité bagage (PIR) en présentant ta carte d'embarquement, l'étiquette du bagage, une pièce d'identité et une description précise du bagage.\",\"cites\":[3]},{\"when\":\"today\",\"action\":\"Conserve toutes les factures d'achat des articles de première nécessité (vêtements, produits d'hygiène, etc.) et fais‑en des copies numériques.\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Prépare une lettre de réclamation (modèle fourni ci‑dessous) en y joignant le numéro du PIR, les factures et les documents d’identité requis, puis envoie‑la par email au service réclamation de Tunisair ou dépose‑la au comptoir Bagages.\",\"cites\":[1,3]},{\"when\":\"this_week\",\"action\":\"Vérifie que la réclamation a bien été reçue par Tunisair (appel ou email de suivi) et conserve le numéro de dossier fourni.\",\"cites\":[3]},{\"when\":\"later\",\"action\":\"Si aucune réponse sous 14 jours, relance le service réclamation par téléphone ou courrier recommandé en rappelant le délai de 21 jours pour soumettre la demande après mise à disposition du bagage.\",\"cites\":[1,3]}],\"documents\":[\"Carte d'embarquement\",\"Étiquette (talon) du bagage\",\"Pièce d'identité\",\"Description précise du bagage (couleur, marque, taille, signes distinctifs, contenu)\",\"Factures originales des achats effectués (vêtements, produits d'hygiène)\"],\"deadlines\":[{\"what\":\"Soumettre la réclamation pour bagage retardé\",\"date_iso\":\"2026-11-05\",\"cites\":[1,3]}],\"coverage\":[{\"item\":\"luggage\",\"covered\":true}],\"letter\":{\"type\":\"airline_claim\",\"title\":\"Demande d’indemnisation pour bagage retardé\",\"body\":\"[Nom] [Prénom]\\n[N° CIN]\\n[Adresse]\\n[Téléphone]\\n\\nObjet : Demande d’indemnisation pour bagage retardé – Référence PIR : __________\\n\\nMadame, Monsieur,\\n\\nJe vous informe que mon bagage enregistré, prévu à l’arrivée le 15/10/2026 à l’aéroport de Monastir, ne m’a pas été remis à l’heure et accuse un retard de trois (3) jours à ce jour. En raison de ce retard, j’ai dû acquérir des articles de première nécessité (vêtements, produits d’hygiène) pour subvenir à mes besoins immédiats.\\n\\nConformément à la politique de protection des passagers de Tunisair (article relatif aux bagages retardés) et à la Convention de Montréal, je vous prie de bien vouloir me rembourser les dépenses raisonnables engagées. Vous trouverez ci‑joint :\\n- Le Rapport d'irrégularité bagage (PIR) n° __________\\n- Les factures originales des achats effectués\\n- Une copie de ma carte d'embarquement et de l’étiquette du bagage\\n- Une copie de ma pièce d’identité\\n\\nJe vous remercie de bien vouloir traiter cette demande dans les meilleurs délais, conformément au délai de 21 jours prévu pour les réclamations de bagages retardés.\\n\\nDans l’attente de votre réponse, je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\\n\\n[Nom] [Prénom]\"} }",
+ "usage": {
+  "queue_time": 0.048401575,
+  "prompt_tokens": 1556,
+  "prompt_time": 0.102587457,
+  "completion_tokens": 1047,
+  "completion_time": 2.179858871,
+  "total_tokens": 2603,
+  "total_time": 2.282446328,
+  "completion_tokens_details": {
+   "reasoning_tokens": 215
+  }
+ },
+ "latency_s": 3.16
+}

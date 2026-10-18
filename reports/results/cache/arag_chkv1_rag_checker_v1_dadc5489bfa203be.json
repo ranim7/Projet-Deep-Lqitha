@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "partially",
+    "reason": "Passage mentions local police and written attestation, but not specifically 'police française' or 'formulaire de déclaration de perte' as a specific form name in that context."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Email address and general contact step are supported, but specific details like 'nom de l'autorité ayant délivré' and 'preuve d'urgence' are not explicitly listed in the cited passage [1] which focuses on ID details and scan."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage [2] lists the passport form, C2 form, and photos, but does not list the police attestation, proof of urgency, or copy of lost passport in that specific list."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "The cited passage [1] only covers the initial email contact step and does not mention the issuance of an emergency travel document or its validity."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage [3] lists most documents (form, ID copy, 4 photos, loss attestation, residence proof) but does not explicitly mention the 'quittance de paiement du timbre fiscal' or 'tout document prouvant la nécessité'."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"partially\", \"reason\": \"Passage mentions local police and written attestation, but not specifically 'police française' or 'formulaire de déclaration de perte' as a specific form name in that context.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Email address and general contact step are supported, but specific details like 'nom de l'autorité ayant délivré' and 'preuve d'urgence' are not explicitly listed in the cited passage [1] which focuses on ID details and scan.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage [2] lists the passport form, C2 form, and photos, but does not list the police attestation, proof of urgency, or copy of lost passport in that specific list.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"The cited passage [1] only covers the initial email contact step and does not mention the issuance of an emergency travel document or its validity.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage [3] lists most documents (form, ID copy, 4 photos, loss attestation, residence proof) but does not explicitly mention the 'quittance de paiement du timbre fiscal' or 'tout document prouvant la nécessité'.\"}]}",
+ "usage": {
+  "queue_time": 0.048822647,
+  "prompt_tokens": 1482,
+  "prompt_time": 0.119044097,
+  "completion_tokens": 302,
+  "completion_time": 0.590507439,
+  "total_tokens": 1784,
+  "total_time": 0.709551536
+ },
+ "latency_s": 1.24
+}

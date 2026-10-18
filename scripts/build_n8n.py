@@ -160,8 +160,9 @@ def build_main():
     X = 0
 
     w.sticky("## Lqitha - multi-agent lost & found (Tunisia)\nEntry: POST /webhook/lqitha from the web app.\n"
-             "**Agents (LLM, Groq free tier):** 1 Intake/Router - 2 Perception (vision) - 4 Verifier - 5 Procedure (RAG) - 6 Notifier - 6b Claim check\n"
-             "**Tools (HTTP, Lqitha API):** speech-to-text, save report, matcher (3), RAG search, claims, notifications.\n"
+             "**Agents (LLM, Groq):** 1 Intake/Router - 2 Perception (vision) - 4 Verifier - 5 Recovery plan (agentic RAG: 5a planner, "
+             "5b re-ranker, 5c writer, 5d checker) - 6 Notifier - 6b Claim check - 8 Found-items search answer\n"
+             "**Tools (HTTP, Lqitha API):** speech-to-text, save report, matcher (3), multi-source RAG retrieval, found-items search, claims, notifications.\n"
              "Prompts are generated from prompts/prompts.yaml (single source of truth).", [-420, -420], w=700, h=180, color=4)
 
     w.add("Webhook", "n8n-nodes-base.webhook", 2,
@@ -241,7 +242,9 @@ if (lastAsked === 'hidden_detail' && s.intent_so_far === 'found') slots.hidden_d
 else if (ctx.message) history.push(ctx.message);
 // keep the report thread: once a lost/found report is started, follow-up answers stay in it
 let intent = out.intent;
-if (['lost', 'found'].includes(s.intent_so_far) && !['procedure_question', 'status_check'].includes(intent)) intent = s.intent_so_far;
+if (['lost', 'found'].includes(s.intent_so_far) && !['procedure_question', 'status_check', 'search_found'].includes(intent)) intent = s.intent_so_far;
+if (s.intent_so_far === 'search_found' && !['procedure_question', 'status_check', 'lost', 'found'].includes(intent)) intent = 'search_found';
+const lang0 = s.language || detectLang(ctx.message) || out.language || 'fr';
 let next = out.next_action;
 const turn = s.turn + 1;
 // deterministic guards: the LLM proposes, the workflow decides
@@ -262,19 +265,28 @@ if (['lost', 'found'].includes(intent)) {
     out.missing = (out.missing || []).filter(m => m !== 'hidden_detail');
     if (next === 'ask_user' && out.missing.every(m => ['photo', 'distinctive_detail', 'date', 'date_iso'].includes(m))) next = 'to_perception';
   }
-} else if (next === 'to_perception' || next === 'ask_user') next = (intent === 'procedure_question') ? 'to_procedure' : 'reply_only';
+} else if (intent === 'search_found') {
+  // found-items search: a photo or a category is enough; never more than one question
+  if (ctx.image_b64 && !slots.item_category) slots.item_category = 'other';
+  if (slots.item_category || turn >= 2) next = 'to_search';
+  else {
+    next = 'ask_user'; out.missing = ['item_category'];
+    out.question_to_user = out.question_to_user || L(lang0, { fr: 'Quel objet cherchez-vous (sac, téléphone, portefeuille…) ?', en: 'Which item are you looking for (bag, phone, wallet…)?',
+      ar: 'ما هو الغرض الذي تبحث عنه؟', derja: 'Chnowa el 7aja elli tlawej 3liha (sac, telifoun, portefeuille…)?' });
+  }
+} else if (next === 'to_perception' || next === 'ask_user' || next === 'to_search') next = (intent === 'procedure_question') ? 'to_procedure' : 'reply_only';
 const asked = s.questions_already_asked.slice();
 if (next === 'ask_user' && out.missing && out.missing[0]) asked.push(out.missing[0]);
 const session = { ...s, turn, slots_so_far: slots, questions_already_asked: asked, history,
-                  intent_so_far: ['lost', 'found'].includes(intent) ? intent : s.intent_so_far,
+                  intent_so_far: ['lost', 'found', 'search_found'].includes(intent) ? intent : s.intent_so_far,
                   // the conversation language is fixed by the first message and kept for the whole session
                   language: s.language || detectLang(ctx.message) || out.language || 'fr' };
 return [{ json: { ctx, session, llm_ok, intake: { ...out, intent, next_action: next, slots } } }];
 """, [X + 1760, -120], note="Deterministic guards on top of the LLM decision")
     w.chain("Agent 1 - Intake - build prompt", "Agent 1 - Intake (LLM)", "Intake - parse & guard")
     w.switch("Route next_action",
-             "{{ ({ask_user: 0, reply_only: 0, to_perception: 1, to_procedure: 2, to_status: 3})[$json.intake.next_action] ?? 0 }}",
-             4, [X + 1980, -120], note="0 ask/reply | 1 perception | 2 procedure | 3 status")
+             "{{ ({ask_user: 0, reply_only: 0, to_perception: 1, to_procedure: 2, to_status: 3, to_search: 4})[$json.intake.next_action] ?? 0 }}",
+             5, [X + 1980, -120], note="0 ask/reply | 1 perception | 2 recovery plan | 3 status | 4 search")
     w.link("Intake - parse & guard", "Route next_action")
 
     w.code("Reply - ask user", r"""
@@ -455,61 +467,230 @@ return [{ json: { kind: 'registered', report_id: v.found_id, session: reset,
 """, [X + 5720, Y - 240])
     w.link("Tool - Create claim & notify", "Reply - match")
 
-    # ---------------- Agent 5: procedure (RAG) - reached from 3 places
-    Z = 520
-    w.code("Agent 5 - Procedure - build query", r"""
+    # ---------------- Agent 5: personalised recovery plan (agentic RAG) - reached from 3 places
+    # 5a planner (decompose + route) -> multi-source retrieval -> 5b re-ranker -> 5c writer -> citation guard -> 5d checker
+    Z = 560
+    w.sticky("## Agent 5 - Recovery plan (agentic RAG)\n**5a Planner** splits the situation into 2-5 French sub-questions, each routed "
+             "to a source family (administration / law / operator / sop) and an item type. **Tool** runs one search per sub-question. "
+             "**5b Re-ranker** keeps max 2 useful passages per sub-question. **5c Writer** builds the timed plan + letter with [n] "
+             "citations. **5d Checker** (another model) labels each step; unsupported steps are removed.", [X + 3700, Z + 240], w=900, h=170, color=3)
+    w.code("Agent 5a - Planner - build prompt", r"""
 const r = $('Intake - parse & guard').first().json;
-let saved = null, rec = null;
-try { saved = $('Tool - Save report').first().json; } catch (e) {}
+let rec = null, saved = null;
 try { rec = $('Perception - parse & privacy').first().json; } catch (e) {}
-const it = r.intake;
-const cat = (rec && rec.record.category) || it.slots.item_category || null;
-const place = it.slots.place_type ? ` (${it.slots.place_type}${it.slots.place_name ? ', ' + it.slots.place_name : ''})` : '';
-const names = { phone: 'téléphone', wallet: 'portefeuille', bag: 'sac', luggage: 'bagage', keys: 'clés', id_document: 'carte d\'identité ou passeport', bank_card: 'carte bancaire', laptop: 'ordinateur portable' };
-let q;
-if (it.intent === 'procedure_question') q = it.search_query_fr || r.ctx.message;   // query rewriting (intake rule 9)
-else if (it.intent === 'found') q = `J'ai trouvé un objet (${names[cat] || cat || 'objet'})${place}. Où dois-je le déposer et que dois-je faire ?`;
-else q = `J'ai perdu mon ${names[cat] || cat || 'objet'}${place}. Quelles démarches dois-je faire ?`;
-return [{ json: { query: q, item_type: cat, report_id: saved ? saved.report_id : null } }];
-""", [X + 3740, Z], note="Builds the retrieval query (FR, the corpus language)")
-    w.link("Route next_action", "Agent 5 - Procedure - build query", 2)
-    w.link("Any candidate?", "Agent 5 - Procedure - build query", 1)
-    w.link("Match or possible match?", "Agent 5 - Procedure - build query", 1)
-    w.http("Tool - RAG search", f"={API}/tools/rag/search", [X + 3960, Z],
-           body="={{ JSON.stringify({query: $json.query, item_type: $json.item_type, top_k: 4, strategy: 'recursive', mode: 'dense'}) }}",
-           note="recursive chunks + bge-m3 dense + item_type filter (best in eval)")
-    w.code("Agent 5 - Procedure - build prompt", r"""
+try { saved = $('Tool - Save report').first().json; } catch (e) {}
+const it = r.intake, sl = it.slots || {};
+const situation = it.intent === 'procedure_question' ? r.ctx.message : ((r.session.history || []).join(' | ') || r.ctx.message);
+const vars = { today: today(), message: situation, language: r.session.language || 'fr', intent: it.intent,
+               item_category: (rec && rec.record.category) || sl.item_category || 'unknown', place_type: sl.place_type || 'unknown',
+               place_name: sl.place_name || 'unknown', date_iso: sl.date_iso || 'unknown' };
+const groq_body = { messages: [{ role: 'system', content: render(SYSTEM, vars) }, { role: 'user', content: render(USER, vars) }],
+                    temperature: TEMPERATURE, max_tokens: 700, response_format: { type: 'json_object' } };
+return [{ json: { groq_body, model_env: MODEL_ENV, vision: false, report_id: saved ? saved.report_id : null, situation } }];
+""", [X + 3740, Z], prompt="rag_planner", note="decomposition + source routing")
+    w.link("Route next_action", "Agent 5a - Planner - build prompt", 2)
+    w.link("Any candidate?", "Agent 5a - Planner - build prompt", 1)
+    w.link("Match or possible match?", "Agent 5a - Planner - build prompt", 1)
+    w.llm("Agent 5a - Planner (LLM)", [X + 3960, Z], "Groq gpt-oss-20b - sub-questions, sources, letter")
+    w.code("Planner - parse & guard", r"""
 const r = $('Intake - parse & guard').first().json;
-const q = $('Agent 5 - Procedure - build query').first().json;
-const vars = { context: $json.context || '(no sources found)', question: r.intake.intent === 'procedure_question' ? r.ctx.message : q.query,
-               language: r.session.language || 'fr', item_category: q.item_type || 'unknown',
-               place_type: r.intake.slots.place_type || 'unknown', intent: r.intake.intent };
+const prev = $('Agent 5a - Planner - build prompt').first().json;
+const SRC = ['administration', 'law', 'operator', 'sop'];
+const TAGS = ['national_id', 'passport', 'family_booklet', 'driving_licence', 'bank_card', 'baggage', 'phone', 'general'];
+let p = parseLLM($json) || {};
+let sq = (Array.isArray(p.sub_questions) ? p.sub_questions : []).filter(x => x && x.q).slice(0, 5)
+  .map(x => ({ q: String(x.q).slice(0, 200), sources: (x.sources || []).filter(s => SRC.includes(s)).slice(0, 2),
+               item_type: TAGS.includes(x.item_type) ? x.item_type : 'general', need: x.need || '' }));
+// fallback: planner unavailable -> single query (rewritten by the intake agent)
+if (!sq.length) sq = [{ q: r.intake.search_query_fr || prev.situation, sources: [], item_type: 'general', need: 'what to do' }];
+const plan = { situation: p.situation || prev.situation, affected_items: p.affected_items || [r.intake.slots.item_category || 'item'],
+               urgency: p.urgency === 'high' ? 'high' : 'normal', letter: ['police_declaration', 'airline_claim'].includes(p.letter) ? p.letter : 'none',
+               sub_questions: sq, planner_ok: !!parseLLM($json) };
+return [{ json: plan }];
+""", [X + 4180, Z], note="enum validation + single-query fallback")
+    w.http("Tool - Multi-source retrieval", f"={API}/tools/rag/multi", [X + 4400, Z],
+           body="={{ JSON.stringify({sub_questions: $json.sub_questions, per_question: 3}) }}",
+           note="1 routed dense search per sub-question (bge-m3), max 15 passages")
+    w.code("Agent 5b - Re-ranker - build prompt", r"""
+const plan = $('Planner - parse & guard').first().json;
+const vars = { sub_questions: plan.sub_questions.map((x, i) => `Q${i + 1}. ${x.q}`).join('\n'), candidates: $json.candidates || '(none)' };
+const groq_body = { messages: [{ role: 'system', content: render(SYSTEM, vars) }, { role: 'user', content: render(USER, vars) }],
+                    temperature: TEMPERATURE, max_tokens: 600, response_format: { type: 'json_object' } };
+return [{ json: { groq_body, model_env: MODEL_ENV, vision: false, passages: $json.passages || [] } }];
+""", [X + 4620, Z], prompt="rag_reranker")
+    w.llm("Agent 5b - Re-ranker (LLM)", [X + 4840, Z], "Groq Qwen3.8-27B - keeps max 2 useful passages per sub-question")
+    w.code("Re-ranker - select context", r"""
+const plan = $('Planner - parse & guard').first().json;
+const passages = $('Agent 5b - Re-ranker - build prompt').first().json.passages;
+const byPid = Object.fromEntries(passages.map(p => [p.pid, p]));
+const sel = parseLLM($json);
+let picked = [];
+if (sel && Array.isArray(sel.selection)) {
+  sel.selection.slice().sort((a, b) => (a.sub_question || 0) - (b.sub_question || 0)).forEach(s =>
+    (s.passages || []).slice(0, 2).forEach(x => { const pid = Number(String(x.pid ?? x).replace(/\D/g, '')); if (byPid[pid] && !picked.includes(pid) && (x.score ?? 2) >= 2) picked.push(pid); }));
+}
+const reranked = picked.length > 0;
+// fallback (re-ranker unavailable or nothing kept): the 2 best retrieved passages of each sub-question
+if (!picked.length) plan.sub_questions.forEach((q, i) => passages.filter(p => p.for.includes(i + 1)).slice(0, 2).forEach(p => { if (!picked.includes(p.pid)) picked.push(p.pid); }));
+picked = picked.slice(0, 8);
+const ctx = picked.map(pid => byPid[pid]);
+const context = ctx.map((p, i) => `[${i + 1}] (${p.authority} - ${p.url})\n${p.text}`).join('\n\n');
+return [{ json: { ...plan, context, ctx, reranked, n_candidates: passages.length } }];
+""", [X + 5060, Z], note="selected passages -> numbered context [1..n]")
+    w.code("Agent 5c - Plan writer - build prompt", r"""
+const r = $('Intake - parse & guard').first().json;
+const c = $json, sl = r.intake.slots || {};
+const vars = { today: today(), situation: c.situation, affected_items: c.affected_items, urgency: c.urgency, language: r.session.language || 'fr',
+               context: c.context || '(no sources found)', letter_type: c.letter, date_iso: sl.date_iso || 'unknown',
+               place: [sl.place_name, sl.place_type, sl.governorate].filter(Boolean).join(', ') || 'unknown',
+               message: r.intake.intent === 'procedure_question' ? r.ctx.message : ((r.session.history || []).join(' | ') || r.ctx.message) };
+const groq_body = { messages: [{ role: 'system', content: render(SYSTEM, vars) }, { role: 'user', content: render(USER, vars) }],
+                    temperature: TEMPERATURE, max_tokens: 1400, response_format: { type: 'json_object' } };
+return [{ json: { groq_body, model_env: MODEL_ENV, vision: false } }];
+""", [X + 5280, Z], prompt="recovery_plan")
+    w.llm("Agent 5c - Plan writer (LLM)", [X + 5500, Z], "Groq gpt-oss-120b - timed plan, deadlines, letter, [n] citations")
+    w.code("Plan - citation guard", r"""
+const c = $('Re-ranker - select context').first().json;
+let plan = parseLLM($json) || { summary: '', steps: [] };
+const n = c.ctx.length;
+// deterministic guard: keep only citations that exist; a step without a valid citation cannot be supported
+plan.steps = (plan.steps || []).slice(0, 8).map(s => {
+  const fromText = [...String(s.action || '').matchAll(/\[(\d+)\]/g)].map(m => Number(m[1]));
+  const cites = [...new Set([...(s.cites || []), ...fromText].map(Number))].filter(k => k >= 1 && k <= n);
+  return { when: ['now', 'today', 'this_week', 'later'].includes(s.when) ? s.when : 'later', action: String(s.action || ''), cites };
+}).filter(s => s.action);
+const steps = plan.steps.map((s, i) => `STEP ${i + 1}: ${s.action}\n` + (s.cites.length
+  ? s.cites.map(k => `  [${k}] ${c.ctx[k - 1].text.replace(/\s+/g, ' ').slice(0, 550)}`).join('\n') : '  (no citation)')).join('\n\n');
+const groq_body = { messages: [{ role: 'system', content: render(SYSTEM, { steps }) }, { role: 'user', content: render(USER, { steps }) }],
+                    temperature: TEMPERATURE, max_tokens: 700, response_format: { type: 'json_object' } };
+return [{ json: { plan, groq_body, model_env: MODEL_ENV, vision: false } }];
+""", [X + 5720, Z], prompt="rag_checker", note="drops invalid citations, prepares the checker")
+    w.llm("Agent 5d - Checker (LLM)", [X + 5940, Z], "Groq Qwen3.8-27B - faithfulness of each step")
+    w.code("Reply - plan", r"""
+const r = $('Intake - parse & guard').first().json;
+const c = $('Re-ranker - select context').first().json;
+const g = $('Plan - citation guard').first().json;
+const reportId = $('Agent 5a - Planner - build prompt').first().json.report_id;
+const lang = r.session.language || 'fr';
+const plan = g.plan;
+const ver = parseLLM($json);
+const labels = {};
+((ver && ver.verdicts) || []).forEach(v => { labels[Number(v.step)] = v.label; });
+// self-verification: unsupported steps are removed, partially supported ones are flagged
+const kept = [], removed = [];
+plan.steps.forEach((s, i) => {
+  const label = !s.cites.length ? 'unsupported' : (labels[i + 1] || (ver ? 'unsupported' : 'unchecked'));
+  (label === 'unsupported' ? removed : kept).push({ ...s, label });
+});
+const T = { now: L(lang, { fr: 'Maintenant', en: 'Now', ar: 'الآن', derja: 'Taw' }), today: L(lang, { fr: "Aujourd'hui", en: 'Today', ar: 'اليوم', derja: 'Lyoum' }),
+            this_week: L(lang, { fr: 'Cette semaine', en: 'This week', ar: 'هذا الأسبوع', derja: 'Had jem3a' }), later: L(lang, { fr: 'Ensuite', en: 'Later', ar: 'لاحقاً', derja: 'Ba3d' }) };
+const check = L(lang, { fr: '(à confirmer auprès du bureau)', en: '(to confirm with the office)', ar: '(للتأكد لدى المصلحة)', derja: '(a confirmer auprès du bureau)' });
+let text = (plan.summary || '') + '\n';
+for (const k of ['now', 'today', 'this_week', 'later']) {
+  const st = kept.filter(s => s.when === k);
+  if (st.length) text += `\n**${T[k]}**\n` + st.map(s => `- ${s.action}${s.label === 'partially' ? ' ' + check : ''}`).join('\n') + '\n';
+}
+if ((plan.documents || []).length) text += `\n**${L(lang, { fr: 'Documents', en: 'Documents', ar: 'الوثائق', derja: 'Lwra9' })}** : ` + plan.documents.join(' · ') + '\n';
+(plan.deadlines || []).filter(d => d && d.what).forEach(d => { text += `\n⏱ ${d.what}${d.date_iso ? ' → ' + d.date_iso : ''}`; });
+let prefix = '';
+if (reportId) prefix = r.intake.intent === 'found'
+  ? L(lang, { fr: `Merci ! Objet trouvé enregistré (${reportId}). Aucun propriétaire identifié pour l'instant.\n\n`, en: `Thank you! Found item registered (${reportId}). No owner identified yet.\n\n`, ar: `شكراً! تم تسجيل الغرض (${reportId}).\n\n`, derja: `Ya3tik saha! Tsajlet (${reportId}). Mazelna ma l9ina moulha.\n\n` })
+  : L(lang, { fr: `Votre déclaration est enregistrée (${reportId}). Aucune correspondance pour l'instant : la recherche est relancée chaque jour.\n\nVoici votre plan de récupération :\n`, en: `Your report is registered (${reportId}). No match yet: we re-check every day.\n\nHere is your recovery plan:\n`, ar: `تم تسجيل تصريحك (${reportId}). لا يوجد تطابق حالياً.\n\nهذه خطتك:\n`, derja: `Tsajel tasri7ek (${reportId}). Mazel ma fama 7atta 7aja tchabha, nfarksou kol nhar.\n\nHedha plan mte3ek:\n` });
+const cited = [...new Set(kept.flatMap(s => s.cites))].sort((a, b) => a - b);
+const sources = c.ctx.map((p, i) => ({ n: i + 1, id: p.id, doc_id: p.doc_id, source: p.source, authority: p.authority, url: p.url, cited: cited.includes(i + 1) }));
+const reset = { session_id: r.session.session_id, turn: 0, slots_so_far: {}, questions_already_asked: [], intent_so_far: null, language: lang, history: [] };
+const stats = { sub_questions: c.sub_questions.length, candidates: c.n_candidates, context: c.ctx.length, reranked: c.reranked,
+                steps_written: plan.steps.length, steps_kept: kept.length, removed: removed.length,
+                supported: kept.filter(s => s.label === 'supported').length, partially: kept.filter(s => s.label === 'partially').length };
+return [{ json: { kind: reportId ? 'registered' : 'plan', report_id: reportId, session: reset, reply: prefix + text.trim(), sources,
+  plan: { summary: plan.summary, urgency: c.urgency, affected_items: c.affected_items, sub_questions: c.sub_questions.map(q => q.q),
+          steps: kept, documents: plan.documents || [], deadlines: plan.deadlines || [], coverage: plan.coverage || [],
+          letter: c.letter !== 'none' ? (plan.letter || null) : null, stats } } }];
+""", [X + 6160, Z], note="removes unsupported steps, renders the plan")
+    w.chain("Agent 5a - Planner - build prompt", "Agent 5a - Planner (LLM)", "Planner - parse & guard", "Tool - Multi-source retrieval",
+            "Agent 5b - Re-ranker - build prompt", "Agent 5b - Re-ranker (LLM)", "Re-ranker - select context",
+            "Agent 5c - Plan writer - build prompt", "Agent 5c - Plan writer (LLM)", "Plan - citation guard",
+            "Agent 5d - Checker (LLM)", "Reply - plan")
+
+    # ---------------- found-items search (multimodal RAG over the live database)
+    S = 1000
+    w.sticky("## Found-items search (multimodal RAG)\nThe user's text OR photo is normalised by the Perception agent into the same "
+             "English record as the indexed found items. **Tool**: filters (category, governorate, date) relaxed step by step + hybrid "
+             "score (dense + BM25 + attributes). **Agent 8** re-ranks the candidates and answers with item references.",
+             [X + 2160, S + 220], w=820, h=150, color=6)
+    w.code("Agent 2 - Perception for search - build prompt", r"""
+const r = $json;
+const slots = r.intake.slots;
+const vars = { report_type: 'lost', text: (r.session.history || []).join(' | ') || r.ctx.message,
+               slots: Object.fromEntries(Object.entries(slots).filter(([k]) => k !== 'hidden_detail')), has_photo: !!r.ctx.image_b64 };
+const user = render(USER, vars);
+const content = r.ctx.image_b64 ? [{ type: 'text', text: user }, { type: 'image_url', image_url: { url: 'data:image/jpeg;base64,' + r.ctx.image_b64 } }] : user;
+const groq_body = { messages: [{ role: 'system', content: render(SYSTEM, vars) }, { role: 'user', content }],
+                    temperature: TEMPERATURE, max_tokens: 700, response_format: { type: 'json_object' } };
+return [{ json: { groq_body, model_env: r.ctx.image_b64 ? 'VISION_MODEL' : 'FAST_MODEL', vision: !!r.ctx.image_b64 } }];
+""", [X + 2200, S], prompt="perception", note="text or photo -> normalised English record (the query)")
+    w.link("Route next_action", "Agent 2 - Perception for search - build prompt", 4)
+    w.llm("Agent 2 - Perception for search (LLM, vision)", [X + 2420, S], "Groq - Qwen vision for a photo, gpt-oss-20b for text")
+    w.code("Search - query record", r"""
+const r = $('Intake - parse & guard').first().json;
+const CATS = ['phone','wallet','bag','luggage','keys','id_document','bank_card','glasses','watch','headphones','laptop','electronics','clothing','jewelry','umbrella','shoes','bottle','other'];
+const COLORS = ['black','white','grey','silver','gold','brown','beige','red','pink','orange','yellow','green','blue','purple','multicolor','transparent'];
+let rec = parseLLM($json) || {};
+const sl = r.intake.slots || {};
+if (!CATS.includes(rec.category)) rec.category = CATS.includes(sl.item_category) ? sl.item_category : 'other';
+if (rec.color_family === 'gray') rec.color_family = 'grey';
+if (!COLORS.includes(rec.color_family)) rec.color_family = null;
+if (!rec.canonical_description) rec.canonical_description = [rec.color_family, rec.brand, rec.category, sl.distinctive_detail].filter(Boolean).join(' ');
+const slots = { governorate: sl.governorate || null, place_name: sl.place_name || null, place_type: sl.place_type || null, date_iso: sl.date_iso || null };
+return [{ json: { record: rec, slots, text: r.ctx.message, top_k: 8 } }];
+""", [X + 2640, S])
+    w.http("Tool - Search found items", f"={API}/tools/search/found", [X + 2860, S],
+           body="={{ JSON.stringify($json) }}", note="filters with relaxation + dense/BM25/attribute score")
+    w.switch("Any found item?", "{{ ($json.results || []).length ? 0 : 1 }}", 2, [X + 3080, S])
+    w.code("Agent 8 - Search answer - build prompt", r"""
+const r = $('Intake - parse & guard').first().json;
+const q = $('Search - query record').first().json;
+const res = $json;
+const vars = { message: r.ctx.message || '(photo of the lost item)', record: q.record, language: r.session.language || 'fr',
+               place: q.slots.place_name || q.slots.governorate || 'not given', date: q.slots.date_iso || 'not given',
+               relaxed: (res.relaxed || []).length ? res.relaxed.join(', ') : 'none', candidates: res.candidates };
 const groq_body = { messages: [{ role: 'system', content: render(SYSTEM, vars) }, { role: 'user', content: render(USER, vars) }],
                     temperature: TEMPERATURE, max_tokens: 900, response_format: { type: 'json_object' } };
-return [{ json: { groq_body, model_env: MODEL_ENV, vision: false, hits: ($json.hits || []).map(h => ({ id: h.id, url: h.url, authority: h.authority })) } }];
-""", [X + 4180, Z], prompt="procedure")
-    w.llm("Agent 5 - Procedure (LLM)", [X + 4400, Z], "Groq - grounded answer with [n] citations")
-    w.code("Reply - procedure", r"""
+return [{ json: { groq_body, model_env: MODEL_ENV, vision: false } }];
+""", [X + 3300, S - 80], prompt="search_answer")
+    w.llm("Agent 8 - Search answer (LLM)", [X + 3520, S - 80], "Groq gpt-oss-120b - re-ranking + answer with references")
+    w.code("Reply - search results", r"""
 const r = $('Intake - parse & guard').first().json;
-const q = $('Agent 5 - Procedure - build query').first().json;
-const hits = $('Agent 5 - Procedure - build prompt').first().json.hits;
-const out = parseLLM($json) || { answer: '(procedure assistant unavailable)', used_sources: [] };
+const res = $('Tool - Search found items').first().json;
 const lang = r.session.language || 'fr';
-let prefix = '';
-if (q.report_id) {
-  prefix = r.intake.intent === 'found'
-    ? L(lang, { fr: `Merci ! Objet trouvé enregistré (${q.report_id}). Aucun propriétaire identifié pour l'instant.\n\n`, en: `Thank you! Found item registered (${q.report_id}). No owner identified yet.\n\n`, ar: `شكراً! تم تسجيل الغرض (${q.report_id}). لم يتم التعرف على المالك بعد.\n\n`, derja: `Ya3tik saha! Tsajlet (${q.report_id}). Mazelna ma l9ina moulha.\n\n` })
-    : L(lang, { fr: `Votre déclaration est enregistrée (${q.report_id}). Aucune correspondance pour l'instant : une recherche automatique est relancée chaque jour et vous serez notifié.\n\n`, en: `Your report is registered (${q.report_id}). No match yet: we re-check every day and will notify you.\n\n`, ar: `تم تسجيل تصريحك (${q.report_id}). لا يوجد تطابق حالياً، سنعيد البحث يومياً ونعلمك.\n\n`, derja: `Tsajel tasri7ek (${q.report_id}). Mazel ma fama 7atta 7aja tchabha, nfarksou kol nhar w nkhabrouk.\n\n` });
-}
-const used = (out.used_sources || []).map(i => hits[i - 1]).filter(Boolean);
-const reset = q.report_id || r.intake.intent === 'procedure_question'
-  ? { session_id: r.session.session_id, turn: 0, slots_so_far: {}, questions_already_asked: [], intent_so_far: null, language: lang, history: [] }
-  : r.session;
-return [{ json: { kind: q.report_id ? 'registered' : 'procedure', report_id: q.report_id, session: reset,
-  reply: prefix + out.answer, grounded: out.grounded !== false, sources: used.length ? used : hits } }];
-""", [X + 4620, Z])
-    w.chain("Agent 5 - Procedure - build query", "Tool - RAG search", "Agent 5 - Procedure - build prompt",
-            "Agent 5 - Procedure (LLM)", "Reply - procedure")
+const out = parseLLM($json);
+const byId = Object.fromEntries((res.results || []).map(x => [x.id, x]));
+const RANK = { high: 0, medium: 1, low: 2 };
+let items;
+if (out && Array.isArray(out.results)) {
+  items = out.results.filter(x => byId[x.id]).map(x => ({ ...byId[x.id], relevance: RANK[x.relevance] !== undefined ? x.relevance : 'low', reason: x.reason || '' }))
+    .sort((a, b) => RANK[a.relevance] - RANK[b.relevance]);
+} else items = (res.results || []).slice(0, 3).map(x => ({ ...x, relevance: 'medium', reason: '' }));   // LLM unavailable: retrieval order
+const shown = items.filter(x => x.relevance !== 'low').slice(0, 5);
+const answer = (out && out.answer) || L(lang, { fr: `${shown.length} objet(s) trouvé(s) pourraient correspondre.`, en: `${shown.length} found item(s) may match.`, ar: `${shown.length} غرض قد يطابق.`, derja: `Fama ${shown.length} 7aja tnajem tkoun mte3ek.` });
+const reset = { session_id: r.session.session_id, turn: 0, slots_so_far: {}, questions_already_asked: [], intent_so_far: null, language: lang, history: [] };
+return [{ json: { kind: 'search', reply: answer, session: reset, found_items: shown, search: { applied: res.applied, relaxed: res.relaxed, candidates: (res.results || []).length } } }];
+""", [X + 3740, S - 80])
+    w.chain("Agent 2 - Perception for search - build prompt", "Agent 2 - Perception for search (LLM, vision)", "Search - query record",
+            "Tool - Search found items", "Any found item?")
+    w.link("Any found item?", "Agent 8 - Search answer - build prompt", 0)
+    w.chain("Agent 8 - Search answer - build prompt", "Agent 8 - Search answer (LLM)", "Reply - search results")
+    w.code("Reply - no search result", r"""
+const r = $('Intake - parse & guard').first().json;
+const lang = r.session.language || 'fr';
+const reset = { session_id: r.session.session_id, turn: 0, slots_so_far: {}, questions_already_asked: [], intent_so_far: null, language: lang, history: [] };
+return [{ json: { kind: 'search', found_items: [], session: reset, reply: L(lang, {
+  fr: "Aucun objet correspondant n'a été déposé pour l'instant. Déclarez la perte : la recherche sera relancée chaque jour et vous serez prévenu.",
+  en: 'No matching item has been handed in yet. Report the loss: we search again every day and will notify you.',
+  ar: 'لم يتم تسليم أي غرض مطابق حتى الآن. صرّح بالضياع وسنبحث يومياً ونعلمك.',
+  derja: "Mazel 7atta 7aja tchabha ma tsajlet. Sajel tasri7 bel 7aja elli dhay3etha w nfarksou kol nhar w nkhabrouk." }) } }];
+""", [X + 3300, S + 100])
+    w.link("Any found item?", "Reply - no search result", 1)
 
     # ---------------- claim branch: ownership verification
     C = -700
@@ -552,8 +733,9 @@ return [{ json: { kind: 'claim_' + res.status, claim_id: ctx.claim_id, reply, se
 
     # ---------------- single response node
     w.add("Respond to web app", "n8n-nodes-base.respondToWebhook", 1.1,
-          {"respondWith": "firstIncomingItem", "options": {}}, [X + 5940, 0])
-    for n in ["Reply - ask user", "Reply - status", "Reply - match", "Reply - procedure", "Reply - claim outcome"]:
+          {"respondWith": "firstIncomingItem", "options": {}}, [X + 6600, 0])
+    for n in ["Reply - ask user", "Reply - status", "Reply - match", "Reply - plan", "Reply - claim outcome",
+              "Reply - search results", "Reply - no search result"]:
         w.link(n, "Respond to web app")
     w.dump("lqitha_main.json", {"errorWorkflow": ERROR_ID, "saveDataSuccessExecution": "all", "saveManualExecutions": True})
 

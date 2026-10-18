@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "derja",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": "lyoum",
+   "date_iso": "2026-10-18",
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Fech men l'makan 9a3tlek livret de famille?",
+  "reply_to_user": null,
+  "search_query_fr": "livret de famille perdu où faire une copie",
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"derja\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":\"lyoum\",\"date_iso\":\"2026-10-18\",\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Fech men l'makan 9a3tlek livret de famille?\",\"reply_to_user\":null,\"search_query_fr\":\"livret de famille perdu où faire une copie\",\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.047644978,
+  "prompt_tokens": 1936,
+  "prompt_time": 0.114787455,
+  "completion_tokens": 211,
+  "completion_time": 0.224496678,
+  "total_tokens": 2147,
+  "total_time": 0.339284133,
+  "completion_tokens_details": {
+   "reasoning_tokens": 69
+  }
+ },
+ "latency_s": 0.87
+}

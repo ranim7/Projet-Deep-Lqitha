@@ -1,0 +1,27 @@
+{
+ "parsed": {
+  "answer": "Salam! Si t'habit fi l’aéroport Tunis‑Carthage w t'habit ta3 l’carte bancaire w l’ID, voici les étapes à suivre:\n\n1. **Bloque ta carte bancaire** – Télécharge l’appli de ta banque ou connecte‑toi à ton espace client en ligne pour faire opposition immédiate. Si tu n’as pas accès à l’internet, appelle le numéro d’urgence international de ta banque. [2]\n2. **Déclare la perte à la police** – Rends-toi au poste de police de l’aéroport et signale la perte de ton portefeuille. Note le numéro de l’office de police pour tes démarches futures. [1]\n3. **Contacte l’office de l’aviation civile** – Informe le personnel de l’aéroport (ou le service des bagages) de la perte pour qu’ils puissent te tenir informé si ton portefeuille est retrouvé. [1]\n4. **Demande un duplicata de ta carte d’identité** – Rends-toi à la préfecture ou à la mairie la plus proche de l’aéroport pour obtenir un duplicata. Tu auras besoin d’un justificatif de domicile et d’une photo d’identité. [1]\n5. **Surveille tes comptes** – Change immédiatement les mots de passe de tes comptes bancaires et de tes services en ligne. Active les notifications de paiement pour détecter toute activité suspecte. [3]\n6. **Prépare un plan B** – Si tu as une seconde carte bancaire, active‑la et ajuste les plafonds pour éviter les blocages. [4]\n\n**Documents nécessaires**\n- Pièce d’identité originale (si possible)\n- Justificatif de domicile (facture, quittance)\n- Photo d’identité récente\n- Rapport de police (si disponible)\n\nEn cas d’urgence, compose le 197 (police) ou le 193 (garde nationale). Bonne chance et prends soin de toi!",
+  "used_sources": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salam! Si t'habit fi l’aéroport Tunis‑Carthage w t'habit ta3 l’carte bancaire w l’ID, voici les étapes à suivre:\\n\\n1. **Bloque ta carte bancaire** – Télécharge l’appli de ta banque ou connecte‑toi à ton espace client en ligne pour faire opposition immédiate. Si tu n’as pas accès à l’internet, appelle le numéro d’urgence international de ta banque. [2]\\n2. **Déclare la perte à la police** – Rends-toi au poste de police de l’aéroport et signale la perte de ton portefeuille. Note le numéro de l’office de police pour tes démarches futures. [1]\\n3. **Contacte l’office de l’aviation civile** – Informe le personnel de l’aéroport (ou le service des bagages) de la perte pour qu’ils puissent te tenir informé si ton portefeuille est retrouvé. [1]\\n4. **Demande un duplicata de ta carte d’identité** – Rends-toi à la préfecture ou à la mairie la plus proche de l’aéroport pour obtenir un duplicata. Tu auras besoin d’un justificatif de domicile et d’une photo d’identité. [1]\\n5. **Surveille tes comptes** – Change immédiatement les mots de passe de tes comptes bancaires et de tes services en ligne. Active les notifications de paiement pour détecter toute activité suspecte. [3]\\n6. **Prépare un plan B** – Si tu as une seconde carte bancaire, active‑la et ajuste les plafonds pour éviter les blocages. [4]\\n\\n**Documents nécessaires**\\n- Pièce d’identité originale (si possible)\\n- Justificatif de domicile (facture, quittance)\\n- Photo d’identité récente\\n- Rapport de police (si disponible)\\n\\nEn cas d’urgence, compose le 197 (police) ou le 193 (garde nationale). Bonne chance et prends soin de toi!\",\"used_sources\":[1,2,3,4],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.20713376,
+  "prompt_tokens": 1404,
+  "prompt_time": 0.076744143,
+  "completion_tokens": 474,
+  "completion_time": 0.496352972,
+  "total_tokens": 1878,
+  "total_time": 0.573097115,
+  "completion_tokens_details": {
+   "reasoning_tokens": 19
+  }
+ },
+ "latency_s": 1.4
+}

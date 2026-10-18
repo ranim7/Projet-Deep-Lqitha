@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "unsupported",
+    "reason": "Passage discusses TGM/Louage/Taxi, not police/garde nationale or numbers 197/193"
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage explicitly mentions using receipt/app to contact driver"
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage instructs to hand over official documents to police/garde nationale"
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage mentions photo and Lqitha but cuts off before detailing hidden details or specific location/date fields"
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "Passage refers to receipts for first necessity purchases due to delay, not general loss payments"
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "No citation provided"
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "No citation provided"
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "No citation provided"
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"unsupported\", \"reason\": \"Passage discusses TGM/Louage/Taxi, not police/garde nationale or numbers 197/193\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage explicitly mentions using receipt/app to contact driver\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage instructs to hand over official documents to police/garde nationale\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage mentions photo and Lqitha but cuts off before detailing hidden details or specific location/date fields\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"Passage refers to receipts for first necessity purchases due to delay, not general loss payments\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"No citation provided\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"No citation provided\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"No citation provided\"}]}",
+ "usage": {
+  "queue_time": 0.018865316,
+  "prompt_tokens": 1258,
+  "prompt_time": 0.092298163,
+  "completion_tokens": 242,
+  "completion_time": 0.481815516,
+  "total_tokens": 1500,
+  "total_time": 0.574113679
+ },
+ "latency_s": 7.51
+}

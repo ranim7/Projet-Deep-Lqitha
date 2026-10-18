@@ -1,0 +1,97 @@
+{
+ "parsed": {
+  "summary": "Hey Lqitha, your bag arrived damaged at Djerba airport. Here’s what to do to get it repaired or compensated and the paperwork you’ll need.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Go immediately to the \"Bagages / Lost & Found\" counter of Tunisair (or its ground handling agent) at Djerba airport and ask for a Property Irregularity Report (PIR) for the damaged bag, keeping the copy and the report number. [2]",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Collect the required documents: boarding pass, baggage tag (talon), a valid ID, and a detailed description of the bag (color, brand, size, distinctive marks, contents). Bring these to the counter to attach to the PIR. [2]",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Ask the counter staff to give you the official claim form for damaged baggage and the address/email where the written claim must be sent. [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Fill out the written claim form, attach the PIR copy, the documents listed above, and any photos showing the damage. Submit the claim by email or post to the address provided by Tunisair. The claim must be submitted within 7 days of receiving the bag (by 2026-10-24). [1][2]",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "If you have receipts for any essential items you had to buy because of the damage, include them to request reimbursement of reasonable expenses. [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Follow up with Tunisair’s customer service (via phone or email) after 5 business days if you have not received acknowledgment of your claim. Use the PIR number as reference.",
+    "cites": []
+   },
+   {
+    "when": "later",
+    "action": "If the airline refuses or does not respond within 30 days of your claim submission, consider filing a complaint with the Tunisian Civil Aviation Authority (ATCA) using the same documentation.",
+    "cites": []
+   }
+  ],
+  "documents": [
+   "Boarding pass",
+   "Baggage tag (talon)",
+   "Valid identity document (CIN or passport)",
+   "Detailed description of the bag (color, brand, size, distinctive marks, contents)",
+   "Photos of the damage",
+   "Receipt(s) for essential items purchased (if any)",
+   "Copy of the Property Irregularity Report (PIR)"
+  ],
+  "deadlines": [
+   {
+    "what": "Submit written claim for damaged baggage",
+    "date_iso": "2026-10-24",
+    "cites": [
+     1
+    ]
+   }
+  ],
+  "coverage": [
+   {
+    "item": "baggage",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "airline_claim",
+   "title": "Réclamation pour bagage endommagé - Vol du 2026-10-17, aéroport de Djerba",
+   "body": "[Nom] [Prénom]\n[N° CIN]\n[Adresse]\n[Téléphone]\n\nObjet : Réclamation pour bagage endommagé – Vol du 17/10/2026, aéroport de Djerba\n\nMadame, Monsieur,\n\nJe vous adresse la présente afin de solliciter la réparation ou l’indemnisation de mon bagage enregistré, qui m’a été remis endommagé à mon arrivée à l’aéroport de Djerba le 17 octobre 2026.\n\nConformément à la politique de protection des passagers de Tunisair et à la Convention de Montréal, je vous transmets les pièces suivantes :\n- Le rapport d’irregularité bagage (PIR) n° [Numéro du PIR]\n- Ma carte d’embarquement\n- L’étiquette du bagage (talon)\n- Une copie de ma pièce d’identité\n- Une description détaillée du bagage (couleur, marque, taille, signes distinctifs, contenu)\n- Des photographies illustrant les dommages constatés\n- Le cas échéant, les factures des achats d’articles de première nécessité effectués suite aux dommages.\n\nJe vous prie de bien vouloir procéder à la réparation du bagage ou, à défaut, à une indemnisation correspondant au préjudice subi, dans les meilleurs délais.\n\nDans l’attente de votre réponse, je vous remercie de l’attention portée à ma demande.\n\nVeuillez agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\n\n[Nom] [Prénom]"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Hey Lqitha, your bag arrived damaged at Djerba airport. Here’s what to do to get it repaired or compensated and the paperwork you’ll need.\",\"steps\":[{\"when\":\"now\",\"action\":\"Go immediately to the \\\"Bagages / Lost & Found\\\" counter of Tunisair (or its ground handling agent) at Djerba airport and ask for a Property Irregularity Report (PIR) for the damaged bag, keeping the copy and the report number. [2]\",\"cites\":[2]},{\"when\":\"today\",\"action\":\"Collect the required documents: boarding pass, baggage tag (talon), a valid ID, and a detailed description of the bag (color, brand, size, distinctive marks, contents). Bring these to the counter to attach to the PIR. [2]\",\"cites\":[2]},{\"when\":\"today\",\"action\":\"Ask the counter staff to give you the official claim form for damaged baggage and the address/email where the written claim must be sent. [1]\",\"cites\":[1]},{\"when\":\"this_week\",\"action\":\"Fill out the written claim form, attach the PIR copy, the documents listed above, and any photos showing the damage. Submit the claim by email or post to the address provided by Tunisair. The claim must be submitted within 7 days of receiving the bag (by 2026-10-24). [1][2]\",\"cites\":[1,2]},{\"when\":\"this_week\",\"action\":\"If you have receipts for any essential items you had to buy because of the damage, include them to request reimbursement of reasonable expenses. [1]\",\"cites\":[1]},{\"when\":\"later\",\"action\":\"Follow up with Tunisair’s customer service (via phone or email) after 5 business days if you have not received acknowledgment of your claim. Use the PIR number as reference.\",\"cites\":[]},{\"when\":\"later\",\"action\":\"If the airline refuses or does not respond within 30 days of your claim submission, consider filing a complaint with the Tunisian Civil Aviation Authority (ATCA) using the same documentation.\",\"cites\":[]}],\"documents\":[\"Boarding pass\",\"Baggage tag (talon)\",\"Valid identity document (CIN or passport)\",\"Detailed description of the bag (color, brand, size, distinctive marks, contents)\",\"Photos of the damage\",\"Receipt(s) for essential items purchased (if any)\",\"Copy of the Property Irregularity Report (PIR)\"],\"deadlines\":[{\"what\":\"Submit written claim for damaged baggage\",\"date_iso\":\"2026-10-24\",\"cites\":[1]}],\"coverage\":[{\"item\":\"baggage\",\"covered\":true}],\"letter\":{\"type\":\"airline_claim\",\"title\":\"Réclamation pour bagage endommagé - Vol du 2026-10-17, aéroport de Djerba\",\"body\":\"[Nom] [Prénom]\\n[N° CIN]\\n[Adresse]\\n[Téléphone]\\n\\nObjet : Réclamation pour bagage endommagé – Vol du 17/10/2026, aéroport de Djerba\\n\\nMadame, Monsieur,\\n\\nJe vous adresse la présente afin de solliciter la réparation ou l’indemnisation de mon bagage enregistré, qui m’a été remis endommagé à mon arrivée à l’aéroport de Djerba le 17 octobre 2026.\\n\\nConformément à la politique de protection des passagers de Tunisair et à la Convention de Montréal, je vous transmets les pièces suivantes :\\n- Le rapport d’irregularité bagage (PIR) n° [Numéro du PIR]\\n- Ma carte d’embarquement\\n- L’étiquette du bagage (talon)\\n- Une copie de ma pièce d’identité\\n- Une description détaillée du bagage (couleur, marque, taille, signes distinctifs, contenu)\\n- Des photographies illustrant les dommages constatés\\n- Le cas échéant, les factures des achats d’articles de première nécessité effectués suite aux dommages.\\n\\nJe vous prie de bien vouloir procéder à la réparation du bagage ou, à défaut, à une indemnisation correspondant au préjudice subi, dans les meilleurs délais.\\n\\nDans l’attente de votre réponse, je vous remercie de l’attention portée à ma demande.\\n\\nVeuillez agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\\n\\n[Nom] [Prénom]\"}}",
+ "usage": {
+  "queue_time": 0.020066223,
+  "prompt_tokens": 1719,
+  "prompt_time": 0.090289874,
+  "completion_tokens": 1009,
+  "completion_time": 2.115945278,
+  "total_tokens": 2728,
+  "total_time": 2.206235152,
+  "completion_tokens_details": {
+   "reasoning_tokens": 69
+  }
+ },
+ "latency_s": 2.87
+}

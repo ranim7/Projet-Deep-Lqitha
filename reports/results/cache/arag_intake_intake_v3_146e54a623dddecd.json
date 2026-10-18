@@ -1,0 +1,45 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "fr",
+  "slots": {
+   "item_category": "wallet",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "metro",
+   "place_name": null,
+   "governorate": "Tunis",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "date",
+   "photo",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "À quelle date avez‑vous trouvé le portefeuille ?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"wallet\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"metro\",\"place_name\":null,\"governorate\":\"Tunis\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"date\",\"photo\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"À quelle date avez‑vous trouvé le portefeuille ?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.017895284,
+  "prompt_tokens": 1925,
+  "prompt_time": 0.018089701,
+  "completion_tokens": 152,
+  "completion_time": 0.228623624,
+  "total_tokens": 2077,
+  "total_time": 0.246713325,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 33
+  }
+ },
+ "latency_s": 0.88
+}

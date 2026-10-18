@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "derja",
+  "slots": {
+   "item_category": "wallet",
+   "date_text": "lyoum",
+   "date_iso": "2026-10-14",
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type",
+   "place_name"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Wesh houwa l'makan li 9it fih el portefeuille?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"derja\",\"slots\":{\"item_category\":\"wallet\",\"date_text\":\"lyoum\",\"date_iso\":\"2026-10-14\",\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\",\"place_name\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Wesh houwa l'makan li 9it fih el portefeuille?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.016995636,
+  "prompt_tokens": 1924,
+  "prompt_time": 0.016303298,
+  "completion_tokens": 182,
+  "completion_time": 0.190083268,
+  "total_tokens": 2106,
+  "total_time": 0.206386566,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 53
+  }
+ },
+ "latency_s": 0.7
+}

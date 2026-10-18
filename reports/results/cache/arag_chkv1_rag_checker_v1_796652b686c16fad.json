@@ -1,0 +1,48 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "partially",
+    "reason": "Document required but 'police station' location not stated"
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Form required but source (police/website) not stated"
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Most docs listed but 'flight ticket' not in passage"
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Payment receipt required but 'post office' location not stated"
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Submission implied but 'expedited processing' not stated"
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "Collection and verification steps not in passage"
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"partially\", \"reason\": \"Document required but 'police station' location not stated\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Form required but source (police/website) not stated\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Most docs listed but 'flight ticket' not in passage\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Payment receipt required but 'post office' location not stated\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Submission implied but 'expedited processing' not stated\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"Collection and verification steps not in passage\"}]}",
+ "usage": {
+  "queue_time": 0.018594401,
+  "prompt_tokens": 1260,
+  "prompt_time": 0.113003606,
+  "completion_tokens": 177,
+  "completion_time": 0.376291792,
+  "total_tokens": 1437,
+  "total_time": 0.489295398
+ },
+ "latency_s": 15.11
+}

@@ -1,0 +1,37 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-2c8a55e1",
+    "relevance": "medium",
+    "reason": "contains cash and cards, matches bag type"
+   },
+   {
+    "id": "F-ce0e230a",
+    "relevance": "medium",
+    "reason": "cash and bank/metro cards, bag"
+   },
+   {
+    "id": "F-45c2f7bf",
+    "relevance": "medium",
+    "reason": "cash present, bag"
+   }
+  ],
+  "answer": "ma fama hata item high, fama 3 items medium: F-2c8a55e1 (found fi Lamta, 2026-10-14), F-ce0e230a (found fi La Goulette Casino, 2026-10-08), F-45c2f7bf (found fi Aéroport Monastir, 2026-10-10). 7 items low ma nadhrouhomch. if t7eb t3ref aktar, ifta7 item w dabb 3la \"C'est peut-être à moi\" wala a3mel déclaration ta3 perte."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-2c8a55e1\",\"relevance\":\"medium\",\"reason\":\"contains cash and cards, matches bag type\"},{\"id\":\"F-ce0e230a\",\"relevance\":\"medium\",\"reason\":\"cash and bank/metro cards, bag\"},{\"id\":\"F-45c2f7bf\",\"relevance\":\"medium\",\"reason\":\"cash present, bag\"}],\"answer\":\"ma fama hata item high, fama 3 items medium: F-2c8a55e1 (found fi Lamta, 2026-10-14), F-ce0e230a (found fi La Goulette Casino, 2026-10-08), F-45c2f7bf (found fi Aéroport Monastir, 2026-10-10). 7 items low ma nadhrouhomch. if t7eb t3ref aktar, ifta7 item w dabb 3la \\\"C'est peut-être à moi\\\" wala a3mel déclaration ta3 perte.\"}",
+ "usage": {
+  "queue_time": 0.297181223,
+  "prompt_tokens": 1025,
+  "prompt_time": 0.048005121,
+  "completion_tokens": 506,
+  "completion_time": 1.036938269,
+  "total_tokens": 1531,
+  "total_time": 1.08494339,
+  "completion_tokens_details": {
+   "reasoning_tokens": 284
+  }
+ },
+ "latency_s": 5.6
+}

@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "search_found",
+  "language": "fr",
+  "slots": {
+   "item_category": "bag",
+   "date_text": "il y a 6 jours",
+   "date_iso": "2026-10-12",
+   "place_type": "other",
+   "place_name": "Mellassine",
+   "governorate": "Tunis",
+   "distinctive_detail": "sac à dos rose avec accents bleus et fermetures blanches",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_search",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "sac à dos rose trouvé à Mellassine",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"search_found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bag\",\"date_text\":\"il y a 6 jours\",\"date_iso\":\"2026-10-12\",\"place_type\":\"other\",\"place_name\":\"Mellassine\",\"governorate\":\"Tunis\",\"distinctive_detail\":\"sac à dos rose avec accents bleus et fermetures blanches\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_search\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"sac à dos rose trouvé à Mellassine\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.206841143,
+  "prompt_tokens": 1945,
+  "prompt_time": 0.021018637,
+  "completion_tokens": 208,
+  "completion_time": 0.237333402,
+  "total_tokens": 2153,
+  "total_time": 0.258352039,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 69
+  }
+ },
+ "latency_s": 1.1
+}

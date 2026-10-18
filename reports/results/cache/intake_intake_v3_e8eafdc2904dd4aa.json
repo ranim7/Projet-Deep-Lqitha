@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "derja",
+  "slots": {
+   "item_category": "glasses",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": "taxi",
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "date"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Ya3tik saha! Waqtech t7ess blli 7abess?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"derja\",\"slots\":{\"item_category\":\"glasses\",\"date_text\":null,\"date_iso\":null,\"place_type\":\"taxi\",\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"date\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Ya3tik saha! Waqtech t7ess blli 7abess?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.429100549,
+  "prompt_tokens": 1911,
+  "prompt_time": 0.012171864,
+  "completion_tokens": 146,
+  "completion_time": 0.165090849,
+  "total_tokens": 2057,
+  "total_time": 0.177262713,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 23
+  }
+ },
+ "latency_s": 1.24
+}

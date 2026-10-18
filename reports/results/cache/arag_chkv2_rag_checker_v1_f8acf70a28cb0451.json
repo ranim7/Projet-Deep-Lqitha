@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [1] explicitly states to call customer service using the number on the back of the card or app to block the card."
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Passage [3] mentions using 'Find My' or 'Find My Device' to lock the phone and changing passwords for sensitive accounts."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage [3] supports contacting the operator to suspend the SIM, but does not mention requesting a new SIM at an agency with ID."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage [3] does not mention filing a police report or IMEI; Passage [5] is about lost items in transport, not police reports for phones."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage [1] mentions filing a complaint and getting a receipt, but does not explicitly state going to the bank agency to request a new card with that receipt."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "Passage [5] discusses contacting taxi drivers or stations, but does not mention the 'Lqitha' platform or declaring loss there."
+   },
+   {
+    "step": 7,
+    "label": "supported",
+    "reason": "Passage [5] explicitly states to use a receipt or reservation app to contact the driver for individual taxis."
+   },
+   {
+    "step": 8,
+    "label": "partially",
+    "reason": "Passage [6] mentions getting a certificate of loss from police for ID cards, but does not explicitly link it to general administrative steps or 'recepisse' for other documents."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [1] explicitly states to call customer service using the number on the back of the card or app to block the card.\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Passage [3] mentions using 'Find My' or 'Find My Device' to lock the phone and changing passwords for sensitive accounts.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage [3] supports contacting the operator to suspend the SIM, but does not mention requesting a new SIM at an agency with ID.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage [3] does not mention filing a police report or IMEI; Passage [5] is about lost items in transport, not police reports for phones.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage [1] mentions filing a complaint and getting a receipt, but does not explicitly state going to the bank agency to request a new card with that receipt.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"Passage [5] discusses contacting taxi drivers or stations, but does not mention the 'Lqitha' platform or declaring loss there.\"}, {\"step\": 7, \"label\": \"supported\", \"reason\": \"Passage [5] explicitly states to use a receipt or reservation app to contact the driver for individual taxis.\"}, {\"step\": 8, \"label\": \"partially\", \"reason\": \"Passage [6] mentions getting a certificate of loss from police for ID cards, but does not explicitly link it to general administrative steps or 'recepisse' for other documents.\"}]}",
+ "usage": {
+  "queue_time": 0.108255622,
+  "prompt_tokens": 1779,
+  "prompt_time": 0.200025202,
+  "completion_tokens": 384,
+  "completion_time": 0.819623657,
+  "total_tokens": 2163,
+  "total_time": 1.019648859
+ },
+ "latency_s": 7.93
+}

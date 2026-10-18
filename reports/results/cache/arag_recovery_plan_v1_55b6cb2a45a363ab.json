@@ -1,0 +1,81 @@
+{
+ "parsed": {
+  "summary": "To obtain a duplicate family booklet after loss, you must submit a request to the civil status officer of the arrondissement where the marriage was contracted, along with specific personal documents and the applicable fee.",
+  "steps": [
+   {
+    "when": "Immediately",
+    "action": "Write a formal request addressed to the officer of civil status of the arrondissement where the marriage contract was concluded, stating the loss of the family booklet and requesting a duplicate.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Along with the request",
+    "action": "Attach a copy of the head‑of‑family’s identity card (CIN).",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Along with the request",
+    "action": "Attach the marriage certificate (extrait de l’acte de mariage).",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Along with the request",
+    "action": "Attach birth certificates (extraits de naissance) of both spouses.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "If the booklet is to be issued to the mother after the spouse’s death",
+    "action": "Attach the death certificate of the deceased spouse.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "If the mother has custody after a divorce",
+    "action": "Attach the divorce judgment (expédition du jugement de divorce).",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "If there are other family members",
+    "action": "Attach birth certificates of the other family members (children, etc.).",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "When all documents are ready",
+    "action": "Pay the required fee (redevance) for the family booklet and submit the complete dossier to the civil status office.",
+    "cites": [
+     1
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"To obtain a duplicate family booklet after loss, you must submit a request to the civil status officer of the arrondissement where the marriage was contracted, along with specific personal documents and the applicable fee.\",\"steps\":[{\"when\":\"Immediately\",\"action\":\"Write a formal request addressed to the officer of civil status of the arrondissement where the marriage contract was concluded, stating the loss of the family booklet and requesting a duplicate.\",\"cites\":[1]},{\"when\":\"Along with the request\",\"action\":\"Attach a copy of the head‑of‑family’s identity card (CIN).\",\"cites\":[1]},{\"when\":\"Along with the request\",\"action\":\"Attach the marriage certificate (extrait de l’acte de mariage).\",\"cites\":[1]},{\"when\":\"Along with the request\",\"action\":\"Attach birth certificates (extraits de naissance) of both spouses.\",\"cites\":[1]},{\"when\":\"If the booklet is to be issued to the mother after the spouse’s death\",\"action\":\"Attach the death certificate of the deceased spouse.\",\"cites\":[1]},{\"when\":\"If the mother has custody after a divorce\",\"action\":\"Attach the divorce judgment (expédition du jugement de divorce).\",\"cites\":[1]},{\"when\":\"If there are other family members\",\"action\":\"Attach birth certificates of the other family members (children, etc.).\",\"cites\":[1]},{\"when\":\"When all documents are ready\",\"action\":\"Pay the required fee (redevance) for the family booklet and submit the complete dossier to the civil status office.\",\"cites\":[1]}],\"documents\":[],\"deadlines\":[],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.297575884,
+  "prompt_tokens": 398,
+  "prompt_time": 0.016312503,
+  "completion_tokens": 346,
+  "completion_time": 0.721211515,
+  "total_tokens": 744,
+  "total_time": 0.737524018,
+  "completion_tokens_details": {
+   "reasoning_tokens": 8
+  }
+ },
+ "latency_s": 1.5
+}

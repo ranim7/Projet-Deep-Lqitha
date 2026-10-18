@@ -1,0 +1,86 @@
+{
+ "parsed": {
+  "summary": "Sbah el khir! Vous avez perdu votre sac avec votre permis de conduire dans le train SNCFT Tunis‑Sfax. Voici les démarches à suivre pour le récupérer ou obtenir un duplicata du permis.",
+  "steps": [
+   {
+    "when": "now",
+    "action": "Contactez immédiatement le chef de gare de la gare d'arrivée à Sfax, en précisant le numéro du train, la date, l'heure, la voiture et la place occupée, pour signaler la perte du sac et demander s'il a été déposé au service des objets trouvés de la gare. [1]",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Déposez une déclaration de perte du permis de conduire au poste de police ou à la garde nationale la plus proche de Sfax, en présentant votre carte d'identité nationale et en obtenant l'attestation de déclaration de perte. [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "today",
+    "action": "Déclarez la perte sur la plateforme Lqitha : prenez une photo du sac (sans montrer les numéros du permis), indiquez le lieu, la date et le détail caché du contenu. [2]",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "when": "this_week",
+    "action": "Demandez un duplicata du permis de conduire en remplissant le formulaire de demande auprès de la Direction Générale des Transports, en joignant la copie de votre carte d'identité nationale, l'attestation de déclaration de perte et le formulaire rempli. [3]",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "later",
+    "action": "Si le sac est retrouvé au dépôt de la gare, récupérez‑le en présentant votre pièce d'identité au guichet du service des objets trouvés. [1]",
+    "cites": [
+     1
+    ]
+   }
+  ],
+  "documents": [
+   "Attestation de déclaration de perte du permis de conduire (obtenue au poste de police ou à la garde nationale)",
+   "Copie de la carte d'identité nationale (original à présenter)",
+   "Formulaire de demande de duplicata du permis de conduire (disponible sur le site idaraty.tn)"
+  ],
+  "deadlines": [
+   {
+    "what": "Renouvellement du permis de conduire (duplicata)",
+    "date_iso": "2026-11-17",
+    "cites": [
+     3
+    ]
+   }
+  ],
+  "coverage": [
+   {
+    "item": "bag",
+    "covered": true
+   },
+   {
+    "item": "driving_licence",
+    "covered": true
+   }
+  ],
+  "letter": {
+   "type": "none",
+   "title": null,
+   "body": null
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"Sbah el khir! Vous avez perdu votre sac avec votre permis de conduire dans le train SNCFT Tunis‑Sfax. Voici les démarches à suivre pour le récupérer ou obtenir un duplicata du permis.\",\"steps\":[{\"when\":\"now\",\"action\":\"Contactez immédiatement le chef de gare de la gare d'arrivée à Sfax, en précisant le numéro du train, la date, l'heure, la voiture et la place occupée, pour signaler la perte du sac et demander s'il a été déposé au service des objets trouvés de la gare. [1]\",\"cites\":[1]},{\"when\":\"today\",\"action\":\"Déposez une déclaration de perte du permis de conduire au poste de police ou à la garde nationale la plus proche de Sfax, en présentant votre carte d'identité nationale et en obtenant l'attestation de déclaration de perte. [3]\",\"cites\":[3]},{\"when\":\"today\",\"action\":\"Déclarez la perte sur la plateforme Lqitha : prenez une photo du sac (sans montrer les numéros du permis), indiquez le lieu, la date et le détail caché du contenu. [2]\",\"cites\":[2]},{\"when\":\"this_week\",\"action\":\"Demandez un duplicata du permis de conduire en remplissant le formulaire de demande auprès de la Direction Générale des Transports, en joignant la copie de votre carte d'identité nationale, l'attestation de déclaration de perte et le formulaire rempli. [3]\",\"cites\":[3]},{\"when\":\"later\",\"action\":\"Si le sac est retrouvé au dépôt de la gare, récupérez‑le en présentant votre pièce d'identité au guichet du service des objets trouvés. [1]\",\"cites\":[1]}],\"documents\":[\"Attestation de déclaration de perte du permis de conduire (obtenue au poste de police ou à la garde nationale)\",\"Copie de la carte d'identité nationale (original à présenter)\",\"Formulaire de demande de duplicata du permis de conduire (disponible sur le site idaraty.tn)\"],\"deadlines\":[{\"what\":\"Renouvellement du permis de conduire (duplicata)\",\"date_iso\":\"2026-11-17\",\"cites\":[3]}],\"coverage\":[{\"item\":\"bag\",\"covered\":true},{\"item\":\"driving_licence\",\"covered\":true}],\"letter\":{\"type\":\"none\",\"title\":null,\"body\":null}}",
+ "usage": {
+  "queue_time": 0.210935355,
+  "prompt_tokens": 1370,
+  "prompt_time": 0.061064749,
+  "completion_tokens": 588,
+  "completion_time": 1.230801172,
+  "total_tokens": 1958,
+  "total_time": 1.2918659209999999,
+  "completion_tokens_details": {
+   "reasoning_tokens": 74
+  }
+ },
+ "latency_s": 2.37
+}

@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "unsupported",
+    "reason": "Passage does not mention police, national guard, or IMEI."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Operator and SIM suspension supported; new SIM/ID detail not in passage."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage mentions metro station agent and lost items location."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "Passage does not mention Lqitha platform."
+   },
+   {
+    "step": 5,
+    "label": "supported",
+    "reason": "Passage explicitly advises changing passwords."
+   },
+   {
+    "step": 6,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 7,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"unsupported\", \"reason\": \"Passage does not mention police, national guard, or IMEI.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Operator and SIM suspension supported; new SIM/ID detail not in passage.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage mentions metro station agent and lost items location.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"Passage does not mention Lqitha platform.\"}, {\"step\": 5, \"label\": \"supported\", \"reason\": \"Passage explicitly advises changing passwords.\"}, {\"step\": 6, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 7, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"No citation provided.\"}]}",
+ "usage": {
+  "queue_time": 0.01835827,
+  "prompt_tokens": 1285,
+  "prompt_time": 0.110855249,
+  "completion_tokens": 214,
+  "completion_time": 0.428874026,
+  "total_tokens": 1499,
+  "total_time": 0.539729275
+ },
+ "latency_s": 8.08
+}

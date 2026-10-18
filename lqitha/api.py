@@ -20,7 +20,7 @@ from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from . import config, matching, rag, store
+from . import config, matching, rag, search, store
 from .llm import run_prompt, transcribe
 
 app = FastAPI(title="Lqitha tools API", version="1.0")
@@ -158,6 +158,41 @@ def rag_search(x: RagIn):
     for h in hits:
         h.pop("dense", None)
     return {"hits": hits, "context": rag.format_context(hits)}
+
+
+class SubQuestion(BaseModel):
+    q: str
+    sources: list[str] = []
+    item_type: str | None = None
+    need: str | None = None
+
+
+class MultiIn(BaseModel):
+    sub_questions: list[SubQuestion]
+    per_question: int = 3
+
+
+@app.post("/tools/rag/multi")
+def rag_multi(x: MultiIn):
+    """Agentic RAG - retrieval step: one routed search per sub-question of the planner agent."""
+    passages = rag.multi_search([s.model_dump() if hasattr(s, "model_dump") else s.dict() for s in x.sub_questions], per_question=x.per_question)
+    return {"passages": passages, "candidates": rag.candidates_text(passages), "n": len(passages)}
+
+
+class SearchIn(BaseModel):
+    record: dict = {}
+    slots: dict = {}
+    text: str = ""
+    top_k: int = 8
+
+
+@app.post("/tools/search/found")
+def search_found_items(x: SearchIn):
+    """Found-items search - retrieval step (dense recall + soft constraints on category, place, date). Public fields only."""
+    slots = {k: v for k, v in (x.slots or {}).items() if k in ("governorate", "place_name", "place_type", "date_iso")}
+    res = search.search_soft(x.record, slots, top_k=x.top_k, text=x.text)   # best configuration in scripts/eval_search.py
+    res["candidates"] = search.candidates_text(res["results"])
+    return res
 
 
 class ClaimIn(BaseModel):

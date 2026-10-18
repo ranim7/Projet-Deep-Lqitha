@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "fr",
+  "slots": {
+   "item_category": "luggage",
+   "date_text": "3 jours",
+   "date_iso": "2026-10-15",
+   "place_type": "other",
+   "place_name": "Tunisair",
+   "governorate": "unknown",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "bagage retardé Tunisair remboursement",
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"fr\",\"slots\":{\"item_category\":\"luggage\",\"date_text\":\"3 jours\",\"date_iso\":\"2026-10-15\",\"place_type\":\"other\",\"place_name\":\"Tunisair\",\"governorate\":\"unknown\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"bagage retardé Tunisair remboursement\",\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.150524051,
+  "prompt_tokens": 1933,
+  "prompt_time": 0.128963915,
+  "completion_tokens": 284,
+  "completion_time": 0.322394377,
+  "total_tokens": 2217,
+  "total_time": 0.451358292,
+  "completion_tokens_details": {
+   "reasoning_tokens": 166
+  }
+ },
+ "latency_s": 1.2
+}

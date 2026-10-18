@@ -1,0 +1,52 @@
+{
+ "parsed": {
+  "situation": "Passport lost at Tunis-Carthage airport, traveling in a week",
+  "affected_items": [
+   "passport"
+  ],
+  "urgency": "normal",
+  "sub_questions": [
+   {
+    "q": "Où puis-je déclarer la perte de mon passeport à l'aéroport de Tunis-Carthage ?",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "passport",
+    "need": "declare loss at airport"
+   },
+   {
+    "q": "Quelles démarches suivre pour obtenir un duplicata de passeport en urgence depuis l'aéroport ?",
+    "sources": [
+     "administration",
+     "law"
+    ],
+    "item_type": "passport",
+    "need": "replace passport"
+   },
+   {
+    "q": "Quel est le délai pour recevoir un duplicata de passeport et quelles pièces sont nécessaires ?",
+    "sources": [
+     "administration"
+    ],
+    "item_type": "passport",
+    "need": "replacement deadline"
+   }
+  ],
+  "letter": "police_declaration"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Passport lost at Tunis-Carthage airport, traveling in a week\",\"affected_items\":[\"passport\"],\"urgency\":\"normal\",\"sub_questions\":[{\"q\":\"Où puis-je déclarer la perte de mon passeport à l'aéroport de Tunis-Carthage ?\",\"sources\":[\"sop\"],\"item_type\":\"passport\",\"need\":\"declare loss at airport\"},{\"q\":\"Quelles démarches suivre pour obtenir un duplicata de passeport en urgence depuis l'aéroport ?\",\"sources\":[\"administration\",\"law\"],\"item_type\":\"passport\",\"need\":\"replace passport\"},{\"q\":\"Quel est le délai pour recevoir un duplicata de passeport et quelles pièces sont nécessaires ?\",\"sources\":[\"administration\"],\"item_type\":\"passport\",\"need\":\"replacement deadline\"}],\"letter\":\"police_declaration\"}",
+ "usage": {
+  "queue_time": 0.205905909,
+  "prompt_tokens": 993,
+  "prompt_time": 0.051738426,
+  "completion_tokens": 310,
+  "completion_time": 0.315958794,
+  "total_tokens": 1303,
+  "total_time": 0.36769722,
+  "completion_tokens_details": {
+   "reasoning_tokens": 142
+  }
+ },
+ "latency_s": 1.08
+}

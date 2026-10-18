@@ -1,0 +1,45 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "fr",
+  "slots": {
+   "item_category": "glasses",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place",
+   "date",
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Où avez-vous perdu vos lunettes ?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"fr\",\"slots\":{\"item_category\":\"glasses\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place\",\"date\",\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Où avez-vous perdu vos lunettes ?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.301602286,
+  "prompt_tokens": 1909,
+  "prompt_time": 0.088916276,
+  "completion_tokens": 162,
+  "completion_time": 0.2358971,
+  "total_tokens": 2071,
+  "total_time": 0.324813376,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 44
+  }
+ },
+ "latency_s": 4.68
+}

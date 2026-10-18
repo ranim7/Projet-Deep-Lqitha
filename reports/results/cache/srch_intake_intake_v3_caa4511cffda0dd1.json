@@ -1,0 +1,40 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "en",
+  "slots": {
+   "item_category": "shoes",
+   "date_text": "13 days ago",
+   "date_iso": "2026-10-05",
+   "place_type": "street",
+   "place_name": "Abou El Kacem Echebbi",
+   "governorate": null,
+   "distinctive_detail": "grey suede shoes with brogue perforations and brown heels",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "governorate"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Could you tell me which governorate Abou El Kacem Echebbi is in?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"en\",\"slots\":{\"item_category\":\"shoes\",\"date_text\":\"13 days ago\",\"date_iso\":\"2026-10-05\",\"place_type\":\"street\",\"place_name\":\"Abou El Kacem Echebbi\",\"governorate\":null,\"distinctive_detail\":\"grey suede shoes with brogue perforations and brown heels\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"governorate\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Could you tell me which governorate Abou El Kacem Echebbi is in?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.14891847,
+  "prompt_tokens": 1937,
+  "prompt_time": 0.113290958,
+  "completion_tokens": 254,
+  "completion_time": 0.272695734,
+  "total_tokens": 2191,
+  "total_time": 0.385986692,
+  "completion_tokens_details": {
+   "reasoning_tokens": 104
+  }
+ },
+ "latency_s": 1.12
+}

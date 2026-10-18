@@ -1,0 +1,48 @@
+{
+ "parsed": {
+  "selection": [
+   {
+    "sub_question": 1,
+    "passages": []
+   },
+   {
+    "sub_question": 2,
+    "passages": [
+     {
+      "pid": 5,
+      "score": 2
+     },
+     {
+      "pid": 4,
+      "score": 2
+     }
+    ]
+   },
+   {
+    "sub_question": 3,
+    "passages": [
+     {
+      "pid": 5,
+      "score": 2
+     },
+     {
+      "pid": 4,
+      "score": 2
+     }
+    ]
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"selection\": [{\"sub_question\": 1, \"passages\": []}, {\"sub_question\": 2, \"passages\": [{\"pid\": 5, \"score\": 2}, {\"pid\": 4, \"score\": 2}]}, {\"sub_question\": 3, \"passages\": [{\"pid\": 5, \"score\": 2}, {\"pid\": 4, \"score\": 2}]}]}",
+ "usage": {
+  "queue_time": 0.01777668,
+  "prompt_tokens": 926,
+  "prompt_time": 0.082966425,
+  "completion_tokens": 90,
+  "completion_time": 0.177233243,
+  "total_tokens": 1016,
+  "total_time": 0.260199668
+ },
+ "latency_s": 0.82
+}

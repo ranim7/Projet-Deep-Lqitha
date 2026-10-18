@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [1] explicitly states to call customer service or use the mobile app to block the card immediately."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage [4] supports declaring CIN loss at police/garde nationale, but does not mention the wallet or the specific location 'Sousse'."
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Passage [4] states the police post issues a loss certificate (attestation) after identity verification."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage [3] supports returning to the station and asking for registration number/time, but cites Tunis examples, not Sousse."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage [4] confirms using the certificate to request a new card, but does not specify the 'civil status direction' or 'town hall' as the location."
+   },
+   {
+    "step": 6,
+    "label": "partially",
+    "reason": "Passage [1] mentions filing a complaint and getting a receipt, but does not explicitly state to go to the bank agency with it to get a new card."
+   },
+   {
+    "step": 7,
+    "label": "partially",
+    "reason": "Passage [2] discusses securing accounts and opposition, but the specific instruction to 'change passwords' is not explicitly detailed in the snippet."
+   },
+   {
+    "step": 8,
+    "label": "unsupported",
+    "reason": "Passage [3] discusses transport stations (TGM, Louage, Taxi) and does not mention the 'Lqitha' platform or declaring wallet loss there."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [1] explicitly states to call customer service or use the mobile app to block the card immediately.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage [4] supports declaring CIN loss at police/garde nationale, but does not mention the wallet or the specific location 'Sousse'.\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Passage [4] states the police post issues a loss certificate (attestation) after identity verification.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage [3] supports returning to the station and asking for registration number/time, but cites Tunis examples, not Sousse.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage [4] confirms using the certificate to request a new card, but does not specify the 'civil status direction' or 'town hall' as the location.\"}, {\"step\": 6, \"label\": \"partially\", \"reason\": \"Passage [1] mentions filing a complaint and getting a receipt, but does not explicitly state to go to the bank agency with it to get a new card.\"}, {\"step\": 7, \"label\": \"partially\", \"reason\": \"Passage [2] discusses securing accounts and opposition, but the specific instruction to 'change passwords' is not explicitly detailed in the snippet.\"}, {\"step\": 8, \"label\": \"unsupported\", \"reason\": \"Passage [3] discusses transport stations (TGM, Louage, Taxi) and does not mention the 'Lqitha' platform or declaring wallet loss there.\"}]}",
+ "usage": {
+  "queue_time": 0.018558985,
+  "prompt_tokens": 1596,
+  "prompt_time": 0.133428923,
+  "completion_tokens": 377,
+  "completion_time": 0.780503426,
+  "total_tokens": 1973,
+  "total_time": 0.913932349
+ },
+ "latency_s": 1.41
+}

@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "fr",
+  "slots": {
+   "item_category": "bag",
+   "date_text": "ce matin",
+   "date_iso": "2026-10-18",
+   "place_type": "train_station",
+   "place_name": null,
+   "governorate": "Tunis",
+   "distinctive_detail": "sac avec permis de conduire",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_name"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Pouvez-vous préciser le nom de la gare où vous avez perdu votre sac ?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"fr\",\"slots\":{\"item_category\":\"bag\",\"date_text\":\"ce matin\",\"date_iso\":\"2026-10-18\",\"place_type\":\"train_station\",\"place_name\":null,\"governorate\":\"Tunis\",\"distinctive_detail\":\"sac avec permis de conduire\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_name\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Pouvez-vous préciser le nom de la gare où vous avez perdu votre sac ?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.017552183,
+  "prompt_tokens": 1927,
+  "prompt_time": 0.048360698,
+  "completion_tokens": 172,
+  "completion_time": 0.186907899,
+  "total_tokens": 2099,
+  "total_time": 0.235268597,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 40
+  }
+ },
+ "latency_s": 0.87
+}

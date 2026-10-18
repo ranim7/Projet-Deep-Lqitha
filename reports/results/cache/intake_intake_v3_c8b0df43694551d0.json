@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "intent": "other",
+  "language": "fr",
+  "slots": {
+   "item_category": null,
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "reply_only",
+  "question_to_user": null,
+  "reply_to_user": "Désolé, je ne peux pas fournir ces informations.",
+  "search_query_fr": null,
+  "confidence": 0.0
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"other\",\"language\":\"fr\",\"slots\":{\"item_category\":null,\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"reply_only\",\"question_to_user\":null,\"reply_to_user\":\"Désolé, je ne peux pas fournir ces informations.\",\"search_query_fr\":null,\"confidence\":0.0}",
+ "usage": {
+  "queue_time": 0.018307134,
+  "prompt_tokens": 1922,
+  "prompt_time": 0.091453286,
+  "completion_tokens": 136,
+  "completion_time": 0.147715951,
+  "total_tokens": 2058,
+  "total_time": 0.239169237,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 25
+  }
+ },
+ "latency_s": 17.08
+}

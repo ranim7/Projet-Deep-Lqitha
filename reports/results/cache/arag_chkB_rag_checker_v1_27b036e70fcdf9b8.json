@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 2,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 3,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "no citation"
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "no citation"
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 2, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 3, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"no citation\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"no citation\"}]}",
+ "usage": {
+  "queue_time": 0.101717535,
+  "prompt_tokens": 413,
+  "prompt_time": 0.035929279,
+  "completion_tokens": 102,
+  "completion_time": 0.228426214,
+  "total_tokens": 515,
+  "total_time": 0.264355493
+ },
+ "latency_s": 0.95
+}

@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [3] explicitly states to declare loss at police/guard national to get attestation."
+   },
+   {
+    "step": 2,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage [4] mentions the law but does not state the 30-day deadline or fees for passports (only implies renewal for CIN)."
+   },
+   {
+    "step": "4",
+    "label": "supported",
+    "reason": "Passage [1] describes contacting the Dutch consulate for a provisional document after loss."
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "No citation provided."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\n  \"verdicts\": [\n    {\n      \"step\": 1,\n      \"label\": \"supported\",\n      \"reason\": \"Passage [3] explicitly states to declare loss at police/guard national to get attestation.\"\n    },\n    {\n      \"step\": 2,\n      \"label\": \"unsupported\",\n      \"reason\": \"No citation provided.\"\n    },\n    {\n      \"step\": 3,\n      \"label\": \"partially\",\n      \"reason\": \"Passage [4] mentions the law but does not state the 30-day deadline or fees for passports (only implies renewal for CIN).\"\n    },\n    {\n      \"step\": \"4\",\n      \"label\": \"supported\",\n      \"reason\": \"Passage [1] describes contacting the Dutch consulate for a provisional document after loss.\"\n    },\n    {\n      \"step\": 5,\n      \"label\": \"unsupported\",\n      \"reason\": \"No citation provided.\"\n    }\n  ]\n}",
+ "usage": {
+  "queue_time": 0.168499587,
+  "prompt_tokens": 1029,
+  "prompt_time": 0.078664745,
+  "completion_tokens": 230,
+  "completion_time": 0.510178905,
+  "total_tokens": 1259,
+  "total_time": 0.58884365
+ },
+ "latency_s": 1.39
+}

@@ -1,0 +1,65 @@
+{
+ "parsed": {
+  "summary": "The passenger’s checked luggage was not delivered after a Tunisair flight from Paris to Tunis‑Carthage on 2026‑10‑17 and is now considered lost. Under Tunisair’s passenger protection rules and the Montreal Convention, the passenger must file a written claim within 21 days of the scheduled arrival, providing specific documents (PIR, baggage tag, boarding pass, ID, etc.) to avoid denial.",
+  "steps": [
+   {
+    "when": "Immediately (within 24 hours)",
+    "action": "Go to the Tunisair Lost & Found counter at Tunis‑Carthage Airport and request a Property Irregularity Report (PIR). Keep the original PIR and note the reference number.",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "when": "Within the next 2 days",
+    "action": "Gather all required documents: original PIR, original baggage tag, boarding pass or ticket copy, a government‑issued ID, and a detailed description of the bag (color, brand, size, distinctive marks).",
+    "cites": [
+     2,
+     3
+    ]
+   },
+   {
+    "when": "Within 7 days of receiving the PIR (or no later than 21 days from the scheduled arrival)",
+    "action": "Draft a written claim addressed to Tunisair Customer Relations (see address in source [1]). Include the passenger’s contact details, flight information (flight number, date, Paris‑Tunis route), a summary of the loss, and attach all supporting documents collected.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "when": "Within 10 days of drafting the claim",
+    "action": "Submit the claim via one of the following methods: • Online claim form on Tunisair’s website (https://www.tunisair.com/en/customer-care) • Certified postal mail to Tunisair Customer Relations Department, Charguia II, 2035 Tunis – Carthage, Tunisia. Retain proof of submission (email confirmation or postal receipt).",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "After submission (within 14 days)",
+    "action": "Monitor for a response from Tunisair. If no reply is received within 14 days, send a follow‑up email or letter referencing the original claim and requesting a status update.",
+    "cites": []
+   },
+   {
+    "when": "If the claim is denied or unsatisfactory",
+    "action": "Prepare to invoke the Montreal Convention (Art. 31 & Art. 17) by filing a complaint with the Tunisian Civil Aviation Authority or the relevant consumer protection body, attaching the same documentation and the Tunisair response.",
+    "cites": [
+     3,
+     5
+    ]
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"The passenger’s checked luggage was not delivered after a Tunisair flight from Paris to Tunis‑Carthage on 2026‑10‑17 and is now considered lost. Under Tunisair’s passenger protection rules and the Montreal Convention, the passenger must file a written claim within 21 days of the scheduled arrival, providing specific documents (PIR, baggage tag, boarding pass, ID, etc.) to avoid denial.\",\"steps\":[{\"when\":\"Immediately (within 24 hours)\",\"action\":\"Go to the Tunisair Lost & Found counter at Tunis‑Carthage Airport and request a Property Irregularity Report (PIR). Keep the original PIR and note the reference number.\",\"cites\":[3]},{\"when\":\"Within the next 2 days\",\"action\":\"Gather all required documents: original PIR, original baggage tag, boarding pass or ticket copy, a government‑issued ID, and a detailed description of the bag (color, brand, size, distinctive marks).\",\"cites\":[2,3]},{\"when\":\"Within 7 days of receiving the PIR (or no later than 21 days from the scheduled arrival)\",\"action\":\"Draft a written claim addressed to Tunisair Customer Relations (see address in source [1]). Include the passenger’s contact details, flight information (flight number, date, Paris‑Tunis route), a summary of the loss, and attach all supporting documents collected.\",\"cites\":[1,2]},{\"when\":\"Within 10 days of drafting the claim\",\"action\":\"Submit the claim via one of the following methods: • Online claim form on Tunisair’s website (https://www.tunisair.com/en/customer-care) • Certified postal mail to Tunisair Customer Relations Department, Charguia II, 2035 Tunis – Carthage, Tunisia. Retain proof of submission (email confirmation or postal receipt).\",\"cites\":[1]},{\"when\":\"After submission (within 14 days)\",\"action\":\"Monitor for a response from Tunisair. If no reply is received within 14 days, send a follow‑up email or letter referencing the original claim and requesting a status update.\",\"cites\":[]},{\"when\":\"If the claim is denied or unsatisfactory\",\"action\":\"Prepare to invoke the Montreal Convention (Art. 31 & Art. 17) by filing a complaint with the Tunisian Civil Aviation Authority or the relevant consumer protection body, attaching the same documentation and the Tunisair response.\",\"cites\":[3,5]}]}",
+ "usage": {
+  "queue_time": 0.297655537,
+  "prompt_tokens": 1536,
+  "prompt_time": 0.064122122,
+  "completion_tokens": 539,
+  "completion_time": 1.108006916,
+  "total_tokens": 2075,
+  "total_time": 1.172129038,
+  "completion_tokens_details": {
+   "reasoning_tokens": 17
+  }
+ },
+ "latency_s": 1.91
+}

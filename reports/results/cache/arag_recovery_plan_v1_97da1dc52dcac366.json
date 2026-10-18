@@ -1,0 +1,71 @@
+{
+ "parsed": {
+  "summary": "You lost your bank card and national ID at Tunis‑Carthage airport. Act quickly: block the card, report the loss to police, obtain a loss certificate, and start replacement procedures for both documents.",
+  "steps": [
+   {
+    "when": "Immediately (within minutes)",
+    "action": "Call your bank’s emergency number or use the mobile banking app to place an opposition (block) on the lost bank card. Verify recent transactions and note any suspicious activity.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "when": "Immediately after blocking the card",
+    "action": "Go to the nearest police station or the airport police (post 197) to file a loss report for both the bank card and the national ID. Request a written receipt (attestation de perte).",
+    "cites": [
+     1,
+     5
+    ]
+   },
+   {
+    "when": "Within the same day",
+    "action": "Keep the police receipt; it will be required by the bank and the civil‑identity office for replacement requests.",
+    "cites": [
+     1,
+     5
+    ]
+   },
+   {
+    "when": "Within 24 hours",
+    "action": "Contact your bank (via phone, app, or branch) to request a replacement card, providing the police receipt as proof of loss.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "when": "Within 30 days of the loss",
+    "action": "Visit your local civil‑identity office (or the nearest consular service if you are abroad) with the police loss certificate, your passport or other ID, and a recent photo to apply for a new national identity card (CIN). The law requires renewal within 30 days for a lost card.",
+    "cites": [
+     5,
+     6
+    ]
+   },
+   {
+    "when": "After receiving the new card and ID",
+    "action": "Activate the new bank card, update any linked services, and change passwords for accounts that may have been compromised.",
+    "cites": [
+     2
+    ]
+   }
+  ],
+  "documents": [],
+  "deadlines": [],
+  "letter": null
+ },
+ "strict_json": true,
+ "raw": "{\"summary\":\"You lost your bank card and national ID at Tunis‑Carthage airport. Act quickly: block the card, report the loss to police, obtain a loss certificate, and start replacement procedures for both documents.\",\"steps\":[{\"when\":\"Immediately (within minutes)\",\"action\":\"Call your bank’s emergency number or use the mobile banking app to place an opposition (block) on the lost bank card. Verify recent transactions and note any suspicious activity.\",\"cites\":[1,2]},{\"when\":\"Immediately after blocking the card\",\"action\":\"Go to the nearest police station or the airport police (post 197) to file a loss report for both the bank card and the national ID. Request a written receipt (attestation de perte).\",\"cites\":[1,5]},{\"when\":\"Within the same day\",\"action\":\"Keep the police receipt; it will be required by the bank and the civil‑identity office for replacement requests.\",\"cites\":[1,5]},{\"when\":\"Within 24 hours\",\"action\":\"Contact your bank (via phone, app, or branch) to request a replacement card, providing the police receipt as proof of loss.\",\"cites\":[1]},{\"when\":\"Within 30 days of the loss\",\"action\":\"Visit your local civil‑identity office (or the nearest consular service if you are abroad) with the police loss certificate, your passport or other ID, and a recent photo to apply for a new national identity card (CIN). The law requires renewal within 30 days for a lost card.\",\"cites\":[5,6]},{\"when\":\"After receiving the new card and ID\",\"action\":\"Activate the new bank card, update any linked services, and change passwords for accounts that may have been compromised.\",\"cites\":[2]}],\"documents\":[],\"deadlines\":[],\"letter\":null}",
+ "usage": {
+  "queue_time": 0.221965819,
+  "prompt_tokens": 1626,
+  "prompt_time": 0.127032471,
+  "completion_tokens": 417,
+  "completion_time": 0.873844535,
+  "total_tokens": 2043,
+  "total_time": 1.000877006,
+  "completion_tokens_details": {
+   "reasoning_tokens": 34
+  }
+ },
+ "latency_s": 1.87
+}

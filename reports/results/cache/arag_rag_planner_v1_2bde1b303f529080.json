@@ -1,0 +1,52 @@
+{
+ "parsed": {
+  "situation": "Checked bag arrived damaged at Djerba airport yesterday",
+  "affected_items": [
+   "baggage"
+  ],
+  "urgency": "normal",
+  "sub_questions": [
+   {
+    "q": "Quel est le délai pour déposer une réclamation auprès de Tunisair pour un bagage endommagé à l'aéroport de Djerba ?",
+    "sources": [
+     "operator",
+     "sop"
+    ],
+    "item_type": "baggage",
+    "need": "claim deadline"
+   },
+   {
+    "q": "Où dois-je me rendre à l'aéroport de Djerba pour déposer ma réclamation concernant un bagage endommagé ?",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "claim location"
+   },
+   {
+    "q": "Quelles sont les compensations possibles pour un bagage endommagé selon la politique de protection des passagers de Tunisair ?",
+    "sources": [
+     "operator"
+    ],
+    "item_type": "baggage",
+    "need": "compensation details"
+   }
+  ],
+  "letter": "airline_claim"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Checked bag arrived damaged at Djerba airport yesterday\",\"affected_items\":[\"baggage\"],\"urgency\":\"normal\",\"sub_questions\":[{\"q\":\"Quel est le délai pour déposer une réclamation auprès de Tunisair pour un bagage endommagé à l'aéroport de Djerba ?\",\"sources\":[\"operator\",\"sop\"],\"item_type\":\"baggage\",\"need\":\"claim deadline\"},{\"q\":\"Où dois-je me rendre à l'aéroport de Djerba pour déposer ma réclamation concernant un bagage endommagé ?\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"claim location\"},{\"q\":\"Quelles sont les compensations possibles pour un bagage endommagé selon la politique de protection des passagers de Tunisair ?\",\"sources\":[\"operator\"],\"item_type\":\"baggage\",\"need\":\"compensation details\"}],\"letter\":\"airline_claim\"}",
+ "usage": {
+  "queue_time": 0.150980119,
+  "prompt_tokens": 984,
+  "prompt_time": 0.049687728,
+  "completion_tokens": 253,
+  "completion_time": 0.266633924,
+  "total_tokens": 1237,
+  "total_time": 0.316321652,
+  "completion_tokens_details": {
+   "reasoning_tokens": 59
+  }
+ },
+ "latency_s": 1.04
+}

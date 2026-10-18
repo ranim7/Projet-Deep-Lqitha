@@ -1,0 +1,25 @@
+{
+ "parsed": {
+  "answer": "Salut! Voici ce qu’il faut faire pour récupérer tes frais.\n\n1. **Déclare le retard** : Informe Tunisair dès que possible au comptoir de service bagages à l’aéroport et remplis un *Property Irregularity Report* (PIR) [3].\n2. **Conserve tes factures** : Garde les reçus des vêtements et autres articles achetés pendant l’attente, car ils serviront de justificatifs [1].\n3. **Soumets une demande d’indemnisation** : Envoie la demande accompagnée du PIR et des factures dans les 21 jours suivant la remise du bagage [1].\n4. **Attends la décision** : Tunisair examinera ta demande et pourra rembourser les dépenses raisonnables engagées pour l’achat d’articles de première nécessité [1].\n5. **Suivi** : Si tu n’as pas de réponse dans un délai raisonnable, contacte le service client de Tunisair pour un suivi.\n\n**Documents à fournir**\n- Formulaire PIR (Property Irregularity Report) [3]\n- Factures des achats effectués pendant l’attente [1]\n- Preuve de la perte ou du retard (ex. reçu de l’aéroport) [3]\n\nEn cas de problème, tu peux aussi appeler le service client de Tunisair ou contacter la police (197) si tu penses qu’il y a eu vol.\n",
+  "used_sources": [
+   1,
+   3
+  ],
+  "grounded": true
+ },
+ "strict_json": true,
+ "raw": "{\"answer\":\"Salut! Voici ce qu’il faut faire pour récupérer tes frais.\\n\\n1. **Déclare le retard** : Informe Tunisair dès que possible au comptoir de service bagages à l’aéroport et remplis un *Property Irregularity Report* (PIR) [3].\\n2. **Conserve tes factures** : Garde les reçus des vêtements et autres articles achetés pendant l’attente, car ils serviront de justificatifs [1].\\n3. **Soumets une demande d’indemnisation** : Envoie la demande accompagnée du PIR et des factures dans les 21 jours suivant la remise du bagage [1].\\n4. **Attends la décision** : Tunisair examinera ta demande et pourra rembourser les dépenses raisonnables engagées pour l’achat d’articles de première nécessité [1].\\n5. **Suivi** : Si tu n’as pas de réponse dans un délai raisonnable, contacte le service client de Tunisair pour un suivi.\\n\\n**Documents à fournir**\\n- Formulaire PIR (Property Irregularity Report) [3]\\n- Factures des achats effectués pendant l’attente [1]\\n- Preuve de la perte ou du retard (ex. reçu de l’aéroport) [3]\\n\\nEn cas de problème, tu peux aussi appeler le service client de Tunisair ou contacter la police (197) si tu penses qu’il y a eu vol.\\n\",\"used_sources\":[1,3],\"grounded\":true}",
+ "usage": {
+  "queue_time": 0.048039773,
+  "prompt_tokens": 1689,
+  "prompt_time": 0.092445293,
+  "completion_tokens": 364,
+  "completion_time": 0.381285461,
+  "total_tokens": 2053,
+  "total_time": 0.473730754,
+  "completion_tokens_details": {
+   "reasoning_tokens": 30
+  }
+ },
+ "latency_s": 1.17
+}

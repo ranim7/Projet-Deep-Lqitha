@@ -1,0 +1,52 @@
+{
+ "parsed": {
+  "situation": "Lost family booklet, asking what documents are needed to obtain a new one",
+  "affected_items": [
+   "family_booklet"
+  ],
+  "urgency": "normal",
+  "sub_questions": [
+   {
+    "q": "Quelles pièces justificatives faut-il présenter pour obtenir un duplicata du livret de famille en Tunisie ?",
+    "sources": [
+     "administration"
+    ],
+    "item_type": "family_booklet",
+    "need": "documents for replacement"
+   },
+   {
+    "q": "Où doit-on se rendre pour déclarer la perte et demander le duplicata du livret de famille ?",
+    "sources": [
+     "administration",
+     "sop"
+    ],
+    "item_type": "family_booklet",
+    "need": "where to go"
+   },
+   {
+    "q": "Quel est le délai de traitement pour l’obtention d’un duplicata du livret de famille ?",
+    "sources": [
+     "administration"
+    ],
+    "item_type": "family_booklet",
+    "need": "processing time"
+   }
+  ],
+  "letter": "none"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Lost family booklet, asking what documents are needed to obtain a new one\",\"affected_items\":[\"family_booklet\"],\"urgency\":\"normal\",\"sub_questions\":[{\"q\":\"Quelles pièces justificatives faut-il présenter pour obtenir un duplicata du livret de famille en Tunisie ?\",\"sources\":[\"administration\"],\"item_type\":\"family_booklet\",\"need\":\"documents for replacement\"},{\"q\":\"Où doit-on se rendre pour déclarer la perte et demander le duplicata du livret de famille ?\",\"sources\":[\"administration\",\"sop\"],\"item_type\":\"family_booklet\",\"need\":\"where to go\"},{\"q\":\"Quel est le délai de traitement pour l’obtention d’un duplicata du livret de famille ?\",\"sources\":[\"administration\"],\"item_type\":\"family_booklet\",\"need\":\"processing time\"}],\"letter\":\"none\"}",
+ "usage": {
+  "queue_time": 0.087319533,
+  "prompt_tokens": 992,
+  "prompt_time": 0.054600077,
+  "completion_tokens": 237,
+  "completion_time": 0.240649474,
+  "total_tokens": 1229,
+  "total_time": 0.295249551,
+  "completion_tokens_details": {
+   "reasoning_tokens": 55
+  }
+ },
+ "latency_s": 0.84
+}

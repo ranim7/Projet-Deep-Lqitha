@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "category": "clothing",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "white",
+  "color_detail": "white",
+  "material": null,
+  "distinctive_marks": [
+   "black star logo"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "White baseball cap with black star logo.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"clothing\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"white\",\"color_detail\":\"white\",\"material\":null,\"distinctive_marks\":[\"black star logo\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"White baseball cap with black star logo.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.208299048,
+  "prompt_tokens": 856,
+  "prompt_time": 0.045197171,
+  "completion_tokens": 183,
+  "completion_time": 0.185033123,
+  "total_tokens": 1039,
+  "total_time": 0.230230294,
+  "completion_tokens_details": {
+   "reasoning_tokens": 85
+  }
+ },
+ "latency_s": 1.16
+}

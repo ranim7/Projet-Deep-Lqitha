@@ -1,0 +1,21 @@
+{
+ "parsed": {
+  "results": [],
+  "answer": "Ma fama hata wa7ed men l9a ychbah l'watch li t9a9t. N9a7lek t3alim l'perte b'kifk, w n9adar n3awdou n7awlou nlawjou kif ma t7eb."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[],\"answer\":\"Ma fama hata wa7ed men l9a ychbah l'watch li t9a9t. N9a7lek t3alim l'perte b'kifk, w n9adar n3awdou n7awlou nlawjou kif ma t7eb.\"}",
+ "usage": {
+  "queue_time": 0.221811235,
+  "prompt_tokens": 930,
+  "prompt_time": 0.179705271,
+  "completion_tokens": 135,
+  "completion_time": 0.278590208,
+  "total_tokens": 1065,
+  "total_time": 0.458295479,
+  "completion_tokens_details": {
+   "reasoning_tokens": 53
+  }
+ },
+ "latency_s": 1.31
+}

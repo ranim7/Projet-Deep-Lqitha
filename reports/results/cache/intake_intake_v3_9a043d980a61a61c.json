@@ -1,0 +1,44 @@
+{
+ "parsed": {
+  "intent": "found",
+  "language": "fr",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": "ce matin",
+   "date_iso": "2026-10-14",
+   "place_type": "other",
+   "place_name": "poste de Sfax",
+   "governorate": "Sfax",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": true
+  },
+  "missing": [
+   "distinctive_detail",
+   "hidden_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Pouvez‑vous décrire les détails distinctifs de la carte d’identité (couleur, numéro, etc.) ?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"found\",\"language\":\"fr\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":\"ce matin\",\"date_iso\":\"2026-10-14\",\"place_type\":\"other\",\"place_name\":\"poste de Sfax\",\"governorate\":\"Sfax\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":true},\"missing\":[\"distinctive_detail\",\"hidden_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Pouvez‑vous décrire les détails distinctifs de la carte d’identité (couleur, numéro, etc.) ?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.304920757,
+  "prompt_tokens": 1918,
+  "prompt_time": 0.875027594,
+  "completion_tokens": 189,
+  "completion_time": 0.194418321,
+  "total_tokens": 2107,
+  "total_time": 1.069445915,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 46
+  }
+ },
+ "latency_s": 2.0
+}

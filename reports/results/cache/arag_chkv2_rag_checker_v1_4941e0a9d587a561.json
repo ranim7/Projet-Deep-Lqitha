@@ -1,0 +1,58 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Action and location match passage"
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Document listed in passage"
+   },
+   {
+    "step": 3,
+    "label": "supported",
+    "reason": "Document listed in passage"
+   },
+   {
+    "step": 4,
+    "label": "supported",
+    "reason": "Document listed in passage"
+   },
+   {
+    "step": 5,
+    "label": "supported",
+    "reason": "Conditional document listed in passage"
+   },
+   {
+    "step": 6,
+    "label": "supported",
+    "reason": "Conditional document listed in passage"
+   },
+   {
+    "step": 7,
+    "label": "supported",
+    "reason": "Document listed in passage"
+   },
+   {
+    "step": 8,
+    "label": "supported",
+    "reason": "Fee and submission action implied"
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Action and location match passage\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Document listed in passage\"}, {\"step\": 3, \"label\": \"supported\", \"reason\": \"Document listed in passage\"}, {\"step\": 4, \"label\": \"supported\", \"reason\": \"Document listed in passage\"}, {\"step\": 5, \"label\": \"supported\", \"reason\": \"Conditional document listed in passage\"}, {\"step\": 6, \"label\": \"supported\", \"reason\": \"Conditional document listed in passage\"}, {\"step\": 7, \"label\": \"supported\", \"reason\": \"Document listed in passage\"}, {\"step\": 8, \"label\": \"supported\", \"reason\": \"Fee and submission action implied\"}]}",
+ "usage": {
+  "queue_time": 0.018930527,
+  "prompt_tokens": 1637,
+  "prompt_time": 0.11357662,
+  "completion_tokens": 179,
+  "completion_time": 0.340111553,
+  "total_tokens": 1816,
+  "total_time": 0.453688173
+ },
+ "latency_s": 18.91
+}

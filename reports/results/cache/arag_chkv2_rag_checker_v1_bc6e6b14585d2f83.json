@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "partially",
+    "reason": "Document required is listed, but specific action (police station) and immediate timing are not in passage"
+   },
+   {
+    "step": 2,
+    "label": "supported",
+    "reason": "Listed documents match the requirements in the passage"
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Payment receipt is required, but specific payment center and action details are not in passage"
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Documents match, but specific office (police direction/passport center) is not explicitly named in passage"
+   },
+   {
+    "step": 5,
+    "label": "unsupported",
+    "reason": "No mention of processing time, retrieval, or one-week deadline in passage"
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"partially\", \"reason\": \"Document required is listed, but specific action (police station) and immediate timing are not in passage\"}, {\"step\": 2, \"label\": \"supported\", \"reason\": \"Listed documents match the requirements in the passage\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Payment receipt is required, but specific payment center and action details are not in passage\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Documents match, but specific office (police direction/passport center) is not explicitly named in passage\"}, {\"step\": 5, \"label\": \"unsupported\", \"reason\": \"No mention of processing time, retrieval, or one-week deadline in passage\"}]}",
+ "usage": {
+  "queue_time": 0.020441252,
+  "prompt_tokens": 1091,
+  "prompt_time": 0.080095609,
+  "completion_tokens": 174,
+  "completion_time": 0.37475409,
+  "total_tokens": 1265,
+  "total_time": 0.454849699
+ },
+ "latency_s": 0.94
+}

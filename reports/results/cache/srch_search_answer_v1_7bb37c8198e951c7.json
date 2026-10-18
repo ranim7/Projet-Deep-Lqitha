@@ -1,0 +1,26 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-8b4a0385",
+    "relevance": "high"
+   }
+  ],
+  "answer": "The item F-8b4a0385 matches the request: gold metal aviator sunglasses with brown gradient lenses, found at Khir ed-Din within the last 9 days."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-8b4a0385\",\"relevance\":\"high\"}],\"answer\":\"The item F-8b4a0385 matches the request: gold metal aviator sunglasses with brown gradient lenses, found at Khir ed-Din within the last 9 days.\"}",
+ "usage": {
+  "queue_time": 0.209268128,
+  "prompt_tokens": 576,
+  "prompt_time": 0.025759874,
+  "completion_tokens": 215,
+  "completion_time": 0.44657334,
+  "total_tokens": 791,
+  "total_time": 0.472333214,
+  "completion_tokens_details": {
+   "reasoning_tokens": 144
+  }
+ },
+ "latency_s": 1.28
+}

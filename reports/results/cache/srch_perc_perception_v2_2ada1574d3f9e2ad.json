@@ -1,0 +1,41 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "pink",
+  "color_detail": "pink",
+  "material": null,
+  "distinctive_marks": [
+   "pink backpack with blue accents and white zippers"
+  ],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Pink backpack with blue accents and white zippers.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"pink\",\"color_detail\":\"pink\",\"material\":null,\"distinctive_marks\":[\"pink backpack with blue accents and white zippers\"],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Pink backpack with blue accents and white zippers.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.018037335,
+  "prompt_tokens": 869,
+  "prompt_time": 0.020719679,
+  "completion_tokens": 200,
+  "completion_time": 0.251598172,
+  "total_tokens": 1069,
+  "total_time": 0.272317851,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 95
+  }
+ },
+ "latency_s": 0.9
+}

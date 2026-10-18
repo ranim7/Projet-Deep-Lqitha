@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "jewelry",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "gold",
+  "color_detail": "gold ring with brown gradient eyes",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Gold ring with brown gradient eyes.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"jewelry\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"gold\",\"color_detail\":\"gold ring with brown gradient eyes\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Gold ring with brown gradient eyes.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.017027616,
+  "prompt_tokens": 865,
+  "prompt_time": 0.046216043,
+  "completion_tokens": 184,
+  "completion_time": 0.193387215,
+  "total_tokens": 1049,
+  "total_time": 0.239603258,
+  "completion_tokens_details": {
+   "reasoning_tokens": 85
+  }
+ },
+ "latency_s": 0.87
+}

@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "derja",
+  "slots": {
+   "item_category": "id_document",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [],
+  "next_action": "to_procedure",
+  "question_to_user": null,
+  "reply_to_user": null,
+  "search_query_fr": "permis de conduire expiré remplacement",
+  "confidence": 0.95
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"derja\",\"slots\":{\"item_category\":\"id_document\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[],\"next_action\":\"to_procedure\",\"question_to_user\":null,\"reply_to_user\":null,\"search_query_fr\":\"permis de conduire expiré remplacement\",\"confidence\":0.95}",
+ "usage": {
+  "queue_time": 0.049250735,
+  "prompt_tokens": 1914,
+  "prompt_time": 0.133437712,
+  "completion_tokens": 209,
+  "completion_time": 0.228494898,
+  "total_tokens": 2123,
+  "total_time": 0.36193261,
+  "completion_tokens_details": {
+   "reasoning_tokens": 98
+  }
+ },
+ "latency_s": 5.59
+}

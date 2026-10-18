@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "category": "bag",
+  "subcategory": null,
+  "brand": null,
+  "model": null,
+  "color_family": "black",
+  "color_detail": "black",
+  "material": null,
+  "distinctive_marks": [],
+  "contents": [],
+  "visible_text": null,
+  "contains_sensitive_document": false,
+  "canonical_description": "Black bag with wheels, found at Kairouan bus station.",
+  "field_confidence": {
+   "category": 0.95,
+   "color_family": 0.9,
+   "brand": 0.0
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"category\":\"bag\",\"subcategory\":null,\"brand\":null,\"model\":null,\"color_family\":\"black\",\"color_detail\":\"black\",\"material\":null,\"distinctive_marks\":[],\"contents\":[],\"visible_text\":null,\"contains_sensitive_document\":false,\"canonical_description\":\"Black bag with wheels, found at Kairouan bus station.\",\"field_confidence\":{\"category\":0.95,\"color_family\":0.9,\"brand\":0.0}}",
+ "usage": {
+  "queue_time": 0.017234332,
+  "prompt_tokens": 854,
+  "prompt_time": 0.045478089,
+  "completion_tokens": 172,
+  "completion_time": 0.1744227,
+  "total_tokens": 1026,
+  "total_time": 0.219900789,
+  "completion_tokens_details": {
+   "reasoning_tokens": 73
+  }
+ },
+ "latency_s": 0.98
+}

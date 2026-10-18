@@ -1,0 +1,2972 @@
+{
+ "n_cases": 12,
+ "today": "2026-10-18",
+ "table": [
+  {
+   "pipeline": "Single-query RAG (previous)",
+   "need recall@context": 0.799,
+   "context precision": 0.708,
+   "passages": 4.0,
+   "need coverage": 0.868,
+   "cited steps": 0.729,
+   "faithful steps": 0.522,
+   "supported steps": 0.268,
+   "letter type": "-"
+  },
+  {
+   "pipeline": "Agentic: decomposition + routed retrieval",
+   "need recall@context": 0.972,
+   "context precision": 0.607,
+   "passages": 7.333,
+   "need coverage": "-",
+   "cited steps": "-",
+   "faithful steps": "-",
+   "supported steps": "-",
+   "letter type": "-"
+  },
+  {
+   "pipeline": "Agentic: + LLM re-ranking",
+   "need recall@context": 0.972,
+   "context precision": 0.823,
+   "passages": 3.833,
+   "need coverage": "-",
+   "cited steps": "-",
+   "faithful steps": "-",
+   "supported steps": "-",
+   "letter type": "-"
+  },
+  {
+   "pipeline": "Agentic + writer v1",
+   "need recall@context": "-",
+   "context precision": "-",
+   "passages": "-",
+   "need coverage": 0.722,
+   "cited steps": 0.986,
+   "faithful steps": 0.839,
+   "supported steps": 0.36,
+   "letter type": 0.917
+  },
+  {
+   "pipeline": "Agentic + writer v2 (production)",
+   "need recall@context": "-",
+   "context precision": "-",
+   "passages": "-",
+   "need coverage": 0.944,
+   "cited steps": 0.955,
+   "faithful steps": 0.863,
+   "supported steps": 0.374,
+   "letter type": 0.917
+  }
+ ],
+ "details": [
+  {
+   "id": "P01",
+   "lang": "derja",
+   "message": "dhaya3li portefeuille fih carte d'identité w carte bancaire fi louage Sousse lbera7, chnowa na3mel?",
+   "baseline_query": "dhaya3li portefeuille fih carte d'identité w carte bancaire fi louage Sousse lbera7, chnowa na3mel?",
+   "baseline_docs": [
+    "guide_lost_bank_card_tunisia",
+    "guide_lost_bank_card_tunisia",
+    "guide_lost_bank_card_tunisia",
+    "guide_lost_bank_card_tunisia"
+   ],
+   "sub_questions": [
+    {
+     "q": "comment faire opposition sur une carte bancaire perdue",
+     "sources": [
+      "operator",
+      "sop"
+     ],
+     "item_type": "bank_card",
+     "need": "block the bank card"
+    },
+    {
+     "q": "objet oublié dans un louage que faire",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "search the louage"
+    },
+    {
+     "q": "déclaration de perte et renouvellement de la carte d'identité nationale",
+     "sources": [
+      "sop",
+      "law"
+     ],
+     "item_type": "national_id",
+     "need": "declare and replace the ID card"
+    }
+   ],
+   "letter": "police_declaration",
+   "candidates": [
+    [
+     1,
+     "sop_lost_bank_card",
+     [
+      1
+     ]
+    ],
+    [
+     2,
+     "guide_lost_bank_card_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     3,
+     "guide_lost_bank_card_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     4,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     5,
+     "sop_found_item_what_to_do",
+     [
+      2
+     ]
+    ],
+    [
+     6,
+     "sop_public_transport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     7,
+     "sop_lost_identity_documents",
+     [
+      3
+     ]
+    ],
+    [
+     8,
+     "law_2024_22_national_id_card",
+     [
+      3
+     ]
+    ],
+    [
+     9,
+     "law_2024_22_national_id_card",
+     [
+      3
+     ]
+    ]
+   ],
+   "context": [
+    "sop_lost_bank_card",
+    "guide_lost_bank_card_tunisia",
+    "sop_public_transport_lost_item",
+    "sop_lost_identity_documents",
+    "law_2024_22_national_id_card"
+   ],
+   "plan_v2": {
+    "summary": "Hey, ma3lich, n3awnek t7ell el moshkila b sra3a. Houni plan mta3ek b steps w documents w deadline.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Faites opposition immédiate de la carte bancaire en appelant le service client de votre banque ou via l’application mobile (numéro au dos de la carte ou sur le site).",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Déclarez la perte de la carte d’identité nationale et du portefeuille au poste de police ou de la garde nationale le plus proche (poste de police de Sousse).",
+      "cites": [
+       4
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Obtenez le récépissé/attestation de perte délivré par le poste de police (preuve nécessaire pour le remplacement de la CIN).",
+      "cites": [
+       4
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Retournez à la station de louage où vous êtes descendu à Sousse et demandez au responsable le numéro d’immatriculation du louage et l’heure de départ pour faciliter la recherche.",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Présentez l’attestation de perte au centre de la direction de l’état civil (ou à la mairie de votre domicile) pour demander une nouvelle carte d’identité nationale.",
+      "cites": [
+       4
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Rendez‑vous à votre agence bancaire avec le récépissé de plainte et demandez l’émission d’une nouvelle carte bancaire.",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Surveillez les dernières opérations de votre compte et changez les mots de passe de vos services bancaires en ligne pour sécuriser vos comptes.",
+      "cites": [
+       2
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Déclarez la perte du portefeuille sur la plateforme Lqitha en précisant couleur, marque et contenu pour augmenter les chances de le retrouver.",
+      "cites": [
+       3
+      ]
+     }
+    ],
+    "documents": [
+     "Attestation de perte délivrée par le poste de police (CIN)",
+     "Récépissé de plainte ou de déclaration de perte (pour la banque)",
+     "Pièce d’identité ou justificatif de domicile (pour la demande de nouvelle CIN)"
+    ],
+    "deadlines": [
+     {
+      "what": "Demande de renouvellement de la carte d’identité nationale (CIN)",
+      "date_iso": "2026-11-16",
+      "cites": [
+       4,
+       5
+      ]
+     }
+    ],
+    "coverage": [
+     {
+      "item": "wallet",
+      "covered": true
+     },
+     {
+      "item": "national_id",
+      "covered": true
+     },
+     {
+      "item": "bank_card",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "police_declaration",
+     "title": "Déclaration de perte au poste de police",
+     "body": "[Nom] [Prénom]\nAdresse : [Adresse]\nTéléphone : [Téléphone]\n\nObjet : Déclaration de perte d’un portefeuille contenant une carte d’identité nationale et une carte bancaire\n\nJe soussigné(e), [Nom] [Prénom], né(e) le __/__/____, titulaire de la carte d’identité nationale n° [N° CIN], déclare avoir perdu mon portefeuille le 17/10/2026 à Sousse, dans un louage (taxi collectif interurbain). Le portefeuille contenait notamment :\n- Carte d’identité nationale (CIN)\n- Carte bancaire\n\nJe vous prie de bien vouloir établir un récépissé de perte afin de procéder aux démarches de remplacement de ces documents.\n\nFait à Sousse, le 18/10/2026.\n\nSignature : ______________________"
+    }
+   },
+   "labels_v2": [
+    "supported",
+    "partially",
+    "supported",
+    "partially",
+    "partially",
+    "partially",
+    "partially",
+    "unsupported"
+   ],
+   "labels_v1": [
+    "supported",
+    "partially",
+    "supported",
+    "partially",
+    "supported",
+    "unsupported"
+   ],
+   "baseline_labels": [
+    "unsupported",
+    "partially",
+    "unsupported",
+    "partially",
+    "supported",
+    "partially"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 0.25,
+     "context precision": 1.0,
+     "passages": 4,
+     "need coverage": 0.75,
+     "cited steps": 1.0,
+     "faithful steps": 0.6666666666666666,
+     "supported steps": 0.16666666666666666,
+     "steps": 6
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 0.7777777777777778,
+     "passages": 9
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 5
+    },
+    "W1": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.8333333333333334,
+     "supported steps": 0.5,
+     "steps": 6,
+     "letter type": 1.0,
+     "letter written": 0.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.875,
+     "supported steps": 0.25,
+     "steps": 8,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P02",
+   "lang": "fr",
+   "message": "Ma valise n'est pas arrivée à Tunis-Carthage après mon vol Tunisair depuis Paris hier",
+   "baseline_query": "Ma valise n'est pas arrivée à Tunis-Carthage après mon vol Tunisair depuis Paris hier",
+   "baseline_docs": [
+    "tunisair_passenger_protection_2026",
+    "tunisair_passenger_protection_2026",
+    "sop_airport_lost_item",
+    "tunisair_passenger_protection_2026"
+   ],
+   "sub_questions": [
+    {
+     "q": "Comment déposer une réclamation auprès de Tunisair pour un bagage perdu ?",
+     "sources": [
+      "operator"
+     ],
+     "item_type": "baggage",
+     "need": "airline claim"
+    },
+    {
+     "q": "Où puis-je chercher mon bagage ou déclarer sa perte à l'aéroport de Tunis-Carthage ?",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "search or declare at airport"
+    },
+    {
+     "q": "Quelles sont les démarches officielles pour déclarer un bagage perdu à l'aéroport ?",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "official declaration"
+    },
+    {
+     "q": "Quels sont les délais et les conditions de compensation pour un bagage perdu selon la Convention de Montréal ?",
+     "sources": [
+      "law"
+     ],
+     "item_type": "baggage",
+     "need": "compensation deadlines"
+    }
+   ],
+   "letter": "airline_claim",
+   "candidates": [
+    [
+     1,
+     "tunisair_passenger_protection_2026",
+     [
+      1
+     ]
+    ],
+    [
+     2,
+     "tunisair_passenger_protection_2026",
+     [
+      1
+     ]
+    ],
+    [
+     3,
+     "tunisair_passenger_protection_2026",
+     [
+      1
+     ]
+    ],
+    [
+     4,
+     "sop_airport_lost_item",
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     5,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     6,
+     "sop_airport_lost_item",
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     7,
+     "sop_airport_lost_item",
+     [
+      3
+     ]
+    ],
+    [
+     8,
+     "icao_montreal_convention_1999_fr",
+     [
+      4
+     ]
+    ],
+    [
+     9,
+     "montreal_convention_1999_text_fr",
+     [
+      4
+     ]
+    ],
+    [
+     10,
+     "montreal_convention_1999_text_fr",
+     [
+      4
+     ]
+    ]
+   ],
+   "context": [
+    "tunisair_passenger_protection_2026",
+    "tunisair_passenger_protection_2026",
+    "sop_airport_lost_item",
+    "sop_airport_lost_item",
+    "montreal_convention_1999_text_fr"
+   ],
+   "plan_v2": {
+    "summary": "Hey, ma3lich, n7awlu n7ellou moshkla m3a valiztek li ma wosletch. Houni plan moudabbir bech t9addem taleb ta3k w t7aqqiq 7aqqek.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Ruh 3ala comptoir \"Bagages / Lost & Found\" fi Tunisair fi aéroport Tunis‑Carthage w a3mil Property Irregularity Report (PIR) w khoukh copie m3a numéro de dossier. [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Jma3 w 7oth fi dossier l’original ta3 talon de bagage, la carte d’embarquement, w watha2i9 l’identité (CIN) w description détaillée ta3 valiztek (couleur, marque, taille, signes distinctifs). [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Sajjel taleb ta3 compensation 3la site web Tunisair via formulaire de réclamation https://www.tunisair.com/fr-ca/node/382. [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "B3ath taleb maktoub (lettre de réclamation) li ykoun fih l’original du PIR, talon de bagage, carte d’embarquement w ay watha2i9 moudamija, 3la l’adresse: Tunisair, Direction Relation Clientèle, Charguia II, 2035 Tunis – Carthage. [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Hott copie du talon de bagage w carte d’embarquement fi email/wa9t li t3ayet l’customer service ta3 Tunisair bech ykoun 3andek proof. [2]",
+      "cites": [
+       2
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Taba3 ma3 Tunisair 3la status ta3 taleb via numéro de dossier li 3titouhlek fi PIR, w taleb ta3k ykoun mawjoud fi système. [2]",
+      "cites": [
+       2
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Idha ma tl9ash valiztek ba3d 21 yawm, a3mil réclamation officielle 3la perte (bagage perdu) w taleb ta3 compensation selon Convention de Montréal. [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Sajjel ay frais de première nécessité (receipts) li 9tartihom min ba3d l’retard, bech t9addemhom ba3d ma ykoun el claim ma9bul. [4]",
+      "cites": [
+       4
+      ]
+     }
+    ],
+    "documents": [
+     "Original Property Irregularity Report (PIR) issued at arrival airport",
+     "Original baggage tag (talon)",
+     "Boarding pass or copy of ticket",
+     "Identity document (CIN)",
+     "Detailed description of the luggage",
+     "Any supporting receipts for essential purchases"
+    ],
+    "deadlines": [
+     {
+      "what": "Submit written claim for lost baggage",
+      "date_iso": "2026-11-07",
+      "cites": [
+       3
+      ]
+     }
+    ],
+    "coverage": [
+     {
+      "item": "luggage",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "airline_claim",
+     "title": "Réclamation pour perte de bagage – Vol Tunisair Paris‑Tunis, 17/10/2026",
+     "body": "[Nom] [Prénom]\n[N° CIN]\n[Adresse]\n[Téléphone]\n\nObjet : Réclamation pour perte de bagage – Vol Tunisair Paris‑Tunis du 17 octobre 2026\n\nMadame, Monsieur,\n\nJe soussigné(e) [Nom] [Prénom], titulaire du CIN n°[N° CIN], résidant à [Adresse], vous adresse la présente réclamation concernant la perte de ma valise enregistrée lors du vol Tunisair n°____ du 17 octobre 2026, départ de Paris et arrivée à l’aéroport Tunis‑Carthage.\n\nLe bagage n’a pas été remis à la zone de récupération à mon arrivée. Un Property Irregularity Report (PIR) a été établi sur place, dont le numéro de dossier est _______. Vous trouverez ci-joint les documents suivants :\n- L’original du PIR\n- Le talon de bagage\n- La carte d’embarquement (ou copie du billet)\n- Une description détaillée du bagage (couleur, marque, taille, signes distinctifs)\n- Tout autre justificatif utile.\n\nConformément à la Convention de Montréal et à la politique de protection des passagers de Tunisair, je vous prie de bien vouloir procéder à l’indemnisation prévue pour la perte de mon bagage.\n\nDans l’attente d’une réponse rapide, je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\n\n[Nom] [Prénom]"
+    }
+   },
+   "labels_v2": [
+    "supported",
+    "partially",
+    "supported",
+    "partially",
+    "partially",
+    "unsupported",
+    "partially",
+    "supported"
+   ],
+   "labels_v1": [
+    "supported",
+    "supported",
+    "partially",
+    "partially",
+    "unsupported",
+    "unsupported"
+   ],
+   "baseline_labels": [
+    "supported",
+    "supported",
+    "partially",
+    "partially",
+    "supported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 4,
+     "need coverage": 0.6666666666666666,
+     "cited steps": 1.0,
+     "faithful steps": 1.0,
+     "supported steps": 0.6,
+     "steps": 5
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 0.9,
+     "passages": 10
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 5
+    },
+    "W1": {
+     "need coverage": 0.6666666666666666,
+     "cited steps": 0.8333333333333334,
+     "faithful steps": 0.6666666666666666,
+     "supported steps": 0.3333333333333333,
+     "steps": 6,
+     "letter type": 1.0,
+     "letter written": 0.0
+    },
+    "W2": {
+     "need coverage": 0.6666666666666666,
+     "cited steps": 1.0,
+     "faithful steps": 0.875,
+     "supported steps": 0.375,
+     "steps": 8,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P03",
+   "lang": "en",
+   "message": "My phone was stolen on the metro in Tunis this morning, what should I do?",
+   "baseline_query": "My phone was stolen on the metro in Tunis this morning, what should I do?",
+   "baseline_docs": [
+    "sop_lost_phone",
+    "sop_public_transport_lost_item",
+    "sop_public_transport_lost_item",
+    "sop_lost_phone"
+   ],
+   "sub_questions": [
+    {
+     "q": "Comment bloquer immédiatement la carte SIM de mon téléphone volé",
+     "sources": [
+      "operator"
+     ],
+     "item_type": "phone",
+     "need": "block the SIM"
+    },
+    {
+     "q": "Où puis-je déclarer le vol de mon téléphone dans le métro de Tunis",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "report at metro"
+    },
+    {
+     "q": "Quelles démarches suivre pour déclarer le vol de mon téléphone auprès de la police",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "police declaration"
+    },
+    {
+     "q": "Comment obtenir un nouveau téléphone après le vol",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "phone",
+     "need": "replace phone"
+    }
+   ],
+   "letter": "police_declaration",
+   "candidates": [
+    [
+     1,
+     "sop_lost_bank_card",
+     [
+      1,
+      3
+     ]
+    ],
+    [
+     2,
+     "guide_lost_bank_card_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     3,
+     "sop_lost_phone",
+     [
+      1,
+      2,
+      3,
+      4
+     ]
+    ],
+    [
+     4,
+     "sop_public_transport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     5,
+     "sop_public_transport_lost_item",
+     [
+      2,
+      4
+     ]
+    ],
+    [
+     6,
+     "sop_lost_phone",
+     [
+      3,
+      4
+     ]
+    ]
+   ],
+   "context": [
+    "sop_lost_phone",
+    "sop_public_transport_lost_item",
+    "sop_public_transport_lost_item",
+    "sop_lost_phone"
+   ],
+   "plan_v2": {
+    "summary": "Hey, désolé pour le vol du téléphone ! Voici les actions à faire rapidement pour sécuriser tes données, bloquer la SIM et déclarer le vol aux autorités.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Appelez votre numéro depuis un autre téléphone pour vérifier s'il est récupéré ou bloqué par un honnête passant. [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Localisez ou verrouillez le téléphone à distance via “Find My” (iPhone) ou “Find My Device” (Android). [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) pour suspendre la carte SIM et demander une nouvelle SIM avec le même numéro en agence, en présentant votre pièce d’identité. [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Déposez une plainte au poste de police (urgence : 197) ou à la garde nationale (urgence : 193) en indiquant le numéro IMEI du téléphone (*#06# ou sur la boîte/facture). [1][4]",
+      "cites": [
+       1,
+       4
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Signalez la perte au dépôt de la ligne de métro concernée (station où vous êtes descendu) en donnant le numéro de ligne, la direction, la date et l’heure approximative. [2]",
+      "cites": [
+       2
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Déclarez la perte sur la plateforme Lqitha en décrivant le téléphone (marque, couleur, coque, signes distinctifs). [4]",
+      "cites": [
+       4
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Changez les mots de passe des comptes importants (e‑mail, réseaux sociaux, banque) si le téléphone n’était pas verrouillé. [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Vérifiez les relevés bancaires et les notifications d’applications pour détecter toute utilisation frauduleuse. (Pas de source spécifique, mais bonne pratique).",
+      "cites": []
+     }
+    ],
+    "documents": [
+     "Pièce d’identité nationale (CIN) pour obtenir une nouvelle carte SIM"
+    ],
+    "deadlines": [],
+    "coverage": [
+     {
+      "item": "phone",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "police_declaration",
+     "title": "Déclaration de vol de téléphone portable",
+     "body": "[Nom] [Prénom]\n[N° CIN]\n[Adresse]\n[Téléphone]\n\nObjet : Déclaration de vol de téléphone portable\n\nJe soussigné(e), [Nom] [Prénom], né(e) le __________, résidant à [Adresse], déclare avoir été victime du vol de mon téléphone portable le 2026-10-18, aux environs de __________, dans le métro de Tunis.\n\nMarque et modèle : __________\nCouleur et caractéristiques : __________\nNuméro IMEI : __________ (obtenu via *#06# ou sur la boîte/facture)\n\nJe vous prie de bien vouloir enregistrer cette plainte et de me communiquer les suites à donner.\n\nFait à Tunis, le 2026-10-18.\n\nSignature : ______________________"
+    }
+   },
+   "labels_v2": [
+    "supported",
+    "supported",
+    "partially",
+    "supported",
+    "partially",
+    "supported",
+    "supported",
+    "unsupported"
+   ],
+   "labels_v1": [
+    "supported",
+    "supported",
+    "supported",
+    "partially",
+    "unsupported",
+    "supported",
+    "partially"
+   ],
+   "baseline_labels": [
+    "unsupported",
+    "partially",
+    "supported",
+    "unsupported",
+    "supported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 4,
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.6,
+     "supported steps": 0.4,
+     "steps": 5
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 0.6666666666666666,
+     "passages": 6
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 4
+    },
+    "W1": {
+     "need coverage": 0.5,
+     "cited steps": 1.0,
+     "faithful steps": 0.8571428571428571,
+     "supported steps": 0.5714285714285714,
+     "steps": 7,
+     "letter type": 1.0,
+     "letter written": 0.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 0.875,
+     "faithful steps": 0.875,
+     "supported steps": 0.625,
+     "steps": 8,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P04",
+   "lang": "ar",
+   "message": "ضاع جواز سفري في مطار تونس قرطاج وأنا مسافر بعد أسبوع، ماذا أفعل؟",
+   "baseline_query": "ضاع جواز سفري في مطار تونس قرطاج وأنا مسافر بعد أسبوع، ماذا أفعل؟",
+   "baseline_docs": [
+    "netherlands_emergency_document_tunisia",
+    "netherlands_emergency_document_tunisia",
+    "sop_lost_identity_documents",
+    "sop_lost_identity_documents"
+   ],
+   "sub_questions": [
+    {
+     "q": "Où puis-je déclarer la perte de mon passeport à l'aéroport de Tunis-Carthage ?",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "passport",
+     "need": "declare loss at airport"
+    },
+    {
+     "q": "Quelles démarches suivre pour obtenir un duplicata de passeport en urgence depuis l'aéroport ?",
+     "sources": [
+      "administration",
+      "law"
+     ],
+     "item_type": "passport",
+     "need": "replace passport"
+    },
+    {
+     "q": "Quel est le délai pour recevoir un duplicata de passeport et quelles pièces sont nécessaires ?",
+     "sources": [
+      "administration"
+     ],
+     "item_type": "passport",
+     "need": "replacement deadline"
+    }
+   ],
+   "letter": "police_declaration",
+   "candidates": [
+    [
+     1,
+     "sop_public_transport_lost_item",
+     [
+      1
+     ]
+    ],
+    [
+     2,
+     "sop_public_transport_lost_item",
+     [
+      1
+     ]
+    ],
+    [
+     3,
+     "sop_found_item_what_to_do",
+     [
+      1
+     ]
+    ],
+    [
+     4,
+     "idaraty_passport_duplicate_abroad",
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     5,
+     "idaraty_passport_duplicate_tn",
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     6,
+     "netherlands_emergency_document_tunisia",
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "context": [
+    "idaraty_passport_duplicate_tn",
+    "idaraty_passport_duplicate_abroad"
+   ],
+   "plan_v2": {
+    "summary": "Sbah el khir! Jib l'police w baad t'mchi l'office du passeport, w kol شي tجهّز.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Se rendre immédiatement au poste de police le plus proche pour déclarer la perte du passeport et obtenir l'attestation de déclaration de perte",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Préparer les documents requis : copie de la Carte d'identité nationale (original à présenter), 4 photos conformes, quittance de paiement du timbre fiscal, et tout document prouvant la nécessité du duplicata",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Payer le droit de timbre fiscal auprès du centre de paiement indiqué et obtenir la quittance correspondante",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Se rendre à la direction de la police ou au centre de délivrance des passeports avec le formulaire d’obtention, l’attestation de perte, les pièces d’identité, les photos, la quittance du timbre fiscal et tout justificatif de nécessité pour déposer la demande de duplicata",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Suivre la procédure de traitement et récupérer le passeport duplicata dès qu’il est prêt, idéalement avant le départ prévu dans une semaine",
+      "cites": [
+       1
+      ]
+     }
+    ],
+    "documents": [
+     "Formulaire d'obtention d'un passeport",
+     "Copie de la Carte d'identité nationale avec présentation de l'originale",
+     "04 photos conformes aux exigences",
+     "Attestation de déclaration de perte du passeport",
+     "Quittance de paiement du droit de timbre fiscal",
+     "Tout document prouvant la nécessité d'obtention d'un duplicata du passeport"
+    ],
+    "deadlines": [],
+    "coverage": [
+     {
+      "item": "passport",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "police_declaration",
+     "title": "Déclaration de perte de passeport",
+     "body": "Je soussigné(e) [Nom] [Prénom], né(e) le [Date de naissance], titulaire de la Carte d'Identité Nationale n° [N° CIN], résidant à [Adresse], déclare avoir perdu mon passeport le 2026-10-18 à l'aéroport Tunis-Carthage. Je joins à cette déclaration l'attestation de perte délivrée par le poste de police. Je certifie la véracité des faits et m'engage à fournir tout document complémentaire requis.\n\nFait à Tunis, le 2026-10-18.\n\nSignature : __________________\n\nContact : [Téléphone]"
+    }
+   },
+   "labels_v2": [
+    "partially",
+    "supported",
+    "partially",
+    "partially",
+    "unsupported"
+   ],
+   "labels_v1": [
+    "partially",
+    "partially",
+    "partially",
+    "partially",
+    "partially",
+    "unsupported"
+   ],
+   "baseline_labels": [
+    "supported",
+    "unsupported",
+    "partially",
+    "supported",
+    "unsupported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 0.6666666666666666,
+     "context precision": 0.5,
+     "passages": 4,
+     "need coverage": 0.6666666666666666,
+     "cited steps": 0.6,
+     "faithful steps": 0.6,
+     "supported steps": 0.4,
+     "steps": 5
+    },
+    "A1": {
+     "need recall@context": 0.6666666666666666,
+     "context precision": 0.16666666666666666,
+     "passages": 6
+    },
+    "A2": {
+     "need recall@context": 0.6666666666666666,
+     "context precision": 0.5,
+     "passages": 2
+    },
+    "W1": {
+     "need coverage": 0.3333333333333333,
+     "cited steps": 1.0,
+     "faithful steps": 0.8333333333333334,
+     "supported steps": 0.0,
+     "steps": 6,
+     "letter type": 1.0,
+     "letter written": 0.0
+    },
+    "W2": {
+     "need coverage": 0.6666666666666666,
+     "cited steps": 1.0,
+     "faithful steps": 0.8,
+     "supported steps": 0.2,
+     "steps": 5,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P05",
+   "lang": "fr",
+   "message": "J'ai perdu mon passeport tunisien pendant un séjour en France, que dois-je faire ?",
+   "baseline_query": "perte passeport tunisien à l'étranger",
+   "baseline_docs": [
+    "netherlands_emergency_document_tunisia",
+    "idaraty_passport_duplicate_abroad",
+    "netherlands_emergency_document_tunisia",
+    "sop_lost_identity_documents"
+   ],
+   "sub_questions": [
+    {
+     "q": "Où puis-je déclarer la perte de mon passeport tunisien en France ?",
+     "sources": [
+      "administration"
+     ],
+     "item_type": "passport",
+     "need": "declare loss abroad"
+    },
+    {
+     "q": "Quel est le délai pour obtenir un duplicata de passeport tunisien après une perte à l'étranger ?",
+     "sources": [
+      "administration",
+      "law"
+     ],
+     "item_type": "passport",
+     "need": "replacement deadline"
+    },
+    {
+     "q": "Dois-je faire opposition sur mon passeport perdu ou est-ce uniquement pour les cartes bancaires ?",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "passport",
+     "need": "block passport"
+    }
+   ],
+   "letter": "police_declaration",
+   "candidates": [
+    [
+     1,
+     "netherlands_emergency_document_tunisia",
+     [
+      1,
+      2
+     ]
+    ],
+    [
+     2,
+     "netherlands_emergency_document_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     3,
+     "netherlands_emergency_document_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     4,
+     "idaraty_passport_duplicate_abroad",
+     [
+      2
+     ]
+    ],
+    [
+     5,
+     "idaraty_passport_duplicate_tn",
+     [
+      2
+     ]
+    ],
+    [
+     6,
+     "sop_found_item_what_to_do",
+     [
+      3
+     ]
+    ],
+    [
+     7,
+     "sop_lqitha_service",
+     [
+      3
+     ]
+    ],
+    [
+     8,
+     "sop_found_item_what_to_do",
+     [
+      3
+     ]
+    ]
+   ],
+   "context": [
+    "netherlands_emergency_document_tunisia",
+    "netherlands_emergency_document_tunisia",
+    "idaraty_passport_duplicate_abroad"
+   ],
+   "plan_v2": {
+    "summary": "Salam ! Si t’as perdu ton passeport en France, voici les démarches à suivre pour obtenir un duplicata rapidement.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Envoyer un e‑mail à l’ambassade des Pays‑Bas (tun‑ca@minbuza.nl) en joignant vos nom·prénom, date de naissance, numéro de téléphone, les renseignements du passeport perdu (nom de l’instance, date de délivrance) et la preuve que vous ne pouvez pas repousser votre voyage (plan de vol, réservation, etc.) [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Déposer une plainte auprès du commissariat de police français et demander une attestation écrite de dépôt de plainte mentionnant la perte du passeport [2]",
+      "cites": [
+       2
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Télécharger le formulaire de demande de passeport tunisien (en anglais) depuis le site du ministère de l’Intérieur et le remplir soigneusement [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Préparer les pièces justificatives requises : 4 photos d’identité conformes, copie du CNI ou extrait de naissance, attestation de déclaration de perte, autorisation du tuteur si mineur, justificatif de scolarisation (si étudiant), preuve de résidence à l’étranger, quittance du timbre fiscal et tout document prouvant la nécessité du duplicata [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Se rendre au consulat tunisien le plus proche en France (ex. Consulat de Tunisie à Paris) avec le formulaire rempli et tous les justificatifs pour déposer la demande de duplicata du passeport [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Payer les frais de dossier et le timbre fiscal exigés par le consulat et obtenir le récépissé de dépôt [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Suivre l’avancement de la demande auprès du consulat (par e‑mail ou téléphone) et récupérer le passeport provisoire ou le duplicata dès notification [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Informer votre compagnie aérienne ou agence de voyage de la réception du nouveau passeport et mettre à jour vos réservations si nécessaire [1]",
+      "cites": [
+       1
+      ]
+     }
+    ],
+    "documents": [
+     "Formulaire de demande de passeport (anglais)",
+     "Déclaration de perte ou vol (formulaire C2)",
+     "4 photos d’identité conformes aux critères néerlandais",
+     "Attestation écrite de dépôt de plainte française",
+     "Preuve d’impossibilité de repousser le voyage (plan de vol, réservation)",
+     "Copie de la carte d’identité nationale ou extrait de naissance",
+     "Autorisation du tuteur et copie de sa carte d’identité (si mineur)",
+     "Justificatif de scolarisation (si étudiant)",
+     "Pièce prouvant la résidence réglementaire à l’étranger",
+     "Quittance de paiement du timbre fiscal"
+    ],
+    "deadlines": [],
+    "coverage": [
+     {
+      "item": "passport",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "police_declaration",
+     "title": "Attestation de dépôt de plainte – Perte de passeport tunisien",
+     "body": "[Nom] [Prénom]\n[Adresse]\n[Téléphone]\n\nObjet : Attestation de dépôt de plainte pour perte de passeport tunisien\n\nJe soussigné(e), [Nom] [Prénom], né(e) le [date de naissance], demeurant à [Adresse], déclare avoir perdu mon passeport tunisien le [date de perte approximative] alors que je me trouvais en France.\n\nCette perte a été déclarée au commissariat de police de [nom du commissariat ou ville] le [date de dépôt de plainte]. Une attestation écrite de dépôt de plainte a été délivrée à ma demande.\n\nJe joins à la présente attestation les copies suivantes :\n- Copie du passeport perdu (si disponible) ou les informations figurant sur le document.\n- Preuve de mon déplacement (billet d’avion, réservation d’hôtel, etc.).\n\nFait à [Ville], le [date du jour].\n\nSignature : ______________________"
+    }
+   },
+   "labels_v2": [
+    "partially",
+    "partially",
+    "partially",
+    "supported",
+    "partially",
+    "partially",
+    "unsupported",
+    "unsupported"
+   ],
+   "labels_v1": [
+    "partially",
+    "partially",
+    "partially",
+    "unsupported",
+    "partially"
+   ],
+   "baseline_labels": [
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 1.0,
+     "context precision": 0.5,
+     "passages": 4,
+     "need coverage": 1.0,
+     "cited steps": 0.0,
+     "faithful steps": 0.0,
+     "supported steps": 0.0,
+     "steps": 5
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 0.25,
+     "passages": 8
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 0.3333333333333333,
+     "passages": 3
+    },
+    "W1": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.8,
+     "supported steps": 0.0,
+     "steps": 5,
+     "letter type": 1.0,
+     "letter written": 0.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.75,
+     "supported steps": 0.125,
+     "steps": 8,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P06",
+   "lang": "derja",
+   "message": "tlafli livret de famille, chnowa lwra9 elli lazmni bech nkhrej wa7ed jdid?",
+   "baseline_query": "livret de famille perdu où faire une copie",
+   "baseline_docs": [
+    "idaraty_family_booklet_duplicate",
+    "netherlands_emergency_document_tunisia",
+    "sop_lost_identity_documents",
+    "sop_found_item_what_to_do"
+   ],
+   "sub_questions": [
+    {
+     "q": "Quelles pièces justificatives faut-il présenter pour obtenir un duplicata du livret de famille en Tunisie ?",
+     "sources": [
+      "administration"
+     ],
+     "item_type": "family_booklet",
+     "need": "documents for replacement"
+    },
+    {
+     "q": "Où doit-on se rendre pour déclarer la perte et demander le duplicata du livret de famille ?",
+     "sources": [
+      "administration",
+      "sop"
+     ],
+     "item_type": "family_booklet",
+     "need": "where to go"
+    },
+    {
+     "q": "Quel est le délai de traitement pour l’obtention d’un duplicata du livret de famille ?",
+     "sources": [
+      "administration"
+     ],
+     "item_type": "family_booklet",
+     "need": "processing time"
+    }
+   ],
+   "letter": "none",
+   "candidates": [
+    [
+     1,
+     "idaraty_passport_duplicate_tn",
+     [
+      1
+     ]
+    ],
+    [
+     2,
+     "idaraty_passport_duplicate_abroad",
+     [
+      1,
+      3
+     ]
+    ],
+    [
+     3,
+     "netherlands_emergency_document_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     4,
+     "idaraty_family_booklet_duplicate",
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     5,
+     "sop_lost_identity_documents",
+     [
+      2
+     ]
+    ],
+    [
+     6,
+     "netherlands_emergency_document_tunisia",
+     [
+      2,
+      3
+     ]
+    ]
+   ],
+   "context": [
+    "idaraty_family_booklet_duplicate"
+   ],
+   "plan_v2": {
+    "summary": "Ahlan! Hnéka chnoua t3ml bech tjib duplicata mta3 livret de famille.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Ruh l'officier d'état civil fi l'arrondissement li t3aqed fih l'3aqd nikaah w 9addim talab duplicata mta3 livret de famille.",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Jmaâ copie de la carte d'identité du chef de la famille w jibliha m3ak.",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Jmaâ extrait de l'acte de mariage w jibliha.",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Jmaâ extrait de naissance de chaque époux w jiblihom.",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Idha kan livret ykoun mta3 l'om, jmaâ extrait de l'acte de décès du conjoint w jiblih.",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Idha kan l'om 3andha garde, jmaâ expédition du jugement de divorce w jibliha.",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Jmaâ extrait de naissance des autres membres de la famille w jiblihom.",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Dafaâ la redevance due 3la livret de famille (mabrouk) w dakhil talab m3a les documents li jmaâthom.",
+      "cites": [
+       1
+      ]
+     }
+    ],
+    "documents": [
+     "Copie de la carte d'identité du chef de famille",
+     "Extrait de l'acte de mariage",
+     "Extrait de naissance de chaque époux",
+     "Extrait de l'acte de décès du conjoint (si applicable)",
+     "Expédition du jugement de divorce (si applicable)",
+     "Extrait de naissance des autres membres de la famille",
+     "Redevance due sur le livret de famille"
+    ],
+    "deadlines": [],
+    "coverage": [
+     {
+      "item": "family_booklet",
+      "covered": true
+     }
+    ],
+    "letter": null
+   },
+   "labels_v2": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ],
+   "labels_v1": [
+    "supported",
+    "supported",
+    "supported",
+    "supported",
+    "partially",
+    "partially",
+    "supported",
+    "supported"
+   ],
+   "baseline_labels": [
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 1.0,
+     "context precision": 0.25,
+     "passages": 4,
+     "need coverage": 1.0,
+     "cited steps": 0.0,
+     "faithful steps": 0.0,
+     "supported steps": 0.0,
+     "steps": 5
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 0.16666666666666666,
+     "passages": 6
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 1
+    },
+    "W1": {
+     "need coverage": 0.5,
+     "cited steps": 1.0,
+     "faithful steps": 1.0,
+     "supported steps": 0.75,
+     "steps": 8,
+     "letter type": 1.0,
+     "letter written": 1.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 1.0,
+     "supported steps": 1.0,
+     "steps": 8,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P07",
+   "lang": "fr",
+   "message": "J'ai oublié mon sac avec mon permis de conduire dans le train SNCFT Tunis-Sfax ce matin",
+   "baseline_query": "J'ai oublié mon sac avec mon permis de conduire dans le train SNCFT Tunis-Sfax ce matin",
+   "baseline_docs": [
+    "sop_public_transport_lost_item",
+    "sop_airport_lost_item",
+    "sop_airport_lost_item",
+    "sop_public_transport_lost_item"
+   ],
+   "sub_questions": [
+    {
+     "q": "Où puis-je déclarer la perte de mon sac à la gare de Sfax et où chercher le personnel du train SNCFT ?",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "search and declare at train station"
+    },
+    {
+     "q": "Comment déclarer officiellement la perte de mon permis de conduire auprès des autorités tunisiennes ?",
+     "sources": [
+      "sop",
+      "law"
+     ],
+     "item_type": "driving_licence",
+     "need": "declare and replace driving licence"
+    },
+    {
+     "q": "Quelles sont les démarches pour obtenir un duplicata du permis de conduire et quels sont les délais à respecter ?",
+     "sources": [
+      "law"
+     ],
+     "item_type": "driving_licence",
+     "need": "replacement deadlines"
+    }
+   ],
+   "letter": "none",
+   "candidates": [
+    [
+     1,
+     "sop_public_transport_lost_item",
+     [
+      1,
+      2
+     ]
+    ],
+    [
+     2,
+     "sop_found_item_what_to_do",
+     [
+      1,
+      2
+     ]
+    ],
+    [
+     3,
+     "sop_public_transport_lost_item",
+     [
+      1,
+      2
+     ]
+    ],
+    [
+     4,
+     "sop_lost_identity_documents",
+     [
+      3
+     ]
+    ],
+    [
+     5,
+     "idaraty_passport_duplicate_tn",
+     [
+      3
+     ]
+    ],
+    [
+     6,
+     "idaraty_passport_duplicate_abroad",
+     [
+      3
+     ]
+    ]
+   ],
+   "context": [
+    "sop_public_transport_lost_item",
+    "sop_found_item_what_to_do",
+    "sop_lost_identity_documents"
+   ],
+   "plan_v2": {
+    "summary": "Sbah el khir! Vous avez perdu votre sac avec votre permis de conduire dans le train SNCFT Tunis‑Sfax. Voici les démarches à suivre pour le récupérer ou obtenir un duplicata du permis.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Contactez immédiatement le chef de gare de la gare d'arrivée à Sfax, en précisant le numéro du train, la date, l'heure, la voiture et la place occupée, pour signaler la perte du sac et demander s'il a été déposé au service des objets trouvés de la gare. [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Déposez une déclaration de perte du permis de conduire au poste de police ou à la garde nationale la plus proche de Sfax, en présentant votre carte d'identité nationale et en obtenant l'attestation de déclaration de perte. [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Déclarez la perte sur la plateforme Lqitha : prenez une photo du sac (sans montrer les numéros du permis), indiquez le lieu, la date et le détail caché du contenu. [2]",
+      "cites": [
+       2
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Demandez un duplicata du permis de conduire en remplissant le formulaire de demande auprès de la Direction Générale des Transports, en joignant la copie de votre carte d'identité nationale, l'attestation de déclaration de perte et le formulaire rempli. [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Si le sac est retrouvé au dépôt de la gare, récupérez‑le en présentant votre pièce d'identité au guichet du service des objets trouvés. [1]",
+      "cites": [
+       1
+      ]
+     }
+    ],
+    "documents": [
+     "Attestation de déclaration de perte du permis de conduire (obtenue au poste de police ou à la garde nationale)",
+     "Copie de la carte d'identité nationale (original à présenter)",
+     "Formulaire de demande de duplicata du permis de conduire (disponible sur le site idaraty.tn)"
+    ],
+    "deadlines": [
+     {
+      "what": "Renouvellement du permis de conduire (duplicata)",
+      "date_iso": "2026-11-17",
+      "cites": [
+       3
+      ]
+     }
+    ],
+    "coverage": [
+     {
+      "item": "bag",
+      "covered": true
+     },
+     {
+      "item": "driving_licence",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "none",
+     "title": null,
+     "body": null
+    }
+   },
+   "labels_v2": [
+    "supported",
+    "partially",
+    "supported",
+    "partially",
+    "partially"
+   ],
+   "labels_v1": [
+    "supported",
+    "partially",
+    "partially",
+    "partially"
+   ],
+   "baseline_labels": [
+    "supported",
+    "supported",
+    "partially",
+    "unsupported",
+    "unsupported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 1.0,
+     "context precision": 0.5,
+     "passages": 4,
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.6,
+     "supported steps": 0.4,
+     "steps": 5
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 0.5,
+     "passages": 6
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 0.6666666666666666,
+     "passages": 3
+    },
+    "W1": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 1.0,
+     "supported steps": 0.25,
+     "steps": 4,
+     "letter type": 0.0,
+     "letter written": 1.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 1.0,
+     "supported steps": 0.4,
+     "steps": 5,
+     "letter type": 0.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P08",
+   "lang": "derja",
+   "message": "sar9ouli sakoche fiha telifoun w carte bancaire fi taxi, chnowa na3mel taw?",
+   "baseline_query": "téléphone et carte bancaire perdus dans un taxi que faire",
+   "baseline_docs": [
+    "sop_public_transport_lost_item",
+    "sop_airport_lost_item",
+    "sop_public_transport_lost_item",
+    "sop_found_item_what_to_do"
+   ],
+   "sub_questions": [
+    {
+     "q": "Comment faire opposition sur une carte bancaire perdue",
+     "sources": [
+      "operator",
+      "sop"
+     ],
+     "item_type": "bank_card",
+     "need": "block the bank card"
+    },
+    {
+     "q": "Comment suspendre la carte SIM de mon téléphone perdu",
+     "sources": [
+      "operator",
+      "sop"
+     ],
+     "item_type": "phone",
+     "need": "suspend the SIM"
+    },
+    {
+     "q": "Où déclarer la perte d’un bag dans un taxi et où le chercher",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "search the taxi"
+    },
+    {
+     "q": "Comment déclarer la perte d’un document d’identité ou d’une carte bancaire à la police",
+     "sources": [
+      "sop",
+      "law"
+     ],
+     "item_type": "general",
+     "need": "declare and replace the ID card"
+    }
+   ],
+   "letter": "police_declaration",
+   "candidates": [
+    [
+     1,
+     "sop_lost_bank_card",
+     [
+      1,
+      4
+     ]
+    ],
+    [
+     2,
+     "guide_lost_bank_card_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     3,
+     "guide_lost_bank_card_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     4,
+     "sop_lost_phone",
+     [
+      2
+     ]
+    ],
+    [
+     5,
+     "sop_lost_phone",
+     [
+      2
+     ]
+    ],
+    [
+     6,
+     "sop_public_transport_lost_item",
+     [
+      2,
+      3
+     ]
+    ],
+    [
+     7,
+     "sop_airport_lost_item",
+     [
+      3
+     ]
+    ],
+    [
+     8,
+     "sop_found_item_what_to_do",
+     [
+      3
+     ]
+    ],
+    [
+     9,
+     "sop_lost_identity_documents",
+     [
+      4
+     ]
+    ],
+    [
+     10,
+     "sop_lost_identity_documents",
+     [
+      4
+     ]
+    ]
+   ],
+   "context": [
+    "sop_lost_bank_card",
+    "guide_lost_bank_card_tunisia",
+    "sop_lost_phone",
+    "sop_lost_phone",
+    "sop_public_transport_lost_item",
+    "sop_lost_identity_documents",
+    "sop_lost_identity_documents"
+   ],
+   "plan_v2": {
+    "summary": "Ahlan! Nchallah n3awnek t7ell el moshkila mta3 el bag, el téléphone w el carte bancaire li tfa9douhom fel taxi.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Appelez le service client de votre banque (numéro au dos de la carte ou via l'application) pour faire opposition immédiate de la carte bancaire [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Bloquez le téléphone à distance avec \"Find My\" (iPhone) ou \"Find My Device\" (Android) et changez les mots de passe des comptes sensibles [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Contactez votre opérateur (Tunisie Telecom, Ooredoo ou Orange Tunisie) depuis un autre téléphone pour suspendre la carte SIM et demander une nouvelle SIM en agence avec votre pièce d’identité [3]",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Déposez une plainte au poste de police le plus proche (urgence 197) en indiquant le numéro IMEI du téléphone et la description du bag contenant les objets [3,5]",
+      "cites": [
+       3,
+       5
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Rendez-vous à votre agence bancaire avec le récépissé de plainte pour demander l’émission d’une nouvelle carte bancaire [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Déclarez la perte du bag (et de son contenu) sur la plateforme Lqitha en précisant couleur, marque, signes distinctifs et le lieu (taxi) [5]",
+      "cites": [
+       5
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Si vous avez un reçu ou l’identifiant du chauffeur de taxi, contactez‑le via l’application de réservation ou le numéro indiqué pour tenter de récupérer le bag [5]",
+      "cites": [
+       5
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Demandez à la police le récépissé de déclaration de perte pour le présenter aux éventuelles démarches administratives (ex. renouvellement de documents) [6]",
+      "cites": [
+       6
+      ]
+     }
+    ],
+    "documents": [
+     "Récépissé de plainte de police",
+     "Pièce d’identité (CIN ou passeport) pour la demande de nouvelle carte SIM",
+     "Numéro IMEI du téléphone"
+    ],
+    "deadlines": [],
+    "coverage": [
+     {
+      "item": "bank_card",
+      "covered": true
+     },
+     {
+      "item": "phone",
+      "covered": true
+     },
+     {
+      "item": "bag",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "police_declaration",
+     "title": "Déclaration de perte d'objets dans un taxi",
+     "body": "Je soussigné(e) [Nom] [Prénom], titulaire de la carte d'identité nationale n° [N° CIN], résidant à [Adresse], déclare avoir perdu le [date_iso] à [heure approximative] dans un taxi à Tunis. Le bag contenait un téléphone mobile (marque, modèle, IMEI *#06#) et une carte bancaire. Je joins le récépissé de plainte et demande l’enregistrement de cette perte.\n\nFait à Tunis, le [date_iso]\nSignature : __________________"
+    }
+   },
+   "labels_v2": [
+    "supported",
+    "supported",
+    "partially",
+    "partially",
+    "partially",
+    "unsupported",
+    "supported",
+    "partially"
+   ],
+   "labels_v1": [
+    "supported",
+    "partially",
+    "partially",
+    "partially",
+    "partially",
+    "supported"
+   ],
+   "baseline_labels": [
+    "unsupported",
+    "supported",
+    "partially",
+    "partially",
+    "unsupported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 0.3333333333333333,
+     "context precision": 0.5,
+     "passages": 4,
+     "need coverage": 0.3333333333333333,
+     "cited steps": 1.0,
+     "faithful steps": 0.6,
+     "supported steps": 0.2,
+     "steps": 5
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 0.6,
+     "passages": 10
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 0.7142857142857143,
+     "passages": 7
+    },
+    "W1": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 1.0,
+     "supported steps": 0.3333333333333333,
+     "steps": 6,
+     "letter type": 1.0,
+     "letter written": 0.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.875,
+     "supported steps": 0.375,
+     "steps": 8,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P09",
+   "lang": "en",
+   "message": "My checked bag arrived damaged at Djerba airport yesterday, what can I claim?",
+   "baseline_query": "bag endommagé à l'aéroport de Djerba réclamation",
+   "baseline_docs": [
+    "sop_airport_lost_item",
+    "tunisair_passenger_protection_2026",
+    "tunisair_passenger_protection_2026",
+    "tunisair_passenger_protection_2026"
+   ],
+   "sub_questions": [
+    {
+     "q": "Quel est le délai pour déposer une réclamation auprès de Tunisair pour un bagage endommagé à l'aéroport de Djerba ?",
+     "sources": [
+      "operator",
+      "sop"
+     ],
+     "item_type": "baggage",
+     "need": "claim deadline"
+    },
+    {
+     "q": "Où dois-je me rendre à l'aéroport de Djerba pour déposer ma réclamation concernant un bagage endommagé ?",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "claim location"
+    },
+    {
+     "q": "Quelles sont les compensations possibles pour un bagage endommagé selon la politique de protection des passagers de Tunisair ?",
+     "sources": [
+      "operator"
+     ],
+     "item_type": "baggage",
+     "need": "compensation details"
+    }
+   ],
+   "letter": "airline_claim",
+   "candidates": [
+    [
+     1,
+     "tunisair_passenger_protection_2026",
+     [
+      1,
+      3
+     ]
+    ],
+    [
+     2,
+     "sop_airport_lost_item",
+     [
+      1,
+      2
+     ]
+    ],
+    [
+     3,
+     "tunisair_passenger_protection_2026",
+     [
+      1
+     ]
+    ],
+    [
+     4,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     5,
+     "sop_found_item_what_to_do",
+     [
+      2
+     ]
+    ],
+    [
+     6,
+     "tunisair_passenger_protection_2026",
+     [
+      3
+     ]
+    ],
+    [
+     7,
+     "tunisair_passenger_protection_2026",
+     [
+      3
+     ]
+    ]
+   ],
+   "context": [
+    "tunisair_passenger_protection_2026",
+    "sop_airport_lost_item",
+    "tunisair_passenger_protection_2026",
+    "tunisair_passenger_protection_2026"
+   ],
+   "plan_v2": {
+    "summary": "Hey Lqitha, your bag arrived damaged at Djerba airport. Here’s what to do to get it repaired or compensated and the paperwork you’ll need.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Go immediately to the \"Bagages / Lost & Found\" counter of Tunisair (or its ground handling agent) at Djerba airport and ask for a Property Irregularity Report (PIR) for the damaged bag, keeping the copy and the report number. [2]",
+      "cites": [
+       2
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Collect the required documents: boarding pass, baggage tag (talon), a valid ID, and a detailed description of the bag (color, brand, size, distinctive marks, contents). Bring these to the counter to attach to the PIR. [2]",
+      "cites": [
+       2
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Ask the counter staff to give you the official claim form for damaged baggage and the address/email where the written claim must be sent. [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Fill out the written claim form, attach the PIR copy, the documents listed above, and any photos showing the damage. Submit the claim by email or post to the address provided by Tunisair. The claim must be submitted within 7 days of receiving the bag (by 2026-10-24). [1][2]",
+      "cites": [
+       1,
+       2
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "If you have receipts for any essential items you had to buy because of the damage, include them to request reimbursement of reasonable expenses. [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Follow up with Tunisair’s customer service (via phone or email) after 5 business days if you have not received acknowledgment of your claim. Use the PIR number as reference.",
+      "cites": []
+     },
+     {
+      "when": "later",
+      "action": "If the airline refuses or does not respond within 30 days of your claim submission, consider filing a complaint with the Tunisian Civil Aviation Authority (ATCA) using the same documentation.",
+      "cites": []
+     }
+    ],
+    "documents": [
+     "Boarding pass",
+     "Baggage tag (talon)",
+     "Valid identity document (CIN or passport)",
+     "Detailed description of the bag (color, brand, size, distinctive marks, contents)",
+     "Photos of the damage",
+     "Receipt(s) for essential items purchased (if any)",
+     "Copy of the Property Irregularity Report (PIR)"
+    ],
+    "deadlines": [
+     {
+      "what": "Submit written claim for damaged baggage",
+      "date_iso": "2026-10-24",
+      "cites": [
+       1
+      ]
+     }
+    ],
+    "coverage": [
+     {
+      "item": "baggage",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "airline_claim",
+     "title": "Réclamation pour bagage endommagé - Vol du 2026-10-17, aéroport de Djerba",
+     "body": "[Nom] [Prénom]\n[N° CIN]\n[Adresse]\n[Téléphone]\n\nObjet : Réclamation pour bagage endommagé – Vol du 17/10/2026, aéroport de Djerba\n\nMadame, Monsieur,\n\nJe vous adresse la présente afin de solliciter la réparation ou l’indemnisation de mon bagage enregistré, qui m’a été remis endommagé à mon arrivée à l’aéroport de Djerba le 17 octobre 2026.\n\nConformément à la politique de protection des passagers de Tunisair et à la Convention de Montréal, je vous transmets les pièces suivantes :\n- Le rapport d’irregularité bagage (PIR) n° [Numéro du PIR]\n- Ma carte d’embarquement\n- L’étiquette du bagage (talon)\n- Une copie de ma pièce d’identité\n- Une description détaillée du bagage (couleur, marque, taille, signes distinctifs, contenu)\n- Des photographies illustrant les dommages constatés\n- Le cas échéant, les factures des achats d’articles de première nécessité effectués suite aux dommages.\n\nJe vous prie de bien vouloir procéder à la réparation du bagage ou, à défaut, à une indemnisation correspondant au préjudice subi, dans les meilleurs délais.\n\nDans l’attente de votre réponse, je vous remercie de l’attention portée à ma demande.\n\nVeuillez agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\n\n[Nom] [Prénom]"
+    }
+   },
+   "labels_v2": [
+    "supported",
+    "partially",
+    "unsupported",
+    "partially",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+   ],
+   "labels_v1": [
+    "supported",
+    "partially",
+    "partially",
+    "unsupported"
+   ],
+   "baseline_labels": [
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 4,
+     "need coverage": 1.0,
+     "cited steps": 0.6,
+     "faithful steps": 0.4,
+     "supported steps": 0.4,
+     "steps": 5
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 0.8571428571428571,
+     "passages": 7
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 4
+    },
+    "W1": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.75,
+     "supported steps": 0.25,
+     "steps": 4,
+     "letter type": 1.0,
+     "letter written": 0.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 0.7142857142857143,
+     "faithful steps": 0.42857142857142855,
+     "supported steps": 0.14285714285714285,
+     "steps": 7,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P10",
+   "lang": "fr",
+   "message": "J'ai trouvé un portefeuille avec une carte d'identité dans le métro, je fais quoi ?",
+   "baseline_query": "J'ai trouvé un portefeuille avec une carte d'identité dans le métro, je fais quoi ?",
+   "baseline_docs": [
+    "sop_found_item_what_to_do",
+    "sop_lost_bank_card",
+    "guide_lost_bank_card_tunisia",
+    "guide_lost_bank_card_tunisia"
+   ],
+   "sub_questions": [
+    {
+     "q": "Où dois-je remettre le portefeuille trouvé dans le métro de Tunis ?",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "hand in lost item"
+    },
+    {
+     "q": "Que ne dois-je pas faire avec le portefeuille trouvé ?",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "avoid misuse"
+    }
+   ],
+   "letter": "none",
+   "candidates": [
+    [
+     1,
+     "sop_public_transport_lost_item",
+     [
+      1
+     ]
+    ],
+    [
+     2,
+     "sop_airport_lost_item",
+     [
+      1
+     ]
+    ],
+    [
+     3,
+     "sop_found_item_what_to_do",
+     [
+      1,
+      2
+     ]
+    ],
+    [
+     4,
+     "sop_found_item_what_to_do",
+     [
+      2
+     ]
+    ],
+    [
+     5,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ]
+   ],
+   "context": [
+    "sop_found_item_what_to_do",
+    "sop_public_transport_lost_item",
+    "sop_found_item_what_to_do"
+   ],
+   "plan_v2": {
+    "summary": "Safi, t9addem l'objèkt li l9iti f le métro b'khir. Hnéka chnoua tdir b'koul khatwa.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Apporte le portefeuille au guichet ou à l'agent de la station du métro où tu l'as trouvé et remets‑le à la police ou à la garde nationale, comme indiqué pour les documents officiels comme la carte d'identité [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Prends une photo du portefeuille (en masquant les numéros de la carte d'identité) et déclare l'objet sur la plateforme Lqitha en indiquant le lieu, la date et le détail caché que seul le propriétaire connaît [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Si le propriétaire ne se manifeste pas rapidement, contacte le chef de gare ou l'agent de la station pour vérifier que le portefeuille a bien été enregistré dans le dépôt des objets trouvés du métro [2]",
+      "cites": [
+       2
+      ]
+     }
+    ],
+    "documents": [],
+    "deadlines": [],
+    "coverage": [
+     {
+      "item": "wallet",
+      "covered": true
+     },
+     {
+      "item": "national_id",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "none",
+     "title": null,
+     "body": null
+    }
+   },
+   "labels_v2": [
+    "supported",
+    "supported",
+    "partially"
+   ],
+   "labels_v1": [
+    "supported",
+    "supported",
+    "supported",
+    "supported"
+   ],
+   "baseline_labels": [
+    "supported",
+    "partially",
+    "unsupported",
+    "unsupported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 1.0,
+     "context precision": 0.25,
+     "passages": 4,
+     "need coverage": 1.0,
+     "cited steps": 0.75,
+     "faithful steps": 0.5,
+     "supported steps": 0.25,
+     "steps": 4
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 0.4,
+     "passages": 5
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 0.6666666666666666,
+     "passages": 3
+    },
+    "W1": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 1.0,
+     "supported steps": 1.0,
+     "steps": 4,
+     "letter type": 1.0,
+     "letter written": 1.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 1.0,
+     "supported steps": 0.6666666666666666,
+     "steps": 3,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P11",
+   "lang": "derja",
+   "message": "dhaya3t carte bancaire w carte d'identité fi aéroport Tunis-Carthage lyoum",
+   "baseline_query": "dhaya3t carte bancaire w carte d'identité fi aéroport Tunis-Carthage lyoum",
+   "baseline_docs": [
+    "guide_lost_bank_card_tunisia",
+    "guide_lost_bank_card_tunisia",
+    "guide_lost_bank_card_tunisia",
+    "guide_lost_bank_card_tunisia"
+   ],
+   "sub_questions": [
+    {
+     "q": "Comment faire opposition sur une carte bancaire perdue",
+     "sources": [
+      "operator",
+      "sop"
+     ],
+     "item_type": "bank_card",
+     "need": "block the bank card"
+    },
+    {
+     "q": "Où déclarer la perte d’un objet à l’aéroport Tunis-Carthage",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "search and declare at airport"
+    },
+    {
+     "q": "Déclaration de perte et renouvellement de la carte d’identité nationale",
+     "sources": [
+      "sop",
+      "law"
+     ],
+     "item_type": "national_id",
+     "need": "declare and replace the ID card"
+    }
+   ],
+   "letter": "police_declaration",
+   "candidates": [
+    [
+     1,
+     "sop_lost_bank_card",
+     [
+      1
+     ]
+    ],
+    [
+     2,
+     "guide_lost_bank_card_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     3,
+     "guide_lost_bank_card_tunisia",
+     [
+      1
+     ]
+    ],
+    [
+     4,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     5,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     6,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     7,
+     "law_2024_22_national_id_card",
+     [
+      3
+     ]
+    ],
+    [
+     8,
+     "sop_lost_identity_documents",
+     [
+      3
+     ]
+    ],
+    [
+     9,
+     "law_2024_22_national_id_card",
+     [
+      3
+     ]
+    ]
+   ],
+   "context": [
+    "sop_lost_bank_card",
+    "guide_lost_bank_card_tunisia",
+    "sop_airport_lost_item",
+    "sop_airport_lost_item",
+    "sop_lost_identity_documents",
+    "law_2024_22_national_id_card"
+   ],
+   "plan_v2": {
+    "summary": "Salam! N7awlek t9addem barcha 7aloul b sra3a ba3d ma 9a3det tfdha l'wallet, carte bancaire w CIN f l'aéroport Tunis‑Carthage.",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Bloquez immédiatement votre carte bancaire en appelant le service client de votre banque (numéro au dos ou via l'application) ou en la bloquant depuis l'application mobile. [1][2]",
+      "cites": [
+       1,
+       2
+      ]
+     },
+     {
+      "when": "now",
+      "action": "Déposez une plainte au poste de police (197) ou à la garde nationale (193) de l'aéroport pour la perte de la carte bancaire et de la carte d'identité nationale. Demandez le récépissé qui servira à la banque et à la demande de nouvelle CIN. [1][5]",
+      "cites": [
+       1,
+       5
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Rendez‑vous au bureau des objets trouvés de l'aéroport Tunis‑Carthage pour signaler la perte du wallet et récupérer le récépissé de dépôt. [4]",
+      "cites": [
+       4
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Demandez une nouvelle carte bancaire à votre agence en présentant le récépissé de plainte et votre pièce d’identité de remplacement (ou autre justificatif). [1]",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Avec le certificat de perte délivré par le poste de police, déposez une demande de nouvelle carte d’identité nationale dans les 30 jours suivant la perte. [5]",
+      "cites": [
+       5
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Vérifiez les dernières opérations de votre compte bancaire et changez les mots de passe de vos services en ligne pour sécuriser vos comptes. [2]",
+      "cites": [
+       2
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Suivez le traitement de votre réclamation auprès de la banque et de la préfecture pour vous assurer de la réception de la nouvelle carte bancaire et du nouveau CIN.",
+      "cites": []
+     },
+     {
+      "when": "later",
+      "action": "Si le wallet n’est pas retrouvé, demandez à votre assureur (si vous avez une assurance voyage) le remboursement des achats de première nécessité. [4]",
+      "cites": [
+       4
+      ]
+     }
+    ],
+    "documents": [
+     "Récépissé de plainte au poste de police ou à la garde nationale",
+     "Certificat de perte de la CIN délivré par le poste de police",
+     "Pièce d’identité de remplacement ou autre justificatif pour la demande de nouvelle CIN",
+     "Récépissé du bureau des objets trouvés de l'aéroport",
+     "Numéro de carte bancaire ou relevé d’identité bancaire pour la demande de nouvelle carte"
+    ],
+    "deadlines": [
+     {
+      "what": "Demande de renouvellement de la carte d’identité nationale (CIN)",
+      "date_iso": "2026-11-17",
+      "cites": [
+       5,
+       6
+      ]
+     }
+    ],
+    "coverage": [
+     {
+      "item": "wallet",
+      "covered": false
+     },
+     {
+      "item": "bank_card",
+      "covered": true
+     },
+     {
+      "item": "national_id",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "police_declaration",
+     "title": "Déclaration de perte d'objets personnels",
+     "body": "Je soussigné(e) [Nom] [Prénom], né(e) le __________, titulaire de la carte d’identité nationale n° [N° CIN], résidant à [Adresse], téléphone [Téléphone],\n\nDéclare avoir perdu le 18/10/2026, à l’aéroport Tunis‑Carthage, les objets suivants :\n- Carte bancaire\n- Carte d’identité nationale\n- Portefeuille contenant divers effets personnels\n\nCes pertes ont été constatées alors que je me trouvais dans le terminal de l’aéroport. Je sollicite l’établissement d’un récépissé de perte afin de procéder aux démarches de remplacement auprès de ma banque et des services d’état civil.\n\nFait à Tunis, le 18/10/2026.\n\nSignature : ______________________"
+    }
+   },
+   "labels_v2": [
+    "supported",
+    "partially",
+    "partially",
+    "partially",
+    "partially",
+    "partially",
+    "unsupported",
+    "partially"
+   ],
+   "labels_v1": [
+    "supported",
+    "partially",
+    "partially",
+    "partially",
+    "supported",
+    "unsupported"
+   ],
+   "baseline_labels": [
+    "partially",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "partially",
+    "partially"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 0.3333333333333333,
+     "context precision": 1.0,
+     "passages": 4,
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.5,
+     "supported steps": 0.0,
+     "steps": 6
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 9
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 6
+    },
+    "W1": {
+     "need coverage": 0.6666666666666666,
+     "cited steps": 1.0,
+     "faithful steps": 0.8333333333333334,
+     "supported steps": 0.3333333333333333,
+     "steps": 6,
+     "letter type": 1.0,
+     "letter written": 0.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 0.875,
+     "faithful steps": 0.875,
+     "supported steps": 0.125,
+     "steps": 8,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  },
+  {
+   "id": "P12",
+   "lang": "fr",
+   "message": "Mon bagage Tunisair est retardé depuis 3 jours et j'ai dû acheter des vêtements, puis-je être remboursé ?",
+   "baseline_query": "bagage retardé Tunisair remboursement",
+   "baseline_docs": [
+    "tunisair_passenger_protection_2026",
+    "tunisair_passenger_protection_2026",
+    "tunisair_passenger_protection_2026",
+    "tunisair_passenger_protection_2026"
+   ],
+   "sub_questions": [
+    {
+     "q": "Quel est le délai de remboursement pour un bagage retardé par Tunisair et comment puis-je obtenir une compensation?",
+     "sources": [
+      "operator"
+     ],
+     "item_type": "general",
+     "need": "compensation for delayed baggage"
+    },
+    {
+     "q": "Où dois-je déposer ma réclamation de bagage retardé à l'aéroport de Monastir?",
+     "sources": [
+      "sop"
+     ],
+     "item_type": "general",
+     "need": "file claim at airport"
+    }
+   ],
+   "letter": "airline_claim",
+   "candidates": [
+    [
+     1,
+     "tunisair_passenger_protection_2026",
+     [
+      1
+     ]
+    ],
+    [
+     2,
+     "tunisair_passenger_protection_2026",
+     [
+      1
+     ]
+    ],
+    [
+     3,
+     "tunisair_passenger_protection_2026",
+     [
+      1
+     ]
+    ],
+    [
+     4,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     5,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ],
+    [
+     6,
+     "sop_airport_lost_item",
+     [
+      2
+     ]
+    ]
+   ],
+   "context": [
+    "tunisair_passenger_protection_2026",
+    "tunisair_passenger_protection_2026",
+    "sop_airport_lost_item"
+   ],
+   "plan_v2": {
+    "summary": "Hey Lqitha, on dirait que ton bagage est en retard depuis 3 jours et t’as dû acheter des fringues. Pas de panique, voici le plan pour récupérer tes frais !",
+    "steps": [
+     {
+      "when": "now",
+      "action": "Rends-toi immédiatement au comptoir \"Bagages / Lost & Found\" de Tunisair à l’aéroport de Monastir et fais établir un Rapport d'irrégularité bagage (PIR) en présentant ta carte d'embarquement, l'étiquette du bagage, une pièce d'identité et une description précise du bagage.",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Conserve toutes les factures d'achat des articles de première nécessité (vêtements, produits d'hygiène, etc.) et fais‑en des copies numériques.",
+      "cites": [
+       1
+      ]
+     },
+     {
+      "when": "today",
+      "action": "Prépare une lettre de réclamation (modèle fourni ci‑dessous) en y joignant le numéro du PIR, les factures et les documents d’identité requis, puis envoie‑la par email au service réclamation de Tunisair ou dépose‑la au comptoir Bagages.",
+      "cites": [
+       1,
+       3
+      ]
+     },
+     {
+      "when": "this_week",
+      "action": "Vérifie que la réclamation a bien été reçue par Tunisair (appel ou email de suivi) et conserve le numéro de dossier fourni.",
+      "cites": [
+       3
+      ]
+     },
+     {
+      "when": "later",
+      "action": "Si aucune réponse sous 14 jours, relance le service réclamation par téléphone ou courrier recommandé en rappelant le délai de 21 jours pour soumettre la demande après mise à disposition du bagage.",
+      "cites": [
+       1,
+       3
+      ]
+     }
+    ],
+    "documents": [
+     "Carte d'embarquement",
+     "Étiquette (talon) du bagage",
+     "Pièce d'identité",
+     "Description précise du bagage (couleur, marque, taille, signes distinctifs, contenu)",
+     "Factures originales des achats effectués (vêtements, produits d'hygiène)"
+    ],
+    "deadlines": [
+     {
+      "what": "Soumettre la réclamation pour bagage retardé",
+      "date_iso": "2026-11-05",
+      "cites": [
+       1,
+       3
+      ]
+     }
+    ],
+    "coverage": [
+     {
+      "item": "luggage",
+      "covered": true
+     }
+    ],
+    "letter": {
+     "type": "airline_claim",
+     "title": "Demande d’indemnisation pour bagage retardé",
+     "body": "[Nom] [Prénom]\n[N° CIN]\n[Adresse]\n[Téléphone]\n\nObjet : Demande d’indemnisation pour bagage retardé – Référence PIR : __________\n\nMadame, Monsieur,\n\nJe vous informe que mon bagage enregistré, prévu à l’arrivée le 15/10/2026 à l’aéroport de Monastir, ne m’a pas été remis à l’heure et accuse un retard de trois (3) jours à ce jour. En raison de ce retard, j’ai dû acquérir des articles de première nécessité (vêtements, produits d’hygiène) pour subvenir à mes besoins immédiats.\n\nConformément à la politique de protection des passagers de Tunisair (article relatif aux bagages retardés) et à la Convention de Montréal, je vous prie de bien vouloir me rembourser les dépenses raisonnables engagées. Vous trouverez ci‑joint :\n- Le Rapport d'irrégularité bagage (PIR) n° __________\n- Les factures originales des achats effectués\n- Une copie de ma carte d'embarquement et de l’étiquette du bagage\n- Une copie de ma pièce d’identité\n\nJe vous remercie de bien vouloir traiter cette demande dans les meilleurs délais, conformément au délai de 21 jours prévu pour les réclamations de bagages retardés.\n\nDans l’attente de votre réponse, je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.\n\n[Nom] [Prénom]"
+    }
+   },
+   "labels_v2": [
+    "supported",
+    "partially",
+    "partially",
+    "partially",
+    "partially"
+   ],
+   "labels_v1": [
+    "partially",
+    "partially",
+    "unsupported",
+    "unsupported"
+   ],
+   "baseline_labels": [
+    "supported",
+    "partially",
+    "supported",
+    "partially",
+    "unsupported"
+   ],
+   "metrics": {
+    "B": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 4,
+     "need coverage": 1.0,
+     "cited steps": 0.8,
+     "faithful steps": 0.8,
+     "supported steps": 0.4,
+     "steps": 5
+    },
+    "A1": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 6
+    },
+    "A2": {
+     "need recall@context": 1.0,
+     "context precision": 1.0,
+     "passages": 3
+    },
+    "W1": {
+     "need coverage": 0.0,
+     "cited steps": 1.0,
+     "faithful steps": 0.5,
+     "supported steps": 0.0,
+     "steps": 4,
+     "letter type": 1.0,
+     "letter written": 0.0
+    },
+    "W2": {
+     "need coverage": 1.0,
+     "cited steps": 1.0,
+     "faithful steps": 1.0,
+     "supported steps": 0.2,
+     "steps": 5,
+     "letter type": 1.0,
+     "letter written": 1.0
+    }
+   }
+  }
+ ]
+}

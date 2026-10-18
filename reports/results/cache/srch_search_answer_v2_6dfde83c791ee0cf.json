@@ -1,0 +1,30 @@
+{
+ "parsed": {
+  "results": [
+   {
+    "id": "F-56eed07c",
+    "relevance": "high",
+    "reason": "category keys, same place and date"
+   }
+  ],
+  "answer": "3la 9al 1 item 3andou relevance high: F-56eed07c l9ina fi Gare des louages longues lignes le 2026-10-05. Ma fama hata item medium. Ifta7 l'item w doss \"C'est peut-être à moi\" wala a3mel déclaration ta3 l'khasra."
+ },
+ "strict_json": true,
+ "raw": "{\"results\":[{\"id\":\"F-56eed07c\",\"relevance\":\"high\",\"reason\":\"category keys, same place and date\"}],\"answer\":\"3la 9al 1 item 3andou relevance high: F-56eed07c l9ina fi Gare des louages longues lignes le 2026-10-05. Ma fama hata item medium. Ifta7 l'item w doss \\\"C'est peut-être à moi\\\" wala a3mel déclaration ta3 l'khasra.\"}",
+ "usage": {
+  "queue_time": 0.300782639,
+  "prompt_tokens": 1033,
+  "prompt_time": 0.039791947,
+  "completion_tokens": 196,
+  "completion_time": 0.410600976,
+  "total_tokens": 1229,
+  "total_time": 0.450392923,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 79
+  }
+ },
+ "latency_s": 1.34
+}

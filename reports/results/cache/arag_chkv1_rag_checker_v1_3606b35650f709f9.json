@@ -1,0 +1,48 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [1] explicitly states to call the number on the back of the card/app, block via app if possible, and verify recent transactions."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passage [3] supports contacting the operator to suspend the SIM and using Find My/Device, but does not mention requesting a new SIM with the same number or providing ID."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage [1] (cited in Step 1 but relevant context) mentions police lines 197/193, but the cited passages [3] and [5] for Step 3 do not contain the instruction to file a police report or the specific details about taxi type/color/route required by the step."
+   },
+   {
+    "step": 4,
+    "label": "partially",
+    "reason": "Passage [4] supports reporting on Lqitha with details like IMEI and description, but does not mention attaching the police attestation."
+   },
+   {
+    "step": 5,
+    "label": "partially",
+    "reason": "Passage [1] mentions the opposition process and that a receipt (récépissé) can be requested, but does not explicitly state to request a *new* card from the branch or via the app."
+   },
+   {
+    "step": 6,
+    "label": "supported",
+    "reason": "Passages [6] and [7] explicitly state the requirement to use the police attestation to request a duplicate CIN/passport within 30 days under Loi organique n° 2024-22."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [1] explicitly states to call the number on the back of the card/app, block via app if possible, and verify recent transactions.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passage [3] supports contacting the operator to suspend the SIM and using Find My/Device, but does not mention requesting a new SIM with the same number or providing ID.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage [1] (cited in Step 1 but relevant context) mentions police lines 197/193, but the cited passages [3] and [5] for Step 3 do not contain the instruction to file a police report or the specific details about taxi type/color/route required by the step.\"}, {\"step\": 4, \"label\": \"partially\", \"reason\": \"Passage [4] supports reporting on Lqitha with details like IMEI and description, but does not mention attaching the police attestation.\"}, {\"step\": 5, \"label\": \"partially\", \"reason\": \"Passage [1] mentions the opposition process and that a receipt (récépissé) can be requested, but does not explicitly state to request a *new* card from the branch or via the app.\"}, {\"step\": 6, \"label\": \"supported\", \"reason\": \"Passages [6] and [7] explicitly state the requirement to use the police attestation to request a duplicate CIN/passport within 30 days under Loi organique n° 2024-22.\"}]}",
+ "usage": {
+  "queue_time": 0.052959436,
+  "prompt_tokens": 1724,
+  "prompt_time": 0.126885484,
+  "completion_tokens": 366,
+  "completion_time": 0.794590656,
+  "total_tokens": 2090,
+  "total_time": 0.92147614
+ },
+ "latency_s": 1.63
+}

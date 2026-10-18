@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "fr",
+  "slots": {
+   "item_category": "phone",
+   "date_text": "avant-hier",
+   "date_iso": "2026-10-12",
+   "place_type": "metro",
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": "Samsung bleu avec une coque transparente",
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_name"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Pouvez‑vous préciser le nom de la station ou de la ligne du métro où vous avez perdu votre téléphone ?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"fr\",\"slots\":{\"item_category\":\"phone\",\"date_text\":\"avant-hier\",\"date_iso\":\"2026-10-12\",\"place_type\":\"metro\",\"place_name\":null,\"governorate\":null,\"distinctive_detail\":\"Samsung bleu avec une coque transparente\",\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_name\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Pouvez‑vous préciser le nom de la station ou de la ligne du métro où vous avez perdu votre téléphone ?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.304738021,
+  "prompt_tokens": 1922,
+  "prompt_time": 0.051392746,
+  "completion_tokens": 179,
+  "completion_time": 0.378143935,
+  "total_tokens": 2101,
+  "total_time": 0.429536681,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 40
+  }
+ },
+ "latency_s": 13.07
+}

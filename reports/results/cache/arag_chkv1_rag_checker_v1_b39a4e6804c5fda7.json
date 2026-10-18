@@ -1,0 +1,38 @@
+{
+ "parsed": {
+  "verdicts": [
+   {
+    "step": 1,
+    "label": "supported",
+    "reason": "Passage [2] explicitly instructs to go to the 'Bagages / Lost & Found' counter, have a PIR issued, and keep the copy with the reference number."
+   },
+   {
+    "step": 2,
+    "label": "partially",
+    "reason": "Passages mention submitting a claim with supporting documents and list some items (boarding pass, tag) in [2], but specific details like 'photos of damage', 'detailed description', and 'receipts' are not explicitly stated in the cited text."
+   },
+   {
+    "step": 3,
+    "label": "partially",
+    "reason": "Passage [3] supports the request for repair or compensation, but the specific submission methods ('email or online portal') are not mentioned in the cited passages."
+   },
+   {
+    "step": 4,
+    "label": "unsupported",
+    "reason": "The cited passage [2] only covers the initial reporting step at the airport and does not mention the Tunisian Civil Aviation Authority or the Montreal Convention."
+   }
+  ]
+ },
+ "strict_json": true,
+ "raw": "{\"verdicts\": [{\"step\": 1, \"label\": \"supported\", \"reason\": \"Passage [2] explicitly instructs to go to the 'Bagages / Lost & Found' counter, have a PIR issued, and keep the copy with the reference number.\"}, {\"step\": 2, \"label\": \"partially\", \"reason\": \"Passages mention submitting a claim with supporting documents and list some items (boarding pass, tag) in [2], but specific details like 'photos of damage', 'detailed description', and 'receipts' are not explicitly stated in the cited text.\"}, {\"step\": 3, \"label\": \"partially\", \"reason\": \"Passage [3] supports the request for repair or compensation, but the specific submission methods ('email or online portal') are not mentioned in the cited passages.\"}, {\"step\": 4, \"label\": \"unsupported\", \"reason\": \"The cited passage [2] only covers the initial reporting step at the airport and does not mention the Tunisian Civil Aviation Authority or the Montreal Convention.\"}]}",
+ "usage": {
+  "queue_time": 0.085036865,
+  "prompt_tokens": 1225,
+  "prompt_time": 0.109758218,
+  "completion_tokens": 227,
+  "completion_time": 0.453233646,
+  "total_tokens": 1452,
+  "total_time": 0.562991864
+ },
+ "latency_s": 5.0
+}

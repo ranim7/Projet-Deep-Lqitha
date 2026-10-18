@@ -1,0 +1,43 @@
+{
+ "parsed": {
+  "intent": "procedure_question",
+  "language": "en",
+  "slots": {
+   "item_category": "phone",
+   "date_text": "this morning",
+   "date_iso": "2026-10-18",
+   "place_type": "metro",
+   "place_name": "Tunis",
+   "governorate": "Tunis",
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "Could you describe any distinctive features of the phone (e.g., case color, stickers, damage) to help identify it?",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.92
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"procedure_question\",\"language\":\"en\",\"slots\":{\"item_category\":\"phone\",\"date_text\":\"this morning\",\"date_iso\":\"2026-10-18\",\"place_type\":\"metro\",\"place_name\":\"Tunis\",\"governorate\":\"Tunis\",\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"Could you describe any distinctive features of the phone (e.g., case color, stickers, damage) to help identify it?\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.92}",
+ "usage": {
+  "queue_time": 0.017270328,
+  "prompt_tokens": 1923,
+  "prompt_time": 0.018056051,
+  "completion_tokens": 192,
+  "completion_time": 0.196090383,
+  "total_tokens": 2115,
+  "total_time": 0.214146434,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 54
+  }
+ },
+ "latency_s": 0.7
+}

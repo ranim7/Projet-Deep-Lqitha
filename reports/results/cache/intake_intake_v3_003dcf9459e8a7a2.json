@@ -1,0 +1,46 @@
+{
+ "parsed": {
+  "intent": "lost",
+  "language": "ar",
+  "slots": {
+   "item_category": "keys",
+   "date_text": null,
+   "date_iso": null,
+   "place_type": null,
+   "place_name": null,
+   "governorate": null,
+   "distinctive_detail": null,
+   "hidden_detail": null,
+   "has_photo": false
+  },
+  "missing": [
+   "place_type",
+   "place_name",
+   "date",
+   "distinctive_detail"
+  ],
+  "next_action": "ask_user",
+  "question_to_user": "أين فقدت المفاتيح؟",
+  "reply_to_user": null,
+  "search_query_fr": null,
+  "confidence": 0.9
+ },
+ "strict_json": true,
+ "raw": "{\"intent\":\"lost\",\"language\":\"ar\",\"slots\":{\"item_category\":\"keys\",\"date_text\":null,\"date_iso\":null,\"place_type\":null,\"place_name\":null,\"governorate\":null,\"distinctive_detail\":null,\"hidden_detail\":null,\"has_photo\":false},\"missing\":[\"place_type\",\"place_name\",\"date\",\"distinctive_detail\"],\"next_action\":\"ask_user\",\"question_to_user\":\"أين فقدت المفاتيح؟\",\"reply_to_user\":null,\"search_query_fr\":null,\"confidence\":0.9}",
+ "usage": {
+  "queue_time": 0.017090259,
+  "prompt_tokens": 1907,
+  "prompt_time": 0.011225575,
+  "completion_tokens": 190,
+  "completion_time": 0.197581206,
+  "total_tokens": 2097,
+  "total_time": 0.208806781,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 70
+  }
+ },
+ "latency_s": 19.17
+}

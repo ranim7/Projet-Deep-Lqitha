@@ -1,0 +1,55 @@
+{
+ "parsed": {
+  "situation": "Wallet with national ID card and bank card lost in a louage in Sousse yesterday",
+  "affected_items": [
+   "wallet",
+   "national_id",
+   "bank_card"
+  ],
+  "urgency": "high",
+  "sub_questions": [
+   {
+    "q": "comment faire opposition sur une carte bancaire perdue",
+    "sources": [
+     "operator",
+     "sop"
+    ],
+    "item_type": "bank_card",
+    "need": "block the bank card"
+   },
+   {
+    "q": "objet oublié dans un louage que faire",
+    "sources": [
+     "sop"
+    ],
+    "item_type": "general",
+    "need": "search the louage"
+   },
+   {
+    "q": "déclaration de perte et renouvellement de la carte d'identité nationale",
+    "sources": [
+     "sop",
+     "law"
+    ],
+    "item_type": "national_id",
+    "need": "declare and replace the ID card"
+   }
+  ],
+  "letter": "police_declaration"
+ },
+ "strict_json": true,
+ "raw": "{\"situation\":\"Wallet with national ID card and bank card lost in a louage in Sousse yesterday\",\"affected_items\":[\"wallet\",\"national_id\",\"bank_card\"],\"urgency\":\"high\",\"sub_questions\":[{\"q\":\"comment faire opposition sur une carte bancaire perdue\",\"sources\":[\"operator\",\"sop\"],\"item_type\":\"bank_card\",\"need\":\"block the bank card\"},{\"q\":\"objet oublié dans un louage que faire\",\"sources\":[\"sop\"],\"item_type\":\"general\",\"need\":\"search the louage\"},{\"q\":\"déclaration de perte et renouvellement de la carte d'identité nationale\",\"sources\":[\"sop\",\"law\"],\"item_type\":\"national_id\",\"need\":\"declare and replace the ID card\"}],\"letter\":\"police_declaration\"}",
+ "usage": {
+  "queue_time": 0.047497371,
+  "prompt_tokens": 998,
+  "prompt_time": 0.052593983,
+  "completion_tokens": 213,
+  "completion_time": 0.223680112,
+  "total_tokens": 1211,
+  "total_time": 0.276274095,
+  "completion_tokens_details": {
+   "reasoning_tokens": 51
+  }
+ },
+ "latency_s": 0.8
+}
