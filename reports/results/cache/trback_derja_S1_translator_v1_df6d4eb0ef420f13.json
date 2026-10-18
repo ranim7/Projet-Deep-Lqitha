@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Bag: old keys, Poonam Debi Gupta's ID card",
+   "F-347c4347": "Bag: Aadhar, PAN, voter ID, bank card, Sangeeta Devi's papers",
+   "F-8fd24e34": "Plastic bag: woolen dress",
+   "F-e7e04e70": "Plastic bag: socks, t-shirt",
+   "F-0dc025f6": "Bag: keys, wallet, 300 dinars",
+   "F-1528d692": "Bag: money and bottle",
+   "F-c76d8663": "Box: ID, voter ID, Aadhar, bank card, money, Tarun Singh's license",
+   "F-1b1e54c1": "Bag: papers, Mithilesh Kumar's photocopy",
+   "F-8909b129": "Bag: charger, keys, coat, money",
+   "F-d13c5d9f": "Black bottle with red cap and Solimo silicone sleeve",
+   "F-137e390f": "Box: Aadhar, PAN, voter ID, bank card, money, Shravan Kumar",
+   "F-b374a7f5": "Bag: power bank, speaker, charger, earphones, shaving kit, keys",
+   "F-4a9fab29": "Plastic bag: pants, salwar, suit, woolen sweater, shorts, pyjama",
+   "F-08db78a": "Box: lip color, money, Preeti's card",
+   "F-19d5c4f2": "Black and red backpack with red stripe and many pockets"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-7b972f39\": \"Bag: old keys, Poonam Debi Gupta's ID card\",\n    \"F-347c4347\": \"Bag: Aadhar, PAN, voter ID, bank card, Sangeeta Devi's papers\",\n    \"F-8fd24e34\": \"Plastic bag: woolen dress\",\n    \"F-e7e04e70\": \"Plastic bag: socks, t-shirt\",\n    \"F-0dc025f6\": \"Bag: keys, wallet, 300 dinars\",\n    \"F-1528d692\": \"Bag: money and bottle\",\n    \"F-c76d8663\": \"Box: ID, voter ID, Aadhar, bank card, money, Tarun Singh's license\",\n    \"F-1b1e54c1\": \"Bag: papers, Mithilesh Kumar's photocopy\",\n    \"F-8909b129\": \"Bag: charger, keys, coat, money\",\n    \"F-d13c5d9f\": \"Black bottle with red cap and Solimo silicone sleeve\",\n    \"F-137e390f\": \"Box: Aadhar, PAN, voter ID, bank card, money, Shravan Kumar\",\n    \"F-b374a7f5\": \"Bag: power bank, speaker, charger, earphones, shaving kit, keys\",\n    \"F-4a9fab29\": \"Plastic bag: pants, salwar, suit, woolen sweater, shorts, pyjama\",\n    \"F-08db78a\": \"Box: lip color, money, Preeti's card\",\n    \"F-19d5c4f2\": \"Black and red backpack with red stripe and many pockets\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.018180705,
+  "prompt_tokens": 559,
+  "prompt_time": 0.040983177,
+  "completion_tokens": 435,
+  "completion_time": 0.857461129,
+  "total_tokens": 994,
+  "total_time": 0.898444306
+ },
+ "latency_s": 17.67
+}

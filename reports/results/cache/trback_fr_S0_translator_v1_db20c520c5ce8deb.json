@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Bag: old clothes, Punam Debi Gupta PAN certificate",
+   "F-347c4347": "Handbag: Aadhaar, voter ID, bank card, Sangeeta Devi earrings",
+   "F-8fd24e34": "Polyethylene bag: women's wool dress",
+   "F-e7e04e70": "Polyethylene bag: socks, t-shirt",
+   "F-0dc025f6": "Bag containing clothes, shoes, perfume",
+   "F-1528d692": "Bag containing money and a bottle",
+   "F-c76d8663": "Wallet: ID, voter ID, Aadhaar, bank card, cash, Tarun Singh Solanki license",
+   "F-1b1e54c1": "Shoulder bag: documents, Mithilesh Kumar photocopy",
+   "F-8909b129": "Bag: charger, clothes, raincoat, cash",
+   "F-d13c5d9f": "Turquoise glass bottle with silver cap and Solimo silicone sleeve",
+   "F-137e390f": "Wallet: Aadhaar, PAN, voter ID, bank card, Shravan Kumar cash",
+   "F-b374a7f5": "Bag: power bank, speaker, charger, earphones, razor kit, clothes",
+   "F-4a9fab29": "Polyethylene bag: trousers, overalls, suit, shorts & child pajamas",
+   "F-086db78a": "Wallet: lipstick, cash, Preeti's card",
+   "F-19d5c4f2": "Black and silver backpack with silver band and multiple pockets"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-7b972f39\": \"Bag: old clothes, Punam Debi Gupta PAN certificate\",\n    \"F-347c4347\": \"Handbag: Aadhaar, voter ID, bank card, Sangeeta Devi earrings\",\n    \"F-8fd24e34\": \"Polyethylene bag: women's wool dress\",\n    \"F-e7e04e70\": \"Polyethylene bag: socks, t-shirt\",\n    \"F-0dc025f6\": \"Bag containing clothes, shoes, perfume\",\n    \"F-1528d692\": \"Bag containing money and a bottle\",\n    \"F-c76d8663\": \"Wallet: ID, voter ID, Aadhaar, bank card, cash, Tarun Singh Solanki license\",\n    \"F-1b1e54c1\": \"Shoulder bag: documents, Mithilesh Kumar photocopy\",\n    \"F-8909b129\": \"Bag: charger, clothes, raincoat, cash\",\n    \"F-d13c5d9f\": \"Turquoise glass bottle with silver cap and Solimo silicone sleeve\",\n    \"F-137e390f\": \"Wallet: Aadhaar, PAN, voter ID, bank card, Shravan Kumar cash\",\n    \"F-b374a7f5\": \"Bag: power bank, speaker, charger, earphones, razor kit, clothes\",\n    \"F-4a9fab29\": \"Polyethylene bag: trousers, overalls, suit, shorts & child pajamas\",\n    \"F-086db78a\": \"Wallet: lipstick, cash, Preeti's card\",\n    \"F-19d5c4f2\": \"Black and silver backpack with silver band and multiple pockets\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.047627696,
+  "prompt_tokens": 611,
+  "prompt_time": 0.048928041,
+  "completion_tokens": 429,
+  "completion_time": 0.853207643,
+  "total_tokens": 1040,
+  "total_time": 0.902135684
+ },
+ "latency_s": 1.46
+}

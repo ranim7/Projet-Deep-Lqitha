@@ -1,0 +1,1166 @@
+{
+ "n_items": 30,
+ "back_translator": "qwen/qwen3.8-27b",
+ "table": [
+  {
+   "language": "fr",
+   "system": "S0 local fallback (gemma3:4b)",
+   "translated": "30/30",
+   "BLEU-4": 25.0,
+   "BLEU-4 (sacreBLEU)": 23.2,
+   "ROUGE-1 F1": 0.631,
+   "ROUGE-L F1": 0.597,
+   "copied English words": 0.188,
+   "right script/language": 1.0
+  },
+  {
+   "language": "fr",
+   "system": "S1 gpt-oss-120b, no style guide",
+   "translated": "30/30",
+   "BLEU-4": 31.3,
+   "BLEU-4 (sacreBLEU)": 22.5,
+   "ROUGE-1 F1": 0.676,
+   "ROUGE-L F1": 0.635,
+   "copied English words": 0.214,
+   "right script/language": 1.0
+  },
+  {
+   "language": "fr",
+   "system": "S2 gpt-oss-120b + style guide (production)",
+   "translated": "30/30",
+   "BLEU-4": 32.9,
+   "BLEU-4 (sacreBLEU)": 20.0,
+   "ROUGE-1 F1": 0.651,
+   "ROUGE-L F1": 0.628,
+   "copied English words": 0.19,
+   "right script/language": 1.0
+  },
+  {
+   "language": "derja",
+   "system": "S0 local fallback (gemma3:4b)",
+   "translated": "29/30",
+   "BLEU-4": 11.6,
+   "BLEU-4 (sacreBLEU)": 4.2,
+   "ROUGE-1 F1": 0.417,
+   "ROUGE-L F1": 0.371,
+   "copied English words": 0.36,
+   "right script/language": 0.967
+  },
+  {
+   "language": "derja",
+   "system": "S1 gpt-oss-120b, no style guide",
+   "translated": "30/30",
+   "BLEU-4": 25.6,
+   "BLEU-4 (sacreBLEU)": 12.3,
+   "ROUGE-1 F1": 0.599,
+   "ROUGE-L F1": 0.577,
+   "copied English words": 0.485,
+   "right script/language": 1.0
+  },
+  {
+   "language": "derja",
+   "system": "S2 gpt-oss-120b + style guide (production)",
+   "translated": "30/30",
+   "BLEU-4": 19.7,
+   "BLEU-4 (sacreBLEU)": 8.3,
+   "ROUGE-1 F1": 0.499,
+   "ROUGE-L F1": 0.491,
+   "copied English words": 0.339,
+   "right script/language": 1.0
+  }
+ ],
+ "details": {
+  "fr | S0 local fallback (gemma3:4b)": [
+   {
+    "id": "F-7b972f39",
+    "reference": "Bag: old clothes, certificate of punam debi gupta",
+    "translation": "Sac : vêtements anciens, certificat de punam debi gupta",
+    "back": "Bag: old clothes, Punam Debi Gupta PAN certificate"
+   },
+   {
+    "id": "F-347c4347",
+    "reference": "Hand Bag: aadhar pan voter id bank card earing of sangeeta devi",
+    "translation": "Sac à main : aadhar pan voter id carte bancaire boucles d'oreilles de sangeeta devi",
+    "back": "Handbag: Aadhaar, voter ID, bank card, Sangeeta Devi earrings"
+   },
+   {
+    "id": "F-8fd24e34",
+    "reference": "Poly Bag: with woolen lady dress",
+    "translation": "Sac en polyéthylène : avec robe femme en laine",
+    "back": "Polyethylene bag: women's wool dress"
+   },
+   {
+    "id": "F-e7e04e70",
+    "reference": "Poly Bag: socks t shirt",
+    "translation": "Sac en polyéthylène : chaussettes, t-shirt",
+    "back": "Polyethylene bag: socks, t-shirt"
+   },
+   {
+    "id": "F-0dc025f6",
+    "reference": "Bag Having Clothes, Shoes, Perfume: bag having clothes, shoes, perfume",
+    "translation": "Sac contenant vêtements, chaussures, parfum : sac contenant vêtements, chaussures, parfum",
+    "back": "Bag containing clothes, shoes, perfume"
+   },
+   {
+    "id": "F-1528d692",
+    "reference": "Bag Having Cash And Bottle.: bag having cash and bottle.",
+    "translation": "Sac contenant de l'argent et une bouteille : sac contenant de l'argent et une bouteille",
+    "back": "Bag containing money and a bottle"
+   },
+   {
+    "id": "F-c76d8663",
+    "reference": "Purse: pures with id card voter id aadhar bank card cash dl of tarun singh solanki",
+    "translation": "Portefeuille : portefeuille avec carte d'identité, carte électorale, aadhar, carte bancaire, argent, permis de conduire de tarun singh solanki",
+    "back": "Wallet: ID, voter ID, Aadhaar, bank card, cash, Tarun Singh Solanki license"
+   },
+   {
+    "id": "F-1b1e54c1",
+    "reference": "Carry Bag: with papers photocopy of mithilesh kumar",
+    "translation": "Sac bandoulière : avec papiers, photocopie de mithilesh kumar",
+    "back": "Shoulder bag: documents, Mithilesh Kumar photocopy"
+   },
+   {
+    "id": "F-8909b129",
+    "reference": "Bag: charger cloths rain coat cash",
+    "translation": "Sac : chargeur, vêtements, imperméable, argent",
+    "back": "Bag: charger, clothes, raincoat, cash"
+   },
+   {
+    "id": "F-d13c5d9f",
+    "reference": "Teal glass bottle with a silver metal cap and a silicone sleeve featuring the Solimo logo.",
+    "translation": "Bouteille en verre turquoise avec bouchon métallique argenté et manchon en silicone avec le logo Solimo",
+    "back": "Turquoise glass bottle with silver cap and Solimo silicone sleeve"
+   },
+   {
+    "id": "F-137e390f",
+    "reference": "Purse: aadhar pan voter id bank card cash of shravan kumnar",
+    "translation": "Portefeuille : aadhar pan voter id carte bancaire argent de shravan kumar",
+    "back": "Wallet: Aadhaar, PAN, voter ID, bank card, Shravan Kumar cash"
+   },
+   {
+    "id": "F-b374a7f5",
+    "reference": "Bag: power bank speaker charger earphone shaving kit cloths",
+    "translation": "Sac : power bank, enceinte, chargeur, écouteurs, kit de rasoir, vêtements",
+    "back": "Bag: power bank, speaker, charger, earphones, razor kit, clothes"
+   },
+   {
+    "id": "F-4a9fab29",
+    "reference": "Poly Bag: trouser salwar suit kid short & pyjama",
+    "translation": "Sac en polyéthylène : pantalon, salopette, costume, short & pyjama enfant",
+    "back": "Polyethylene bag: trousers, overalls, suit, shorts & child pajamas"
+   },
+   {
+    "id": "F-086db78a",
+    "reference": "Purse: lip color cash card of preeti",
+    "translation": "Portefeuille : rouge à lèvres, argent, carte de preeti",
+    "back": "Wallet: lipstick, cash, Preeti's card"
+   },
+   {
+    "id": "F-19d5c4f2",
+    "reference": "Black and silver backpack with a silver stripe and multiple pockets.",
+    "translation": "Sac à dos noir et argenté avec une bande argentée et plusieurs poches",
+    "back": "Black and silver backpack with silver band and multiple pockets"
+   },
+   {
+    "id": "F-987599a4",
+    "reference": "Brown leather tote bag with a PIMK logo.",
+    "translation": "Portefeuille en cuir marron avec logo PIMK.",
+    "back": "Brown leather wallet with PIMK logo."
+   },
+   {
+    "id": "F-9313ef56",
+    "reference": "Black Bag: baby jacket , ladies clothes & makeup items",
+    "translation": "Sac noir : veste bébé, vêtements femme et articles de maquillage.",
+    "back": "Black bag: baby jacket, women's clothes, makeup items."
+   },
+   {
+    "id": "F-148000f5",
+    "reference": "Red and blue synthetic fabric backpack with a front zippered pocket and black handle.",
+    "translation": "Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire.",
+    "back": "Red and blue synthetic backpack with front zip pocket and black handle."
+   },
+   {
+    "id": "F-56745bbd",
+    "reference": "Black umbrella with a patterned canopy.",
+    "translation": "Parapluie noir avec une canopée motif.",
+    "back": "Black umbrella with patterned canopy."
+   },
+   {
+    "id": "F-1a9ad43e",
+    "reference": "Bag: black grey bag with keys ,towel,woolen cap",
+    "translation": "Sac noir et gris avec clés, serviette, bonnet en laine.",
+    "back": "Black and grey bag with keys, towel, woolen hat."
+   },
+   {
+    "id": "F-cab022d8",
+    "reference": "Hand Bag: umbrella lunch box",
+    "translation": "Sac à main : parapluie, boite à lunch.",
+    "back": "Handbag: umbrella, lunch box."
+   },
+   {
+    "id": "F-93d60c7d",
+    "reference": "Bag: charger mouse earphone cloths",
+    "translation": "Sac : chargeur, écouteurs, vêtements.",
+    "back": "Bag: charger, earphones, clothes."
+   },
+   {
+    "id": "F-13a6290f",
+    "reference": "Purse: bank cards pan card cash of laxmi negi",
+    "translation": "Portefeuille : cartes bancaires, carte PAN, argent de Lakshmi Negi.",
+    "back": "Wallet: bank cards, ID card, cash belonging to Lakshmi Negi."
+   },
+   {
+    "id": "F-ce0e230a",
+    "reference": "Hand Bag: cash aadhar bank card metro card of vaishali",
+    "translation": "Sac à main : carte Aadhar, carte bancaire Aadhar, carte de métro de Vaishali.",
+    "back": "Handbag: Aadhar card, Aadhar bank card, Vaishali metro card."
+   },
+   {
+    "id": "F-294f6746",
+    "reference": "Pink leather watch with a silver-colored face.",
+    "translation": "Montre en cuir rose avec un cadran argenté.",
+    "back": "Leather watch with pink strap and silver dial."
+   },
+   {
+    "id": "F-522c5388",
+    "reference": "Hand Bag: pan card charger pens lotion perfume of aditya singh",
+    "translation": "Sac à main : carte PAN, chargeurs, stylos, lotion, parfum d'Aditya Singh.",
+    "back": "Handbag: ID card, chargers, pens, lotion, Aditya Singh's fragrance."
+   },
+   {
+    "id": "F-e1965660",
+    "reference": "Light pink plastic wireless earbuds with a matching charging case featuring three indicator lights.",
+    "translation": "Écouteurs sans fil en plastique rose clair avec une coque de charge assortie et trois voyants.",
+    "back": "Light pink plastic wireless earphones with matching charging case and three indicators."
+   },
+   {
+    "id": "F-e0df7e2c",
+    "reference": "Hand Bag: aadhar of shilpa",
+    "translation": "Sac à main : carte Aadhar de Shilpa.",
+    "back": "Handbag: Shilpa's Aadhar card."
+   },
+   {
+    "id": "F-f23a3823",
+    "reference": "Purse: cash metro card",
+    "translation": "Portefeuille : argent, carte de métro.",
+    "back": "Wallet: cash, metro card."
+   },
+   {
+    "id": "F-fd6cf51a",
+    "reference": "Bag: cloths bottle lunch box",
+    "translation": "Sac : vêtements, bouteille, boite à lunch.",
+    "back": "Bag: clothes, bottle, lunch box."
+   }
+  ],
+  "fr | S1 gpt-oss-120b, no style guide": [
+   {
+    "id": "F-7b972f39",
+    "reference": "Bag: old clothes, certificate of punam debi gupta",
+    "translation": "Sac : vieux vêtements, certificat de Punam Debi Gupta",
+    "back": "Bag: old clothes, Punam Debi Gupta certificate"
+   },
+   {
+    "id": "F-347c4347",
+    "reference": "Hand Bag: aadhar pan voter id bank card earing of sangeeta devi",
+    "translation": "Sac à main : aadhar, pan, carte électeur, carte bancaire, boucle d'oreille Sangeeta Devi",
+    "back": "Handbag: aadhar, pan, voter ID, bank card, Sangeeta Devi earring"
+   },
+   {
+    "id": "F-8fd24e34",
+    "reference": "Poly Bag: with woolen lady dress",
+    "translation": "Poly sac : robe en laine pour femme",
+    "back": "Poly bag: women's wool dress"
+   },
+   {
+    "id": "F-e7e04e70",
+    "reference": "Poly Bag: socks t shirt",
+    "translation": "Poly sac : chaussettes, t‑shirt",
+    "back": "Poly bag: socks, t-shirt"
+   },
+   {
+    "id": "F-0dc025f6",
+    "reference": "Bag Having Clothes, Shoes, Perfume: bag having clothes, shoes, perfume",
+    "translation": "Sac contenant vêtements, chaussures, parfum",
+    "back": "Bag containing clothes, shoes, perfume"
+   },
+   {
+    "id": "F-1528d692",
+    "reference": "Bag Having Cash And Bottle.: bag having cash and bottle.",
+    "translation": "Sac contenant argent liquide et bouteille",
+    "back": "Bag containing cash and bottle"
+   },
+   {
+    "id": "F-c76d8663",
+    "reference": "Purse: pures with id card voter id aadhar bank card cash dl of tarun singh solanki",
+    "translation": "Porte‑monnaie : pièces d’identité, aadhar, carte bancaire, argent, permis de conduire de Tarun Singh Solanki",
+    "back": "Wallet: IDs, aadhar, bank card, cash, Tarun Singh Solanki license"
+   },
+   {
+    "id": "F-1b1e54c1",
+    "reference": "Carry Bag: with papers photocopy of mithilesh kumar",
+    "translation": "Sac de transport : papiers, photocopie de Mithilesh Kumar",
+    "back": "Travel bag: papers, Mithilesh Kumar photocopy"
+   },
+   {
+    "id": "F-8909b129",
+    "reference": "Bag: charger cloths rain coat cash",
+    "translation": "Sac : chargeur, vêtements, imperméable, argent",
+    "back": "Bag: charger, clothes, raincoat, cash"
+   },
+   {
+    "id": "F-d13c5d9f",
+    "reference": "Teal glass bottle with a silver metal cap and a silicone sleeve featuring the Solimo logo.",
+    "translation": "Bouteille en verre teal avec bouchon métal argent et manchon silicone Solimo",
+    "back": "Teal glass bottle with silver metal cap and Solimo silicone sleeve"
+   },
+   {
+    "id": "F-137e390f",
+    "reference": "Purse: aadhar pan voter id bank card cash of shravan kumnar",
+    "translation": "Porte‑monnaie : aadhar, pan, carte électeur, carte bancaire, argent de Shravan Kumnar",
+    "back": "Wallet: aadhar, pan, voter ID, bank card, Shravan Kumnar cash"
+   },
+   {
+    "id": "F-b374a7f5",
+    "reference": "Bag: power bank speaker charger earphone shaving kit cloths",
+    "translation": "Sac : power bank, enceinte, chargeur, écouteurs, kit rasage, vêtements",
+    "back": "Bag: power bank, speaker, charger, earphones, shaving kit, clothes"
+   },
+   {
+    "id": "F-4a9fab29",
+    "reference": "Poly Bag: trouser salwar suit kid short & pyjama",
+    "translation": "Poly sac : pantalon, salwar, costume, short enfant, pyjama",
+    "back": "Poly bag: trousers, salwar, suit, child shorts, pajama"
+   },
+   {
+    "id": "F-086db78a",
+    "reference": "Purse: lip color cash card of preeti",
+    "translation": "Porte‑monnaie : rouge à lèvres, argent, carte de Preeti",
+    "back": "Wallet: lipstick, cash, Preeti's card"
+   },
+   {
+    "id": "F-19d5c4f2",
+    "reference": "Black and silver backpack with a silver stripe and multiple pockets.",
+    "translation": "Sac à dos noir et argent avec bande argentée et multiples poches",
+    "back": "Black and silver backpack with silver band and multiple pockets"
+   },
+   {
+    "id": "F-987599a4",
+    "reference": "Brown leather tote bag with a PIMK logo.",
+    "translation": "Sac fourre‑tout en cuir brun avec logo PIMK",
+    "back": "Brown leather pouch with PIMK logo"
+   },
+   {
+    "id": "F-9313ef56",
+    "reference": "Black Bag: baby jacket , ladies clothes & makeup items",
+    "translation": "Sac noir contenant veste bébé, vêtements femme et maquillage",
+    "back": "Black bag containing baby jacket, women's clothes, and makeup"
+   },
+   {
+    "id": "F-148000f5",
+    "reference": "Red and blue synthetic fabric backpack with a front zippered pocket and black handle.",
+    "translation": "Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire",
+    "back": "Red and blue synthetic backpack with front zip pocket and black handle"
+   },
+   {
+    "id": "F-56745bbd",
+    "reference": "Black umbrella with a patterned canopy.",
+    "translation": "Parapluie noir à canopy à motif",
+    "back": "Black umbrella with patterned canopy"
+   },
+   {
+    "id": "F-1a9ad43e",
+    "reference": "Bag: black grey bag with keys ,towel,woolen cap",
+    "translation": "Sac noir/gris avec clés, serviette et bonnet en laine",
+    "back": "Black/grey bag with keys, towel, and wool hat"
+   },
+   {
+    "id": "F-cab022d8",
+    "reference": "Hand Bag: umbrella lunch box",
+    "translation": "Sac à main contenant parapluie et boîte à lunch",
+    "back": "Handbag containing umbrella and lunch box"
+   },
+   {
+    "id": "F-93d60c7d",
+    "reference": "Bag: charger mouse earphone cloths",
+    "translation": "Sac avec chargeur, souris, écouteurs et vêtements",
+    "back": "Bag with charger, mouse, earphones, and clothes"
+   },
+   {
+    "id": "F-13a6290f",
+    "reference": "Purse: bank cards pan card cash of laxmi negi",
+    "translation": "Porte‑monnaie avec cartes bancaires, carte PAN et argent de Laxmi Negi",
+    "back": "Wallet with bank cards, PAN card, and Laxmi Negi's cash"
+   },
+   {
+    "id": "F-ce0e230a",
+    "reference": "Hand Bag: cash aadhar bank card metro card of vaishali",
+    "translation": "Sac à main avec argent, carte Aadhar, carte bancaire et carte métro de Vaishali",
+    "back": "Handbag with cash, Aadhar card, bank card, and Vaishali's metro card"
+   },
+   {
+    "id": "F-294f6746",
+    "reference": "Pink leather watch with a silver-colored face.",
+    "translation": "Montre en cuir rose avec cadran argenté",
+    "back": "Pink leather watch with silver dial"
+   },
+   {
+    "id": "F-522c5388",
+    "reference": "Hand Bag: pan card charger pens lotion perfume of aditya singh",
+    "translation": "Sac à main avec carte PAN, chargeur, stylos, lotion et parfum d'Aditya Singh",
+    "back": "Handbag with PAN card, charger, pens, lotion, and Aditya Singh's perfume"
+   },
+   {
+    "id": "F-e1965660",
+    "reference": "Light pink plastic wireless earbuds with a matching charging case featuring three indicator lights.",
+    "translation": "Écouteurs sans fil en plastique rose clair avec étui de charge à trois voyants",
+    "back": "Light pink plastic wireless earphones with three-indicator charging case"
+   },
+   {
+    "id": "F-e0df7e2c",
+    "reference": "Hand Bag: aadhar of shilpa",
+    "translation": "Sac à main contenant l'Aadhar de Shilpa",
+    "back": "Handbag containing Shilpa's Aadhar card"
+   },
+   {
+    "id": "F-f23a3823",
+    "reference": "Purse: cash metro card",
+    "translation": "Porte‑monnaie avec argent et carte métro",
+    "back": "Wallet with cash and metro card"
+   },
+   {
+    "id": "F-fd6cf51a",
+    "reference": "Bag: cloths bottle lunch box",
+    "translation": "Sac avec vêtements, bouteille et boîte à lunch",
+    "back": "Bag with clothes, bottle, and lunch box"
+   }
+  ],
+  "fr | S2 gpt-oss-120b + style guide (production)": [
+   {
+    "id": "F-7b972f39",
+    "reference": "Bag: old clothes, certificate of punam debi gupta",
+    "translation": "Sac avec vieux vêtements, certificat de Punam Debi Gupta",
+    "back": "Bag with old clothes, Punam Debi Gupta's certificate"
+   },
+   {
+    "id": "F-347c4347",
+    "reference": "Hand Bag: aadhar pan voter id bank card earing of sangeeta devi",
+    "translation": "Sac à main avec aadhar, PAN, carte d'électeur, carte bancaire, boucle d'oreille de Sangeeta Devi",
+    "back": "Handbag with Aadhar, PAN, voter ID, bank card, earring, Sangeeta Devi"
+   },
+   {
+    "id": "F-8fd24e34",
+    "reference": "Poly Bag: with woolen lady dress",
+    "translation": "Polybag contenant une robe en laine pour femme",
+    "back": "Polybag containing women's wool dress"
+   },
+   {
+    "id": "F-e7e04e70",
+    "reference": "Poly Bag: socks t shirt",
+    "translation": "Polybag avec chaussettes et t‑shirt",
+    "back": "Polybag with socks and t-shirt"
+   },
+   {
+    "id": "F-0dc025f6",
+    "reference": "Bag Having Clothes, Shoes, Perfume: bag having clothes, shoes, perfume",
+    "translation": "Sac contenant vêtements, chaussures et parfum",
+    "back": "Bag containing clothes, shoes, and perfume"
+   },
+   {
+    "id": "F-1528d692",
+    "reference": "Bag Having Cash And Bottle.: bag having cash and bottle.",
+    "translation": "Sac contenant argent liquide et bouteille",
+    "back": "Bag containing cash and bottle"
+   },
+   {
+    "id": "F-c76d8663",
+    "reference": "Purse: pures with id card voter id aadhar bank card cash dl of tarun singh solanki",
+    "translation": "Porte‑monnaie avec carte d'identité, carte d'électeur, aadhar, carte bancaire, argent, permis de conduire de Tarun Singh Solanki",
+    "back": "Wallet with ID, voter ID, Aadhar, bank card, cash, license, Tarun Singh Solanki"
+   },
+   {
+    "id": "F-1b1e54c1",
+    "reference": "Carry Bag: with papers photocopy of mithilesh kumar",
+    "translation": "Sac de transport avec papiers et photocopie de Mithilesh Kumar",
+    "back": "Travel bag with documents and photocopy, Mithilesh Kumar"
+   },
+   {
+    "id": "F-8909b129",
+    "reference": "Bag: charger cloths rain coat cash",
+    "translation": "Sac avec chargeur, vêtements, imperméable, argent",
+    "back": "Bag with charger, clothes, raincoat, cash"
+   },
+   {
+    "id": "F-d13c5d9f",
+    "reference": "Teal glass bottle with a silver metal cap and a silicone sleeve featuring the Solimo logo.",
+    "translation": "Bouteille en verre teal, capuchon métallique argent et manchette silicone Solimo",
+    "back": "Teal glass bottle, silver metal cap, Solimo silicone sleeve"
+   },
+   {
+    "id": "F-137e390f",
+    "reference": "Purse: aadhar pan voter id bank card cash of shravan kumnar",
+    "translation": "Porte‑monnaie avec aadhar, PAN, carte d'électeur, carte bancaire, argent de Shravan Kumnar",
+    "back": "Wallet with Aadhar, PAN, voter ID, bank card, cash, Shravan Kumnar"
+   },
+   {
+    "id": "F-b374a7f5",
+    "reference": "Bag: power bank speaker charger earphone shaving kit cloths",
+    "translation": "Sac avec power bank, enceinte, chargeur, écouteurs, kit de rasage, vêtements",
+    "back": "Bag with power bank, speaker, charger, earphones, shaving kit, clothes"
+   },
+   {
+    "id": "F-4a9fab29",
+    "reference": "Poly Bag: trouser salwar suit kid short & pyjama",
+    "translation": "Polybag contenant pantalon, costume salwar, short enfant et pyjama",
+    "back": "Polybag with pants, salwar suit, kids shorts, pajamas"
+   },
+   {
+    "id": "F-086db78a",
+    "reference": "Purse: lip color cash card of preeti",
+    "translation": "Porte‑monnaie avec rouge à lèvres, argent, carte de Preeti",
+    "back": "Wallet with lipstick, cash, Preeti's card"
+   },
+   {
+    "id": "F-19d5c4f2",
+    "reference": "Black and silver backpack with a silver stripe and multiple pockets.",
+    "translation": "Sac à dos noir et argent avec bande argentée et multiples poches",
+    "back": "Black and silver backpack with silver band and multiple pockets"
+   },
+   {
+    "id": "F-987599a4",
+    "reference": "Brown leather tote bag with a PIMK logo.",
+    "translation": "Sac fourre-tout en cuir brun avec logo PIMK",
+    "back": "Brown leather tote bag with PIMK logo"
+   },
+   {
+    "id": "F-9313ef56",
+    "reference": "Black Bag: baby jacket , ladies clothes & makeup items",
+    "translation": "Sac noir contenant veste bébé, vêtements femme et maquillage",
+    "back": "Black bag containing baby jacket, women's clothes, and makeup"
+   },
+   {
+    "id": "F-148000f5",
+    "reference": "Red and blue synthetic fabric backpack with a front zippered pocket and black handle.",
+    "translation": "Sac à dos synthétique rouge et bleu avec poche frontale zippée et poignée noire",
+    "back": "Red and blue synthetic backpack with front zip pocket and black handle"
+   },
+   {
+    "id": "F-56745bbd",
+    "reference": "Black umbrella with a patterned canopy.",
+    "translation": "Parapluie noir à canopy à motif",
+    "back": "Black umbrella with patterned canopy"
+   },
+   {
+    "id": "F-1a9ad43e",
+    "reference": "Bag: black grey bag with keys ,towel,woolen cap",
+    "translation": "Sac noir gris avec clés, serviette, bonnet en laine",
+    "back": "Black-grey bag with keys, towel, and woolen hat"
+   },
+   {
+    "id": "F-cab022d8",
+    "reference": "Hand Bag: umbrella lunch box",
+    "translation": "Sac à main contenant parapluie et boîte à lunch",
+    "back": "Handbag containing umbrella and lunch box"
+   },
+   {
+    "id": "F-93d60c7d",
+    "reference": "Bag: charger mouse earphone cloths",
+    "translation": "Sac avec chargeur, souris, écouteurs, vêtements",
+    "back": "Bag with charger, mouse, earphones, and clothes"
+   },
+   {
+    "id": "F-13a6290f",
+    "reference": "Purse: bank cards pan card cash of laxmi negi",
+    "translation": "Portefeuille avec cartes bancaires, carte PAN, espèces de Laxmi Negi",
+    "back": "Wallet with bank cards, PAN card, and cash of Laxmi Negi"
+   },
+   {
+    "id": "F-ce0e230a",
+    "reference": "Hand Bag: cash aadhar bank card metro card of vaishali",
+    "translation": "Sac à main avec argent, carte Aadhar, carte bancaire, carte métro de Vaishali",
+    "back": "Handbag with cash, Aadhar card, bank card, and metro card of Vaishali"
+   },
+   {
+    "id": "F-294f6746",
+    "reference": "Pink leather watch with a silver-colored face.",
+    "translation": "Montre en cuir rose avec cadran argenté",
+    "back": "Pink leather watch with silver dial"
+   },
+   {
+    "id": "F-522c5388",
+    "reference": "Hand Bag: pan card charger pens lotion perfume of aditya singh",
+    "translation": "Sac à main avec carte PAN, chargeur, stylos, lotion, parfum d'Aditya Singh",
+    "back": "Handbag with PAN card, charger, pens, lotion, and perfume of Aditya Singh"
+   },
+   {
+    "id": "F-e1965660",
+    "reference": "Light pink plastic wireless earbuds with a matching charging case featuring three indicator lights.",
+    "translation": "Écouteurs sans fil en plastique rose clair avec étui de charge à trois voyants",
+    "back": "Light pink plastic wireless earphones with three-indicator charging case"
+   },
+   {
+    "id": "F-e0df7e2c",
+    "reference": "Hand Bag: aadhar of shilpa",
+    "translation": "Sac à main contenant l'Aadhar de Shilpa",
+    "back": "Handbag containing Shilpa's Aadhar card"
+   },
+   {
+    "id": "F-f23a3823",
+    "reference": "Purse: cash metro card",
+    "translation": "Portefeuille avec espèces et carte métro",
+    "back": "Wallet with cash and metro card"
+   },
+   {
+    "id": "F-fd6cf51a",
+    "reference": "Bag: cloths bottle lunch box",
+    "translation": "Sac avec vêtements, bouteille, boîte à lunch",
+    "back": "Bag with clothes, bottle, and lunch box"
+   }
+  ],
+  "derja | S0 local fallback (gemma3:4b)": [
+   {
+    "id": "F-7b972f39",
+    "reference": "Bag: old clothes, certificate of punam debi gupta",
+    "translation": "Sac b, jeld 9mech, sertifika Punam Debi Gupta.",
+    "back": "Bag, 9mech, Punam Debi Gupta certificate."
+   },
+   {
+    "id": "F-347c4347",
+    "reference": "Hand Bag: aadhar pan voter id bank card earing of sangeeta devi",
+    "translation": "Sac à main, Aadhar, voter ID, bank card, écouteurs Sangeeta Devi.",
+    "back": "Handbag, Aadhar, voter ID, bank card, Sangeeta Devi earphones."
+   },
+   {
+    "id": "F-8fd24e34",
+    "reference": "Poly Bag: with woolen lady dress",
+    "translation": "Sac plastique, jeld 9mech, djellaba dame.",
+    "back": "Plastic bag, 9mech, woman's djellaba."
+   },
+   {
+    "id": "F-e7e04e70",
+    "reference": "Poly Bag: socks t shirt",
+    "translation": "Sac plastique, m9ach, t-shirt, chaussettes.",
+    "back": "Plastic bag, m9ach, t-shirt, socks."
+   },
+   {
+    "id": "F-0dc025f6",
+    "reference": "Bag Having Clothes, Shoes, Perfume: bag having clothes, shoes, perfume",
+    "translation": "Sac, jeld 9mech, sabbat, parfum.",
+    "back": "Bag, 9mech, sabbat, perfume."
+   },
+   {
+    "id": "F-1528d692",
+    "reference": "Bag Having Cash And Bottle.: bag having cash and bottle.",
+    "translation": "Sac, dhahbi, dabbouza, flous.",
+    "back": "Bag, dhahbi, dabbouza, money."
+   },
+   {
+    "id": "F-c76d8663",
+    "reference": "Purse: pures with id card voter id aadhar bank card cash dl of tarun singh solanki",
+    "translation": "Portefeuille, pures, voter ID, Aadhar, bank card, flous Tarun Singh Solanki.",
+    "back": "Wallet, pures, voter ID, Aadhar, bank card, Tarun Singh Solanki money."
+   },
+   {
+    "id": "F-1b1e54c1",
+    "reference": "Carry Bag: with papers photocopy of mithilesh kumar",
+    "translation": "Sac à dos, fih papyours, kopiya Mithilesh Kumar.",
+    "back": "Backpack, papers, Mithilesh Kumar copy."
+   },
+   {
+    "id": "F-8909b129",
+    "reference": "Bag: charger cloths rain coat cash",
+    "translation": "Sac, charger, 9mech, mdhalla, flous.",
+    "back": "Bag, charger, 9mech, mdhalla, money."
+   },
+   {
+    "id": "F-d13c5d9f",
+    "reference": "Teal glass bottle with a silver metal cap and a silicone sleeve featuring the Solimo logo.",
+    "translation": "Dabbouza z3t 7lass, fodhi qaf, silicone Solimo.",
+    "back": "Z3t 7lass dabbouza, fodhi qaf, Solimo silicone."
+   },
+   {
+    "id": "F-137e390f",
+    "reference": "Purse: aadhar pan voter id bank card cash of shravan kumnar",
+    "translation": "Portefeuille, Aadhar, voter ID, bank card, flous Shravan Kumar.",
+    "back": "Wallet, Aadhar, voter ID, bank card, Shravan Kumar money."
+   },
+   {
+    "id": "F-b374a7f5",
+    "reference": "Bag: power bank speaker charger earphone shaving kit cloths",
+    "translation": "Sac, power bank, speaker, écouteurs, kit 9a9a, 9mech.",
+    "back": "Bag, power bank, speaker, earphones, 9a9a kit, 9mech."
+   },
+   {
+    "id": "F-4a9fab29",
+    "reference": "Poly Bag: trouser salwar suit kid short & pyjama",
+    "translation": "Sac plastique, pantalon, salwar, djellaba, pyjama enfant.",
+    "back": "Plastic bag, pants, salwar, djellaba, child's pyjama."
+   },
+   {
+    "id": "F-086db78a",
+    "reference": "Purse: lip color cash card of preeti",
+    "translation": "Portefeuille, rose, flous, card Preeti.",
+    "back": null
+   },
+   {
+    "id": "F-19d5c4f2",
+    "reference": "Black and silver backpack with a silver stripe and multiple pockets.",
+    "translation": "Sac à dos 9noir et argent, stripe argent, kabet b 9okht.",
+    "back": "Black and silver backpack, silver stripe, kabet b 9okht."
+   },
+   {
+    "id": "F-987599a4",
+    "reference": "Brown leather tote bag with a PIMK logo.",
+    "translation": "Sac jeld dhahbi PIMK logo.",
+    "back": "Gold PIMK logo bag."
+   },
+   {
+    "id": "F-9313ef56",
+    "reference": "Black Bag: baby jacket , ladies clothes & makeup items",
+    "translation": "Sac noir, djebel, djebel, makyaj.",
+    "back": "Black bag, makeup."
+   },
+   {
+    "id": "F-148000f5",
+    "reference": "Red and blue synthetic fabric backpack with a front zippered pocket and black handle.",
+    "translation": "Sac 9mech 7mer a7mer, fih zipp, cadre 7did.",
+    "back": "Black bag with zipper, gold frame."
+   },
+   {
+    "id": "F-56745bbd",
+    "reference": "Black umbrella with a patterned canopy.",
+    "translation": "Dabbouza gris mn motim.",
+    "back": "Grey wallet from Motim."
+   },
+   {
+    "id": "F-1a9ad43e",
+    "reference": "Bag: black grey bag with keys ,towel,woolen cap",
+    "translation": "Sac gris kbir, mfete7, 9mech, qamis.",
+    "back": "Large grey bag, fabric, black, shirt."
+   },
+   {
+    "id": "F-cab022d8",
+    "reference": "Hand Bag: umbrella lunch box",
+    "translation": "Kasa mdhalla, dabbouza, lunch box.",
+    "back": "Hanging case, wallet, lunch box."
+   },
+   {
+    "id": "F-93d60c7d",
+    "reference": "Bag: charger mouse earphone cloths",
+    "translation": "Telifoun, moucha, écouteurs, 9mech.",
+    "back": "Phone, mouse, earphones, black."
+   },
+   {
+    "id": "F-13a6290f",
+    "reference": "Purse: bank cards pan card cash of laxmi negi",
+    "translation": "Portefeuille, pan card, cash negi Laxmi.",
+    "back": "Wallet, PAN card, cash, Laxmi."
+   },
+   {
+    "id": "F-ce0e230a",
+    "reference": "Hand Bag: cash aadhar bank card metro card of vaishali",
+    "translation": "Portefeuille, aadhar, card bank, card metro Vaishali.",
+    "back": "Wallet, Aadhar, bank card, Vaishali metro card."
+   },
+   {
+    "id": "F-294f6746",
+    "reference": "Pink leather watch with a silver-colored face.",
+    "translation": "Mangala dhahbi, wjeh 7did.",
+    "back": "Gold mangala, gold face."
+   },
+   {
+    "id": "F-522c5388",
+    "reference": "Hand Bag: pan card charger pens lotion perfume of aditya singh",
+    "translation": "Portefeuille, pan card, charger, qalam, parfum Aditya Singh.",
+    "back": "Wallet, PAN card, charger, pen, Aditya Singh perfume."
+   },
+   {
+    "id": "F-e1965660",
+    "reference": "Light pink plastic wireless earbuds with a matching charging case featuring three indicator lights.",
+    "translation": "Kasa rose plastique écouteurs wireless, 3 motim.",
+    "back": "Pink plastic case, wireless earphones, 3 Motim."
+   },
+   {
+    "id": "F-e0df7e2c",
+    "reference": "Hand Bag: aadhar of shilpa",
+    "translation": "Portefeuille, aadhar Shilpa.",
+    "back": "Wallet, Shilpa Aadhar."
+   },
+   {
+    "id": "F-f23a3823",
+    "reference": "Purse: cash metro card",
+    "translation": "Portefeuille, cash, card metro.",
+    "back": "Wallet, cash, metro card."
+   },
+   {
+    "id": "F-fd6cf51a",
+    "reference": "Bag: cloths bottle lunch box",
+    "translation": null,
+    "back": null
+   }
+  ],
+  "derja | S1 gpt-oss-120b, no style guide": [
+   {
+    "id": "F-7b972f39",
+    "reference": "Bag: old clothes, certificate of punam debi gupta",
+    "translation": "Sak: hwayej qdima, shahaada punam debi gupta",
+    "back": "Bag: old keys, Poonam Debi Gupta's ID card"
+   },
+   {
+    "id": "F-347c4347",
+    "reference": "Hand Bag: aadhar pan voter id bank card earing of sangeeta devi",
+    "translation": "Sak id: aadhar, pan, voter id, bank card, wassa sangeeta devi",
+    "back": "Bag: Aadhar, PAN, voter ID, bank card, Sangeeta Devi's papers"
+   },
+   {
+    "id": "F-8fd24e34",
+    "reference": "Poly Bag: with woolen lady dress",
+    "translation": "Poly sak: fustan woolen",
+    "back": "Plastic bag: woolen dress"
+   },
+   {
+    "id": "F-e7e04e70",
+    "reference": "Poly Bag: socks t shirt",
+    "translation": "Poly sak: jwarib, t‑shirt",
+    "back": "Plastic bag: socks, t-shirt"
+   },
+   {
+    "id": "F-0dc025f6",
+    "reference": "Bag Having Clothes, Shoes, Perfume: bag having clothes, shoes, perfume",
+    "translation": "Sak: hwayej, sbat, 3tir",
+    "back": "Bag: keys, wallet, 300 dinars"
+   },
+   {
+    "id": "F-1528d692",
+    "reference": "Bag Having Cash And Bottle.: bag having cash and bottle.",
+    "translation": "Sak: flous w bouteila",
+    "back": "Bag: money and bottle"
+   },
+   {
+    "id": "F-c76d8663",
+    "reference": "Purse: pures with id card voter id aadhar bank card cash dl of tarun singh solanki",
+    "translation": "Mkhaza: id card, voter id, aadhar, bank card, flous, dl tarun singh",
+    "back": "Box: ID, voter ID, Aadhar, bank card, money, Tarun Singh's license"
+   },
+   {
+    "id": "F-1b1e54c1",
+    "reference": "Carry Bag: with papers photocopy of mithilesh kumar",
+    "translation": "Sak: waraqet, photocopy mithilesh kumar",
+    "back": "Bag: papers, Mithilesh Kumar's photocopy"
+   },
+   {
+    "id": "F-8909b129",
+    "reference": "Bag: charger cloths rain coat cash",
+    "translation": "Sak: charger, hwayej, coat mtar, flous",
+    "back": "Bag: charger, keys, coat, money"
+   },
+   {
+    "id": "F-d13c5d9f",
+    "reference": "Teal glass bottle with a silver metal cap and a silicone sleeve featuring the Solimo logo.",
+    "translation": "Bouteila zarka b cap feri w sleeve silicone logo Solimo",
+    "back": "Black bottle with red cap and Solimo silicone sleeve"
+   },
+   {
+    "id": "F-137e390f",
+    "reference": "Purse: aadhar pan voter id bank card cash of shravan kumnar",
+    "translation": "Mkhaza: aadhar, pan, voter id, bank card, flous shravan kumnar",
+    "back": "Box: Aadhar, PAN, voter ID, bank card, money, Shravan Kumar"
+   },
+   {
+    "id": "F-b374a7f5",
+    "reference": "Bag: power bank speaker charger earphone shaving kit cloths",
+    "translation": "Sak: power bank, speaker, charger, earphone, kit shaving, hwayej",
+    "back": "Bag: power bank, speaker, charger, earphones, shaving kit, keys"
+   },
+   {
+    "id": "F-4a9fab29",
+    "reference": "Poly Bag: trouser salwar suit kid short & pyjama",
+    "translation": "Poly sak: sirwal, salwar, suit, wlid, short w pyjama",
+    "back": "Plastic bag: pants, salwar, suit, woolen sweater, shorts, pyjama"
+   },
+   {
+    "id": "F-086db78a",
+    "reference": "Purse: lip color cash card of preeti",
+    "translation": "Mkhaza: lip color, flous, card preeti",
+    "back": null
+   },
+   {
+    "id": "F-19d5c4f2",
+    "reference": "Black and silver backpack with a silver stripe and multiple pockets.",
+    "translation": "Backpack aswad w feri b stripe feri w barcha jiben",
+    "back": "Black and red backpack with red stripe and many pockets"
+   },
+   {
+    "id": "F-987599a4",
+    "reference": "Brown leather tote bag with a PIMK logo.",
+    "translation": "Sac tote b leather bounni b logo PIMK",
+    "back": "Brown leather tote bag with PIMK logo"
+   },
+   {
+    "id": "F-9313ef56",
+    "reference": "Black Bag: baby jacket , ladies clothes & makeup items",
+    "translation": "Sac kahl: jaket tifel, hwayej nssae, maquillage",
+    "back": "Black bag: child's jacket, shoes, makeup"
+   },
+   {
+    "id": "F-148000f5",
+    "reference": "Red and blue synthetic fabric backpack with a front zippered pocket and black handle.",
+    "translation": "Sac dos b synthetique ahmar w azraq, jibha zip front, mkaab kahl",
+    "back": "Red and blue synthetic backpack, front zip, black base"
+   },
+   {
+    "id": "F-56745bbd",
+    "reference": "Black umbrella with a patterned canopy.",
+    "translation": "Mshamma kahl b canape moudhabb",
+    "back": "Black shemagh with gold embroidery"
+   },
+   {
+    "id": "F-1a9ad43e",
+    "reference": "Bag: black grey bag with keys ,towel,woolen cap",
+    "translation": "Sac kahl w ramadi, fih miftah, serviette, kape laine",
+    "back": "Black and grey bag: keys, napkin, wool cape"
+   },
+   {
+    "id": "F-cab022d8",
+    "reference": "Hand Bag: umbrella lunch box",
+    "translation": "Hand bag: mshamma w boîte lunch",
+    "back": "Handbag: shemagh and lunch box"
+   },
+   {
+    "id": "F-93d60c7d",
+    "reference": "Bag: charger mouse earphone cloths",
+    "translation": "Sac: charger, souris, earphone, hwayej",
+    "back": "Bag: charger, mouse, earphones, clothes"
+   },
+   {
+    "id": "F-13a6290f",
+    "reference": "Purse: bank cards pan card cash of laxmi negi",
+    "translation": "Purse: cartes bancaires, carte PAN, cash l‑Laxmi Negi",
+    "back": "Purse: bank cards, PAN card, cash (Laxmi Negi)"
+   },
+   {
+    "id": "F-ce0e230a",
+    "reference": "Hand Bag: cash aadhar bank card metro card of vaishali",
+    "translation": "Hand bag: cash, aadhar, carte bancaire, carte metro Vaishali",
+    "back": "Handbag: cash, Aadhar, bank card, Vaishali metro card"
+   },
+   {
+    "id": "F-294f6746",
+    "reference": "Pink leather watch with a silver-colored face.",
+    "translation": "Montre leather wardja b wajh feras",
+    "back": "White leather watch with horse face dial"
+   },
+   {
+    "id": "F-522c5388",
+    "reference": "Hand Bag: pan card charger pens lotion perfume of aditya singh",
+    "translation": "Hand bag: carte PAN, charger, stylos, lotion, parfum Aditya Singh",
+    "back": "Handbag: PAN card, charger, pens, lotion, Aditya Singh perfume"
+   },
+   {
+    "id": "F-e1965660",
+    "reference": "Light pink plastic wireless earbuds with a matching charging case featuring three indicator lights.",
+    "translation": "Earbuds plastique rosso clair b case chaj, thletha dl indicators",
+    "back": "Light red plastic earbuds with charging case, three indicators"
+   },
+   {
+    "id": "F-e0df7e2c",
+    "reference": "Hand Bag: aadhar of shilpa",
+    "translation": "Hand bag: aadhar Shilpa",
+    "back": "Handbag: Shilpa's Aadhar card"
+   },
+   {
+    "id": "F-f23a3823",
+    "reference": "Purse: cash metro card",
+    "translation": "Purse: cash, carte metro",
+    "back": "Purse: cash, metro card"
+   },
+   {
+    "id": "F-fd6cf51a",
+    "reference": "Bag: cloths bottle lunch box",
+    "translation": "Sac: hwayej, bouteille, boîte lunch",
+    "back": "Bag: clothes, bottle, lunch box"
+   }
+  ],
+  "derja | S2 gpt-oss-120b + style guide (production)": [
+   {
+    "id": "F-7b972f39",
+    "reference": "Bag: old clothes, certificate of punam debi gupta",
+    "translation": "Sac jeld, fih 7wayej 9dim w shahaada punam debi gupta",
+    "back": "Bag containing 7 keys, Aadhar, and Poonam Debi's ID card"
+   },
+   {
+    "id": "F-347c4347",
+    "reference": "Hand Bag: aadhar pan voter id bank card earing of sangeeta devi",
+    "translation": "Hand bag, fih aadhar, pan, carte voter, carte banque w 7elwa sangeeta devi",
+    "back": "Handbag with Aadhar, PAN, voter ID, bank card, and Sangeeta Devi's ID"
+   },
+   {
+    "id": "F-8fd24e34",
+    "reference": "Poly Bag: with woolen lady dress",
+    "translation": "Poly sac, fih fustane 9misha",
+    "back": "Poly bag containing a Qamis"
+   },
+   {
+    "id": "F-e7e04e70",
+    "reference": "Poly Bag: socks t shirt",
+    "translation": "Poly sac, fih jawareb w t‑shirt",
+    "back": "Poly bag containing trousers and a t-shirt"
+   },
+   {
+    "id": "F-0dc025f6",
+    "reference": "Bag Having Clothes, Shoes, Perfume: bag having clothes, shoes, perfume",
+    "translation": "Sac, fih 7wayej, sabbat w 3tir",
+    "back": "Bag containing keys, a watch, and a ring"
+   },
+   {
+    "id": "F-1528d692",
+    "reference": "Bag Having Cash And Bottle.: bag having cash and bottle.",
+    "translation": "Sac, fih flous w dabbouza",
+    "back": "Bag containing money and a box"
+   },
+   {
+    "id": "F-c76d8663",
+    "reference": "Purse: pures with id card voter id aadhar bank card cash dl of tarun singh solanki",
+    "translation": "Portefeuille, fih carte id, carte voter, aadhar, carte banque, flous w dl tarun singh solanki",
+    "back": "Wallet with ID, voter card, Aadhar, bank card, cash, and Tarun Singh Solanki's papers"
+   },
+   {
+    "id": "F-1b1e54c1",
+    "reference": "Carry Bag: with papers photocopy of mithilesh kumar",
+    "translation": "Carry bag, fih wara9 w photocopy mta3 mithilesh kumar",
+    "back": "Carry bag with documents and photocopies of Mithilesh Kumar"
+   },
+   {
+    "id": "F-8909b129",
+    "reference": "Bag: charger cloths rain coat cash",
+    "translation": "Sac, fih charger, 7wayej, manteq lma, flous",
+    "back": "Bag containing charger, keys, water bottle, and cash"
+   },
+   {
+    "id": "F-d13c5d9f",
+    "reference": "Teal glass bottle with a silver metal cap and a silicone sleeve featuring the Solimo logo.",
+    "translation": "Dabbouza zraq 7mar, ghita fodhi, sleeve silicone b logo Solimo",
+    "back": "Dark blue box, white lid, silicone sleeve with Solimo logo"
+   },
+   {
+    "id": "F-137e390f",
+    "reference": "Purse: aadhar pan voter id bank card cash of shravan kumnar",
+    "translation": "Portefeuille, fih aadhar, pan, carte voter, carte banque w flous shravan kumnar",
+    "back": "Wallet with Aadhar, PAN, voter ID, bank card, and cash for Shravan Kumar"
+   },
+   {
+    "id": "F-b374a7f5",
+    "reference": "Bag: power bank speaker charger earphone shaving kit cloths",
+    "translation": "Sac, fih power bank, speaker, charger, earphone, kit shaving w 7wayej",
+    "back": "Bag with power bank, speaker, charger, earphones, shaving kit, and keys"
+   },
+   {
+    "id": "F-4a9fab29",
+    "reference": "Poly Bag: trouser salwar suit kid short & pyjama",
+    "translation": "Poly sac, fih sirwal, salwar, costume, short w pyjama tfil",
+    "back": "Poly bag with trousers, salwar, suit, shorts, and children's pajamas"
+   },
+   {
+    "id": "F-086db78a",
+    "reference": "Purse: lip color cash card of preeti",
+    "translation": "Portefeuille, fih lip color, flous w carte preeti",
+    "back": "Wallet containing lip color, cash, and Preeti's card"
+   },
+   {
+    "id": "F-19d5c4f2",
+    "reference": "Black and silver backpack with a silver stripe and multiple pockets.",
+    "translation": "Backpack k7el w fodhi, stripe fodhi, barcha jabbat",
+    "back": "Black and white backpack, white stripes, many pockets"
+   },
+   {
+    "id": "F-987599a4",
+    "reference": "Brown leather tote bag with a PIMK logo.",
+    "translation": "Sac marron jeld, fih logo PIMK.",
+    "back": "Brown leather bag with PIMK logo."
+   },
+   {
+    "id": "F-9313ef56",
+    "reference": "Black Bag: baby jacket , ladies clothes & makeup items",
+    "translation": "Sac k7el, fih jaket tifla, hwayej nissa w maquillage.",
+    "back": "Black bag containing a girl's jacket, women's clothes, and makeup."
+   },
+   {
+    "id": "F-148000f5",
+    "reference": "Red and blue synthetic fabric backpack with a front zippered pocket and black handle.",
+    "translation": "Sac à dos a7mar w az9e9 synthétique, fih poche zip front, w handle k7el.",
+    "back": "Red and blue synthetic backpack with front zip pocket and black handle."
+   },
+   {
+    "id": "F-56745bbd",
+    "reference": "Black umbrella with a patterned canopy.",
+    "translation": "Mdahla k7el, 3liha n9ash pattern.",
+    "back": "Black handbag with a snake pattern."
+   },
+   {
+    "id": "F-1a9ad43e",
+    "reference": "Bag: black grey bag with keys ,towel,woolen cap",
+    "translation": "Sac k7el gris, fih mfete7, serviette, kasket 9nin.",
+    "back": "Grey bag containing a phone, towel, and red cap."
+   },
+   {
+    "id": "F-cab022d8",
+    "reference": "Hand Bag: umbrella lunch box",
+    "translation": "Hand bag mdahla w boîte lunch.",
+    "back": "Handbag and lunch box."
+   },
+   {
+    "id": "F-93d60c7d",
+    "reference": "Bag: charger mouse earphone cloths",
+    "translation": "Sac, fih charger, mouse, écouteurs, hwayej.",
+    "back": "Bag containing a charger, mouse, earphones, and clothes."
+   },
+   {
+    "id": "F-13a6290f",
+    "reference": "Purse: bank cards pan card cash of laxmi negi",
+    "translation": "Portefeuille, fih cartes bancaires, carte PAN, flous.",
+    "back": "Wallet containing bank cards, PAN card, and cash."
+   },
+   {
+    "id": "F-ce0e230a",
+    "reference": "Hand Bag: cash aadhar bank card metro card of vaishali",
+    "translation": "Hand bag, fih flous, aadhar, carte bancaire, metro card.",
+    "back": "Handbag containing cash, ID, bank card, and metro card."
+   },
+   {
+    "id": "F-294f6746",
+    "reference": "Pink leather watch with a silver-colored face.",
+    "translation": "Mangala rose jeld, wajh fodhi.",
+    "back": "Pink leather wallet, worn condition."
+   },
+   {
+    "id": "F-522c5388",
+    "reference": "Hand Bag: pan card charger pens lotion perfume of aditya singh",
+    "translation": "Hand bag, fih carte PAN, charger, stylos, lotion, parfum.",
+    "back": "Handbag containing PAN card, charger, pens, lotion, and perfume."
+   },
+   {
+    "id": "F-e1965660",
+    "reference": "Light pink plastic wireless earbuds with a matching charging case featuring three indicator lights.",
+    "translation": "Écouteurs sans fil rose clair plastique, w case charge rose, 3 LED.",
+    "back": "Light pink plastic wireless earphones with pink charging case and 3 LEDs."
+   },
+   {
+    "id": "F-e0df7e2c",
+    "reference": "Hand Bag: aadhar of shilpa",
+    "translation": "Hand bag, fih aadhar.",
+    "back": "Handbag containing an ID card."
+   },
+   {
+    "id": "F-f23a3823",
+    "reference": "Purse: cash metro card",
+    "translation": "Portefeuille, fih flous w metro card.",
+    "back": "Wallet containing cash and a metro card."
+   },
+   {
+    "id": "F-fd6cf51a",
+    "reference": "Bag: cloths bottle lunch box",
+    "translation": "Sac, fih hwayej, bouteille, boîte lunch.",
+    "back": "Bag containing clothes, a bottle, and a lunch box."
+   }
+  ]
+ }
+}

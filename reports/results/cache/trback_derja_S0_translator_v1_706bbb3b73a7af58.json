@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Gold PIMK logo bag.",
+   "F-9313ef56": "Black bag, makeup.",
+   "F-148000f5": "Black bag with zipper, gold frame.",
+   "F-56745bbd": "Grey wallet from Motim.",
+   "F-1a9ad43e": "Large grey bag, fabric, black, shirt.",
+   "F-cab022d8": "Hanging case, wallet, lunch box.",
+   "F-93d60c7d": "Phone, mouse, earphones, black.",
+   "F-13a6290f": "Wallet, PAN card, cash, Laxmi.",
+   "F-ce0e230a": "Wallet, Aadhar, bank card, Vaishali metro card.",
+   "F-294f6746": "Gold mangala, gold face.",
+   "F-522c5388": "Wallet, PAN card, charger, pen, Aditya Singh perfume.",
+   "F-e1965660": "Pink plastic case, wireless earphones, 3 Motim.",
+   "F-e0df7e2c": "Wallet, Shilpa Aadhar.",
+   "F-f23a3823": "Wallet, cash, metro card."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-987599a4\": \"Gold PIMK logo bag.\",\n    \"F-9313ef56\": \"Black bag, makeup.\",\n    \"F-148000f5\": \"Black bag with zipper, gold frame.\",\n    \"F-56745bbd\": \"Grey wallet from Motim.\",\n    \"F-1a9ad43e\": \"Large grey bag, fabric, black, shirt.\",\n    \"F-cab022d8\": \"Hanging case, wallet, lunch box.\",\n    \"F-93d60c7d\": \"Phone, mouse, earphones, black.\",\n    \"F-13a6290f\": \"Wallet, PAN card, cash, Laxmi.\",\n    \"F-ce0e230a\": \"Wallet, Aadhar, bank card, Vaishali metro card.\",\n    \"F-294f6746\": \"Gold mangala, gold face.\",\n    \"F-522c5388\": \"Wallet, PAN card, charger, pen, Aditya Singh perfume.\",\n    \"F-e1965660\": \"Pink plastic case, wireless earphones, 3 Motim.\",\n    \"F-e0df7e2c\": \"Wallet, Shilpa Aadhar.\",\n    \"F-f23a3823\": \"Wallet, cash, metro card.\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.017708673,
+  "prompt_tokens": 518,
+  "prompt_time": 0.043204982,
+  "completion_tokens": 341,
+  "completion_time": 0.693486862,
+  "total_tokens": 859,
+  "total_time": 0.736691844
+ },
+ "latency_s": 1.16
+}

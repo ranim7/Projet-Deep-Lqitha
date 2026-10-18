@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Sac b, jeld 9mech, sertifika Punam Debi Gupta.",
+   "F-347c4347": "Sac à main, Aadhar, voter ID, bank card, écouteurs Sangeeta Devi.",
+   "F-8fd24e34": "Sac plastique, jeld 9mech, djellaba dame.",
+   "F-e7e04e70": "Sac plastique, m9ach, t-shirt, chaussettes.",
+   "F-0dc025f6": "Sac, jeld 9mech, sabbat, parfum.",
+   "F-1528d692": "Sac, dhahbi, dabbouza, flous.",
+   "F-c76d8663": "Portefeuille, pures, voter ID, Aadhar, bank card, flous Tarun Singh Solanki.",
+   "F-1b1e54c1": "Sac à dos, fih papyours, kopiya Mithilesh Kumar.",
+   "F-8909b129": "Sac, charger, 9mech, mdhalla, flous.",
+   "F-d13c5d9f": "Dabbouza z3t 7lass, fodhi qaf, silicone Solimo.",
+   "F-137e390f": "Portefeuille, Aadhar, voter ID, bank card, flous Shravan Kumar.",
+   "F-b374a7f5": "Sac, power bank, speaker, écouteurs, kit 9a9a, 9mech.",
+   "F-4a9fab29": "Sac plastique, pantalon, salwar, djellaba, pyjama enfant.",
+   "F-086db78a": "Portefeuille, rose, flous, card Preeti.",
+   "F-19d5c4f2": "Sac à dos 9noir et argent, stripe argent, kabet b 9okht."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\": {\n    \"F-7b972f39\": \"Sac b, jeld 9mech, sertifika Punam Debi Gupta.\",\n    \"F-347c4347\": \"Sac à main, Aadhar, voter ID, bank card, écouteurs Sangeeta Devi.\",\n    \"F-8fd24e34\": \"Sac plastique, jeld 9mech, djellaba dame.\",\n    \"F-e7e04e70\": \"Sac plastique, m9ach, t-shirt, chaussettes.\",\n    \"F-0dc025f6\": \"Sac, jeld 9mech, sabbat, parfum.\",\n    \"F-1528d692\": \"Sac, dhahbi, dabbouza, flous.\",\n    \"F-c76d8663\": \"Portefeuille, pures, voter ID, Aadhar, bank card, flous Tarun Singh Solanki.\",\n    \"F-1b1e54c1\": \"Sac à dos, fih papyours, kopiya Mithilesh Kumar.\",\n    \"F-8909b129\": \"Sac, charger, 9mech, mdhalla, flous.\",\n    \"F-d13c5d9f\": \"Dabbouza z3t 7lass, fodhi qaf, silicone Solimo.\",\n    \"F-137e390f\": \"Portefeuille, Aadhar, voter ID, bank card, flous Shravan Kumar.\",\n    \"F-b374a7f5\": \"Sac, power bank, speaker, écouteurs, kit 9a9a, 9mech.\",\n    \"F-4a9fab29\": \"Sac plastique, pantalon, salwar, djellaba, pyjama enfant.\",\n    \"F-086db78a\": \"Portefeuille, rose, flous, card Preeti.\",\n    \"F-19d5c4f2\": \"Sac à dos 9noir et argent, stripe argent, kabet b 9okht.\"\n}}",
+ "usage": {
+  "prompt_tokens": 826,
+  "prompt_tokens_details": {
+   "cached_tokens": 316
+  },
+  "completion_tokens": 481,
+  "total_tokens": 1307
+ },
+ "latency_s": 47.69
+}

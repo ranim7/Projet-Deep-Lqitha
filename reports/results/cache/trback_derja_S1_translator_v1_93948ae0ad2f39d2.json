@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Bag: 7 keys, PUNAM DEBI GUPTA ID card",
+   "F-347c4347": "Handbag: Aadhar, PAN, voter ID, bank card, 9IN SANGEETA DEVI",
+   "F-8fd24e34": "Poly bag: woolen dress",
+   "F-e737d416": "Tortoiseshell brown glasses, metal frame",
+   "F-0dc025f6": "Bag with 7 keys, passport, 3 stars",
+   "F-1528d692": "Bag with money and bottle",
+   "F-c76d8663": "Purse: ID, voter ID, Aadhar, bank card, money, DL TARUN SINGH SOLANKI",
+   "F-1b1e54c1": "Carry bag: papers, photocopy MITHILESH KUMAR",
+   "F-8909b129": "Bag: charger, 7 keys, raincoat, money",
+   "F-d13c5d9f": "Glass teal bottle, gold metal cap, Solimo silicone sleeve",
+   "F-137e390f": "Purse: Aadhar, PAN, voter ID, bank card, money SHRAVAN KUMAR",
+   "F-b374a7f5": "Bag: power bank, speaker, charger, earphones, shaving kit, 7 keys",
+   "F-4a9fab29": "Poly bag: trousers, salwar, suit, kids shorts and pyjama",
+   "F-086db78a": "Purse: lipstick, money, card PREETI",
+   "F-19d5c4f2": "Brown and gold backpack, gold stripes, side pockets"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n\"translations\": {\n\"F-7b972f39\": \"Bag: 7 keys, PUNAM DEBI GUPTA ID card\",\n\"F-347c4347\": \"Handbag: Aadhar, PAN, voter ID, bank card, 9IN SANGEETA DEVI\",\n\"F-8fd24e34\": \"Poly bag: woolen dress\",\n\"F-e737d416\": \"Tortoiseshell brown glasses, metal frame\",\n\"F-0dc025f6\": \"Bag with 7 keys, passport, 3 stars\",\n\"F-1528d692\": \"Bag with money and bottle\",\n\"F-c76d8663\": \"Purse: ID, voter ID, Aadhar, bank card, money, DL TARUN SINGH SOLANKI\",\n\"F-1b1e54c1\": \"Carry bag: papers, photocopy MITHILESH KUMAR\",\n\"F-8909b129\": \"Bag: charger, 7 keys, raincoat, money\",\n\"F-d13c5d9f\": \"Glass teal bottle, gold metal cap, Solimo silicone sleeve\",\n\"F-137e390f\": \"Purse: Aadhar, PAN, voter ID, bank card, money SHRAVAN KUMAR\",\n\"F-b374a7f5\": \"Bag: power bank, speaker, charger, earphones, shaving kit, 7 keys\",\n\"F-4a9fab29\": \"Poly bag: trousers, salwar, suit, kids shorts and pyjama\",\n\"F-086db78a\": \"Purse: lipstick, money, card PREETI\",\n\"F-19d5c4f2\": \"Brown and gold backpack, gold stripes, side pockets\"\n}\n}",
+ "usage": {
+  "queue_time": 0.018387506,
+  "prompt_tokens": 576,
+  "prompt_time": 0.047871571,
+  "completion_tokens": 422,
+  "completion_time": 0.864778517,
+  "total_tokens": 998,
+  "total_time": 0.912650088
+ },
+ "latency_s": 9.41
+}

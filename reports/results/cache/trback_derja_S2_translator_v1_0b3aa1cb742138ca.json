@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Brown leather bag with PIMK logo.",
+   "F-9313ef56": "Black bag containing a girl's jacket, women's shoes, and makeup.",
+   "F-148000f5": "Red and blue synthetic backpack with front zip pocket and black handle.",
+   "F-56745bbd": "Black handbag with patterned canopy.",
+   "F-1a9ad43e": "Grey bag containing a wallet, towel, and white kufi.",
+   "F-cab022d8": "Handbag and lunch box.",
+   "F-93d60c7d": "Bag containing charger, mouse, earphones, and keys.",
+   "F-13a6290f": "Wallet containing bank cards, PAN card, and cash.",
+   "F-ce0e230a": "Handbag containing cash, ID, bank card, and metro card.",
+   "F-294f6746": "Old pink handbag with torn face.",
+   "F-522c5388": "Handbag containing PAN card, charger, pens, lotion, and perfume.",
+   "F-e1965660": "Light pink plastic wireless earphones with pink charging case, 3 cables.",
+   "F-e0df7e2c": "Handbag containing ID.",
+   "F-f23a3823": "Wallet containing cash and metro card.",
+   "F-e7e04e70": "Plastic bag containing scarf and t-shirt."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n\"translations\": {\n\"F-987599a4\": \"Brown leather bag with PIMK logo.\",\n\"F-9313ef56\": \"Black bag containing a girl's jacket, women's shoes, and makeup.\",\n\"F-148000f5\": \"Red and blue synthetic backpack with front zip pocket and black handle.\",\n\"F-56745bbd\": \"Black handbag with patterned canopy.\",\n\"F-1a9ad43e\": \"Grey bag containing a wallet, towel, and white kufi.\",\n\"F-cab022d8\": \"Handbag and lunch box.\",\n\"F-93d60c7d\": \"Bag containing charger, mouse, earphones, and keys.\",\n\"F-13a6290f\": \"Wallet containing bank cards, PAN card, and cash.\",\n\"F-ce0e230a\": \"Handbag containing cash, ID, bank card, and metro card.\",\n\"F-294f6746\": \"Old pink handbag with torn face.\",\n\"F-522c5388\": \"Handbag containing PAN card, charger, pens, lotion, and perfume.\",\n\"F-e1965660\": \"Light pink plastic wireless earphones with pink charging case, 3 cables.\",\n\"F-e0df7e2c\": \"Handbag containing ID.\",\n\"F-f23a3823\": \"Wallet containing cash and metro card.\",\n\"F-e7e04e70\": \"Plastic bag containing scarf and t-shirt.\"\n}\n}",
+ "usage": {
+  "queue_time": 0.018321161,
+  "prompt_tokens": 570,
+  "prompt_time": 0.039178314,
+  "completion_tokens": 355,
+  "completion_time": 0.726423047,
+  "total_tokens": 925,
+  "total_time": 0.765601361
+ },
+ "latency_s": 27.91
+}

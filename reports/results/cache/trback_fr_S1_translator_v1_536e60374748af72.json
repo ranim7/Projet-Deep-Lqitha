@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Bag: old clothes, Punam Debi Gupta certificate",
+   "F-347c4347": "Handbag: aadhar, pan, voter ID, bank card, Sangeeta Devi earring",
+   "F-8fd24e34": "Poly bag: women's wool dress",
+   "F-e7e04e70": "Poly bag: socks, t-shirt",
+   "F-0dc025f6": "Bag containing clothes, shoes, perfume",
+   "F-1528d692": "Bag containing cash and bottle",
+   "F-c76d8663": "Wallet: IDs, aadhar, bank card, cash, Tarun Singh Solanki license",
+   "F-1b1e54c1": "Travel bag: papers, Mithilesh Kumar photocopy",
+   "F-8909b129": "Bag: charger, clothes, raincoat, cash",
+   "F-d13c5d9f": "Teal glass bottle with silver metal cap and Solimo silicone sleeve",
+   "F-137e390f": "Wallet: aadhar, pan, voter ID, bank card, Shravan Kumnar cash",
+   "F-b374a7f5": "Bag: power bank, speaker, charger, earphones, shaving kit, clothes",
+   "F-4a9fab29": "Poly bag: trousers, salwar, suit, child shorts, pajama",
+   "F-086db78a": "Wallet: lipstick, cash, Preeti's card",
+   "F-19d5c4f2": "Black and silver backpack with silver band and multiple pockets"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-7b972f39\": \"Bag: old clothes, Punam Debi Gupta certificate\",\n    \"F-347c4347\": \"Handbag: aadhar, pan, voter ID, bank card, Sangeeta Devi earring\",\n    \"F-8fd24e34\": \"Poly bag: women's wool dress\",\n    \"F-e7e04e70\": \"Poly bag: socks, t-shirt\",\n    \"F-0dc025f6\": \"Bag containing clothes, shoes, perfume\",\n    \"F-1528d692\": \"Bag containing cash and bottle\",\n    \"F-c76d8663\": \"Wallet: IDs, aadhar, bank card, cash, Tarun Singh Solanki license\",\n    \"F-1b1e54c1\": \"Travel bag: papers, Mithilesh Kumar photocopy\",\n    \"F-8909b129\": \"Bag: charger, clothes, raincoat, cash\",\n    \"F-d13c5d9f\": \"Teal glass bottle with silver metal cap and Solimo silicone sleeve\",\n    \"F-137e390f\": \"Wallet: aadhar, pan, voter ID, bank card, Shravan Kumnar cash\",\n    \"F-b374a7f5\": \"Bag: power bank, speaker, charger, earphones, shaving kit, clothes\",\n    \"F-4a9fab29\": \"Poly bag: trousers, salwar, suit, child shorts, pajama\",\n    \"F-086db78a\": \"Wallet: lipstick, cash, Preeti's card\",\n    \"F-19d5c4f2\": \"Black and silver backpack with silver band and multiple pockets\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.018115602,
+  "prompt_tokens": 567,
+  "prompt_time": 0.047085652,
+  "completion_tokens": 429,
+  "completion_time": 0.878813539,
+  "total_tokens": 996,
+  "total_time": 0.925899191
+ },
+ "latency_s": 14.16
+}

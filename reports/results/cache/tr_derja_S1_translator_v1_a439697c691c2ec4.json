@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Sac tote b leather bounni b logo PIMK",
+   "F-9313ef56": "Sac kahl: jaket tifel, hwayej nssae, maquillage",
+   "F-148000f5": "Sac dos b synthetique ahmar w azraq, jibha zip front, mkaab kahl",
+   "F-56745bbd": "Mshamma kahl b canape moudhabb",
+   "F-1a9ad43e": "Sac kahl w ramadi, fih miftah, serviette, kape laine",
+   "F-cab022d8": "Hand bag: mshamma w boîte lunch",
+   "F-93d60c7d": "Sac: charger, souris, earphone, hwayej",
+   "F-13a6290f": "Purse: cartes bancaires, carte PAN, cash l‑Laxmi Negi",
+   "F-ce0e230a": "Hand bag: cash, aadhar, carte bancaire, carte metro Vaishali",
+   "F-294f6746": "Montre leather wardja b wajh feras",
+   "F-522c5388": "Hand bag: carte PAN, charger, stylos, lotion, parfum Aditya Singh",
+   "F-e1965660": "Earbuds plastique rosso clair b case chaj, thletha dl indicators",
+   "F-e0df7e2c": "Hand bag: aadhar Shilpa",
+   "F-f23a3823": "Purse: cash, carte metro",
+   "F-fd6cf51a": "Sac: hwayej, bouteille, boîte lunch"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\":{\"F-987599a4\":\"Sac tote b leather bounni b logo PIMK\",\"F-9313ef56\":\"Sac kahl: jaket tifel, hwayej nssae, maquillage\",\"F-148000f5\":\"Sac dos b synthetique ahmar w azraq, jibha zip front, mkaab kahl\",\"F-56745bbd\":\"Mshamma kahl b canape moudhabb\",\"F-1a9ad43e\":\"Sac kahl w ramadi, fih miftah, serviette, kape laine\",\"F-cab022d8\":\"Hand bag: mshamma w boîte lunch\",\"F-93d60c7d\":\"Sac: charger, souris, earphone, hwayej\",\"F-13a6290f\":\"Purse: cartes bancaires, carte PAN, cash l‑Laxmi Negi\",\"F-ce0e230a\":\"Hand bag: cash, aadhar, carte bancaire, carte metro Vaishali\",\"F-294f6746\":\"Montre leather wardja b wajh feras\",\"F-522c5388\":\"Hand bag: carte PAN, charger, stylos, lotion, parfum Aditya Singh\",\"F-e1965660\":\"Earbuds plastique rosso clair b case chaj, thletha dl indicators\",\"F-e0df7e2c\":\"Hand bag: aadhar Shilpa\",\"F-f23a3823\":\"Purse: cash, carte metro\",\"F-fd6cf51a\":\"Sac: hwayej, bouteille, boîte lunch\"}}",
+ "usage": {
+  "queue_time": 0.09707102,
+  "prompt_tokens": 536,
+  "prompt_time": 0.092333084,
+  "completion_tokens": 399,
+  "completion_time": 0.829880682,
+  "total_tokens": 935,
+  "total_time": 0.922213766,
+  "completion_tokens_details": {
+   "reasoning_tokens": 56
+  }
+ },
+ "latency_s": 1.43
+}

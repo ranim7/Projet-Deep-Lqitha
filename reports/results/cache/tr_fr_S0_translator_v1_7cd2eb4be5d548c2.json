@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Portefeuille en cuir marron avec logo PIMK.",
+   "F-9313ef56": "Sac noir : veste bébé, vêtements femme et articles de maquillage.",
+   "F-148000f5": "Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire.",
+   "F-56745bbd": "Paraplu noir avec canopy motif.",
+   "F-1a9ad43e": "Sac noir gris avec clés, serviette, bonnet en laine.",
+   "F-cab022d8": "Sac à main : parapluie, boîte à déjeuner.",
+   "F-93d60c7d": "Sac : chargeur, écouteurs, vêtements.",
+   "F-13a6290f": "Portefeuille : cartes bancaires, carte PAN, argent de Lakshmi Negi.",
+   "F-ce0e230a": "Sac à main : argent, carte Aadhar, carte bancaire, carte de métro de Vaishali.",
+   "F-294f6746": "Montre en cuir rose avec cadran argenté.",
+   "F-522c5388": "Sac à main : carte PAN, chargeurs, stylos, lotion, parfum d'Aditya Singh.",
+   "F-e1965660": "Écouteurs sans fil en plastique rose clair avec étui de charge assorti et trois voyants.",
+   "F-e0df7e2c": "Sac à main : Aadhar de Shilpa.",
+   "F-f23a3823": "Portefeuille : argent, carte de métro.",
+   "F-e7e04e70": "Sachet en poly : chaussettes, t-shirt."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\": {\"F-987599a4\": \"Portefeuille en cuir marron avec logo PIMK.\", \"F-9313ef56\": \"Sac noir : veste bébé, vêtements femme et articles de maquillage.\", \"F-148000f5\": \"Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire.\", \"F-56745bbd\": \"Paraplu noir avec canopy motif.\", \"F-1a9ad43e\": \"Sac noir gris avec clés, serviette, bonnet en laine.\", \"F-cab022d8\": \"Sac à main : parapluie, boîte à déjeuner.\", \"F-93d60c7d\": \"Sac : chargeur, écouteurs, vêtements.\", \"F-13a6290f\": \"Portefeuille : cartes bancaires, carte PAN, argent de Lakshmi Negi.\", \"F-ce0e230a\": \"Sac à main : argent, carte Aadhar, carte bancaire, carte de métro de Vaishali.\", \"F-294f6746\": \"Montre en cuir rose avec cadran argenté.\", \"F-522c5388\": \"Sac à main : carte PAN, chargeurs, stylos, lotion, parfum d'Aditya Singh.\", \"F-e1965660\": \"Écouteurs sans fil en plastique rose clair avec étui de charge assorti et trois voyants.\", \"F-e0df7e2c\": \"Sac à main : Aadhar de Shilpa.\", \"F-f23a3823\": \"Portefeuille : argent, carte de métro.\", \"F-e7e04e70\": \"Sachet en poly : chaussettes, t-shirt.\"}}",
+ "usage": {
+  "prompt_tokens": 534,
+  "prompt_tokens_details": {
+   "cached_tokens": 58
+  },
+  "completion_tokens": 406,
+  "total_tokens": 940
+ },
+ "latency_s": 39.92
+}

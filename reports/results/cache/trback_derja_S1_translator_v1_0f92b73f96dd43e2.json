@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Brown leather tote bag with PIMK logo",
+   "F-9313ef56": "Black bag: child's jacket, shoes, makeup",
+   "F-148000f5": "Red and blue synthetic backpack, front zip, black base",
+   "F-56745bbd": "Black shemagh with gold embroidery",
+   "F-1a9ad43e": "Black and grey bag: keys, napkin, wool cape",
+   "F-cab022d8": "Handbag: shemagh and lunch box",
+   "F-93d60c7d": "Bag: charger, mouse, earphones, clothes",
+   "F-13a6290f": "Purse: bank cards, PAN card, cash (Laxmi Negi)",
+   "F-ce0e230a": "Handbag: cash, Aadhar, bank card, Vaishali metro card",
+   "F-294f6746": "White leather watch with horse face dial",
+   "F-522c5388": "Handbag: PAN card, charger, pens, lotion, Aditya Singh perfume",
+   "F-e1965660": "Light red plastic earbuds with charging case, three indicators",
+   "F-e0df7e2c": "Handbag: Shilpa's Aadhar card",
+   "F-f23a3823": "Purse: cash, metro card",
+   "F-fd6cf51a": "Bag: clothes, bottle, lunch box"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-987599a4\": \"Brown leather tote bag with PIMK logo\",\n    \"F-9313ef56\": \"Black bag: child's jacket, shoes, makeup\",\n    \"F-148000f5\": \"Red and blue synthetic backpack, front zip, black base\",\n    \"F-56745bbd\": \"Black shemagh with gold embroidery\",\n    \"F-1a9ad43e\": \"Black and grey bag: keys, napkin, wool cape\",\n    \"F-cab022d8\": \"Handbag: shemagh and lunch box\",\n    \"F-93d60c7d\": \"Bag: charger, mouse, earphones, clothes\",\n    \"F-13a6290f\": \"Purse: bank cards, PAN card, cash (Laxmi Negi)\",\n    \"F-ce0e230a\": \"Handbag: cash, Aadhar, bank card, Vaishali metro card\",\n    \"F-294f6746\": \"White leather watch with horse face dial\",\n    \"F-522c5388\": \"Handbag: PAN card, charger, pens, lotion, Aditya Singh perfume\",\n    \"F-e1965660\": \"Light red plastic earbuds with charging case, three indicators\",\n    \"F-e0df7e2c\": \"Handbag: Shilpa's Aadhar card\",\n    \"F-f23a3823\": \"Purse: cash, metro card\",\n    \"F-fd6cf51a\": \"Bag: clothes, bottle, lunch box\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.018640205,
+  "prompt_tokens": 536,
+  "prompt_time": 0.040542154,
+  "completion_tokens": 401,
+  "completion_time": 0.837488888,
+  "total_tokens": 937,
+  "total_time": 0.878031042
+ },
+ "latency_s": 19.49
+}

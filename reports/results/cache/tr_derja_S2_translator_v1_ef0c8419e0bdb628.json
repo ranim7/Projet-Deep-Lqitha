@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Sac marron jeld, fih logo PIMK.",
+   "F-9313ef56": "Sac k7el, fih jaket tifla, hwayej nissa w maquillage.",
+   "F-148000f5": "Sac à dos a7mar w az9e9 synthétique, fih poche zip front, w handle k7el.",
+   "F-56745bbd": "Mdahla k7el, fih canope patterné.",
+   "F-1a9ad43e": "Sac k7el gris, fih mfete7, serviette, kofia sougha.",
+   "F-cab022d8": "Hand bag mdahla w boîte lunch.",
+   "F-93d60c7d": "Sac, fih charger, mouse, écouteurs, 9mech.",
+   "F-13a6290f": "Portefeuille, fih cartes bancaires, carte PAN, flous.",
+   "F-ce0e230a": "Hand bag, fih flous, aadhar, carte bancaire, metro card.",
+   "F-294f6746": "Mangala rose jeld, w wajh fodhi.",
+   "F-522c5388": "Hand bag, fih carte PAN, charger, stylos, lotion, parfum.",
+   "F-e1965660": "Écouteurs sans fil rose clair plastique, w kasa chahrj rose, 3 dlal.",
+   "F-e0df7e2c": "Hand bag, fih aadhar.",
+   "F-f23a3823": "Portefeuille, fih flous w metro card.",
+   "F-e7e04e70": "Poly sac, fih chashour w t‑shirt."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\":{\"F-987599a4\":\"Sac marron jeld, fih logo PIMK.\",\"F-9313ef56\":\"Sac k7el, fih jaket tifla, hwayej nissa w maquillage.\",\"F-148000f5\":\"Sac à dos a7mar w az9e9 synthétique, fih poche zip front, w handle k7el.\",\"F-56745bbd\":\"Mdahla k7el, fih canope patterné.\",\"F-1a9ad43e\":\"Sac k7el gris, fih mfete7, serviette, kofia sougha.\",\"F-cab022d8\":\"Hand bag mdahla w boîte lunch.\",\"F-93d60c7d\":\"Sac, fih charger, mouse, écouteurs, 9mech.\",\"F-13a6290f\":\"Portefeuille, fih cartes bancaires, carte PAN, flous.\",\"F-ce0e230a\":\"Hand bag, fih flous, aadhar, carte bancaire, metro card.\",\"F-294f6746\":\"Mangala rose jeld, w wajh fodhi.\",\"F-522c5388\":\"Hand bag, fih carte PAN, charger, stylos, lotion, parfum.\",\"F-e1965660\":\"Écouteurs sans fil rose clair plastique, w kasa chahrj rose, 3 dlal.\",\"F-e0df7e2c\":\"Hand bag, fih aadhar.\",\"F-f23a3823\":\"Portefeuille, fih flous w metro card.\",\"F-e7e04e70\":\"Poly sac, fih chashour w t‑shirt.\"}}",
+ "usage": {
+  "queue_time": 0.295310358,
+  "prompt_tokens": 824,
+  "prompt_time": 0.036063704,
+  "completion_tokens": 922,
+  "completion_time": 1.9188859200000001,
+  "total_tokens": 1746,
+  "total_time": 1.9549496240000002,
+  "completion_tokens_details": {
+   "reasoning_tokens": 574
+  }
+ },
+ "latency_s": 2.79
+}

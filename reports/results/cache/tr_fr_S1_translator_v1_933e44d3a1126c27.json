@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Sac : vieux vêtements, certificat de Punam Debi Gupta",
+   "F-347c4347": "Sac à main : aadhar, pan, carte d'électeur, carte bancaire, boucle d'oreille de Sangeeta Devi",
+   "F-8fd24e34": "Sac en polyéthylène : robe en laine pour femme",
+   "F-e737d416": "Lunettes de soleil marron à écaille de tortue, monture métallique",
+   "F-0dc025f6": "Sac contenant vêtements, chaussures, parfum",
+   "F-1528d692": "Sac contenant argent liquide et bouteille",
+   "F-c76d8663": "Porte-monnaie : pièces d'identité, carte d'électeur, aadhar, carte bancaire, argent, permis de conduire de Tarun Singh Solanki",
+   "F-1b1e54c1": "Sac de transport : papiers, photocopie de Mithilesh Kumar",
+   "F-8909b129": "Sac : chargeur, vêtements, imperméable, argent",
+   "F-d13c5d9f": "Bouteille en verre teal avec bouchon argenté et gaine silicone logo Solimo",
+   "F-137e390f": "Porte-monnaie : aadhar, pan, carte d'électeur, carte bancaire, argent de Shravan Kumnar",
+   "F-b374a7f5": "Sac : batterie externe, enceinte, chargeur, écouteurs, kit de rasage, vêtements",
+   "F-4a9fab29": "Sac en polyéthylène : pantalon, salwar, costume, short enfant, pyjama",
+   "F-086db78a": "Porte-monnaie : rouge à lèvres, argent, carte de Preeti",
+   "F-19d5c4f2": "Sac à dos noir et argent avec bande argentée et multiples poches"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\":{\"F-7b972f39\":\"Sac : vieux vêtements, certificat de Punam Debi Gupta\",\"F-347c4347\":\"Sac à main : aadhar, pan, carte d'électeur, carte bancaire, boucle d'oreille de Sangeeta Devi\",\"F-8fd24e34\":\"Sac en polyéthylène : robe en laine pour femme\",\"F-e737d416\":\"Lunettes de soleil marron à écaille de tortue, monture métallique\",\"F-0dc025f6\":\"Sac contenant vêtements, chaussures, parfum\",\"F-1528d692\":\"Sac contenant argent liquide et bouteille\",\"F-c76d8663\":\"Porte-monnaie : pièces d'identité, carte d'électeur, aadhar, carte bancaire, argent, permis de conduire de Tarun Singh Solanki\",\"F-1b1e54c1\":\"Sac de transport : papiers, photocopie de Mithilesh Kumar\",\"F-8909b129\":\"Sac : chargeur, vêtements, imperméable, argent\",\"F-d13c5d9f\":\"Bouteille en verre teal avec bouchon argenté et gaine silicone logo Solimo\",\"F-137e390f\":\"Porte-monnaie : aadhar, pan, carte d'électeur, carte bancaire, argent de Shravan Kumnar\",\"F-b374a7f5\":\"Sac : batterie externe, enceinte, chargeur, écouteurs, kit de rasage, vêtements\",\"F-4a9fab29\":\"Sac en polyéthylène : pantalon, salwar, costume, short enfant, pyjama\",\"F-086db78a\":\"Porte-monnaie : rouge à lèvres, argent, carte de Preeti\",\"F-19d5c4f2\":\"Sac à dos noir et argent avec bande argentée et multiples poches\"}}",
+ "usage": {
+  "queue_time": 0.207652199,
+  "prompt_tokens": 568,
+  "prompt_time": 0.023245258,
+  "completion_tokens": 848,
+  "completion_time": 1.747157721,
+  "total_tokens": 1416,
+  "total_time": 1.770402979,
+  "completion_tokens_details": {
+   "reasoning_tokens": 447
+  }
+ },
+ "latency_s": 2.44
+}

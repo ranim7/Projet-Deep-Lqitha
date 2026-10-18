@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Sac fourre‑tout en cuir brun avec logo PIMK",
+   "F-9313ef56": "Sac noir contenant veste bébé, vêtements femme et maquillage",
+   "F-148000f5": "Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire",
+   "F-56745bbd": "Parapluie noir à canopy à motif",
+   "F-1a9ad43e": "Sac noir/gris avec clés, serviette et bonnet en laine",
+   "F-cab022d8": "Sac à main contenant parapluie et boîte à lunch",
+   "F-93d60c7d": "Sac avec chargeur, souris, écouteurs et vêtements",
+   "F-13a6290f": "Porte‑monnaie avec cartes bancaires, carte PAN et argent de Laxmi Negi",
+   "F-ce0e230a": "Sac à main avec argent, carte Aadhar, carte bancaire et carte métro de Vaishali",
+   "F-294f6746": "Montre en cuir rose avec cadran argenté",
+   "F-522c5388": "Sac à main avec carte PAN, chargeur, stylos, lotion et parfum d'Aditya Singh",
+   "F-e1965660": "Écouteurs sans fil en plastique rose clair avec étui de charge à trois voyants",
+   "F-e0df7e2c": "Sac à main contenant l'Aadhar de Shilpa",
+   "F-f23a3823": "Porte‑monnaie avec argent et carte métro",
+   "F-fd6cf51a": "Sac avec vêtements, bouteille et boîte à lunch"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\":{\"F-987599a4\":\"Sac fourre‑tout en cuir brun avec logo PIMK\",\"F-9313ef56\":\"Sac noir contenant veste bébé, vêtements femme et maquillage\",\"F-148000f5\":\"Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire\",\"F-56745bbd\":\"Parapluie noir à canopy à motif\",\"F-1a9ad43e\":\"Sac noir/gris avec clés, serviette et bonnet en laine\",\"F-cab022d8\":\"Sac à main contenant parapluie et boîte à lunch\",\"F-93d60c7d\":\"Sac avec chargeur, souris, écouteurs et vêtements\",\"F-13a6290f\":\"Porte‑monnaie avec cartes bancaires, carte PAN et argent de Laxmi Negi\",\"F-ce0e230a\":\"Sac à main avec argent, carte Aadhar, carte bancaire et carte métro de Vaishali\",\"F-294f6746\":\"Montre en cuir rose avec cadran argenté\",\"F-522c5388\":\"Sac à main avec carte PAN, chargeur, stylos, lotion et parfum d'Aditya Singh\",\"F-e1965660\":\"Écouteurs sans fil en plastique rose clair avec étui de charge à trois voyants\",\"F-e0df7e2c\":\"Sac à main contenant l'Aadhar de Shilpa\",\"F-f23a3823\":\"Porte‑monnaie avec argent et carte métro\",\"F-fd6cf51a\":\"Sac avec vêtements, bouteille et boîte à lunch\"}}",
+ "usage": {
+  "queue_time": 0.296309996,
+  "prompt_tokens": 518,
+  "prompt_time": 0.023185244,
+  "completion_tokens": 400,
+  "completion_time": 0.835274012,
+  "total_tokens": 918,
+  "total_time": 0.858459256,
+  "completion_tokens_details": {
+   "reasoning_tokens": 55
+  }
+ },
+ "latency_s": 1.6
+}

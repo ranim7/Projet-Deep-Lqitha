@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Sac b, jeld 9mech, sertifika Puna Deb Gupta.",
+   "F-347c4347": "Sac bag, aadhar, pan, voter id, bank card, sangeeta devi.",
+   "F-8fd24e34": "Kasa dabbouza, fih warda lady dress.",
+   "F-e737d416": "Mrayet chams marron écaille, cadre 7did.",
+   "F-0dc025f6": "Sac fih 9mech, sabbat, dabouza, perfum.",
+   "F-1528d692": "Sac fih flus, dabbouza.",
+   "F-c76d8663": "Portefeuille pures, voter id, aadhar, bank card, flus, tarun singh.",
+   "F-1b1e54c1": "Sac fih wazania, kopia Mithilesh Kumar.",
+   "F-8909b129": "Sac, charger, 9mech, mdhalla, flus.",
+   "F-d13c5d9f": "Dabbouza az9e9, fodhi qaf, silicone Solimo.",
+   "F-137e390f": "Portefeuille aadhar, pan, voter id, bank card, flus, shravan kumar.",
+   "F-b374a7f5": "Power bank, speaker, charger, écouteurs, kit shaving, 9mech.",
+   "F-4a9fab29": "Kasa fih trouser, salwar, suit, kid, pyjama.",
+   "F-086db78a": "Portefeuille lip color, flus, card preeti.",
+   "F-19d5c4f2": "Sac à dos noir et argent, stripe argent, kbibet."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\": {\n    \"F-7b972f39\": \"Sac b, jeld 9mech, sertifika Puna Deb Gupta.\",\n    \"F-347c4347\": \"Sac bag, aadhar, pan, voter id, bank card, sangeeta devi.\",\n    \"F-8fd24e34\": \"Kasa dabbouza, fih warda lady dress.\",\n    \"F-e737d416\": \"Mrayet chams marron écaille, cadre 7did.\",\n    \"F-0dc025f6\": \"Sac fih 9mech, sabbat, dabouza, perfum.\",\n    \"F-1528d692\": \"Sac fih flus, dabbouza.\",\n    \"F-c76d8663\": \"Portefeuille pures, voter id, aadhar, bank card, flus, tarun singh.\",\n    \"F-1b1e54c1\": \"Sac fih wazania, kopia Mithilesh Kumar.\",\n    \"F-8909b129\": \"Sac, charger, 9mech, mdhalla, flus.\",\n    \"F-d13c5d9f\": \"Dabbouza az9e9, fodhi qaf, silicone Solimo.\",\n    \"F-137e390f\": \"Portefeuille aadhar, pan, voter id, bank card, flus, shravan kumar.\",\n    \"F-b374a7f5\": \"Power bank, speaker, charger, écouteurs, kit shaving, 9mech.\",\n    \"F-4a9fab29\": \"Kasa fih trouser, salwar, suit, kid, pyjama.\",\n    \"F-086db78a\": \"Portefeuille lip color, flus, card preeti.\",\n    \"F-19d5c4f2\": \"Sac à dos noir et argent, stripe argent, kbibet.\"\n}}",
+ "usage": {
+  "prompt_tokens": 829,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens": 464,
+  "total_tokens": 1293
+ },
+ "latency_s": 47.14
+}

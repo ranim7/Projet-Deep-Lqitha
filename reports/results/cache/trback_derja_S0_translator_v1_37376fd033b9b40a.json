@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Gold leather bag, PIMK logo.",
+   "F-9313ef56": "Black bag, mountain, mountain, makeup.",
+   "F-148000f5": "Bag with red, green, blue, gold frame.",
+   "F-56745bbd": "Grey pouch, green zipper.",
+   "F-1a9ad43e": "Black grey bag, pattern, red, clasp.",
+   "F-cab022d8": "Zippered case, lunch pouch.",
+   "F-93d60c7d": "Phone, mocha, earphones, red.",
+   "F-13a6290f": "Wallet, PAN card, cash, Laxmi.",
+   "F-ce0e230a": "Wallet, Aadhar, bank card, Vaishali metro card.",
+   "F-294f6746": "Gold bangle, gold face.",
+   "F-522c5388": "Wallet, PAN card, charger, pen, lotion, Aditya Singh perfume.",
+   "F-e1965660": "Plastic case, red, t-shirt.",
+   "F-e0df7e2c": "Wallet, Shilpa's Aadhar.",
+   "F-f23a3823": "Wallet, cash, metro card.",
+   "F-e7e04e70": "Plastic bag, market, t-shirt."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-987599a4\": \"Gold leather bag, PIMK logo.\",\n    \"F-9313ef56\": \"Black bag, mountain, mountain, makeup.\",\n    \"F-148000f5\": \"Bag with red, green, blue, gold frame.\",\n    \"F-56745bbd\": \"Grey pouch, green zipper.\",\n    \"F-1a9ad43e\": \"Black grey bag, pattern, red, clasp.\",\n    \"F-cab022d8\": \"Zippered case, lunch pouch.\",\n    \"F-93d60c7d\": \"Phone, mocha, earphones, red.\",\n    \"F-13a6290f\": \"Wallet, PAN card, cash, Laxmi.\",\n    \"F-ce0e230a\": \"Wallet, Aadhar, bank card, Vaishali metro card.\",\n    \"F-294f6746\": \"Gold bangle, gold face.\",\n    \"F-522c5388\": \"Wallet, PAN card, charger, pen, lotion, Aditya Singh perfume.\",\n    \"F-e1965660\": \"Plastic case, red, t-shirt.\",\n    \"F-e0df7e2c\": \"Wallet, Shilpa's Aadhar.\",\n    \"F-f23a3823\": \"Wallet, cash, metro card.\",\n    \"F-e7e04e70\": \"Plastic bag, market, t-shirt.\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.018772852,
+  "prompt_tokens": 543,
+  "prompt_time": 0.043476383,
+  "completion_tokens": 372,
+  "completion_time": 0.748633588,
+  "total_tokens": 915,
+  "total_time": 0.792109971
+ },
+ "latency_s": 1.57
+}

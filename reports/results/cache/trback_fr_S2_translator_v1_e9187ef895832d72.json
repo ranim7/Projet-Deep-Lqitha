@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Bag with old clothes, Punam Debi Gupta's certificate",
+   "F-347c4347": "Handbag with Aadhar, PAN, voter ID, bank card, earring, Sangeeta Devi",
+   "F-8fd24e34": "Polybag containing women's wool dress",
+   "F-e7e04e70": "Polybag with socks and t-shirt",
+   "F-0dc025f6": "Bag containing clothes, shoes, and perfume",
+   "F-1528d692": "Bag containing cash and bottle",
+   "F-c76d8663": "Wallet with ID, voter ID, Aadhar, bank card, cash, license, Tarun Singh Solanki",
+   "F-1b1e54c1": "Travel bag with documents and photocopy, Mithilesh Kumar",
+   "F-8909b129": "Bag with charger, clothes, raincoat, cash",
+   "F-d13c5d9f": "Teal glass bottle, silver metal cap, Solimo silicone sleeve",
+   "F-137e390f": "Wallet with Aadhar, PAN, voter ID, bank card, cash, Shravan Kumnar",
+   "F-b374a7f5": "Bag with power bank, speaker, charger, earphones, shaving kit, clothes",
+   "F-4a9fab29": "Polybag with pants, salwar suit, kids shorts, pajamas",
+   "F-086db78a": "Wallet with lipstick, cash, Preeti's card",
+   "F-19d5c4f2": "Black and silver backpack with silver band and multiple pockets"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-7b972f39\": \"Bag with old clothes, Punam Debi Gupta's certificate\",\n    \"F-347c4347\": \"Handbag with Aadhar, PAN, voter ID, bank card, earring, Sangeeta Devi\",\n    \"F-8fd24e34\": \"Polybag containing women's wool dress\",\n    \"F-e7e04e70\": \"Polybag with socks and t-shirt\",\n    \"F-0dc025f6\": \"Bag containing clothes, shoes, and perfume\",\n    \"F-1528d692\": \"Bag containing cash and bottle\",\n    \"F-c76d8663\": \"Wallet with ID, voter ID, Aadhar, bank card, cash, license, Tarun Singh Solanki\",\n    \"F-1b1e54c1\": \"Travel bag with documents and photocopy, Mithilesh Kumar\",\n    \"F-8909b129\": \"Bag with charger, clothes, raincoat, cash\",\n    \"F-d13c5d9f\": \"Teal glass bottle, silver metal cap, Solimo silicone sleeve\",\n    \"F-137e390f\": \"Wallet with Aadhar, PAN, voter ID, bank card, cash, Shravan Kumnar\",\n    \"F-b374a7f5\": \"Bag with power bank, speaker, charger, earphones, shaving kit, clothes\",\n    \"F-4a9fab29\": \"Polybag with pants, salwar suit, kids shorts, pajamas\",\n    \"F-086db78a\": \"Wallet with lipstick, cash, Preeti's card\",\n    \"F-19d5c4f2\": \"Black and silver backpack with silver band and multiple pockets\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.048553362,
+  "prompt_tokens": 581,
+  "prompt_time": 0.046487138,
+  "completion_tokens": 434,
+  "completion_time": 0.849132015,
+  "total_tokens": 1015,
+  "total_time": 0.895619153
+ },
+ "latency_s": 1.47
+}

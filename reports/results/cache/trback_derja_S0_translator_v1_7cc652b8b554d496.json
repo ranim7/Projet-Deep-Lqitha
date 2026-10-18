@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Bag, 9mech, Punam Debi Gupta certificate.",
+   "F-347c4347": "Handbag, Aadhar, voter ID, bank card, Sangeeta Devi earphones.",
+   "F-8fd24e34": "Plastic bag, 9mech, woman's djellaba.",
+   "F-e7e04e70": "Plastic bag, m9ach, t-shirt, socks.",
+   "F-0dc025f6": "Bag, 9mech, sabbat, perfume.",
+   "F-1528d692": "Bag, dhahbi, dabbouza, money.",
+   "F-c76d8663": "Wallet, pures, voter ID, Aadhar, bank card, Tarun Singh Solanki money.",
+   "F-1b1e54c1": "Backpack, papers, Mithilesh Kumar copy.",
+   "F-8909b129": "Bag, charger, 9mech, mdhalla, money.",
+   "F-d13c5d9f": "Z3t 7lass dabbouza, fodhi qaf, Solimo silicone.",
+   "F-137e390f": "Wallet, Aadhar, voter ID, bank card, Shravan Kumar money.",
+   "F-b374a7f5": "Bag, power bank, speaker, earphones, 9a9a kit, 9mech.",
+   "F-4a9fab29": "Plastic bag, pants, salwar, djellaba, child's pyjama.",
+   "F-08db78a": "Wallet, rose, money, Preeti card.",
+   "F-19d5c4f2": "Black and silver backpack, silver stripe, kabet b 9okht."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-7b972f39\": \"Bag, 9mech, Punam Debi Gupta certificate.\",\n    \"F-347c4347\": \"Handbag, Aadhar, voter ID, bank card, Sangeeta Devi earphones.\",\n    \"F-8fd24e34\": \"Plastic bag, 9mech, woman's djellaba.\",\n    \"F-e7e04e70\": \"Plastic bag, m9ach, t-shirt, socks.\",\n    \"F-0dc025f6\": \"Bag, 9mech, sabbat, perfume.\",\n    \"F-1528d692\": \"Bag, dhahbi, dabbouza, money.\",\n    \"F-c76d8663\": \"Wallet, pures, voter ID, Aadhar, bank card, Tarun Singh Solanki money.\",\n    \"F-1b1e54c1\": \"Backpack, papers, Mithilesh Kumar copy.\",\n    \"F-8909b129\": \"Bag, charger, 9mech, mdhalla, money.\",\n    \"F-d13c5d9f\": \"Z3t 7lass dabbouza, fodhi qaf, Solimo silicone.\",\n    \"F-137e390f\": \"Wallet, Aadhar, voter ID, bank card, Shravan Kumar money.\",\n    \"F-b374a7f5\": \"Bag, power bank, speaker, earphones, 9a9a kit, 9mech.\",\n    \"F-4a9fab29\": \"Plastic bag, pants, salwar, djellaba, child's pyjama.\",\n    \"F-08db78a\": \"Wallet, rose, money, Preeti card.\",\n    \"F-19d5c4f2\": \"Black and silver backpack, silver stripe, kabet b 9okht.\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.035897024,
+  "prompt_tokens": 603,
+  "prompt_time": 0.043043143,
+  "completion_tokens": 468,
+  "completion_time": 0.971860119,
+  "total_tokens": 1071,
+  "total_time": 1.014903262
+ },
+ "latency_s": 1.61
+}

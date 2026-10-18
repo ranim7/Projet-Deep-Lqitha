@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Sac avec vieux vêtements, certificat de Punam Debi Gupta",
+   "F-347c4347": "Sac à main avec aadhar, PAN, carte d'électeur, carte bancaire, boucle d'oreille de Sangeeta Devi",
+   "F-8fd24e34": "Polybag contenant une robe en laine pour femme",
+   "F-e7e04e70": "Polybag avec chaussettes et t‑shirt",
+   "F-0dc025f6": "Sac contenant vêtements, chaussures et parfum",
+   "F-1528d692": "Sac contenant argent liquide et bouteille",
+   "F-c76d8663": "Porte‑monnaie avec carte d'identité, carte d'électeur, aadhar, carte bancaire, argent, permis de conduire de Tarun Singh Solanki",
+   "F-1b1e54c1": "Sac de transport avec papiers et photocopie de Mithilesh Kumar",
+   "F-8909b129": "Sac avec chargeur, vêtements, imperméable, argent",
+   "F-d13c5d9f": "Bouteille en verre teal, capuchon métallique argent et manchette silicone Solimo",
+   "F-137e390f": "Porte‑monnaie avec aadhar, PAN, carte d'électeur, carte bancaire, argent de Shravan Kumnar",
+   "F-b374a7f5": "Sac avec power bank, enceinte, chargeur, écouteurs, kit de rasage, vêtements",
+   "F-4a9fab29": "Polybag contenant pantalon, costume salwar, short enfant et pyjama",
+   "F-086db78a": "Porte‑monnaie avec rouge à lèvres, argent, carte de Preeti",
+   "F-19d5c4f2": "Sac à dos noir et argent avec bande argentée et multiples poches"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\":{\"F-7b972f39\":\"Sac avec vieux vêtements, certificat de Punam Debi Gupta\",\"F-347c4347\":\"Sac à main avec aadhar, PAN, carte d'électeur, carte bancaire, boucle d'oreille de Sangeeta Devi\",\"F-8fd24e34\":\"Polybag contenant une robe en laine pour femme\",\"F-e7e04e70\":\"Polybag avec chaussettes et t‑shirt\",\"F-0dc025f6\":\"Sac contenant vêtements, chaussures et parfum\",\"F-1528d692\":\"Sac contenant argent liquide et bouteille\",\"F-c76d8663\":\"Porte‑monnaie avec carte d'identité, carte d'électeur, aadhar, carte bancaire, argent, permis de conduire de Tarun Singh Solanki\",\"F-1b1e54c1\":\"Sac de transport avec papiers et photocopie de Mithilesh Kumar\",\"F-8909b129\":\"Sac avec chargeur, vêtements, imperméable, argent\",\"F-d13c5d9f\":\"Bouteille en verre teal, capuchon métallique argent et manchette silicone Solimo\",\"F-137e390f\":\"Porte‑monnaie avec aadhar, PAN, carte d'électeur, carte bancaire, argent de Shravan Kumnar\",\"F-b374a7f5\":\"Sac avec power bank, enceinte, chargeur, écouteurs, kit de rasage, vêtements\",\"F-4a9fab29\":\"Polybag contenant pantalon, costume salwar, short enfant et pyjama\",\"F-086db78a\":\"Porte‑monnaie avec rouge à lèvres, argent, carte de Preeti\",\"F-19d5c4f2\":\"Sac à dos noir et argent avec bande argentée et multiples poches\"}}",
+ "usage": {
+  "queue_time": 0.049414068,
+  "prompt_tokens": 611,
+  "prompt_time": 0.025343982,
+  "completion_tokens": 491,
+  "completion_time": 1.01734946,
+  "total_tokens": 1102,
+  "total_time": 1.042693442,
+  "completion_tokens_details": {
+   "reasoning_tokens": 101
+  }
+ },
+ "latency_s": 1.54
+}

@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Brown leather tote bag with PIMK logo",
+   "F-9313ef56": "Black bag, girl's jacket, women's shoes, and makeup",
+   "F-148000f5": "Red and blue synthetic backpack with front zip pocket, found whole",
+   "F-56745bbd": "Black shemagh with gold embroidery",
+   "F-1a9ad43e": "Black and grey bag containing keys, dress, and small jacket",
+   "F-cab022d8": "Handbag containing a shemagh and lunch box",
+   "F-93d60c7d": "Bag containing charger, mouse, earphones, and cushion",
+   "F-13a6290f": "Wallet with bank card, PAN, and Laxmi Negi's cash",
+   "F-ce0e230a": "Handbag with cash, ID, bank card, and Vaishali's metro card",
+   "F-294f6746": "Men's leather watch with gold face",
+   "F-522c5388": "Handbag with PAN, charger, pen, lotion, and Aditya Singh's perfume",
+   "F-e1965660": "Red plastic earbuds with case charging with three lights",
+   "F-e0df7e2c": "Handbag with Shilpa's ID",
+   "F-f23a3823": "Wallet with cash and metro card",
+   "F-e7e04e70": "Poly bag containing socks and t-shirt"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-987599a4\": \"Brown leather tote bag with PIMK logo\",\n    \"F-9313ef56\": \"Black bag, girl's jacket, women's shoes, and makeup\",\n    \"F-148000f5\": \"Red and blue synthetic backpack with front zip pocket, found whole\",\n    \"F-56745bbd\": \"Black shemagh with gold embroidery\",\n    \"F-1a9ad43e\": \"Black and grey bag containing keys, dress, and small jacket\",\n    \"F-cab022d8\": \"Handbag containing a shemagh and lunch box\",\n    \"F-93d60c7d\": \"Bag containing charger, mouse, earphones, and cushion\",\n    \"F-13a6290f\": \"Wallet with bank card, PAN, and Laxmi Negi's cash\",\n    \"F-ce0e230a\": \"Handbag with cash, ID, bank card, and Vaishali's metro card\",\n    \"F-294f6746\": \"Men's leather watch with gold face\",\n    \"F-522c5388\": \"Handbag with PAN, charger, pen, lotion, and Aditya Singh's perfume\",\n    \"F-e1965660\": \"Red plastic earbuds with case charging with three lights\",\n    \"F-e0df7e2c\": \"Handbag with Shilpa's ID\",\n    \"F-f23a3823\": \"Wallet with cash and metro card\",\n    \"F-e7e04e70\": \"Poly bag containing socks and t-shirt\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.041988322,
+  "prompt_tokens": 582,
+  "prompt_time": 0.05054139,
+  "completion_tokens": 404,
+  "completion_time": 0.807667243,
+  "total_tokens": 986,
+  "total_time": 0.858208633
+ },
+ "latency_s": 25.45
+}

@@ -473,7 +473,7 @@ return [{ json: { kind: 'registered', report_id: v.found_id, session: reset,
     w.sticky("## Agent 5 - Recovery plan (agentic RAG)\n**5a Planner** splits the situation into 2-5 French sub-questions, each routed "
              "to a source family (administration / law / operator / sop) and an item type. **Tool** runs one search per sub-question. "
              "**5b Re-ranker** keeps max 2 useful passages per sub-question. **5c Writer** builds the timed plan + letter with [n] "
-             "citations. **5d Checker** (another model) labels each step; unsupported steps are removed.", [X + 3700, Z + 240], w=900, h=170, color=3)
+             "citations. **5d Checker** (another model) labels each step; unsupported steps are removed.", [X + 4600, Z + 300], w=900, h=170, color=3)
     w.code("Agent 5a - Planner - build prompt", r"""
 const r = $('Intake - parse & guard').first().json;
 let rec = null, saved = null;
@@ -599,13 +599,22 @@ if (reportId) prefix = r.intake.intent === 'found'
 const cited = [...new Set(kept.flatMap(s => s.cites))].sort((a, b) => a - b);
 const sources = c.ctx.map((p, i) => ({ n: i + 1, id: p.id, doc_id: p.doc_id, source: p.source, authority: p.authority, url: p.url, cited: cited.includes(i + 1) }));
 const reset = { session_id: r.session.session_id, turn: 0, slots_so_far: {}, questions_already_asked: [], intent_so_far: null, language: lang, history: [] };
+// letter: fill the date placeholders the writer may leave (loss date, then today's date for the signature)
+let letter = c.letter !== 'none' ? (plan.letter || null) : null;
+if (letter && letter.body) {
+  const fr = d => d ? d.split('-').reverse().join('/') : '';
+  const lossDate = fr((r.intake.slots || {}).date_iso) || '[date]';
+  let k = 0;
+  letter = { ...letter, body: String(letter.body).replace(/\[(date_iso|date de la perte|date)\]/gi, () => (k++ === 0 ? lossDate : fr(today()))) };
+}
 const stats = { sub_questions: c.sub_questions.length, candidates: c.n_candidates, context: c.ctx.length, reranked: c.reranked,
                 steps_written: plan.steps.length, steps_kept: kept.length, removed: removed.length,
                 supported: kept.filter(s => s.label === 'supported').length, partially: kept.filter(s => s.label === 'partially').length };
-return [{ json: { kind: reportId ? 'registered' : 'plan', report_id: reportId, session: reset, reply: prefix + text.trim(), sources,
+return [{ json: { kind: reportId ? 'registered' : 'plan', report_id: reportId, session: reset,
+  reply: (prefix + (plan.summary || '')).trim(), reply_text: prefix + text.trim(), sources,
   plan: { summary: plan.summary, urgency: c.urgency, affected_items: c.affected_items, sub_questions: c.sub_questions.map(q => q.q),
           steps: kept, documents: plan.documents || [], deadlines: plan.deadlines || [], coverage: plan.coverage || [],
-          letter: c.letter !== 'none' ? (plan.letter || null) : null, stats } } }];
+          letter, stats } } }];
 """, [X + 6160, Z], note="removes unsupported steps, renders the plan")
     w.chain("Agent 5a - Planner - build prompt", "Agent 5a - Planner (LLM)", "Planner - parse & guard", "Tool - Multi-source retrieval",
             "Agent 5b - Re-ranker - build prompt", "Agent 5b - Re-ranker (LLM)", "Re-ranker - select context",
@@ -615,9 +624,9 @@ return [{ json: { kind: reportId ? 'registered' : 'plan', report_id: reportId, s
     # ---------------- found-items search (multimodal RAG over the live database)
     S = 1000
     w.sticky("## Found-items search (multimodal RAG)\nThe user's text OR photo is normalised by the Perception agent into the same "
-             "English record as the indexed found items. **Tool**: filters (category, governorate, date) relaxed step by step + hybrid "
-             "score (dense + BM25 + attributes). **Agent 8** re-ranks the candidates and answers with item references.",
-             [X + 2160, S + 220], w=820, h=150, color=6)
+             "English record as the indexed found items. **Tool**: dense retrieval + soft constraints (same category, place and "
+             "plausible date add a bonus, never exclude). **Agent 8** re-ranks the candidates and answers with item references.",
+             [X + 2160, S + 330], w=820, h=150, color=6)
     w.code("Agent 2 - Perception for search - build prompt", r"""
 const r = $json;
 const slots = r.intake.slots;

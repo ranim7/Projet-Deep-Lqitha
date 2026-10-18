@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Brown leather tote bag with PIMK logo",
+   "F-9313ef56": "Black bag containing baby jacket, women's clothes, and makeup",
+   "F-148000f5": "Red and blue synthetic backpack with zippered front pocket and black handle",
+   "F-56745bbd": "Black umbrella with patterned canopy",
+   "F-1a9ad43e": "Black-grey bag with keys, towel, and woolen hat",
+   "F-cab022d8": "Handbag containing umbrella and lunch box",
+   "F-93d60c7d": "Bag with charger, mouse, earphones, and clothes",
+   "F-13a6290f": "Wallet with bank cards, PAN card, and cash of Laxmi Negi",
+   "F-ce0e230a": "Handbag with cash, Aadhar card, bank card, and metro card of Vaishali",
+   "F-294f6746": "Pink leather watch with silver dial",
+   "F-522c5388": "Handbag with PAN card, charger, pens, lotion, and perfume of Aditya Singh",
+   "F-e1965660": "Light pink plastic wireless earphones with three-indicator charging case",
+   "F-e0df7e2c": "Handbag containing Shilpa's Aadhar card",
+   "F-f23a3823": "Wallet with cash and metro card",
+   "F-e7e04e70": "Polyethylene bag containing socks and t-shirt"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-987599a4\": \"Brown leather tote bag with PIMK logo\",\n    \"F-9313ef56\": \"Black bag containing baby jacket, women's clothes, and makeup\",\n    \"F-148000f5\": \"Red and blue synthetic backpack with zippered front pocket and black handle\",\n    \"F-56745bbd\": \"Black umbrella with patterned canopy\",\n    \"F-1a9ad43e\": \"Black-grey bag with keys, towel, and woolen hat\",\n    \"F-cab022d8\": \"Handbag containing umbrella and lunch box\",\n    \"F-93d60c7d\": \"Bag with charger, mouse, earphones, and clothes\",\n    \"F-13a6290f\": \"Wallet with bank cards, PAN card, and cash of Laxmi Negi\",\n    \"F-ce0e230a\": \"Handbag with cash, Aadhar card, bank card, and metro card of Vaishali\",\n    \"F-294f6746\": \"Pink leather watch with silver dial\",\n    \"F-522c5388\": \"Handbag with PAN card, charger, pens, lotion, and perfume of Aditya Singh\",\n    \"F-e1965660\": \"Light pink plastic wireless earphones with three-indicator charging case\",\n    \"F-e0df7e2c\": \"Handbag containing Shilpa's Aadhar card\",\n    \"F-f23a3823\": \"Wallet with cash and metro card\",\n    \"F-e7e04e70\": \"Polyethylene bag containing socks and t-shirt\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.018050375,
+  "prompt_tokens": 539,
+  "prompt_time": 0.044741907,
+  "completion_tokens": 407,
+  "completion_time": 0.81548239,
+  "total_tokens": 946,
+  "total_time": 0.860224297
+ },
+ "latency_s": 26.64
+}

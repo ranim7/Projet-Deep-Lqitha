@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Brown leather bag with PIMK logo.",
+   "F-9313ef56": "Black bag containing a girl's jacket, women's clothes, and makeup.",
+   "F-148000f5": "Red and blue synthetic backpack with front zip pocket and black handle.",
+   "F-56745bbd": "Black handbag with a snake pattern.",
+   "F-1a9ad43e": "Grey bag containing a phone, towel, and red cap.",
+   "F-cab022d8": "Handbag and lunch box.",
+   "F-93d60c7d": "Bag containing a charger, mouse, earphones, and clothes.",
+   "F-13a6290f": "Wallet containing bank cards, PAN card, and cash.",
+   "F-ce0e230a": "Handbag containing cash, ID, bank card, and metro card.",
+   "F-294f6746": "Pink leather wallet, worn condition.",
+   "F-522c5388": "Handbag containing PAN card, charger, pens, lotion, and perfume.",
+   "F-e1965660": "Light pink plastic wireless earphones with pink charging case and 3 LEDs.",
+   "F-e0df7e2c": "Handbag containing an ID card.",
+   "F-f23a3823": "Wallet containing cash and a metro card.",
+   "F-fd6cf51a": "Bag containing clothes, a bottle, and a lunch box."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n\"translations\": {\n\"F-987599a4\": \"Brown leather bag with PIMK logo.\",\n\"F-9313ef56\": \"Black bag containing a girl's jacket, women's clothes, and makeup.\",\n\"F-148000f5\": \"Red and blue synthetic backpack with front zip pocket and black handle.\",\n\"F-56745bbd\": \"Black handbag with a snake pattern.\",\n\"F-1a9ad43e\": \"Grey bag containing a phone, towel, and red cap.\",\n\"F-cab022d8\": \"Handbag and lunch box.\",\n\"F-93d60c7d\": \"Bag containing a charger, mouse, earphones, and clothes.\",\n\"F-13a6290f\": \"Wallet containing bank cards, PAN card, and cash.\",\n\"F-ce0e230a\": \"Handbag containing cash, ID, bank card, and metro card.\",\n\"F-294f6746\": \"Pink leather wallet, worn condition.\",\n\"F-522c5388\": \"Handbag containing PAN card, charger, pens, lotion, and perfume.\",\n\"F-e1965660\": \"Light pink plastic wireless earphones with pink charging case and 3 LEDs.\",\n\"F-e0df7e2c\": \"Handbag containing an ID card.\",\n\"F-f23a3823\": \"Wallet containing cash and a metro card.\",\n\"F-fd6cf51a\": \"Bag containing clothes, a bottle, and a lunch box.\"\n}\n}",
+ "usage": {
+  "queue_time": 0.042377196,
+  "prompt_tokens": 564,
+  "prompt_time": 0.04869174,
+  "completion_tokens": 358,
+  "completion_time": 0.728413944,
+  "total_tokens": 922,
+  "total_time": 0.777105684
+ },
+ "latency_s": 24.08
+}

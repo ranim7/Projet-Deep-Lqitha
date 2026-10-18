@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Brown leather wallet with PIMK logo.",
+   "F-9313ef56": "Black bag: baby jacket, women's clothes, makeup items.",
+   "F-148000f5": "Red and blue synthetic backpack with front zip pocket and black handle.",
+   "F-56745bbd": "Black umbrella with patterned canopy.",
+   "F-1a9ad43e": "Black and grey bag with keys, towel, wool hat.",
+   "F-cab022d8": "Handbag: umbrella, lunch box.",
+   "F-93d60c7d": "Bag: charger, earphones, clothes.",
+   "F-13a6290f": "Wallet: bank cards, ID card, Lakshmi Negi's cash.",
+   "F-ce0e230a": "Handbag: cash, Aadhar card, bank card, Vaishali metro card.",
+   "F-294f6746": "Rose leather watch with silver dial.",
+   "F-522c5388": "Handbag: ID card, chargers, pens, lotion, Aditya Singh's perfume.",
+   "F-e1965660": "Light pink plastic wireless earphones with matching case and three lights.",
+   "F-e0df7e2c": "Handbag: Shilpa's Aadhar card.",
+   "F-f23a3823": "Wallet: cash, metro card.",
+   "F-e7e04e70": "Poly bag: socks, t-shirt."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-987599a4\": \"Brown leather wallet with PIMK logo.\",\n    \"F-9313ef56\": \"Black bag: baby jacket, women's clothes, makeup items.\",\n    \"F-148000f5\": \"Red and blue synthetic backpack with front zip pocket and black handle.\",\n    \"F-56745bbd\": \"Black umbrella with patterned canopy.\",\n    \"F-1a9ad43e\": \"Black and grey bag with keys, towel, wool hat.\",\n    \"F-cab022d8\": \"Handbag: umbrella, lunch box.\",\n    \"F-93d60c7d\": \"Bag: charger, earphones, clothes.\",\n    \"F-13a6290f\": \"Wallet: bank cards, ID card, Lakshmi Negi's cash.\",\n    \"F-ce0e230a\": \"Handbag: cash, Aadhar card, bank card, Vaishali metro card.\",\n    \"F-294f6746\": \"Rose leather watch with silver dial.\",\n    \"F-522c5388\": \"Handbag: ID card, chargers, pens, lotion, Aditya Singh's perfume.\",\n    \"F-e1965660\": \"Light pink plastic wireless earphones with matching case and three lights.\",\n    \"F-e0df7e2c\": \"Handbag: Shilpa's Aadhar card.\",\n    \"F-f23a3823\": \"Wallet: cash, metro card.\",\n    \"F-e7e04e70\": \"Poly bag: socks, t-shirt.\"\n  }\n}",
+ "usage": {
+  "queue_time": 1.118994499,
+  "prompt_tokens": 552,
+  "prompt_time": 0.045868341,
+  "completion_tokens": 398,
+  "completion_time": 0.855392587,
+  "total_tokens": 950,
+  "total_time": 0.901260928
+ },
+ "latency_s": 2.62
+}

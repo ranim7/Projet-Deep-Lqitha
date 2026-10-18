@@ -1,0 +1,31 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Sac jeld dhahbi PIMK logo.",
+   "F-9313ef56": "Sac noir, djebel, djebel, makyaj.",
+   "F-148000f5": "Sac 9mech 7mer a7mer, fih zipp, cadre 7did.",
+   "F-56745bbd": "Dabbouza gris mn motim.",
+   "F-1a9ad43e": "Sac gris kbir, mfete7, 9mech, qamis.",
+   "F-cab022d8": "Kasa mdhalla, dabbouza, lunch box.",
+   "F-93d60c7d": "Telifoun, moucha, écouteurs, 9mech.",
+   "F-13a6290f": "Portefeuille, pan card, cash negi Laxmi.",
+   "F-ce0e230a": "Portefeuille, aadhar, card bank, card metro Vaishali.",
+   "F-294f6746": "Mangala dhahbi, wjeh 7did.",
+   "F-522c5388": "Portefeuille, pan card, charger, qalam, parfum Aditya Singh.",
+   "F-e1965660": "Kasa rose plastique écouteurs wireless, 3 motim.",
+   "F-e0df7e2c": "Portefeuille, aadhar Shilpa.",
+   "F-f23a3823": "Portefeuille, cash, card metro."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\": {\n    \"F-987599a4\": \"Sac jeld dhahbi PIMK logo.\",\n    \"F-9313ef56\": \"Sac noir, djebel, djebel, makyaj.\",\n    \"F-148000f5\": \"Sac 9mech 7mer a7mer, fih zipp, cadre 7did.\",\n    \"F-56745bbd\": \"Dabbouza gris mn motim.\",\n    \"F-1a9ad43e\": \"Sac gris kbir, mfete7, 9mech, qamis.\",\n    \"F-cab022d8\": \"Kasa mdhalla, dabbouza, lunch box.\",\n    \"F-93d60c7d\": \"Telifoun, moucha, écouteurs, 9mech.\",\n    \"F-13a6290f\": \"Portefeuille, pan card, cash negi Laxmi.\",\n    \"F-ce0e230a\": \"Portefeuille, aadhar, card bank, card metro Vaishali.\",\n    \"F-294f6746\": \"Mangala dhahbi, wjeh 7did.\",\n    \"F-522c5388\": \"Portefeuille, pan card, charger, qalam, parfum Aditya Singh.\",\n    \"F-e1965660\": \"Kasa rose plastique écouteurs wireless, 3 motim.\",\n    \"F-e0df7e2c\": \"Portefeuille, aadhar Shilpa.\",\n    \"F-f23a3823\": \"Portefeuille, cash, card metro.\"\n}}",
+ "usage": {
+  "prompt_tokens": 790,
+  "prompt_tokens_details": {
+   "cached_tokens": 315
+  },
+  "completion_tokens": 392,
+  "total_tokens": 1182
+ },
+ "latency_s": 39.6
+}

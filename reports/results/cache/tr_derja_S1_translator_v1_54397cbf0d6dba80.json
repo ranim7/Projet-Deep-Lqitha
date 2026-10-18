@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Sak: 7wayej 9dima, shahaada punam debi gupta",
+   "F-347c4347": "Hand bag: aadhar, pan, voter id, bank card, 9inâ sangeeta devi",
+   "F-8fd24e34": "Poly bag: fustan woolen",
+   "F-e737d416": "Nadharat tortoiseshell bouni, frame metal",
+   "F-0dc025f6": "Sak fiha 7wayej, sbâb, 3tir",
+   "F-1528d692": "Sak fiha flous w bouteilla",
+   "F-c76d8663": "Purse: id card, voter id, aadhar, bank card, flous, dl tarun singh solanki",
+   "F-1b1e54c1": "Carry bag: wara9, photocopy mithilesh kumar",
+   "F-8909b129": "Sak: charger, 7wayej, rain coat, flous",
+   "F-d13c5d9f": "Bouteilla glass teal, cap metal faddah, sleeve silicone logo Solimo",
+   "F-137e390f": "Purse: aadhar, pan, voter id, bank card, flous shravan kumnar",
+   "F-b374a7f5": "Sak: power bank, speaker, charger, earphone, shaving kit, 7wayej",
+   "F-4a9fab29": "Poly bag: sirwal, salwar, suit, kid shorts w pyjama",
+   "F-086db78a": "Purse: lip color, flous, card preeti",
+   "F-19d5c4f2": "Backpack ksahri w faddah, stripe faddah, kaza pockets"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\":{\"F-7b972f39\":\"Sak: 7wayej 9dima, shahaada punam debi gupta\",\"F-347c4347\":\"Hand bag: aadhar, pan, voter id, bank card, 9inâ sangeeta devi\",\"F-8fd24e34\":\"Poly bag: fustan woolen\",\"F-e737d416\":\"Nadharat tortoiseshell bouni, frame metal\",\"F-0dc025f6\":\"Sak fiha 7wayej, sbâb, 3tir\",\"F-1528d692\":\"Sak fiha flous w bouteilla\",\"F-c76d8663\":\"Purse: id card, voter id, aadhar, bank card, flous, dl tarun singh solanki\",\"F-1b1e54c1\":\"Carry bag: wara9, photocopy mithilesh kumar\",\"F-8909b129\":\"Sak: charger, 7wayej, rain coat, flous\",\"F-d13c5d9f\":\"Bouteilla glass teal, cap metal faddah, sleeve silicone logo Solimo\",\"F-137e390f\":\"Purse: aadhar, pan, voter id, bank card, flous shravan kumnar\",\"F-b374a7f5\":\"Sak: power bank, speaker, charger, earphone, shaving kit, 7wayej\",\"F-4a9fab29\":\"Poly bag: sirwal, salwar, suit, kid shorts w pyjama\",\"F-086db78a\":\"Purse: lip color, flous, card preeti\",\"F-19d5c4f2\":\"Backpack ksahri w faddah, stripe faddah, kaza pockets\"}}",
+ "usage": {
+  "queue_time": 0.088822787,
+  "prompt_tokens": 586,
+  "prompt_time": 0.022892668,
+  "completion_tokens": 420,
+  "completion_time": 0.883595422,
+  "total_tokens": 1006,
+  "total_time": 0.90648809,
+  "completion_tokens_details": {
+   "reasoning_tokens": 31
+  }
+ },
+ "latency_s": 2.09
+}

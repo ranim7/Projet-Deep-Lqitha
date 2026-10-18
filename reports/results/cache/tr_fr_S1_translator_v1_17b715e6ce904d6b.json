@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Sac fourre-tout en cuir brun avec logo PIMK",
+   "F-9313ef56": "Sac noir : petite veste, vêtements femme et maquillage",
+   "F-148000f5": "Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire",
+   "F-56745bbd": "Parapluie noir à canopy à motif",
+   "F-1a9ad43e": "Sac noir gris avec clés, serviette, bonnet en laine",
+   "F-cab022d8": "Sac à main : parapluie, boîte à lunch",
+   "F-93d60c7d": "Sac : chargeur, souris, écouteurs, vêtements",
+   "F-13a6290f": "Portefeuille : cartes bancaires, carte PAN, argent de Laxmi Negi",
+   "F-ce0e230a": "Sac à main : argent, aadhar, carte bancaire, carte métro de Vaishali",
+   "F-294f6746": "Montre en cuir rose avec cadran argenté",
+   "F-522c5388": "Sac à main : carte PAN, chargeur, stylos, lotion, parfum d'Aditya Singh",
+   "F-e1965660": "Écouteurs sans fil en plastique rose clair avec étui de charge à trois voyants",
+   "F-e0df7e2c": "Sac à main : aadhar de Shilpa",
+   "F-f23a3823": "Portefeuille : argent, carte métro",
+   "F-e7e04e70": "Sac polyéthylène : chaussettes, t‑shirt"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\":{\"F-987599a4\":\"Sac fourre-tout en cuir brun avec logo PIMK\",\"F-9313ef56\":\"Sac noir : petite veste, vêtements femme et maquillage\",\"F-148000f5\":\"Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire\",\"F-56745bbd\":\"Parapluie noir à canopy à motif\",\"F-1a9ad43e\":\"Sac noir gris avec clés, serviette, bonnet en laine\",\"F-cab022d8\":\"Sac à main : parapluie, boîte à lunch\",\"F-93d60c7d\":\"Sac : chargeur, souris, écouteurs, vêtements\",\"F-13a6290f\":\"Portefeuille : cartes bancaires, carte PAN, argent de Laxmi Negi\",\"F-ce0e230a\":\"Sac à main : argent, aadhar, carte bancaire, carte métro de Vaishali\",\"F-294f6746\":\"Montre en cuir rose avec cadran argenté\",\"F-522c5388\":\"Sac à main : carte PAN, chargeur, stylos, lotion, parfum d'Aditya Singh\",\"F-e1965660\":\"Écouteurs sans fil en plastique rose clair avec étui de charge à trois voyants\",\"F-e0df7e2c\":\"Sac à main : aadhar de Shilpa\",\"F-f23a3823\":\"Portefeuille : argent, carte métro\",\"F-e7e04e70\":\"Sac polyéthylène : chaussettes, t‑shirt\"}}",
+ "usage": {
+  "queue_time": 0.208644899,
+  "prompt_tokens": 517,
+  "prompt_time": 0.021309609,
+  "completion_tokens": 353,
+  "completion_time": 0.734170385,
+  "total_tokens": 870,
+  "total_time": 0.755479994,
+  "completion_tokens_details": {
+   "reasoning_tokens": 13
+  }
+ },
+ "latency_s": 1.42
+}

@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Sak tote b'jild bouni w logo PIMK",
+   "F-9313ef56": "Sak k7el, jaket tifla, hwayej nssa w maquillage",
+   "F-148000f5": "Bag back paket ahmar w azraq, matiere sintetik, jibsa zip f'le9bal, mssaba k7la",
+   "F-56745bbd": "Mshamma k7la b'khayma moudhabbra",
+   "F-1a9ad43e": "Sak k7el w ramadi, fih miftah, fustan, kappa sougha",
+   "F-cab022d8": "Hand bag fiha mshamma w boîte ta3 l'ghda",
+   "F-93d60c7d": "Sak fih charger, mouse, earphone, kouss",
+   "F-13a6290f": "Kassouka b'kart bank, PAN, flous mta3 Laxmi Negi",
+   "F-ce0e230a": "Hand bag b'flous, aadhar, kart bank, kart metro mta3 Vaishali",
+   "F-294f6746": "Sa3a jild wrouj, wajh fidi",
+   "F-522c5388": "Hand bag b'PAN, charger, qalam, lotion, parfum mta3 Aditya Singh",
+   "F-e1965660": "Earbuds plastique wrouj fadhia, case charga b'tlata dl'lights",
+   "F-e0df7e2c": "Hand bag b'aadhar mta3 Shilpa",
+   "F-f23a3823": "Kassouka b'flous w kart metro",
+   "F-e7e04e70": "Poly bag fiha jawareb w t-shirt"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\":{\"F-987599a4\":\"Sak tote b'jild bouni w logo PIMK\",\"F-9313ef56\":\"Sak k7el, jaket tifla, hwayej nssa w maquillage\",\"F-148000f5\":\"Bag back paket ahmar w azraq, matiere sintetik, jibsa zip f'le9bal, mssaba k7la\",\"F-56745bbd\":\"Mshamma k7la b'khayma moudhabbra\",\"F-1a9ad43e\":\"Sak k7el w ramadi, fih miftah, fustan, kappa sougha\",\"F-cab022d8\":\"Hand bag fiha mshamma w boîte ta3 l'ghda\",\"F-93d60c7d\":\"Sak fih charger, mouse, earphone, kouss\",\"F-13a6290f\":\"Kassouka b'kart bank, PAN, flous mta3 Laxmi Negi\",\"F-ce0e230a\":\"Hand bag b'flous, aadhar, kart bank, kart metro mta3 Vaishali\",\"F-294f6746\":\"Sa3a jild wrouj, wajh fidi\",\"F-522c5388\":\"Hand bag b'PAN, charger, qalam, lotion, parfum mta3 Aditya Singh\",\"F-e1965660\":\"Earbuds plastique wrouj fadhia, case charga b'tlata dl'lights\",\"F-e0df7e2c\":\"Hand bag b'aadhar mta3 Shilpa\",\"F-f23a3823\":\"Kassouka b'flous w kart metro\",\"F-e7e04e70\":\"Poly bag fiha jawareb w t-shirt\"}}",
+ "usage": {
+  "queue_time": 0.208032044,
+  "prompt_tokens": 535,
+  "prompt_time": 0.021855231,
+  "completion_tokens": 1055,
+  "completion_time": 2.193024724,
+  "total_tokens": 1590,
+  "total_time": 2.214879955,
+  "completion_tokens_details": {
+   "reasoning_tokens": 660
+  }
+ },
+ "latency_s": 3.02
+}

@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "9-inch Jeld bag, contains Poonam Gupta's degree certificate",
+   "F-347c4347": "Yellow bag, contains Aadhar, PAN, voter ID, bank card, Sangeeta Devi's keys",
+   "F-8fd24e34": "Poly bag, contains woolen dress",
+   "F-e737d416": "Brown tortoiseshell sunglasses, 7-inch frame",
+   "F-0dc025f6": "Bag containing pajamas, sandals, and a shirt",
+   "F-1528d692": "Bag containing money and a box",
+   "F-c76d8663": "Wallet, contains ID, voter ID, Aadhar, bank card, cash, Tarun Singh Solanki's DL",
+   "F-1b1e54c1": "Black bag, contains papers and photocopies of Mithilesh Kumar",
+   "F-8909b129": "Bag, contains charger, pajamas, raincoat, cash",
+   "F-d13c5d9f": "Blue small box, with white cap and Solimo logo silicone sleeve",
+   "F-137e390f": "Wallet, contains Aadhar, PAN, voter ID, bank card, cash, Shravan Kumnar",
+   "F-b374a7f5": "Bag, contains power bank, speaker, charger, earphones, shaving kit, pajamas",
+   "F-4a9fab29": "Poly bag, contains trousers, salwar, suit, shorts, children's pajamas",
+   "F-086db78a": "Wallet, contains lip color, cash, Preeti's card",
+   "F-19d5c4f2": "Blue and white backpack, white stripes, many pockets"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-7b972f39\": \"9-inch Jeld bag, contains Poonam Gupta's degree certificate\",\n    \"F-347c4347\": \"Yellow bag, contains Aadhar, PAN, voter ID, bank card, Sangeeta Devi's keys\",\n    \"F-8fd24e34\": \"Poly bag, contains woolen dress\",\n    \"F-e737d416\": \"Brown tortoiseshell sunglasses, 7-inch frame\",\n    \"F-0dc025f6\": \"Bag containing pajamas, sandals, and a shirt\",\n    \"F-1528d692\": \"Bag containing money and a box\",\n    \"F-c76d8663\": \"Wallet, contains ID, voter ID, Aadhar, bank card, cash, Tarun Singh Solanki's DL\",\n    \"F-1b1e54c1\": \"Black bag, contains papers and photocopies of Mithilesh Kumar\",\n    \"F-8909b129\": \"Bag, contains charger, pajamas, raincoat, cash\",\n    \"F-d13c5d9f\": \"Blue small box, with white cap and Solimo logo silicone sleeve\",\n    \"F-137e390f\": \"Wallet, contains Aadhar, PAN, voter ID, bank card, cash, Shravan Kumnar\",\n    \"F-b374a7f5\": \"Bag, contains power bank, speaker, charger, earphones, shaving kit, pajamas\",\n    \"F-4a9fab29\": \"Poly bag, contains trousers, salwar, suit, shorts, children's pajamas\",\n    \"F-086db78a\": \"Wallet, contains lip color, cash, Preeti's card\",\n    \"F-19d5c4f2\": \"Blue and white backpack, white stripes, many pockets\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.019024499,
+  "prompt_tokens": 624,
+  "prompt_time": 0.045426891,
+  "completion_tokens": 455,
+  "completion_time": 0.899008626,
+  "total_tokens": 1079,
+  "total_time": 0.944435517
+ },
+ "latency_s": 17.75
+}

@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Sac : vêtements anciens, certificat de punam debi gupta",
+   "F-347c4347": "Sac à main : aadhar pan voter id carte bancaire bijou de sangeeta devi",
+   "F-8fd24e34": "Sac en plastique : avec robe femme en laine",
+   "F-e737d416": "Lunettes de soleil marron tétras au métal avec une monture métallique",
+   "F-0dc025f6": "Sac contenant vêtements, chaussures, parfum",
+   "F-1528d692": "Sac contenant de l'argent liquide et une bouteille",
+   "F-c76d8663": "Portefeuille : portefeuille avec carte d'identité, carte électorale, aadhar, carte bancaire, argent liquide, permis de conduire de tarun singh solanki",
+   "F-1b1e54c1": "Sac bandoulière : avec des papiers, photocopie de mithilesh kumar",
+   "F-8909b129": "Sac : chargeur, vêtements, imperméable, argent liquide",
+   "F-d13c5d9f": "Bouteille en verre turquoise avec bouchon argenté et manchon en silicone avec le logo Solimo",
+   "F-137e390f": "Portefeuille : aadhar pan voter id carte bancaire argent de shravan kumar",
+   "F-b374a7f5": "Sac : power bank, enceinte, chargeur, écouteurs, kit de rasoir, vêtements",
+   "F-4a9fab29": "Sac en plastique : pantalon, salopette, costume, short & pyjama enfant",
+   "F-086db78a": "Portefeuille : rouge à lèvres, argent liquide, carte de preeti",
+   "F-19d5c4f2": "Sac à dos noir et argenté avec une bande argentée et plusieurs poches"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\": {\"F-7b972f39\": \"Sac : vêtements anciens, certificat de punam debi gupta\", \"F-347c4347\": \"Sac à main : aadhar pan voter id carte bancaire bijou de sangeeta devi\", \"F-8fd24e34\": \"Sac en plastique : avec robe femme en laine\", \"F-e737d416\": \"Lunettes de soleil marron tétras au métal avec une monture métallique\", \"F-0dc025f6\": \"Sac contenant vêtements, chaussures, parfum\", \"F-1528d692\": \"Sac contenant de l'argent liquide et une bouteille\", \"F-c76d8663\": \"Portefeuille : portefeuille avec carte d'identité, carte électorale, aadhar, carte bancaire, argent liquide, permis de conduire de tarun singh solanki\", \"F-1b1e54c1\": \"Sac bandoulière : avec des papiers, photocopie de mithilesh kumar\", \"F-8909b129\": \"Sac : chargeur, vêtements, imperméable, argent liquide\", \"F-d13c5d9f\": \"Bouteille en verre turquoise avec bouchon argenté et manchon en silicone avec le logo Solimo\", \"F-137e390f\": \"Portefeuille : aadhar pan voter id carte bancaire argent de shravan kumar\", \"F-b374a7f5\": \"Sac : power bank, enceinte, chargeur, écouteurs, kit de rasoir, vêtements\", \"F-4a9fab29\": \"Sac en plastique : pantalon, salopette, costume, short & pyjama enfant\", \"F-086db78a\": \"Portefeuille : rouge à lèvres, argent liquide, carte de preeti\", \"F-19d5c4f2\": \"Sac à dos noir et argenté avec une bande argentée et plusieurs poches\"}}",
+ "usage": {
+  "prompt_tokens": 571,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens": 452,
+  "total_tokens": 1023
+ },
+ "latency_s": 108.79
+}

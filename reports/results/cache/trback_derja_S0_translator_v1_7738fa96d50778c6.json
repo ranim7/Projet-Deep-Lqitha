@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Bag, phone, Puna Deb Gupta certificate.",
+   "F-347c4347": "Bag, Aadhar, PAN, voter ID, bank card, Sangeeta Devi.",
+   "F-8fd24e34": "Box containing a lady dress.",
+   "F-e737d416": "Brown tortoiseshell sunglasses, broken frame.",
+   "F-0dc025f6": "Bag containing phone, keys, box, perfume.",
+   "F-1528d692": "Bag containing money, box.",
+   "F-c76d8663": "Wallet, voter ID, Aadhar, bank card, money, Tarun Singh.",
+   "F-1b1e54c1": "Bag containing scales, Mithilesh Kumar copy.",
+   "F-8909b129": "Bag, charger, phone, wallet, money.",
+   "F-d13c5d9f": "Black box, back cover, Solimo silicone.",
+   "F-137e390f": "Wallet, Aadhar, PAN, voter ID, bank card, money, Shravan Kumar.",
+   "F-b374a7f5": "Power bank, speaker, charger, earphones, shaving kit, phone.",
+   "F-4a9fab29": "Box containing trousers, salwar, suit, kid, pyjama.",
+   "F-086db78a": "Wallet, lip color, money, Preeti's card.",
+   "F-19d5c4f2": "Black and silver backpack, silver stripe, small."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-7b972f39\": \"Bag, phone, Puna Deb Gupta certificate.\",\n    \"F-347c4347\": \"Bag, Aadhar, PAN, voter ID, bank card, Sangeeta Devi.\",\n    \"F-8fd24e34\": \"Box containing a lady dress.\",\n    \"F-e737d416\": \"Brown tortoiseshell sunglasses, broken frame.\",\n    \"F-0dc025f6\": \"Bag containing phone, keys, box, perfume.\",\n    \"F-1528d692\": \"Bag containing money, box.\",\n    \"F-c76d8663\": \"Wallet, voter ID, Aadhar, bank card, money, Tarun Singh.\",\n    \"F-1b1e54c1\": \"Bag containing scales, Mithilesh Kumar copy.\",\n    \"F-8909b129\": \"Bag, charger, phone, wallet, money.\",\n    \"F-d13c5d9f\": \"Black box, back cover, Solimo silicone.\",\n    \"F-137e390f\": \"Wallet, Aadhar, PAN, voter ID, bank card, money, Shravan Kumar.\",\n    \"F-b374a7f5\": \"Power bank, speaker, charger, earphones, shaving kit, phone.\",\n    \"F-4a9fab29\": \"Box containing trousers, salwar, suit, kid, pyjama.\",\n    \"F-086db78a\": \"Wallet, lip color, money, Preeti's card.\",\n    \"F-19d5c4f2\": \"Black and silver backpack, silver stripe, small.\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.018177231,
+  "prompt_tokens": 587,
+  "prompt_time": 0.048716024,
+  "completion_tokens": 409,
+  "completion_time": 0.830463757,
+  "total_tokens": 996,
+  "total_time": 0.879179781
+ },
+ "latency_s": 1.5
+}

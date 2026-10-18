@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Sac jeld dhahbi, logo PIMK.",
+   "F-9313ef56": "Sac noir, djebel, djebel, makyaj.",
+   "F-148000f5": "Sac 9mech 7mer, 7amra, az9e9, cadre 7did.",
+   "F-56745bbd": "Dabbouza gris, mdhalla 7mer.",
+   "F-1a9ad43e": "Sac noir gris, mfete7, 9mech, qlaba.",
+   "F-cab022d8": "Kasa mdhalla, dabbouza lunch.",
+   "F-93d60c7d": "Telifoun, moucha, écouteurs, 9mech.",
+   "F-13a6290f": "Portefeuille, pan card, cash negi Laxmi.",
+   "F-ce0e230a": "Portefeuille, aadhar, bank card, metro card Vaishali.",
+   "F-294f6746": "Mangala dhahbi, wjeh 7did.",
+   "F-522c5388": "Portefeuille, pan card, charger, qalam, lotion, perfume Aditya Singh.",
+   "F-e1965660": "Kasa plastique, 9mech, t shirt.",
+   "F-e0df7e2c": "Portefeuille, aadhar Shilpa.",
+   "F-f23a3823": "Portefeuille, cash, metro card.",
+   "F-e7e04e70": "Sac plastique, souk, t shirt."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\": {\n    \"F-987599a4\": \"Sac jeld dhahbi, logo PIMK.\",\n    \"F-9313ef56\": \"Sac noir, djebel, djebel, makyaj.\",\n    \"F-148000f5\": \"Sac 9mech 7mer, 7amra, az9e9, cadre 7did.\",\n    \"F-56745bbd\": \"Dabbouza gris, mdhalla 7mer.\",\n    \"F-1a9ad43e\": \"Sac noir gris, mfete7, 9mech, qlaba.\",\n    \"F-cab022d8\": \"Kasa mdhalla, dabbouza lunch.\",\n    \"F-93d60c7d\": \"Telifoun, moucha, écouteurs, 9mech.\",\n    \"F-13a6290f\": \"Portefeuille, pan card, cash negi Laxmi.\",\n    \"F-ce0e230a\": \"Portefeuille, aadhar, bank card, metro card Vaishali.\",\n    \"F-294f6746\": \"Mangala dhahbi, wjeh 7did.\",\n    \"F-522c5388\": \"Portefeuille, pan card, charger, qalam, lotion, perfume Aditya Singh.\",\n    \"F-e1965660\": \"Kasa plastique, 9mech, t shirt.\",\n    \"F-e0df7e2c\": \"Portefeuille, aadhar Shilpa.\",\n    \"F-f23a3823\": \"Portefeuille, cash, metro card.\",\n    \"F-e7e04e70\": \"Sac plastique, souk, t shirt.\"\n}}",
+ "usage": {
+  "prompt_tokens": 792,
+  "prompt_tokens_details": {
+   "cached_tokens": 316
+  },
+  "completion_tokens": 419,
+  "total_tokens": 1211
+ },
+ "latency_s": 44.74
+}

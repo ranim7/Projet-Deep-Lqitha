@@ -1,0 +1,33 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Bag: old clothes, certificate of Punam Debi Gupta",
+   "F-347c4347": "Handbag: aadhar, pan, voter ID, bank card, earring",
+   "F-8fd24e34": "Poly bag containing a women's wool dress",
+   "F-e737d416": "Brown tortoiseshell sunglasses with metal frame",
+   "F-0dc025f6": "Bag containing clothes, shoes, and perfume",
+   "F-1528d692": "Bag containing cash and a bottle",
+   "F-c76d8663": "Wallet: ID card, voter ID, aadhar, bank card, cash, driver's license",
+   "F-1b1e54c1": "Carry bag with photocopies of Mithilesh Kumar's documents",
+   "F-8909b129": "Bag: charger, clothes, raincoat, cash",
+   "F-d13c5d9f": "Teal glass bottle with silver cap and Solimo silicone sleeve",
+   "F-137e390f": "Wallet: aadhar, pan, voter ID, bank card, cash of Shravan Kumnar",
+   "F-b374a7f5": "Bag: power bank, speaker, charger, earphones, shaving kit, clothes",
+   "F-4a9fab29": "Poly bag: trousers, salwar suit, child shorts, and pajamas",
+   "F-086db78a": "Wallet: lipstick, cash, Preeti's card",
+   "F-19d5c4f2": "Black and silver backpack with silver band and multiple pockets"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\n  \"translations\": {\n    \"F-7b972f39\": \"Bag: old clothes, certificate of Punam Debi Gupta\",\n    \"F-347c4347\": \"Handbag: aadhar, pan, voter ID, bank card, earring\",\n    \"F-8fd24e34\": \"Poly bag containing a women's wool dress\",\n    \"F-e737d416\": \"Brown tortoiseshell sunglasses with metal frame\",\n    \"F-0dc025f6\": \"Bag containing clothes, shoes, and perfume\",\n    \"F-1528d692\": \"Bag containing cash and a bottle\",\n    \"F-c76d8663\": \"Wallet: ID card, voter ID, aadhar, bank card, cash, driver's license\",\n    \"F-1b1e54c1\": \"Carry bag with photocopies of Mithilesh Kumar's documents\",\n    \"F-8909b129\": \"Bag: charger, clothes, raincoat, cash\",\n    \"F-d13c5d9f\": \"Teal glass bottle with silver cap and Solimo silicone sleeve\",\n    \"F-137e390f\": \"Wallet: aadhar, pan, voter ID, bank card, cash of Shravan Kumnar\",\n    \"F-b374a7f5\": \"Bag: power bank, speaker, charger, earphones, shaving kit, clothes\",\n    \"F-4a9fab29\": \"Poly bag: trousers, salwar suit, child shorts, and pajamas\",\n    \"F-086db78a\": \"Wallet: lipstick, cash, Preeti's card\",\n    \"F-19d5c4f2\": \"Black and silver backpack with silver band and multiple pockets\"\n  }\n}",
+ "usage": {
+  "queue_time": 0.017766573,
+  "prompt_tokens": 572,
+  "prompt_time": 0.047475795,
+  "completion_tokens": 433,
+  "completion_time": 0.972456309,
+  "total_tokens": 1005,
+  "total_time": 1.019932104
+ },
+ "latency_s": 18.28
+}

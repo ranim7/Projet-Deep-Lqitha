@@ -1,0 +1,36 @@
+{
+ "parsed": {
+  "translations": {
+   "F-7b972f39": "Sac jeld, fih 7wayej 9dim w shahaada punam debi gupta",
+   "F-347c4347": "Hand bag, fih aadhar, pan, carte voter, carte banque w 7elwa sangeeta devi",
+   "F-8fd24e34": "Poly sac, fih fustane 9misha",
+   "F-e7e04e70": "Poly sac, fih jawareb w t‑shirt",
+   "F-0dc025f6": "Sac, fih 7wayej, sabbat w 3tir",
+   "F-1528d692": "Sac, fih flous w dabbouza",
+   "F-c76d8663": "Portefeuille, fih carte id, carte voter, aadhar, carte banque, flous w dl tarun singh solanki",
+   "F-1b1e54c1": "Carry bag, fih wara9 w photocopy mta3 mithilesh kumar",
+   "F-8909b129": "Sac, fih charger, 7wayej, manteq lma, flous",
+   "F-d13c5d9f": "Dabbouza zraq 7mar, ghita fodhi, sleeve silicone b logo Solimo",
+   "F-137e390f": "Portefeuille, fih aadhar, pan, carte voter, carte banque w flous shravan kumnar",
+   "F-b374a7f5": "Sac, fih power bank, speaker, charger, earphone, kit shaving w 7wayej",
+   "F-4a9fab29": "Poly sac, fih sirwal, salwar, costume, short w pyjama tfil",
+   "F-086db78a": "Portefeuille, fih lip color, flous w carte preeti",
+   "F-19d5c4f2": "Backpack k7el w fodhi, stripe fodhi, barcha jabbat"
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\":{\"F-7b972f39\":\"Sac jeld, fih 7wayej 9dim w shahaada punam debi gupta\",\"F-347c4347\":\"Hand bag, fih aadhar, pan, carte voter, carte banque w 7elwa sangeeta devi\",\"F-8fd24e34\":\"Poly sac, fih fustane 9misha\",\"F-e7e04e70\":\"Poly sac, fih jawareb w t‑shirt\",\"F-0dc025f6\":\"Sac, fih 7wayej, sabbat w 3tir\",\"F-1528d692\":\"Sac, fih flous w dabbouza\",\"F-c76d8663\":\"Portefeuille, fih carte id, carte voter, aadhar, carte banque, flous w dl tarun singh solanki\",\"F-1b1e54c1\":\"Carry bag, fih wara9 w photocopy mta3 mithilesh kumar\",\"F-8909b129\":\"Sac, fih charger, 7wayej, manteq lma, flous\",\"F-d13c5d9f\":\"Dabbouza zraq 7mar, ghita fodhi, sleeve silicone b logo Solimo\",\"F-137e390f\":\"Portefeuille, fih aadhar, pan, carte voter, carte banque w flous shravan kumnar\",\"F-b374a7f5\":\"Sac, fih power bank, speaker, charger, earphone, kit shaving w 7wayej\",\"F-4a9fab29\":\"Poly sac, fih sirwal, salwar, costume, short w pyjama tfil\",\"F-086db78a\":\"Portefeuille, fih lip color, flous w carte preeti\",\"F-19d5c4f2\":\"Backpack k7el w fodhi, stripe fodhi, barcha jabbat\"}}",
+ "usage": {
+  "queue_time": 0.08889761,
+  "prompt_tokens": 873,
+  "prompt_time": 0.033946715,
+  "completion_tokens": 1107,
+  "completion_time": 2.310772725,
+  "total_tokens": 1980,
+  "total_time": 2.34471944,
+  "completion_tokens_details": {
+   "reasoning_tokens": 699
+  }
+ },
+ "latency_s": 3.03
+}

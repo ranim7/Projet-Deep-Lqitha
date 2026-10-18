@@ -1,0 +1,32 @@
+{
+ "parsed": {
+  "translations": {
+   "F-987599a4": "Portefeuille en cuir marron avec logo PIMK.",
+   "F-9313ef56": "Sac noir : veste bébé, vêtements femme et articles de maquillage.",
+   "F-148000f5": "Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire.",
+   "F-56745bbd": "Parapluie noir avec une canopée motif.",
+   "F-1a9ad43e": "Sac noir et gris avec clés, serviette, bonnet en laine.",
+   "F-cab022d8": "Sac à main : parapluie, boite à lunch.",
+   "F-93d60c7d": "Sac : chargeur, écouteurs, vêtements.",
+   "F-13a6290f": "Portefeuille : cartes bancaires, carte PAN, argent de Lakshmi Negi.",
+   "F-ce0e230a": "Sac à main : carte Aadhar, carte bancaire Aadhar, carte de métro de Vaishali.",
+   "F-294f6746": "Montre en cuir rose avec un cadran argenté.",
+   "F-522c5388": "Sac à main : carte PAN, chargeurs, stylos, lotion, parfum d'Aditya Singh.",
+   "F-e1965660": "Écouteurs sans fil en plastique rose clair avec une coque de charge assortie et trois voyants.",
+   "F-e0df7e2c": "Sac à main : carte Aadhar de Shilpa.",
+   "F-f23a3823": "Portefeuille : argent, carte de métro.",
+   "F-fd6cf51a": "Sac : vêtements, bouteille, boite à lunch."
+  }
+ },
+ "strict_json": true,
+ "raw": "{\"translations\": {\n    \"F-987599a4\": \"Portefeuille en cuir marron avec logo PIMK.\",\n    \"F-9313ef56\": \"Sac noir : veste bébé, vêtements femme et articles de maquillage.\",\n    \"F-148000f5\": \"Sac à dos synthétique rouge et bleu avec poche zippée avant et poignée noire.\",\n    \"F-56745bbd\": \"Parapluie noir avec une canopée motif.\",\n    \"F-1a9ad43e\": \"Sac noir et gris avec clés, serviette, bonnet en laine.\",\n    \"F-cab022d8\": \"Sac à main : parapluie, boite à lunch.\",\n    \"F-93d60c7d\": \"Sac : chargeur, écouteurs, vêtements.\",\n    \"F-13a6290f\": \"Portefeuille : cartes bancaires, carte PAN, argent de Lakshmi Negi.\",\n    \"F-ce0e230a\": \"Sac à main : carte Aadhar, carte bancaire Aadhar, carte de métro de Vaishali.\",\n    \"F-294f6746\": \"Montre en cuir rose avec un cadran argenté.\",\n    \"F-522c5388\": \"Sac à main : carte PAN, chargeurs, stylos, lotion, parfum d'Aditya Singh.\",\n    \"F-e1965660\": \"Écouteurs sans fil en plastique rose clair avec une coque de charge assortie et trois voyants.\",\n    \"F-e0df7e2c\": \"Sac à main : carte Aadhar de Shilpa.\",\n    \"F-f23a3823\": \"Portefeuille : argent, carte de métro.\",\n    \"F-fd6cf51a\": \"Sac : vêtements, bouteille, boite à lunch.\"\n}}",
+ "usage": {
+  "prompt_tokens": 532,
+  "prompt_tokens_details": {
+   "cached_tokens": 57
+  },
+  "completion_tokens": 444,
+  "total_tokens": 976
+ },
+ "latency_s": 42.34
+}

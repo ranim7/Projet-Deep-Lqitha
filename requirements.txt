@@ -14,3 +14,4 @@ Pillow>=10.0
 numpy>=1.26
 kaggle>=1.6
 pyyaml>=6.0
+sacrebleu>=2.4
